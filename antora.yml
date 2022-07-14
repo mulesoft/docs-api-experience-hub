@@ -1,5 +1,5 @@
-name: exchange
-title: Exchange
+name: api experience hub
+title:API Experience Hub
 version: master
 nav:
 - modules/ROOT/nav.adoc
