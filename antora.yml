@@ -1,5 +1,5 @@
 name: api experience hub
-title:API Experience Hub
+title: API Experience Hub
 version: master
 nav:
 - modules/ROOT/nav.adoc
