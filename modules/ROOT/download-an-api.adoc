@@ -7,7 +7,7 @@ A copy of an API can be downloaded. From the API Details page, click *Download*.
 
 //taken from Exchange Download an Asset need to edit for AEH experience
 
-The results vary by file type:
+The download file type varies depending on the API:
 
 * REST API RAML
 +
