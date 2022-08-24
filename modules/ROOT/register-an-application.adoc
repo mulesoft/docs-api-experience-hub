@@ -1,0 +1,6 @@
+= Register an Application 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+App developers must register their application before accessing an API from the portal.

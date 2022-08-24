@@ -1,0 +1,10 @@
+= Roles
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+API Experience Hub has the following user roles:
+
+* API Owner
+* Portal Admin
+* App Developer

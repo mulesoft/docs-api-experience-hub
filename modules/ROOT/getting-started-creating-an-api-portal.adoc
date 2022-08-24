@@ -1,0 +1,10 @@
+ Getting Started Creating and Customizing Your API Portal
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+A guided setup takes API owners through the process of creating your API Portal using out-of-the-box templates. After the portal is created, your can customize the layout of the homepage, API Catalog, and the details of an API, and manage APIs using the Salesforce Experience Builder.
+ 
+ . Create an API portal
+ . Customize the layout
+ .  

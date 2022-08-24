@@ -1,0 +1,33 @@
+= API Experience Hub Overview
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+API Experience Hub is an evolved digital experience platform from API Community Manager and Anypoint Exchange that improves the way API consumption experiences are designed. The new experience still uses Experience Cloud and internal and external communities can be created.
+
+API Experience Hub creates self-service experiences for your API consumers by:
+
+* Exposing APIs from any environment
++
+Build portals in minutes with out-of-the-box templates or customize them.
+* Productizes all APIs to a standard quality
++
+Establish and enforce quality and governance standards across all APIs.
+* Drives API adoption with self-service
++
+Support users at every step with interactive documentation, forums and case management
+* Scales your user community
++
+Optimize your API program with customizable dashboards to analyze engagement and adoption
+
+Fully templated experiences let you can publish APIs cataloged in Exchange within minutes to internal and external users. Administrators can enforce governance an quality standards across Mule nad non-Mule assets.
+
+== What's Different
+
+Portal administration resides in the Anypoint Platform control plane. This means ... Portal components are replaced by Lightning Web Components to improve support and offer more flexibility of how the components look and work. The portal deployment options are fully managed by Mulesoft so you do not need any Salesforce knowledge to get started. Out-of-the-box API portal templates and components are provided for a quick, guided portal creation process. You also have an option to customize your portal.
+
+== Architecture 
+(show acm and aeh)
+
+
+

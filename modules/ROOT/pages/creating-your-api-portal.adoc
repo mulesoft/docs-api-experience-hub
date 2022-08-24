@@ -1,0 +1,24 @@
+= Setting Up Your API Portal 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Creating an API Portal includes the following tasks:
+
+ * Setting up the Home page
+ * Setting up the Catalog
+ * Setting up API Detail page
+
+
+
+== Before You Begin
+
+= Create an API Portal
+
+Follow the guided set up to create a new portal:
+
+. To upload a company logo, drag or upload the file. Files must be .xyz.
+. To upload a banner image, drag or upload the file. Files must be .xyz.
+. To edit an image, click *Edit*.
+
+== Next Steps

@@ -1,0 +1,26 @@
+ Edit API Display Details 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+The following information that displays for an API can be edited:
+
+* Description
+* API instance visibility
+* API version visibility
+* API icon image
++ 
+Image files must be .png, 
+
+To edit the information that displays for an API:
+
+. From the API Catalog, click an API card.
++
+The API Management page displays the information of the API.
+. From the *Actions* options, select *Edit display details*.
+. To change the description, enter a new asset description in the *Description* field.
+. To change the API instance visibility, select an option from the drop-down list.
+. To change the API version visibility, select an option from the drop-down list for the corresponding version
+. To change the API icon, click *Upload file* and select an approved image file type.
+. To cancel the changes, click *Cancel*.
+. To save the changes, click *Save*.
