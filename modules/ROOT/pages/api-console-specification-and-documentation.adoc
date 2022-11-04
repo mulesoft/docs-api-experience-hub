@@ -1,0 +1,19 @@
+= API Console Specification and Documentation
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+An API’s specifications and documentation information are critical to the onboarding process and adoption. Developers need to know how to use and integrate APIs. The portal’s API console displays the API specifications and documentation. The API console is located in the lower section of the API Details page. The console component is interactive and shows information about REST APIs and their methods. Endpoints are displayed in alphabetical order.
+
+The Specification pane displays the navigation of the HTTP functions in the REST specification for a REST API. You can understand the format and structure of an output by reviewing the resources and methods. 
+
+The Documentation pane displays interactive documentation about an API. API documentation includes detailed descriptions of each API version. This documentation is updated with the API release cycle, usually with close involvement from the development team. You can also review the request information and responses.
+
+== Review API Specifications and Documentation 
+Follow these steps to discover information about an API:
+
+. Select an API from the Home or the APIs page.
+. From the Specification pane, click a function.
+. From the Documentation pane, review the summary of the function.
+. Select the *Request* tab to view the information for the code example, parameters, security, headers, examples, and body.
+. Select the *Response* tab to view the response type, example, headers, and body.

@@ -1,0 +1,12 @@
+= Search for APIs
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+From the APIs page, search the catalog by an API name to find a specific API. Enter at least four characters in the Search by API name field then select an option from the Search Results page. 
+
+//add search box screen capture
+
+Filter the API by type to further refine your search results. The filter options are REST, HTTP, and SOAP.
+
+//add filter Any Type screen captures

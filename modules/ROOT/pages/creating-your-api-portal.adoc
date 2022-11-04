@@ -3,22 +3,71 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Creating an API Portal includes the following tasks:
+A guided setup takes you through the process of creating your API portal using out-of-the-box templates. The guided set up contains basic set up options for the Home, API catalog, and API Details pages with an example layout to help you visualize your portal. After the portal is created, you can further customize it using the Experience Builder. 
 
- * Setting up the Home page
- * Setting up the Catalog
- * Setting up API Detail page
+NOTE: Currently, the preview of your API portal is a static HTML page that populates an example portal and does not reflect your actual portal selections.
 
+The guided setup has the following components: 
+//(I will use callouts to label the sections of the page like tasks in right side, setup progress bar at the top, preview at the left, and nav buttons for the final graphic)
 
+Creating an API portal includes the following tasks:
 
-== Before You Begin
+* Setting up the Home page
++
+The Home page is the landing page of your API portal and is also known as the API carousel. The setup includes adding a logo, banner image, org branding, banner title, description of the portal, and footer configuration. 
 
-= Create an API Portal
+* Setting up the API Catalog
++
+The APIs page contains the collection of APIs in your portal and is known as the API catalog. The template includes customizing the colors for each API type like REST and HTTP.
 
-Follow the guided set up to create a new portal:
+* Setting up the API Details page
++
+The API Details page displays information about an API. The template includes the name, type of API, owner email address, and a description of the API. 
 
-. To upload a company logo, drag or upload the file. Files must be .xyz.
-. To upload a banner image, drag or upload the file. Files must be .xyz.
+Follow the guided setup and click *Next* to advance through the steps. 
+
+NOTE: If you refresh the page or leave the guided setup, the progress in the guided setup does not persist. You must complete all of the steps again.
+
+== Set Up API Portal Homepage
+Follow the guided steps to set up the homepage:
+
+. To add a company logo, drag or upload an image file to *Upload Company Logo*.
+ =
+The supported file format is PNG, JPEG, SVG, and GIF.
+. To add a banner image, drag or upload an image file to *Select Banner Image*.
++
+The supported file format is PNG, JPEG, SVG, and GIF.
 . To edit an image, click *Edit*.
+. To brand your org with fonts and colors, from *Customize Org Branding*:
+** Select a font style from the drop-down menu.
+** Select a font color for the banner image from the color picker.
+** Select a page background color from the color picker.
+. To add a title for your portal banner, enter the title in the *Enter Portal Banner Title* text box.
+. To add a description for your API portal, enter the description in the *Enter Portal Description* text box.
+. To add a footer text and an URL, enter the footer text and URL in the corresponding text boxes from *Configure Footer*.
+. Click *Next* to set up the API catalog.
+
+== Set Up API Catalog
+Follow the guided steps to set up the API catalog:
+
+. To customize the color of specific APIs, select a color from the color picker for the corresponding API type from *Customize Colors*.
+. To add a banner title for your API catalog, enter the title in the *Enter API Catalog Banner Title* text box.
+. To add a description for your API catalog, enter the description in the *Enter API Catalog Description* text box.
+. Click *Next* to set up the API Details page.
+
+== Set Up API Details
+Follow the guided steps to set up the API Details page:
+
+. To show the API owner’s email, enable *API Contact* from *Customize API Information*. 
+. To show API Clients applications on the API details page, enable *API Clients* from *Customize API Information*.
+. To add a banner title to the API Details page, enter the title in the *Enter API Detail Banner Title* text box.
+. To add a description of the API Details page, enter the description in the *Enter API Detail Description* text box.
+. Click *Finish*.
+. If you are not done setting up your portal, click *Go back*.
+. If you are done with setting up your portal, click *Confirm*.
++
+The process of creating the portal begins and can take several minutes.
 
 == Next Steps
+After your portal is created, click *Manage your API Portal* to curate the portal.
+

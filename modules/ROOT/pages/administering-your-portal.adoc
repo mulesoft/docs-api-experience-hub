@@ -1,0 +1,23 @@
+= Administering Your Portal
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+
+For the pilot, administers can enable users to self-register for access to the portal. When this feature is enabled, users can sign up to access the portal.
+
+== Enable Self-Registration
+Configure a registration page for your portal members. The self-registration Lightning component enables guest users to register themselves as members of your API portal. 
+
+NOTE: All requests for self-registration are automatically approved. Ensure that the link to the portal is only accessible to trusted parties. 
+
+Use these steps to add the self-registration Lightning component specific to API Experience Hub:
+
+. Go to *Setup* and search for *All Sites* in the quick find.
+. Click on workspace for the site that you want to enable self-registration.
+. Go to *Administration* and select *Login & Registration*.
+. Scroll down to the *Registration Page Configuration* section.
+. Select *Allow customers and partners to self-register*.
+. Select *Experience Builder Page* for *Registration Page Type* and search for *Register*.
+. Select *[Site Name] Member User* in *Profile*.
+. Click *Save*.

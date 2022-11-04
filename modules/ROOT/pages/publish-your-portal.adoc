@@ -1,0 +1,14 @@
+= Publish Your Portal 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+After you make customizations and preview your updated portal, you can publish the new version for your users. The URL for the portal is not accessible until the portal is published. When you publish your site for the first time, the portal URL is live and login access is enabled.
+
+To publish the portal, follow these steps:
+
+. Click *Builder*.
+. Click *Settings* > *General*.
+. Check *Public can access the community*.
+. Click *Builder*.
+. Click *Publish*.

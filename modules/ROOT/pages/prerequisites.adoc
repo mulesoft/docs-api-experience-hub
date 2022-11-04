@@ -1,0 +1,22 @@
+= Prerequisites 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Verify that you have the following required accounts and access:
+
+* Anypoint Platform Organization in Production
+* Salesforce Sandbox or Salesforce Trial Organization
+* API Experience Hub Admin permission
+* Only an Organizational Administrator of the main organization can perform the Salesforce linking 
+
+==Enable API Experience Hub Admin Permission
+
+To enable the API Experience Hub Admin permission in Access Management, follow these steps:
+
+. Go to Access Management and select *Users*.
+. From Organization Users, click the username of the admin who will create the API portal.
+. Select *Permissions*>*API Experience Hub*.
+. From Permission(s), click the *Select access* drop-down and check *API Experience Hub*.
+. Click the plus icon to add the permission.
+

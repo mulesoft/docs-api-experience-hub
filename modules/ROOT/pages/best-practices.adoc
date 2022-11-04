@@ -1,0 +1,15 @@
+= Best Practices 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+API adoption relies heavily on well-written documentation and maintenance. Ensure that you have a good API strategy.
+
+For optimal performance and experience, follow these best practices from Mulesoft:
+
+* Best Practices for Planning, Designing, and Managing APIs
+* API development best practices - MuleSoft
+* How to design and manage APIs - MuleSoft
+* Best practices to design your first API Specification
+
+ 

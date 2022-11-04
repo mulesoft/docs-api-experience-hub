@@ -1,0 +1,13 @@
+= Preview Your Portal 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+After you make custom changes to your Salesforce Experience Cloud site, you can preview the new version to ensure that it meets your expectations:
+
+. Click *Builder*.
+. Click *Preview*.
+. Verify that your changes are applied and displayed correctly. 
++
+APIs that are visible only to administrators appear in this preview.
+. Click *Back to Builder* to continue to make changes.

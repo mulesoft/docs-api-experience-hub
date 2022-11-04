@@ -1,0 +1,43 @@
+= Managing Your Portal 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+From API Management, curate your portal by viewing information about an API from Exchange and then adding or removing them.
+
+API Management shows the following information:
+
+* *APIs in the portal* 
++
+* Shows the assets that have been added to your portal and includes a physical count of APIs that were added. When the portal is created, five APIs are added by default that cannot be modified or removed.
+* *APIs in Exchange*
++
+Shows the APIs that exist in your Exchange organization but have not been added to your portal.
+
+== View API in Exchange
+You can view information about an API directly from Exchange to determine whether you want the API in your portal.
+
+From the APIs in Exchange tab, select an API from the list, click more options, and select *View in Exchange*.
+
+== Add APIs from Exchange
+Curate your portal in API Experience Hub by adding APIs from Exchange.
+
+To add APIs to your portal:
+
+. From API Management, select the *APIs in Exchange* tab.
+. To search for an API by name or description, enter the name or description into the *Search* bar.
+. Select an API from the list, click the more options icon, and select *Add to portal*.
++
+The API displays in the list in the *APIs in the portal* tab.
+
+== Remove APIs from the Portal
+To remove APIs from your portal:
+
+. From API Management, select the *APIs in the portal* tab.
+. To search for an API by name or description, enter the name or description into the *Search* bar.
+. Select an API from the list, click the more options icon, and select *Remove from portal*.
++
+In the *APIs in the portal* tab, the API is removed from the list.
+
+== Next Steps
+From API Management, you can further customize your portal using Experience Builder. To open the Builder, click *Customize in Experience Builder*.

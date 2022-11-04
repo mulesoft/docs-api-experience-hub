@@ -1,0 +1,14 @@
+= Access and API Portal
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Users can sign up to get access to an API portal when self-registration is enabled by the portal administrator.
+
+The signup process includes the following steps:
+
+. Enter the URL of the portal in a browser window.
+. Enter the first name, last name, and email address.
+. Click *Sign Up*.
++
+All self-registers are automatically approved. Ensure that the link to the portal is only accessible to trusted parties. 

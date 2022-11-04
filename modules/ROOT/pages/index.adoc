@@ -3,31 +3,70 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-API Experience Hub is an evolved digital experience platform from API Community Manager and Anypoint Exchange that improves the way API consumption experiences are designed. The new experience still uses Experience Cloud and internal and external communities can be created.
+Anypoint API Experience Hub is an API management platform and digital experience that gives API providers a hub to share, promote, and engage with their developer community. Developers and partners can find, explore, and consume APIs designed anywhere in a single place.
+
+API Experience Hub is the next-generation product after API Community Manager for creating and managing API portals. Build developer portals in minutes using fully built templates to publish APIs from Exchange to any audience. The portal deployment, administration, and management options are fully managed by Anypoint Platform so you do not need any Salesforce knowledge to get started. 
 
 API Experience Hub creates self-service experiences for your API consumers by:
 
 * Exposing APIs from any environment
+* Building portals in minutes using the guided setup and then customizing them
+* Driving API adoption with self-service
+* Supporting users at every step with interactive documentation
+
+== API Experience Hub API Portal Components
+The API Experience Hub API portal includes the following components:
+
+* API Carousel
 +
-Build portals in minutes with out-of-the-box templates or customize them.
-* Productizes all APIs to a standard quality
+
+The Home page or landing page of an API portal contains the API carousel. The API carousel offers API consumers an interactive way to explore all the available APIs. The API carousel shows API cards in rows and columns, and divided into pages. Each card shows an API. With the carousel, users can view and explore large numbers of API versions. 
+
+NOTE: When the portal is created, the carousel is automatically populated with five APIs by default. These default APIs cannot be modified.
+
+To view the catalog, click *Home*.
+
+//The following graphic is an example carousel and may show customization that may not be available for the pilot:
+
+* API Catalog
 +
-Establish and enforce quality and governance standards across all APIs.
-* Drives API adoption with self-service
+The APIs page contains the API catalog of all the APIs in the portal. The searchable catalog shows a horizontally scrollable set of API cards. Each card shows an API.
+
+To view the carousel, click APIs.
+
+//The following graphic is an example catalog and may show customization that may not be available for the pilot:
+
+The API icon, name, and description are shown based on the API information from Exchange.
+
+NOTE: When the portal is created, the carousel is automatically populated with five APIs by default. These default APIs cannot be modified.
+
+* API Details 
 +
-Support users at every step with interactive documentation, forums and case management
-* Scales your user community
+The API Detais page shows the description of the API, type, version, lifecycle states, and the email of the API contact.
+
+To view the API Details page, select an API from Home or APIs. 
+
+//The following graphic is an example details page and may show customization that may not be available for the pilot:
+
+* API Console
 +
-Optimize your API program with customizable dashboards to analyze engagement and adoption
+The API console is located in the API Details page. The interactive API console shows information about your REST APIs and their methods, and enables users to test the methods by sending requests.
 
-Fully templated experiences let you can publish APIs cataloged in Exchange within minutes to internal and external users. Administrators can enforce governance an quality standards across Mule nad non-Mule assets.
+Endpoints are displayed in alphabetical order. Console components include Specification and Documentation panels.
 
-== What's Different
+To view the console, select an API from Home or APIs. The console displays in the lower portion of the API Details page.
 
-Portal administration resides in the Anypoint Platform control plane. This means ... Portal components are replaced by Lightning Web Components to improve support and offer more flexibility of how the components look and work. The portal deployment options are fully managed by Mulesoft so you do not need any Salesforce knowledge to get started. Out-of-the-box API portal templates and components are provided for a quick, guided portal creation process. You also have an option to customize your portal.
+//The following graphic is an example console and may show customization that may not be available for the pilot: 
+(I will outline the console area in red for final graphic)
 
-== Architecture 
-(show acm and aeh)
+== Product Integration
 
+API Experience Hub is integrated with the following products:
 
+* Salesforce Experience Cloud
++
+API Experience Hub is powered by Salesforce Experience Cloud and provides customization and branding capabilities to serve the different needs of your developer audiences. See Experience Builder documentation for more information.
 
+* Anypoint Exchange
++
+Within API Experience Hub, portal admins can curate their portals by importing APIs from Exchange. Exchange is a catalog of reusable assets such as APIs, policies, API spec fragments, API groups, templates, examples, custom assets, and integration assets such as connectors. See the Exchange documentation for more information.
