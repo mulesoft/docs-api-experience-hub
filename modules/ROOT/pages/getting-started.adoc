@@ -9,21 +9,22 @@ The goals of this pilot are to establish product market fit for API Experience H
 
 For the purpose of this pilot, the following users can perform these tasks: 
 
-Portal administrators perform the following tasks:
+Portal administrators:
 
-* [Link Anypoint organization to Salesforce Organization]
-* Create an API portal
-* Enable self-registration
-* Add APIs from Exchange and manage APIs in the portal 
-* Customize the API portal using Experience Builder
-* Publish the API portal using Experience Builder
-* Deactive your portal site
+* Deploy API Portal
+* Create an API Portal
+* Enable Self-Registration
+* Add APIs from Exchange and Manage APIs in the Portal 
+* Make API Versions Available
+* Customize the API portal Using Experience Builder
+* Publish the API Portal Using Experience Builder
+* Deactivate Your Portal Site
 
-Developers perform the following tasks:
+Developers:
 
 * [Self-register and access the API portal]
-* Search for APIs on API Carousel and API Catalog
-* View API Details page
+* Search for APIs
+* View API Details Page
 * Download API Specification
 * Inspect API Console Specification and Documentation
 
@@ -31,8 +32,16 @@ Developers perform the following tasks:
 The following settings are set by default when the portal is created:
 
 * Guest User Access is enabled
-* Portal status is active and not published
-* When the portal is created, five APIs are automatically added to the API carousel in the Home page, API catalog in the APIs page, and in the APIs in the portal tab of API Management. These APIs are the latest edited APIs from Exchange and cannot be modified. The five APIs also display in the APIs in the portal tab from API Management.
+* Portal status is active 
+* Portal site is live and published 
++ 
+To make the site unaccessible, see link:deactivate-your-portal-site.adoc[Deactivate Your Portal Site] for more information
+* Five APIs are automatically added to the API carousel in the Home page, API catalog in the APIs page, and in the APIs in the portal tab of API Management. 
++
+These APIs are the latest created APIs in Exchange. The default visibility for the APIs is Administrator only. The administrator of the portal can change this visibility for each API in the API Management tab. These APIs can be removed. See Remove APIs from the Portal for more information.
+Portal site is live upon creation
+To make the site unaccessible, see Deactivate Your Portal Site for more information
+
 
 For the pilot, there is no access to guest users. You can disable this access and then delete the permission set assigned to the guest user.
 
@@ -58,7 +67,9 @@ The pilot has the following limitations:
 * API Groups are not available
 * My Applications page is not available
 * Request Access option is not available
-//* No edition of assets in asset management
+* API details cannot be modified
+* API Experience Hub is not certified for use on mobile devices. Some functionality works on mobile devices, but some functionality such as the API console does not.
+
 
 
 

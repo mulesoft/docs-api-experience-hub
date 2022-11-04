@@ -47,8 +47,8 @@ Follow these steps to deploy your API portal:
 . To edit the Salesforce access information, click *Edit access information* and make the necessary changes.
 . To confirm, click *Continue*.
 +
-The process of installing the Salesforce Experience Cloud package begins.
+The process of installing the Salesforce Experience Cloud package begins. When the package is installed successfully, you receive an email.
 
 === Next Steps
-When the installation is complete, click Create your API Portal to begin creating your API portal.
+When the installation is complete, click + New API Portal to begin creating your API portal.
 
