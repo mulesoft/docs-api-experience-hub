@@ -1,0 +1,18 @@
+= API Versioning in API Experience Hub
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+When an API specification requires nonbreaking corrections, such as changing the text, these changes are given a patch version change, such as from `3.0.0` to `3.0.1`. API Experience Hub automatically and immediately imports these updates to all portals in which the API is published, without requiring any action from the API Experience Hub portal administrator.
+
+== Major Updates to an API Version
+When a new version of the API with breaking changes is created, the API Experience Hub portal administrator controls when and how to publish the new version in the site. The new version will appear in the API edition modal without visibility, no one will be available to access this API information in the community. The administrator can set the visibility to the old and the new API versions.
+
+For example, suppose a developer on the API team adds a new resource to an API.
+
+. In Design Center, the developer opens the API project, adds the resource to the specification, and clicks *Publish to Exchange*.
+. Because this is a breaking change, the developer changes the API version information in Publish API specification to Exchange.
++
+For example, if the API version is v3, it becomes v4. If the Asset version is 3.0.1, it becomes 4.0.0. Name and Main file do not change.
+. The developer clicks *Publish*.
+. The previous API version remains in all portals where it was published without any changes.
