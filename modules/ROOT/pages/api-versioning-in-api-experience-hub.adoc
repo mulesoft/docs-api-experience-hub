@@ -23,15 +23,14 @@ The portal administrator must then review and publish the changes:
 +
 The API is still listed in *APIs in the portal*. The new version has visibility None.
 . Next to the API name, click the more options icon.
-. Change the visibility to Administrators only.
+. Change the visibility to *Administrators only*.
 . Click *Preview in Salesforce Builder* and review the API.
 . Go to API Management.
 . Next to the API name, click the more options icon.
 . Change the visibility of the new version.
 +
 Change *Administrators only* to *Everyone* if you want it to be publicly available and Members only if you want it to be seen only by logged-in members.
-
++
 If the visibility is Everyone or Members only, then consumer developers can now see the new API version in the API carousel on the portal.
 
-*Next Steps*
-From API Management, you can further customize your portal using Experience Builder. To open the Builder, click *Customize in Experience Builder*.
+
