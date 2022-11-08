@@ -3,6 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
+== Report an Issue
 Follow these steps to report an issue with API Experience Hub:
 
 . In the pilot Slack channel, click the lightning bolt icon.
