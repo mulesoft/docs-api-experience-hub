@@ -2,3 +2,15 @@
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
+
+Follow these steps to report an issue with API Experience Hub:
+
+. In the pilot Slack channel, click the lightning bolt icon.
+. Click *AEH Report a Bug*.
+. From the *Report a bug* form, complete the following fields:
++ 
+* *Subject*: Enter a title for the issue, for example, Cannot add an API from Exchange.
+* *Steps to Reproduce*: Enter an explanation of how to reproduce this issue.
+* *Severity*: Select a severity level from the list.
+* *Customer Name*: Enter your first and last name.
+. Click *Submit*.
