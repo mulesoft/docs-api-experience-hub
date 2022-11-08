@@ -28,47 +28,11 @@ Developers:
 * Download API Specification
 * Inspect API Console Specification and Documentation
 
-== Default Settings
-The following settings are set by default when the portal is created:
+== See Also
 
-* Guest User Access is enabled
-* Portal status is active 
-* Portal site is live and published 
-+ 
-To make the site unaccessible, see link:deactivate-your-portal-site.adoc[Deactivate Your Portal Site] for more information
-* Five APIs are automatically added to the API carousel in the Home page, API catalog in the APIs page, and in the APIs in the portal tab of API Management. 
-+
-These APIs are the latest created APIs in Exchange. The default visibility for the APIs is Administrator only. The administrator of the portal can change this visibility for each API in the API Management tab. These APIs can be removed. See Remove APIs from the Portal for more information.
-Portal site is live upon creation
-To make the site unaccessible, see Deactivate Your Portal Site for more information
+* link:default-settings.adoc[Default Settings]
+* link:limitations.adoc[Limitations]
 
-
-For the pilot, there is no access to guest users. You can disable this access and then delete the permission set assigned to the guest user.
-
-Use the following steps to disable guest user access:
-
-. Open Experience Builder.
-. In *Settings* > *General*, uncheck *Guest users can see and interact with the site without logging in*.
-. Go to *Setup* > *Sites* and click the community label.
-. From the Sites detail page, click Public Access Settings.
-+
-The Guest User Profile displays.
-. Click *Assigned Users*.
-. Click *Site Guest User*, *[Community name]*.
-. Click *Permission Set Assignments*.
-. Delete the *ACM Guest User Permission* set.
-
-Once the API portal is created, it is given an active status. The portal is not live until it is published.
-
-== Limitations
-The pilot has the following limitations:
-
-* An API portal can have a maximum of 160 APIs
-* API Groups are not available
-* My Applications page is not available
-* Request Access option is not available
-* API details cannot be modified
-* API Experience Hub is not certified for use on mobile devices. Some functionality works on mobile devices, but some functionality such as the API console does not.
 
 
 

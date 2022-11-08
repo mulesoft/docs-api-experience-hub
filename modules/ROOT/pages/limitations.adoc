@@ -1,0 +1,13 @@
+= Limitations
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+The pilot has the following limitations:
+
+* An API portal can have a maximum of 160 APIs
+* API Groups are not available
+* My Applications page is not available
+* Request Access option is not available
+* API details cannot be modified
+* API Experience Hub is not certified for use on mobile devices. Some functionality works on mobile devices, but some functionality such as the API console does not.
