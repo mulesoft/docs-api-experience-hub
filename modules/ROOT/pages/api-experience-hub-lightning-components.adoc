@@ -53,3 +53,8 @@ The API Experience Hub Search Box component enables users to search for both con
 * Search Results
 +
 The API Experience Hub Search Results component shows results after a user enters a search in the Search Box component.
+
+== See Also
+
+* xref:https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5 [Experience Builder]
+* xref:https://docs.mulesoft.com/exchange/[Anypoint Exchange]

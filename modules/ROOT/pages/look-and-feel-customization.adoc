@@ -37,7 +37,7 @@ API Experience Hub has the following Lightning components:
 * Search Box
 * Search Result
 
-Detailed component information is available from the page and the Salesforce Experience Cloud xref:https://help.salesforce.com/s/articleView?id=sf.rss_component_reference_table.htm&type=5[Components] documentation. See [API Experience Hub Lightning Components] for a description of each component.
+Detailed component information is available from the page and the Salesforce Experience Cloud xref:https://help.salesforce.com/s/articleView?id=sf.rss_component_reference_table.htm&type=5[Components] documentation. See link:api-experience-hub-lightning-components.adoc[API Experience Hub Lightning Components] for a description of each component.
 
 == Theme
 Clicking the Theme paintbrush icon offers these general branding parameters:
@@ -56,14 +56,33 @@ Specifies the site’s fonts, which include a primary font and header fonts, and
 You can adjust community styling by editing the CSS rules. Next to the Theme title, click the Theme list, and click Edit CSS.
 Refer to xref:https://help.salesforce.com/s/articleView?id=sf.community_builder_theme_customize.htm&type=5[Customize Your Experience Site Theme].
 
+=== Custom Colors for Each API Type
+To customize the color of each API type:
+
+. From the Builder, click *Settings* > *Advanced*.
+. Click *Edit Head Markup*. 
++
+The following shows the asset type color variables.
++
+--asset-type-c-rest-api-color: 0, 0, 0;
++
+--asset-type-c-http-api-color: 0, 0, 0;
++
+--asset-type-c-soap-api-color: 0, 0, 0;
++
+--asset-type-c-evented-api-color: 0, 0, 0;
++
+. Change the color variable number for the asset type.
+
+
 == Page Structure
 Clicking the Page Structure icon, which resembles a bulleted list, shows the components in the current page and enables you to select and remove them. Selecting a component displays its configuration menu.
 
 == Settings
 Clicking the Settings gear icon offers these parameters:
 
-* [General]
-* [Theme]
+* xref:https://help.salesforce.com/articleView?id=community_builder_general_settings.htm&type=5[General]
+* xref:https://help.salesforce.com/articleView?id=community_builder_theme.htm&type=5[Theme]
 * SEO
 +
 Search Engine Optimization (SEO) features define what information can be indexed by external services and discovered through online searches, and can increase traffic to your public community.
