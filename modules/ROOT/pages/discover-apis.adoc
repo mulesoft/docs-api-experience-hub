@@ -6,3 +6,7 @@ endif::[]
 The Home page or landing page of a portal contains the API carousel. The API carousel offers API consumers an interactive way to explore all the available APIs. The API carousel shows API cards in rows and columns, and divided into pages, and shows controls to filter the displayed APIs by type and search terms. Each card shows an API. With the carousel, you can view and explore large numbers of API versions.
 
 The APIs page contains the API catalog of all the APIs in the portal. The searchable catalog shows a horizontally scrollable set of API cards. Each card shows an API. The API icon, name, and description are shown based on the API information from Exchange. 
+
+== See Also
+* link:search-for-apis.adoc[Search for APIs]
+* link:view-api-details.adoc[View API Details]
