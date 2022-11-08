@@ -13,6 +13,6 @@ APIs that are visible only to administrators appear in this preview.
 . Click *Back to Builder* to continue to make changes.
 
 == See Also
-* xref:https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder]
-* link:customizing-your-portal.adoc[Customizing Your Portal]
-* link:publish-your-portal.adoc[Publish Your Portal]
+* https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder]
+* xref:customizing-your-portal.adoc[Customizing Your Portal]
+* xref:publish-your-portal.adoc[Publish Your Portal]

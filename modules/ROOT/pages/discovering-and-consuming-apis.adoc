@@ -7,9 +7,9 @@ Using a self-service API portal, developers and partners can quickly access appl
 
 For more information, see the following topics:
 
-* link:access-an-api-portal.adoc[Access an API Portal]
-* link:discover-apis.adoc[Discover APIs]
-* link:search-for-apis.adoc[Search for APIs]
-* link:view-api-details.adoc[View API Details]
-* link:download-an-api-specification.adoc[Download a API Specification]
-* link:api-console-specification-and-documentation.adoc[API Console Specifications and Documentation]
+* xref:access-an-api-portal.adoc[Access an API Portal]
+* xref:discover-apis.adoc[Discover APIs]
+* xref:search-for-apis.adoc[Search for APIs]
+* xref:view-api-details.adoc[View API Details]
+* xref:download-an-api-specification.adoc[Download a API Specification]
+* xref:api-console-specification-and-documentation.adoc[API Console Specifications and Documentation]

@@ -46,8 +46,8 @@ API Experience Hub is integrated with the following products:
 
 * Salesforce Experience Cloud
 +
-API Experience Hub is powered by Salesforce Experience Cloud and provides customization and branding capabilities to serve the different needs of your developer audiences. See xref:https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder documentation] for more information.
+API Experience Hub is powered by Salesforce Experience Cloud and provides customization and branding capabilities to serve the different needs of your developer audiences. See https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder documentation] for more information.
 
 * Anypoint Exchange
 +
-Within API Experience Hub, portal admins can curate their portals by importing APIs from Exchange. Exchange is a catalog of reusable assets such as APIs, policies, API spec fragments, API groups, templates, examples, custom assets, and integration assets such as connectors. See the xref:https://docs.mulesoft.com/exchange/[Exchange documentation] for more information.
+Within API Experience Hub, portal admins can curate their portals by importing APIs from Exchange. Exchange is a catalog of reusable assets such as APIs, policies, API spec fragments, API groups, templates, examples, custom assets, and integration assets such as connectors. See the https://docs.mulesoft.com/exchange/[Exchange documentation] for more information.

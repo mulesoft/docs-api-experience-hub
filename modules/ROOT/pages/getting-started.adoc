@@ -11,28 +11,28 @@ For the purpose of this pilot, the following users can perform these tasks:
 
 *Portal administrators*:
 
-* link:deploying-your-portal.adoc[Deploy API Portal]
-* link:creating-your-api-portal.adoc[Create an API Portal]
-* link:administering-your-portal.adoc[Enable Self-Registration]
-* link:managing-your-portal#add-apis-from-exchange[Add APIs from Exchange] 
-* link:managing-your-portal#remove-apis-from-the-portal[Remove APIs from the Portal]
-* link:managing-your-portal#make-api-versions-visible[Make API Versions Visible]
-* link:customizing-your-portal.adoc[Customize the API portal] Using Experience Builder
-* link:publish-your-portal.adoc[Publish the API Portal] Using Experience Builder
-* link:deactivate-your-portal-site.adoc[Deactivate Your Portal Site]
+* xref:deploying-your-portal.adoc[Deploy API Portal]
+* xref:creating-your-api-portal.adoc[Create an API Portal]
+* xref:administering-your-portal.adoc[Enable Self-Registration]
+* xref:managing-your-portal#add-apis-from-exchange[Add APIs from Exchange] 
+* xref:managing-your-portal#remove-apis-from-the-portal[Remove APIs from the Portal]
+* xref:managing-your-portal#make-api-versions-visible[Make API Versions Visible]
+* xref:customizing-your-portal.adoc[Customize the API portal] Using Experience Builder
+* xref:publish-your-portal.adoc[Publish the API Portal] Using Experience Builder
+* xref:deactivate-your-portal-site.adoc[Deactivate Your Portal Site]
 
 *Developers*:
 
-* link:access-an-api-portal.adoc[Self-Register and Access the API Portal]
-* link:search-for-apis.adoc[Search for APIs]
-* link:view-api-details.adoc[View API Details Page]
-* link:download-an-api-specification.adoc[Download API Specification]
-* link:api-console-specification-and-documentation.adoc[Inspect API Console Specification and Documentation]
+* xref:access-an-api-portal.adoc[Self-Register and Access the API Portal]
+* xref:search-for-apis.adoc[Search for APIs]
+* xref:view-api-details.adoc[View API Details Page]
+* xref:download-an-api-specification.adoc[Download API Specification]
+* xref:api-console-specification-and-documentation.adoc[Inspect API Console Specification and Documentation]
 
 == See Also
 
-* link:default-settings.adoc[Default Settings]
-* link:limitations.adoc[Limitations]
+* xref:default-settings.adoc[Default Settings]
+* xref:limitations.adoc[Limitations]
 
 
 

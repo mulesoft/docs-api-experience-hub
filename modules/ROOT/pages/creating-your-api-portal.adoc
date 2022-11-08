@@ -67,7 +67,7 @@ Follow the guided steps to set up the API Details page:
 . If you are not done setting up your portal, click *Go back*.
 . If you are done with setting up your portal, click *Confirm*.
 +
-The process of creating the portal begins and can take several minutes. Once the portal is created, the site is live and accessible. To make the site unaccessible, see link:deactivate-your-portal-site.adoc[Deactivate Your Portal Site] for more information.
+The process of creating the portal begins and can take several minutes. Once the portal is created, the site is live and accessible. To make the site unaccessible, see xref:deactivate-your-portal-site.adoc[Deactivate Your Portal Site] for more information.
 
 
 == Next Steps

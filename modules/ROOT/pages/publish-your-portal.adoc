@@ -15,5 +15,5 @@ To publish the portal, follow these steps:
 
 == See Also
 
-* link:view-url-for-a-live-published-portal.adoc[View URL of a Live Published Portal]
-* link:deactivate-your-portal-site.adoc[Deactivate Your Portal Site]
+* xref:view-url-for-a-live-published-portal.adoc[View URL of a Live Published Portal]
+* xref:deactivate-your-portal-site.adoc[Deactivate Your Portal Site]

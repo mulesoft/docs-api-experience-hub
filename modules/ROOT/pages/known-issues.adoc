@@ -5,4 +5,4 @@ endif::[]
 
 The pilot has the following known issue:
 
- * Images uploaded from the guided setup may not render correctly if they extend the maximum size for height and width. For more information on size limits for images, see xref:https://help.salesforce.com/s/articleView?id=sf.networks_enable_file_limits.htm&type=5[Limit Files in Your Experience Cloud Site].
+ * Images uploaded from the guided setup may not render correctly if they extend the maximum size for height and width. For more information on size limits for images, see https://help.salesforce.com/s/articleView?id=sf.networks_enable_file_limits.htm&type=5[Limit Files in Your Experience Cloud Site].

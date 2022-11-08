@@ -21,7 +21,7 @@ You can view information about an API directly from Exchange to determine whethe
 From the APIs in Exchange tab, select an API from the list, click more options, and select *View in Exchange*.
 
 == Add APIs from Exchange
-Curate your portal in API Experience Hub by adding APIs from Exchange. When adding APIs to the portal, the default visibility is Administrator only. You can change the visibility to include members or everyone. See link:make-api-versions-visible.adoc[Make API Versions Visible] for more information.
+Curate your portal in API Experience Hub by adding APIs from Exchange. When adding APIs to the portal, the default visibility is Administrator only. You can change the visibility to include members or everyone. See xref:make-api-versions-visible.adoc[Make API Versions Visible] for more information.
 
 
 To add APIs to your portal:

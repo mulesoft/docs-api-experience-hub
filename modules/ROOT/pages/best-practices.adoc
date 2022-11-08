@@ -7,10 +7,10 @@ API adoption relies heavily on well-written documentation and maintenance. Ensur
 
 For optimal performance and experience, follow these best practices from Mulesoft:
 
-* xref:https://www.mulesoft.com/resources/api/development-best-practices[API Development Best Practices - MuleSoft]
-* xref:https://blogs.mulesoft.com/dev-guides/api-design/best-practices-for-building-apis/[Best Practices for Planning, Designing, and Managing APIs]
-* xref:https://developer.mulesoft.com/tutorials-and-howtos/getting-started/best-practices-first-api-spec/[Best Practices to Design Your First API Specification]
-* xref:https://www.mulesoft.com/lp/whitepaper/api/design-apis[How to Design and Manage APIs - MuleSoft]
+* https://www.mulesoft.com/resources/api/development-best-practices[API Development Best Practices - MuleSoft]
+* https://blogs.mulesoft.com/dev-guides/api-design/best-practices-for-building-apis/[Best Practices for Planning, Designing, and Managing APIs]
+* https://developer.mulesoft.com/tutorials-and-howtos/getting-started/best-practices-first-api-spec/[Best Practices to Design Your First API Specification]
+* https://www.mulesoft.com/lp/whitepaper/api/design-apis[How to Design and Manage APIs - MuleSoft]
 
 
  

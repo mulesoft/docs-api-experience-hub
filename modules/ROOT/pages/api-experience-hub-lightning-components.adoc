@@ -56,5 +56,5 @@ The API Experience Hub Search Results component shows results after a user enter
 
 == See Also
 
-* xref:https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5 [Experience Builder]
-* xref:https://docs.mulesoft.com/exchange/[Anypoint Exchange]
+* https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5 [Experience Builder]
+* https://docs.mulesoft.com/exchange/[Anypoint Exchange]

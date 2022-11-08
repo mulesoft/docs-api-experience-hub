@@ -22,7 +22,7 @@ The new page displays placeholders for content based on the layout.
 
 Fill in a new page by adding components from the Components menu, such as a Headline component in the page header, or an API Experience Hub component such as an API Version Carousel.
 
-The Pages list shows the editable configuration properties for each page, which are described in xref:https://help.salesforce.com/s/articleView?id=sf.community_builder_manage_pages_overview.htm&type=5[Manage Your Community’s Pages and Their Properties in Experience Builder].
+The Pages list shows the editable configuration properties for each page, which are described in https://help.salesforce.com/s/articleView?id=sf.community_builder_manage_pages_overview.htm&type=5[Manage Your Community’s Pages and Their Properties in Experience Builder].
 
 == Components
 Clicking the Components lightning bolt icon displays the component palette, which includes Salesforce Experience Cloud components, such as Headline or Featured Topics, and components specific to API Experience Hub, such as API carousel or API console. You can drag any component from the component palette to the current page. Select the component on the page to show the component’s configuration options.
@@ -37,7 +37,7 @@ API Experience Hub has the following Lightning components:
 * Search Box
 * Search Result
 
-Detailed component information is available from the page and the Salesforce Experience Cloud xref:https://help.salesforce.com/s/articleView?id=sf.rss_component_reference_table.htm&type=5[Components] documentation. See link:api-experience-hub-lightning-components.adoc[API Experience Hub Lightning Components] for a description of each component.
+Detailed component information is available from the page and the Salesforce Experience Cloud https://help.salesforce.com/s/articleView?id=sf.rss_component_reference_table.htm&type=5[Components] documentation. See xref:api-experience-hub-lightning-components.adoc[API Experience Hub Lightning Components] for a description of each component.
 
 == Theme
 Clicking the Theme paintbrush icon offers these general branding parameters:
@@ -81,15 +81,15 @@ Clicking the Page Structure icon, which resembles a bulleted list, shows the com
 == Settings
 Clicking the Settings gear icon offers these parameters:
 
-* xref:https://help.salesforce.com/articleView?id=community_builder_general_settings.htm&type=5[General]
-* xref:https://help.salesforce.com/articleView?id=community_builder_theme.htm&type=5[Theme]
+* https://help.salesforce.com/articleView?id=community_builder_general_settings.htm&type=5[General]
+* https://help.salesforce.com/articleView?id=community_builder_theme.htm&type=5[Theme]
 * SEO
 +
 Search Engine Optimization (SEO) features define what information can be indexed by external services and discovered through online searches, and can increase traffic to your public community.
 
-Refer to the xref:https://help.salesforce.com/s/articleView?id=sf.community_builder_general_settings.htm&type=5[Experience Builder Settings] help topic for more information.
+Refer to the https://help.salesforce.com/s/articleView?id=sf.community_builder_general_settings.htm&type=5[Experience Builder Settings] help topic for more information.
 
 == See Also
-link:api-experience-hub-lightning-components.adoc[API Experience Hub Lightning Components]
+xref:api-experience-hub-lightning-components.adoc[API Experience Hub Lightning Components]
 
 
