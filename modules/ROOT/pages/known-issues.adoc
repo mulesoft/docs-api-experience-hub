@@ -2,3 +2,7 @@
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
+
+The pilot has the following known issues:
+
+ * Images uploaded from the guided setup may not render correctly if they extend the maximum size for height and width. 
