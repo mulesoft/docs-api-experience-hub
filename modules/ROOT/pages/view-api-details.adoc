@@ -12,8 +12,9 @@ The API Details page includes the following information about an API that the po
 * Version
 * Client applications
 
+The API console is located in the lower section of the API Details page. The console component is interactive and shows information about REST APIs and their methods. Endpoints are displayed in alphabetical order.
+See xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation]for more information.
+
 To view the API Details page, select an API from Home or APIs. 
 // add screen captures
 
-== See Also
-xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation]
