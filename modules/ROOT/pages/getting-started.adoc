@@ -9,7 +9,7 @@ The goals of this pilot are to establish product market fit for API Experience H
 
 For the purpose of this pilot, the following users can perform these tasks: 
 
-Portal administrators:
+*Portal administrators*:
 
 * link:deploying-your-portal.adoc[Deploy API Portal]
 * link:creating-your-api-portal.adoc[Create an API Portal]
@@ -21,7 +21,7 @@ Portal administrators:
 * link:publish-your-portal.adoc[Publish the API Portal] Using Experience Builder
 * link:deactivate-your-portal-site.adoc[Deactivate Your Portal Site]
 
-Developers:
+*Developers*:
 
 * link:access-an-api-portal.adoc[Self-Register and Access the API Portal]
 * link:search-for-apis.adoc[Search for APIs]
