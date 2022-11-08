@@ -89,4 +89,7 @@ Search Engine Optimization (SEO) features define what information can be indexed
 
 Refer to the xref:https://help.salesforce.com/s/articleView?id=sf.community_builder_general_settings.htm&type=5[Experience Builder Settings] help topic for more information.
 
+== See Also
+link:api-experience-hub-lightning-components.adoc[API Experience Hub Lightning Components]
+
 

@@ -7,7 +7,7 @@ You can make your published portal inaccessible to users by deactivating the por
 
 To deactivate your portal site, follow these steps:
 
-. Go to *Setup* > *All Sites*.
+. From the Builder, go to *Setup* > *All Sites*.
 . Click *Administration*.
 . Click *Settings*.
 . Click *Deactivate*.
