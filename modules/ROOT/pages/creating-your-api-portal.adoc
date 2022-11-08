@@ -33,7 +33,7 @@ NOTE: If you refresh the page or leave the guided setup, the progress in the gui
 Follow the guided steps to set up the homepage:
 
 . To add a company logo, drag or upload an image file to *Upload Company Logo*.
- =
++
 The supported file format is PNG, JPEG, SVG, and GIF.
 . To add a banner image, drag or upload an image file to *Select Banner Image*.
 +

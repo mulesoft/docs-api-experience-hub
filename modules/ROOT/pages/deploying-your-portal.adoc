@@ -36,7 +36,7 @@ Follow these steps to deploy your API portal:
 . Navigate to Anypoint Platform, enter your username and password, and then click *Sign in*.
 . From Anypoint Platform, select *API Experience Hub* from the list of products.
 . Click *Connect to Salesforce Experience Cloud*.
-. From *Environment*, select an option.
+. From *Environment*, select an option:
 ** Existing Salesforce customers use the *test.Salesforce.com* sandbox.
 ** New Salesforce customers use the *login.Salesforce.com* prod Trail organization.
 . If you have a custom Salesforce domain, check *I have a custom Salesforce domain* and enter your domain address.
@@ -50,5 +50,5 @@ Follow these steps to deploy your API portal:
 The process of installing the Salesforce Experience Cloud package begins. When the package is installed successfully, you receive an email.
 
 === Next Steps
-When the installation is complete, click + New API Portal to begin creating your API portal.
+When the installation is complete, click *+ New API Portal* to begin creating your API portal.
 
