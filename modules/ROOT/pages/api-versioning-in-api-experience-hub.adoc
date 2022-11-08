@@ -16,3 +16,19 @@ For example, suppose a developer on the API team adds a new resource to an API.
 For example, if the API version is v3, it becomes v4. If the Asset version is 3.0.1, it becomes 4.0.0. Name and Main file do not change.
 . The developer clicks *Publish*.
 . The previous API version remains in all portals where it was published without any changes.
+
+The portal administrator must then review and publish the changes:
+
+. In API Experience Hub, go to API Management.
++
+The API is still listed in *APIs in the portal*. The new version has visibility None.
+. Next to the API name, click the more options icon.
+. Change the visibility to Administrators only.
+. Click *Preview in Salesforce Builder* and review the API.
+. Go to API Management.
+. Next to the API name, click the more options icon.
+. Change the visibility of the new version.
++
+Change *Administrators only* to *Everyone* if you want it to be publicly available and Members only if you want it to be seen only by logged-in members.
+
+If the visibility is Everyone or Members only, then consumer developers can now see the new API version in the API carousel on the portal.
