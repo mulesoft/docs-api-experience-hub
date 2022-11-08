@@ -14,3 +14,6 @@ The API Details page includes the following information about an API that the po
 
 To view the API Details page, select an API from Home or APIs. 
 // add screen captures
+
+== See Also
+xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation]
