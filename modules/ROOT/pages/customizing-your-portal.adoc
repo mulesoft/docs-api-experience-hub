@@ -5,7 +5,9 @@ endif::[]
 
 API Experience Hub enables you to customize and adjust the exact details of branding, look and feel, and the site structure of your Salesforce Experience Cloud site, using a simple point-and-click approach.
 
-See the following topics for more information about customizing your portal.
+After the API portal is created, you can further customize it using the xref:https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder]. The Builder customizes a Salesforce Experience Cloud site with your desired brand identity, look and feel, and site structure by providing control over the site’s components, themes, and pages, and its settings for general properties, themes, and SEO. Throughout this documentation, the Experience Builder is referred to as the Builder
 
-* Look-and-Feel Customization
-* API Experience Hub Lightning Components
+The Builder link opens your site for editing. With the Builder, you can edit each page in your portal, create new pages, and add and edit the components on each page.
+
+The Builder’s interface contains the pages list, component palette, theme menu, page structure menu, and settings menu.
+
