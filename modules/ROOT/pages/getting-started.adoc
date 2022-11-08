@@ -11,22 +11,23 @@ For the purpose of this pilot, the following users can perform these tasks:
 
 Portal administrators:
 
-* Deploy API Portal
-* Create an API Portal
-* Enable Self-Registration
-* Add APIs from Exchange and Manage APIs in the Portal 
-* Make API Versions Available
-* Customize the API portal Using Experience Builder
-* Publish the API Portal Using Experience Builder
-* Deactivate Your Portal Site
+* link:deploying-your-portal.adoc[Deploy API Portal]
+* link:creating-your-api-portal.adoc[Create an API Portal]
+* link:administering-your-portal.adoc[Enable Self-Registration]
+* link:managing-your-portal#add-apis-from-exchange[Add APIs from Exchange] 
+* link:managing-your-portal#remove-apis-from-the-portal[Remove APIs from the Portal]
+* link:managing-your-portal#make-api-versions-visible[Make API Versions Visible]
+* link:customizing-your-portal.adoc[Customize the API portal] Using Experience Builder
+* link:publish-your-portal.adoc[Publish the API Portal] Using Experience Builder
+* link:deactivate-your-portal-site.adoc[Deactivate Your Portal Site]
 
 Developers:
 
-* [Self-register and access the API portal]
-* Search for APIs
-* View API Details Page
-* Download API Specification
-* Inspect API Console Specification and Documentation
+* link:access-an-api-portal.adoc[Self-Register and Access the API Portal]
+* link:search-for-apis.adoc[Search for APIs]
+* link:view-api-details.adoc[View API Details Page]
+* link:download-an-api-specification.adoc[Download API Specification]
+* link:api-console-specification-and-documentation.adoc[Inspect API Console Specification and Documentation]
 
 == See Also
 
