@@ -13,7 +13,7 @@
 * xref:publish-your-portal.adoc[Publish Your Portal]
 * xref:view-url-for-a-live-published-portal.adoc[View URL for a Live Published Portal]
 * xref:deactive-your-portal-site.adoc[Deactive Your Portal Site]
-* xref:administering-your-api-portal[Administering Your API Portal]
+* xref:administering-your-portal.adoc[Administering Your API Portal]
 * xref:discovering-and-consuming-apis.adoc[Discovering and Consuming APIs]
 ** xref:access-an-api-portal.adoc[Access an API Portal]
 ** xref:discover-apis.adoc[Discover APIs]
