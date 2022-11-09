@@ -11,11 +11,12 @@ API Management shows the following information:
 +
 Shows the APIs that have been added to your portal and includes a physical count of APIs that were added. When the portal is created, the last five APIs that were created in Exchange are added to this tab. The default visibility for the APIs is Administrators only. The administrator of the portal can change this visibility for each API in the API Management tab. These APIs can be removed. See Remove APIs from the Portal for more information.
 
-image::aeh-apis-in-exchange.png[APIs in Exchange tab]
 
 * *APIs in Exchange*
 +
 Shows the APIs that exist in your Exchange organization but have not been added to your portal.
+
+image::aeh-apis-in-exchange.png[APIs in Exchange tab]
 
 == View APIs in Exchange
 You can view information about an API directly from Exchange to determine whether you want the API in your portal.
