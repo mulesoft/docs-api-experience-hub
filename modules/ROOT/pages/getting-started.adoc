@@ -3,9 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-The primary design of API Experience Hub is reducing the complexity of Salesforce configuration and providing simple API portal creation. API Experience Hub has a more modern, reliable, and flexible portal experience that is achieved through the migration of Salesforce Lightning Web Components. The API console is redesigned to be more intuitive for developers, product managers, and other roles for the exploration and consumption of APIs. Moving the major administrative tasks and user management directly onto Anypoint makes it easier for administrators to manage their portals.
+The primary design of API Experience Hub is reducing the complexity of Salesforce configuration and providing simple API portal creation. API Experience Hub has a more modern, reliable, and flexible portal experience that is achieved through the migration of Salesforce Lightning Web Components. The API Console is redesigned to be more intuitive for developers, product managers, and other roles for the exploration and consumption of APIs. Moving the major administrative tasks and user management directly onto Anypoint makes it easier for administrators to manage their portals.
 
-The goals of this pilot are to establish product market fit for API Experience Hub, engage with the field and customer success group on the product, and identify high-priority bugs before the release at the end of March 2023 (FY24). Participants in the pilot can expect a streamlined setup experience and a first review of the enhanced look and feel of the portal. You can set up the portal, onboard APIs on it, and view the consumption experience for developers on the API carousel, catalog, and console.
+The goals of this pilot are to establish product market fit for API Experience Hub, engage with the field and customer success group on the product, and identify high-priority bugs before the release at the end of March 2023 (FY24). Participants in the pilot can expect a streamlined setup experience and a first review of the enhanced look and feel of the portal. You can set up the portal, onboard APIs on it, and view the consumption experience for developers on the API Carousel, catalog, and console.
 
 For the purpose of this pilot, the following users can perform these tasks: 
 

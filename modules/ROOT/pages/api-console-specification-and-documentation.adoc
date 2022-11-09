@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-An API’s specifications and documentation information are critical to the onboarding process and adoption. Developers need to know how to use and integrate APIs. The portal’s API console displays the API specifications and documentation. The API console is located in the lower section of the API Details page. The console component is interactive and shows information about REST APIs and their methods. Endpoints are displayed in alphabetical order.
+An API’s specifications and documentation information are critical to the onboarding process and adoption. Developers need to know how to use and integrate APIs. The portal’s API Console displays the API specifications and documentation. The API Console is located in the lower section of the API Details page. The console component is interactive and shows information about REST APIs and their methods. Endpoints are displayed in alphabetical order.
 
 The Specification pane displays the navigation of the HTTP functions in the REST specification for a REST API. You can understand the format and structure of an output by reviewing the resources and methods. 
 

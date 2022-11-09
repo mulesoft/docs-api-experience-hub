@@ -10,7 +10,7 @@ The following settings are set by default when the portal is created:
 * Portal site is live and published 
 + 
 To make the site unaccessible, see link:deactivate-your-portal-site.adoc[Deactivate Your Portal Site] for more information
-* Five APIs are automatically added to the API carousel in the Home page, API catalog in the APIs page, and in the APIs in the portal tab of API Management. 
+* Five APIs are automatically added to the API Carousel in the Home page, API Catalog in the APIs page, and in the APIs in the portal tab of API Management. 
 +
 These APIs are the latest created APIs in Exchange. The default visibility for the APIs is Administrator only. The administrator of the portal can change this visibility for each API in the API Management tab. These APIs can be removed. See Remove APIs from the Portal for more information.
 Portal site is live upon creation

@@ -31,6 +31,6 @@ The API is still listed in *APIs in the portal*. The new version has visibility 
 +
 Change *Administrators only* to *Everyone* if you want it to be publicly available and Members only if you want it to be seen only by logged-in members.
 +
-If the visibility is Everyone or Members only, then consumer developers can now see the new API version in the API carousel on the portal.
+If the visibility is Everyone or Members only, then consumer developers can now see the new API version in the API Carousel on the portal.
 
 

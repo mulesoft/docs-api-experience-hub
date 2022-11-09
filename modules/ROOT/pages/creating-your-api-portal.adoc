@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-A guided setup takes you through the process of creating your API portal using out-of-the-box templates. The guided setup contains basic setup options for the Home, API catalog, and API Details pages with a live preview to help you visualize your portal. Each page includes a progress bar to visualize where you are in the portal creation process. 
+A guided setup takes you through the process of creating your API portal using out-of-the-box templates. The guided setup contains basic setup options for the Home, API Catalog, and API Details pages with a live preview to help you visualize your portal. Each page includes a progress bar to visualize where you are in the portal creation process. 
 
 After the portal is created, the portal site is live. You can further customize it using the Experience Builder.
 
@@ -15,11 +15,11 @@ Creating an API portal includes the following tasks:
 
 * Setting up the Home page
 +
-The Home page is the landing page of your API portal and is also known as the API carousel. The setup includes adding a logo, banner image, org branding, banner title, description of the portal, and footer configuration. 
+The Home page is the landing page of your API portal and is also known as the API Carousel. The setup includes adding a logo, banner image, org branding, banner title, description of the portal, and footer configuration. 
 
 * Setting up the API Catalog
 +
-The APIs page contains the collection of APIs in your portal and is known as the API catalog. The template includes customizing the colors for each API type like REST and HTTP.
+The APIs page contains the collection of APIs in your portal and is known as the API Catalog. The template includes customizing the colors for each API type like REST and HTTP.
 
 * Setting up the API Details page
 +
@@ -46,14 +46,14 @@ The supported file format is PNG, JPEG, SVG, and GIF.
 . To add a title for your portal banner, enter the title in the *Enter Portal Banner Title* text box.
 . To add a description for your API portal, enter the description in the *Enter Portal Description* text box.
 . To add a footer text and an URL, enter the footer text and URL in the corresponding text boxes from *Configure Footer*.
-. Click *Next* to set up the API catalog.
+. Click *Next* to set up the API Catalog.
 
 == Set Up API Catalog
-Follow the guided steps to set up the API catalog:
+Follow the guided steps to set up the API Catalog:
 
 . To customize the color of specific APIs, select a color from the color picker for the corresponding API type from *Customize Colors*.
-. To add a banner title for your API catalog, enter the title in the *Enter API Catalog Banner Title* text box.
-. To add a description for your API catalog, enter the description in the *Enter API Catalog Description* text box.
+. To add a banner title for your API Catalog, enter the title in the *Enter API Catalog Banner Title* text box.
+. To add a description for your API Catalog, enter the description in the *Enter API Catalog Description* text box.
 . Click *Next* to set up the API Details page.
 
 == Set Up API Details

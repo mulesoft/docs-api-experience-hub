@@ -31,7 +31,7 @@ The portal contains the following starter pages:
 
 * Home
 +
-The Home page includes the banner image, API portal title, API carousel, and navigation to APIs by type and serves as the landing page of an API portal. The API carousel offers API consumers a preview of the most recent APIs added to the portal. Each card contains the API name, icon, type, and description. When selected, developers can view all the information about an API in the API Details page.  
+The Home page includes the banner image, API portal title, API Carousel, and navigation to APIs by type and serves as the landing page of an API portal. The API Carousel offers API consumers a preview of the most recent APIs added to the portal. Each card contains the API name, icon, type, and description. When selected, developers can view all the information about an API in the API Details page.  
 
 * APIs
 +

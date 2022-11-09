@@ -55,7 +55,7 @@ Use this option if you want the version to be seen only by logged-in members
 +
 Use this option if you want the version to be publicly available to anyone.
 
-If the visibility is Everyone or Members only, then consumer developers can see the new API version in the API carousel of the portal.
+If the visibility is Everyone or Members only, then consumer developers can see the new API version in the API Carousel of the portal.
 
 To edit the user visibility that displays for an API:
 

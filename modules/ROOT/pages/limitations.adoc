@@ -10,4 +10,4 @@ The pilot has the following limitations:
 * My Applications page is not available
 * Request Access option is not available
 * API details cannot be modified
-* API Experience Hub is not certified for use on mobile devices. Some functionality works on mobile devices, but some functionality such as the API console does not.
+* API Experience Hub is not certified for use on mobile devices. Some functionality works on mobile devices, but some functionality such as the API Console does not.
