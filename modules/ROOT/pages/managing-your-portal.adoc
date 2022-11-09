@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-From API Management, curate your portal by viewing information about an API from Exchange,  adding or removing APIs, and changing the visibility of an API version.
+From API Management, curate your portal by viewing information about an API from Exchange, adding or removing APIs, and changing the visibility of an API version.
 
 API Management shows the following information:
 
@@ -18,6 +18,9 @@ Shows the APIs that have been added to your portal and includes a physical count
 +
 Shows the APIs that exist in your Exchange organization but have not been added to your portal.
 
+You can view the description of an API by clicking the down arrow in front of the API name in the list:
+
+image::aeh-api-description.png[View API Description]
 
 
 == View APIs in Exchange
@@ -27,7 +30,6 @@ From the APIs in Exchange tab, select an API from the list, click more options, 
 
 == Add APIs from Exchange
 Curate your portal in API Experience Hub by adding APIs from Exchange. When adding APIs to the portal, the default visibility is Administrator only. You can change the visibility to include members or everyone. See xref:make-api-versions-visible.adoc[Make API Versions Visible] for more information.
-
 
 To add APIs to your portal:
 
@@ -47,7 +49,6 @@ To remove APIs from your portal:
 In the *APIs in the portal* tab, the API is removed from the list.
 
 == Make API Versions Visible
-
 You can determine which version of an API a user can view in your portal. You can set the visibility to Administrators only, Members only, or Everyone.
 
 * Administrators only
