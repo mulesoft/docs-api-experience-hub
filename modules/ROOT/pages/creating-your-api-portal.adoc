@@ -16,14 +16,19 @@ Creating an API portal includes the following tasks:
 * Setting up the Home page
 +
 The Home page is the landing page of your API portal and is also known as the API Carousel. The setup includes adding a logo, banner image, org branding, banner title, description of the portal, and footer configuration. 
++
+image::aeh-set-up-home-page.png[Set up home page]
 
 * Setting up the API Catalog
 +
 The APIs page contains the collection of APIs in your portal and is known as the API Catalog. The template includes customizing the colors for each API type like REST and HTTP.
 
+
 * Setting up the API Details page
 +
 The API Details page displays information about an API. The template includes the name, type of API, owner email address, and a description of the API. 
++
+image::aeh-set-up-api-details.png[Set up API details]
 
 Follow the guided setup and click *Next* to advance through the steps. 
 

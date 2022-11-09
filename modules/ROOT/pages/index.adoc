@@ -25,7 +25,9 @@ Developers:
 == Portal Pages
 API Experience Hub portal pages include a Home, APIs, and an API Details page. Each page can be configured and customized to fit your organization's needs by the portal administrators. For more information see Creating Your API Portal.
 
-//The following sample portal shows the an example Home page: 
+The following sample portal shows the an example Home page: 
+
+image::aeh-home-page.png[Home page]
 
 The portal contains the following starter pages:
 

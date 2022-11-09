@@ -5,6 +5,10 @@ endif::[]
 
 Users can sign up to get access to an API portal when self-registration is enabled by the portal administrator.
 
+The following is an example portal:
+
+image::aeh-portal-login.png[Portal login]
+
 The signup process includes the following steps:
 
 . Enter the URL of the portal in a browser window.
