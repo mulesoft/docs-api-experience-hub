@@ -12,6 +12,6 @@ The Builder link opens your site for editing. With the Builder, you can edit eac
 The Builder’s interface contains the pages list, component palette, theme menu, page structure menu, and settings menu.
 
 == See Also
-* xref:look-and-feel-components.adoc[Look-and-Feel Customization]
+* xref:look-and-feel-customization.adoc[Look-and-Feel Customization]
 * xref:api-experience-hub-lightning-components.adoc[API Experience Hub Lightning Components]
 

@@ -72,4 +72,4 @@ To edit the user visibility that displays for an API:
 
 
 == Next Steps
-From API Management, you can further customize your portal using Experience Builder. To open the Builder, click *Customize in Experience Builder*.
+From API Management, you can further customize your portal using Experience Builder. To open the Builder, click *Preview Portal in Salesforce Builder*.
