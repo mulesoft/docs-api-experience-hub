@@ -13,7 +13,7 @@ NOTE: All requests for self-registration are automatically approved. Ensure that
 
 Use these steps to add the self-registration Lightning component specific to API Experience Hub:
 
-. Go to *Setup* and search for *All Sites* in the quick find.
+. From the Builder, go to *Setup* and search for *All Sites* in the quick find.
 . Click on workspace for the site that you want to enable self-registration.
 . Go to *Administration* and select *Login & Registration*.
 . Scroll down to the *Registration Page Configuration* section.
