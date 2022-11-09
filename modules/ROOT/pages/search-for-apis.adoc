@@ -5,11 +5,11 @@ endif::[]
 
 From the APIs page, search the catalog by an API name to find a specific API. Enter at least four characters in the *Search by API name* field then select an option from the *Search Results* page. 
 
-//add search box screen capture
+image::aeh-search-by-api-name-box.png[Search by API name box]
 
 Filter the API by type to further refine your search results. The filter options display depending on which API types are available in the portal, for example, REST, HTTP, SOAP, and Async.
 
-//add filter Any Type screen captures
+image::aeh-filter-by-type.png[Filter by Any Type]
 
 From the Home page, you can also filter the carousel by clicking on any of the API type cards for example, REST APIs, HTTP APIs, or SOAP APIs.
 
