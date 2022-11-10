@@ -10,7 +10,7 @@ Follow these steps to report an issue with API Experience Hub:
 . Click *AEH Report a Bug*.
 . From the *Report a bug* form, complete the following fields:
 + 
-* *Subject*: Enter a title for the issue, for example, Cannot add an API from Exchange.
+* *Subject*: Enter a title for the issue, for example, cannot add an API from Exchange.
 * *Steps to Reproduce*: Enter an explanation of how to reproduce this issue.
 * *Severity*: Select a severity level from the list.
 * *Customer Name*: Enter your first and last name.
