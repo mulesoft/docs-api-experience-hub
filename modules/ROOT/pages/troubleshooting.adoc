@@ -6,7 +6,7 @@ endif::[]
 == Report an Issue
 Follow these steps to report an issue with API Experience Hub:
 
-. In a Slack channel, click the lightning bolt icon (image:aeh-blue-lightning-bolt.png[5%,5%]).
+. In a Slack channel, click the lightning bolt icon.
 . Click *AEH Report a Bug*.
 . From the *Report a bug* form, complete the following fields:
 + 
