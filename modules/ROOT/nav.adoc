@@ -19,7 +19,7 @@
 * xref:discovering-and-consuming-apis.adoc[Discovering and Consuming APIs]
 ** xref:access-an-api-portal.adoc[Access an API Portal]
 ** xref:discover-apis.adoc[Discover APIs]
-** xref:search-for-apis[Search for APIs]
+** xref:search-for-apis.adoc[Search for APIs]
 ** xref:view-api-details.adoc[View API Details]
 ** xref:download-an-api-specification.adoc[Download an API Specification]
 ** xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation]
