@@ -7,7 +7,7 @@ From the APIs page, search the catalog by an API name to find a specific API. En
 
 image::aeh-search-by-api-name-box.png[Search by API name]
 
-Filter the API by type to further refine your search results. The filter options display depending on which API types are available in the portal, for example, REST, HTTP, SOAP, and Async.
+Filter the API by type to further refine your search results. The filter options display depending on which API types are available in the portal for example, REST, HTTP, SOAP, and Async.
 
 image::aeh-filter-by-type.png[Filter by Any Type]
 
