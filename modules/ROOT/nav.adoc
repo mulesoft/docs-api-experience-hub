@@ -1,6 +1,6 @@
 .xref:index.adoc[Anypoint API Experience Hub]
-* xref:index.adoc[API Experience Hub Overview]
 * xref:prerequisites.adoc[Prerequisites]
+* xref:index.adoc[API Experience Hub Overview]
 * xref:best-practices.adoc[Best Practices]
 * xref:getting-started.adoc[Getting Started with the Pilot Release]
 ** xref:default-settings.adoc[Default Settings]
