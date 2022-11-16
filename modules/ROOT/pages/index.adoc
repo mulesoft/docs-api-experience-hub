@@ -9,14 +9,14 @@ API Experience Hub is the next-generation product of API Community Manager for c
 
 API Experience Hub provides these benefits for the following users:
 
-Portal administrators:
+*Portal administrators*:
 
 * Quick and easy portal setup and creation
 * API management for onboarding APIs and setting version visibility
 * Advanced customizations using Salesforce Experience Builder
 * Ability to preview and iterate on the portal
 
-Developers:
+*Developers*:
 
 * Self-service experience to discover APIs and build applications
 * Interactive API documentation to understand how to use and integrate APIs
