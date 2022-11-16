@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-If you encounter errors, refer to these explanations and instructions for recovery.
+If you encounter errors, refer to how to report an issue and these explanations and instructions for recovery.
 
 == Report an Issue
 You can report an issue with API Experience Hub using email or Slack.
@@ -21,3 +21,9 @@ For Slack, follow these steps:
 * *Severity*: Select a severity level from the list.
 * *Customer Name*: Enter your first and last name.
 . Click *Submit*.
+
+== Not Receiving Emails from Salesforce Experience Cloud
+If you are not receiving emails from Salesforce Experience Cloud, disable the standard configuration by following these steps:
+
+. Go to *Setup* > *Deliverability* > *Email Security Compliance*.
+. Unselect *Enable compliance with standard email security mechanisms*.
