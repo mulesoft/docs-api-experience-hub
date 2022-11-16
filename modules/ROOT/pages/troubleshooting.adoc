@@ -4,8 +4,13 @@ include::_attributes.adoc[]
 endif::[]
 
 If you encounter errors, refer to these explanations and instructions for recovery.
+
 == Report an Issue
-Follow these steps to report an issue with API Experience Hub:
+You can report an issue with API Experience Hub using email or Slack.
+
+For email, send issues to aeh-pilot@mulesoft.com.
+
+For Slack, follow these steps:
 
 . In a Slack channel, click the lightning bolt icon.
 . Click *AEH Report a Bug*.
