@@ -54,7 +54,7 @@ Specifies the site’s fonts, which include a primary font and header fonts, and
 * Theme Settings
 +
 You can adjust community styling by editing the CSS rules. Next to the Theme title, click the Theme list, and click Edit CSS.
-Refer to xref:https://help.salesforce.com/s/articleView?id=sf.community_builder_theme_customize.htm&type=5[Customize Your Experience Site Theme].
+Refer to https://help.salesforce.com/s/articleView?id=sf.community_builder_theme_customize.htm&type=5[Customize Your Experience Site Theme].
 
 === Custom Colors for Each API Type
 To customize the color of each API type:
@@ -91,5 +91,3 @@ Refer to the https://help.salesforce.com/s/articleView?id=sf.community_builder_g
 
 == See Also
 xref:api-experience-hub-lightning-components.adoc[API Experience Hub Lightning Components]
-
-
