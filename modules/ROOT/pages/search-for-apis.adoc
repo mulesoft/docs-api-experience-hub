@@ -9,7 +9,7 @@ image::aeh-search-by-api-name-box.png[Search by API name]
 
 Filter the API by type to further refine your search results. The filter options display depending on which API types are available in the portal for example, REST, HTTP, SOAP, and Async.
 
-image::aeh-filter-by-type.png[Filter by Any Type,211,40 ]
+image::aeh-filter-by-type.png[Filter by Any Type,211,40]
 
 From the Home page, you can also filter the carousel by clicking on any of the API type cards for example, REST APIs, HTTP APIs, or SOAP APIs.
 
