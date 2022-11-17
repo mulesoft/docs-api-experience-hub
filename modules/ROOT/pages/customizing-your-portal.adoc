@@ -3,15 +3,18 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-API Experience Hub enables you to customize and adjust the exact details of branding, look and feel, and the site structure of your Salesforce Experience Cloud site, using a simple point-and-click approach.
+After the API portal is created, you can further customize it using the https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder]. The Builder customizes a Salesforce Experience Cloud site with your desired brand identity, look and feel, and site structure by providing control over the site’s components, themes, and pages, and its settings for general properties, themes, and SEO. 
 
-After the API portal is created, you can further customize it using the https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder]. The Builder customizes a Salesforce Experience Cloud site with your desired brand identity, look and feel, and site structure by providing control over the site’s components, themes, and pages, and its settings for general properties, themes, and SEO. Throughout this documentation, the Experience Builder is referred to as the Builder
-
-The Builder link opens your site for editing each page in your portal, creating new pages, and adding and editing the components on each page.
+From API Management, the *Preview Portal in Salesforce Builder* link opens your site for editing each page in your portal, creating new pages, and adding and editing the components on each page.
 
 The Builder’s interface contains the pages list, component palette, theme menu, page structure menu, and settings menu.
+
+Click *Preview* to view your changes and to see the portal experience for your developer community. While in preview, you can click into the portal. For example, click the *Assets Carousel* to learn more about the properties of the component. 
+Click *Home* to view the API Carousel with all of the added APIs. Click *APIs* to view the API Catalog, search and filter APIs, and select an API to get more details from the API details page. The API details page displays metadata in the top section and the API overview and specification in the lower section. Publish any updates by clicking *Publish*.
 
 == See Also
 * xref:look-and-feel-customization.adoc[Look-and-Feel Customization]
 * xref:api-experience-hub-lightning-components.adoc[API Experience Hub Lightning Components]
+* xref:preview-your-portal.adoc[Preview Your Portal]
+* xref:publish-your-portal.adoc[Publish Your Portal]
 
