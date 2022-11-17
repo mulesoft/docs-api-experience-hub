@@ -12,6 +12,8 @@ To publish the portal, follow these steps:
 . Check *Public can access the community*.
 . Click *Builder*.
 . Click *Publish*.
++
+You receive an email confirmation when your changes are live. The email contains the URL link to the published site.
 
 == See Also
 

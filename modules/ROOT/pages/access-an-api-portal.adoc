@@ -16,3 +16,4 @@ The signup process includes the following steps:
 . Click *Sign Up*.
 +
 All self-registers are automatically approved. Ensure that the link to the portal is only accessible to trusted parties. 
+. From the portal, click *Log in* and enter your username and password.
