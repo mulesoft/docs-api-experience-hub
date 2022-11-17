@@ -11,6 +11,6 @@ Filter the API by type to further refine your search results. The filter options
 
 image::aeh-filter-by-type.png[Filter by Any Type,211,40]
 
-From the Home page, you can also filter the carousel by clicking on any of the API type cards for example, REST APIs, HTTP APIs, or SOAP APIs.
+From the Home page, you can also filter the carousel by clicking on any of the API type cards for example, HTTP APIs, REST APIs, or SOAP APIs.
 
 image::aeh-api-type-filter.png[Filter by API Type]
