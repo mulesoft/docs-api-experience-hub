@@ -7,7 +7,7 @@ API Experience Hub is composed of a Salesforce organization with Experience Clou
 
 During the deployment process, a connection with Salesforce Experience Cloud is required for linking to the Salesforce organization to create an API portal within Anypoint. 
 
-Important! Please ensure that you are linking your AnyPoint organization to the correct Salesforce organization. Currently, this connection can only be done once. Once the connection is made, you cannot unlink from that Salesforce organization. 
+IMPORTANT: Please ensure that you are linking your AnyPoint organization to the correct Salesforce organization. Currently, this connection can only be done once. Once the connection is made, you cannot unlink from that Salesforce organization. 
 
 An instance of API Experience Hub connects to only one Anypoint Platform organization and Salesforce organization.
 
