@@ -27,3 +27,6 @@ If you are not receiving emails from Salesforce Experience Cloud, disable the st
 
 . Go to *Setup* > *Deliverability* > *Email Security Compliance*.
 . Unselect *Enable compliance with standard email security mechanisms*.
+
+== Cannot View API Experience Hub on Anypoint Platform Landing Page
+If API Experience Hub does not display on the Anypoint Platform landing page, ensure that you are logged into the master organization.
