@@ -17,7 +17,7 @@ The licenses for the pilot within the Salesforce Organization and AnyPoint Organ
 
 == Before You Begin
 
-Before you can deploy your portal, you must have:
+IMPORTANT: Before you can deploy your portal, you must have:
 
 * Familiarity with Anypoint Platform and Exchange, including the permissions to use Exchange for publishing and viewing RAML or OAS specifications in your business group
 * Anypoint Platform Organization
