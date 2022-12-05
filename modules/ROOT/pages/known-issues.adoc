@@ -9,7 +9,7 @@ The pilot has the following known issue:
 
 * The pilot does not use platform cache.
 * The *None* API visibility option is currently not supported. For more information about the supported options, see xref:managing-your-portal#make-api-versions-visible[Make API Versions Visible].
-* API Experience Hub performs at the main organization level only.
+* API Experience Hub functions at the main organization level only.
 //* You cannot connect a Salesforce organization to more than one Anypoint organization.
 +
 //To access API Experience Hub from a different Anypoint account, assign the API Experience Hub Admin role from the main org to your chosen user account.
