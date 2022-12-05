@@ -15,6 +15,6 @@ The pilot has the following known issue:
 //To access API Experience Hub from a different Anypoint account, assign the API Experience Hub Admin role from the main org to your chosen user account.
 
 
-* An Exchange Contributor user in a business group cannot execute the linking process to the Salesforce organization because they do not have the organizational administrator permissions. 
+* The linking process fails when the user who executes the linking process has the Exchange Contributor role in a business group and this user does not have the System Administrator permission in that same business group. 
 +
-To resolve this issue, add the organizational admin for the user who is executing the Salesforce linking in the business group.
+To resolve this issue, add the organization administrator permission to the user who is executing the Salesforce linking in the business group.

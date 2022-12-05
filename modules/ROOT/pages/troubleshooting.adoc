@@ -31,9 +31,9 @@ If you are not receiving emails from Salesforce Experience Cloud, disable the st
 == Cannot View API Experience Hub on Anypoint Platform Landing Page
 If API Experience Hub does not display on the Anypoint Platform landing page, ensure that you are using the main organization. Contact the Mulesoft administrator to ensure that the entitlement is enabled.
 
-== An Exchange Contributor User in a Business Group Cannot Execute the Linking Process to the Salesforce Organization
+== Linking Process Fails
 
-An Exchange Contributor user in a business group cannot execute the linking process to the Salesforce organization because they do not have the organizational administrator permissions. 
+The linking process fails when the user who executes the linking process has the Exchange Contributor role in a business group and this user does not have the System Administrator permission in that same business group. 
 +
-To resolve this issue, add the organizational admin for the user who is executing the Salesforce linking in the business group. because they do not have the organizational administrator permissions. 
+To resolve this issue, add the organization administrator permission to the user who is executing the Salesforce linking in the business group.
 +
