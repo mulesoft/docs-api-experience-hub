@@ -9,7 +9,12 @@ The pilot has the following known issue:
 
 * The pilot does not use platform cache.
 * The *None* API visibility option is currently not supported. For more information about the supported options, see xref:managing-your-portal#make-api-versions-visible[Make API Versions Visible].
-* The API Experience Hub administrator permission cannot be assigned to business groups.
+* API Experience Hub performs at the main organization level only.
 //* You cannot connect a Salesforce organization to more than one Anypoint organization.
 +
 //To access API Experience Hub from a different Anypoint account, assign the API Experience Hub Admin role from the main org to your chosen user account.
+
+
+* An Exchange Contributor user in a business group cannot execute the linking process to the Salesforce organization because they do not have the organizational administrator permissions. 
++
+To resolve this issue, add the organizational admin for the user who is executing the Salesforce linking in the business group.
