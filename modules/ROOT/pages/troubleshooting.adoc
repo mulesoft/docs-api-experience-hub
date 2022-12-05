@@ -29,7 +29,7 @@ If you are not receiving emails from Salesforce Experience Cloud, disable the st
 . Unselect *Enable compliance with standard email security mechanisms*.
 
 == Cannot View API Experience Hub on Anypoint Platform Landing Page
-If API Experience Hub does not display on the Anypoint Platform landing page, ensure that you are logged into the master organization.
+If API Experience Hub does not display on the Anypoint Platform landing page, ensure that you are using the main organization. Contact the Mulesoft administrator to ensure that the entitlement is enabled.
 
 == An Exchange Contributor User in a Business Group Cannot Execute the Linking Process to the Salesforce Organization
 
