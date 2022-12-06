@@ -34,6 +34,6 @@ If API Experience Hub does not display on the Anypoint Platform landing page, en
 == Linking Process Fails
 
 The linking process fails when the user who executes the linking process has the Exchange Contributor role in a business group and this user does not have the System Administrator permission in that same business group. 
-+
+
 To resolve this issue, add the organization administrator permission to the user who is executing the Salesforce linking in the business group.
-+
+
