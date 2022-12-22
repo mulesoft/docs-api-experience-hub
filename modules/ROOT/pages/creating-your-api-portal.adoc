@@ -5,7 +5,7 @@ endif::[]
 
 A guided setup takes portal administrators through the process of creating your API portal using out-of-the-box templates. The guided setup contains basic setup options for the Home, API Catalog, and API Details pages with a live preview to help you visualize your portal. Each page includes a progress bar to visualize where you are in the portal creation process. 
 
-After the portal is created, the portal site is live. The portal can further customize it using the Experience Builder.
+After the portal is created, you can further customize it using the Experience Builder.
 
 
 //The guided setup has the following components: 
