@@ -19,7 +19,3 @@ The pilot has the following known issue:
 To resolve this issue, add the organization administrator permission to the user who is executing the Salesforce linking in the business group.
 
 * If there are no APIs in Exchange, you cannot complete the API portal creation set up.
-
-* The `Local` and `Language` for the user's personal settings must be set to *English*. For more information, see https://help.salesforce.com/s/articleView?id=sf.usersetup_lang_time_zone.htm&type=5[Edit Your Language and Locale Settings].
-
-* An error occurs when changing the visibility of an API to *Members Only*.
