@@ -14,12 +14,13 @@ For the purpose of this pilot, the following users can perform these tasks:
 * xref:deploying-your-portal.adoc[Deploy API Portal]
 * xref:creating-your-api-portal.adoc[Create an API Portal]
 * xref:administering-your-portal.adoc[Enable Self-Registration]
-* xref:managing-your-portal#add-apis-from-exchange[Add APIs from Exchange] 
-* xref:managing-your-portal#remove-apis-from-the-portal[Remove APIs from the Portal]
-* xref:managing-your-portal#make-api-versions-visible[Make API Versions Visible]
-* xref:customizing-your-portal.adoc[Customize the API portal] Using Experience Builder
-* xref:publish-your-portal.adoc[Publish the API Portal] Using Experience Builder
+* xref:api-management.adoc#add-apis-from-exchange[Add APIs from Exchange] 
+* xref:api-management.adoc#remove-apis-from-the-portal[Remove APIs from the Portal]
+* xref:api-managment.adoc#make-api-versions-visible[Make API Versions Visible]
+* xref:customizing-your-portal.adoc[Customize the API Portal] using Experience Builder
+* xref:publish-your-portal.adoc[Publish the API Portal] using Experience Builder
 * xref:deactivate-your-portal-site.adoc[Deactivate Your Portal Site]
+* xref:settings.adoc#disconnect-portal[Disconnect Portal] at the end of the pilot
 
 *Developers*:
 

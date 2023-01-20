@@ -1,0 +1,45 @@
+= Settings 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+The Settings page provides information about the Salesforce account your API portal and enables you to disconnect the API portal. 
+
+== View Settings
+
+To view information about the Salesforce organization for your portal, from the Manage your API portal page, click *Settings*. 
+
+Settings show the following information:
+
+* Environment
+* Username
+* Organization domain
+* Organization ID
+
+== Disconnect Portal
+
+Anypoint can only be linked to one Salesforce organization; only one API portal can be created for that organization. Portal administrators can disconnect a portal for following use cases:
+
+* Create a new API portal for another Salesforce organization
++
+To create a new API portal, you must disconnect the current API portal from your Salesforce organization. This process unlinks Anypoint to your Salesforce organization. You can then link your Anypoint account to a new Salesforce organization. 
+
+* Disconnect your API portal at the end of the pilot
++
+Disconnecting your API portal at the end of the pilot removes artifacts from the API Experience Hub database and unlinks Anypoint to your Salesforce organization so that you can create another API portal with a future release of API Experience Hub.
+
+To disconnect your API portal:
+
+. From *API Management*, click *Settings*.
+. Click *Disconnect portal*.
+. To cancel, click *Cancel* from the message.
+. To disconnect disconnect, click *Disconnect portal* from the message.
++
+Your API portal is disabled and no longer accessible by users. The APIs remain available in Exchange. 
+
+=== See Also
+xref:deploying-your-portal.adoc[Deploying Your Portal]
+
+
+
+
