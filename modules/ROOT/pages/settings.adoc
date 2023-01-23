@@ -37,6 +37,8 @@ To disconnect your API portal:
 . To disconnect, click *Disconnect portal* from the message.
 +
 You are successfully unenrolled from the pilot.
++ 
+
 Your API portal is disabled and no longer accessible by users. The APIs remain available in Exchange. 
 
 === See Also
