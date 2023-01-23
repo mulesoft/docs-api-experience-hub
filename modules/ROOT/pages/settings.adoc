@@ -22,7 +22,9 @@ Anypoint can only be linked to one Salesforce organization; only one API portal 
 
 * *Disconnect your API portal at the end of the pilot* 
 +
-*This is an important step to complete at the end of the pilot*. Disconnecting your API portal at the end of the pilot removes artifacts from the API Experience Hub database and unlinks Anypoint to your Salesforce organization so that you can create another API portal with a future release of API Experience Hub.
+IMPORTANT: This is a required step to complete at the end of the pilot. 
++
+Disconnecting your API portal at the end of the pilot removes artifacts from the API Experience Hub database and unlinks Anypoint to your Salesforce organization so that you can create another API portal with a future release of API Experience Hub.
 
 * *Create a new API portal for another Salesforce organization*
 +
