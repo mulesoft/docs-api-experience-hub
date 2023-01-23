@@ -20,13 +20,15 @@ Settings show the following information:
 
 Anypoint can only be linked to one Salesforce organization; only one API portal can be created for that organization. Portal administrators can disconnect a portal for following use cases:
 
-* Create a new API portal for another Salesforce organization
+* *Disconnect your API portal at the end of the pilot* 
++
+This is an important step to complete at the end of the pilot. Disconnecting your API portal at the end of the pilot removes artifacts from the API Experience Hub database and unlinks Anypoint to your Salesforce organization so that you can create another API portal with a future release of API Experience Hub.
+
+* *Create a new API portal for another Salesforce organization*
 +
 To create a new API portal, you must disconnect the current API portal from your Salesforce organization. This process unlinks Anypoint to your Salesforce organization. You can then link your Anypoint account to a new Salesforce organization. 
 
-* Disconnect your API portal at the end of the pilot
-+
-Disconnecting your API portal at the end of the pilot removes artifacts from the API Experience Hub database and unlinks Anypoint to your Salesforce organization so that you can create another API portal with a future release of API Experience Hub.
+
 
 The following graphic shows the *Disconnect portal* button from the Settings screen:
 
