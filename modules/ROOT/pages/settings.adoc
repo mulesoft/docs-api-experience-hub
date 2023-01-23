@@ -7,9 +7,9 @@ The Settings page provides information about the Salesforce account your API por
 
 == View Settings
 
-To view information about the Salesforce organization for your portal, from the Manage your API portal page, click *Settings*. 
+To view information about the Salesforce organization for your portal, from the *Manage your API portal* screen, click *Settings*. 
 
-Settings show the following information:
+The Settings screen show the following information:
 
 * Environment
 * Username
@@ -22,7 +22,7 @@ Anypoint can only be linked to one Salesforce organization; only one API portal 
 
 * *Disconnect your API portal at the end of the pilot* 
 +
-This is an important step to complete at the end of the pilot. Disconnecting your API portal at the end of the pilot removes artifacts from the API Experience Hub database and unlinks Anypoint to your Salesforce organization so that you can create another API portal with a future release of API Experience Hub.
+*This is an important step to complete at the end of the pilot*. Disconnecting your API portal at the end of the pilot removes artifacts from the API Experience Hub database and unlinks Anypoint to your Salesforce organization so that you can create another API portal with a future release of API Experience Hub.
 
 * *Create a new API portal for another Salesforce organization*
 +
