@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-After your portal is created using the guided setup, the Manage Your API Portal displays with options to manage APIs, view information about your portal, and disconnect the portal from your Salesforce organization at the end of the pilot.
+After your portal is created using the guided setup, the Manage Your API Portal screen displays with options to manage APIs, view information about your portal, and disconnect the portal from your Salesforce organization at the end of the pilot.
 
 The Manage Your API Portal screen contains the following options:
 
