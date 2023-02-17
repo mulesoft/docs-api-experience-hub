@@ -1,13 +1,13 @@
-= Getting Started with the Pilot Release
+= Getting Started 
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
 The primary design of API Experience Hub is reducing the complexity of Salesforce configuration and providing simple API portal creation. API Experience Hub has a more modern, reliable, and flexible portal experience that is achieved through the migration of Salesforce Lightning Web Components. The API Console is redesigned to be more intuitive for developers, product managers, and other roles for the exploration and consumption of APIs. Moving the major administrative tasks and user management directly onto Anypoint makes it easier for administrators to manage their portals.
 
-The goal of this pilot is to connect with customers, understand their needs, and explore user experiences on the product. Participants in the pilot can expect a streamlined setup experience and a first review of the enhanced look and feel of the portal. You can set up the portal, onboard APIs on it, and view the consumption experience for developers on the API Carousel, Catalog, and Console.
+// The goal of this pilot is to connect with customers, understand their needs, and explore user experiences on the product. Participants in the pilot can expect a streamlined setup experience and a first review of the enhanced look and feel of the portal. You can set up the portal, onboard APIs on it, and view the consumption experience for developers on the API Carousel, Catalog, and Console.
 
-For the purpose of this pilot, the following users can perform these tasks: 
+The following users can perform these tasks: 
 
 *Portal administrators*:
 
@@ -20,7 +20,7 @@ For the purpose of this pilot, the following users can perform these tasks:
 * xref:customizing-your-portal.adoc[Customize the API Portal] using Experience Builder
 * xref:publish-your-portal.adoc[Publish the API Portal] using Experience Builder
 * xref:deactivate-your-portal-site.adoc[Deactivate Your Portal Site]
-* xref:settings.adoc#disconnect-portal[Disconnect Portal] at the end of the pilot
+* xref:settings.adoc#disconnect-portal[Disconnect Portal] 
 
 *Developers*:
 
