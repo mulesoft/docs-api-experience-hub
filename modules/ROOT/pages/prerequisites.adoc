@@ -17,7 +17,7 @@ If you do not have the required accounts and access, issues may occur when deplo
 To enable the API Experience Hub Admin permission in Access Management, follow these steps:
 
 . Go to Access Management and select *Users*.
-. From Organization Users, click the username of the admin who will create the API portal.
+. From Organization Users, click the username of the admin who is creating the API portal.
 . Select *Permissions* > *API Experience Hub*.
 . From Permission(s), click the *Select access* drop-down and check *API Experience Hub*.
 . Click the plus icon to add the permission.

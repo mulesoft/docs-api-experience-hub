@@ -2,7 +2,7 @@
 * xref:index.adoc[API Experience Hub Overview]
 * xref:prerequisites.adoc[Prerequisites]
 * xref:best-practices.adoc[Best Practices]
-* xref:getting-started.adoc[Getting Started with the Pilot Release]
+* xref:getting-started.adoc[Getting Started]
 ** xref:default-settings.adoc[Default Settings]
 ** xref:limitations.adoc[Limitations]
 * xref:deploying-your-portal.adoc[Deploying Your Portal]
