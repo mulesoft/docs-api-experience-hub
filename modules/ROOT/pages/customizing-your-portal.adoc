@@ -1,4 +1,4 @@
-= Customizing Your Portal
+= Customizing Your Portal Using Experience Builder
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
