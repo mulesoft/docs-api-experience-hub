@@ -76,7 +76,7 @@ The process of creating the portal begins and can take several minutes. You can 
 
 
 == Next Steps
-After your portal is created, click *Manage your API Portal* to curate the portal.
+After your portal is created, click *Manage your API Portal* to curate the portal by viewing APIs in Exchange, adding and removing APIs, and making API versions visible.
 
 If you move away from the installation screen while the package is being installed, the API Management screen automatically opens when the installation is successful.
 
