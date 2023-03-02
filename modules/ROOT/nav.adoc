@@ -1,7 +1,6 @@
 .Anypoint API Experience Hub
 * xref:index.adoc[API Experience Hub Overview]
 * xref:prerequisites.adoc[Prerequisites]
-* xref:best-practices.adoc[Best Practices]
 * xref:getting-started.adoc[Getting Started]
 ** xref:default-settings.adoc[Default Settings]
 ** xref:limitations.adoc[Limitations]
@@ -27,3 +26,4 @@
 ** xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation]
 * xref:known-issues.adoc[Known Issues]
 * xref:troubleshooting.adoc[Troubleshooting]
+* xref:best-practices.adoc[Best Practices]
