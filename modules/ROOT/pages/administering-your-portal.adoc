@@ -4,7 +4,7 @@ include::_attributes.adoc[]
 endif::[]
 
 
-For the pilot, administers can enable users to self-register for access to the portal. When this feature is enabled, users can sign up to access the portal.
+Administers can enable users to self-register for access to the portal. When this feature is enabled, users can sign up to access the portal.
 
 == Enable Self-Registration
 Configure a registration page for your portal members. The self-registration Lightning component enables guest users to register themselves as members of your API portal. 
