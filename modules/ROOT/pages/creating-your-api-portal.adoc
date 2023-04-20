@@ -5,7 +5,7 @@ endif::[]
 
 The process of creating your API portal includes these steps:
 
-. xref:connect-salesforce.adoc[Connect to Salesforce]
+. xref:connect-salesforce.adoc[Connecting to Salesforce]
 . xref:styling-your-api-portal.adoc[Style Your API Portal]
 . xref:managing-your-portal.adoc[Manage Your API Portal]
 . xref:publish-your-portal.adoc[Publish Your API Portal] 
