@@ -1,0 +1,54 @@
+= Connecting to Salesforce 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+API Experience Hub is composed of a Salesforce organization with Experience Cloud and a managed package that is installed in this organization. The managed package contains the components and data objects that interact with your Anypoint Platform organization.
+
+During the deployment process, a connection with Salesforce Experience Cloud is required for linking to the Salesforce organization to create an API portal within Anypoint. 
+
+IMPORTANT: Please ensure that you are linking your Anypoint organization to the correct Salesforce organization. 
+//Currently, this connection can only be done once. Once the connection is made, you cannot unlink from that Salesforce organization. //
+
+An instance of API Experience Hub connects to only one Anypoint Platform organization and Salesforce organization.
+
+The package is installed in a sandbox or a trial Salesforce organization. The changes made to this organization do not propagate to any other Salesforce organizations that your company might already have. The data regarding API Experience Hub in Salesforce is isolated from your company's operational data, such as ERP or CRM data.
+
+
+== Before You Begin
+
+IMPORTANT: Before you can create your portal, you must have:
+
+* Familiarity with Anypoint Platform and Exchange, including the permissions to use Exchange for publishing and viewing RAML or OAS specifications in your business group
+* Anypoint Platform Organization
+* Salesforce Sandbox or Trail Organization
+* API Experience Hub Admin permission
+* Organizational administrator with permissions in AnyPoint
+
+== Connect, Link, and Install 
+The process of deploying your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint organization to your Salesforce organization, then installing the Salesforce Experience Cloud package. Currently, the linking process is a one-time step when setting up your portal.
+
+NOTE: Only an organizational administrator with permissions in AnyPoint
+ can perform the Salesforce linking.
+
+Follow these steps to deploy your API portal:
+
+. Navigate to Anypoint Platform, enter your username and password, and then click *Sign in*.
+. From Anypoint Platform, select *API Experience Hub* from the list of products.
+. Click *Connect to Salesforce Experience Cloud*.
+. From *Environment*, select an option:
+** Existing Salesforce customers use the *test.Salesforce.com* sandbox.
+** New Salesforce customers use the *login.Salesforce.com* prod Trail organization.
+. If you have a custom Salesforce domain, check *I have a custom Salesforce domain* and enter your domain address.
+. Click *Connect*.
+. Enter your Salesforce username and password and click *Log In*. 
+. Click an option to deny or allow MuleSoft to access your data.
+. Confirm the Salesforce access information.
+. To edit the Salesforce access information, click *Edit access information* and make the necessary changes.
+. To confirm, click *Continue*.
++
+The process of installing the Salesforce Experience Cloud package begins. When the package is installed successfully, you receive an email.
+
+== Next Steps
+When the connection is complete, click *+ New API Portal* to begin styling your API portal.
+
