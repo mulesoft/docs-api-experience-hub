@@ -7,6 +7,7 @@ After you make customizations and preview your updated portal, you can publish t
 
 To publish the portal, follow these steps:
 
+. From Manage Your API portal, click *Preview Portal*.
 . Click *Builder*.
 . Click *Settings* > *General*.
 . Check *Public can access the community*.
