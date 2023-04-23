@@ -4,7 +4,7 @@ include::_attributes.adoc[]
 endif::[]
 
 //use API Manager's 
-
+=|
 API assets
 API Console
 API Instances
