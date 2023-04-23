@@ -3,16 +3,18 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-After your portal is created using the guided setup, the Manage Your API Portal screen displays with options to manage APIs, view information about your portal, and disconnect the portal from your Salesforce organization at the end of the pilot.
-
-The Manage Your API Portal screen contains the following options:
+After your portal is created using the guided setup, the Manage Your API Portal page provides options to manage APIs, manage users, and settings.
 
 * xref:api-management.adoc[API Management]
 + 
-Use the API management screen to add your APIs from Exchange into your API portal, remove APIs from your portal, and view list of APIs that you have in Exchange.
+Add your APIs from Exchange into your API portal, remove APIs from your portal, and view list of APIs that you have in Exchange.
+
+* xref:user-management.adoc[User Management]
++ 
+Manage members, pending requests, and user registration.
 
 * xref:settings.adoc[Settings]
 + 
-Use the Settings screen to view information about your portal and disconnect your portal at the end of the pilot. 
+Publish the portal, view the portal's site URL, and deactive or delete the portal.
 
 
