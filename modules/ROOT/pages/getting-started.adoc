@@ -11,8 +11,9 @@ The following users can perform these tasks:
 
 *Portal administrators*:
 
-* xref:deploying-your-portal.adoc[Deploy API Portal]
+* [Onboard the API Experience Hub Administrator]
 * xref:creating-your-api-portal.adoc[Create an API Portal]
+** [Link]
 * xref:administering-your-portal.adoc[Enable Self-Registration]
 * xref:api-management.adoc#add-apis-from-exchange[Add APIs from Exchange] 
 * xref:api-management.adoc#remove-apis-from-the-portal[Remove APIs from the Portal]
