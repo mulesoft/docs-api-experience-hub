@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-After your portal is created using the guided setup, the Manage Your API Portal page provides options to manage APIs, manage users, and settings.
+After your portal is styled using the guided setup, the Manage Your API Portal page provides options to manage APIs, users, and settings.
 
 * xref:api-management.adoc[API Management]
 + 

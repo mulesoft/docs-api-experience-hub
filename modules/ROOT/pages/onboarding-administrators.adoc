@@ -1,6 +1,0 @@
-= Onboarding Administrators
-ifndef::env-site,env-github[]
-include::_attributes.adoc[]
-endif::[]
-
-The process 
