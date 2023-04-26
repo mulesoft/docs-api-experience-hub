@@ -1,0 +1,26 @@
+= Onboarding the API Experience Hub Administrator
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+The API Experience Hub Organization Administrator of the root org in Anypoint Platform or the user who is assigned the API Experience Hub Administrator permission can create an API portal. Only the Organization Administrator can grant a user the API Experience Hub Administrator permission.
+
+== Grant a User the API Experience Hub Administrator Permission
+
+. Log in to Anypoint Platform using an account that has the Organization Administrator permission.
+. In the navigation bar or the main Anypoint Platform page, click *Access Management*.
+. Click *Users* and click the username of the user that you want to add the API Experience Hub Administrator permission. 
+. Select *Permissions* and click *Add Permissions*.
+. From the *Select permissions to add for this user* search box, enter *API Experience Hub Amin* and select the checkbox.
+Click the blue plus icon.
+
+That Org Administrator and the API Experience Hub Administrator can perform the SF linking to create a portal.
+
+
+The Organization Administrator and the API Experience Hub administrator can:
+
+* Perform perform the tasks for creating a portal:
+** Linking to Salesforce
+* Add and remove APIs to the portal
+* Set the visibility of minor versions of the API in the portal
+
