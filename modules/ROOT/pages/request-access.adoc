@@ -8,3 +8,62 @@ From the API Details page, member users request access to an API instance to whi
 Instances that the client ID enforcement policy protects require client applications to provide a client ID and an optional client secret. Once the request for access is approved, the client application is registered and the client ID and client secret credentials are automatically created. Member users can request access to an instance of an API that is published in the portal. These users can either create a new application or use an application that they already created to request access.
 
 If terms and conditions are set for an asset, you are prompted to accept the terms before access is granted. The created contract includes the terms and conditions.
+
+== Before You Begin
+Before you can request access to an API, you must be a member user and be logged into the API portal. See xref:users-roles-and-permissions.adoc[Users, Roles, and Permissions] for more information. 
+
+== Use an Existing Application to Request Access to an API
+You can request access to an API by using an existing application:
+
+. Click an API to open the API Details page.
+. Click *Request access*.
+. In the API instance list, select an instance.
+. In the *Client application* list, select an application.
++
+An application and its instance use the same client provider. If an organization administrator has configured multiple client providers in Anypoint API Manager, then the application list shows only the applications that use the same client provider as the selected instance.
+. From *SLA tier*, select a service-level agreement (SLA) value for the application.
++
+The SLA tier only appears when the instance has one or more tiers.
+. If the API has terms and conditions, select *I accept the terms and conditions*.
+. Click *Request access*.
++
+A Request access message displays to inform you that the request was received and is pending. If the SLA tier has auto-approval, the message shows that the request access was approved, and the application displays in the My Applications page.
+. Click *Okay* to close the message.
++
+If the SLA tier has the auto-approval set, the application is received and approved.
+. Click *Okay* to close the message.
+. To see the application details, go to the *My Applications* page.
++
+The My Applications page lists the client ID and client secret for this access instance.
+
+== Create a New Application to Request Access to an API
+If you do not have an application to use to request access, create a new application: 
+
+. From the API Catalog, click an API to open the API Details page.
+. Click *Request access*.
+. From the *API instance* list, select an instance. 
+. From the *Client application* options, select *Create a new application*.
+. From the *Name* field, enter a client application name.
+. From the *Description* field, enter a description of the client application.
+. From the *OAuth 2.0 Grant Type* options, if there are grant types for the application, select a grant type.
+. From the *OAuth 2.0 Redirect URIs* field, enter a URI address from.
+. From the *Application URL* field, enter a URL.
+. From the *SLA tier* options, select a service-level agreement (SLA) value for the application. 
+. Click *Request access*.
++
+If auto-approval is enabled for the SLA tier, a message displays that the application is approved. If auto-approval is not enabled, a message displays that the request is pending.
+. Click *Okay* to close the message.
++
+When the application is approved, an email is sent.
+. Click *Okay* to close the message.
+. To see the application details, go to the *My Applications* page from the portal.
++
+The My Applications page lists the client ID and client secret for this access instance.
+
+
+
+
+== See Also
+
+* xref:view-api-details.adoc[View API Details]
+* xref:my-applications.adoc[My Applications]
