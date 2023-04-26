@@ -5,28 +5,26 @@ endif::[]
 
 The following settings are set by default when the portal is created:
 
-* Guest User Access is enabled
+* Guest user access is enabled
 * Portal status is active 
-* Portal site is live and published 
-+ 
-To make the site unaccessible, see xref:deactivate-your-portal-site.adoc[Deactivate Your Portal Site] for more information
+
 * Five APIs are automatically added to the API Carousel in the Home page, API Catalog in the APIs page, and in the APIs in the portal tab of API Management. 
 +
 These APIs are the latest created APIs in Exchange. The default visibility for the APIs is Administrator only. The administrator of the portal can change this visibility for each API in the API Management tab. These APIs can be removed. See xref:managing-your-portal.adoc[Remove APIs from the Portal] for more information.
 
-For the pilot, there is no access to guest users. You can disable this access and then delete the permission set assigned to the guest user.
+//For the pilot, there is no access to guest users. You can disable this access and then delete the permission set assigned to the guest user.
 
-Use the following steps to disable guest user access:
+//Use the following steps to disable guest user access:
 
-. Open Experience Builder.
-. In *Settings* > *General*, uncheck *Guest users can see and interact with the site without logging in*.
-. Go to *Setup* > *Sites* and click the community label.
-. From the Sites detail page, click Public Access Settings.
-+
-The Guest User Profile displays.
-. Click *Assigned Users*.
-. Click *Site Guest User*, *[Community name]*.
-. Click *Permission Set Assignments*.
-. Delete the *ACM Guest User Permission* set.
+//. Open Experience Builder.
+//. In *Settings* > *General*, uncheck *Guest users can see and interact with the site without logging in*.
+//. Go to *Setup* > *Sites* and click the community label.
+//. From the Sites detail page, click Public Access Settings.
+//+
+//The Guest User Profile displays.
+//. Click *Assigned Users*.
+//. Click *Site Guest User*, *[Community name]*.
+//. Click *Permission Set Assignments*.
+//. Delete the *ACM Guest User Permission* set.
 
 Once the API portal is created, it is given an active status. The portal is not live until it is published.
