@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Anypoint Platform comes with predefined roles and permissions that can be set in the Access Management to provide users with different access levels. API Experience Hub has permissions for administrators, consumers, and Exchange viewers.
+Anypoint Platform comes with predefined roles and permissions that can be set in the Access Management to manage users with different access levels. API Experience Hub has permissions for administrators, consumers, and Exchange viewers.
 
 == Consumer Users
 API Experience Hub has the following consumer user profiles:
