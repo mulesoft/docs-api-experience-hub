@@ -12,7 +12,7 @@ APIs that are protected by a client ID enforcement policy require client applica
 From this page, you can see the name, description, the client credentials of an application.
 
 == Search for Applications
-If you have several applications listed in the My Applications page, you can search for a specific one by using the Search box. Enter the application name or the description of the application and press enter or return. The number of applications that match your search criteria display in the list of search results.
+If there are several applications listed in the My Applications page, you can search for a specific one by using the Search box. Enter the application name or the description of the application and press enter or return. The number of applications that match your search criteria display in the list of search results.
 
 //screen capture of My Applications with search results
 
@@ -47,7 +47,7 @@ Lists the application’s redirect URIs.
 Lists the application’s grant types. 
 * API Contracts
 +
-Lists the application’s API name, environment and instances, SLA tier, and request access state.  The environment can be either a sandbox or development environment. Define SLA tiers in API Manager. Request access states can be pending, approved, or failed.
+Lists the application’s API name, environment and instances, SLA tier, and request access state.  The environment can be either a sandbox or development environment. Request access states can be pending, approved, or failed.
 
 From the Application Details page, you can:
 
@@ -64,14 +64,14 @@ From the Application Details page, you can reset the client secret for an applic
 
 To reset the client secret:
 
-. From *Client Credentials*, click *Reset client secret*. 
+. From the *Client Credentials* section, click *Reset client secret*. 
 . Click *Confirm*.
 . To view the new client secret, click the view icon. 
 
 === Edit the Client Application Details
 You can edit a client application name, description, OAuth 2.0 grant type, OAuth 2.0 Redirect URIs, and SLA Tier from the Application Details page. 
 
-. From *My Applications*, click the application name in the list.  
+. From the *My Applications* section, click the application name in the list.  
 . Click *Edit*.
 . From the *Application Details* page, edit the corresponding fields.
 . Click *Save*.
@@ -79,8 +79,8 @@ You can edit a client application name, description, OAuth 2.0 grant type, OAuth
 === Add an SLA Tier
 SLA tiers are defined in API Manager and display as SLA Tier options in the Application Details page. If an application does not have an SLA tier listed, you can request to add an SLA tier. The instance owner must approve the tier.
 
-. Click the name of the application in the list from the My Applications page.
-. Click + Add.
+. From the *My Applications* section, click the application name in the list. 
+. From the *SLA Tier* column of the *API Contracts* section, click + Add.
 . From the *Add SLA Tier* list, select from the list of tiers.
 . Click *Save*.
 +
@@ -92,7 +92,7 @@ The SLA tier can limit the number of requests an application can make to the API
 To edit the SLA tier for a client application:
 
 . From the *My Applications* page, click the name of the application in the list.
-. From the *SLA Tier* column of the API Contracts section that you want to change, click the SLA tier option. 
+. From the *SLA Tier* column of the *API Contracts* section that you want to change, click the SLA tier edit option. 
 . From the *Edit SLA Tier* dialog, select from the list of SLA tiers.
 . Click *Save*. 
 . Click *Okay* to close the message.
