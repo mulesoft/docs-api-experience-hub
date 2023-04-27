@@ -3,9 +3,13 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Member users who have registered applications, can view the My Applications page. The page lists applications that hold a contract with an API. Each client application has a client ID, client secret, description, URL, redirect URIs, and grant types.
+Member users who have registered applications, can see My Applications at the top of the portal. The My Applications page lists applications that hold a contract with an API. Each client application has a client ID, client secret, description, URL, redirect URIs, and grant types.
 
 APIs that are protected by a client ID enforcement policy require client applications to provide a client ID and optional client secret. The client ID and client secret credentials are automatically created when the client application is registered.
+
+//placeholder for screen capture of My Applications page
+
+From this page, you can see the name, description, the client credentials of an application.
 
 == Search for Applications
 If you have several applications listed in the My Applications page, you can search for a specific one by using the Search box. Enter the application name or the description of the application and press enter or return. The number of applications that match your search criteria display in the list of search results.
