@@ -16,9 +16,10 @@
 ** xref:look-and-feel-customization.adoc[Look-and-Feel Customization]
 ** xref:api-experience-hub-lightning-components.adoc[API Experience Hub Lightning Components]
 ** xref:preview-your-portal.adoc[Preview Your Portal]
-* xref:deactivate-your-portal-site.adoc[Deactivate Your Portal Site]
+
 * xref:administering-your-portal.adoc[Administering Your API Portal]
 ** xref:manage-client-applications-and-contracts.adoc[Manage Client Applications and Contracts]
+* xref:deactivate-your-portal-site.adoc[Deactivate Your Portal Site]
 * xref:discovering-and-consuming-apis.adoc[Discovering and Consuming APIs]
 ** xref:access-an-api-portal.adoc[Access an API Portal]
 ** xref:discover-apis.adoc[Discover APIs]
