@@ -60,7 +60,6 @@ When the application is approved, an email is sent.
 +
 The My Applications page lists the client ID and client secret for this access instance.
 
-
 == See Also
 
 * xref:view-api-details.adoc[View API Details]
