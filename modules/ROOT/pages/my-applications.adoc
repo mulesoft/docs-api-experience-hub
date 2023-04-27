@@ -3,14 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-The My Applications page lists applications that hold a contract with an API. Each client application has a client ID, client secret, description, URL, redirect URIs,  and grant types.
-
-To register a client application to an existing API, the client application must first request access. When the request is approved by the API owner, a contract is created between the client application and the API, and the client application is registered.
-
-If you don’t have an application to link to the API, you can create the application in the Request access dialog. You can then click Request access to connect your application and the API. Some APIs require selecting a service-level agreement (SLA), and some APIs require accepting terms and conditions.
+Member users who have registered applications, can view the My Applications page. The page lists applications that hold a contract with an API. Each client application has a client ID, client secret, description, URL, redirect URIs, and grant types.
 
 APIs that are protected by a client ID enforcement policy require client applications to provide a client ID and optional client secret. The client ID and client secret credentials are automatically created when the client application is registered.
-API consumers use the My Applications page to view the contracts created between an API instance and that consumer’s client applications.
 
 == Search for Applications
 If you have several applications listed in the My Applications page, you can search for a specific one by using the Search box. Enter the application name or the description of the application and press enter or return. The number of applications that match your search criteria display in the list of search results.
@@ -50,7 +45,7 @@ Lists the application’s API name, environment and instances, SLA tier, and req
 
 //screen capture of an example Application Details page
 
-From Application Details page, you can:
+From the Application Details page, you can:
 
 * Reset the client secret. 
 * Edit the client applications details.
@@ -74,7 +69,7 @@ You can edit a client application name, description, OAuth 2.0 grant type, OAuth
 
 . From *My Applications*, click the application name in the list.  
 . Click *Edit*.
-. From *Application Details*, edit the corresponding fields.
+. From the *Application Details* page, edit the corresponding fields.
 . Click *Save*.
 
 === Add an SLA Tier
@@ -82,7 +77,7 @@ SLA tiers are defined in API Manager and display as SLA Tier options in the Appl
 
 . Click the name of the application in the list from the My Applications page.
 . Click + Add.
-. From *Add SLA Tier*, select from the list of tiers.
+. From the *Add SLA Tier* list, select from the list of tiers.
 . Click *Save*.
 +
 When the request access is approved, the Request Access State column displays the Approved state and an email is sent to the member.
@@ -108,3 +103,5 @@ To delete a client application:
 +
 The application is removed from the My Applications page.
 
+== See Also
+* xref:request-access.adoc[Request Access]
