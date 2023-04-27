@@ -21,6 +21,7 @@
 
 * xref:deactivate-your-portal-site.adoc[Deactivate Your Portal Site]
 * xref:administering-your-portal.adoc[Administering Your API Portal]
+** xref:manage-client-applications-and-contracts.adoc[Manage Client Applications and Contracts]
 * xref:discovering-and-consuming-apis.adoc[Discovering and Consuming APIs]
 ** xref:access-an-api-portal.adoc[Access an API Portal]
 ** xref:discover-apis.adoc[Discover APIs]

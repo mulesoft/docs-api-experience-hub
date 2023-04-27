@@ -1,0 +1,9 @@
+= Manage Client Applications and Contracts
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Client applications and contracts requested through Anypoint API Community Manager are created in API Manager. Depending on the SLA tier configuration, they are approved automatically or they require approval by the owner of the API or API Group. To review and approve contracts, refer to the API Manager documentation.
+
+== See Also
+* xref:request-access.adoc[Request Access] 
