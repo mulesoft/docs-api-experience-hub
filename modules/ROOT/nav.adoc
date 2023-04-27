@@ -13,12 +13,9 @@
 ** xref:publish-your-portal.adoc[Publish Your Portal]
 *** xref:view-url-for-a-live-published-portal.adoc[View URL for a Live Published Portal]
 * xref:customizing-your-portal.adoc[Customizing Your Portal]
-
 ** xref:look-and-feel-customization.adoc[Look-and-Feel Customization]
 ** xref:api-experience-hub-lightning-components.adoc[API Experience Hub Lightning Components]
 ** xref:preview-your-portal.adoc[Preview Your Portal]
-
-
 * xref:deactivate-your-portal-site.adoc[Deactivate Your Portal Site]
 * xref:administering-your-portal.adoc[Administering Your API Portal]
 ** xref:manage-client-applications-and-contracts.adoc[Manage Client Applications and Contracts]
