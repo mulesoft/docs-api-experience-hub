@@ -3,9 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Member users who have registered applications, can see My Applications at the top of the portal. The My Applications page lists applications that hold a contract with an API. Each client application has a client ID, client secret, description, URL, redirect URIs, and grant types.
+Member users can see My Applications at the top of the portal. The My Applications page lists applications that hold a contract with an API. Each client application has a client ID, client secret, description, URL, redirect URIs, and grant types.
 
-APIs that are protected by a client ID enforcement policy require client applications to provide a client ID and optional client secret. The client ID and client secret credentials are automatically created when the client application is registered.
+APIs that are protected by a client ID enforcement policy require client applications to provide a client ID and optional client secret. The client ID and client secret credentials are automatically created when the client application is registered. For more information about registering an application, see xref:request-access.adoc[Request Access].
 
 //placeholder for screen capture of My Applications page
 
@@ -29,6 +29,8 @@ You can view and copy client credentials as follows:
 == Application Details
 To view the details of a client application, from the My Applications page, click the application from the list to display the Application Details page.
 
+//screen capture of an example Application Details page
+
 You can view the following details about an application:
 
 * Application URL
@@ -46,8 +48,6 @@ Lists the application’s grant types.
 * API Contracts
 +
 Lists the application’s API name, environment and instances, SLA tier, and request access state.  The environment can be either a sandbox or development environment. Define SLA tiers in API Manager. Request access states can be pending, approved, or failed.
-
-//screen capture of an example Application Details page
 
 From the Application Details page, you can:
 
@@ -102,10 +102,8 @@ When you do not need the contract for an API, you can delete it. Once the applic
 
 To delete a client application:
 
-. From the *Application Details* page for the application, . click Delete.
+. From the *Application Details* page for the application, click *Delete*.
 . From the *Delete application* message, click *Delete*.
 +
 The application is removed from the My Applications page.
 
-== See Also
-* xref:request-access.adoc[Request Access]
