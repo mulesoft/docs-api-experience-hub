@@ -1,19 +1,16 @@
-= Access an API Portal
+= Self-Registration
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Users can sign up to get access to an API portal when self-registration is enabled by the portal administrator.
+Users who access an API portal without logging in cannot perform most actions in the portal, like requesting access to APIs to use them. Becoming a member gives you access to more APIs and functionality. Anyone can sign up for an account when self-registration is enabled by the portal administrator. You become a member once your registration is approved by the administrator. A welcome email is sent to you that contains a link to set up your account and password.
 
-The following is an example portal:
+To register for an account:
 
-image::aeh-portal-login.png[Portal login]
-
-The signup process includes the following steps:
-
-. Enter the URL of the portal in a browser window.
-. Enter the first name, last name, and email address.
+. In a browser window, enter the URL of the portal.
 . Click *Sign Up*.
-+
-All self-registers are automatically approved. Ensure that the link to the portal is only accessible to trusted parties. 
-. From the portal, click *Log in* and enter your username and password.
+. Enter your first name, last name, and email address.
+. Click *Sign Up*
++ When your registration is accepted, you are sent a welcome email that contains a link to set up your account and password.
+ 
+

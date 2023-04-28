@@ -9,20 +9,18 @@
 ** xref:styling-your-api-portal.adoc[Styling Your API Portal]
 ** xref:managing-your-portal.adoc[Managing Your API Portal]
 *** xref:api-management.adoc[API Management]
+*** xref:user-management.adoc[User Management]
 *** xref:settings.adoc[Settings]
-** xref:publish-your-portal.adoc[Publish Your Portal]
+* xref:publish-your-portal.adoc[Publish Your Portal]
 *** xref:view-url-for-a-live-published-portal.adoc[View URL for a Live Published Portal]
 * xref:customizing-your-portal.adoc[Customizing Your Portal]
-
 ** xref:look-and-feel-customization.adoc[Look-and-Feel Customization]
 ** xref:api-experience-hub-lightning-components.adoc[API Experience Hub Lightning Components]
 ** xref:preview-your-portal.adoc[Preview Your Portal]
-
-
 * xref:deactivate-your-portal-site.adoc[Deactivate Your Portal Site]
 * xref:administering-your-portal.adoc[Administering Your API Portal]
 * xref:discovering-and-consuming-apis.adoc[Discovering and Consuming APIs]
-** xref:access-an-api-portal.adoc[Access an API Portal]
+** xref:self-registration.adoc[Self-Registration]
 ** xref:discover-apis.adoc[Discover APIs]
 ** xref:search-for-apis.adoc[Search for APIs]
 ** xref:view-api-details.adoc[View API Details]
