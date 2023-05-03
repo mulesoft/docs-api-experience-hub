@@ -12,7 +12,7 @@ Verify that you have the following required accounts and access:
 If you do not have the required accounts and access, issues may occur during the Salesforce linking process when creating your API portal.
 
 == Configure Permissions
-Anypoint Platform comes with predefined permissions that can be set in the Access Management to provide users with different access levels. You can configure the permissions for administrators and Exchange viewers.
+Anypoint Platform comes with predefined permissions that can be set in Anypoint Access Management to provide users with different access levels. You can configure the permissions for administrators and Exchange viewers.
  
 === Before You Begin
 * You must be the Organization Administrator of your main organization. 
@@ -20,7 +20,7 @@ Anypoint Platform comes with predefined permissions that can be set in the Acces
 
 
 === Grant the API Experience Hub Administrator Permission
-Only the Organization Administrator can grant a user the API Experience Hub Administrator permission. Grant this permission when you want another user in your organization to perform the Salesforce linking process, create, curate, manage the portal, and manage users.
+Only the Organization Administrator can grant a user the API Experience Hub Administrator permission. Grant this permission when you want another user in your organization to perform the Salesforce linking process, create and curate the portal, manage the portal, and manage users.
 
 . Log in to Anypoint Platform using an account with the Organization Administrator permission.
 . Click *Access Management*.
@@ -34,7 +34,7 @@ Only the Organization Administrator can grant a user the API Experience Hub Admi
 
 If there is more than one users that will manage the portal, you can grant another user within your organization the API Experience Hub Portal Administrator permission.
 
-. From Access Management, click *Users*.
+. From *Access Management*, click *Users*.
 . Click the username of the user that you want to add the API Experience Hub Administrator permission. 
 . Select *Permissions* and click *Add Permissions*.
 . From the *Select permissions to add for this user* search box, enter *API Experience Hub Portal Amin* and select the checkbox.
@@ -44,9 +44,9 @@ If there is more than one users that will manage the portal, you can grant anoth
 
 The API Experience Hub Administrator and the Portal Administrator can only add APIs to the portal that they have access to in Exchange. All administrators must have the Exchange Viewer permission to add APIs to the portal.
 
-Once an API is added to the API portal by either the API Experience Hub Administrator and the Portal Administrator, all admins can view the API in the portal regardless of their access to specific APIs.
+Once an API is added to the API portal by the API Experience Hub Administrator or the Portal Administrator, all admins can view the API in the portal regardless of their access to specific APIs.
 
-. From Access Management, click *Users*.
+. From *Access Management*, click *Users*.
 . Click the username of the user that you want to add the Exchange Viewers permission. 
 . Select *Permissions* and click *Add Permissions*.
 . From the *Select permissions to add for this user* search box, enter *Exchange Viewers* and select the checkbox.
