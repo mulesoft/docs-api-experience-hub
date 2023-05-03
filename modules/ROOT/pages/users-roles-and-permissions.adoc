@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Anypoint Platform comes with predefined roles and permissions that can be set in the Access Management to manage users with different access levels. API Experience Hub has permissions for administrators, consumers, and Exchange viewers.
+Anypoint Platform comes with predefined roles and permissions that can be set in Access Management to manage users with different access levels. API Experience Hub has permissions for administrators, consumers, and Exchange viewers.
 
 == Consumer Users
 API Experience Hub has the following consumer user profiles:
@@ -11,7 +11,7 @@ API Experience Hub has the following consumer user profiles:
 * Guest
 * Member
 
-These are groups of users with certain permissions that are managed using the Teams feature in Access Management. Permissions for Guest and Member users are automatically determined by how they access an organization's portal. A user who does not log in to the portal is an anonymous user that is assigned the guest user profile with the permissions assigned to this group. A guest user can become a member by completing the registration process for the portal. Once the user's registration is approved, this user inherits the member user profile and it's associated permissions. See xref:access-management::access-managements/teams.adoc[Manage User Access Using Teams] for more information about Teams in Access Management.
+These are groups of users with certain permissions that are managed using the Teams feature in Anypoint Access Management. Permissions for Guest and Member users are automatically determined by how they access an organization's portal. A user who does not log in to the portal is an anonymous user that is assigned the guest user profile with the permissions assigned to this group. A guest user can become a member by completing the registration process for the portal. Once the user's registration is approved, this user inherits the member user profile and its associated permissions. See xref:access-management::access-managements/teams.adoc[Manage User Access Using Teams] for more information about Teams in Access Management.
 
 |===
 |User Profile |Description |Actions
@@ -48,10 +48,11 @@ a|
 * Perform the Salesforce linking process
 * Create a portal
 * Add and remove APIs from the portal
-* Assign the visibility of an API instance create a new connection to Salesforce and new portals.
+* Assign the visibility of an API instance 
+* Create a new connection to Salesforce and new portals.
 * Manage users
 * Use Experience Builder to customize portal|
-API Experience Hub Portal Administrator| Currently, manages only one API portal in the organization. In later a later release, it may be possible to create more that one portal per organization, for example, one internal and one external portal. 
+API Experience Hub Portal Administrator| Currently, manages only one API portal in the organization. In a later release, it may be possible to create more that one portal per organization, for example, one internal and one external portal. 
 a|
 * Add and remove specific APIs from the portal
 * Assign the visibility of an API instance
@@ -65,7 +66,7 @@ All administrators must have the Exchange Viewer permission to view APIs from Ex
 |Permission |Description |Actions
 |Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission cannot add new assets, edit asset portal content, or share an asset with another user.
 a|
-* View APIs in Exchange* 
+* View APIs in Exchange 
 * Import APIs from Exchange to the portal|
 |===
 
