@@ -1,0 +1,109 @@
+= My Applications
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Member users can see My Applications at the top of the portal. The My Applications page lists applications that hold a contract with an API. Each client application has a client ID, client secret, description, URL, redirect URIs, and grant types.
+
+APIs that are protected by a client ID enforcement policy require client applications to provide a client ID and optional client secret. The client ID and client secret credentials are automatically created when the client application is registered. For more information about registering an application, see xref:request-access.adoc[Request Access].
+
+//placeholder for screen capture of My Applications page
+
+From this page, you can see the name, description, the client credentials of an application.
+
+== Search for Applications
+If there are several applications listed in the My Applications page, you can search for a specific one by using the Search box. Enter the application name or description of the application and press Enter or Return. The number of applications that match your search criteria display in the list of search results.
+
+//screen capture of My Applications with search results
+
+== View and Copy Client Credentials
+To view the details of a client application, from the My Applications page, click the application from the list to display the Application Details page. 
+
+You can view and copy client credentials as follows:
+
+* Click *View credentials* from the My Applications page. 
+* To copy the client ID or client secret to the clipboard, click the Copy to clipboard icon.
+* To show the client secret, click the Show Client Secret icon.
+* To hide the client secret, click the Hide Client Secret icon.
+
+== Application Details
+To view the details of a client application, from the My Applications page, click the application from the list to display the Application Details page.
+
+//screen capture of an example Application Details page
+
+You can view the following details about an application:
+
+* Application URL
++
+Displays the application’s internet address. Click the link to go to the URL.
+* Client Credentials
++
+Displays the application’s client ID and client secret.
+* OAuth 2.0 Redirects URIs
++
+Lists the application’s redirect URIs.
+* OAuth 2.0 Grant Type
++
+Lists the application’s grant types. 
+* API Contracts
++
+Lists the application’s API name, environment and instances, SLA tier, and request access state.  The environment can be either a sandbox or development environment. Request access states can be `pending, `approved, or `failed.
+
+From the Application Details page, you can:
+
+* Reset the client secret. 
+* Edit the client applications details.
+* Add an SLA tier.
+* Change the SLA tier.
+* Delete the client application.
+
+=== Reset Client Secret
+You can reset the client secret for an application on a regular cadence to ensure security when users leave the organization or to ensure that the secret is not accidentally exposed to unauthorized users.  
+
+From the Application Details page, you can reset the client secret for an application. Applications using the current client secret cannot access any of the APIs with which they were registered.
+
+To reset the client secret:
+
+. From the *Client Credentials* section, click *Reset client secret*. 
+. Click *Confirm*.
+. To view the new client secret, click the View icon. 
+
+=== Edit the Client Application Details
+You can edit a client application name, description, OAuth 2.0 grant type, OAuth 2.0 Redirect URIs, and SLA Tier from the Application Details page. 
+
+. From the *My Applications* section, click the application name in the list.  
+. Click *Edit*.
+. From the *Application Details* page, edit the corresponding fields.
+. Click *Save*.
+
+=== Add an SLA Tier
+SLA tiers are defined in API Manager and display as SLA Tier options in the Application Details page. If an application does not have an SLA tier listed, you can request to add an SLA tier. The instance owner must approve the tier.
+
+. From the *My Applications* section, click the application name in the list. 
+. From the *SLA Tier* column of the *API Contracts* section, click + Add.
+. From the *Add SLA Tier* list, select from the list of tiers.
+. Click *Save*.
++
+When the request access is approved, the Request Access State column displays the Approved state and an email is sent to the member.
+
+=== Change the SLA Tier
+The SLA tier can limit the number of requests an application can make to the API. You can increase or decrease the number of allowed requests. You can change the SLA tier for an application from the Application Details page. The available SLA tiers are set by an admin in API Manager. The owner of the API instance must approve the request to change the tier level.
+
+To edit the SLA tier for a client application:
+
+. From the *My Applications* page, click the name of the application in the list.
+. From the *SLA Tier* column of the *API Contracts* section that you want to change, click the SLA tier edit option. 
+. From the *Edit SLA Tier* dialog, select from the list of SLA tiers.
+. Click *Save*. 
+. Click *Okay* to close the message.
+
+=== Delete a Client Application
+When you no longer need the contract for an API, you can delete it. Once the application is deleted, there is no longer a contract with the API and you cannot access it. To regain access, you must request access to the API again.
+
+To delete a client application:
+
+. From the *Application Details* page for the application, click *Delete*.
+. From the *Delete application* message, click *Delete*.
++
+The application is removed from the My Applications page.
+
