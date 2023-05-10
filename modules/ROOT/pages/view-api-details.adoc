@@ -3,8 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-The API Details page includes the following information about an API that the portal administrator sets up. 
-
+The API Details page includes the following information about an API:
 * Name
 * Type
 * Description

@@ -11,7 +11,7 @@ The following users can perform these tasks:
 
 *Portal administrators*:
 
-* [Onboard the API Experience Hub Administrator]
+* xref:prerequisites.adoc[Onboard the API Experience Hub Administrator]
 * xref:creating-your-api-portal.adoc[Create an API Portal]
 ** [Link]
 * xref:administering-your-portal.adoc[Enable Self-Registration]
