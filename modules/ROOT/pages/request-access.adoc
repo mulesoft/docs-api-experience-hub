@@ -23,14 +23,14 @@ You can request access to an API by using an existing application:
 An application and its instance use the same client provider. If an organization administrator has configured multiple client providers in Anypoint API Manager, then the application list shows only the applications that use the same client provider as the selected instance.
 . From *SLA tier*, select a service-level agreement (SLA) value for the application.
 +
-The SLA tier only appears when the instance has one or more tiers.
+The SLA tier appears only when the instance has one or more tiers.
 . If the API has terms and conditions, select *I accept the terms and conditions*.
 . Click *Request access*.
 +
 A Request access message displays to inform you that the request was received and is pending. If the SLA tier has auto-approval, the message shows that the request access was approved, and the application displays in the My Applications page.
 . Click *Okay* to close the message.
 +
-If the SLA tier has the auto-approval set, the application is received and approved.
+If the SLA tier has auto-approval, the application is received and approved.
 . Click *Okay* to close the message.
 . To see the application details, go to the *My Applications* page.
 +
