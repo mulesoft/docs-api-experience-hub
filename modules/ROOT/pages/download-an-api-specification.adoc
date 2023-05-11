@@ -1,4 +1,4 @@
-= Download and API Specification
+= Download an API Specification
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
