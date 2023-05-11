@@ -30,7 +30,7 @@ Only the Organization Administrator can grant a user the API Experience Hub Admi
 . From the *Select permissions to add for this user* search box, enter *API Experience Hub Amin* and select the checkbox.
 . Click the blue plus icon.
 
-=== Grant the API Experience Hub Portal Administrator Permission 
+//=== Grant the API Experience Hub Portal Administrator Permission 
 
 If there is more than one users that will manage the portal, you can grant another user within your organization the API Experience Hub Portal Administrator permission.
 
