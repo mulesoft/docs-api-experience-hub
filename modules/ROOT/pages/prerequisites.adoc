@@ -6,7 +6,7 @@ endif::[]
 Verify that you have the following required accounts and access:
 
 * Anypoint Platform organization in production
-* Salesforce Sandbox or Salesforce Trial Organization
+* Salesforce organization
 * Organization Administrator of the main organization
 
 If you do not have the required accounts and access, issues may occur during the Salesforce linking process when creating your API portal.
