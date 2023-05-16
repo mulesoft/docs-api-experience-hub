@@ -1,9 +1,10 @@
 .Anypoint API Experience Hub
 * xref:index.adoc[API Experience Hub Overview]
+* xref:users-roles-and-permissions.adoc[Users, Roles, and Permissions]
 * xref:prerequisites.adoc[Prerequisites]
 * xref:getting-started.adoc[Getting Started]
-//** xref:default-settings.adoc[Default Settings]
-//** xref:limitations.adoc[Limitations]
+** xref:default-settings.adoc[Default Settings]
+** xref:limitations.adoc[Limitations]
 * xref:creating-your-api-portal.adoc[Creating Your API Portal]
 ** xref:connecting-to-salesforce.adoc[Connecting to Salesforce]
 ** xref:styling-your-api-portal.adoc[Styling Your API Portal]

@@ -30,8 +30,7 @@ For more information about the required permissions, see xref:prerequisites.adoc
 == Connect, Link, and Install 
 The process of deploying your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint organization to your Salesforce organization, then installing the Salesforce Experience Cloud package. Currently, the linking process is a one-time step when setting up your portal.
 
-NOTE: Only an organizational administrator with permissions in AnyPoint
- can perform the Salesforce linking.
+NOTE: Only an Organizational Administrator or API Experience Hub Administrator can perform the Salesforce linking.
 
 Follow these steps to deploy your API portal:
 
@@ -41,7 +40,7 @@ Follow these steps to deploy your API portal:
 . If you have a custom Salesforce domain, check *I have a custom Salesforce domain* and enter your domain address.
 . Click *Connect*.
 . Enter your Salesforce username and password and click *Log In*. 
-. Click *Allow* to allow MuleSoft to access your data.
+. Click *Allow MuleSoft to access your data*.
 . Confirm the Salesforce access information.
 . Click *Continue*.
 +
