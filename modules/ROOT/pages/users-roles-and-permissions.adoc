@@ -29,7 +29,7 @@ a|
 
 == Administrator Roles and Permissions
 
-The Organization Administrator role has all of the permissions necessary to create, curate, manage, and customize a portal. This role can also grant another user in their organization the API Experience Hub Administrator permission. This permission allows the user to do all of the same tasks in the portal as the Organization Administrator.
+The Organization Administrator role has all of the permissions necessary to create, curate, manage, and customize a portal. This role can also grant another user in their organization the API Experience Hub Administrator permission. This permission enables the user to do all of the same tasks in the portal as the Organization Administrator.
 
 If there is more than one user who intends to curate and manage the portal, the Organization Administrator can grant another user the API Experience Hub Portal Administrator permission. This administrator has fewer permissions in the portal than the Organization Administrator and the API Experience Hub Administrator.
 
