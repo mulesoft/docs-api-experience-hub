@@ -17,14 +17,14 @@ These are groups of users with certain permissions that are managed using the Te
 |User Profile |Description |Actions
 |Guest| This user’s profile is anonymous and is not logged in the API portal. 
 a|
-* View public APIs that are shared with them
-* Can self-register to become a member
-* Cannot request access to APIs 
+* View public APIs that are shared with them.
+* Can self-register to become a member.
+* Cannot request access to APIs. 
 |Member|This is a registered user who can log in to a portal.
 a|
-* View public APIs and other APIs that are shared with them
-* Registered using self-registration to become a member
-* Request access to APIs| 
+* View public APIs and other APIs that are shared with them.
+* Registered using self-registration to become a member.
+* Request access to APIs.| 
 |===
 
 == Administrator Roles and Permissions
@@ -46,33 +46,30 @@ Administrators can only add APIs that they have the Exchange Viewer permission f
 
 Administrators enter the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore API Experience Hub cannot determine the individual administrator's action in the shared account. If the administrator is already logged in to the Salesforce organization, they lose their previous session when they click the *Preview portal in Salesforce Builder* button.
 
- 
- 
 |===
 |Role/Permission |Description |Actions
 |Organization administrator in the main organization|API Experience Hub is business group agnostic which means that the portal belongs to the main organization only and the admin cannot create portals across business groups. The organization administrator inherits all API Experience Hub permissions, enabling them to perform any available operation within the platform.
 a|
 * Perform the Salesforce linking process
-* Create a portal
-* Add and remove APIs from the portal
-* Assign the visibility of an API instance
-* Manage users
+* Create a portal.
+* Add and remove APIs from the portal.
+* Assign the visibility of an API instance.
+* Manage users.
 *  Use Experience Builder to customize portal
 |API Experience Hub Administrator|The admin inherits all of the Organization Administrator permissions. 
 a|
-* Perform the Salesforce linking process
-* Create a portal
-* Add and remove APIs from the portal
-* Assign the visibility of an API instance 
+* Perform the Salesforce linking process.
+* Create a portal.
+* Add and remove APIs from the portal.
+* Assign the visibility of an API instance. 
 * Create a new connection to Salesforce and new portals.
-* Manage users
-* Use Experience Builder to customize portal|
-API Experience Hub Portal Administrator| Currently, manages only one API portal in the organization. In a later release, it may be possible to create more that one portal per organization, for example, one internal and one external portal. 
+* Manage users.
+* Use Experience Builder to customize portal.|
+API Experience Hub Portal Administrator| Currently, can manages only one API portal in the organization. 
 a|
 * Add and remove specific APIs from the portal
 * Assign the visibility of an API instance
 |===
-
 
 == Exchange Permissions
 All administrators must have the Exchange Viewer permission to import APIs into the portal.
@@ -81,8 +78,8 @@ All administrators must have the Exchange Viewer permission to import APIs into 
 |Permission |Description |Actions
 |Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission cannot add new assets, edit asset portal content, or share an asset with another user.
 a|
-* View APIs in Exchange 
-* Import APIs from Exchange to the portal|
+* View APIs in Exchange. 
+* Import APIs from Exchange to the portal.|
 |===
 
 == See More
