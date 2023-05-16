@@ -17,13 +17,15 @@ The package is installed in a sandbox or a trial Salesforce organization. The ch
 
 == Before You Begin
 
-IMPORTANT: Before you can create your portal, you must have:
+Before you can create your portal, you must have:
 
-* Familiarity with Anypoint Platform and Exchange, including the permissions to use Exchange for publishing and viewing RAML or OAS specifications in your business group
+* Familiarity with Anypoint Platform and Exchange, including the permissions to use 
 * Anypoint Platform Organization
-* Salesforce Sandbox or Trail Organization
 * API Experience Hub Admin permission
 * Organizational administrator with permissions in AnyPoint
+* Exchange Viewer permission
+
+For more information about the required permissions, see xref:prerequisites.adoc[Prerequisites].
 
 == Connect, Link, and Install 
 The process of deploying your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint organization to your Salesforce organization, then installing the Salesforce Experience Cloud package. Currently, the linking process is a one-time step when setting up your portal.
@@ -34,20 +36,16 @@ Follow these steps to deploy your API portal:
 
 . Navigate to Anypoint Platform, enter your username and password, and then click *Sign in*.
 . From Anypoint Platform, select *API Experience Hub* from the list of products.
-. Click *Connect to Salesforce Experience Cloud*.
-. From *Environment*, select an option:
-** Existing Salesforce customers use the *test.Salesforce.com* sandbox.
-** New Salesforce customers use the *login.Salesforce.com* prod Trail organization.
+. From the *Connect to Salesforce Experience Cloud* dialog, select *Production* from the *Environment* list.
 . If you have a custom Salesforce domain, check *I have a custom Salesforce domain* and enter your domain address.
 . Click *Connect*.
 . Enter your Salesforce username and password and click *Log In*. 
 . Click *Allow MuleSoft to access your data*.
 . Confirm the Salesforce access information.
-. To edit the Salesforce access information, click *Edit access information* and make the necessary changes.
-. To confirm, click *Continue*.
+. Click *Continue*.
 +
 The process of installing the Salesforce Experience Cloud package begins. When the package is installed successfully, you receive an email.
 
 == Next Steps
-When the connection is complete, click *+ New API Portal* to begin styling your API portal.
+When the connection is complete, you can xref:styling-your-api-portal.adoc[style your API portal].
 

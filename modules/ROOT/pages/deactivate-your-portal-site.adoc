@@ -7,6 +7,7 @@ You can make your published portal inaccessible to users by deactivating the por
 
 To deactivate your portal site, follow these steps:
 
+. From the *Manage your API portal* page, click *Preview portal in Salesforce Builder*.
 . From the Builder, go to *Setup* > *All Sites*.
 . Click *Administration*.
 . Click *Settings*.
