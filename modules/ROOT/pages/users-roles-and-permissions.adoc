@@ -58,13 +58,13 @@ a|
 * Use Experience Builder to customize portal
 |API Experience Hub Administrator|The admin inherits all of the Organization Administrator permissions. 
 a|
-* Perform the Salesforce linking process.
-* Create a portal.
-* Add and remove APIs from the portal.
-* Assign the visibility of an API instance. 
-* Create a new connection to Salesforce and new portals.
-* Manage users.
-* Use Experience Builder to customize portal.|
+* Perform the Salesforce linking process
+* Create a portal
+* Add and remove APIs from the portal
+* Assign the visibility of an API instance
+* Create a new connection to Salesforce and new portals
+* Manage users
+* Use Experience Builder to customize portal |
 API Experience Hub Portal Administrator| Currently, can manages only one API portal in the organization. 
 a|
 * Add and remove specific APIs from the portal
