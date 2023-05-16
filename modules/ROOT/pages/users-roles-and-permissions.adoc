@@ -78,8 +78,8 @@ All administrators must have the Exchange Viewer permission to import APIs into 
 |Permission |Description |Actions
 |Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission cannot add new assets, edit asset portal content, or share an asset with another user.
 a|
-* View APIs in Exchange. 
-* Import APIs from Exchange to the portal.|
+* View APIs in Exchange
+* Import APIs from Exchange to the portal |
 |===
 
 == See More
