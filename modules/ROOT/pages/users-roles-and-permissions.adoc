@@ -51,11 +51,11 @@ Administrators enter the Salesforce Experience Builder with a shared user accoun
 |Organization administrator in the main organization|API Experience Hub is business group agnostic which means that the portal belongs to the main organization only and the admin cannot create portals across business groups. The organization administrator inherits all API Experience Hub permissions, enabling them to perform any available operation within the platform.
 a|
 * Perform the Salesforce linking process
-* Create a portal.
-* Add and remove APIs from the portal.
-* Assign the visibility of an API instance.
-* Manage users.
-*  Use Experience Builder to customize portal
+* Create a portal
+* Add and remove APIs from the portal
+* Assign the visibility of an API instance
+* Manage users
+* Use Experience Builder to customize portal
 |API Experience Hub Administrator|The admin inherits all of the Organization Administrator permissions. 
 a|
 * Perform the Salesforce linking process.
