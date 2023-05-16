@@ -12,7 +12,7 @@ Verify that you have the following required accounts and access:
 If you do not have the required accounts and access, issues may occur during the Salesforce linking process when creating your API portal.
 
 == Configure Permissions
-Anypoint Platform comes with predefined permissions that can be set in Anypoint Access Management to provide users with different access levels. You can configure the permissions for administrators and Exchange viewers.
+Anypoint Platform comes with predefined permissions that you can set in Anypoint Access Management to provide users with different access levels. You can configure the permissions for administrators and Exchange viewers.
  
 === Before You Begin
 * You must be the Organization Administrator of your main organization. 
