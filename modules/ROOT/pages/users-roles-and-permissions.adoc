@@ -11,7 +11,7 @@ API Experience Hub has the following consumer user profiles:
 * Guest
 * Member
 
-These are groups of users with certain permissions that are managed using the Teams feature in Anypoint Access Management. Permissions for Guest and Member users are automatically determined by how they access an organization's portal. A user who does not log in to the portal is an anonymous user that is assigned the guest user profile with the permissions assigned to this group. A guest user can become a member by completing the registration process for the portal. Once the user's registration is approved, this user inherits the member user profile and its associated permissions. See xref:access-management::access-managements/teams.adoc[Manage User Access Using Teams] for more information about Teams in Access Management.
+These are groups of users with certain permissions that you can manage using the Teams feature in Anypoint Access Management. Permissions for Guest and Member users are automatically determined by how they access an organization's portal. A user who does not log in to the portal is an anonymous user that is assigned the guest user profile with the permissions assigned to this group. A guest user can become a member by completing the registration process for the portal. Once the user's registration is approved, this user inherits the member user profile and its associated permissions. See xref:access-management::access-managements/teams.adoc[Manage User Access Using Teams] for more information about Teams in Access Management.
 
 |===
 |User Profile |Description |Actions
