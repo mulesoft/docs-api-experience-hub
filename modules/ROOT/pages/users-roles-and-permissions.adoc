@@ -42,7 +42,7 @@ Any user who is assigned as the API Experience Hub Administrator is automaticall
 +
 Any user assigned as the API Experience Hub Portal Administrator is automatically added to this team in Access Management.
 
-Administrators can only add APIs that they have the Exchange Viewer permission for them. When APIs are added to the portal, all administrators are automatically assigned the Exchange Viewer permission. 
+Administrators can only add APIs for which they have the Exchange Viewer permission. When APIs are added to the portal, all administrators are automatically assigned the Exchange Viewer permission. 
 
 Administrators enter the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore API Experience Hub cannot determine the individual administrator's action in the shared account. If the administrator is already logged in to the Salesforce organization, they lose their previous session when they click the *Preview portal in Salesforce Builder* button.
 
