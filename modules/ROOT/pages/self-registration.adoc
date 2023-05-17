@@ -12,7 +12,7 @@ To register for an account:
 . Click *Not a Member?*.
 . Enter your first name, last name, and email address.
 . Click *Sign Up*.
-. Follow the directions in the welcome email to set up your account.
+. Follow the instructions in the welcome email to set up your account.
 
  
 
