@@ -9,7 +9,7 @@ The Settings page provides information about the Salesforce account your API por
 
 To view information about the Salesforce organization for your portal, from the *Manage your API portal* page, click *Settings*. 
 
-The Settings screen show the following information:
+The Settings page show the following information:
 
 * Environment
 * Username
@@ -20,7 +20,6 @@ The Settings screen show the following information:
 
 Anypoint can only be linked to one Salesforce organization; only one API portal can be created for that organization. Portal administrators can disconnect a portal when a portal is no longer needed or when you want to create a new portal with the same Salesforce organization portal.
 
-
 Disconnecting your API portal removes artifacts from the API Experience Hub database and unlinks Anypoint to your Salesforce organization so that you can create another API portal.
 
 
@@ -28,7 +27,7 @@ To create a new API portal, you must disconnect the current API portal from your
 
 The following graphic shows the *Disconnect portal* button from the Settings screen:
 
-image::apiexphub-settings-disconnect-portal.png[The Disconnect portal button from the Settings screen]
+image::apiexphub-settings-disconnect-portal.png[The Disconnect portal button from the Settings page]
 
 To disconnect your API portal:
 
