@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-The User Management page enables you to view and manage users, manage access requests from guest users, and set up self-registration.
+The User Management page enables you to view and manage users and manage access requests from guest users. The ability for users to self-register for your portal is enabled by default.
 
 You can see information about: 
 
@@ -11,7 +11,7 @@ You can see information about:
 
 * Members
 * Pending requests
-* User Registration
+//* User Registration
 
 == Members
 When the registrations of guest users are approved, they are added to the list of members in the Members tab of the User Management page. You can view a searchable list of current members and manage their accounts by enabling or disabling them.
@@ -51,7 +51,7 @@ The status of the registration. Registration status can be pending approval or r
 === Approve or Reject Member Registration
 After a guest user registers for an account using self-registration, you receive a notification email. 
 
-To approve or reject the request.
+To approve or reject the request:
 
 . From the *User Management* page, select the *Pending requests* tab.
 . Enter the user's name or email in the *Search by name or email* box.
@@ -59,26 +59,23 @@ To approve or reject the request.
 +
 If the registration is approved, the user is removed from the list in the Pending requests tab and added to the list of members in the Members tab.
 
-== User Registration
+//== User Registration
 Use the User Registration tab to set up self-registration for guest users to sign up for an account to access your portal. Self-registration enables guest users to register themselves as members of your API portal. From the Pending requests tab, you can see a list of pending requests from guest users who want to access your portal. 
 
-=== Enable Self-Registration
-To configure a registration page for your portal members:
+//=== Enable Self-Registration
+//To configure a registration page for your portal members:
 
-. From the *User Registration* tab of the *User Management* page, click the *Manage external user registration* link. 
-+
-You are navigated to the Salesforce Experience Builder.
-. From the Builder, go to *Setup* and enter *All Sites* in the quick find box.
-. Click on workspace for the site that you want to enable self-registration.
-. Go to *Administration* and select *Login & Registration*.
-. Scroll down to the *Registration Page Configuration* section.
-. Select *Allow customers and partners to self-register*.
-. Select *Experience Builder Page* for *Registration Page Type* and search for *Register*.
-. Select *[Site Name] Member User* in *Profile*.
-. Click *Save*.
-
-
-
+//. From the *User Registration* tab of the *User Management* page, click the *Manage external user registration* link. 
+//+
+//You are navigated to the Salesforce Experience Builder.
+//. From the Builder, go to *Setup* and enter *All Sites* in the quick find box.
+//. Click on workspace for the site that you want to enable self-registration.
+//. Go to *Administration* and select *Login & Registration*.
+//. Scroll down to the *Registration Page Configuration* section.
+//. Select *Allow customers and partners to self-register*.
+//. Select *Experience Builder Page* for *Registration Page Type* and search for *Register*.
+//. Select *[Site Name] Member User* in *Profile*.
+//. Click *Save*.
 
 == See Also
 * xref:managing-your-api-portal.adoc[Managing Your API Portal]
