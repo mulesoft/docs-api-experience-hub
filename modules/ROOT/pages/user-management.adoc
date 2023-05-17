@@ -60,7 +60,7 @@ To approve or reject the request.
 If the registration is approved, the user is removed from the list in the Pending requests tab and added to the list of members in the Members tab.
 
 == User Registration
-From the User Registration tab, you can set up self-registration for guest users to sign up for an account to access your portal. Self-registration enables guest users to register themselves as members of your API portal. From the Pending requests tab, you can see a list of pending requests from guest users who want to access your portal. 
+Use the User Registration tab to set up self-registration for guest users to sign up for an account to access your portal. Self-registration enables guest users to register themselves as members of your API portal. From the Pending requests tab, you can see a list of pending requests from guest users who want to access your portal. 
 
 === Enable Self-Registration
 Configure a registration page for your portal members. 
