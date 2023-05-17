@@ -49,10 +49,12 @@ The date the user registered to access the portal.
 The status of the registration. Registration status can be pending approval or rejected. When the registration is approved, the user is removed from the Pending requests list and added to the list of members on the Members page. 
 
 === Approve or Reject Member Registration
-After a guest user registers for an account using self-registration, you receive a notification email. You can approve or reject the request.
+After a guest user registers for an account using self-registration, you receive a notification email. 
+
+To approve or reject the request.
 
 . From the *User Management* page, select the *Pending requests* tab.
-. To find a user, enter the user's name or email in the *Search by name or email* box.
+. Enter the user's name or email in the *Search by name or email* box.
 . From the list, click the three dots icon and select *Approve* or *Reject* from the options.
 +
 If the registration is approved, the user is removed from the list in the Pending requests tab and added to the list of members in the Members tab.
