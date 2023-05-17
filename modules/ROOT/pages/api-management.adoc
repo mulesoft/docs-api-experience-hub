@@ -3,15 +3,15 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-From API Management, curate your portal by viewing information about an API from Exchange, adding or removing APIs, and changing the visibility of an API version.
+From the API management page, curate your portal by viewing information about an API from Exchange, adding or removing APIs, and changing the visibility of an API version.
 
-API Management shows the following information:
+API management shows the following information:
 
-image::aeh-api-management.png[API Management]
+image::aeh-api-management.png[API management page]
 
 * *APIs in the portal* 
 +
-Shows the APIs that have been added to your portal and includes a physical count of APIs that were added. When the portal is created, the last five APIs that were created in Exchange are added to this tab. The default visibility for the APIs is Administrators only. The administrator of the portal can change this visibility for each API in the API Management tab. These APIs can also be removed. 
+Shows the APIs that have been added to your portal and includes a physical count of APIs that were added. When the portal is created, the last five APIs that were created in Exchange are added to this tab. The default visibility for the APIs is Administrators only. The administrator of the portal can change this visibility for each API in the APIs in the portal tab. These APIs can also be removed. 
 
 * *APIs in Exchange*
 +
@@ -24,14 +24,14 @@ image::aeh-api-description.png[View API Description]
 == View APIs in Exchange
 You can view information about an API directly from Exchange to determine whether you want the API in your portal.
 
-From the *APIs in Exchange* tab, select an API from the list, click more options, and select *View in Exchange*.
+From the *APIs in Exchange* tab, select an API from the list, click more options icon, and select *View in Exchange*.
 
 == Add APIs from Exchange
 Curate your portal in API Experience Hub by adding APIs from Exchange. When adding APIs to the portal, the default visibility is Administrator only. You can change the visibility to include members or everyone. See <<make-api-versions-visible,Make API Versions Visible>> for more information.
 
 To add APIs to your portal:
 
-. From API Management, select the *APIs in Exchange* tab.
+. From the *API management* page, select the *APIs in Exchange* tab.
 . To search for an API by name or description, enter the name or description into the *Search* bar.
 . Select an API from the list, click the more options icon, and select *Add to portal*.
 +
@@ -40,7 +40,7 @@ The API displays in the list in the *APIs in the portal* tab.
 == Remove APIs from the Portal
 To remove APIs from your portal:
 
-. From API Management, select the *APIs in the portal* tab.
+. From the *API management* page, select the *APIs in the portal* tab.
 . To search for an API by name or description, enter the name or description into the *Search* bar.
 . Select an API from the list, click the more options icon, and select *Remove from portal*.
 . Click *Confirm*.
@@ -50,25 +50,28 @@ In the *APIs in the portal* tab, the API is removed from the list.
 == Make API Versions Visible
 You can determine which version of an API a user can view in your portal. You can set the visibility to Administrators only, Members only, or Everyone.
 
-* Administrators only
+* Administrators 
 +
-Use this option if you want the version to be seen only by the portal administrator.
-* Members only
+Use this option if you want the version to be seen by the portal administrator only.
+* Guests
++
+Use this option if you want the version to be seen by members only
+* Members 
 + 
-Use this option if you want the version to be seen only by logged-in members
+Use this option if you want the version to be seen only by logged-in members.
 * Everyone
 +
 Use this option if you want the version to be publicly available to anyone.
 
-If the visibility is Everyone or Members only, then consumer developers can see the new API version in the API Carousel of the portal.
+If the visibility is Everyone or Members, then consumer developers can see the new API version in the API Carousel of the portal.
 
 To edit the user visibility that displays for an API:
 
-. From API Management, select *APIs in Portal*.
+. From the *API management* page, select *APIs in Portal*.
 . To search for an API by name, enter the name into the *Search* field.
 . Select an API from the list, click more options, and select *Edit display details*.
 . To change the API version visibility, select an option from the *Visibility* drop-down list for the corresponding version.
 . To save the changes, click *Save*.
 
 == Next Steps
-From User Management, you can view and manage members, pending requests, and user registration.
+From User Management, you can view and manage members, see pending requests, and find user registration information..
