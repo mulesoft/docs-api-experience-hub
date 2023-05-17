@@ -43,7 +43,7 @@ The name of the user who is requesting access.
 The email address of the user who is requesting access.
 * Registration date
 +
-The date the user registered to access the portal
+The date the user registered to access the portal.
 * Registration status
 +
 The status of the registration. Registration status can be pending approval or rejected. When the registration is approved, the user is removed from the Pending requests list and added to the list of members on the Members page. 
