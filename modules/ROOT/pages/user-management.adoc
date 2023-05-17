@@ -14,7 +14,7 @@ You can see information about:
 //* User Registration
 
 == Members
-When the registrations of guest users are approved, they are added to the list of members in the Members tab of the User Management page. You can view a searchable list of current members and manage their accounts by enabling or disabling them.
+When the registration of guest users are approved, they are added to the list of members in the Members tab of the User Management page. You can view a searchable list of current members and manage their accounts by enabling or disabling them.
 
 //TODO currently, the UI does not have enable or disable functionality. Find out if it will be in GA.
 
@@ -79,7 +79,7 @@ If the registration is approved, the user is removed from the list in the Pendin
 
 == See Also
 
-* xref:managing-your-api-portal.adoc[Managing Your API Portal]
+* xref:managing-your-portal.adoc[Managing Your API Portal]
 * xref:self-registration.adoc[Self-Registration]
 
 
