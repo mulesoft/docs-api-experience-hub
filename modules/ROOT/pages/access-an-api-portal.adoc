@@ -7,7 +7,7 @@ Users can sign up to get access to an API portal when self-registration is enabl
 
 The following is an example portal:
 
-image::aeh-portal-login.png[Portal login]
+// need new screen capture image::aeh-portal-login.png[Portal login]
 
 The signup process includes the following steps:
 

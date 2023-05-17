@@ -11,5 +11,7 @@ For more information, see the following topics:
 * xref:discover-apis.adoc[Discover APIs]
 * xref:search-for-apis.adoc[Search for APIs]
 * xref:view-api-details.adoc[View API Details]
+* xref:request_access.adoc[Request Access]
+* xref:my-applications.adoc[My Applications]
 * xref:download-an-api-specification.adoc[Download a API Specification]
 * xref:api-console-specification-and-documentation.adoc[API Console Specifications and Documentation]
