@@ -11,7 +11,7 @@ Add your APIs from Exchange into your API portal, remove APIs from your portal, 
 
 * xref:user-management.adoc[User Management]
 + 
-View and manage members, pending requests, and user registration.
+View and manage members and pending requests.
 
 * xref:settings.adoc[Settings]
 + 

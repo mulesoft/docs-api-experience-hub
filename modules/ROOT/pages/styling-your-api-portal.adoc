@@ -5,11 +5,7 @@ endif::[]
 
 A guided design takes portal administrators through the process of styling the API portal using out-of-the-box templates. The guided design contains basic styling options for the Home, API Catalog, and API Details pages with a live preview to help you visualize your portal. Each page includes a progress bar to visualize where you are in the portal design process. 
 
-After the portal is styled and published, you can further customize it using the Experience Builder.
-
-
-//The guided setup has the following components: 
-//(I will use callouts to label the sections of the page like tasks in right side, setup progress bar at the top, preview at the left, and nav buttons for the final graphic)
+After the portal is styled and created, you can further customize it using the Experience Builder.
 
 Styling an API portal includes the following tasks:
 
@@ -69,15 +65,17 @@ Follow the guided steps to style the API Details page:
 . To add a banner title to the API Details page, enter the title in the *Enter API detail banner Title* text box.
 . To add a description of the API Details page, enter the description in the *Enter API detail description* text box.
 . Click *Finish*.
-. If you are not done setting up your portal, click *Previous*.
-. If you are done with setting up your portal, click *Save changes*.
+. If you are not done styling your portal, click *Previous*.
+. If you are done with styling up your portal, click *Save changes*.
 +
-The process of saving your styles can take several minutes. You can navigate away from the page. 
-// Once the portal is created, you receive an email that the site is live and accessible. To make the site unaccessible, see xref:deactivate-your-portal-site.adoc[Deactivate Your Portal Site] for more information.
-
+The process of saving your styles and creating the portal can take several minutes. You can navigate away from the page. 
 
 == Next Steps
-After your portal is styled, xref:managing-your-api-portal.adoc[manage your portal] from the Manage your API portal page. You can manage APIs, users, and settings information.
+Now that your portal is created, you can manage APIs, users, and settings information from the xref:managing-your-portal.adoc[Manage your portal] page.
 
-// If you move away from the installation screen while the package is being installed, the API Management screen automatically opens when the installation is successful.
+== See Also
+
+* xref:customizing-your-portal.adoc[Customizing Your Portal Using Experience Builder]
+* xref:managing-your-portal.adoc[Managing Your Portal]
+
 
