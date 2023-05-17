@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-From the API Details page, member users request access to an API instance to which to register a client application. They do this by selecting by selecting an API instance, selecting or creating a client application, and optionally selecting a service-level agreement (SLA). When the owner of the instance approves the request, a contract is created between the client application and the instance, and the client application is registered.
+From the API Details page, member users request access to an API instance to which to register a client application. They do this by selecting an API instance, selecting or creating a client application, and optionally selecting a service-level agreement (SLA). When the owner of the instance approves the request, a contract is created between the client application and the instance, and the client application is registered.
 
 Instances that the client ID enforcement policy protects require client applications to provide a client ID and an optional client secret. Once the request for access is approved, the client application is registered and the client ID and client secret credentials are automatically created. Member users can request access to an instance of an API that is published in the portal. These users can either create a new application or use an application that they already created to request access.
 

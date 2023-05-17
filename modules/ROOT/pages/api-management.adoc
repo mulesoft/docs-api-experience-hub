@@ -48,19 +48,19 @@ To remove APIs from your portal:
 In the *APIs in the portal* tab, the API is removed from the list.
 
 == Make API Versions Visible
-You can determine which version of an API a user can view in your portal. You can set the visibility to Administrators only, Members only, or Everyone.
+You can determine which version of an API a user can view in your portal. You can set the visibility to Administrators, Members, or Guest.
 
-* Administrators only
+* Administrators 
 +
-Use this option if you want the version to be seen only by the portal administrator.
-* Members only
+Use this option if you want the version to be seen by the portal administrator only.
+* Members 
 + 
-Use this option if you want the version to be seen only by logged-in members
-* Everyone
+Use this option if you want the version to be seen by logged-in members only.
+* Guest
 +
 Use this option if you want the version to be publicly available to anyone.
 
-If the visibility is Everyone or Members only, then consumer developers can see the new API version in the API Carousel of the portal.
+If the visibility is Guest or Members, then consumer developers can see the new API version in the API Carousel of the portal.
 
 To edit the user visibility that displays for an API:
 
@@ -68,7 +68,7 @@ To edit the user visibility that displays for an API:
 . To search for an API by name, enter the name into the *Search* field.
 . Select an API from the list, click more options, and select *Edit display details*.
 . To change the API version visibility, select an option from the *Visibility* drop-down list for the corresponding version.
-. To save the changes, click *Save*.
+. Click *Save*.
 
 
 == Next Steps

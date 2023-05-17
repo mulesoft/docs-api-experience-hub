@@ -77,7 +77,7 @@ The process of saving your styles can take several minutes. You can navigate awa
 
 
 == Next Steps
-After your portal is styled, curate the portal from the Manage your API portal page. From this page, you can manage APIs, manage users, and settings information.
+After your portal is styled, xref:managing-your-api-portal.adoc[manage your portal] from the Manage your API portal page. You can manage APIs, users, and settings information.
 
 // If you move away from the installation screen while the package is being installed, the API Management screen automatically opens when the installation is successful.
 

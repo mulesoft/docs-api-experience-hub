@@ -22,6 +22,8 @@ Anypoint Platform comes with predefined permissions that you can set in Anypoint
 === Grant the API Experience Hub Administrator Permission
 Only the Organization Administrator can grant a user the API Experience Hub Administrator permission. Grant this permission when you want another user in your organization to perform the Salesforce linking process, create and curate the portal, manage the portal, and manage users.
 
+To grant the API Experience Hub Administrator permission to a user:
+
 . Log in to Anypoint Platform using an account with the Organization Administrator permission.
 . Click *Access Management*.
 . Click *Users*.
@@ -45,6 +47,8 @@ Only the Organization Administrator can grant a user the API Experience Hub Admi
 The API Experience Hub Administrator and the Portal Administrator can only add APIs to the portal that they have access to in Exchange. All administrators must have the Exchange Viewer permission to add APIs to the portal.
 
 Once an API is added to the API portal by the API Experience Hub Administrator or the Portal Administrator, all admins can view the API in the portal regardless of their access to specific APIs.
+
+To grant the Exchange Viewer permission to a user:
 
 . From *Access Management*, click *Users*.
 . Click the username of the user that you want to add the Exchange Viewers permission. 
