@@ -33,7 +33,7 @@ To find a member, enter the member's name or email address in the *Search by nam
 == Pending Requests
 The Pending requests tab displays information about users who registered to access the portal.
 
-From this tab, you can see:
+The following information is available in this tab:
 
 * Name
 +
