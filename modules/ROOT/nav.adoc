@@ -7,7 +7,7 @@
 * xref:creating-your-api-portal.adoc[Creating Your API Portal]
 ** xref:connecting-to-salesforce.adoc[Connecting to Salesforce]
 ** xref:styling-your-api-portal.adoc[Styling Your API Portal]
-** xref:managing-your-portal.adoc[Managing Your API Portal]
+* xref:managing-your-portal.adoc[Managing Your API Portal]
 *** xref:api-management.adoc[API Management]
 *** xref:user-management.adoc[User Management]
 *** xref:settings.adoc[Settings]
