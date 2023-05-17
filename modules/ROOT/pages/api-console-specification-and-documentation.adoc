@@ -12,8 +12,8 @@ The Documentation pane displays interactive documentation about an API. API docu
 == Review API Specifications and Documentation 
 Follow these steps to discover information about an API:
 
-. Select an API from the Home or the APIs page.
-. From the Specification pane, click a function.
-. From the Documentation pane, review the summary of the function.
+. From the *Home* or the *APIs* page, select an API.
+. From the *Specification* pane, click a function.
+. From the *Documentation* pane, review the summary of the function.
 . Select the *Request* tab to view the information for the code example, parameters, security, headers, examples, and body.
 . Select the *Response* tab to view the response type, example, headers, and body.

@@ -4,6 +4,7 @@ include::_attributes.adoc[]
 endif::[]
 
 The API Details page includes the following information about an API:
+
 * Name
 * Type
 * Description
@@ -14,6 +15,6 @@ The API Details page includes the following information about an API:
 The API Console is located in the lower section of the API Details page. The console component is interactive and shows information about REST APIs and their methods. Endpoints are displayed in alphabetical order.
 See xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation] for more information.
 
-To view the API Details page, select an API from the Home or APIs page. 
+To view the API Details page, select an API from the Home or APIs page of the portal. 
 // add screen captures
 
