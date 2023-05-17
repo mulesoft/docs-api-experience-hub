@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-The User Management page enables you to view and manage users and manage access requests from guest users. The ability for users to self-register for your portal is enabled by default.
+The User Management page enables you to view and manage users and access requests from guest users. The ability for users to self-register for your portal is enabled by default.
 
 You can see information about: 
 
@@ -78,7 +78,9 @@ If the registration is approved, the user is removed from the list in the Pendin
 //. Click *Save*.
 
 == See Also
+
 * xref:managing-your-api-portal.adoc[Managing Your API Portal]
+* xref:self-registration.adoc[Self-Registration]
 
 
 
