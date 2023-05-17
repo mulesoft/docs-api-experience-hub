@@ -18,7 +18,7 @@ When the registrations of guest users are approved, they are added to the list o
 
 //TODO currently, the UI does not have enable or disable functionality. Find out if it will be in GA.
 
-From this tab, you can see:
+The Members tab shows the following information:
 
 * Name
 +
