@@ -13,12 +13,14 @@ API Experience Hub provides these benefits for the following users:
 
 * Quick and easy portal setup and creation
 * API management for onboarding APIs and setting version visibility
-* Advanced customizations using Salesforce Experience Builder
+* User management to manage users and access requests from guest users
 * Ability to preview and iterate on the portal
+* Advanced customizations using Salesforce Experience Builder
 
 *Developers*:
 
 * Self-service experience to discover APIs and build applications
+* Request access to an API instance to register a client application
 * Interactive API documentation to understand how to use and integrate APIs
 * Customized and connected hub to interact with APIs
 

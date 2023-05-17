@@ -3,13 +3,86 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-If you encounter errors, refer to how to report an issue and these explanations and instructions for recovery.
+If you encounter errors, refer to the following instructions for recovery.
 
-== Not Receiving Emails from Salesforce Experience Cloud
-If you are not receiving emails from Salesforce Experience Cloud, disable the standard configuration by following these steps:
+== Cannot Access the API Management Page to Disconnect Your Portal
+If you want to disconnect your portal but you cannot access the API Management page to do so, you can unlink your Anypoint and Salesforce organization using the following Curl commands. The commands can be executed in a terminal or using Postman and other applications.
 
-. Go to *Setup* > *Deliverability* > *Email Security Compliance*.
-. Unselect *Enable compliance with standard email security mechanisms*.
+The unlinking process deletes the configuration created during the linking process, connected apps, and IDPs in the Anypoint organization. This process does not delete your portal or uninstall the API Experience Hub package. Use this method only if you want to use another Salesforce organization with the same Anypoint account.
+
+To disconnect your portal:
+
+. Get a token from Anypoint:
++
+* For US users, use this:
++ 
+[source,curl]
+----
+curl --location --request POST 'https://anypoint.mulesoft.com/accounts/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"username": "Username",
+"password": "Password"
+} 
+----
+* For EU users, use this:
++
+[source,curl]
+----
+curl --location --request POST 'https://eu1.anypoint.mulesoft.com/accounts/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"username": "Username",
+"password": "Password"
+}     
+'
+----
+. Extract the token from this:
++ 
+[source,curl]
+----
+{
+ "access_token": "TOKEN",
+ "token_type": "bearer",
+ "redirectUrl": "/home/"
+}
+----
+. Get the Connection ID from this request:
++
+[source,curl]
+----
+curl --location --request GET 'https://anypoint.mulesoft.com/api-experience-hub/api/v1/connections' \
+--header 'Authorization: Bearer [INSERT TOKEN HERE]'
+----
++ 
+For EU users, use `https://eu1.anypoint.mulesoft.com` in the request. 
+. Extract the connection ID from this:
++
+[source,curl]
+----
+[
+ {
+ "createdDate": "2022-12-06T17:27:53.705+00:00",
+ "environment": "SANDBOX",
+ "id": "[CONNECTION-ID]",
+ "organizationId": "******",
+ "targetOrganizationDomain": "******",
+ "targetOrganizationId": "******",
+ "type": "SALESFORCE",
+ "updatedDate": "2022-12-06T17:27:53.705+00:00",
+ "username": "******"
+ }
+]
+----
+. Delete the connection using this:
++
+[source,curl]
+----
+curl --location --request DELETE 'https://anypoint.mulesoft.com/api-experience-hub/api/v1/connections/[CONNECTION-ID]' \
+--header 'Authorization: Bearer [INSERT TOKEN HERE]' 
+----
++
+The connections is deleted. You can perform a new connection to another Salesforce organization. We recommend deleting the browser cache or using a new incognito browser to have a fresh environment to start the linking process again.
 
 == Cannot View API Experience Hub on Anypoint Platform Landing Page
 If API Experience Hub does not display on the Anypoint Platform landing page, ensure that you are using the main organization. Contact the Mulesoft administrator to ensure that the entitlement is enabled.
@@ -20,3 +93,8 @@ The linking process fails when the user who executes the linking process has the
 
 To resolve this issue, add the organization administrator permission to the user who is executing the Salesforce linking in the business group.
 
+== Not Receiving Emails from Salesforce Experience Cloud
+If you are not receiving emails from Salesforce Experience Cloud, disable the standard configuration by following these steps:
+
+. Go to *Setup* > *Deliverability* > *Email Security Compliance*.
+. Unselect *Enable compliance with standard email security mechanisms*.

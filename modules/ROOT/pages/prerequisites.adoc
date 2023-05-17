@@ -15,7 +15,7 @@ If you do not have the required accounts and access, issues may occur during the
 Anypoint Platform comes with predefined permissions that you can set in Anypoint Access Management to provide users with different access levels. You can configure the permissions for administrators and Exchange viewers.
  
 === Before You Begin
-Consider which user in your organization you want to perform administrator roles.
+Consider which user in your organization you want to perform the administrator tasks.
 
 
 === Grant the API Experience Hub Administrator Permission

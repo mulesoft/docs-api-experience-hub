@@ -14,7 +14,6 @@ The following users can get started with these tasks:
 . xref:api-management.adoc[Manage your APIs by adding or removing APIs]
 . xref:api-management.adoc#make-api-versions-visible[Make API versions visible]
 . xref:user-management.adoc[View and manage users]
-. xref:administering-your-portal.adoc[Enable self-registration]
 . xref:publish-your-portal.adoc[Publish the API portal] 
 . xref:deactivate-your-portal-site.adoc[Deactivate your portal site]
 . xref:settings.adoc#disconnect-portal[Disconnect the portal] 
