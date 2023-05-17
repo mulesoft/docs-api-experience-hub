@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-A guided design takes portal administrators through the process of styling the API portal using out-of-the-box templates. The guided design contains basic stlying options for the Home, API Catalog, and API Details pages with a live preview to help you visualize your portal. Each page includes a progress bar to visualize where you are in the portal design process. 
+A guided design takes portal administrators through the process of styling the API portal using out-of-the-box templates. The guided design contains basic styling options for the Home, API Catalog, and API Details pages with a live preview to help you visualize your portal. Each page includes a progress bar to visualize where you are in the portal design process. 
 
 After the portal is styled and published, you can further customize it using the Experience Builder.
 
@@ -37,47 +37,47 @@ NOTE: If you refresh the page or leave the guided setup, the progress in the gui
 == Style API Portal Homepage
 Follow the guided steps to style the homepage:
 
-. To add a company logo, drag or upload an image file to *Upload Company Logo*.
+. To add a company logo, drag or upload an image file to *Upload company logo*.
 +
 The supported file format is PNG, JPEG, SVG, and GIF.
-. To add a banner image, drag or upload an image file to *Select Banner Image*.
+. To add a banner image, drag or upload an image file to *Select banner image*.
 +
 The supported file format is PNG, JPEG, SVG, and GIF.
 . To edit an image, click *Edit*.
-. To brand your org with fonts and colors, from *Customize Org Branding*:
+. To brand your org with fonts and colors, from *Customize org branding*:
 ** Select a font style from the drop-down menu.
 ** Select a font color for the banner image from the color picker.
 ** Select a page background color from the color picker.
-. To add a title for your portal banner, enter the title in the *Enter Portal Banner Title* text box.
-. To add a description for your API portal, enter the description in the *Enter Portal Description* text box.
-. To add a footer text and an URL, enter the footer text and URL in the corresponding text boxes from *Configure Footer*.
+. To add a title for your portal banner, enter the title in the *Enter portal banner title* text box.
+. To add a description for your API portal, enter the description in the *Enter portal description* text box.
+. To add a footer text and an URL, enter the footer text and URL in the corresponding text boxes from *Configure footer*.
 . Click *Next* to set up the API Catalog.
 
 == Style API Catalog
 Follow the guided steps to style the API Catalog:
 
-. To customize the color of specific APIs, select a color from the color picker for the corresponding API type from *Customize Colors*.
-. To add a banner title for your API Catalog, enter the title in the *Enter API Catalog Banner Title* text box.
-. To add a description for your API Catalog, enter the description in the *Enter API Catalog Description* text box.
+. To customize the color of specific APIs, select a color from the color picker for the corresponding API type from *Customize colors*.
+. To add a banner title for your API Catalog, enter the title in the *Enter API catalog banner title* text box.
+. To add a description for your API Catalog, enter the description in the *Enter API catalog description* text box.
 . Click *Next* to set up the API Details page.
 
 == Style API Details
 Follow the guided steps to style the API Details page:
 
 . To show the API owner’s email, enable *API Contact* from *Customize API Information*. 
-. To show API Clients applications on the API details page, enable *API Clients* from *Customize API Information*.
-. To add a banner title to the API Details page, enter the title in the *Enter API Detail Banner Title* text box.
-. To add a description of the API Details page, enter the description in the *Enter API Detail Description* text box.
+. To show API Clients applications on the API details page, enable *API Clients* from *Customize API information*.
+. To add a banner title to the API Details page, enter the title in the *Enter API detail banner Title* text box.
+. To add a description of the API Details page, enter the description in the *Enter API detail description* text box.
 . Click *Finish*.
-. If you are not done setting up your portal, click *Go back*.
-. If you are done with setting up your portal, click *Confirm*.
+. If you are not done setting up your portal, click *Previous*.
+. If you are done with setting up your portal, click *Save changes*.
 +
 The process of saving your styles can take several minutes. You can navigate away from the page. 
 // Once the portal is created, you receive an email that the site is live and accessible. To make the site unaccessible, see xref:deactivate-your-portal-site.adoc[Deactivate Your Portal Site] for more information.
 
 
 == Next Steps
-After your portal is styled, click *Manage your API Portal* to curate the portal by viewing APIs in Exchange, adding and removing APIs, and making API versions visible.
+After your portal is styled, xref:managing-your-api-portal.adoc[manage your portal] from the Manage your API portal page. You can manage APIs, users, and settings information.
 
 // If you move away from the installation screen while the package is being installed, the API Management screen automatically opens when the installation is successful.
 

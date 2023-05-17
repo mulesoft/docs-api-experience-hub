@@ -3,33 +3,31 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-The primary design of API Experience Hub is reducing the complexity of Salesforce configuration and providing simple API portal creation. API Experience Hub has a more modern, reliable, and flexible portal experience that is achieved through the migration of Salesforce Lightning Web Components. The API Console is redesigned to be more intuitive for developers, product managers, and other roles for the exploration and consumption of APIs. Moving the major administrative tasks and user management directly onto Anypoint makes it easier for administrators to manage their portals.
+//API Experience Hub has a more modern, reliable, and flexible portal experience that is achieved through the migration of Salesforce Lightning Web Components. API Experience Hub reduces the complexity of Salesforce configuration and provides a simple API portal creation experience. The API Console is redesigned to be more intuitive for developers, product managers, and other roles for the exploration and consumption of APIs. Moving the major administrative tasks and user management directly onto Anypoint makes it easier for administrators to manage their portals.
 
-// The goal of this pilot is to connect with customers, understand their needs, and explore user experiences on the product. Participants in the pilot can expect a streamlined setup experience and a first review of the enhanced look and feel of the portal. You can set up the portal, onboard APIs on it, and view the consumption experience for developers on the API Carousel, Catalog, and Console.
-
-The following users can perform these tasks: 
+The following users can get started with these tasks: 
 
 *Portal administrators*:
 
-* [Onboard the API Experience Hub Administrator]
-* xref:creating-your-api-portal.adoc[Create an API Portal]
-** [Link]
-* xref:administering-your-portal.adoc[Enable Self-Registration]
-* xref:api-management.adoc#add-apis-from-exchange[Add APIs from Exchange] 
-* xref:api-management.adoc#remove-apis-from-the-portal[Remove APIs from the Portal]
-* xref:api-managment.adoc#make-api-versions-visible[Make API Versions Visible]
-* xref:customizing-your-portal.adoc[Customize the API Portal] using Experience Builder
-* xref:publish-your-portal.adoc[Publish the API Portal] using Experience Builder
-* xref:deactivate-your-portal-site.adoc[Deactivate Your Portal Site]
-* xref:settings.adoc#disconnect-portal[Disconnect Portal] 
+. xref:prerequisites.adoc[Configure administrator permissions]
+. xref:creating-your-api-portal.adoc[Create an API portal]
+. xref:api-management.adoc[Manage your APIs by adding or removing APIs]
+. xref:api-management.adoc#make-api-versions-visible[Make API versions visible]
+. xref:user-management.adoc[View and manage users]
+. xref:administering-your-portal.adoc[Enable self-registration]
+. xref:publish-your-portal.adoc[Publish the API portal] 
+. xref:deactivate-your-portal-site.adoc[Deactivate your portal site]
+. xref:settings.adoc#disconnect-portal[Disconnect the portal] 
 
 *Developers*:
 
-* xref:access-an-api-portal.adoc[Self-Register and Access the API Portal]
-* xref:search-for-apis.adoc[Search for APIs]
-* xref:view-api-details.adoc[View API Details Page]
-* xref:download-an-api-specification.adoc[Download API Specification]
-* xref:api-console-specification-and-documentation.adoc[Inspect API Console Specification and Documentation]
+. xref:self-registration.adoc[Self-register and access the API portal]
+. xref:search-for-apis.adoc[Search for APIs]
+. xref:view-api-details.adoc[View API Details page]
+. xref:request-access.adoc[Request access]
+. xref:my-application.adoc[View your applications that hold a contract with an API]
+. xref:download-an-api-specification.adoc[Download API specifications]
+. xref:api-console-specification-and-documentation.adoc[Inspect API Console specification and documentation]
 
 == See Also
 

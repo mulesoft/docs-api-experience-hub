@@ -12,7 +12,6 @@ After you make custom changes to your Salesforce Experience Cloud site, you can 
 APIs that are visible only to administrators appear in this preview.
 . To publish the portal, click *Publish*.
 . To make changes, click *Back to Builder*.
-.
 
 == See Also
 * https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder]

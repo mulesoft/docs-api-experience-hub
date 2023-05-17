@@ -5,23 +5,6 @@ endif::[]
 
 If you encounter errors, refer to how to report an issue and these explanations and instructions for recovery.
 
-== Report an Issue
-You can report an issue with API Experience Hub using email or Slack.
-
-For email, send issues to aeh-pilot@mulesoft.com.
-
-For Slack, follow these steps:
-
-. In a Slack channel, click the lightning bolt icon.
-. Click *AEH Report a Bug*.
-. From the *Report a bug* form, complete the following fields:
-+ 
-* *Subject*: Enter a title for the issue, for example, cannot add an API from Exchange.
-* *Steps to Reproduce*: Enter an explanation of how to reproduce this issue.
-* *Severity*: Select a severity level from the list.
-* *Customer Name*: Enter your first and last name.
-. Click *Submit*.
-
 == Not Receiving Emails from Salesforce Experience Cloud
 If you are not receiving emails from Salesforce Experience Cloud, disable the standard configuration by following these steps:
 

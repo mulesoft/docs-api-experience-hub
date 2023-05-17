@@ -1,0 +1,88 @@
+= Users, Roles, and Permissions
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Anypoint Platform comes with predefined roles and permissions that you can set in Access Management to manage users with different access levels. API Experience Hub has permissions for administrators, consumers, and Exchange viewers.
+
+== Consumer Users
+API Experience Hub has the following consumer user profiles:
+
+* Guest
+* Member
+
+These are groups of users with certain permissions that you can manage using the Teams feature in Anypoint Access Management. Permissions for Guest and Member users are automatically determined by how they access an organization's portal. A user who does not log in to the portal is an anonymous user that is assigned the guest user profile with the permissions assigned to this group. A guest user can become a member by completing the registration process for the portal. Once the user's registration is approved, this user inherits the member user profile and its associated permissions. See xref:access-management::access-managements/teams.adoc[Manage User Access Using Teams] for more information about Teams in Access Management.
+
+|===
+|User Profile |Description |Actions
+|Guest| This user’s profile is anonymous and is not logged in the API portal. 
+a|
+* View public APIs that are shared with them.
+* Can self-register to become a member.
+* Cannot request access to APIs. 
+|Member|This is a registered user who can log in to a portal.
+a|
+* View public APIs and other APIs that are shared with them.
+* Registered using self-registration to become a member.
+* Request access to APIs.| 
+|===
+
+== Administrator Roles and Permissions
+
+The Organization Administrator role has all of the permissions necessary to create, curate, manage, and customize a portal. This role can also grant another user in their organization the API Experience Hub Administrator permission. This permission enables the user to do all of the same tasks in the portal as the Organization Administrator.
+
+If there is more than one user who intends to curate and manage the portal, the Organization Administrator can grant another user the API Experience Hub Portal Administrator permission. This administrator has fewer permissions in the portal than the Organization Administrator and the API Experience Hub Administrator.
+
+Once your Anypoint organization is linked to your Salesforce organization, two teams are created:
+
+* API Experience Hub Admin team
++
+Any user who is assigned as the API Experience Hub Administrator is automatically added to this team in Access Management.
+* API Experience Hub Portal Admin team
++
+Any user assigned as the API Experience Hub Portal Administrator is automatically added to this team in Access Management.
+
+Administrators can only add APIs for which they have the Exchange Viewer permission. When APIs are added to the portal, all administrators are automatically assigned the Exchange Viewer permission. 
+
+Administrators enter the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore API Experience Hub cannot determine the individual administrator's action in the shared account. If the administrator is already logged in to the Salesforce organization, they lose their previous session when they click the *Preview portal in Salesforce Builder* button.
+
+|===
+|Role/Permission |Description |Actions
+|Organization administrator in the main organization|API Experience Hub is business group agnostic which means that the portal belongs to the main organization only and the admin cannot create portals across business groups. The organization administrator inherits all API Experience Hub permissions, enabling them to perform any available operation within the platform.
+a|
+* Perform the Salesforce linking process
+* Create a portal
+* Add and remove APIs from the portal
+* Assign the visibility of an API instance
+* Manage users
+* Use Experience Builder to customize portal
+|API Experience Hub Administrator|The admin inherits all of the Organization Administrator permissions. 
+a|
+* Perform the Salesforce linking process
+* Create a portal
+* Add and remove APIs from the portal
+* Assign the visibility of an API instance
+* Create a new connection to Salesforce and new portals
+* Manage users
+* Use Experience Builder to customize portal |
+API Experience Hub Portal Administrator| Currently, can manage only one API portal in the organization. 
+a|
+* Add and remove specific APIs from the portal
+* Assign the visibility of an API instance
+|===
+
+== Exchange Permissions
+All administrators must have the Exchange Viewer permission to import APIs into the portal.
+
+|===
+|Permission |Description |Actions
+|Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission cannot add new assets, edit asset portal content, or share an asset with another user.
+a|
+* View APIs in Exchange
+* Import APIs from Exchange to the portal |
+|===
+
+== See More
+
+* xref:prerequisites.adoc[Prerequisites]
+

@@ -3,11 +3,11 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-After you make customizations and preview your updated portal, you can publish the new version for your users. The URL for the portal is not accessible until the portal is published. When you publish your site for the first time, the portal URL is live and login access is enabled.
+When you are done managing and curating your portal, you can publish it for your users. The URL for the portal is not accessible until the portal is published. When you publish your site for the first time, the portal URL is live and login access is enabled.
 
 To publish the portal, follow these steps:
 
-. From Manage Your API portal, click *Preview Portal*.
+. From the *Manage Your API portal* page, click *Preview portal in Salesforce Builder*.
 . Click *Builder*.
 . Click *Settings* > *General*.
 . Check *Public can access the community*.
