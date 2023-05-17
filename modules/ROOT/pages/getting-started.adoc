@@ -24,7 +24,7 @@ The following users can get started with these tasks:
 . xref:search-for-apis.adoc[Search for APIs]
 . xref:view-api-details.adoc[View API Details page]
 . xref:request-access.adoc[Request access]
-. xref:my-application.adoc[View your applications that hold a contract with an API]
+. xref:my-applications.adoc[View your applications that hold a contract with an API]
 . xref:download-an-api-specification.adoc[Download API specifications]
 . xref:api-console-specification-and-documentation.adoc[Inspect API Console specification and documentation]
 

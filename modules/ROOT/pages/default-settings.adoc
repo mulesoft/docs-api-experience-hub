@@ -5,12 +5,12 @@ endif::[]
 
 The following settings are set by default when the portal is created:
 
-* Guest user access is enabled
-* Portal status is active 
+* Self-registration for guest users is enabled by default
+//* Portal status is active 
 
-* Five APIs are automatically added to the API Carousel in the Home page, API Catalog in the APIs page, and in the APIs in the portal tab of API Management. 
-+
-These APIs are the latest created APIs in Exchange. The default visibility for the APIs is Administrator only. The administrator of the portal can change this visibility for each API in the API Management tab. These APIs can be removed. See xref:managing-your-portal.adoc[Remove APIs from the Portal] for more information.
+//* Five APIs are automatically added to the API Carousel in the Home page, API Catalog in the APIs page, and in the APIs in the portal tab of API Management. 
+//+
+//These APIs are the latest created APIs in Exchange. The default visibility for the APIs is Administrator only. The administrator of the portal can change this visibility for each API in the API Management tab. These APIs can be removed. See xref:managing-your-portal.adoc[Remove APIs from the Portal] for more information.
 
 //For the pilot, there is no access to guest users. You can disable this access and then delete the permission set assigned to the guest user.
 
@@ -27,4 +27,4 @@ These APIs are the latest created APIs in Exchange. The default visibility for t
 //. Click *Permission Set Assignments*.
 //. Delete the *ACM Guest User Permission* set.
 
-Once the API portal is created, it is given an active status. The portal is not live until it is published.
+* Once the API portal is created, it is given an active status. The portal is not live until it is published.
