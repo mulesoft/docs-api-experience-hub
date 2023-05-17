@@ -22,7 +22,7 @@ The Members tab shows the following information:
 
 * Name
 +
-The first and last name of registered member.
+The first and last name of the registered member.
 * Email 
 +
 The email address of the member.
