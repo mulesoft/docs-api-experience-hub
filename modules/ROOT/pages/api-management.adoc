@@ -5,7 +5,7 @@ endif::[]
 
 From the API management page, curate your portal by viewing information about an API from Exchange, adding or removing APIs, and changing the visibility of an API version.
 
-API management shows the following information:
+The API management page shows the following information:
 
 image::aeh-api-management.png[API management page]
 
