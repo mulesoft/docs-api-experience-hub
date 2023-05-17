@@ -5,7 +5,7 @@ endif::[]
 
 API Experience Hub is composed of a Salesforce organization with Experience Cloud and a managed package that is installed in this organization. The managed package contains the components and data objects that interact with your Anypoint Platform organization.
 
-During the deployment process, a connection with Salesforce Experience Cloud is required for linking to the Salesforce organization to create an API portal within Anypoint. 
+A connection with Salesforce Experience Cloud is required for linking to the Salesforce organization to create an API portal within Anypoint. 
 
 IMPORTANT: Please ensure that you are linking your Anypoint organization to the correct Salesforce organization. 
 //Currently, this connection can only be done once. Once the connection is made, you cannot unlink from that Salesforce organization. //
@@ -28,11 +28,11 @@ Before you can create your portal, you must have:
 For more information about the required permissions, see xref:prerequisites.adoc[Prerequisites].
 
 == Connect, Link, and Install 
-The process of deploying your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint organization to your Salesforce organization, then installing the Salesforce Experience Cloud package. Currently, the linking process is a one-time step when setting up your portal.
+The process of creating your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint organization to your Salesforce organization, then installing the Salesforce Experience Cloud package. Currently, the linking process is a one-time step when creating your portal.
 
 NOTE: Only an Organizational Administrator or API Experience Hub Administrator can perform the Salesforce linking.
 
-Follow these steps to deploy your API portal:
+Follow these steps to link your API portal:
 
 . Navigate to Anypoint Platform, enter your username and password, and then click *Sign in*.
 . From Anypoint Platform, select *API Experience Hub* from the list of products.
@@ -47,5 +47,5 @@ Follow these steps to deploy your API portal:
 The process of installing the Salesforce Experience Cloud package begins. When the package is installed successfully, you receive an email.
 
 == Next Steps
-When the connection is complete, you can xref:styling-your-api-portal.adoc[style your API portal].
+When the linking is complete, you can xref:styling-your-api-portal.adoc[style your API portal].
 
