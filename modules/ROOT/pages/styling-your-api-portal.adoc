@@ -5,7 +5,7 @@ endif::[]
 
 A guided design takes portal administrators through the process of styling the API portal using out-of-the-box templates. The guided design contains basic styling options for the Home, API Catalog, and API Details pages with a live preview to help you visualize your portal. Each page includes a progress bar to visualize where you are in the portal design process. 
 
-After the portal is styled and created, you can further customize it using the Experience Builder.
+//After the portal is styled and created, you can further customize it using the Experience Builder.
 
 Styling an API portal includes the following tasks:
 
@@ -28,7 +28,7 @@ image::aeh-set-up-api-details.png[Set up API details]
 
 Follow the guided design and click *Next* to advance through the steps. 
 
-NOTE: If you refresh the page or leave the guided setup, the progress in the guided setup does not persist. You must complete all of the steps again.
+NOTE: If you refresh the page or leave the guided design, the progress in the guided setup does not persist. You must complete all of the steps again.
 
 == Style API Portal Homepage
 Follow the guided steps to style the homepage:
@@ -47,7 +47,7 @@ The supported file format is PNG, JPEG, SVG, and GIF.
 . To add a title for your portal banner, enter the title in the *Enter portal banner title* text box.
 . To add a description for your API portal, enter the description in the *Enter portal description* text box.
 . To add a footer text and an URL, enter the footer text and URL in the corresponding text boxes from *Configure footer*.
-. Click *Next* to set up the API Catalog.
+. Click *Next* to style the API Catalog.
 
 == Style API Catalog
 Follow the guided steps to style the API Catalog:
@@ -55,7 +55,7 @@ Follow the guided steps to style the API Catalog:
 . To customize the color of specific APIs, select a color from the color picker for the corresponding API type from *Customize colors*.
 . To add a banner title for your API Catalog, enter the title in the *Enter API catalog banner title* text box.
 . To add a description for your API Catalog, enter the description in the *Enter API catalog description* text box.
-. Click *Next* to set up the API Details page.
+. Click *Next* to style the API Details page.
 
 == Style API Details
 Follow the guided steps to style the API Details page:
