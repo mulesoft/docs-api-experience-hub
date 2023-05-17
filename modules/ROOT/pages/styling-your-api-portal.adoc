@@ -75,7 +75,6 @@ Now that your portal is created, you can manage APIs, users, and settings inform
 
 == See Also
 
-* xref:customizing-your-portal.adoc[Customizing Your Portal Using Experience Builder]
 * xref:managing-your-portal.adoc[Managing Your Portal]
 
 
