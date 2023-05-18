@@ -7,20 +7,25 @@ endif::[]
 
 The following users can get started with these tasks: 
 
-*Portal administrators*:
+*Administrators*:
 
-. xref:prerequisites.adoc[Configure administrator permissions]
+Administrators can create an API portal in four easy steps:
+
+//. xref:prerequisites.adoc[Configure administrator permissions]
 . xref:connecting-to-salesforce.adoc[Connect to Salesforce]
 . xref:styling-your-api-portal.adoc[Style your portal]
+. xref:managing-your-portal.adoc[Manage your portal]
 //. xref:creating-your-api-portal.adoc[Create an API portal]
-. xref:api-management.adoc[Manage your APIs by adding or removing APIs]
-. xref:api-management.adoc#make-api-versions-visible[Make API versions visible]
-. xref:user-management.adoc[View and manage users]
-. xref:publish-your-portal.adoc[Publish the API portal] 
-. xref:deactivate-your-portal-site.adoc[Deactivate your portal site]
-. xref:settings.adoc#disconnect-portal[Disconnect the portal] 
+//. xref:api-management.adoc[Manage your APIs by adding or removing APIs]
+//. xref:api-management.adoc#make-api-versions-visible[Make API versions visible]
+//. xref:user-management.adoc[View and manage users]
+. xref:publish-your-portal.adoc[Publish your portal] 
+//. xref:deactivate-your-portal-site.adoc[Deactivate your portal site]
+//. xref:settings.adoc#disconnect-portal[Disconnect the portal] 
 
 *Developers*:
+
+Developers can discover and consume APIs using these tasks:
 
 . xref:self-registration.adoc[Self-register and access the API portal]
 . xref:search-for-apis.adoc[Search for APIs]
