@@ -40,7 +40,7 @@ Once your Anypoint organization is linked to your Salesforce organization, two a
 Any user who is assigned as the API Experience Hub Administrator is automatically added to this team in Access Management.
 * API Experience Hub Portal Admin team
 +
-Any user assigned as the API Experience Hub Portal Administrator is automatically added to this team in Access Management. Although this team is visible in Access Management, this permission cannot be assigned to a user in this release.
+Any user assigned as the API Experience Hub Portal Administrator is automatically added to this team in Access Management. Although this team is visible in Access Management, this permission is not supported in this release.
 
 Administrators can only add APIs for which they have the Exchange Viewer permission. When APIs are added to the portal, all administrators are automatically assigned the Exchange Viewer permission. 
 
