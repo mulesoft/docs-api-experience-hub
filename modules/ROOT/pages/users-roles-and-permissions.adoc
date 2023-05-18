@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Anypoint Platform comes with predefined roles and permissions that you can set in Access Management to manage users with different access levels. API Experience Hub has permissions for administrators, consumers, and Exchange viewers.
+Anypoint Platform comes with predefined roles and permissions that you can set in Access Management to manage users with different access levels. API Experience Hub has permissions for administrators, consumers, and Exchange viewers. For more information, see xref:access-management::access-management/managing-permissions.adoc[Managing Permissions in Access Management].
 
 == Consumer Users
 API Experience Hub has the following consumer user profiles:
@@ -33,14 +33,14 @@ The Organization Administrator role has all of the permissions necessary to crea
 
 //If there is more than one user who intends to curate and manage the portal, the Organization Administrator can grant another user the API Experience Hub Portal Administrator permission. This administrator has fewer permissions in the portal than the Organization Administrator and the API Experience Hub Administrator.
 
-Once your Anypoint organization is linked to your Salesforce organization, two teams are created:
+Once your Anypoint organization is linked to your Salesforce organization, two admin teams are created:
 
 * API Experience Hub Admin team
 +
 Any user who is assigned as the API Experience Hub Administrator is automatically added to this team in Access Management.
 * API Experience Hub Portal Admin team
 +
-Any user assigned as the API Experience Hub Portal Administrator is automatically added to this team in Access Management.
+Any user assigned as the API Experience Hub Portal Administrator is automatically added to this team in Access Management. Although this team is visible in Access Management, this permission cannot be assigned to a user in this release.
 
 Administrators can only add APIs for which they have the Exchange Viewer permission. When APIs are added to the portal, all administrators are automatically assigned the Exchange Viewer permission. 
 
@@ -85,4 +85,5 @@ a|
 == See More
 
 * xref:prerequisites.adoc[Prerequisites]
+
 

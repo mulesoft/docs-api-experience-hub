@@ -10,7 +10,9 @@ The following users can get started with these tasks:
 *Portal administrators*:
 
 . xref:prerequisites.adoc[Configure administrator permissions]
-. xref:creating-your-api-portal.adoc[Create an API portal]
+. xref:connecting-to-salesforce.adoc[Connect to Salesforce]
+. xref:styling-your-api-portal.adoc[Style your portal]
+//. xref:creating-your-api-portal.adoc[Create an API portal]
 . xref:api-management.adoc[Manage your APIs by adding or removing APIs]
 . xref:api-management.adoc#make-api-versions-visible[Make API versions visible]
 . xref:user-management.adoc[View and manage users]
