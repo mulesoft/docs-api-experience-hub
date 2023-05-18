@@ -5,7 +5,7 @@ endif::[]
 
 The following list displays known issues and limitations for API Experience Hub:
 
- * Images uploaded from the guided setup may not render correctly if they extend the maximum size for height and width. For more information about size limits for images, see https://help.salesforce.com/s/articleView?id=sf.networks_enable_file_limits.htm&type=5[Limit Files in Your Experience Cloud Site].
+* Images uploaded from the guided setup may not render correctly if they extend the maximum size for height and width. For more information about size limits for images, see https://help.salesforce.com/s/articleView?id=sf.networks_enable_file_limits.htm&type=5[Limit Files in Your Experience Cloud Site].
 
 * API Experience Hub does not use platform cache.
 //* The *None* API visibility option is currently not supported. For more information about the supported options, see xref:managing-your-portal#make-api-versions-visible[Make API Versions Visible].
