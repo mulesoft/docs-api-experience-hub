@@ -59,13 +59,13 @@ To approve or reject the request:
 +
 If the registration is approved, the user is removed from the list in the Pending requests tab and added to the list of members in the Members tab.
 
-//== User Registration
-//Use the User Registration tab to set up self-registration for guest users to sign up for an account to access your portal. Self-registration enables guest users to register themselves as members of your API portal. From the Pending requests tab, you can see a list of pending requests from guest users who want to access your portal. 
+== User Registration
+Use the User Registration tab to set up self-registration for guest users to sign up for an account to access your portal. Self-registration enables guest users to register themselves as members of your API portal. From the Pending requests tab, you can see a list of pending requests from guest users who want to access your portal. 
 
-//=== Enable Self-Registration
-//To configure a registration page for your portal members:
+=== Enable or Disable Self-Registration
+By default, users have the ability to self-register to become a member and acccess your portal site. Administrator can enable To configure a registration page for your portal members:
 
-//. From the *User Registration* tab of the *User Management* page, click the *Manage external user registration* link. 
+. From the *User Registration* tab of the *User Management* page, click the *Manage external user registration* link. 
 //+
 //You are navigated to the Salesforce Experience Builder.
 //. From the Builder, go to *Setup* and enter *All Sites* in the quick find box.
