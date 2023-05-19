@@ -12,7 +12,7 @@ IMPORTANT: Please ensure that you are linking your Anypoint organization to the 
 
 An instance of API Experience Hub connects to only one Anypoint Platform organization and Salesforce organization.
 
-The package is installed in a sandbox or a trial Salesforce organization. The changes made to this organization do not propagate to any other Salesforce organizations that your company might already have. The data regarding API Experience Hub in Salesforce is isolated from your company's operational data, such as ERP or CRM data.
+The package is installed in a sandbox or production organization. The changes made to this organization do not propagate to any other Salesforce organizations that your company might already have. The data regarding API Experience Hub in Salesforce is isolated from your company's operational data, such as ERP or CRM data.
 
 
 == Before You Begin
@@ -40,7 +40,7 @@ Follow these steps to link your API portal:
 . If you have a custom Salesforce domain, check *I have a custom Salesforce domain* and enter your domain address.
 . Click *Connect*.
 . Enter your Salesforce username and password and click *Log In*. 
-. Click *Allow MuleSoft to access your data*.
+. Click *Allow* for MuleSoft to access your data.
 . Confirm the Salesforce access information.
 . Click *Continue*.
 +
