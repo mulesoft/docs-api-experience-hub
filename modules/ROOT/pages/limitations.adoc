@@ -7,7 +7,7 @@ This release has the following limitations:
 
 * An API portal can have a maximum of 250 APIs.
 * API Groups are not available.
-* API details cannot be modified.
+//* API details cannot be modified.
 * API Experience Hub is not certified for use on mobile devices. Some functionality works on mobile devices, but some functionality such as the API Console does not.
 * IP restrictions are not supported. For more information, see the xref:troubleshooting[Troubleshooting] section for a workaround.
 * Validation rules cannot be applied to standard objects that are created during the Salesforce linking process. For more information, see the xref:troubleshooting.adoc[Troubleshooting] section for a work around.
