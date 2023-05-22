@@ -9,3 +9,4 @@ This release has the following limitations:
 * API Groups are not available
 * API details cannot be modified
 * API Experience Hub is not certified for use on mobile devices. Some functionality works on mobile devices, but some functionality such as the API Console does not.
+* Validation rules cannot be applied to standard objects that are created during the Salesforce linking process.
