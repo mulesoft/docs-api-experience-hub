@@ -87,6 +87,27 @@ The connections is deleted. You can perform a new connection to another Salesfor
 == Cannot View API Experience Hub on Anypoint Platform Landing Page
 If API Experience Hub does not display on the Anypoint Platform landing page, ensure that you are using the main organization. Contact the Mulesoft administrator to ensure that the entitlement is enabled.
 
+== Error Occurs When Relax IP Restrictions Option for IP Relaxation is Changed
+
+An error occurs during the Salesforce linking process when  
+
+== Error Saving Changes to the Portal When an Object has Validation Rules Activated
+
+An error occurs when saving styling changes to the portal if an object has validation rules applied for standard objects that are created during the Salesforce linking process. 
+
+The workaround is to deactivate the validation rule, save the styling changes, then reactive the validation rule. 
+
+. Navigate to *Setup* > *Object Manager*.
+. Select *Validation Rules*.
+. Search for the object with the validation rule.
+. Click *Edit* next to the rule you want to deactivate.
+. Deselect the *Active* checkbox.
+. Click *Save*.
+. Navigate back to API Experience Hub and click *Try again* in the error message.
+. Click *Save* to save your style selections.
+. Repeat steps 1 through 4.
+. Select the *Active* checkbox and click *Save*
+
 == Linking Process Fails
 
 The linking process fails when the user who executes the linking process has the Exchange Contributor role in a business group and this user does not have the System Administrator permission in that same business group. 
