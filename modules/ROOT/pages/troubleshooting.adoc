@@ -89,7 +89,7 @@ If API Experience Hub does not display on the Anypoint Platform landing page, en
 
 == Error Occurs When Relax IP Restrictions Option for IP Relaxation is Changed
 
-An error occurs during the Salesforce linking process when  
+In this release, IP restrictions are not supported. By default, the IP Restrictions field is set to `Relax IP Restrictions`. Changing this option produces errors when creating the portal. 
 
 == Error Saving Changes to the Portal When an Object has Validation Rules Activated
 
