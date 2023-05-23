@@ -12,7 +12,7 @@ The Documentation pane displays interactive documentation about an API. API docu
 The Try it pane enables you to test an API using the mocking service. The mocking service lets you add simulated data to an API function and test the API with the data.
 
 == Review API Specifications and Documentation 
-Follow these steps to discover information about an API:
+To discover information about an API:
 
 . From the *Home* or the *APIs* page, select an API.
 . From the *Specification* pane, click a function.
@@ -21,9 +21,10 @@ Follow these steps to discover information about an API:
 . Select the *Response* tab to view the response type, example, headers, and body.
 
 == Test an API Using the Mocking Service
+To test an API:
 
 . From the *Home* or the *APIs* page, select an API.
 . From the *Specification* pane, click a function like `get`.
 . In the *Try it* panel, select *Mocking Service* from the *Select Server* options.
 . Click *Send* to send simulated data to the API.
-. Verify that the returned responses from the API.
+. Verify the returned responses from the API.

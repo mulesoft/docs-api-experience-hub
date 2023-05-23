@@ -30,6 +30,13 @@ Follow the guided design and click *Next* to advance through the steps.
 
 NOTE: If you refresh the page or leave the guided design, the progress in the guided setup does not persist. You must complete all of the steps again.
 
+== Before You Begin
+Before styling your portal, you need the following:
+
+* Image of your company logo
+* Color scheme for the portal
+* Image to use as a header for your portal
+
 == Style API Portal Homepage
 Follow the guided steps to style the homepage:
 
