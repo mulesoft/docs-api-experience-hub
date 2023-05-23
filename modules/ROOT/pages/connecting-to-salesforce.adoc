@@ -22,7 +22,7 @@ Before you can create your portal, you must have:
 * Familiarity with Anypoint Platform and Exchange, including the permissions to use both 
 * Anypoint Platform Organization
 * API Experience Hub Admin permission
-* Organizational administrator with permissions in Anypoint
+* Organization administrator with permissions in Anypoint
 * Exchange Viewer permission
 
 For more information about the required permissions, see xref:prerequisites.adoc[Prerequisites].
@@ -30,7 +30,7 @@ For more information about the required permissions, see xref:prerequisites.adoc
 == Connect, Link, and Install 
 The process of creating your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint organization to your Salesforce organization, then installing the Salesforce Experience Cloud package. Currently, the linking process is a one-time step when creating your portal.
 
-NOTE: Only an Organizational Administrator or API Experience Hub Administrator can perform the Salesforce linking.
+NOTE: Only an Organization Administrator or API Experience Hub Administrator can perform the Salesforce linking.
 
 Follow these steps to link your API portal:
 
