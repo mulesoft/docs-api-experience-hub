@@ -36,12 +36,17 @@ Follow these steps to link your API portal:
 
 . Navigate to Anypoint Platform, enter your username and password, and then click *Sign in*.
 . From Anypoint Platform, select *API Experience Hub* from the list of products.
-. From the *Connect to Salesforce Experience Cloud* dialog, select an option from the *Environment* list.
+. From the *Connect to Salesforce Experience Cloud* dialog, select an option from the *Environment* list:
++
+* Production
++
+* Sandbox
+
 . If you have a custom Salesforce domain, check *I have a custom Salesforce domain* and enter your domain address.
 . Click *Connect*.
-. Enter your Salesforce username and password and click *Log In*. 
+. Confirm the Salesforce access information and click *Continue*.
 . Click *Allow* for MuleSoft to access your data.
-. Confirm the Salesforce access information.
+. Click *Connect*.
 . Click *Continue*.
 +
 The process of installing the Salesforce Experience Cloud package begins. When the package is installed successfully, you receive an email.

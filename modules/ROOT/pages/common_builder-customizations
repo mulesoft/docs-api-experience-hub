@@ -1,0 +1,18 @@
+= Common Builder Customizations
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+
+== Change the Portal Domain
+
+
+== Change Logo for Self-Registration and Login pages
+
+== Change Portal Status
+
+== Change Email Templates
+
+== Add Portal Components
+
+You can add Lightning Web components
