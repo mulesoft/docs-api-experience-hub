@@ -81,8 +81,5 @@ The process of saving your styles and creating the portal can take several minut
 == Next Steps
 Now that your portal is created, you can manage APIs, users, and settings information from the xref:managing-your-portal.adoc[Manage your portal] page.
 
-== See Also
-
-* xref:managing-your-portal.adoc[Managing Your Portal]
 
 
