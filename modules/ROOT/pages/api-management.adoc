@@ -21,6 +21,7 @@ You can view the description of an API by clicking the down arrow for an API nam
 
 image::aeh-api-description.png[View API Description]
 
+
 == View APIs in Exchange
 You can view information about an API directly from Exchange to determine whether you want to add the API in your portal.
 
