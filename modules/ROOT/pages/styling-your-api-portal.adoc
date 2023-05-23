@@ -35,6 +35,7 @@ Before styling your portal, you need the following:
 
 * Image of your company logo
 * Color scheme for the portal
+* Fonts for company branding
 * Image to use as a header for your portal
 
 == Style API Portal Homepage

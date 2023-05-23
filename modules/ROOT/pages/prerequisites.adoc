@@ -19,7 +19,7 @@ Consider which user in your organization you want to perform the administrator t
 
 
 === Grant the API Experience Hub Administrator Permission
-Only the Organization Administrator can grant a user the API Experience Hub Administrator permission. Grant this permission when you want another user in your organization to perform the Salesforce linking process, create and curate the portal, manage the portal, and manage users.
+The Organization Administration and API Experience Hub Administrator can perform all of the functions to create a portal. Only the Organization Administrator can grant a user the API Experience Hub Administrator permission. Grant this permission when you want another user in your organization to perform the Salesforce linking process, create and curate the portal, manage the portal, and manage users.
 
 To grant the API Experience Hub Administrator permission to a user:
 
