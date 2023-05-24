@@ -23,7 +23,8 @@ curl --location --request POST 'https://anypoint.mulesoft.com/accounts/login' \
 --data-raw '{
 "username": "Username",
 "password": "Password"
-} 
+}
+' 
 ----
 * For EU users, use this:
 +
