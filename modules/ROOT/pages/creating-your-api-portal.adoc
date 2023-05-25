@@ -13,10 +13,9 @@ Connect to Salesforce and link your Anypoint organization to your Salesforce org
 Use the guided design to style and brand your API portal. After your style options are saved, the portal is created. 
 
 == Before You Begin
-Before managing your portal, you need the following:
+Before creating your portal, we recommend that you have the following information:
 
-* Review xref:prerequisites.adoc[Prerequisites]
-* APIs in Exchange
+* Review the xref:prerequisites.adoc[Prerequisites]
 * Image for company logo
 * Color scheme for styling your portal
 * Image to use as a header for your portal
