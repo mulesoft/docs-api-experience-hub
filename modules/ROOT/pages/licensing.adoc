@@ -2,10 +2,16 @@
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
-Anypoint API Community Manager licenses are procured and provisioned by MuleSoft. To set up an organization, you can have the following Salesforce organizations:
+
+The API Experience Hub license is procured and provisioned by MuleSoft. The license is based on the number of member requests to access the portal. The current package has a minimum of 100 API access requests which require a minimum of 2000 External Identity licenses. This is required for the portal consumers to access the API portal.
+
+To set up an organization, you can have the following Salesforce organizations:
 
 * Unlimited Edition
 * Enterprise Edition
 * Performance Editions of Salesforce
 
-API Experience Hub has five administrator licenses. You need one only to perform the Salesforce linking process. 
+
+
+
+
