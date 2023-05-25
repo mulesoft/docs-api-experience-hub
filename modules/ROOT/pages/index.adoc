@@ -3,11 +3,12 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Anypoint API Experience Hub is an API management platform and digital experience that gives API providers a hub to share, promote, and engage with their developer community. Developers and partners can find, explore, and consume APIs designed anywhere in a single place.
+Anypoint API Experience Hub is an API management platform and digital experience that enables organizations to create vibrant API ecosystems within and outside the enterprise. 
+API providers can share, promote, and engage with their developer community. Developers and partners can find, explore, and consume APIs designed anywhere from a single place.
 
-API Experience Hub is the next-generation product of API Community Manager for creating and managing API portals. Build developer portals in minutes using fully built templates to publish APIs from Exchange to any audience. Anypoint Platform fully manages the portal deployment, administration, and management options so you do not need any Salesforce knowledge to start. 
+API Experience Hub is the next-generation product of API Community Manager for creating and managing API portals. The portal administrator can build developer portals in minutes using fully built templates to publish APIs from Exchange to any audience. Anypoint Platform fully manages the portal deployment, administration, and the API and user management options so you do not need any Salesforce knowledge to start. 
 
-API Experience Hub provides these benefits for the following users:
+API Experience Hub provides the following advantages:
 
 *Portal administrators*:
 
@@ -24,7 +25,23 @@ API Experience Hub provides these benefits for the following users:
 * Interactive API documentation to understand how to use and integrate APIs
 * Customized and connected hub to interact with APIs
 
-// video::ZmcTOgZU28Q[youtube]
+// placeholder for spotlight video
+
+== Steps to Create a Portal
+Create a custom portal in four simple steps:
+
+. Connect to a Salesforce instance
++
+The instance can be a new or existing Salesforce organization. To connect, specify the environment type and enter the custom Salesforce domain if you have one, log in, and allow the permissions, and confirm the account.
+. Style your API portal
++
+Once you are connected to Salesforce, you can style the portal's OOTB pages with logos, fonts, color schemes, and more.
+. Manage your portal.
++
+Manage APIs by adding APIs from Exchange and setting the visibility for the API versions. Manage users by approving access requests from guest users.
+. Publish the portal
++
+Publish the portal to make it available to your community.
 
 == Portal Pages
 API Experience Hub portal pages include a Home, APIs, and an API Details page. Each page can be configured and customized to fit your organization's needs by the portal administrators. For more information see xref:styling-your-api-portal.adoc[Styling Your API Portal].
@@ -50,10 +67,14 @@ The top of the API Details page shows the metadata about the API, including the 
 == Product Integration
 API Experience Hub is integrated with the following products:
 
+* Anypoint Exchange
++
+Within API Experience Hub, portal admins can curate their portals by importing APIs from Exchange. Exchange is a catalog of reusable assets such as APIs, policies, API spec fragments, API groups, templates, examples, custom assets, and integration assets such as connectors. See the https://docs.mulesoft.com/exchange/[Exchange documentation] for more information.
+
 * Salesforce Experience Cloud
 +
 API Experience Hub is powered by Salesforce Experience Cloud and provides customization and branding capabilities to serve the different needs of your developer audiences. See https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder documentation] for more information.
 
-* Anypoint Exchange
-+
-Within API Experience Hub, portal admins can curate their portals by importing APIs from Exchange. Exchange is a catalog of reusable assets such as APIs, policies, API spec fragments, API groups, templates, examples, custom assets, and integration assets such as connectors. See the https://docs.mulesoft.com/exchange/[Exchange documentation] for more information.
+== See Also
+
+* xref:getting-started.adoc[Getting Started]

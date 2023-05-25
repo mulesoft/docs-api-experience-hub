@@ -3,10 +3,10 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-After you make custom changes to your Salesforce Experience Cloud site, you can preview the new version to ensure that it meets your expectations:
+After making changes to your portal, you can preview the new version to ensure that it meets your expectations:
 
-. Click *Builder*.
-. Click *Preview*.
+. From the Manage your portal pages, click *Preview portal in Salesforce Builder*.
+. From the Builder, click *Preview*.
 . Verify that your changes are applied and displayed correctly. 
 +
 APIs that are visible only to administrators appear in this preview.
@@ -14,6 +14,7 @@ APIs that are visible only to administrators appear in this preview.
 . To make changes, click *Back to Builder*.
 
 == See Also
-* https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder]
-* xref:customizing-your-portal.adoc[Customizing Your Portal]
-* xref:publish-your-portal.adoc[Publish Your Portal]
+* xref:customizing-your-portal.adoc[Customizing Your Portal Using the Builder] 
+
+
+
