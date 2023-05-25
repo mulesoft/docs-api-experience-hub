@@ -49,7 +49,7 @@ To remove APIs from your portal:
 In the *APIs in the portal* tab, the API is removed from the list.
 
 == Make API Versions Visible
-You can determine which version of an API a user can view in your portal. You can set the visibility to Administrators only, Members only, or Everyone.
+You can determine which version of an API a user can view in your portal. You can set the visibility to Administrators, Members, Everyone, None.
 
 * Administrators 
 +

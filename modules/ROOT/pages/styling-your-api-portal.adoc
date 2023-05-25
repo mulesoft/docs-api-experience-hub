@@ -13,7 +13,7 @@ Styling an API portal includes the following tasks:
 +
 The Home page is the landing page of your API portal and is also known as the API Carousel. The template includes adding a logo, banner image, org branding, banner title, description of the portal, and footer configuration. 
 +
-image::aeh-set-up-home-page.png[Set up home page]
+image::aeh-set-up-home-page.png[Style Home page]
 
 * Style the API Catalog
 +
@@ -24,7 +24,7 @@ The APIs page contains the collection of APIs in your portal and is known as the
 +
 The API Details page displays information about an API. The template includes the name, type of API, owner email address, and a description of the API. 
 +
-image::aeh-set-up-api-details.png[Set up API details]
+image::aeh-set-up-api-details.png[Style API details]
 
 Follow the guided design and click *Next* to advance through the steps. 
 

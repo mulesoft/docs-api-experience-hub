@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-The Settings page provides information about the Salesforce account your API portal and enables you to disconnect the API portal. 
+The Settings page provides information about the Salesforce account for your API portal and enables you to disconnect the API portal. 
 
 == View Settings
 
@@ -25,7 +25,7 @@ Disconnecting your API portal removes artifacts from the API Experience Hub data
 
 To create a new API portal, you must disconnect the current API portal from your Salesforce organization. This process unlinks Anypoint to your Salesforce organization. You can then link your Anypoint account to a new Salesforce organization. 
 
-The following graphic shows the *Disconnect portal* button from the Settings screen:
+The following graphic shows the *Disconnect portal* button from the Settings page:
 
 image::apiexphub-settings-disconnect-portal.png[The Disconnect portal button from the Settings page]
 
