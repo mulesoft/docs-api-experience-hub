@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-After the API portal is created, you can further customize it using the https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder]. The Builder customizes a Salesforce Experience Cloud site with your desired brand identity, look and feel, and site structure by providing control over the site’s components, themes, and pages, and its settings for general properties, themes, and SEO. 
+After the API portal is created using the out-of-the-box styling templates, you can further customize it using the https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder]. The Builder customizes a Salesforce Experience Cloud site with your desired brand identity, look and feel, and site structure by providing control over the site’s components, themes, and pages, and its settings for general properties, themes, and SEO. 
 
 From the *API management* page, the *Preview Portal in Salesforce Builder* link opens your site for editing each page in your portal, creating new pages, and adding and editing the components on each page.
 

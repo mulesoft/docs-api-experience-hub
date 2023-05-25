@@ -11,12 +11,11 @@ Verify that you have the following required accounts and access:
 
 If you do not have the required accounts and access, issues may occur during the Salesforce linking process when creating your API portal.
 
-== Configure Administrator Permissions
+== Set Administrator Permissions
 Anypoint Platform comes with predefined permissions that you can set in Anypoint Access Management to provide users with different access levels. You can configure the permissions for administrators and Exchange viewers.
  
 === Before You Begin
 Consider which user in your organization you want to perform the administrator tasks.
-
 
 === Grant the API Experience Hub Administrator Permission
 The Organization Administration and API Experience Hub Administrator can perform all of the functions to create a portal. Only the Organization Administrator can grant a user the API Experience Hub Administrator permission. Grant this permission when you want another user in your organization to perform the Salesforce linking process, create and curate the portal, manage the portal, and manage users.
@@ -57,3 +56,4 @@ To grant the Exchange Viewer permission to a user:
 
 == See Also
 * xref:users-roles-and-permissions.adoc[Users, Roles, and Permissions]
+* xref:getting-started.adocGetting Started
