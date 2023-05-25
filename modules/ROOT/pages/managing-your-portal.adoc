@@ -18,9 +18,7 @@ View and manage members and pending requests.
 View information about your portal's Salesforce account and disconnect the portal.
 
 == Before You Begin
-Before managing your portal, you need the following:
-
-* APIs in Exchange
+Before managing your portal, you need to have APIs in Exchange to add them to your portal.
 
 
 
