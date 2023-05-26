@@ -26,7 +26,7 @@ Ensure that you have read the instructions in xref:prerequisites.adoc[Prerequisi
 
 
 == Connect, Link, and Install 
-The process of creating your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint organization to your Salesforce organization, then installing the Salesforce Experience Cloud package. Currently, the linking process is a one-time step when creating your portal.
+The process of creating your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint organization to your Salesforce organization, then installing the Salesforce Experience Cloud package. The linking process is a one-time step when creating your portal.
 
 NOTE: Only an Organization Administrator or API Experience Hub Administrator can perform the Salesforce linking.
 
