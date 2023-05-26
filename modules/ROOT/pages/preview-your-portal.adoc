@@ -3,10 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-After making changes to your portal, you can preview the new version to ensure that it meets your expectations:
+After making changes to your portal, you can preview the new version to ensure that it meets your expectations from the Manage your API pages or from the Builder:
 
-. From the Manage your portal pages, click *Preview portal in Salesforce Builder*.
-. From the Builder, click *Preview*.
+. From the *Manage your portal* pages, click *Preview portal in Salesforce Builder*.
 . Verify that your changes are applied and displayed correctly. 
 +
 APIs that are visible only to administrators appear in this preview.
