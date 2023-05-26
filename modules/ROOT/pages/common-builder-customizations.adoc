@@ -23,7 +23,7 @@ To customize the color of each API type:
 . From the Builder, click *Settings* > *Advanced*.
 . Click *Edit Head Markup*. 
 +
-The following shows the asset type color variables.
+The following shows the asset type color variables:
 +
 --asset-type-c-rest-api-color: 0, 0, 0;
 +
