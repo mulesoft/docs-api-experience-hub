@@ -56,4 +56,4 @@ To grant the Exchange Viewer permission to a user:
 
 == See Also
 * xref:users-roles-and-permissions.adoc[Users, Roles, and Permissions]
-* xref:getting-started.adocGetting Started
+* xref:getting-started.adoc[Getting Started]

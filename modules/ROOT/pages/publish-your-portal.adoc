@@ -7,13 +7,11 @@ When you are done managing and curating your portal, you can publish it for your
 
 To publish the portal, follow these steps:
 
-. From the *Manage Your API portal* page, click *Preview portal in Salesforce Builder*.
-. Click *Builder*.
-. Click *Settings* > *General*.
-. Check *Public can access the community*.
-. Click *Builder*.
+. If you are on the *Manage your API portal* page, click *Preview portal in Salesforce Builder*.
 . Click *Publish*.
-+
+
+If you are in the Builder, click *Publish*.
+
 You receive an email confirmation when your changes are live. The email contains the URL link to the published site.
 
 == See Also
