@@ -32,7 +32,7 @@ Create a custom portal in four simple steps:
 
 . Connect to a Salesforce instance
 +
-The instance can be a new or existing Salesforce organization. To connect, specify the environment type and enter the custom Salesforce domain if you have one, log in, and allow the permissions, and confirm the account.
+The instance can be a new or existing Salesforce organization. To connect, specify the environment type and enter the custom Salesforce domain if you have one, log in, allow the permissions, and confirm the account.
 . Style your API portal
 +
 Once you are connected to Salesforce, you can style the portal's OOTB pages with logos, fonts, color schemes, and more.

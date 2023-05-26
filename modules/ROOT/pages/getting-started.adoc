@@ -13,13 +13,21 @@ Administrators can create an API portal in four easy steps:
 
 //. xref:prerequisites.adoc[Configure administrator permissions]
 . xref:connecting-to-salesforce.adoc[Connect to Salesforce]
++
+The instance can be a new or existing Salesforce organization. To connect, specify the environment type and enter the custom Salesforce domain if you have one, log in, allow the permissions, and confirm the account.
 . xref:styling-your-api-portal.adoc[Style your portal]
++
+Once you are connected to Salesforce, you can style the portal’s out-of-the-box pages with logos, fonts, color schemes, and more.
 . xref:managing-your-portal.adoc[Manage your portal]
++
+Manage APIs by adding APIs from Exchange and setting the visibility for the API versions. Manage users by approving access requests from guest users.
 //. xref:creating-your-api-portal.adoc[Create an API portal]
 //. xref:api-management.adoc[Manage your APIs by adding or removing APIs]
 //. xref:api-management.adoc#make-api-versions-visible[Make API versions visible]
 //. xref:user-management.adoc[View and manage users]
 . xref:publish-your-portal.adoc[Publish your portal] 
++
+Publish the portal to make it available to your community.
 //. xref:deactivate-your-portal-site.adoc[Deactivate your portal site]
 //. xref:settings.adoc#disconnect-portal[Disconnect the portal] 
 
