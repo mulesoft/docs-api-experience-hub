@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-After the API portal is created, you can further customize it using the Experience Builder. The Builder creates a Salesforce Experience Cloud site with your desired brand identity, look and feel, and site structure by providing control over the site’s components, themes, and pages, and its settings for general properties, themes, and SEO. Throughout this documentation, the Experience Builder is referred to as the Builder.
+The Builder creates a Salesforce Experience Cloud site with your desired brand identity, look and feel, and site structure by providing control over the site’s components, themes, and pages, and its settings for general properties, themes, and SEO. 
 
 The Builder link opens your site for editing. You can edit each page in your portal, create new pages, and add and edit the components on each page.
 
@@ -54,24 +54,6 @@ Specifies the site’s fonts, which include a primary font and header fonts, and
 +
 You can adjust community styling by editing the CSS rules. Next to the Theme title, click the Theme list, and click Edit CSS.
 Refer to https://help.salesforce.com/s/articleView?id=sf.community_builder_theme_customize.htm&type=5[Customize Your Experience Site Theme].
-
-=== Custom Colors for Each API Type
-To customize the color of each API type:
-
-. From the Builder, click *Settings* > *Advanced*.
-. Click *Edit Head Markup*. 
-+
-The following shows the asset type color variables.
-+
---asset-type-c-rest-api-color: 0, 0, 0;
-+
---asset-type-c-http-api-color: 0, 0, 0;
-+
---asset-type-c-soap-api-color: 0, 0, 0;
-+
---asset-type-c-evented-api-color: 0, 0, 0;
-+
-. Change the color variable number for the asset type.
 
 == Page Structure
 Clicking the Page Structure icon, which resembles a bulleted list, shows the components in the current page and enables you to select and remove them. Selecting a component displays its configuration menu.
