@@ -16,7 +16,7 @@ The package is installed in a sandbox or production organization. The changes ma
 
 == Before You Begin
 
-Before you can create your portal, ensure that you have read the instructions in xref:prerequisites.adoc[Prerequisites].
+Ensure that you have read the instructions in xref:prerequisites.adoc[Prerequisites].
 
 //* Familiarity with Anypoint Platform and Exchange, including the permissions to use both 
 //* Anypoint Platform Organization
