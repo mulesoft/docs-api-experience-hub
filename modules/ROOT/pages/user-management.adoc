@@ -26,9 +26,15 @@ The first and last name of the registered member.
 * Email 
 +
 The email address of the member.
+* Enable portal access
++
+The slider indicates if access to your portal is enabled or disabled for a user. 
 
 === View and Search for Members 
 To find a member, enter the member's name or email address in the *Search by name or email* box. The member is listed in the search results.
+
+=== Enable or Disable Access to Your Portal
+When a user's access to the portal is approved in the Pending requests tab, the Enable portal access slider is on in the Members tab. You can disable a user's access by moving the slider to off.
 
 == Pending Requests
 The Pending requests tab displays information about users who registered to access the portal.
@@ -49,9 +55,7 @@ The date the user registered to access the portal.
 The status of the registration. Registration status can be pending approval or rejected. When the registration is approved, the user is removed from the Pending requests list and added to the list of members on the Members page. 
 
 === Approve or Reject Member Registration
-After a guest user registers for an account using self-registration, you receive a notification email. 
-
-To approve or reject the request:
+After a guest user registers for an account using self-registration, you approve or reject the request. 
 
 . From the *User Management* page, select the *Pending requests* tab.
 . Enter the user's name or email in the *Search by name or email* box.
@@ -80,6 +84,9 @@ To enable external registration again, turn off the *Disable external user regis
 //. Select *Experience Builder Page* for *Registration Page Type* and search for *Register*.
 //. Select *[Site Name] Member User* in *Profile*.
 //. Click *Save*.
+
+== Next Steps
+You can also further customize and brand your portal using xref:customizing-your-portal.adoc[Experience Builder] by clicking *Preview and publish your portal*.
 
 == See Also
 

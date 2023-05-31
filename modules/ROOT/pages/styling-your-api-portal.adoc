@@ -13,7 +13,7 @@ Styling an API portal includes the following tasks:
 +
 The Home page is the landing page of your API portal and is also known as the API Carousel. The template includes adding a logo, banner image, org branding, banner title, description of the portal, and footer configuration. 
 +
-image::aeh-set-up-home-page.png[Style Home page]
+//image::aeh-set-up-home-page.png[Style Home page]
 
 * Style the API Catalog
 +
@@ -24,7 +24,7 @@ The APIs page contains the collection of APIs in your portal and is known as the
 +
 The API Details page displays information about an API. The template includes the name, type of API, owner email address, and a description of the API. 
 +
-image::aeh-set-up-api-details.png[Style API details]
+//image::aeh-set-up-api-details.png[Style API details]
 
 Follow the guided design and click *Next* to advance through the steps. 
 
@@ -47,7 +47,7 @@ The supported file format is PNG, JPEG, SVG, and GIF.
 . To add a banner image, drag or upload an image file to *Select banner image*.
 +
 The supported file format is PNG, JPEG, SVG, and GIF.
-. To edit an image, click *Edit*.
+//. To edit an image, click *Edit*.
 . To brand your org with fonts and colors, from *Customize org branding*:
 ** Select a font style from the drop-down menu.
 ** Select a font color for the banner image from the color picker.
@@ -72,14 +72,15 @@ Follow the guided steps to style the API Details page:
 . To show API Clients applications on the API details page, enable *API Clients* from *Customize API information*.
 . To add a banner title to the API Details page, enter the title in the *Enter API detail banner Title* text box.
 . To add a description of the API Details page, enter the description in the *Enter API detail description* text box.
-. Click *Finish*.
-. If you are not done styling your portal, click *Previous*.
+. If you are not done styling your portal, click *Previous* to change the styling on previous pages.
 . If you are done with styling up your portal, click *Save changes*.
 +
 The process of saving your styles and creating the portal can take several minutes. You can navigate away from the page. 
 
 == Next Steps
-Now that your portal is created, you can manage APIs, users, and settings information from the xref:managing-your-portal.adoc[Manage your portal] page.
+Now that your portal is created, you can manage APIs, users, and settings information from the xref:managing-your-portal.adoc[Manage your portal] page. 
+
+
 
 
 

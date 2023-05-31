@@ -28,7 +28,7 @@ API Experience Hub provides the following advantages:
 // placeholder for spotlight video
 
 == Steps to Create a Portal
-Create a custom portal in four simple steps:
+An administrator can create a custom portal in four simple steps:
 
 . Connect to a Salesforce instance
 +
