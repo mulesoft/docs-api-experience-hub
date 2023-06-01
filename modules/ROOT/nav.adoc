@@ -21,9 +21,9 @@
 
 * xref:discovering-and-consuming-apis.adoc[Discovering and Consuming APIs]
 ** xref:registering-for-access-to-portal.adoc[Registering for Access to a Portal]
-** xref:discovering-apis.adoc[Discover APIs]
-** xref:searching-for-apis.adoc[Search for APIs]
-** xref:viewing-api-details.adoc[View API Details]
+** xref:discovering-apis.adoc[Discovering APIs]
+** xref:searching-for-apis.adoc[Searching for APIs]
+** xref:viewing-api-details.adoc[Viewing API Details]
 ** xref:requesting-access-to-an-api-instance.adoc[Requesting Access to an API Instance]
 ** xref:managing-client-applications-and-contracts.adoc[Managing Client Applications and Contracts]
 ** xref:my-applications.adoc[My Applications]
