@@ -9,9 +9,12 @@ The following users can get started with these tasks:
 
 *Administrators*:
 
-Administrators can create an API portal in four easy steps:
+Administrators can create an API portal in these easy steps:
 
 //. xref:prerequisites.adoc[Configure administrator permissions]
+. xref:assigning-administrator-permissions.adoc[Assign administer permissions]
++ 
+Set up the necessary permissions for administrators to connect to Salesforce and create a portal.
 . xref:connecting-to-salesforce.adoc[Connect to Salesforce]
 +
 The instance can be a new or existing Salesforce organization. To connect, specify the environment type and enter the custom Salesforce domain if you have one, log in, allow the permissions, and confirm the account.
@@ -35,7 +38,7 @@ Publish the portal to make it available to your community.
 
 Developers can discover and consume APIs using these tasks:
 
-. xref:self-registration.adoc[Self-register and access the API portal]
+. xref:registering-for-access-portal.adoc[Register to access a portal]
 . xref:search-for-apis.adoc[Search for APIs]
 . xref:view-api-details.adoc[View API Details page]
 . xref:request-access.adoc[Request access]

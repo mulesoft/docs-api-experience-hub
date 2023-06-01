@@ -8,6 +8,10 @@ Verify that you have the following required accounts and access:
 * Anypoint Platform organization in production
 * Salesforce organization
 * Organization Administrator of the main organization
+* API Experience Hub license
+* Minimum of 2000 External Identity licenses
++
+The current package has a minimum of 100 API access requests which requires a minimum of 2000 External Identity licenses. 
 
 To set up an organization, you can have the following Salesforce editions:
 

@@ -77,8 +77,17 @@ Follow the guided steps to style the API Details page:
 +
 The process of saving your styles and creating the portal can take several minutes. You can navigate away from the page. 
 
+== Default Settings
+The following settings are set by default when the portal is created:
+
+* Self-registration for guest users is enabled by default
+
+* Status of the portal is active.
++
+The portal is not live until it is published.
+
 == Next Steps
-Now that your portal is created, you can manage APIs, users, and settings information from the xref:managing-your-portal.adoc[Manage your portal] page. 
+Now that your portal is created, you can manage APIs by adding them to the portal, manage users, and view settings information and disconnect a portal from the xref:managing-your-portal.adoc[Manage your portal] page. 
 
 
 
