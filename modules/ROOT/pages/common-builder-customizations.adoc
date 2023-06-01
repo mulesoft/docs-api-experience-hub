@@ -7,17 +7,23 @@ endif::[]
 
 You can add Lightning Web components
 
-== Change the Portal Domain
+== Edit the Portal Domain
+By default, Experience Cloud generates the URL for your portal domain. You can customize this for your organization. For example, you can change the URL to <yourcompany>.com
+
+. From the Builder, click the  icon.
+. Click *Salesforce Setup*.
+. In the *Quick find* box, enter *Custom URLs*.
+. In the *Custom URLs* list, click edit for the URL for the domain you want to change.
+. 
+
+== Edit Logo for Self-Registration and Login pages
+
+== Edit Portal Status
+
+== Edit Icon for Email Templates
 
 
-== Change Logo for Self-Registration and Login pages
-
-== Change Portal Status
-
-== Change Email Templates
-
-
-=== Customize Colors for Each API Type
+=== Edit Colors for Each API Type
 To customize the color of each API type:
 
 . From the Builder, click *Settings* > *Advanced*.

@@ -1,0 +1,368 @@
+= Advanced Styling with CSS
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+:imagesdir: ../assets/images/
+
+API Experience Hub offers advanced styling functionality with editable community site Cascading Style Sheets (CSS) for API Experience Hub common components.
+
+The following sections summarize the available options. For detailed information, refer to https://developer.salesforce.com/docs/atlas.en-us.communities_dev.meta/communities_dev/communities_dev_customize_css.htm[Override Template Elements with Custom CSS, role=external, window=blank] in the Experience Cloud Developer Guide.
+
+== Edit the CSS
+
+. In the *Builder*, click the paintbrush icon to open the *Theme* menu.
+. Select the drop-down arrow of the menu and select *Edit CSS*.
+. Edit the CSS file in the *Edit CSS* dialog box.
+. When you are finished with your changes, select *Save*.
+
+== Example
+
+You can use CSS to change the colors of the API Community Manager Theme:
+
+[source,css]
+----
+search-bar-container {
+  background: #342b4a!important;
+}
+----
+
+== CSS Classes
+
+=== API Card
+This component is in the API carousel and API catalog. The API card shows basic information about the asset: name, description, icon, type, and last updated date.
+
+
+|===
+|Class |Description
+
+|`.asset-card-container`
+|Main container for asset card.
+
+|`.asset-card-header-icon`
+|Asset icon container.
+
+|`.asset-card-type`
+|Asset card type text. For example, HTTP-API, REST-API, or SOAP-API.
+
+|`.asset-card-name`
+|Asset card name text.
+
+|`.asset-card-description`
+|Asset card description text.
+
+|`.asset-card-last-updated`
+|Asset card last updated text.
+|===
+
+=== API Carousel
+This component is in the home page. The API Carousel shows the API cards as a carousel with a maximum of five assets.
+
+|===
+|Class |Description
+|`.assets-carousel-container`
+|Main carousel container.
+|`.assets-carousel-title`
+|Assets carousel title.
+|`.assets-carousel-sub-title`
+|Assets carousel subtitle.
+|`.assets-carousel-view-all-link`
+|View all assets link.
+|`.base-carousel-arrow-button-left`
+|Left carousel button.
+|`.base-carousel-arrow-button-right`
+|Right carousel button.
+|`.base-carousel-dots-container`
+|Container of the bottom navigation dots.
+|`.base-carousel-dot`
+|Navigation dot.
+|`.base-carousel-dot-selected`
+|Selected navigation dot.
+|===
+
+=== API Catalog
+This component shows all the assets in the site. Users can search assets and filter by asset type.
+
+|===
+|Class |Description
+|`.assets-catalog-container`
+|Main catalog container. This contains the header with filters and body with asset cards.
+|`.assets-catalog-header-container`	
+|Header catalog container. This contains the filters.
+|`.assets-catalog-header-search`
+|Search input container.
+|`.assets-catalog-header-filters-container`	
+|Container for asset type filter and clear all button in the right.
+|`.assets-catalog-header-filter-type-container`
+|Container for asset type filter.
+|`.assets-catalog-header-clear-all`	
+|Clear all button.
+|`.assets-catalog-body-container`	
+|Body container with all the asset cards.
+|===
+
+=== Application Detail
+This component shows the application information: name, description, application URL, redirect URIs, and grant types.
+
+|===
+|Class|Description
+|`.application-details-header-name`	
+|Application name.
+|`.application-details-header-description-container`	
+|Application description.
+|`.application-details-header-application-url-container`
+|Application URL container.
+|`.application-details-header-application-url`	
+|Application URL label.
+|`.applications-details-cards`	
+|Container for Client Credentials, Redirect URIs, and Grant types cards.
+|`.application-details-card`	
+|Card container.
+|`.application-details-card-header-title`	
+|Card title.
+|`.application-details-card-content`	
+|Card content.
+|`.application-details-card-content-data .label`	
+|Client credentials card: Client Id and Client Secret labels.
+|`.application-details-card-content-data .value`	
+|Client credentials card: Client ID and Client Secret values.
+|`.application-details-card-uri`	
+|Redirect URIs card: application URI.
+|`.application-details-grant-type`	
+|Grant type card: application grant type.
+|===
+
+=== Application Listing
+This component shows the application created by the user. Applications can be filtered by name and description.
+
+|===
+|Class|Description
+|`.applications-listing-search-container`	
+|Application listing search input container.
+|`.applications-listing-table-container`	
+|Applications table container.
+|`.applications-listing-table .name-column`	
+|Application name table header label.
+|`.applications-listing-table` 
+
+`.description-column`	
+|Application description table header label.
+|`.applications-listing-table .credentials-column`	
+|Application credentials table header label.
+|`.applications-listing-table-row`	
+|Each table element that contains the application row.
+|`.applications-listing-table-row` 
+
+`.name-cell`	
+|Application name.
+|`.applications-listing-table-row` 
+
+`.description-cell`	
+|Application description.
+|`.applications-listing-table-row`
+
+`.credentials-icon`	
+|View credentials icon.
+|`.applications-listing-table-row` 
+
+`.credentials-label`	
+|View credentials label.
+|`.applications-listing-table-row-credentials`	
+|Credentials popup container.
+|`.applications-listing-table-row-credentials `
+
+`.crendetials-tooltip-title`	
+|Client ID and client secret label.
+|`.applications-listing-table-row-credentials `
+
+.crendetials-tooltip-code	
+|Application client ID and secret code.
+|===
+
+=== Asset Documentation Viewer (API Overview)
+(Public component) This component is in the API detail page
+It shows pages from an asset. This pages are requested fromm Exchange.
+
+|===
+|Class |Description
+|`.asset-documentation-viewer-container`
+|Principal container for the asset documentation viewer.
+|`asset-documentation-viewer-spinner-container`
+|Spinner container that is executed while documentation 
+request information since asset detail header.
+|`.asset-documentation-viewer-spinner-container`
+ 
+`.asset-documentation-viewer-spinner`	
+|Spinner that is executed while documentation request 
+information since asset detail header.
+|`.asset-documentation-viewer-pages-container`	
+|Container for asset documentation viewer pages container. This container can be used with or without the navigation bar.
+|`.asset-documentation-viewer-pages-tabs`
+|Navigation bar for showing asset documentation pages.
+|`.asset-documentation-viewer-pages-spinner-container`	
+|Spinner container that is executed when the page content is requested from Exchange.
+|`.asset-documentation-viewer-pages-spinner-container` 
+
+`.asset-documentation-viewer-pages-spinner`	
+|Spinner that is executed while the page content is requested from Exchange.
+|`.asset-documentation-pages-base-error`
+|Container that displays when request content from Exchange fails. 
+
+View c-base-error.
+|`.asset-documentation-viewer-pages-one-page-container`
+|Container that displays when the asset has only one page. In this case, the navigation bar does not display.
+|`.asset-documentation-viewer-markdown`
+|Div element where markdown is rendered.
+|===
+
+=== Asset Detail Header
+(Public component) This component is in API detail page. It shows basic information about an asset (logo, name, asset type, information contact, combobox version, status, instances, clients, spec download, and request access button)
+
+|===
+|Class |Description
+|`asset-detail-header-container`
+|Principal container for asset detail header.
+|`.asset-detail-header-spinner-container`	
+|Spinner container that is executed when page is loaded.
+|`.asset-version-header-index-information-collapsible`
+|Collapsible button for asset information.
+|`.asset-version-header-index-information-icon`
+
+`.asset-type-{assetType}-background-color`	
+|Background color of asset icon. assetType:
+
+rest-api
+
+evented-api
+
+http-api
+
+soap-api
+|`.asset-version-header-index-information-icon`
+
+`.asset-type-{this.assetType}-border-color`	
+|Border color of asset icon. assetType:
+
+rest-api
+
+evented-api
+
+http-api
+
+soap-api
+|`.asset-version-header-index-information-title-container`
+
+`.asset-version-header-index-information-title`
+|Title of asset.
+|`.asset-detail-header-index-content-version-action-buttons`
+
+`.asset-detail-header-index-content-version-download-button-button`	
+|Download spec button.
+|`.asset-detail-header-index-content-version-action-buttons`
+
+`.asset-detail-header-index-content-version-download-button-modal`
+|Modal with options that opens when the user clicks *Download*.
+|`.asset-version-header-index-information-detail`
+
+`.asset-type`
+|Asset type.
+|`.asset-version-header-index-information-detail`
+
+`.name`
+|Contact name.
+|`.asset-version-header-index-information-detail`
+
+`.email-link`	
+|Contact email.
+|`.asset-version-header-index-information-description`
+
+`.description`
+|Descrption of asset.
+|`.asset-detail-header-index-content-version-main-container`
+
+`.asset-detail-header-index-content-version-spinner-container`	|Spinner container that is executed when user changes the version selected.
+|`.asset-detail-header-index-content-version-element-detail`
+
+`.header`
+|Title for action in content version. Asset Version, Version state, Instances, and Clients. Apply for all elements.
+|`.asset-detail-header-index-content-version-element-detail`
+
+`.body`
+|Body for action in content version. Asset Version, Version state, Instances, and Clients. Apply for all elements.
+|`.asset-detail-header-index-content-version-element-detail`
+
+`.status`
+|Show status of an asset.
+|`.asset-detail-header-index-content-version-element-detail`
+
+`.instances`
+|Number of instances for an asset.
+|`.asset-detail-header-index-content-version-element-detail`
+
+`.number-contracts`
+|Number of contracts for an asset.
+|`.asset-detail-header-index-content-version-element-detail`
+
+`.asset-detail-header-index-content-version-select-container``	
+|Container to select a version for an asset.
+
+View c-base-title-selector
+|===
+
+=== Base Error
+(Private component) This component is used by other public components as asset detail header or asset documentation viewer to show a message for an error or empty state.
+
+|===
+|Class |Description
+|`.base-error-container`
+|Main container for component.
+|`.base-error-svg-icon-container`
+|Element that contains main icon.
+|`.base-error-text`
+|Title for an error or empty state message.
+|`.base-error-sub-text`
+|Subtitle for an error or empty state message.
+|`.base-error-request-id`
+|In some errors, it shows request ID.
+|`.base-error-try-again`
+|In some errors, it shows a button to execute the failed action again.
+|===
+
+=== Request Access
+(Private component) This component is used by other public components as asset detail header or asset documentation viewer to show a message for an error or empty state.
+
+|===
+|Class |Description
+|`.request-access-container`	
+|Container for the request access button.
+|`.request-access-button`
+|Request access button in the asset detail header.
+|`.request-access-button-label`
+|Label for the request access button.
+|`.request-access-modal-content`
+|Container for request access modal content.
+|`.request-access-modal-footer`
+|Contaienr for request access modal footer.
+|`.request-access-field-label`
+|Label of the request access modal form inputs.
+|`.request-access-field-subtitle`
+|Subtitle of the request access modal form inputs.
+|`.request-access-field-content`
+|Content of the request access modal form inputs.
+|`.request-access-modal-new-application`
+|Container for the new application form.
+|`.request-access-new-application-form-title`
+|Create new application title.
+|`.request-access-input-content.name`
+|New application input name.
+|`.request-access-input-content.description`
+|New application input description.
+|`.request-access-input-content.url`
+|New application application URL input.
+|`.request-access-input-content.redirectUri`
+|New application redirect URI input.
+|`.request-access-modal-button`
+|Cancel and request access modal buttons.
+|`.request-access-modal-button.confirm`
+|Request access modal button.
+|===
+
