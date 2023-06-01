@@ -16,19 +16,39 @@ By default, Experience Cloud generates the URL for your portal domain. You can c
 . Click *Salesforce Setup*.
 . In the *Quick find* box, enter *Custom URLs*.
 . In the *Custom URLs* list, click edit for the URL for the domain you want to change.
-. 
+.
 
-== Edit Logo for Self-Registration and Login pages
+== Edit Logo Image for Self-Registration and Login Pages
+By default, the logo image used for the login pages is the image added during the guided styling setup. You can change the image for the login pages.
+
+. From the Builder, click the *Builder* icon.
+. From *My Workspaces* click *Administration*.
+. Select *Login & Registration*.
+//I have insufficient privileges so I cannot get to the next steps.
 
 == Change Portal Status
+The status of a portal is active when it's created. You can change the status to active or back to deactive to control whether users can access the portal.
 
-== Edit Icon for Email Templates
+. From a *Manage your API Portal* page, click *Preview and publish your portal*.
+. Click the *Builder* icon.
+. From *My Workspaces*, click *Administration*.
+. Click *Settings*.
+. From *Status*, click *Deactivate* or *Activate*.
 
+== Edit Email Template for Portal Registration
+You can edit the email information that is sent to users who register for your site. 
+
+. From a *Manage your API Portal* page, click *Preview and publish your portal*.
+. Click the *Builder* icon.
+. From *My Workspaces*, click *Administration*.
+. Click *Emails*
+. Make your changes and click *Save*.
 
 === Edit Colors for Each API Type
-To customize the color of each API type:
+You can customize the color for each API type card that displays in the Home page.
 
-. From the Builder, click *Settings* > *Advanced*.
+. From the Builder, click the *Settings* icon.
+. Click *Advanced*.
 . Click *Edit Head Markup*. 
 +
 The following shows the asset type color variables:
@@ -41,4 +61,4 @@ The following shows the asset type color variables:
 +
 --asset-type-c-evented-api-color: 0, 0, 0;
 +
-. Change the color variable number for the asset type.
+. Change the color variable number for the asset type and click *Save*.
