@@ -1,4 +1,4 @@
-= Look-and-Feel Customization 
+= Customizing the Portal Look-and-Feel  
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
