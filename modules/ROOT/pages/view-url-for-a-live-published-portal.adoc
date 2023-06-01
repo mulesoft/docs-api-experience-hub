@@ -1,4 +1,4 @@
-= View URL for a Live Published Portal 
+= Viewing URL for a Live Published Portal 
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
