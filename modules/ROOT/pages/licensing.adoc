@@ -5,7 +5,7 @@ endif::[]
 
 The API Experience Hub license is procured and provisioned by MuleSoft. The license is based on the number of member requests to access the portal. The current package has a minimum of 100 API access requests which require a minimum of 2000 External Identity licenses. This is required for the portal consumers to access the API portal.
 
-To set up an organization, you can have the following Salesforce organizations:
+To set up an organization, you can have the following Salesforce editions:
 
 * Unlimited Edition
 * Enterprise Edition

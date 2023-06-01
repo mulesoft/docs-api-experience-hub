@@ -48,16 +48,16 @@ To remove APIs from your portal:
 +
 In the *APIs in the portal* tab, the API is removed from the list.
 
-== Make API Versions Visible
+== Manage API Versions Visible
 You can determine which version of an API a user can view in your portal. You can set the visibility to Administrators, Members, Everyone, None.
 
-* Administrators 
+* Administrators Only
 +
 Use this option if you want the version to be seen by the portal administrator only.
 * Guests
 +
 Use this option if you want the version to be seen by members only.
-* Members 
+* Members Only
 + 
 Use this option if you want the version to be seen only by logged-in members.
 * Everyone
@@ -80,3 +80,5 @@ To edit the user visibility that displays for an API:
 
 == Next Steps
 From xref:user-management.adoc[User Management], you can view and manage users and access requests from guest users.
+
+//You can also further customize and brand your portal using xref:customizing-your-portal.adoc[Experience Builder]. 
