@@ -28,7 +28,7 @@ Manage APIs by adding APIs from Exchange and setting the visibility for the API 
 //. xref:api-management.adoc[Manage your APIs by adding or removing APIs]
 //. xref:api-management.adoc#make-api-versions-visible[Make API versions visible]
 //. xref:user-management.adoc[View and manage users]
-. xref:publish-your-portal.adoc[Publish your portal] 
+. xref:previewing-and-publishing-your-portal.adoc[Preview and publish your portal] 
 +
 Publish the portal to make it available to your community.
 //. xref:deactivate-your-portal-site.adoc[Deactivate your portal site]
