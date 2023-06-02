@@ -13,3 +13,6 @@ To deactivate your portal site, follow these steps:
 . Click *Settings*.
 . From *Status*, click *Deactivate*.
 
+== See Also
+
+* xref:disconnecting-the-portal.adoc[Disconnecting the Portal]

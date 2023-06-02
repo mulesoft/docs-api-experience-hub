@@ -28,14 +28,14 @@ API Experience Hub provides the following advantages:
 // placeholder for spotlight video
 
 == Steps to Create a Portal
-An administrator can create a custom portal in four simple steps:
+An administrator can create a custom portal using these easy steps:
 
 . Connect to a Salesforce instance
 +
 The instance can be a new or existing Salesforce organization. To connect, specify the environment type and enter the custom Salesforce domain if you have one, log in, allow the permissions, and confirm the account.
 . Style your API portal
 +
-Once you are connected to Salesforce, you can style the portal's OOTB pages with logos, fonts, color schemes, and more.
+Once you are connected to Salesforce, you can style the portal's out-of-the-box pages with logos, fonts, color schemes, and more.
 . Manage your portal.
 +
 Manage APIs by adding APIs from Exchange and setting the visibility for the API versions. Manage users by approving access requests from guest users.
@@ -50,7 +50,7 @@ The following sample portal shows the Home page:
 
 image::aeh-home-page.png[Home page]
 
-The portal contains the following starter pages:
+The portal contains the following template pages:
 
 * Home
 +

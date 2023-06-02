@@ -14,6 +14,8 @@ The Settings page show the following information:
 * Organization domain
 * Organization ID
 
+== See Also
+* xref:disconnecting-the-protal.adoc[Disconnecting the Portal] 
  
 
 

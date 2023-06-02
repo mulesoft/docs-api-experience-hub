@@ -12,7 +12,7 @@ To create a new API portal, you must disconnect the current API portal from your
 
 The following graphic shows the *Disconnect portal* button from the Settings page:
 
-image::apiexphub-settings-disconnect-portal.png[The Disconnect portal button from the Settings page]
+//image::apiexphub-settings-disconnect-portal.png[The Disconnect portal button from the Settings page]
 
 To disconnect your API portal:
 

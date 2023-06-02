@@ -25,31 +25,30 @@ Once you are connected to Salesforce, you can style the portal’s out-of-the-bo
 +
 Manage APIs by adding APIs from Exchange and setting the visibility for the API versions. Manage users by approving access requests from guest users.
 //. xref:creating-your-api-portal.adoc[Create an API portal]
-//. xref:api-management.adoc[Manage your APIs by adding or removing APIs]
-//. xref:api-management.adoc#make-api-versions-visible[Make API versions visible]
-//. xref:user-management.adoc[View and manage users]
+//. xref:managing-apis.adoc[Manage your APIs by adding or removing APIs]
+//. xref:managing-apis.adoc#make-api-versions-visible[Make API versions visible]
+//. xref:managing-users.adoc[View and manage users]
 . xref:previewing-and-publishing-your-portal.adoc[Preview and publish your portal] 
 +
 Publish the portal to make it available to your community.
-//. xref:deactivate-your-portal-site.adoc[Deactivate your portal site]
-//. xref:settings.adoc#disconnect-portal[Disconnect the portal] 
+//. xref:deactivating-your-portal-site.adoc[Deactivate your portal site]
+//. xref:disconnecting-the-portal.adoc[Disconnect the portal] 
 
 *Developers*:
 
 Developers can discover and consume APIs using these tasks:
 
 . xref:registering-for-access-portal.adoc[Register to access a portal]
-. xref:search-for-apis.adoc[Search for APIs]
-. xref:view-api-details.adoc[View API Details page]
-. xref:request-access.adoc[Request access]
+. xref:searching-for-apis.adoc[Search for APIs]
+. xref:viewing-api-details.adoc[View API Details page]
+. xref:requesting-access-to-an-api-instance.adoc[Request access to an API instance]
 . xref:my-applications.adoc[View your applications that hold a contract with an API]
-. xref:download-an-api-specification.adoc[Download API specifications]
+. xref:downloading-an-api-specification.adoc[Download API specifications]
 . xref:api-console-specification-and-documentation.adoc[Inspect API Console specification and documentation]
 
 == See Also
 
-* xref:default-settings.adoc[Default Settings]
-* xref:limitations.adoc[Limitations]
+* xref:prerequisites.adoc[Prerequisites]
 
 
 

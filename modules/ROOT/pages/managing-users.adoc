@@ -90,8 +90,7 @@ You can also further customize and brand your portal using xref:customizing-your
 
 == See Also
 
-* xref:managing-your-portal.adoc[Managing Your API Portal]
-* xref:self-registration.adoc[Self-Registration]
+* xref:registering-for-access-to-portal.adoc[Registering to Access a Portal]
 
 
 

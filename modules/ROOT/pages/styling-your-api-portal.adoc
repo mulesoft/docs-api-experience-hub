@@ -1,4 +1,4 @@
-= Styling Your API Portal 
+= Styling and Creating Your API Portal 
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
@@ -9,18 +9,18 @@ A guided design takes portal administrators through the process of styling the A
 
 Styling an API portal includes the following tasks:
 
-* Style the Home page
+. Style the Home page
 +
 The Home page is the landing page of your API portal and is also known as the API Carousel. The template includes adding a logo, banner image, org branding, banner title, description of the portal, and footer configuration. 
 +
 //image::aeh-set-up-home-page.png[Style Home page]
 
-* Style the API Catalog
+. Style the API Catalog
 +
 The APIs page contains the collection of APIs in your portal and is known as the API Catalog. The template includes customizing the colors for each API type like REST and HTTP.
 
 
-* Style the API Details page
+. Style the API Details page
 +
 The API Details page displays information about an API. The template includes the name, type of API, owner email address, and a description of the API. 
 +
@@ -89,7 +89,9 @@ The portal is not live until it is published.
 == Next Steps
 Now that your portal is created, you can manage APIs by adding them to the portal, manage users, and view settings information and disconnect a portal from the xref:managing-your-portal.adoc[Manage your portal] page. 
 
+== See Also
 
+* xref:troubleshooting.adoc[Troubleshooting]
 
 
 

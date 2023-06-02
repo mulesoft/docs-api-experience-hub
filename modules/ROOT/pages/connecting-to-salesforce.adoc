@@ -52,3 +52,7 @@ The process of installing the Salesforce Experience Cloud package begins. When t
 == Next Steps
 When the linking is complete, you can xref:styling-your-api-portal.adoc[style your API portal].
 
+== See Also
+
+* xref:troubleshooting.adoc[Troubleshooting]
+
