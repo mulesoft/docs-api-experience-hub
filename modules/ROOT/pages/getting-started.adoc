@@ -38,7 +38,7 @@ Publish the portal to make it available to your community.
 
 Developers can discover and consume APIs using these tasks:
 
-. xref:registering-for-access-portal.adoc[Register to access a portal]
+. xref:registering-for-access-to-portal.adoc[Register to access a portal]
 . xref:searching-for-apis.adoc[Search for APIs]
 . xref:viewing-api-details.adoc[View API Details page]
 . xref:requesting-access-to-an-api-instance.adoc[Request access to an API instance]
