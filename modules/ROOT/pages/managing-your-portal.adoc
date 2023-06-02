@@ -5,17 +5,17 @@ endif::[]
 
 After your portal is styled using the guided design, the Manage your API portal page provides options to manage APIs, users, and settings.
 
-* xref:api-management.adoc[API Management]
+* xref:managing-apist.adoc[API Management]
 + 
 Add your APIs from Exchange into your API portal, remove APIs from your portal, view list of APIs that you have in Exchange, and change the visibility of an API version.
 
-* xref:user-management.adoc[User Management]
+* xref:managing-users.adoc[User Management]
 + 
 View and manage members and pending requests.
 
-* xref:settings.adoc[Settings]
+* Settings
 + 
-View information about your portal's Salesforce account and disconnect the portal.
+xref:viewing-salesforce-account-information.adoc[View information about your portal's Salesforce account] and xref:disconnecting-the-portal.adoc[disconnect the portal].
 
 == Before You Begin
 Before managing your portal, you need to have APIs in Exchange to add them to your portal.
