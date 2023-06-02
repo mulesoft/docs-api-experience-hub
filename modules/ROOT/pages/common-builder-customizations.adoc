@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-You can use the following customizations to build your  portal to match your company's brand.
+You can use the following customizations to match your company's brand.
 
 == Add and Remove Portal Components
 You can add and remove API Experience Hub components from your portal in the Builder.
