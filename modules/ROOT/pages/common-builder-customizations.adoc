@@ -3,25 +3,32 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-== Add Portal Components
-
-You can add Lightning Web components
+== Add and Remove Portal Components
+You can add and remove API Experience Hub components from your portal in the Builder.
+ 
+. From a *Manage your API Portal* page, click *Preview and publish your portal*.
+. Click the *Component* icon.
+. Scroll to *Custom Components*.
+. Click a component for example, API Console and drag it into the portal.
+. To remove a component, click the trash can icon.
 
 == Edit the Portal Domain
 By default, Experience Cloud generates the URL for your portal domain. You can customize this for your organization. For example, you can change the URL to <yourcompany>.com 
 
 //Need to create a custom domain https://help.salesforce.com/s/articleView?id=sf.domain_mgmt_update_dns.htm&type=5the user the steps below
 
-. From the Builder, click the  icon.
+. From a *Manage your API Portal* page, click *Preview and publish your portal*.
+. Click the *Builder* icon.
 . Click *Salesforce Setup*.
 . In the *Quick find* box, enter *Custom URLs*.
 . In the *Custom URLs* list, click edit for the URL for the domain you want to change.
-.
+
 
 == Edit Logo Image for Self-Registration and Login Pages
 By default, the logo image used for the login pages is the image added during the guided styling setup. You can change the image for the login pages.
 
-. From the Builder, click the *Builder* icon.
+. From a *Manage your API Portal* page, click *Preview and publish your portal*.
+. Click the *Builder* icon.
 . From *My Workspaces* click *Administration*.
 . Select *Login & Registration*.
 //I have insufficient privileges so I cannot get to the next steps.
@@ -47,7 +54,9 @@ You can edit the email information that is sent to users who register for your s
 === Edit Colors for Each API Type
 You can customize the color for each API type card that displays in the Home page.
 
-. From the Builder, click the *Settings* icon.
+. From a *Manage your API Portal* page, click *Preview and publish your portal*.
+. Click the *Builder* icon.
+. Click the *Settings* icon.
 . Click *Advanced*.
 . Click *Edit Head Markup*. 
 +
