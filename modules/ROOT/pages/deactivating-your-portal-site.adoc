@@ -1,4 +1,4 @@
-= Deactivate Your Portal 
+= Deactivating Your Portal 
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
@@ -11,7 +11,9 @@ To deactivate your portal site, follow these steps:
 . Click the *Builder* icon.
 . From *My Workspaces*, click *Administration*.
 . Click *Settings*.
-. From *Status*, click *Deactivate*.
+. Click *Deactivate*.
++
+Your site is inactive and offline.
 
 == See Also
 

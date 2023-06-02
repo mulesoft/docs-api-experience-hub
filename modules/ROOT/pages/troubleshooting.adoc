@@ -6,9 +6,9 @@ endif::[]
 If you encounter errors, refer to the following instructions for recovery.
 
 == Cannot Access the API Management Page to Disconnect Portal
-If you want to disconnect your portal but you cannot access the API Management page to do so, you can unlink your Anypoint and Salesforce organization using the following Curl commands. The commands can be executed in a terminal or using Postman and other applications.
+From the API Management, Settings page, you can disconnect your portal. If you cannot access the Settings page, you can disconnect the portal using the following Curl commands to unlink your Anypoint and Salesforce organization. You can execute the commands in a terminal or using Postman and other applications.
 
-The unlinking process deletes the configuration created during the linking process, connected apps, and IDPs in the Anypoint organization. This process does not delete your portal or uninstall the API Experience Hub package. Use this method only if you want to use another Salesforce organization with the same Anypoint account.
+The unlinking process deletes the configuration created during the linking process, connected apps, and IDPs in the Anypoint organization. This process does not delete your portal or uninstall the API Experience Hub package. Use this method if you want to create a portal using another Salesforce organization with the same Anypoint account.
 
 To disconnect your portal:
 

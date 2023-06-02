@@ -1,4 +1,4 @@
-= Preview and Publish Your Portal 
+= Previewing and Publishing Your Portal 
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
@@ -14,8 +14,8 @@ To preview and publish the portal, follow these steps:
 You receive an email confirmation when your changes are live. The email contains the URL link to the published site.
 
 == View URL for a Live Published Portal
-To view the URL for the live published portal, in the Builder, go to *Settings* > *General*. The *Published Status* section displays the URL to the live published portal.
+To view the URL for the live published portal, in the Builder, go to *Settings* > *General*. The *Published Status* section displays the URL for the live published portal.
 
 == See Also
 
-* xref:deactivate-your-portal-site.adoc[Deactivate Your Portal Site]
+* xref:discovering-and-consuming-apis.adoc[Discovering and Consuming APIs]

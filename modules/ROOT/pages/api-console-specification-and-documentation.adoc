@@ -28,3 +28,7 @@ To test an API:
 . In the *Try it* panel, select *Mocking Service* from the *Select Server* options.
 . Click *Send* to send simulated data to the API.
 . Verify the returned responses from the API.
+
+== See Also
+
+* xref:simulating-api-calls-using-the-mocking-service.adoc[Simulating Calls Using the Mocking Service]

@@ -17,7 +17,7 @@ The following sections summarize the available options. For detailed information
 
 == Example
 
-You can use CSS to change the colors of the API Community Manager Theme:
+You can use CSS to change the colors of the API Experience Hub Theme:
 
 [source,css]
 ----
@@ -55,7 +55,7 @@ This component is in the API carousel and API catalog. The API card shows basic 
 |===
 
 === API Carousel
-This component is in the home page. The API Carousel shows the API cards as a carousel with a maximum of five assets.
+This component is on the home page. The API Carousel shows the API cards as a carousel with a maximum of five assets displaying at a time.
 
 |===
 |Class |Description
@@ -179,8 +179,8 @@ This component shows the application created by the user. Applications can be fi
 |===
 
 === Asset Documentation Viewer (API Overview)
-(Public component) This component is in the API detail page
-It shows pages from an asset. This pages are requested fromm Exchange.
+(Public component) This component is in the API detail page.
+It shows pages from an asset. This pages are requested from Exchange.
 
 |===
 |Class |Description
@@ -215,7 +215,7 @@ View c-base-error.
 |===
 
 === Asset Detail Header
-(Public component) This component is in API detail page. It shows basic information about an asset (logo, name, asset type, information contact, combobox version, status, instances, clients, spec download, and request access button)
+(Public component) This component is on API detail page. It shows basic information about an asset (logo, name, asset type, information contact, combo box version, status, instances, clients, spec download, and request access button)
 
 |===
 |Class |Description
@@ -328,7 +328,7 @@ View c-base-title-selector
 |===
 
 === Request Access
-(Private component) This component is used by other public components as asset detail header or asset documentation viewer to show a message for an error or empty state.
+(Private component) This component is used by other public components as an asset detail header or asset documentation viewer to show a message for an error or empty state.
 
 |===
 |Class |Description
@@ -366,3 +366,6 @@ View c-base-title-selector
 |Request access modal button.
 |===
 
+== See Also
+
+*xref:previewing-and-publishing-your-portal.adoc[Previewing and Publishing Your Portal]

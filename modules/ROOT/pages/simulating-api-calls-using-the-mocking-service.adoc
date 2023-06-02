@@ -24,11 +24,11 @@ To access the internal URL, you must specify the authorization headers as part o
 . From the *Documentation* panel, click on the name of an end point.
 //. Click one of the methods of your API, then click *Try it*.
 . (Optional) Provide and query parameters you want to test.
-. You can enter query parameters as name/value pairs.
+. You can enter query parameters as name or value pairs.
 . Click *Send*.
 +
 API Console displays the HTTP return code as specified in your API. Alternately, you can test the API by copying the Request URL and paste it into a web browser or Postman.
 
 == See Also
 
-* xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation]
+* xref:api-console-specification-and-documentation.adoc[API Console Specification and]

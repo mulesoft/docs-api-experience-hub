@@ -1,4 +1,4 @@
-= API Management 
+= Managing APIs 
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]

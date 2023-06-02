@@ -17,7 +17,7 @@ Click *Home* to view the API Carousel with all of the added APIs. Click *APIs* t
 * xref:look-and-feel-customization.adoc[Customizing the Portal Look-and-Feel]
 * xref:api-experience-hub-lightning-components.adoc[API Experience Hub Lightning Components]
 * xref:common-builder-customizations.adoc[Common Builder Customizations]
-* xref:advanced-styling-with0css.adoc[Advanced Styling with CSS]
+* xref:advanced-styling-with-css.adoc[Advanced Styling with CSS]
 * xref:previewing-and-publishing-your-portal.adoc[Previewing and Publishing Your Portal]
 
 
