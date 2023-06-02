@@ -81,6 +81,6 @@ To edit the user visibility that displays for an API:
 . To save the changes, click *Save*.
 
 == Next Steps
-From xref:user-management.adoc[User Management], you can view and manage users and access requests from guest users.
+From xref:managing-users.adoc[User Management], you can view and manage users and access requests from guest users.
 
 //You can also further customize and brand your portal using xref:customizing-your-portal.adoc[Experience Builder]. 

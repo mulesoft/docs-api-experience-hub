@@ -77,7 +77,7 @@ The Organization Administrator role has all of the permissions necessary to crea
 //If there is more than one user who intends to curate and manage the portal, the Organization Administrator can grant another user the API Experience Hub Portal Administrator permission. This administrator has fewer permissions in the portal than the Organization Administrator and the API Experience Hub Administrator.
 
 There are two admin teams created
-Once your Anypoint organization is linked to your Salesforce organization, an API Experience Hub Admin team is created. Any user who is assigned as the API Experience Hub Administrator is automatically added to this team in Access Management.
+once your Anypoint organization is linked to your Salesforce organization, an API Experience Hub Admin team is created. Any user who is assigned as the API Experience Hub Administrator is automatically added to this team in Access Management.
 
 Once the portal is created an API Experience Hub Portal Admin team is created. Any user assigned as the API Experience Hub Portal Administrator is automatically added to this team in Access Management. Although this team is visible in Access Management, this permission is not supported in this release.
 
