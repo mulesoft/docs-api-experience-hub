@@ -34,6 +34,7 @@ By default, the logo image used for the login pages is the image added during th
 . From *My Workspaces* click *Administration*.
 . Select *Login & Registration*.
 //I have insufficient privileges so I cannot get to the next steps.
+. in Branding OPtions, Logo File, Choose a file
 
 == Change Portal Status
 The status of a portal is active when it's created. You can change the status to active or back to deactive to control whether users can access the portal.
