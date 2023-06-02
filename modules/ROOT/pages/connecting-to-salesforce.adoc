@@ -14,16 +14,11 @@ An instance of API Experience Hub connects to only one Anypoint Platform organiz
 
 The package is installed in a sandbox or production organization. The changes made to this organization do not propagate to any other Salesforce organizations that your company might already have. The data regarding API Experience Hub in Salesforce is isolated from your company's operational data, such as ERP or CRM data.
 
+There are two admin teams created once your Anypoint organization is linked to your Salesforce organization, an API Experience Hub Admin team is created. Any user who is assigned as the API Experience Hub Administrator is automatically added to this team in Access Management.
+
 == Before You Begin
 
 Ensure that you have read the instructions in xref:prerequisites.adoc[Prerequisites].
-
-//* Familiarity with Anypoint Platform and Exchange, including the permissions to use both 
-//* Anypoint Platform Organization
-//* API Experience Hub Admin permission
-//* Organization administrator with permissions in Anypoint
-//* Exchange Viewer permission
-
 
 == Connect, Link, and Install 
 The process of creating your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint organization to your Salesforce organization, then installing the Salesforce Experience Cloud package. The linking process is a one-time step when creating your portal.
