@@ -20,4 +20,4 @@ To view the API Details page, select an API from the Home or APIs page of the po
 
 == See Also
 
-*xref:requesting-access-to-an-api-instance.adoc[Requesting Access to an API Instance]
+* xref:requesting-access-to-an-api-instance.adoc[Requesting Access to an API Instance]
