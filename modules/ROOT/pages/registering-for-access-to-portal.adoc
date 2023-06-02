@@ -14,5 +14,8 @@ To register for an account:
 . Click *Sign Up*.
 . Follow the instructions in the welcome email to set up your account.
 
- 
+ == See Also
+
+ * xref:discovering-apis.adoc[Discovering APIs]
+ * xref:searching-for-apis.adoc[Searching for APIs]
 

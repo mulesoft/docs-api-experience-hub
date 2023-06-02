@@ -1,4 +1,4 @@
-= Download an API Specification
+= Downloading an API Specification
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
@@ -18,3 +18,7 @@ If you choose As RAML, the API specification is downloaded as a zip file contain
 * SOAP API WSDL
 +
 Downloads as a WSDL file.
+
+== See Also
+
+* xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation]

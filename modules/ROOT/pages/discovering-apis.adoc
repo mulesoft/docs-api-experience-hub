@@ -1,4 +1,4 @@
-= Discover APIs
+= Discovering APIs
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
@@ -8,5 +8,6 @@ The Home page or landing page of a portal contains the API Carousel. The API Car
 The APIs page contains the API Catalog of all the APIs in the portal. The searchable catalog shows a horizontally scrollable set of API cards. Each card shows an API. The API icon, name, and description are shown based on the API information from Exchange. 
 
 == See Also
-* xref:search-for-apis.adoc[Search for APIs]
-* xref:view-api-details.adoc[View API Details]
+
+* xref:searching-for-apis.adoc[Searching for APIs]
+* xref:viewing-api-details.adoc[Viewing API Details]

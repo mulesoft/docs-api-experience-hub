@@ -62,5 +62,5 @@ The My Applications page lists the client ID and client secret for this access i
 
 == See Also
 
-* xref:view-api-details.adoc[View API Details]
+* xref:viewing-api-details.adoc[View API Details]
 * xref:my-applications.adoc[My Applications]

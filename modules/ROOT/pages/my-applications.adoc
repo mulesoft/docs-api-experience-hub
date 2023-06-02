@@ -5,7 +5,7 @@ endif::[]
 
 Member users can see My Applications at the top of the portal. The My Applications page lists applications that hold a contract with an API. Each client application has a client ID, client secret, description, URL, redirect URIs, and grant types.
 
-APIs that are protected by a client ID enforcement policy require client applications to provide a client ID and optional client secret. The client ID and client secret credentials are automatically created when the client application is registered. For more information about registering an application, see xref:request-access.adoc[Request Access].
+APIs that are protected by a client ID enforcement policy require client applications to provide a client ID and optional client secret. The client ID and client secret credentials are automatically created when the client application is registered. For more information about registering an application, see xref:requesting-access-to-an-api-instance.adoc[Requesting Access to an API Instance].
 
 //placeholder for screen capture of My Applications page
 

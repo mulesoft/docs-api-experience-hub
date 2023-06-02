@@ -30,6 +30,6 @@
 ** xref:my-applications.adoc[My Applications]
 ** xref:downloading-an-api-specification.adoc[Downloading an API Specification]
 ** xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation]
-* xref:known-issues.adoc[Known Issues]
+//* xref:known-issues.adoc[Known Issues]
 * xref:troubleshooting.adoc[Troubleshooting]
 
