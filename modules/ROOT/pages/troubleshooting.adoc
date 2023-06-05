@@ -5,6 +5,15 @@ endif::[]
 
 If you encounter errors, refer to the following instructions for recovery.
 
+== Contact MuleSoft Support
+For professional services customizations, enhancement requests, and other assistance, contact your MuleSoft Customer Success representative.
+
+To report issues or defects in API Experience Hub, submit a support case through the MuleSoft support portal, available at https://help.mulesoft.com.
+
+The MuleSoft support team works closely with the Salesforce support team to coordinate work on any support tickets involving Salesforce technology.
+
+Service-level agreements (SLAs) for support are available at the xref:https://www.mulesoft.com/legal/support-maintenance-terms?_gl=1*9coixf*_ga*MTc1Mzc4OTg5Mi4xNjc3ODY5OTkw*_ga_HQLG2N93Q1*MTY4NTk5MDc4My4yNDAuMS4xNjg1OTkwODE0LjAuMC4w[MuleSoft Product Support and Maintenance Terms] page.
+
 == Cannot Access the API Management Page to Disconnect Portal
 From the API Management, Settings page, you can disconnect your portal. If you cannot access the Settings page, you can disconnect the portal using the following Curl commands to unlink your Anypoint and Salesforce organization. You can execute the commands in a terminal or using Postman and other applications.
 
@@ -85,7 +94,7 @@ curl --location --request DELETE 'https://anypoint.mulesoft.com/api-experience-h
 +
 The connections is deleted. You can perform a new connection to another Salesforce organization. We recommend deleting the browser cache or using a new incognito browser to have a fresh environment to start the linking process again.
 
-== Cannot View API Experience Hub on Anypoint Platform Landing Page
+== API Experience Hub does not display on Anypoint Platform Landing Page
 If API Experience Hub does not display on the Anypoint Platform landing page, ensure that you are using the main organization. Contact the Mulesoft administrator to ensure that the entitlement is enabled.
 
 == Error Occurs When Relax IP Restrictions Option for IP Relaxation is Changed
@@ -110,7 +119,7 @@ The workaround is to deactivate the validation rule, save the styling changes, t
 . Select the *Active* checkbox and click *Save*
 
 == Error When Installing the Package During the Connection Process
-If you encounter errors while installing the package during the connecting to Salesforce process, you can review further details about the deployment status:
+If you encounter errors while installing the package when connecting to Salesforce process, you can review further details about the deployment status:
 
 . From Salesforce, go to *Setup*.
 . Click *Environments*. 
@@ -118,9 +127,7 @@ If you encounter errors while installing the package during the connecting to Sa
 . Click *Deployment Status*.
 . Review the *Failed* and * Succeeded* sections.
 
-
 == Linking Process Fails
-
 The linking process fails when the user who executes the linking process has the Exchange Contributor role in a business group and this user does not have the System Administrator permission in that same business group. 
 
 To resolve this issue, add the organization administrator permission to the user who is executing the Salesforce linking in the business group.

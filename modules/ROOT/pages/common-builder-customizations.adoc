@@ -1,4 +1,4 @@
-= Common Builder Customizations
+= Using the Builder for Common Customizations 
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
@@ -45,14 +45,6 @@ The status of a portal is active when it's created. You can change the status to
 . Click *Settings*.
 . From *Status*, click *Deactivate* or *Activate*.
 
-== Edit Email Template for Portal Registration
-You can edit the email information that is sent to users who register for your site. 
-
-. From a *Manage your API Portal* page, click *Preview and publish your portal*.
-. Click the *Builder* icon.
-. From *My Workspaces*, click *Administration*.
-. Click *Emails*
-. Make your changes and click *Save*.
 
 === Edit Colors for Each API Type
 You can customize the color for each API type card that displays in the Home page.
@@ -74,3 +66,14 @@ The following shows the asset type color variables:
 --asset-type-c-evented-api-color: 0, 0, 0;
 +
 . Change the color variable number for the asset type and click *Save*.
+
+== Edit Email Template for Portal Registration
+You can edit the email information that is sent to users who register for your site. 
+
+. From a *Manage your API Portal* page, click *Preview and publish your portal*.
+. Click the *Builder* icon.
+. From *My Workspaces*, click *Administration*.
+. Click *Emails*
+. Make your changes and click *Save*.
+ 
+== Edit the Background Theme for the Login Page 

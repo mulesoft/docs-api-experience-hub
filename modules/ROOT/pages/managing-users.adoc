@@ -16,7 +16,6 @@ You can see information about:
 == Members
 When the registration of guest users are approved, they are added to the list of members in the Members tab of the User Management page. You can view a searchable list of current members and manage their accounts by enabling or disabling them.
 
-//TODO currently, the UI does not have enable or disable functionality. Find out if it will be in GA.
 
 The Members tab shows the following information:
 

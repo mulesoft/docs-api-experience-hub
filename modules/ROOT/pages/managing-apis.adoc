@@ -58,9 +58,6 @@ You can manage which version of an API a user can view in your portal. You can s
 * Administrators Only
 +
 Use this option if you want the version to be seen by the portal administrator only.
-* Guests
-+
-Use this option if you want the version to be seen by members only.
 * Members Only
 + 
 Use this option if you want the version to be seen only by logged-in members.
