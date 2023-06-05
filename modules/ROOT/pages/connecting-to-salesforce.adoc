@@ -5,7 +5,22 @@ endif::[]
 
 API Experience Hub is composed of a Salesforce organization with Experience Cloud and a managed package that is installed in this organization. The managed package contains the components and data objects that interact with your Anypoint Platform organization.
 
-A connection with Salesforce Experience Cloud is required for linking to the Salesforce organization to create an API portal within Anypoint. This process must be completed only once to create a portal. API Experience Hub uses a connected App to obtain a session token in Anypoint and interacts with Salesforce APIs. To complete connection process, you must allow API Experience Hub to access the following:
+A connection with Salesforce Experience Cloud is required for linking to the Salesforce organization to create an API portal within Anypoint. This process must be completed only once to create a portal. 
+
+IMPORTANT: Please ensure that you are linking your Anypoint organization to the correct Salesforce organization. 
+
+API Experience Hub uses a connected App to obtain a session token in Anypoint and interacts with Salesforce APIs. 
+
+To view the connected App that is created in the Salesforce organization:
+
+. From Salesforce, click *Setup*.
+. Enter *app management* in the *Quick Find* box and click *App Manager*.
++
+The connected App (Anypoint_AEH) is listed in the table.
+
+In this release, IP restrictions for the connected app are not supported. If you have trusted IP ranges in your organization, they are bypassed by the connected app. We do not recommend changing this option because it produces errors when creating the portal. For more information, see xref:troubleshooting.adoc[Troubleshooting].
+
+To complete connection process, you must allow API Experience Hub to access the following:
 
 * Access the identity URL service
 * Manage user data via Web browsers
@@ -13,8 +28,7 @@ A connection with Salesforce Experience Cloud is required for linking to the Sal
 * Perform requests at any time
 
 
-IMPORTANT: Please ensure that you are linking your Anypoint organization to the correct Salesforce organization. 
-//Currently, this connection can only be done once. Once the connection is made, you cannot unlink from that Salesforce organization. //
+//Currently, this connection can only be done once. Once the connection is made, you cannot unlink from that Salesforce organization. 
 
 An instance of API Experience Hub connects to only one Anypoint Platform organization and Salesforce organization.
 
@@ -42,9 +56,13 @@ Follow these steps to link your API portal:
 * Sandbox
 
 . If you have a custom Salesforce domain, check *I have a custom Salesforce domain* and enter your domain address.
++
+If you do not use the custom domain and you have active sessions with Salesforce in the selected environment, the first active session is used to log in.
 . Click *Connect*.
 . Confirm the Salesforce access information and click *Continue*.
 . Click *Allow* for MuleSoft to access your data.
++
+//placeholder for allow access screen capture
 . Click *Connect*.
 . Click *Continue*.
 +
