@@ -11,7 +11,7 @@ You can see information about:
 
 * Members
 * Pending requests
-* User Registration
+* User registration
 
 == Members
 When the registration of guest users are approved, they are added to the list of members in the Members tab of the User Management page. You can view a searchable list of current members and manage their accounts by enabling or disabling them.
@@ -57,7 +57,7 @@ The status of the registration. Registration status can be pending approval or r
 === Approve or Reject Member Registration
 After a guest user registers for an account using self-registration, you approve or reject the request. 
 
-. From the *User Management* page, select the *Pending requests* tab.
+. From the *User management* page, select the *Pending requests* tab.
 . Enter the user's name or email in the *Search by name or email* box.
 . From the list, click the three dots icon and select *Approve* or *Reject* from the options.
 +

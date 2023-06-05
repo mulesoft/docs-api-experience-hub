@@ -5,7 +5,12 @@ endif::[]
 
 API Experience Hub is composed of a Salesforce organization with Experience Cloud and a managed package that is installed in this organization. The managed package contains the components and data objects that interact with your Anypoint Platform organization.
 
-A connection with Salesforce Experience Cloud is required for linking to the Salesforce organization to create an API portal within Anypoint. This process must be completed only once to create a portal.
+A connection with Salesforce Experience Cloud is required for linking to the Salesforce organization to create an API portal within Anypoint. This process must be completed only once to create a portal. API Experience Hub uses a connected App to obtain a session token in Anypoint and interacts with Salesforce APIs. To complete connection process, you must allow API Experience Hub to access the following:
+ * Access the identity URL service
+ * Manage user data via Web browsers
+ * Manage user data via APIs
+ * Perform requests at any time
+
 
 IMPORTANT: Please ensure that you are linking your Anypoint organization to the correct Salesforce organization. 
 //Currently, this connection can only be done once. Once the connection is made, you cannot unlink from that Salesforce organization. //
