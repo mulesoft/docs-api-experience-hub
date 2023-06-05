@@ -4,7 +4,7 @@ include::_attributes.adoc[]
 endif::[]
 
 
-You design the pages of your API Experience Hub portal by adding and configuring Lightning components in the Builder.
+You can design the pages of your API Experience Hub portal by adding and configuring Lightning components in the Builder.
 
 These Lightning components include both the Lightning components available in all Salesforce Digital Experiences and the API Experience Hub Lightning components available only in API Experience Hub.
 

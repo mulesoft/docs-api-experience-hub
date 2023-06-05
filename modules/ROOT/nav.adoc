@@ -17,8 +17,9 @@
 * xref:customizing-your-portal.adoc[Customizing Your Portal Using the Experience Builder]
 ** xref:look-and-feel-customization.adoc[Customizing the Portal Look-and-Feel]
 ** xref:api-experience-hub-lightning-components.adoc[API Experience Hub Lightning Components]
-** xref:advanced-styling-with-css.adoc[Advanced Styling with CSS]
 ** xref:common-builder-customizations.adoc[Using the Builder for Common Customizations]
+** xref:advanced-styling-with-css.adoc[Advanced Styling with CSS]
+
 * xref:previewing-and-publishing-your-portal.adoc[Previewing and Publishing Your Portal]
 
 * xref:discovering-and-consuming-apis.adoc[Discovering and Consuming APIs]
