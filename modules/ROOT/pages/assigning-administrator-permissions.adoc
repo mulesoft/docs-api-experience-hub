@@ -9,7 +9,7 @@ Anypoint Platform comes with predefined permissions that you can set in Anypoint
 Consider which user in your organization you want to perform the administrator tasks.
 
 == Grant the API Experience Hub Administrator Permission
-The Organization Administration and API Experience Hub Administrator can perform all of the functions to create a portal. Only the Organization Administrator can grant a user the API Experience Hub Administrator permission. Grant this permission when you want another user in your organization to perform the Salesforce linking process, create and curate the portal, manage the portal, and manage users.
+The Organization Administration and API Experience Hub Administrator can perform all of the functions to create a portal. Only the Organization Administrator or an existing API Experience Hub Administrator can grant a user the API Experience Hub Administrator permission. Grant this permission when you want another user in your organization to perform the Salesforce linking process, create and curate the portal, manage the portal, and manage users.
 
 To grant the API Experience Hub Administrator permission to a user:
 
@@ -80,7 +80,7 @@ There are two admin teams created once your Anypoint organization is linked to y
 
 Administrators can only add APIs for which they have the Exchange Viewer permission. When APIs are added to the portal, all administrators are automatically assigned the Exchange Viewer permission. 
 
-Administrators enter the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore, API Experience Hub cannot determine the individual administrator's action in the shared account. If the administrator is already logged in to the Salesforce organization, their previous session is lost when they click the *Preview and publish your portal* button.
+Administrators access the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore, API Experience Hub cannot determine the individual administrator's action in the shared account. If the administrator is already logged in to the Salesforce organization, their previous session is lost when they click the *Preview and publish your portal* button.
 
 |===
 |Role/Permission |Description |Actions
@@ -92,7 +92,7 @@ a|
 * Assign the visibility of an API instance
 * Manage users
 * Use Experience Builder to customize portal
-|API Experience Hub Administrator|The admin inherits all of the Organization Administrator permissions. 
+|API Experience Hub Administrator|The admin inherits all of the Organization Administrator permissions necessary to create your API Portal. 
 a|
 * Perform the Salesforce linking process
 * Create a portal
