@@ -73,7 +73,7 @@ Within API Experience Hub, portal admins can curate their portals by importing A
 
 * Salesforce Experience Cloud
 +
-API Experience Hub is powered by Salesforce Experience Cloud and provides customization and branding capabilities to serve the different needs of your developer audiences. See https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder documentation] for more information.
+API Experience Hub is powered by Salesforce Experience Cloud and provides customization and branding capabilities to serve the different needs of your developer audiences. See xref:customizing-your-portal.adoc[Customizing Your Portal Using Experience Builder] for more information.
 
 == See Also
 
