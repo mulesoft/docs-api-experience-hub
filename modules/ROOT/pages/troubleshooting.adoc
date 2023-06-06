@@ -99,7 +99,7 @@ If API Experience Hub does not display on the Anypoint Platform landing page, en
 
 == Error Occurs When Relax IP Restrictions Option for IP Relaxation is Changed
 
-In this release, IP restrictions for the connected app are not supported. By default, the IP Restrictions field is set to `Relax IP Restrictions`. If you have  Trusted IP Ranges in your organization, they are bypassed by the connected app. We do not recommend changing this option because it produces errors when creating the portal. 
+In this release, IP restrictions for the connected app are not supported. By default, the IP Restrictions field is set to `Relax IP Restrictions`. If you have Trusted IP Ranges in your organization, they are bypassed by the connected app. To avoid errors, do not change the *IP Restrictions* field is from `Relax IP Restrictions` because it produces errors when creating the portal. 
 
 == Error Saving Changes to the Portal When an Object has Validation Rules Activated
 

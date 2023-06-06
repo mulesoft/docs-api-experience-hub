@@ -33,9 +33,9 @@ To grant the API Experience Hub Administrator permission to a user:
 
 == Grant the Exchange Viewer Permission
 
-API Experience Hub Administrators can only add APIs to the portal that they have access to in Exchange. All administrators must have the Exchange Viewer permission to add APIs to the portal.
+Administrators can only add APIs for which they have the Exchange Viewer permission. All administrators must have the Exchange Viewer permission to add APIs to the portal.
 
-Once an API is added to the API portal, all admins can view the API in the portal regardless of their access to specific APIs.
+When APIs are added to the portal, all administrators are assigned automatically the Exchange Viewer permission for the APIs added in the portal 
 
 To grant the Exchange Viewer permission to a user:
 

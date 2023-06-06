@@ -25,7 +25,8 @@ API Experience Hub provides the following advantages:
 * Interactive API documentation to understand how to use and integrate APIs
 * Customized and connected hub to interact with APIs
 
-// placeholder for spotlight video
+// Watch the API Experience Hub Product Spotlight video to see a quick overview.
+++++
 
 == Steps to Create a Portal
 An administrator can create a custom portal using these easy steps:
