@@ -57,11 +57,11 @@ Your current login page displays in the Builder.
 +
 The background color of your Login page changes to the select color.
 
-== Edit the Card Background Color Login Page
-You can change the the card background color of your login page card. 
+== Edit the Card Background Color of the Login Page
+You can change the card background color of your login page card. 
  
- . Navigate to the Builder.
- . Click the *Page Properties* icon and click *Login*.
+. Navigate to the Builder.
+. Click the *Page Properties* icon and click *Login*.
 +
 Your current login page displays in the Builder.
 . Click the *Theme* paintbrush icon.
