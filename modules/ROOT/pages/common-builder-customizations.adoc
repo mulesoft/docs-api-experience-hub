@@ -8,7 +8,7 @@ You can use the following customizations to match your company's brand.
 == Add and Remove Portal Components
 From the Builder, you can add or remove API Experience Hub components from your portal.
  
-. From a *Manage your API Portal* page, click *Preview and publish your portal*.
+. Navigate to the Builder.
 . Click the *Component* icon.
 . Scroll to *Custom Components*.
 . Click a component for example, API Console and drag it into the portal.
@@ -17,7 +17,7 @@ From the Builder, you can add or remove API Experience Hub components from your 
 == Change the Portal Status
 The status of a portal is active when it's created. You can change the status to active or back to deactive to control whether users can access the portal.
 
-. From a *Manage your API Portal* page, click *Preview and publish your portal* to open the Builder.
+. Navigate to the Builder.
 . Click the *Builder* icon.
 . From *My Workspaces*, click *Administration*.
 . Click *Settings*.
@@ -26,7 +26,7 @@ The status of a portal is active when it's created. You can change the status to
 === Edit Colors for Each API Type
 You can customize the color for each API type card that displays in the Home page.
 
-. From a *Manage your API Portal* page, click *Preview and publish your portal* to open the Builder.
+. Navigate to the Builder.
 . Click the *Builder* icon.
 . Click the *Settings* icon.
 . Click *Advanced*.
@@ -44,16 +44,36 @@ The following shows the asset type color variables:
 +
 . Change the color variable number for the asset type and click *Save*.
 
-== Edit the Background Theme of the Login Page
-You can change the color of the login page.
+== Edit the Background Color of the Login Page
+You can change the background color of your portal's login page.
 
-. From a *Manage your API Portal* page, click *Preview and publish your portal* to open the Builder.
+. Navigate to the Builder.
+. Click the *Page Properties* icon and click *Login*.
++
+Your current login page displays in the Builder.
+. Click the *Theme* paintbrush icon.
+. From *Theme*, click *Colors*. 
+. From the *Login Pages* section, select a color from the *Background Color* color picker.
++
+The background color of your Login page changes to the select color.
 
+== Edit the Card Background Color Login Page
+You can change the the card background color of your login page card. 
+ 
+ . Navigate to the Builder.
+ . Click the *Page Properties* icon and click *Login*.
++
+Your current login page displays in the Builder.
+. Click the *Theme* paintbrush icon.
+. From *Theme*, click *Colors*. 
+. From the *Login Pages* section, select a color from the *Card Background Color* color picker.
++
+The card background color of your Login page changes to the select color.
 
 == Edit the Email Template for Portal Registration
 You can edit the email information that is sent to users who register for your site. 
 
-. From a *Manage your API Portal* page, click *Preview and publish your portal* to open the Builder.
+. Navigate to the Builder.
 . Click the *Builder* icon.
 . From *My Workspaces*, click *Administration*.
 . Click *Emails*
@@ -62,23 +82,32 @@ You can edit the email information that is sent to users who register for your s
 == Edit the Logo Image for Self-Registration and Login Pages
 By default, the logo image used for the login pages is the image added during the guided styling setup. You can change the image for the login pages.
 
-. From a *Manage your API Portal* page, click *Preview and publish your portal* to open the Builder.
+. Navigate to the Builder.
 . Click the *Builder* icon.
 . From *My Workspaces* click *Administration*.
 . Select *Login & Registration*.
 //I have insufficient privileges so I cannot get to the next steps.
-. in Branding OPtions, Logo File, Choose a file
+. From the *Branding Options* section, click the *Choose File* button from *Logo File*.
++
+The maximum height of the logo is 125 px and the maximum width is 250 px.
 
 == Edit the Portal Domain
 By default, Experience Cloud generates the URL for your portal domain. You can customize this for your organization. For example, you can change the URL to <yourcompany>.com 
 
 //Need to create a custom domain https://help.salesforce.com/s/articleView?id=sf.domain_mgmt_update_dns.htm&type=5the user the steps below
 
-. From a *Manage your API Portal* page, click *Preview and publish your portal* to open the Builder.
+. Navigate to the Builder.
 . Click the *Builder* icon.
 . Click *Salesforce Setup*.
-. In the *Quick find* box, enter *Custom URLs*.
-. In the *Custom URLs* list, click edit for the URL for the domain you want to change.
+. In the *Quick find* box, enter *Domains*.
+. Click your domain name in the *Domains* list.
+. Click *Edit* in the *My Domains Details* section.
+. Enter a domain name in the *My Domain Name* field.
+. Click the *Check Availability* button to ensure the domain name does not exist already.
+. Enter a domain suffix in the *Domain Suffix* field, for example, *.<my.salesforce.com>.
++
+The new domain URL displays in the *Your chosen new My Domain URl* field.
+. Click *Save*.
 
 
 
