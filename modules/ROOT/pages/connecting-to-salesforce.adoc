@@ -38,7 +38,8 @@ Once your styling changes for the portal are saved, the AEH Portal Admin team is
 
 == Before You Begin
 
-Ensure that you have read the instructions in xref:prerequisites.adoc[Prerequisites].
+* Ensure that you have read the instructions in xref:prerequisites.adoc[Prerequisites].
+* You must be a System Admin in the Salesforce organization that you are connecting with.
 
 == Connect, Link, and Install 
 The process of creating your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint organization to your Salesforce organization, then installing the Salesforce Experience Cloud package. The linking process is a one-time step when creating your portal.
