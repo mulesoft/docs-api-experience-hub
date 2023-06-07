@@ -13,7 +13,7 @@ The Builder’s interface contains the pages list, component palette, theme menu
 
 Click *Preview* to view your changes and to see the portal experience for your developer community. 
 
-Click *Home* to view the API Carousel with all of the added APIs. Click *APIs* to view the API Catalog, search and filter APIs, and select an API to get more details from the API details page. The API details page displays metadata in the top section and the API overview and specification in the lower section. Publish any updates by clicking *Publish*.
+Click *Home* to view the API Carousel with all of the added APIs. Click *APIs* to view the API Catalog, search and filter APIs, and select an API to get more details from the API details page. The API details page displays metadata in the upper section and the API overview and specification in the lower section. Publish any updates by clicking *Publish*.
 
 == See Also
 * xref:look-and-feel-customization.adoc[Customizing the Portal Look-and-Feel]

@@ -5,7 +5,7 @@ endif::[]
 
 API adoption relies heavily on well-written documentation and maintenance. Ensure that you have a good API strategy.
 
-For optimal performance and experience, follow these best practices from Mulesoft:
+For optimal performance and experience, follow these best practices from MuleSoft:
 
 * https://www.mulesoft.com/resources/api/development-best-practices[API Development Best Practices - MuleSoft]
 * https://blogs.mulesoft.com/dev-guides/api-design/best-practices-for-building-apis/[Best Practices for Planning, Designing, and Managing APIs]

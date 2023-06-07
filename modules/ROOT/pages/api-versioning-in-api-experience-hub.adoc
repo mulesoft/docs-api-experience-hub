@@ -6,7 +6,7 @@ endif::[]
 When an API specification requires nonbreaking corrections, such as changing the text, these changes are given a patch version change, such as from `3.0.0` to `3.0.1`. API Experience Hub automatically and immediately imports these updates to all portals in which the API is published, without requiring any action from the API Experience Hub portal administrator.
 
 == Major Updates to an API Version
-When a new version of the API with breaking changes is created, the API Experience Hub portal administrator controls when and how to publish the new version in the site. The new version will appear in the API edition modal without visibility, no one will be available to access this API information in the community. The administrator can set the visibility to the old and the new API versions.
+When a new version of the API with breaking changes is created, the API Experience Hub portal administrator controls when and how to publish the new version in the site. The new version appears in the API edition modal without visibility, no one is available to access this API information in the community. The administrator can set the visibility to the old and the new API versions.
 
 For example, suppose a developer on the API team adds a new resource to an API.
 
