@@ -18,4 +18,5 @@ To view the URL for the live published portal, in the Builder, go to *Settings* 
 
 == See Also
 
+* xref:customizing-your-portal.adoc[Customizing Your Portal]
 * xref:discovering-and-consuming-apis.adoc[Discovering and Consuming APIs]

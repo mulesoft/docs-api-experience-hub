@@ -22,4 +22,6 @@ To set up an organization, you can have the following Salesforce editions:
 If you do not have the required accounts and access, issues may occur during the Salesforce linking process when creating your API portal.
 
 == See Also
+
+* xref:licensing.adoc[Licensing]
 * xref:getting-started.adoc[Getting Started]

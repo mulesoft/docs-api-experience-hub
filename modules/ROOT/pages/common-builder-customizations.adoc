@@ -11,7 +11,7 @@ From the Builder, you can add or remove API Experience Hub components from your 
 . Navigate to the Builder.
 . Click the *Component* icon.
 . Scroll to *Custom Components*.
-. Click a component for example, API Console and drag it into the portal.
+. Click a component, for example, API Console and drag it into the portal.
 . To remove a component, click the trash can icon.
 
 == Change the Portal Status
@@ -109,7 +109,10 @@ By default, Experience Cloud generates the URL for your portal domain. You can c
 The new domain URL displays in the *Your chosen new My Domain URl* field.
 . Click *Save*.
 
+== See Also
 
+* xref:customizing-your-portal.adoc[Customizig Your Portal Using the Experience Builder]
+* xref:advanced-styling-with-css.adoc[Advanced Styling with CSS]
 
 
 
