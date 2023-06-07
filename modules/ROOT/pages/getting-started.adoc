@@ -3,15 +3,12 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-//API Experience Hub has a more modern, reliable, and flexible portal experience that is achieved through the migration of Salesforce Lightning Web Components. API Experience Hub reduces the complexity of Salesforce configuration and provides a simple API portal creation experience. The API Console is redesigned to be more intuitive for developers, product managers, and other roles for the exploration and consumption of APIs. Moving the major administrative tasks and user management directly onto Anypoint makes it easier for administrators to manage their portals.
-
 The following users can get started with these tasks: 
 
 *Administrators*:
 
 Administrators can create an API portal in these easy steps:
 
-//. xref:prerequisites.adoc[Configure administrator permissions]
 . xref:assigning-administrator-permissions.adoc[Assign administer permissions]
 + 
 Set up the necessary permissions for administrators to connect to Salesforce and create a portal.
@@ -24,15 +21,9 @@ Once you are connected to Salesforce, you can style the portal’s out-of-the-bo
 . xref:managing-your-portal.adoc[Manage your portal]
 +
 Manage APIs by adding APIs from Exchange and setting the visibility for the API versions. Manage users by approving access requests from guest users.
-//. xref:creating-your-api-portal.adoc[Create an API portal]
-//. xref:managing-apis.adoc[Manage your APIs by adding or removing APIs]
-//. xref:managing-apis.adoc#make-api-versions-visible[Make API versions visible]
-//. xref:managing-users.adoc[View and manage users]
 . xref:previewing-and-publishing-your-portal.adoc[Preview and publish your portal] 
 +
 Publish the portal to make it available to your community.
-//. xref:deactivating-your-portal-site.adoc[Deactivate your portal site]
-//. xref:disconnecting-the-portal.adoc[Disconnect the portal] 
 
 *Developers*:
 

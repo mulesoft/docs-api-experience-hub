@@ -73,16 +73,6 @@ By default, external users have the ability to self-register to become a member 
 To disable external user registration, from the *User Registration* tab of the *User Management* page, turn on the *Disable external user registration* option. 
 
 To enable external registration again, turn off the *Disable external user registration* option.
-//+
-//You are navigated to the Salesforce Experience Builder.
-//. From the Builder, go to *Setup* and enter *All Sites* in the quick find box.
-//. Click on workspace for the site that you want to enable self-registration.
-//. Go to *Administration* and select *Login & Registration*.
-//. Scroll down to the *Registration Page Configuration* section.
-//. Select *Allow customers and partners to self-register*.
-//. Select *Experience Builder Page* for *Registration Page Type* and search for *Register*.
-//. Select *[Site Name] Member User* in *Profile*.
-//. Click *Save*.
 
 == Next Steps
 You can also further customize and brand your portal using xref:customizing-your-portal.adoc[Experience Builder] by clicking *Preview and publish your portal*.

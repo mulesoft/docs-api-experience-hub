@@ -16,9 +16,3 @@ The Settings page show the following information:
 
 == See Also
 * xref:disconnecting-the-portal.adoc[Disconnecting the Portal] 
- 
-
-
-
-
-

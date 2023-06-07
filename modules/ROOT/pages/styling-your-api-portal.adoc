@@ -5,8 +5,6 @@ endif::[]
 
 A guided design takes portal administrators through the process of styling the API portal using out-of-the-box templates. The guided design contains basic styling options for the Home, API Catalog, and API Details pages with a live preview to help you visualize your portal. Each page includes a progress bar to visualize where you are in the portal design process. 
 
-//After the portal is styled and created, you can further customize it using the Experience Builder.
-
 Styling an API portal includes the following tasks:
 
 . Style the Home page
