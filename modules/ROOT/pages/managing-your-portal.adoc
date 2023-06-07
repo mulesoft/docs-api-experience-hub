@@ -5,7 +5,7 @@ endif::[]
 
 After your portal is styled using the guided design, the Manage your API portal page provides options to manage APIs, users, and settings.
 
-* xref:managing-apist.adoc[API Management]
+* xref:managing-apis.adoc[API Management]
 + 
 Add your APIs from Exchange into your API portal, remove APIs from your portal, view list of APIs that you have in Exchange, and change the visibility of an API version.
 

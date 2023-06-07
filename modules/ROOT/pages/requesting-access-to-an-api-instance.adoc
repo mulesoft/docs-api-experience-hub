@@ -10,7 +10,7 @@ Instances that the client ID enforcement policy protects require client applicat
 If terms and conditions are set for an asset, you are prompted to accept the terms before access is granted. The created contract includes the terms and conditions.
 
 == Before You Begin
-Before you can request access to an API, you must be a member user and be logged into the API portal. See xref:users-roles-and-permissions.adoc[Users, Roles, and Permissions] for more information. 
+Before you can request access to an API, you must be a member user and be logged into the API portal. See xref:registering-for-access-to-portal.adoc[Registering for Access to a Portal]
 
 == Use an Existing Application to Request Access to an API
 You can request access to an API by using an existing application:

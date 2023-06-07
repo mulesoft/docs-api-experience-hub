@@ -15,7 +15,7 @@ The Settings page show the following information:
 * Organization ID
 
 == See Also
-* xref:disconnecting-the-protal.adoc[Disconnecting the Portal] 
+* xref:disconnecting-the-portal.adoc[Disconnecting the Portal] 
  
 
 

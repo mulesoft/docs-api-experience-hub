@@ -22,3 +22,4 @@ Downloads as a WSDL file.
 == See Also
 
 * xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation]
+* xref:simulating-api-calls-using-the-mocking-service.adoc[Simulating Calls Using the Mocking Service}]

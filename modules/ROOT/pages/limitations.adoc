@@ -11,5 +11,5 @@ We do not recommend making changes to the permissions of the out-of-the-box Team
 * API Groups are not available.
 //* API details cannot be modified.
 * API Experience Hub is not certified for use on mobile devices. Some functionality works on mobile devices, but some functionality such as the API Console does not.
-* IP restrictions are not supported. For more information, see the xref:troubleshooting.adoc[Troubleshooting] section for a workaround.
+* IP restrictions are not supported. For more information, see the xref:troubleshooting.adoc[Troubleshooting] section.
 * Validation rules cannot be applied to standard objects that are created during the Salesforce linking process. For more information, see the xref:troubleshooting.adoc[Troubleshooting] section for a work around.

@@ -20,7 +20,7 @@ The mocking service is a feature of Anypoint Platform and runs continuously. You
 
 You must have an API specification with at least one endpoint and one method in it.
 
-== Simulate a Call to an API using an Internal URL
+== Simulate a Call to an API Using an Internal URL
 To access the internal URL, you must specify the authorization headers as part of the request URL. To test an API without supplying authorization headers, generate a mocking service public URL for this project. Mocking service is the selected server in the *Try it* panel. 
 
 . From the *Home* or the *APIs* page, select an API.
@@ -35,4 +35,4 @@ API Console displays the HTTP return code as specified in your API. Alternately,
 
 == See Also
 
-* xref:api-console-specification-and-documentation.adoc[API Console Specification and]
+* xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation]

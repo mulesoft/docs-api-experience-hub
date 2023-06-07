@@ -7,7 +7,7 @@ Using a self-service API portal, developers and partners can quickly access appl
 
 For more information, see the following topics:
 
-* xref:registering-for-access-to-portal.adoc.adoc[Registering for Access to a Portal]
+* xref:registering-for-access-to-portal.adoc.[Registering for Access to a Portal]
 * xref:discovering-apis.adoc[Discovering APIs]
 * xref:searching-for-apis.adoc[Searching for APIs]
 * xref:viewing-api-details.adoc[Viewing API Details]

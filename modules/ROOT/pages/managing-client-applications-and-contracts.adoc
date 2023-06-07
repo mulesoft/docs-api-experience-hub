@@ -6,4 +6,4 @@ endif::[]
 Client applications and contracts requested through API Experience Hub are created in API Manager. Depending on the SLA tier configuration, they are approved automatically or they require approval by the owner of the API or API Group. To review and approve contracts, refer to the API Manager documentation.
 
 == See Also
-* xref:requesting-access-to-an-api-instance.adoc[Requesting Access to an API Instance] 
+* xref:my-applications.adoc[My Applications] 
