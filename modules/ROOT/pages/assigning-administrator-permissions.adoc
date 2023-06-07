@@ -35,7 +35,7 @@ To grant the API Experience Hub Administrator permission to a user:
 
 Administrators can only add APIs for which they have the Exchange Viewer permission. All administrators must have the Exchange Viewer permission to add APIs to the portal.
 
-When APIs are added to the portal, all administrators are assigned automatically the Exchange Viewer permission for the APIs added in the portal 
+When APIs are added to the portal, all administrators are assigned automatically the Exchange Viewer permission for the APIs added in the portal. 
 
 To grant the Exchange Viewer permission to a user:
 
@@ -78,7 +78,7 @@ The Organization Administrator role has all of the permissions necessary to crea
 
 An API Experience Hub Admin team and an API Experience Hub Portal Admin team is created during the connecting and linking process. Once your Salesforce organization is successfully connected to your Anypoint organization, the AEH Admin team is created. After the Salesforce linking process is complete, any user, who is assigned the AEH Admin, is automatically added to the AEH Admin team. 
 
-Once your styling changes for the portal are saved, the AEH Portal Admin team is created.Although the API Experience Hub Portal Administrator team is visible in Access Management, this permission is not supported in this release.
+Once your styling changes for the portal are saved, the AEH Portal Admin team is created. Although the API Experience Hub Portal Administrator team is visible in Access Management, this permission is not supported in this release.
 
 Administrators can only add APIs for which they have the Exchange Viewer permission. When APIs are added to the portal, all administrators are automatically assigned the Exchange Viewer permission. 
 

@@ -47,7 +47,7 @@ Lists the application’s redirect URIs.
 Lists the application’s grant types. 
 * API Contracts
 +
-Lists the application’s API name, environment and instances, SLA tier, and request access state.  The environment can be either a sandbox or development environment. Request access states can be `pending, `approved, or `failed.
+Lists the application’s API name, environment and instances, SLA tier, and request access state. The environment can be either a sandbox or development environment. Request access states can be `pending, `approved, or `failed.
 
 From the Application Details page, you can:
 
