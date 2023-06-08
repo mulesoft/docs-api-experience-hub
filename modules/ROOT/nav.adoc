@@ -4,6 +4,7 @@
 ** xref:licensing.adoc[Licensing]
 ** xref:limitations.adoc[Limitations]
 ** xref:best-practices.adoc[Best Practices]
+* xref:api-experience-hub-release-notes.adoc[Release Notes]
 * xref:getting-started.adoc[Getting Started]
 * xref:assigning-administrator-permissions.adoc[Assigning Administrator Permissions]
 * xref:connecting-to-salesforce.adoc[Connecting to Salesforce]
