@@ -27,6 +27,10 @@ API Experience Hub provides the following advantages for:
 
 // Watch the API Experience Hub Product Spotlight video to see a quick overview.
 
+++++
+include::_partials/aeh-overview-video.html[]
+++++
+
 
 == Steps to Create a Portal
 An administrator can create a custom portal using these steps:
