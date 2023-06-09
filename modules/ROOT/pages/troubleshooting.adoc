@@ -127,7 +127,7 @@ To resolve this issue, add the organization administrator permission to the user
 If you are not receiving emails from Salesforce Experience Cloud, disable the standard configuration by following these steps:
 
 . Go to *Setup* > *Deliverability* > *Email Security Compliance*.
-. Unselect *Enable compliance with standard email security mechanisms*.
+. Deselect *Enable compliance with standard email security mechanisms*.
 
 == Contact MuleSoft Support
 For professional services customizations, enhancement requests, and other help, contact your MuleSoft Customer Success representative.
