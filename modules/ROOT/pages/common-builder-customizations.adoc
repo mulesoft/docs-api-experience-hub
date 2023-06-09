@@ -6,7 +6,7 @@ endif::[]
 You can use the following customizations to match your company's brand.
 
 == Add and Remove Portal Components
-From the Builder, you can add or remove API Experience Hub components from your portal.
+From the Builder, add or remove API Experience Hub components from your portal.
  
 . Navigate to the Builder.
 . Click the *Component* icon.
@@ -14,17 +14,8 @@ From the Builder, you can add or remove API Experience Hub components from your 
 . Click a component, for example, API Console and drag it into the portal.
 . To remove a component, click the trash can icon.
 
-== Change the Portal Status
-The status of a portal is active when it's created. You can change the status to active or back to deactive to control whether users can access the portal.
-
-. Navigate to the Builder.
-. Click the *Builder* icon.
-. From *My Workspaces*, click *Administration*.
-. Click *Settings*.
-. From *Status*, click *Deactivate* or *Activate*.
-
 === Edit Colors for Each API Type
-You can customize the color for each API type card that displays in the Home page.
+To customize the color for each API type that displays in the Home page:
 
 . Navigate to the Builder.
 . Click the *Builder* icon.
@@ -45,7 +36,7 @@ The following shows the asset type color variables:
 . Change the color variable number for the asset type and click *Save*.
 
 == Edit the Background Color of the Login Page
-You can change the background color of your portal's login page.
+To change the background color of your portal's login page:
 
 . Navigate to the Builder.
 . Click the *Page Properties* icon and click *Login*.
@@ -58,7 +49,7 @@ Your current login page displays in the Builder.
 The background color of your Login page changes to the select color.
 
 == Edit the Card Background Color of the Login Page
-You can change the card background color of your login page card. 
+To change the card background color of your login page card: 
  
 . Navigate to the Builder.
 . Click the *Page Properties* icon and click *Login*.
@@ -68,10 +59,10 @@ Your current login page displays in the Builder.
 . From *Theme*, click *Colors*. 
 . From the *Login Pages* section, select a color from the *Card Background Color* color picker.
 +
-The card background color of your Login page changes to the select color.
+The card background color of your Login page changes to the selected color.
 
 == Edit the Email Template for Portal Registration
-You can edit the email information that is sent to users who register for your site. 
+To edit the email information that is sent to users who register for your site: 
 
 . Navigate to the Builder.
 . Click the *Builder* icon.
@@ -80,7 +71,7 @@ You can edit the email information that is sent to users who register for your s
 . Make your changes and click *Save*.
 
 == Edit the Logo Image for Self-Registration and Login Pages
-By default, the logo image used for the login pages is the image added during the guided styling setup. You can change the image for the login pages.
+By default, the logo image used for the login pages is the image added during the guided styling setup. To change the image for the login pages:
 
 . Navigate to the Builder.
 . Click the *Builder* icon.

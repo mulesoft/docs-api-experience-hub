@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-The User management page enables you to view and manage users and access requests from guest users. The ability for users to self-register for your portal is enabled by default.
+View and manage users and access requests from guest users from the *User management* page. Users can self-register for your portal by default.
 
 You can see information about: 
 
@@ -56,11 +56,11 @@ The status of the registration. Registration status can be pending approval or r
 === Approve or Reject Member Registration
 After a guest user registers for an account using self-registration, you approve or reject the request. 
 
-. From the *User management* page, select the *Pending requests* tab.
+. From the *User management* page, click *Pending requests*.
 . Enter the user's name or email in the *Search by name or email* box.
-. From the list, click the three dots icon and select *Approve* or *Reject* from the options.
+. From the list, click the three dots icon and select *Approve* or *Reject*.
 +
-If the registration is approved, the user is removed from the list in the Pending requests tab and added to the list of members in the Members tab.
+After approval, the user moves to the *Members* tab.
 +
 If the registration is rejected, the user cannot log in and access the portal.
 
@@ -75,7 +75,7 @@ To disable external user registration, from the *User Registration* tab of the *
 To enable external registration again, turn on the *Allow external user registration* option.
 
 == Next Steps
-You can also further customize and brand your portal using the xref:customizing-your-portal.adoc[Experience Builder] by clicking *Preview and publish your portal*.
+You can further customize and brand your portal using the xref:customizing-your-portal.adoc[Experience Builder] by clicking *Preview and publish your portal*.
 
 == See Also
 
