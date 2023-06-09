@@ -25,7 +25,7 @@ API Experience Hub provides the following advantages for:
 * Interactive API documentation to understand how to use and integrate APIs
 * Customized and connected hub to interact with APIs
 
-// Watch the API Experience Hub Product Spotlight video to see a quick overview.
+Watch the API Experience Hub Product Spotlight video to see a quick overview.
 
 ++++
 include::_partials/aeh-overview-video.html[]
