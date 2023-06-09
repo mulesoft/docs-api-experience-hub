@@ -5,25 +5,16 @@ endif::[]
 
 If you encounter errors, refer to the following instructions for recovery.
 
-== Contact MuleSoft Support
-For professional services customizations, enhancement requests, and other help, contact your MuleSoft Customer Success representative.
-
-To report issues or defects in API Experience Hub, submit a support case through the MuleSoft support portal, available at https://help.mulesoft.com.
-
-The MuleSoft support team works closely with the Salesforce support team to coordinate work on any support tickets involving Salesforce technology.
-
-Service-level agreements (SLAs) for support are available at the xref:https://www.mulesoft.com/legal/support-maintenance-terms?_gl=1*9coixf*_ga*MTc1Mzc4OTg5Mi4xNjc3ODY5OTkw*_ga_HQLG2N93Q1*MTY4NTk5MDc4My4yNDAuMS4xNjg1OTkwODE0LjAuMC4w[MuleSoft Product Support and Maintenance Terms] page.
-
 == Cannot Access the API Management Page to Disconnect Portal
-From the API Management, Settings page, you can disconnect your portal. If you cannot access the Settings page, you can disconnect the portal using the following Curl commands to unlink your Anypoint and Salesforce organization. You can execute the commands in a terminal or using Postman and other applications.
+From the API Management, Settings page, you can disconnect your portal. If you cannot access the Settings page, you can disconnect the portal using the following Curl commands to unlink your Anypoint and Salesforce organization. You can run the commands in a terminal or using Postman and other applications.
 
 The unlinking process deletes the configuration created during the linking process, connected apps, and IDPs in the Anypoint organization. This process does not delete your portal or uninstall the API Experience Hub package. Use this method if you want to create a portal using another Salesforce organization with the same Anypoint account.
 
 To disconnect your portal:
 
-. Get a token from Anypoint:
+. Run this command to get a token from Anypoint:
 +
-* For US users, use this:
+* US users:
 + 
 [source,curl]
 ----
@@ -35,7 +26,7 @@ curl --location --request POST 'https://anypoint.mulesoft.com/accounts/login' \
 }
 ' 
 ----
-* For EU users, use this:
+* EU users:
 +
 [source,curl]
 ----
@@ -47,7 +38,7 @@ curl --location --request POST 'https://eu1.anypoint.mulesoft.com/accounts/login
 }     
 '
 ----
-. Extract the token from this:
+. Run this command to extract the token:
 + 
 [source,curl]
 ----
@@ -57,7 +48,7 @@ curl --location --request POST 'https://eu1.anypoint.mulesoft.com/accounts/login
  "redirectUrl": "/home/"
 }
 ----
-. Get the connection ID from this request:
+. Run this command to get the connection ID from this request:
 +
 [source,curl]
 ----
@@ -84,7 +75,7 @@ For EU users, use `https://eu1.anypoint.mulesoft.com` in the request.
  }
 ]
 ----
-. Delete the connection using this:
+. Run this command to delete the connection:
 +
 [source,curl]
 ----
@@ -92,20 +83,20 @@ curl --location --request DELETE 'https://anypoint.mulesoft.com/api-experience-h
 --header 'Authorization: Bearer [INSERT TOKEN HERE]' 
 ----
 +
-The connections is deleted. You can perform a new connection to another Salesforce organization. We recommend deleting the browser cache or using a new incognito browser to have a fresh environment to start the linking process again.
+The connections is deleted. You can connect to a new connection to another Salesforce organization. We recommend deleting the browser cache or using a new incognito browser to have a fresh environment to start the linking process again.
 
-== API Experience Hub Does Not display on Anypoint Platform Landing Page
-If API Experience Hub does not display on the Anypoint Platform landing page, ensure that you are using the main organization. Contact the MuleSoft administrator to ensure that the entitlement is enabled.
+== API Experience Hub Does Not Show on the Anypoint Platform Landing Page
+If API Experience Hub does not show on the Anypoint Platform landing page, ensure that you are using the main organization. Contact the MuleSoft administrator to ensure that the entitlement is enabled.
 
-== Error Occurs When Relax IP Restrictions Option for IP Relaxation is Changed
+== Error Occurs When changing teh Relax IP Restrictions Option 
 
-In this release, IP restrictions for the connected app are not supported. By default, the IP Restrictions field is set to `Relax IP Restrictions`. If you have Trusted IP Ranges in your organization, they are bypassed by the connected app. To avoid errors, do not change the *IP Restrictions* field is from `Relax IP Restrictions` because it produces errors when creating the portal. 
+In this release, IP restrictions for the connected app are not supported. By default, the IP Restrictions field is set to `Relax IP Restrictions`. If you have Trusted IP Ranges in your organization, they are bypassed by the connected app. To avoid errors, do not change the *IP Restrictions* field from `Relax IP Restrictions` because it produces errors when creating the portal. 
 
 == Error Saving Changes to the Portal When an Object has Validation Rules Activated
 
 An error occurs when saving styling changes to the portal if an object has validation rules applied for standard objects that are created during the Salesforce linking process. 
 
-The workaround is to deactivate the validation rule, save the styling changes, then reactive the validation rule. 
+The workaround is to deactivate the validation rule, save the styling changes, then reactive the validation rule: 
 
 . Navigate to *Setup* > *Object Manager*.
 . Select *Validation Rules*.
@@ -137,3 +128,12 @@ If you are not receiving emails from Salesforce Experience Cloud, disable the st
 
 . Go to *Setup* > *Deliverability* > *Email Security Compliance*.
 . Unselect *Enable compliance with standard email security mechanisms*.
+
+== Contact MuleSoft Support
+For professional services customizations, enhancement requests, and other help, contact your MuleSoft Customer Success representative.
+
+To report issues or defects in API Experience Hub, submit a support case through the https://help.mulesoft.com[MuleSoft support portal].
+
+The MuleSoft support team works closely with the Salesforce support team to coordinate work on any support tickets involving Salesforce technology.
+
+Service-level agreements (SLAs) for support are available at the xref:https://www.mulesoft.com/legal/support-maintenance-terms?_gl=1*9coixf*_ga*MTc1Mzc4OTg5Mi4xNjc3ODY5OTkw*_ga_HQLG2N93Q1*MTY4NTk5MDc4My4yNDAuMS4xNjg1OTkwODE0LjAuMC4w[MuleSoft Product Support and Maintenance Terms] page.

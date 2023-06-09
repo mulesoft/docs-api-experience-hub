@@ -25,13 +25,12 @@ To customize the color for each API type that displays in the Home page:
 +
 The following shows the asset type color variables:
 +
+----
 --asset-type-c-rest-api-color: 0, 0, 0;
-+
 --asset-type-c-http-api-color: 0, 0, 0;
-+
 --asset-type-c-soap-api-color: 0, 0, 0;
-+
 --asset-type-c-evented-api-color: 0, 0, 0;
+----
 +
 . Change the color variable number for the asset type and click *Save*.
 
