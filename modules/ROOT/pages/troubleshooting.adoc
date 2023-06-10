@@ -88,7 +88,7 @@ The connections is deleted. You can connect to a new connection to another Sales
 == API Experience Hub Does Not Show on the Anypoint Platform Landing Page
 If API Experience Hub does not show on the Anypoint Platform landing page, ensure that you are using the main organization. Contact the MuleSoft administrator to ensure that the entitlement is enabled.
 
-== Error Occurs When changing teh Relax IP Restrictions Option 
+== Error Occurs When Changing the Relax IP Restrictions Option 
 
 In this release, IP restrictions for the connected app are not supported. By default, the IP Restrictions field is set to `Relax IP Restrictions`. If you have Trusted IP Ranges in your organization, they are bypassed by the connected app. To avoid errors, do not change the *IP Restrictions* field from `Relax IP Restrictions` because it produces errors when creating the portal. 
 
@@ -110,7 +110,7 @@ The workaround is to deactivate the validation rule, save the styling changes, t
 . Select the *Active* checkbox and click *Save*
 
 == Error When Installing the Package During the Connection Process
-If you encounter errors while installing the package when connecting to Salesforce process, you can review further details about the deployment status:
+If you encounter errors while installing the package during the  connecting to Salesforce process, you can review further details about the deployment status:
 
 . From Salesforce, go to *Setup*.
 . Click *Environments*. 
