@@ -107,7 +107,7 @@ The workaround is to deactivate the validation rule, save the styling changes, t
 . Navigate back to API Experience Hub and click *Try again* in the error message.
 . Click *Save* to save your style selections.
 . Repeat steps 1 through 4.
-. Select the *Active* checkbox and click *Save*
+. Select the *Active* checkbox and click *Save*.
 
 == Error When Installing the Package During the Connection Process
 If you encounter errors while installing the package during the  connecting to Salesforce process, you can review further details about the deployment status:
