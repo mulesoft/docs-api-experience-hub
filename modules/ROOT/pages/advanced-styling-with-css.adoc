@@ -368,4 +368,4 @@ View c-base-title-selector
 
 == See Also
 
-*xref:previewing-and-publishing-your-portal.adoc[Previewing and Publishing Your Portal]
+* xref:previewing-and-publishing-your-portal.adoc[Previewing and Publishing Your Portal]
