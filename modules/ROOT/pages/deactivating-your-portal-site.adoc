@@ -1,0 +1,22 @@
+= Deactivating Your Portal 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+You can make your published portal inaccessible to users by deactivating the portal site. The portal is still considered active but it cannot be accessed publicly. You can continue to make changes using the Builder and republish the site later for users to access.
+
+To deactivate your portal site, follow these steps:
+
+. From a *Manage your API Portal* page, click *Preview and publish your portal*.
+. Click the *Builder* icon.
+. From *My Workspaces*, click *Administration*.
+. Click *Settings*.
+. Click *Deactivate*.
++
+Your site is inactive and offline.
+
+To active your site, follow steps 1 to 4, then click *Active*.
+
+== See Also
+
+* xref:disconnecting-the-portal.adoc[Disconnecting the Portal]

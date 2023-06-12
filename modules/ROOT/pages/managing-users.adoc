@@ -1,0 +1,87 @@
+= Managing Users 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+View and manage users and access requests from guest users from the *User management* page. Users can self-register for your portal by default.
+
+You can see information about: 
+
+//add screen capture
+
+* Members
+* Pending requests
+* User registration
+
+== Members
+When the registration of guest users are approved, they are added to the list of members in the Members tab of the User Management page. You can view a searchable list of current members and manage their accounts by enabling or disabling them.
+
+
+The Members tab shows the following information:
+
+* Name
++
+The first and last name of the registered member.
+* Email 
++
+The email address of the member.
+* Enable portal access
++
+The slider indicates if access to your portal is enabled or disabled for a user. 
+
+=== View and Search for Members 
+To find a member, enter the member's name or email address in the *Search by name or email* box. The member is listed in the search results.
+
+=== Enable or Disable Access to Your Portal
+When a user's access to the portal is approved in the Pending requests tab, the Enable portal access slider is on in the Members tab. You can disable a user's access by moving the slider to off.
+
+== Pending Requests
+The Pending requests tab displays information about users who registered to access the portal.
+
+The following information is available in this tab:
+
+* Name
++
+The name of the user who is requesting access.
+* Email
++
+The email address of the user who is requesting access.
+* Registration date
++
+The date the user registered to access the portal.
+* Registration status
++
+The status of the registration. Registration status can be pending approval or rejected. When the registration is approved, the user is removed from the Pending requests list and added to the list of members on the Members page. 
+
+=== Approve or Reject Member Registration
+After a guest user registers for an account using self-registration, you approve or reject the request. 
+
+. From the *User management* page, click *Pending requests*.
+. Enter the user's name or email in the *Search by name or email* box.
+. From the list, click the three dots icon and select *Approve* or *Reject*.
++
+After approval, the user moves to the *Members* tab.
++
+If the registration is rejected, the user cannot log in and access the portal.
+
+== User Registration
+The User Registration tab lets you disable or enable self-registration for external users. Self-registration enables guest users to register themselves as members of your API portal. From the Pending requests tab, you can see a list of pending requests from guest users who want to access your portal. 
+
+=== Disable or Enable Self-Registration
+By default, the ability for external users to self-register is enabled. This allows guest users to register, become a member, and access your portal site. Administrators can disable self-registration.
+
+To disable external user registration, from the *User Registration* tab of the *User Management* page, turn off the *Allow external user registration* option. 
+
+To enable external registration again, turn on the *Allow external user registration* option.
+
+== Next Steps
+You can further customize and brand your portal using the xref:customizing-your-portal.adoc[Experience Builder] by clicking *Preview and publish your portal*.
+
+== See Also
+
+* xref:registering-for-access-to-portal.adoc[Registering to Access a Portal]
+
+
+
+
+

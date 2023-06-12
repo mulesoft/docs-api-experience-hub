@@ -1,0 +1,25 @@
+= Downloading an API Specification
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+A copy of an API specification can be downloaded from the API Details page by clicking *Download*.
+
+The download file type varies depending on the API:
+
+* REST API RAML
++
+If you choose As RAML, the original RAML file downloads as a zip file. If you choose As OAS, the API specification is downloaded as a zip file containing a JSON file for the specification in OAS 2.0 format.
+
+* REST API OAS
++
+If you choose As RAML, the API specification is downloaded as a zip file containing a RAML file for the specification. If you choose As OAS, a zip file containing a file in the original format of either JSON or YAML is downloaded.
+
+* SOAP API WSDL
++
+Downloads as a WSDL file.
+
+== See Also
+
+* xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation]
+* xref:simulating-api-calls-using-the-mocking-service.adoc[Simulating Calls Using the Mocking Service]

@@ -1,0 +1,25 @@
+= Licensing
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Licenses are procured and provisioned by MuleSoft. API Experience Hub requires two types of licenses:
+
+* Salesforce
++
+This license is required to use the Salesforce Experience Builder. 
+
+* External Identity
++
+This license is based on the number of member requests to access the portal. The current package has a minimum of 100 API access requests which require a minimum of 2000 External Identity licenses. This is required for the portal consumers to access the API portal.
+
+To set up an organization, you can have the following Salesforce editions:
+
+* Unlimited Edition
+* Enterprise Edition
+* Performance Editions of Salesforce
+
+
+
+
+

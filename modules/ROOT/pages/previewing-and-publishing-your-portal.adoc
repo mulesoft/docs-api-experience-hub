@@ -1,0 +1,22 @@
+= Previewing and Publishing Your Portal 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+When you are done  managing and curating your portal, you can preview your changes in the Builder, then publish it for your users. The URL for the portal is not accessible until the portal is published. When you publish your site for the first time, the portal URL is live and login access is enabled.
+
+To preview and publish the portal, follow these steps:
+
+. If you are on the *Manage your API portal* page, click *Preview and publish your portal*.
+. Review your changes.
+. Click *Publish*.
++
+You receive an email confirmation when your changes are live. The email contains the URL link to the published site.
+
+== View URL for a Live Published Portal
+To view the URL for the live published portal, in the Builder, go to *Settings* > *General*. The *Published Status* section displays the URL for the live published portal.
+
+== See Also
+
+* xref:customizing-your-portal.adoc[Customizing Your Portal]
+* xref:discovering-and-consuming-apis.adoc[Discovering and Consuming APIs]

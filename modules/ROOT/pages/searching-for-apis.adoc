@@ -1,0 +1,20 @@
+= Searching for APIs
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+From the APIs page, search the catalog by an API name to find a specific API. Enter at least four characters in the *Search by API name* field then select an option from the *Search Results* page. 
+
+image::aeh-search-by-api-name-box.png[Search by API name,211,40]
+
+Filter the API by type to further refine your search results. The filter options display depending on which API types are available in the portal for example, REST, HTTP, SOAP, and Async.
+
+image::aeh-filter-by-type.png[Filter by Any Type,121,40]
+
+From the Home page, you can also filter the carousel by clicking on any of the API type cards.
+
+image::aeh-api-type-filter.png[Filter by API Type]
+
+== See Also
+
+* xref:viewing-api-details.adoc[Viewing API Details]

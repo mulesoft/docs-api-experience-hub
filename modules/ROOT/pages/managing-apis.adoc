@@ -1,0 +1,83 @@
+= Managing APIs 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+From the API management page, curate your portal by viewing information about an API from Exchange, adding or removing APIs, and changing the visibility of an API version.
+
+The API management page shows the following information:
+
+* *APIs in the portal* 
++
+Shows the APIs that have been added to your portal. Administrators can only add APIs for which they have the Exchange Viewer permission. For more information, see xref:assigning-administrator-permissions.adoc[Assigning Administrator Permissions]. When APIs are added to the portal, all administrators are automatically assigned the Exchange Viewer permission. The default visibility for the APIs is Administrators. The administrator of the portal can change this visibility for each API in the APIs in the portal tab. These APIs can also be removed. 
++
+You can have a maximum of 250 APIs in your portal. For more information, see xref:limitations.adoc[Limitations].
+
+* *APIs in Exchange*
++
+Shows the APIs that exist in your Exchange organization but have not been added to your portal.
+
+You can view the description of an API by clicking the down arrow for an API name in the list:
+
+image::aeh-api-description.png[View API Description]
+
+
+== View APIs in Exchange
+You can view information about an API directly from Exchange to determine whether you want to add the API in your portal.
+
+From the *APIs in Exchange* tab, select an API from the list, click more the options icon, and select *View in Exchange*.
+
+== Add APIs from Exchange
+Curate your portal in API Experience Hub by adding APIs from Exchange. When adding APIs to the portal, the default visibility is Administrator only. You can change the visibility to include members or everyone. See <<make-api-versions-visible,Make API Versions Visible>> for more information.
+
+To add APIs to your portal:
+
+. From the *API management* page, select the *APIs in Exchange* tab.
+. To search for an API by name or description, enter the name or description into the *Search* bar.
+. Select an API from the list, click the more options icon, and select *Add to portal*.
++
+The API displays in the list in the *APIs in the portal* tab.
+
+== Remove APIs from the Portal
+To remove APIs from your portal:
+
+. From the *API management* page, select the *APIs in the portal* tab.
+. To search for an API by name or description, enter the name or description into the *Search* bar.
+. Select an API from the list, click the more options icon, and select *Remove from portal*.
+. Click *Confirm*.
++
+In the *APIs in the portal* tab, the API is removed from the list.
+
+== Manage API Versions Visible
+By default, when you add a new API, the minor version shared with an Administrator is the latest version of the API. The API instance visibility is set to Public instances. Only the API instances that are public in Exchange are available for end-users to request access to them.
+
+You can manage which version of an API a user can view in your portal. You can set the visibility to Administrators, Members, Everyone, None.
+
+* Administrators Only
++
+Use this option if you want the version to be seen by the portal administrator only.
+* Members Only
++ 
+Use this option if you want the version to be seen only by logged-in members.
+* Everyone
++
+Use this option if you want the version to be publicly available to anyone.
+
+* None
++
+Use this option if you do not want the version to be seen by anyone.
+
+If the visibility is Everyone or Members, then consumer developers can see the new API version in the API Carousel of the portal.
+
+To edit the user visibility that displays for an API:
+
+. From the *API management* page, select *APIs in Portal*.
+. To search for an API by name, enter the name into the *Search* field.
+. Select an API from the list, click more options, and select *Edit display details*.
+. To change the API version visibility, select an option from the *Visibility* drop-down list for the corresponding version.
+. To save the changes, click *Save*.
+
+== Next Steps
+From xref:managing-users.adoc[User Management], you can view and manage users and access requests from guest users.
+
+//You can also further customize and brand your portal using xref:customizing-your-portal.adoc[Experience Builder]. 

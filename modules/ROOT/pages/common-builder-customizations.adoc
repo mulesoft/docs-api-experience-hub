@@ -1,0 +1,110 @@
+= Using the Builder for Common Customizations 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+From the Builder, you can use the following portal customizations to match your company's brand.
+
+== Add and Remove Portal Components
+From the Builder, add or remove API Experience Hub components from your portal.
+ 
+. Navigate to the Builder.
+. Click the *Component* icon.
+. Scroll to *Custom Components*.
+. Click a component, for example, API Console and drag it into the portal.
+. To remove a component, click the trash can icon.
+
+=== Edit Colors for Each API Type
+To customize the color for each API type that displays in the Home page:
+
+. Navigate to the Builder.
+. Click the *Builder* icon.
+. Click the *Settings* icon.
+. Click *Advanced*.
+. Click *Edit Head Markup*. 
++
+The following shows the asset type color variables:
++
+----
+--asset-type-c-rest-api-color: 0, 0, 0;
+--asset-type-c-http-api-color: 0, 0, 0;
+--asset-type-c-soap-api-color: 0, 0, 0;
+--asset-type-c-evented-api-color: 0, 0, 0;
+----
++
+. Change the color variable number for the asset type and click *Save*.
+
+== Edit the Background Color of the Login Page
+To change the background color of your portal's login page:
+
+. Navigate to the Builder.
+. Click the *Page Properties* icon and click *Login*.
++
+Your current login page displays in the Builder.
+. Click the *Theme* paintbrush icon.
+. From *Theme*, click *Colors*. 
+. From the *Login Pages* section, select a color from the *Background Color* color picker.
++
+The background color of your Login page changes to the select color.
+
+== Edit the Card Background Color of the Login Page
+To change the card background color of your login page card: 
+ 
+. Navigate to the Builder.
+. Click the *Page Properties* icon and click *Login*.
++
+Your current login page displays in the Builder.
+. Click the *Theme* paintbrush icon.
+. From *Theme*, click *Colors*. 
+. From the *Login Pages* section, select a color from the *Card Background Color* color picker.
++
+The card background color of your Login page changes to the selected color.
+
+== Edit the Email Template for Portal Registration
+To edit the email information that is sent to users who register for your site: 
+
+. Navigate to the Builder.
+. Click the *Builder* icon.
+. From *My Workspaces*, click *Administration*.
+. Click *Emails*
+. Make your changes and click *Save*.
+
+== Edit the Logo Image for Self-Registration and Login Pages
+By default, the logo image used for the login pages is the image added during the guided styling setup. To change the image for the login pages:
+
+. Navigate to the Builder.
+. Click the *Builder* icon.
+. From *My Workspaces* click *Administration*.
+. Select *Login & Registration*.
+//I have insufficient privileges so I cannot get to the next steps.
+. From the *Branding Options* section, click the *Choose File* button from *Logo File*.
++
+The maximum height of the logo is 125 px and the maximum width is 250 px.
+
+== Edit the Portal Domain
+By default, Experience Cloud generates the URL for your portal domain. You can customize this for your organization. For example, you can change the URL to <yourcompany>.com 
+
+//Need to create a custom domain https://help.salesforce.com/s/articleView?id=sf.domain_mgmt_update_dns.htm&type=5the user the steps below
+
+. Navigate to the Builder.
+. Click the *Builder* icon.
+. Click *Salesforce Setup*.
+. In the *Quick find* box, enter *Domains*.
+. Click your domain name in the *Domains* list.
+. Click *Edit* in the *My Domains Details* section.
+. Enter a domain name in the *My Domain Name* field.
+. Click the *Check Availability* button to ensure the domain name does not exist already.
+. Enter a domain suffix in the *Domain Suffix* field, for example, *.<my.salesforce.com>.
++
+The new domain URL displays in the *Your chosen new My Domain URl* field.
+. Click *Save*.
+
+== See Also
+
+* xref:customizing-your-portal.adoc[Customizig Your Portal Using the Experience Builder]
+* xref:advanced-styling-with-css.adoc[Advanced Styling with CSS]
+
+
+
+ 
+

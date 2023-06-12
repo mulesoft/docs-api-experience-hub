@@ -1,0 +1,25 @@
+= Customizing Your Portal Using the Experience Builder
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+After the API portal is created using the out-of-the-box styling templates, you can further customize it using the https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder]. The Builder customizes a Salesforce Experience Cloud site with your desired brand identity, look and feel, and site structure by providing control over the site’s components, themes, and pages, and its settings for general properties, themes, and SEO. 
+
+From the *API management* page, the *Preview and publish your portal* link opens your site for editing each page in your portal, creating new pages, and adding and editing the components on each page. Administrators enter the Salesforce Experience Builder with a shared identity between all administrators. Since the identity of the administrator is shared therefore, 
+//do wen need to doc the following?
+API Experience Hub cannot determine the individual administrator's action in the shared account. If the administrator is already logged in to the Salesforce organization, their previous session is is not retained when they click the *Preview and publish your portal* button.
+
+The Builder’s interface contains the pages list, component palette, theme menu, page structure menu, and settings menu.
+
+Click *Preview* to view your changes and to see the portal experience for your developer community. 
+
+Click *Home* to view the API Carousel with all of the added APIs. Click *APIs* to view the API Catalog, search and filter APIs, and select an API to get more details from the API details page. The API details page displays metadata in the upper section and the API overview and specification in the lower section. Publish any updates by clicking *Publish*.
+
+== See Also
+* xref:look-and-feel-customization.adoc[Customizing the Portal Look-and-Feel]
+* xref:api-experience-hub-lightning-components.adoc[API Experience Hub Lightning Components]
+* xref:common-builder-customizations.adoc[Using the Builder for Common Customizations]
+* xref:advanced-styling-with-css.adoc[Advanced Styling with CSS]
+* xref:previewing-and-publishing-your-portal.adoc[Previewing and Publishing Your Portal]
+
+

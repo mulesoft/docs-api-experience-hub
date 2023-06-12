@@ -1,0 +1,27 @@
+= Basic Terminology 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+//use API Manager's 
+=|
+API assets
+API Console
+API Instances
+
+Client application
+Client ID
+Client provider
+Client secret
+Consumer
+Contract
+Environment
+Instances
+Organization
+Organization administrator
+Organization owner
+Producer
+Salesforce Experience Builder
+Salesforce linking
+SLA tier
+Teams

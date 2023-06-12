@@ -1,0 +1,28 @@
+= Simulating API Calls Using the Mocking Service
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Using the mocking service in the API Console of the portal, you can simulate calls to your API. The mocking service is a feature of Anypoint that enables you to generate simulated servers that aid in the development and testing of APIs. These mock servers imitate the actions of accepting requests and providing responses. The mocking service replicates the functionality of a genuine API. You can run the mocking service from the text editor, the visual editor, and from Anypoint Exchange.
+
+== Before You Begin
+
+You must have an API specification with at least one endpoint and one method in it.
+
+== Simulate a Call to an API Using an Internal URL
+To access the internal URL, you must specify the authorization headers as part of the request URL. To test an API without supplying authorization headers, generate a mocking service public URL for this project. Mocking service is the selected server in the *Try it* panel. 
+
+. From the *Home* or the *APIs* page, select an API.
+. From the API Console, select *Summary*.
+. From the *Documentation* panel, click on the name of an end point.
+. Click one of the methods of your API, then click *Try it*.
+. Provide and query parameters you want to test.
++
+You can enter query parameters as name-value pairs.
+. Click *Send*.
++
+API Console displays the HTTP return code as specified in your API. Alternately, you can test the API by copying the Request URL and paste it into a web browser or Postman.
+
+== See Also
+
+* xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation]

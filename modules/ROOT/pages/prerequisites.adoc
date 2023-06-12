@@ -1,0 +1,27 @@
+= Prerequisites 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Verify that you have the following required accounts and access:
+
+* Anypoint Platform organization in production
+* Salesforce organization
+* Organization Administrator of the main organization
+* API Experience Hub license
+* Minimum of 2000 External Identity licenses
++
+The current package has a minimum of 100 API access requests which requires a minimum of 2000 External Identity licenses. 
+
+To set up an organization, you can have the following Salesforce editions:
+
+* Unlimited Edition
+* Enterprise Edition
+* Performance Editions of Salesforce
+
+If you do not have the required accounts and access, issues may occur during the Salesforce linking process when creating your API portal.
+
+== See Also
+
+* xref:licensing.adoc[Licensing]
+* xref:getting-started.adoc[Getting Started]

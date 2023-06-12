@@ -1,0 +1,86 @@
+= API Experience Hub Overview
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Anypoint API Experience Hub is an API management platform and digital experience that enables organizations to create vibrant API ecosystems within and outside the enterprise. 
+API providers can share, promote, and engage with their developer community. Developers and partners can find, explore, and consume APIs designed anywhere from a single place.
+
+API Experience Hub is the next-generation evolution of API Community Manager for creating and managing API portals. The portal administrator can use out-of-the box templates to build developer portals in minutes and publish APIs from Anypoint Exchange to any audience. Anypoint Platform fully manages the portal deployment, administration, and the API and user management options so you don't need any Salesforce knowledge to start. 
+
+API Experience Hub provides the following advantages for:
+
+*Portal administrators*:
+
+* Set up portals quickly and easily
+* Onboard APIs and setting version visibility
+* Manage users and access requests from guest users
+* Preview and iterate on the portal
+* Perform advanced customizations using Salesforce Experience Builder
+
+*Developers*:
+
+* Self-service experience to discover APIs and build applications
+* Request access to an API instance to register a client application
+* Interactive API documentation to understand how to use and integrate APIs
+* Customized and connected hub to interact with APIs
+
+Watch the API Experience Hub Product Spotlight video to see a quick overview.
+
+++++
+include::_partials/aeh-overview-video.html[]
+++++
+
+
+== Steps to Create a Portal
+An administrator can create a custom portal using these steps:
+
+. Connect to a Salesforce instance.
++
+The instance can be a new or existing Salesforce organization. To connect, specify the environment type and enter the custom Salesforce domain if you have one, log in, allow the permissions, and confirm the account.
+. Style your API portal.
++
+Once you connect to Salesforce, you can style the portal's out of the box pages with logos, fonts, color schemes, and more.
+. Manage your portal.
++
+Manage APIs by adding APIs from Exchange and setting the visibility for the API versions. Manage users by approving access requests from guest users.
+. Publish the portal.
++
+Publish the portal to make it available to your community.
+
+== Portal Pages
+Each API Experience Hub portal includes a Home, APIs, and an API Details page. The portal administrator can customize each page to fit the organization's needs. For more information, see xref:styling-your-api-portal.adoc[Styling Your API Portal].
+
+The following sample portal shows the Home page: 
+
+image::aeh-home-page.png[Home page]
+
+The portal includes the following template pages:
+
+* Home
++
+The Home page includes the banner image, API portal title, API Carousel, and navigation to APIs by type and serves as the landing page of an API portal. The API Carousel offers API consumers a preview of the most recent APIs added to the portal. Each card contains the API name, icon, type, and description. When selected, developers can view all the information about an API in the API Details page.  
+
+* APIs
++
+The APIs page contains a catalog of all the APIs in the portal. Developers can search and filter the catalog. When selected, each card in the catalog shows the API Details page. 
+
+* API Details 
++
+The top of the API Details page shows the metadata about the API, including the name, description, type, version, lifecycle states, and the email of the contact for the API. The bottom of the Details page includes the overview and the API documentation. The API overview panel reflects the overview page created by the admin of the API in Anypoint Exchange. The API documentation panel includes an interactive console for developers to read the API documentation and test the API. Developers can read the summary, methods, endpoints, and authorization sections as defined in the API specification. 
+
+== Product Integration
+API Experience Hub is integrated with the following products:
+
+* Anypoint Exchange
++
+Exchange is a catalog of reusable assets such as APIs, policies, API spec fragments, API groups, templates, examples, custom assets, and integration assets such as connectors. Within API Experience Hub, portal admins can curate their portals by importing APIs from Exchange. For more information, see the https://docs.mulesoft.com/exchange/[Anypoint Exchange].
+
+* Salesforce Experience Cloud
++
+API Experience Hub is powered by Salesforce Experience Cloud and provides customization and branding capabilities your developer audiences. For more information, see xref:customizing-your-portal.adoc[Customizing Your Portal Using Experience Builder].
+
+== See Also
+
+* xref:prerequisites.adoc[Prerequisites]
+* xref:getting-started.adoc[Getting Started]

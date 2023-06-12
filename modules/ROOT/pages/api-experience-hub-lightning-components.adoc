@@ -1,0 +1,60 @@
+= API Experience Hub Lightning Components 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+
+You can design the pages of your API Experience Hub portal by adding and configuring Lightning components in the Builder.
+
+These Lightning components include both the Lightning components available in all Salesforce Digital Experiences and the API Experience Hub Lightning components available only in API Experience Hub.
+
+Each API Experience Hub Lightning component has different configuration options and adds different functionality to the portal.
+
+Many API Experience Hub Lightning components show data from Anypoint Platform. Portal admins can change some of these data fields, such as API names, descriptions, and icons. API Experience Hub saves these changes but does not push the changes back to Anypoint Platform.
+
+* API Console
++
+The interactive API Console component shows information about your APIs and their methods. Endpoints are displayed in alphabetical order.
++
+Console components include API Console, API Console Documentation, API Console Instances, API Console Specification, and API Console Request Panel. In the Builder, you can add multiple console components to the same page. Changes to a console component are visible in all other console components on that page that display the same API. For example, selecting the Summary tab in an API Console results in Summary tab selection in all API Consoles on the same page that display the same API.
++
+The component shows the public API instances and documentation from Anypoint Exchange.
+
+* Asset Detail Header
++
+The Asset Details Header component displays the API header, including icon, name, contact email, and description.
++
+The API icon, name, and description shown are set in the API Experience Hub control panel when you add an API version to your community. The contact email is set in Anypoint Exchange.
++
+You can specify values for the following parameters of the API Header:
+
+* Asset Version 
++
+Shows the API version from Exchange when only one version is visible.
+* Version State
++
+Shows the API version lifecycle state.
+* Asset Documentation Viewer
++
+The API Documentation Viewer component shows an API’s documentation from Anypoint Exchange. The documentation can have multiple pages, and each page can have multiple sections.
+
+* Assets Carousel
++
+The API Carousel component shows a horizontally scrollable set of API cards. Each card shows an API or API Group.
+
+* Assets Catalog
++
+The API Catalog component offers API consumers an interactive way to explore all the available APIs and API Groups in an API portal. The API Catalog shows API cards in rows and columns, divided into pages, and shows controls to filter the displayed APIs and API Groups by categories and search terms. Each card shows an API or API Group. With the catalog, users can view and explore large numbers of API versions.
+
+* Search Box
++
+The API Experience Hub Search Box component enables users to search for both content that exists in Salesforce Experience Cloud (such as knowledge articles, support cases, and announcements) and content that exists in Anypoint Platform (such as APIs and client applications). Knowledge article, support cases, and announcements are currently not available.
+
+* Search Results
++
+The API Experience Hub Search Results component shows results after a user enters a search in the Search Box component.
+
+== See Also
+
+* https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder]
+* https://docs.mulesoft.com/exchange/[Anypoint Exchange]

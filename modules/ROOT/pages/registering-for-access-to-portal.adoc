@@ -1,0 +1,21 @@
+= Registering for Access to a Portal
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Users who access an API portal without logging in cannot perform most actions in the portal, like requesting access to APIs to use them. Becoming a member gives you access to more APIs and functionality. Anyone can sign up for an account to become a member. After signing up, API Experience Hub sends a welcome email that contains a link to set up the account and password.
+
+To register for an account:
+
+. In a browser window, enter the URL of the portal.
+. Click *Log in*.
+. Click *Not a Member?*.
+. Enter your first name, last name, and email address.
+. Click *Sign Up*.
+. Follow the instructions in the welcome email to set up your account.
+
+== See Also
+
+* xref:discovering-apis.adoc[Discovering APIs]
+* xref:searching-for-apis.adoc[Searching for APIs]
+

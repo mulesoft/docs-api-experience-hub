@@ -1,0 +1,22 @@
+= Viewing API Details
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+To view the API Details page, select an API from the Home or APIs page of the portal. 
+// add screen captures
+The API Details page includes the following information about an API:
+
+* Name
+* Type
+* Description
+* Contact email
+* Version
+* Client applications
+
+The API Console is located in the API Details page. The console component is interactive and shows information about REST APIs and their methods. Endpoints are displayed in alphabetical order.
+See xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation] for more information.
+
+== See Also
+
+* xref:requesting-access-to-an-api-instance.adoc[Requesting Access to an API Instance]
