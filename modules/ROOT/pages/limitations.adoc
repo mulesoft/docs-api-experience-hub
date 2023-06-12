@@ -16,3 +16,4 @@ Do not make changes to the permissions of the out of the box Teams created in Ac
 * API Experience Hub is not certified for use on mobile devices. Some functionality works on mobile devices, but some functionality such as the API Console does not.
 * IP restrictions are not supported. For more information, see the xref:troubleshooting.adoc[Troubleshooting] section.
 * Validation rules cannot be applied to standard objects that are created during the Salesforce linking process. For more information, see the xref:troubleshooting.adoc[Troubleshooting] section for a work around.
+* From the API Console, APIs cannot be tested using the authorization credentials from the Request Panel.
