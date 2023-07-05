@@ -5,6 +5,13 @@ endif::[]
 
 From the API management page, curate your portal by viewing information about an API from Exchange, adding or removing APIs, and changing the visibility of an API version.
 
+The portal supports the following API types:
+
+* AsyncAPI
+* HTTP
+* REST
+* SOAP
+
 The API management page shows the following information:
 
 * *APIs in the portal* 
