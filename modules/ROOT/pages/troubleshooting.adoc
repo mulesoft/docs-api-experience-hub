@@ -5,26 +5,28 @@ endif::[]
 
 If you encounter errors, refer to the following instructions for recovery.
 
-== Cannot See Images in the Builder Preview that Were Uploaded When Creating the Portal
+== Cannot See Images in the Builder Preview That Were Uploaded When Creating the Portal
 In the Builder preview, you cannot see the images that were uploaded when creating the portal because the shared user is not a member of any libraries.
 
-To add the library to view the images:
+To add the shared user as a member of the asset library:
 
 . Log in to the Salesforce organization as a System Administrator.
-. Click *App Launcher*, enter *files* in the search, and select *Files*. 
-. In the *Files* page, click *Libraries*.
-. Click *Asset Library* in the list of libraries.
-. Click *Manage Members*. 
-. In the *Manage Library Members* page, click the drop-down icon and select *People*.
+. Click the *App Launcher*, enter *files* in the search, and select *Files*. 
+. Click *Libraries*.
+. Click *Asset Library* in the list.
+. Click the down arrow and select *Manage Members*. 
+. In the *Manage Library Members* page, click the down arrow and select *People*.
 +
-The *Add Members* field shows *search people*.
-. Enter *Builder* in the search and select the *Builder Preview* user. LeavePreview at access at Author to allow the builder preview user to upload images in the builder for later use
-. Click *Add*.
+The *Add Members* field shows the *search people* box.
+. Click in the *search people* box and select *Builder Preview*.
+. In *Access*, select *Author*. 
+. Click *Add* to allow the Builder Preview user to upload images in the Builder for later use.
 +
-The Builder Preview shows the list of Current Members.
-. Close the page.Exit the modal.
+The *Current Members* section shows the *Builder Preview* member and *Author* access.
+. Close the page.
 +
-. Confirm that you can see the library assets in the Builder. . Reload the page if it's not showing up.
+. Confirm that you can see the library images in the Builder. 
+. Reload the page if the images are not showing up.
 
 
 == Cannot Access the API Management Page to Disconnect Portal
