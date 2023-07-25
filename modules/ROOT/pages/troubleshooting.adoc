@@ -5,9 +5,30 @@ endif::[]
 
 If you encounter errors, refer to the following instructions for recovery.
 
-== Cannot Access the API Management Page to Disconnect Portal
-From the API Management, Settings page, you can disconnect your portal. If you cannot access the Settings page, you can disconnect the portal using the following Curl commands to unlink your Anypoint and Salesforce organization. You can run the commands in a terminal or using Postman and other applications.
+== Cannot See Images in the Builder Preview that Were Uploaded When Creating the Portal
+In the Builder preview, you cannot see the images that were uploaded when creating the portal because the shared user is not a member of any libraries.
 
+To add the library to view the images:
+
+. Log in to the Salesforce organization as a System Administrator.
+. Click *App Launcher*, enter *files* in the search, and select *Files*. 
+. In the *Files* page, click *Libraries*.
+. Click *Asset Library* in the list of libraries.
+. Click *Manage Members*. 
+. In the *Manage Library Members* page, click the drop-down icon and select *People*.
++
+The *Add Members* field shows *search people*.
+. Enter *Builder* in the search and select the *Builder Preview* user. LeavePreview at access at Author to allow the builder preview user to upload images in the builder for later use
+. Click *Add*.
++
+The Builder Preview shows the list of Current Members.
+. Close the page.Exit the modal.
++
+. Confirm that you can see the library assets in the Builder. . Reload the page if it's not showing up.
+
+
+== Cannot Access the API Management Page to Disconnect Portal
+ 
 The unlinking process deletes the configuration created during the linking process, connected apps, and IDPs in the Anypoint organization. This process does not delete your portal or uninstall the API Experience Hub package. Use this method if you want to create a portal using another Salesforce organization with the same Anypoint account.
 
 To disconnect your portal:
