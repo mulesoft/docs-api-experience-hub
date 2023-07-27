@@ -12,20 +12,22 @@ To add the shared user as a member of the asset library:
 
 . Log in to the Salesforce organization as a System Administrator.
 . Click the *App Launcher*, enter *files* in the search, and select *Files*. 
-. Click *Libraries*.
+. Click *Libraries* in the navigation pane.
 . Click *Asset Library* in the list.
-. Click the down arrow and select *Manage Members*. 
-. In the *Manage Library Members* page, click the down arrow and select *People*.
+. Click *Manage Members*. 
++ 
+The *Manage Library Members* screen opens. 
+. In the *Add Members* field, click the down arrow next to the stack icon and select *People*.
 +
 The *Add Members* field shows the *search people* box.
 . Click in the *search people* box and select *Builder Preview*.
-. In *Access*, select *Author*. 
+. In the *Access* field, select *Author*. 
 . Click *Add* to allow the Builder Preview user to upload images in the Builder for later use.
 +
 The *Current Members* section shows the *Builder Preview* member and *Author* access.
-. Close the page.
+. Close the screen.
 +
-. Confirm that you can see the library images in the Builder. 
+. Confirm that the Builder Preview user can see the library images in the Builder. 
 . Reload the page if the images are not showing up.
 
 
