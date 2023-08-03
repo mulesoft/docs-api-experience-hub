@@ -5,9 +5,34 @@ endif::[]
 
 If you encounter errors, refer to the following instructions for recovery.
 
-== Cannot Access the API Management Page to Disconnect Portal
-From the API Management, Settings page, you can disconnect your portal. If you cannot access the Settings page, you can disconnect the portal using the following Curl commands to unlink your Anypoint and Salesforce organization. You can run the commands in a terminal or using Postman and other applications.
+== Cannot See Images in the Builder Preview That Were Uploaded When Creating the Portal
+In the Builder preview, you cannot see the images that were uploaded when creating the portal because the shared user is not a member of any libraries.
 
+To add the shared user as a member of the asset library:
+
+. Log in to the Salesforce organization as a System Administrator.
+. Click the *App Launcher*, enter *files* in the search, and select *Files*. 
+. Click *Libraries* in the navigation pane.
+. Click *Asset Library* in the list.
+. Click *Manage Members*. 
++ 
+The *Manage Library Members* screen opens. 
+. In the *Add Members* field, click the down arrow next to the stack icon and select *People*.
++
+The *Add Members* field shows the *search people* box.
+. Click in the *search people* box and select *Builder Preview*.
+. In the *Access* field, select *Author*. 
+. Click *Add* to allow the Builder Preview user to upload images in the Builder for later use.
++
+The *Current Members* section shows the *Builder Preview* member and *Author* access.
+. Close the screen.
++
+. Confirm that the Builder Preview user can see the library images in the Builder. 
+. Reload the page if the images are not showing up.
+
+
+== Cannot Access the API Management Page to Disconnect Portal
+ 
 The unlinking process deletes the configuration created during the linking process, connected apps, and IDPs in the Anypoint organization. This process does not delete your portal or uninstall the API Experience Hub package. Use this method if you want to create a portal using another Salesforce organization with the same Anypoint account.
 
 To disconnect your portal:
