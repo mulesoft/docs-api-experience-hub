@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-API Experience Hub has a Salesforce organization with Experience Cloud and a managed package. The managed package is installed during the onboarding process when the API Experience Hub administer connects their Anypoint Platform organization with Salesforce. The managed package contains the components and data objects that interact with your Anypoint Platform organization. The Salesforce System Administrator can view the *API Experience Hub* package in their Salesforce organization from Salesforce by navigating to *Setup* > *Installed Packages* and selecting the *API Experience Hub Package*.
+API Experience Hub has a Salesforce organization with Experience Cloud and a managed package. The managed package is installed during the onboarding process when the API Experience Hub administer connects their Anypoint Platform organization to their Salesforce Organization. The managed package contains the components and data objects that interact with your Anypoint Platform organization. The Salesforce System Administrator can view the *API Experience Hub* package in their Salesforce organization from Salesforce by navigating to *Setup* > *Installed Packages* and selecting the *API Experience Hub Package*.
 
 A connection with Salesforce Experience Cloud is required for linking to the Salesforce organization to create an API portal within Anypoint. This process must be completed only once to create a portal. Currently, an instance of API Experience Hub can connect only to one Anypoint Platform organization and one Salesforce organization.
 
