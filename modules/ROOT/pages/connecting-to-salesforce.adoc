@@ -5,10 +5,10 @@ endif::[]
 
 API Experience Hub has a Salesforce organization with Experience Cloud and a managed package. The managed package is installed during the onboarding process when the API Experience Hub administrator connects their Anypoint Platform organization to their Salesforce organization. The managed package contains the components and data objects that interact with your Anypoint Platform organization. The Salesforce System Administrator can view the *API Experience Hub* package in their Salesforce organization from Salesforce by navigating to *Setup* > *Installed Packages* and selecting the *API Experience Hub Package*.
 
-A connection with Salesforce Experience Cloud is required for linking to the Salesforce organization to create an API portal within Anypoint. This process must be completed only once to create a portal. Currently, an instance of API Experience Hub can connect only to one Anypoint Platform organization and one Salesforce organization.
+A connection with Salesforce Experience Cloud is required for linking to the Salesforce organization to create an API portal within Anypoint Platform. This process must be completed only once to create a portal. Currently, an instance of API Experience Hub can connect only to one Anypoint Platform organization and one Salesforce organization.
 
 == Connected App
-API Experience Hub uses a connected app to obtain a session token in Anypoint and interacts with Salesforce APIs. 
+API Experience Hub uses a connected app to obtain a session token in Anypoint Platform and interacts with Salesforce APIs. 
 
 To view the connected app that is created in the Salesforce organization:
 
@@ -28,7 +28,7 @@ To complete the connection process, allow API Experience Hub to access the follo
 * Perform requests at any time
 
 == Admin Teams 
-An API Experience Hub Admin team and an API Experience Hub Portal Admin team is created during the connecting and linking process. Once your Salesforce organization is successfully connected to your Anypoint organization, the AEH Admin team is created. After the Salesforce linking process is complete, any user, who is assigned the AEH Admin, is automatically added to the AEH Admin team. 
+An API Experience Hub Admin team and an API Experience Hub Portal Admin team is created during the connecting and linking process. Once your Salesforce organization is successfully connected to your Anypoint Platform organization, the AEH Admin team is created. After the Salesforce linking process is complete, any user, who is assigned the AEH Admin, is automatically added to the AEH Admin team. 
 
 After your styling changes for the portal are saved, the AEH Portal Admin team is created. Although the API Experience Hub Portal Administrator team is visible in Access Management, this permission is not supported in this release.
 
@@ -38,7 +38,7 @@ After your styling changes for the portal are saved, the AEH Portal Admin team i
 * Ensure that you are a System Admin in the Salesforce organization that you are connecting with.
 
 == Connect to Salesforce 
-The process of creating your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint organization to your Salesforce organization, then installing the Salesforce Experience Cloud package. The linking process is a one-time step when creating your portal.
+The process of creating your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint Platform organization to your Salesforce organization, then installing the Salesforce Experience Cloud package. The linking process is a one-time step when creating your portal.
 
 NOTE: Only an Organization Administrator or API Experience Hub Administrator can link organizations.
 
