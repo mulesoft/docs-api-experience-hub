@@ -10,7 +10,6 @@ The API Details page includes the following information about an API:
 * *Name*
 +
 Name of the API.
-
 * *Type*
 + 
 The API type can be AsyncAPI, HTML, REST, or SOAP.
