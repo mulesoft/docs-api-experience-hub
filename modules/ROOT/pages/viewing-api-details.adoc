@@ -7,15 +7,37 @@ To view the API Details page, select an API from the Home or APIs page of the po
 // add screen captures
 The API Details page includes the following information about an API:
 
-* Name
-* Type
-* Description
-* Contact email
-* Version
-* Client applications
+* *Name*
++
+Name of the API.
+* *Type*
++ 
+The API type can be AsyncAPI, HTML, REST, or SOAP.
+* *Description*
++
+A description of the API.
+* *Contact email*
++
+The email of the contact for the API.
+* *Version*
++
+The version of the API.
+* *Instance*
++
+The count of instances of the API.
+* *Client applications*
++
+The number of client applications of the API.
 
-The API Console is located in the API Details page. The console component is interactive and shows information about REST APIs and their methods. Endpoints are displayed in alphabetical order.
-See xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation] for more information.
+The API Console is located in the API Details page. The console component is interactive and shows information about API specifications and their methods. Endpoints are displayed in alphabetical order. See xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation] for more information.
+
+== View Instances Information and Copy the URL
+To view the name and URL of an instance and copy the URL:
+
+. Click *View instances*.
+. Click the copy icon.
+. Click *Close*.
+
 
 == See Also
 
