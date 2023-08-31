@@ -30,7 +30,7 @@ The count of instances of the API.
 +
 The number of client applications of the API.
 
-The API Console is located in the API Details page. The console component is interactive and shows information about REST APIs and their methods. Endpoints are displayed in alphabetical order. See xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation] for more information.
+The API Console is located in the API Details page. The console component is interactive and shows information about API specifications and their methods. Endpoints are displayed in alphabetical order. See xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation] for more information.
 
 == View Instances Information and Copy the URL
 You can view the name and URL of an instance and copy the URL:
