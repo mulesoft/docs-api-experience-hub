@@ -7,26 +7,26 @@ To view the API Details page, select an API from the Home or APIs page of the po
 // add screen captures
 The API Details page includes the following information about an API:
 
-* Name
+* *Name*
 +
 Name of the API.
 
-* Type
+* *Type*
 + 
 The API type can be AsyncAPI, HTML, REST, or SOAP.
-* Description
+* *Description*
 +
 A description of the API.
-* Contact email
+* *Contact email*
 +
 The email of the contact for the API.
-* Version
+* *Version*
 +
 The version of the API.
-* Instance
+* *Instance*
 +
 The count of instances of the API.
-* Client applications
+* *Client applications*
 +
 The number of client applications of the API.
 
