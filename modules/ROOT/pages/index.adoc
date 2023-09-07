@@ -84,7 +84,6 @@ API Experience Hub is powered by Salesforce Experience Cloud and provides custom
 See the following topics for information about supported browsers:
 
  * xref:general::browser-support.adoc[Browser Support for Anypoint Platform]
- * xref:https://help.salesforce.com/s/articleView?id=sf.getstart_browsers_sfx.htm&type=5[Supported Browsers and Devices for Lightning Experience]
  * xref:https://help.salesforce.com/s/articleView?id=sf.networks_communities_browser_support.htm&type=5[Supported Browsers for Experience Cloud Sites]
  
 
