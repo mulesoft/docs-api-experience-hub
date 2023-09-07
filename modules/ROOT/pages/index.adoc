@@ -80,6 +80,13 @@ Exchange is a catalog of reusable assets such as APIs, policies, API spec fragme
 +
 API Experience Hub is powered by Salesforce Experience Cloud and provides customization and branding capabilities your developer audiences. For more information, see xref:customizing-your-portal.adoc[Customizing Your Portal Using Experience Builder].
 
+== Supported Browsers
+See the following topics for information about supported browsers:
+
+ * xref:general::browser-support.adoc[Browser Support for Anypoint Platform]
+ * xref:https://help.salesforce.com/s/articleView?id=sf.networks_communities_browser_support.htm&type=5[Supported Browsers for Experience Cloud Sites^]
+ 
+
 == See Also
 
 * xref:prerequisites.adoc[Prerequisites]
