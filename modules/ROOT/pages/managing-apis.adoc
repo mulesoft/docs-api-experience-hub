@@ -55,7 +55,7 @@ To remove APIs from your portal:
 +
 In the *APIs in the portal* tab, the API is removed from the list.
 
-== Manage API Versions Visible
+== Make API Versions Visible
 By default, when you add a new API, the minor version shared with an Administrator is the latest version of the API. The API instance visibility is set to Public instances. Only the API instances that are public in Exchange are available for end-users to request access to them.
 
 You can manage which version of an API a user can view in your portal. You can set the visibility to Administrators, Members, Everyone, None.
