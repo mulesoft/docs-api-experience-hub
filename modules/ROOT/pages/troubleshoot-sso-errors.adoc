@@ -1,0 +1,48 @@
+= Troubleshoot Single Sign-On Errors
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+:imagesdir: ../assets/images/
+
+The following topics provide possible causes for single sign-on (SSO) issues and describe how to troubleshoot:
+
+== Missing Redirect URI
+
+A 400 error occurs when logging in to the portal with SSO if the external identity provider application doesn’t have the proper redirect URIs defined.
+
+To troubleshoot this issue, ensure all of the necessary redirect URIs are included:
+
+* https://login.salesforce.com/services/authcallback/${salesforceOrganizationId}/${authProviderURLSuffix}
+* https://${domain}.my.salesforce.com/services/authcallback/${authProviderURLSuffix}
+* https://${domain}.my.site.com/aeh/services/authcallback/${authProviderURLSuffix}
+
+To get the redirect URIs:
+salesforceOrganizationId: In Salesforce, go to Setup > Company Information.
+authProviderURLSuffix: In Salesforce, go to Setup > Auth Providers > and select your auth provider URL Suffix.
+domain: In Salesforce, go to Setup > My Domain > Current My Domain URL.
+
+== Insufficient Privileges
+
+An insufficient privileges error occurs after logging in to the portal using SSO.
+
+To troubleshoot this issue, publish the portal from the Builder.
+
+. Navigate to Anypoint Platform, enter your username and password, and  click *Sign in*.
+. From Anypoint Platform, select API Experience Hub from the list of products. 
+Go to From the *Manage your API portal* page, click *Preview and publish your portal.
+. Click *Publish*. 
+
+== API Carousel Not Loading
+
+After logging in to the portal successfully, you cannot see the APIs in the API Carousel.
+
+To troubleshoot this issue, add the external identity provider group mapping in Access Management for the portal member user:
+
+. Go to *Access Management* > *Teams*.
+. Click *AEH Portal Guests* and click *AEH Portal Members*.
+. Click *External IdP Groups*.
+. From *Group Name*, enter *AEH Members*.
+. From *Provider Name*, select the name of the corresponding Salesforce identity provider.
+. From *Type*, select *Member* and click *Add*.
+
+

@@ -11,7 +11,7 @@ You can see information about:
 
 * Members
 * Pending requests
-* User registration
+* Login settings
 
 == Members
 When the registration of guest users are approved, they are added to the list of members in the Members tab of the User Management page. You can view a searchable list of current members and manage their accounts by enabling or disabling them.
@@ -64,13 +64,13 @@ After approval, the user moves to the *Members* tab.
 +
 If the registration is rejected, the user cannot log in and access the portal.
 
-== User Registration
-The User Registration tab lets you disable or enable self-registration for external users. Self-registration enables guest users to register themselves as members of your API portal. From the Pending requests tab, you can see a list of pending requests from guest users who want to access your portal. 
+== Login settings
+The Login settings tab lets you disable or enable self-registration for external users. Self-registration enables guest users to register themselves as members of your API portal. From the Pending requests tab, you can see a list of pending requests from guest users who want to access your portal. 
 
 === Disable or Enable Self-Registration
 By default, the ability for external users to self-register is enabled. This allows guest users to register, become a member, and access your portal site. Administrators can disable self-registration.
 
-To disable external user registration, from the *User Registration* tab of the *User Management* page, turn off the *Allow external user registration* option. 
+To disable external user registration, from the *Login settings* tab of the *User Management* page, turn off the *Allow external user registration* option. 
 
 To enable external registration again, turn on the *Allow external user registration* option.
 
