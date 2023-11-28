@@ -64,8 +64,8 @@ After approval, the user moves to the *Members* tab.
 +
 If the registration is rejected, the user cannot log in and access the portal.
 
-== Login settings
-The Login settings tab lets you disable or enable self-registration for external users. Self-registration enables guest users to register themselves as members of your API portal. From the Pending requests tab, you can see a list of pending requests from guest users who want to access your portal. 
+== Login Settings
+The Login settings tab lets you disable or enable self-registration for external users and set up single sign-on for your portal. Self-registration enables guest users to register themselves as members of your API portal. From the Pending requests tab, you can see a list of pending requests from guest users who want to access your portal. 
 
 === Disable or Enable Self-Registration
 By default, the ability for external users to self-register is enabled. This allows guest users to register, become a member, and access your portal site. Administrators can disable self-registration.
@@ -73,6 +73,9 @@ By default, the ability for external users to self-register is enabled. This all
 To disable external user registration, from the *Login settings* tab of the *User Management* page, turn off the *Allow external user registration* option. 
 
 To enable external registration again, turn on the *Allow external user registration* option.
+
+=== Single Sign-On (SSO)
+The *Single sign-on (SSO)* section provides you information about how to set up your portal with SSO. For more information, see xref:enabling-sso-for-your-portal.adoc[Enabling Single Sign-On for Your Portal]
 
 == Next Steps
 You can further customize and brand your portal using the xref:customizing-your-portal.adoc[Experience Builder] by clicking *Preview and publish your portal*.
