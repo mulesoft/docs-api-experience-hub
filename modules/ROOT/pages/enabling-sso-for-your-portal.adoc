@@ -27,7 +27,7 @@ In this step, you map the groups created in the Salesforce identity provider tha
 +
 In this step, you test the SSO configuration that you just set up for the portal.
 
-image::aeh-sso-flow2.png[Enabling SSO flowchart] 
+images::aeh-sso-flow2.png[Enabling SSO flowchart] 
 
 == User Roles
 Setting up an identity provider for API Experience Hub includes multiple personas that perform different user actions. 
@@ -294,7 +294,7 @@ The SSO users associated with the group you designated are assigned to the team.
 Verify that the SSO for the portal is configured properly.
 
 . In a browser, open an incognito window.
-. Go to the *API Experience Hub* portal.
+. Go to your API Experience Hub portal.
 . Select the SSO option that you configured.
 . Log in with a user that belongs to the group you configured in the identity provider for your portal.
 . Go to *Access Management* and select *Users*. 
