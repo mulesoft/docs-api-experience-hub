@@ -75,7 +75,7 @@ To disable external user registration, from the *Login settings* tab of the *Use
 To enable external registration again, turn on the *Allow external user registration* option.
 
 === Single Sign-On (SSO)
-The *Single sign-on (SSO)* section provides you information about how to set up your portal with SSO. For more information, see xref:enabling-sso-for-your-portal.adoc[Enabling Single Sign-On for Your Portal]
+The *Single sign-on (SSO)* section provides you information about how to set up your portal with SSO. For detailed instructions, see xref:enabling-sso-for-your-portal.adoc[Enabling Single Sign-On for Your Portal]
 
 == Next Steps
 You can further customize and brand your portal using the xref:customizing-your-portal.adoc[Experience Builder] by clicking *Preview and publish your portal*.
