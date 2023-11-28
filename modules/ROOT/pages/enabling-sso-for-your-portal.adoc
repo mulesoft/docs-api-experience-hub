@@ -24,9 +24,7 @@ The Salesforce System Administrator is responsible for setting up the identity p
 The Anypoint Organization Administrator is responsible for mapping the identity provider groups with the API Experience Hub profiles using the group mapping functionality of Access Management teams.
 * Security team
 +
-Your organization’s security team is responsible for setting up the identity provider with the required user-groups and applications. 
-
-Your organization’s Security team and the Salesforce System Administrator, who manage the identity provider system in an organization, configure the proper login option in Salesforce. The Security team and the Org Admin in the main organization may want to configure the same identity provider option in Anypoint, if required. The Security team and the Org Admin in the main organization configures the mapping between Salesforce and Anypoint. Access Management provides the functionality of adding group mappings for external identity providers using teams. When the group mappings are properly configured, users who log in to the portal are added automatically to the out-of-the-box profile that they belongs to. The default identity provider is provided to create identities in Anypoint for Salesforce users.
+Your organization’s security team is responsible for setting up the identity provider with the required user-groups and applications. Your organization’s Security team and the Salesforce System Administrator, who manage the identity provider system in an organization, configure the proper login option in Salesforce. The Security team and the Org Admin in the main organization may want to configure the same identity provider option in Anypoint, if required. The Security team and the Org Admin in the main organization configures the mapping between Salesforce and Anypoint. Access Management provides the functionality of adding group mappings for external identity providers using teams. When the group mappings are properly configured, users who log in to the portal are added automatically to the out-of-the-box profile that they belongs to. The default identity provider is provided to create identities in Anypoint for Salesforce users.
 
 Anypoint and Salesforce can configure an identity provider using OpenID Connect (auth provider) or SAML (Single Sign-on Settings). 
 
@@ -95,24 +93,24 @@ The System Administrator role in Salesforce.
 
 Setting up SSO for your portal includes the following high-level steps. These steps can vary depending on your use case. 
 
-//TODO: user journey flow diagram here - should be the minimal steps 
+image::aeh-sso-flow2.png 
 
 Performing steps require you to move back and forth between the application and the identity provider application to copy or add information.
 
-Step 1: Enable SSO for Your Portal
-
+* Step 1: Enable SSO for Your Portal
++
 In this step, you create and set up an application in the identity provider. 
 
-Step 2: Add Salesforce Identity Providers 
-
+* Step 2: Add Salesforce Identity Providers 
++
 In this step, you add the Salesforce identity provider from API Experience Hub UI using the Login settings tab on the User Management page. From the Login settings tab, you enable SSO for the identity provider. Once the identity provider is enabled, users can see the login option from the portal’s login page.
 
-Step 3: Add Group Mappings
-
+* Step 3: Add Group Mappings
++
 In this step, you map the groups created in the Salesforce identity provider that you added to the corresponding team profile for the portal.
 
-Step 4: Test the SSO Configuration
-
+* Step 4: Test the SSO Configuration
++
 In this step, you test the SSO configuration that you just set up for the portal.
 
 Step 1: Enable SSO for Your Portal
