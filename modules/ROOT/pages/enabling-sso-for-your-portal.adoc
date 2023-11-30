@@ -138,12 +138,14 @@ Configure an identity provider as a login option for the API Experience Hub port
 === Create and Set Up an Application for the Portal in the Identity Provider
 In this step, you create an application in the identity provider for the API Experience Hub portal, enable the ability to send group information in the application configuration, configure groups, and configure the default identity provider. Performing these steps require you to move back and forth between the application,the identity provider application and Salesforce to copy or add information. These steps can vary depending on your use case, especially when adding or reconciling username assignments. 
 
-. Create and set up an application using one of the following example methods:
+=== Create and set up an application using one of the following example methods:
+
 * Create and Configure an Application Using Okta OpenID Connect
 * Create and Configure an Application Using Okta SAML
 
 
 ==== Create and Configure an Application Using Okta OpenID Connect
+
 [%collapsible]
 ====
 Create a new application for the API Experience Hub portal in the identity provider using OpenID Connect. For detailed steps, see the documentation for Okta.
@@ -176,9 +178,13 @@ NOTE: You  add the redirect URIs in the application after you configure the iden
 * *User info URL*: Enter *https://{domainofOktaorg}.okta.com/oauth2/v1/userinfo*.
 * *Group Scope*: Enter *groups*.
 . Save your changes.
+====
 
-==== Create and Configure an Application Using SAML
-Create a new application for the API Experience Hub portal in the identity provider using SAML. For detailed steps, see the documentation for Okta.
+==== Create and Configure an Application Using Okta SAML
+
+[%collapsible]
+====
+Create a new application for the API Experience Hub portal in the identity provider using SAML. For more information, see https://help.okta.com/oie/en-us/content/topics/apps/apps_app_integration_wizard_saml.htm[Create SAML app integrations^] in the Okta documentation.
 
 . From Okta, create an SAML application and click Add Integration.
 . In the General Settings tab, complete the following fields:
@@ -186,7 +192,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 * Application label: Enter any label name.
 * Instance Type: Enter the type that corresponds to your instance, for example, production.
 * Custom Domain: Enter the domain of your instance. For example, if your instance is https://mulesoft-f4-dev-ed.develop.my.salesforce.com enter mulesoft-f4-dev-ed.develop. 
-* User Profiles & Type: Ramses Guzmán Nicolás Mouso What do you enter here?
+* User Profiles & Type: 
 * Application Visibility: Unselect Do not display icon to users.
 * Browser plugin auto-submit: Select Automatically log in when user lands on login page.
 +
@@ -225,12 +231,12 @@ Once the app is created, a Client ID and Client Secret is generated.
 * Name: User.LastName → Value: user.LastName
 * Name: User.Email → Value: user.email
 . Click Save.
+====
 
+=== Add a Username Assignment Strategy for the User
 
-. Add a username assignment strategy for the user.
+. In Okta, click Assignments and enter the Username using one of the following examples:
 +
-For example, in Okta, you can click *Assignments* and enter the *Username* using one of the following examples:
-
 * Use *user.login* when the Anypoint username is the same as the identity provider username. 
 +
 * Use *String.substringBefore(user.login, "@")* to remove the email domain since Okta usernames are email-based.
@@ -262,7 +268,8 @@ Here is an example of what it looks like in Okta:
 +
 You can also copy the 32 digit ID from the *Assertion Consumer Service (ACS) URL* field:
 //screenshot placeholder
-====
+
+
 === Configure the Identity Provider in Salesforce
 You set up the auth provider or SSO settings in Salesforce with the identity provider application information and set the redirect URIs. 
 
