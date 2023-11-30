@@ -187,55 +187,55 @@ NOTE: You  add the redirect URIs in the application after you configure the iden
 Create a new application for the API Experience Hub portal in the identity provider using SAML. For more information, see https://help.okta.com/oie/en-us/content/topics/apps/apps_app_integration_wizard_saml.htm[Create SAML app integrations^] in the Okta documentation.
 
 . From Okta, create an SAML application and click Add Integration.
-. In the General Settings tab, complete the following fields:
+. In the *General Settings* tab, complete the following fields:
 +
-* Application label: Enter any label name.
-* Instance Type: Enter the type that corresponds to your instance, for example, production.
-* Custom Domain: Enter the domain of your instance. For example, if your instance is https://mulesoft-f4-dev-ed.develop.my.salesforce.com enter mulesoft-f4-dev-ed.develop. 
-* User Profiles & Type: 
-* Application Visibility: Unselect Do not display icon to users.
-* Browser plugin auto-submit: Select Automatically log in when user lands on login page.
+* *Application label*: Enter any label name.
+* *Instance Type*: Enter the type that corresponds to your instance, for example, production.
+* *Custom Domain*: Enter the domain of your instance. For example, if your instance is https://mulesoft-f4-dev-ed.develop.my.salesforce.com enter mulesoft-f4-dev-ed.develop. 
+* *User Profiles & Type*: 
+* *Application Visibility*: Unselect Do not display icon to users.
+* *Browser plugin auto-submit*: Select Automatically log in when user lands on login page.
 +
 Once the app is created, a Client ID and Client Secret is generated.
-. In the Sign-On Options tab, select SAML 2.0 and Enable Single Logout from the Sign-on methods section.
-. Go to Salesforce and select Setup > Identity > Single Sign-On Settings.
-. Click Edit, select SAML Enabled, and click Save.
-. Click New and complete the following fields:
+. In the *Sign-On Options* tab, select *SAML 2.0* and *Enable Single Logout* from the *Sign-on methods* section.
+. Go to Salesforce and select *Setup* > *Identity* > *Single Sign-On Settings*.
+. Click *Edit*, select *SAML Enabled*, and click *Save*.
+. Click *New* and complete the following fields:
 +
-* Name: Enter a name to appear in the login page.
-* Issuer: Enter exk936xh7u0C2Clk35d7.
-* Identity Provider Certificate: Ramses Guzmán Nicolás Mouso What do you enter here?
-* Identity Provider Login URL: Ramses Guzmán
-* API Name: This field populates the name entered in the Name field. You can change the name.
-* Entity ID: Enter the custom domain name.
+* *Name*: Enter a name to appear in the login page.
+* *Issuer*: Enter exk936xh7u0C2Clk35d7.
+* *Identity Provider Certificate*: 
+* *Identity Provider Login URL*: 
+* *API Name*: This field populates the name entered in the *Name* field. You can change the name.
+* Entity ID*: Enter the custom domain name.
 . Copy the Login URL and Logout URL. 
-. Click Save.
-. Click Download Metadata.
-. In Okta, select the General tab for the app and click Edit.
-. Enter the value for Login URL and Logout URL that you saved in step 7.
-. Click Save.
+. Click *Save*.
+. Click *Download Metadata*.
+. In Okta, select the *General* tab for the app and click *Edit*.
+. Enter the value for *Login URL* and *Logout URL* that you saved in step 7.
+. Click *Save*.
 . Open the downloaded metadata file and copy the value of the XML node for the certificate and paste it into a text editor.
 . Save the file for example, slo.cert.
-. In the Okta application, upload the file in Signature Certificate and click Save
+. In the Okta application, upload the file in *Signature Certificate* and click *Save*.
 . Open the Metadata URL and copy the value of the Location attribute of the SingleLogoutService for example, https://salesforce.quip.com/2hc9AiNCD5Sh#temp:C:TQS07fd384d811448e2a5a3d03fd.
-. Go to Salesforce > Single Sign-on Settings and click Edit. 
-. Select Enable Single Logout.
+. Go to *Salesforce* > *Single Sign-on Settings* and click *Edit*. 
+. Select *Enable Single Logout*.
 . In the Identity Provider Single Logout URL field, paste the copied URL.
-. For the Single Logout Request Binding field, select HTTP POST and click Save.
+. From the *Single Logout Request Binding* field, select *HTTP POST* and click *Save*.
 . Configure a custom SAML attribute called groups. This value contains all of the groups that the user belongs to. For the SAML attribute, you must configure all of the groups that the user belongs to in Anypoint.
-.. In the Okta application, select the Sign On tab.
-.. Expand the Attribute section and add the following mappings to the SAML assertion:
+.. In the Okta application, select the *Sign On* tab.
+.. Expand the *Attribute* section and add the following mappings to the SAML assertion:
 +
-* Name: User.Username → Value: user.login
-* Name: User.FirstName → Value: user.firstName
-* Name: User.LastName → Value: user.LastName
-* Name: User.Email → Value: user.email
-. Click Save.
+* *Name*: *User.Username* → *Value: user.login*
+* *Name*: *User.FirstName* → *Value: user.firstName*
+* *Name*: *User.LastName* → *Value: user.LastName*
+* *Name*: *User.Email* → *Value: user.email*
+. Click *Save*.
 ====
 
 === Add a Username Assignment Strategy for the User
 
-. In Okta, click Assignments and enter the Username using one of the following examples:
+. In Okta, click *Assignments* and enter the *Username* using one of the following examples:
 +
 * Use *user.login* when the Anypoint username is the same as the identity provider username. 
 +
