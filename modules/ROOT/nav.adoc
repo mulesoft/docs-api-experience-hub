@@ -12,7 +12,7 @@
 * xref:managing-your-portal.adoc[Managing Your API Portal]
 ** xref:managing-apis.adoc[Managing APIs]
 ** xref:managing-users.adoc[Managing Users]
-*** xref:enabling-sso-for-your-portal.adoc[Enabling Single Sign-On for your Portal]
+** xref:enabling-sso-for-your-portal.adoc[Enabling Single Sign-On for your Portal]
 ** xref:viewing-salesforce-account-information.adoc[Viewing Salesforce Account Information]
 ** xref:deactivating-your-portal-site.adoc[Deactivating Your Portal Site]
 ** xref:disconnecting-the-portal.adoc[Disconnecting the Portal]
