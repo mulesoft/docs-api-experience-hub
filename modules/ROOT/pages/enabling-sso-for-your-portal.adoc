@@ -280,20 +280,20 @@ The identity provider can be configured using OpenID Connect or SAML:
 ==== Configure an Authentication Provider Using OpenID Connect
 
 . From the OpenID Connect application, get these configuration values:
-* Client ID
-* Client Secret
-* Authorize Endpoint URL
-* Token Endpoint URL
-* User Info Endpoint URL
+* *Client ID*
+* *Client Secret*
+* *Authorize Endpoint URL*
+* *Token Endpoint URL*
+* *User Info Endpoint URL*
 
 . Follow the instructions in https://help.salesforce.com/s/articleView?id=sf.sso_provider_openid_connect.htm&type=5[Configure an Authentication Provider Using OpenID Connect^] using the identity provider configuration for OpenID Connect and complete the following fields from the Define an Authentication Provider in Salesforce section:
 
 * *Authorization Endpoint URL*
-* *Consumer Key* using the Client ID from identity provider.
-* *Consumer Secret* from identity provider.
-* *Authorize Endpoint URL* from identity provider.
-* *Token Endpoint URL* from identity provider.
-* *User Info Endpoint URL* from identity provider.
+* *Consumer Key* using the Client ID from the identity provider.
+* *Consumer Secret* from the identity provider.
+* *Authorize Endpoint URL* from the identity provider.
+* *Token Endpoint URL* from the identity provider.
+* *User Info Endpoint URL* from the identity provider.
 * Set *Default Scopes* to *profile openid email groups*.
 * Set the *Registration handler* to AEHPortalRegistrationHandler.
 * Select an administrator user in the *Execute Registration As* field.
@@ -302,8 +302,9 @@ The identity provider can be configured using OpenID Connect or SAML:
 Now that the auth provided is configured, you can add the redirect URIs to the identity provider’s application. Your identity provider requires a redirect URI for OpenID Connect redirecting authenticated users when using OpenID Connect. 
 . Go back to your identity provider application and add the following redirect URI for the portal.  
 +
-* https://login.salesforce.com/services/authcallback/${salesforceOrganizationId}/${authProviderURLSuffix} 
-* https://${domain}.my.salesforce.com/services/authcallback/${authProviderURLSuffix}
+* https://login.salesforce.com/services/authcallback/${15DigitSalesforceOrganizationId}/${authProviderURLSuffix}
+* https://login.salesforce.com/services/authcallback/${18DigitSalesforceOrganizationId}/${authProviderURLSuffix}
+* https://${domain}.my.site.com/aeh/services/authcallback/${authProviderURLSuffix}
 * https://${domain}.my.site.com/aeh/services/authcallback/${authProviderURLSuffix}
 +
 To get the URLs:
