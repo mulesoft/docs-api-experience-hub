@@ -186,14 +186,14 @@ NOTE: You  add the redirect URIs in the application after you configure the iden
 ====
 Create a new application for the API Experience Hub portal in the identity provider using SAML. For more information, see https://help.okta.com/oie/en-us/content/topics/apps/apps_app_integration_wizard_saml.htm[Create SAML app integrations^] in the Okta documentation.
 
-. From Okta, create an SAML application and click Add Integration.
+. From Okta, create an SAML application.
 . In the *General Settings* tab, complete the following fields:
 +
 * *Application label*: Enter any label name.
 * *Instance Type*: Enter the type that corresponds to your instance, for example, production.
 * *Custom Domain*: Enter the domain of your instance. For example, if your instance is https://mulesoft-f4-dev-ed.develop.my.salesforce.com enter mulesoft-f4-dev-ed.develop. 
 * *User Profiles & Type*: 
-* *Application Visibility*: Unselect Do not display icon to users.
+* *Application Visibility*: Unselect *Do not display icon* to users.
 * *Browser plugin auto-submit*: Select Automatically log in when user lands on login page.
 +
 Once the app is created, a Client ID and Client Secret is generated.
@@ -203,7 +203,7 @@ Once the app is created, a Client ID and Client Secret is generated.
 . Click *New* and complete the following fields:
 +
 * *Name*: Enter a name to appear in the login page.
-* *Issuer*: Enter exk936xh7u0C2Clk35d7.
+* *Issuer*: .
 * *Identity Provider Certificate*: 
 * *Identity Provider Login URL*: 
 * *API Name*: This field populates the name entered in the *Name* field. You can change the name.
@@ -217,10 +217,10 @@ Once the app is created, a Client ID and Client Secret is generated.
 . Open the downloaded metadata file and copy the value of the XML node for the certificate and paste it into a text editor.
 . Save the file for example, slo.cert.
 . In the Okta application, upload the file in *Signature Certificate* and click *Save*.
-. Open the Metadata URL and copy the value of the Location attribute of the SingleLogoutService for example, https://salesforce.quip.com/2hc9AiNCD5Sh#temp:C:TQS07fd384d811448e2a5a3d03fd.
+. Open the Metadata URL and copy the value of the *Location attribute* of the *SingleLogoutService*. 
 . Go to *Salesforce* > *Single Sign-on Settings* and click *Edit*. 
 . Select *Enable Single Logout*.
-. In the Identity Provider Single Logout URL field, paste the copied URL.
+. In the *Identity Provider Single Logout URL* field, paste the copied URL.
 . From the *Single Logout Request Binding* field, select *HTTP POST* and click *Save*.
 . Configure a custom SAML attribute called groups. This value contains all of the groups that the user belongs to. For the SAML attribute, you must configure all of the groups that the user belongs to in Anypoint.
 .. In the Okta application, select the *Sign On* tab.
@@ -289,11 +289,11 @@ The identity provider can be configured using OpenID Connect or SAML:
 . Follow the instructions in https://help.salesforce.com/s/articleView?id=sf.sso_provider_openid_connect.htm&type=5[Configure an Authentication Provider Using OpenID Connect^] using the identity provider configuration for OpenID Connect and complete the following fields from the Define an Authentication Provider in Salesforce section:
 
 * *Authorization Endpoint URL*
-* *Consumer Key* using the Client ID (from identity provider)
-* *Consumer Secret* (from identity provider)
-* *Authorize Endpoint URL* (from identity provider)
-* *Token Endpoint URL* (from identity provider)
-* *User Info Endpoint URL* (from identity provider)
+* *Consumer Key* using the Client ID from identity provider.
+* *Consumer Secret* from identity provider.
+* *Authorize Endpoint URL* from identity provider.
+* *Token Endpoint URL* from identity provider.
+* *User Info Endpoint URL* from identity provider.
 * Set *Default Scopes* to *profile openid email groups*.
 * Set the *Registration handler* to AEHPortalRegistrationHandler.
 * Select an administrator user in the *Execute Registration As* field.
@@ -326,17 +326,9 @@ Configure Salesforce as a service provider with SAML SSO for users to log in to 
 * Enable the *User Provisioning Enabled* option.
 * For User Provisioning Type, select Custom SAML JIT with Apex handler
 * In the *SAML JIT Handler* field, enter *AEHPortalRegistrationHandler*. 
-+
-Here is an example of what it looks like in Salesforce:
-//screenshot placeholder
+
 
 . https://help.salesforce.com/s/articleView?id=sf.sso_saml_sp_endpoints.htm&type=5[Share Your SAML SSO Configuration with Your Identity Provider^].
-+
-The following attributes are mandatory for the SAML assertion:
-+
-* firstName
-* lastName
-* email
 +
 Here’s an example of what it looks like in Okta:
 //screenshot placeholder
