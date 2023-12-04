@@ -104,19 +104,20 @@ SAML is an open standard authentication protocol that you can use to implement S
 
 Single sign-on (SSO) is an authentication method that enables users to access multiple applications with one login and one set of credentials. For example, after users log in to your org, they can automatically access all apps from the App Launcher. You can set up your Salesforce  or Anypoint org to trust a third-party identity provider to authenticate users. Or you can configure a third-party app to rely on your org for authentication.
 
-== Before You Begin
+[[enable-sso]]
+== Enable SSO for Your Portal
+
+=== Before You Begin
 Before enabling SSO, ensure you have the following permissions:
 
 * Organization Administrator permission or role in the main Anypoint organization.
 * System Administrator role in Salesforce.
-
-[[enable-sso]]
-== Step 1: Enable SSO for Your Portal
-To enable SSO, an identity provider is required for Anypoint to create identities in Anypoint for Salesforce users. 
+* Experience with identity management and setting up identity providers for SSO.
 
 [[username-strategy]]
 === Username Assignment Strategy
 If you want to set up an SSO login option for your portal and your Anypoint and Salesforce organizations have identity providers already configured, review the username assignment strategy for your identity providers since they may be different. To have a single identity between Anypoint and Salesforce, the format for the username assignment must be the same. For Anypoint, you can use any character string however, Salesforce has a specific username strategy that uses an email format. If the username strategy does not match, extra attributes within the user profile must be added to the profile editor of the identity provider. Then, this information must be mapped with the Anypoint identity provider that you are using for SSO.
+
 
 Consider the following use cases when determining the username assignment for your users.
 
@@ -132,268 +133,12 @@ You want to configure an identity provider as a login option for your portal. An
 
 You want to configure an identity provider as a login option for your portal. An identity provider is already configured in your Salesforce and Anypoint organizations and the username used in those organizations do not match. For example, the Salesforce username is *anyuser@salesforce.com* and the Anypoint username is *anyuser*. To have a single user identity, you must reconcile the username format by adding attributes for *anypoint_idp_id* and *anypoint_username*.
 
-Configure an identity provider as a login option for the API Experience Hub portal using the following steps. 
+=== Single Sign-On Use Cases for the Portal
+API Experience Hub supports the following use cases when configuring an identity provider as a login option for the portal: 
 
-[[create-and-set-up-application]]
-=== Create and Set Up an Application for the Portal in the Identity Provider
-In this step, you create an application in the identity provider for the API Experience Hub portal, enable the ability to send group information in the application configuration, configure groups, and configure the default identity provider. Performing these steps require you to move back and forth between the application,the identity provider application and Salesforce to copy or add information. These steps can vary depending on your use case, especially when adding or reconciling username assignments. 
-
-=== Create and set up an application using one of the following example methods:
-
-* Create and Configure an Application Using Okta OpenID Connect
-* Create and Configure an Application Using Okta SAML
-
-
-==== Create and Configure an Application Using Okta OpenID Connect
-
-[%collapsible]
-====
-Create a new application for the API Experience Hub portal in the identity provider using OpenID Connect. For detailed steps, see the documentation for Okta.
-
-. From Okta, create an OpenID Connect Web application using the identity provider’s documentation. For more information, see https://help.okta.com/oie/en-us/content/topics/apps/apps_app_integration_wizard_oidc.htm[Create OIDC app integrations^].
-+
-Once the app is created, a Client ID and Client Secret is generated.
-. From *General Settings*, complete the following fields:
-* *App integration name*: Enter a name for example, Anypoint Platform.
-* *Grant type*: Select *Authorization Code*.
-* *Assignments*: Select *Limit access to selected groups*.
-* Selected group(s): Enter Anypoint Admins.
-+
-NOTE: You  add the redirect URIs in the application after you configure the identity provider in Salesforce in a later step.
-
-. Configure a custom groups claim filter. This value contains all of the groups that the user belongs to. 
-.. From the *Sign On* tab, click *Edit* from the *OpenID Connect ID Token section*.
-.. From *Groups claim type*, select *Filter*. 
-.. From *Groups claim filter*, enter *groups*.
-.. Select *Matches regex* for the expression then enter *.** for wildcard.
-. From the *General* tab, copy the *Client ID* field.
-. Go to *Access Management* > *Identity Providers* > *Configuration* and paste the client ID in the *Client ID* field of the *Identity Client Registration* section.
-. Go back to the *General* tab of the Okta application and copy the *Client Secret* field.
-. Go back to the Access Management’s *Configuration* tab and paste the client secret in the *Client Secret* field of the *Identity Client Registration* section.
-. From the *Configuration* tab in Access Management, complete the following fields using the URL of the domain of your Okta organization:
-+
-* *OpenID Connect Issuer*: Enter *https://{domain of Okta org}.okta.com*.
-* *Authorize URL*: Enter https://{domainofOktaorg}.okta.com/oauth2/v1/authorize.
-* *Token URL*: Enter *https://{domainofOktaorg}.okta.com/oauth2/v1/token*.
-* *User info URL*: Enter *https://{domainofOktaorg}.okta.com/oauth2/v1/userinfo*.
-* *Group Scope*: Enter *groups*.
-. Save your changes.
-====
-
-==== Create and Configure an Application Using Okta SAML
-
-[%collapsible]
-====
-Create a new application for the API Experience Hub portal in the identity provider using SAML. For more information, see https://help.okta.com/oie/en-us/content/topics/apps/apps_app_integration_wizard_saml.htm[Create SAML app integrations^] in the Okta documentation.
-
-. From Okta, create an SAML application.
-. In the *General Settings* tab, complete the following fields:
-+
-* *Application label*: Enter any label name.
-* *Instance Type*: Enter the type that corresponds to your instance, for example, production.
-* *Custom Domain*: Enter the domain of your instance. For example, if your instance is https://mulesoft-f4-dev-ed.develop.my.salesforce.com enter mulesoft-f4-dev-ed.develop. 
-* *User Profiles & Type*: 
-* *Application Visibility*: Unselect *Do not display icon* to users.
-* *Browser plugin auto-submit*: Select Automatically log in when user lands on login page.
-+
-Once the app is created, a Client ID and Client Secret is generated.
-. In the *Sign-On Options* tab, select *SAML 2.0* and *Enable Single Logout* from the *Sign-on methods* section.
-. Go to Salesforce and select *Setup* > *Identity* > *Single Sign-On Settings*.
-. Click *Edit*, select *SAML Enabled*, and click *Save*.
-. Click *New* and complete the following fields:
-+
-* *Name*: Enter a name to appear in the login page.
-* *Issuer*: .
-* *Identity Provider Certificate*: 
-* *Identity Provider Login URL*: 
-* *API Name*: This field populates the name entered in the *Name* field. You can change the name.
-* Entity ID*: Enter the custom domain name.
-. Copy the Login URL and Logout URL. 
-. Click *Save*.
-. Click *Download Metadata*.
-. In Okta, select the *General* tab for the app and click *Edit*.
-. Enter the value for *Login URL* and *Logout URL* that you saved in step 7.
-. Click *Save*.
-. Open the downloaded metadata file and copy the value of the XML node for the certificate and paste it into a text editor.
-. Save the file for example, slo.cert.
-. In the Okta application, upload the file in *Signature Certificate* and click *Save*.
-. Open the Metadata URL and copy the value of the *Location attribute* of the *SingleLogoutService*. 
-. Go to *Salesforce* > *Single Sign-on Settings* and click *Edit*. 
-. Select *Enable Single Logout*.
-. In the *Identity Provider Single Logout URL* field, paste the copied URL.
-. From the *Single Logout Request Binding* field, select *HTTP POST* and click *Save*.
-. Configure a custom SAML attribute called groups. This value contains all of the groups that the user belongs to. For the SAML attribute, you must configure all of the groups that the user belongs to in Anypoint.
-.. In the Okta application, select the *Sign On* tab.
-.. Expand the *Attribute* section and add the following mappings to the SAML assertion:
-+
-* *Name*: *User.Username* → *Value: user.login*
-* *Name*: *User.FirstName* → *Value: user.firstName*
-* *Name*: *User.LastName* → *Value: user.LastName*
-* *Name*: *User.Email* → *Value: user.email*
-. Click *Save*.
-====
-
-=== Add a Username Assignment Strategy for the User
-
-. In Okta, click *Assignments* and enter the *Username* using one of the following examples:
-+
-* Use *user.login* when the Anypoint username is the same as the identity provider username. 
-+
-* Use *String.substringBefore(user.login, "@")* to remove the email domain since Okta usernames are email-based.
-* If Anypoint and Salesforce have identity providers already configured and the username assignments are the same, there is nothing to do.
-+
-* If Anypoint and Salesforce have identity providers already configured and the username assignment format does not match, reconcile the format by adding attributes for *anypoint_idp_id* and *anypoint_username*. The following instructions are using Okta as the identity provider. For all other identity providers, see the identity provider’s documentation for more information.
-+
-.. From Okta, click *Directory* > *Profile Editor* for the identity provider and select the recently created application.
-.. Click *Add Attribute*.
-.. From *Data Type*, select string.
-.. From *Display name*, enter *anypoint_idp_id*.
-.. From *Variable name*, enter *anypoint_idp_id*.
-.. From *Attribute length*, select *Between*.
-.. From *User permission*, select *Read Only*.
-.. Click *Add*.
-.. Repeat steps 1 through 8 to add an attribute for anypoint_username and enter *anypoint_username* for the *Display name* and the *Variable name*.
-.. Click *Save*.
-. If you want to map the portal identity provider to an existing identity in Anypoint, configure a custom claim or SAML attribute called *anypoint_idp_id* and force an update on existing identity provider users to match the identity in the portal to the users in Anypoint. 
-+
-NOTE: If the user already exists and logs in to the portal before the *anypoint_idp_id* is set, the default identity provider *AEH Users - ${salesforceOrganizationId}* is used. The user is not added to the new identity provider specified in the anypoint_idp_id field to prevent the user from being duplicated.
-+
-Here is an example of what it looks like in Okta:
-//screenshot placeholder
-
-. If you want to assign users to a specific identity provider and not the default Anypoint identity provider, follow these steps:
-.. Go to *Access Management* > *Identity Providers*. 
-.. Click the identity provider of your choice and copy and paste the 32 digit ID in the URL in the custom claim or SAML attribute called anypoint_idp_id that’s configured in the identity provider.
-//screenshot placeholder
-+
-You can also copy the 32 digit ID from the *Assertion Consumer Service (ACS) URL* field:
-//screenshot placeholder
-
-
-=== Configure the Identity Provider in Salesforce
-You set up the auth provider or SSO settings in Salesforce with the identity provider application information and set the redirect URIs. 
-
-The identity provider can be configured using OpenID Connect or SAML:
-* Configure an Auth Provider Using OpenID Connect 
-* Configure SSO with Salesforce as SAML Identity Provider
-
-==== Configure an Authentication Provider Using OpenID Connect
-
-. From the OpenID Connect application, get these configuration values:
-* *Client ID*
-* *Client Secret*
-* *Authorize Endpoint URL*
-* *Token Endpoint URL*
-* *User Info Endpoint URL*
-
-. Follow the instructions in https://help.salesforce.com/s/articleView?id=sf.sso_provider_openid_connect.htm&type=5[Configure an Authentication Provider Using OpenID Connect^] using the identity provider configuration for OpenID Connect and complete the following fields from the Define an Authentication Provider in Salesforce section:
-
-* *Authorization Endpoint URL*
-* *Consumer Key* using the Client ID from the identity provider.
-* *Consumer Secret* from the identity provider.
-* *Authorize Endpoint URL* from the identity provider.
-* *Token Endpoint URL* from the identity provider.
-* *User Info Endpoint URL* from the identity provider.
-* Set *Default Scopes* to *profile openid email groups*.
-* Set the *Registration handler* to AEHPortalRegistrationHandler.
-* Select an administrator user in the *Execute Registration As* field.
-. Click *Save*. 
-+
-Now that the auth provided is configured, you can add the redirect URIs to the identity provider’s application. Your identity provider requires a redirect URI for OpenID Connect redirecting authenticated users when using OpenID Connect. 
-. Go back to your identity provider application and add the following redirect URI for the portal.  
-+
-* https://login.salesforce.com/services/authcallback/${15DigitSalesforceOrganizationId}/${authProviderURLSuffix}
-* https://login.salesforce.com/services/authcallback/${18DigitSalesforceOrganizationId}/${authProviderURLSuffix}
-* https://${domain}.my.site.com/aeh/services/authcallback/${authProviderURLSuffix}
-* https://${domain}.my.site.com/aeh/services/authcallback/${authProviderURLSuffix}
-+
-To get the URLs:
-+
-* For *salesforceOrganizationId*, go to *Setup* > *Company Information*.
-* For *authProviderURLSuffix*, go to *Setup* > *Auth Providers*, click your auth provider, and select *URL Suffix*.
-* For *domain*, go to *Setup* > *My Domain* > *Current My Domain URL*.
-+
-Here is an example of how the configuration looks in Salesforce:
-//screenshot placeholder
-
-==== Configure SSO with Salesforce as SAML Identity Provider
-Configure Salesforce as a service provider with SAML SSO for users to log in to API Experience Hub portal using their Salesforce credentials.
-
-. https://help.salesforce.com/s/articleView?id=sf.sso_saml_idp_prereqs.htm&type=5[Gather Information from Your Identity Provider^].
-. https://help.salesforce.com/s/articleView?id=sf.sso_service_provider_configuration.htm&type=5[Create a SAML Single Sign-On Setting in Salesforce^] by configuring the following:
-+
-* Select the *Request Signing Certificate* called *Anypoint*.
-* Set the *SAML Identity Type* to *Federated Authentication*. 
-* Enable the *User Provisioning Enabled* option.
-* For User Provisioning Type, select Custom SAML JIT with Apex handler
-* In the *SAML JIT Handler* field, enter *AEHPortalRegistrationHandler*. 
-
-
-. https://help.salesforce.com/s/articleView?id=sf.sso_saml_sp_endpoints.htm&type=5[Share Your SAML SSO Configuration with Your Identity Provider^].
-+
-Here’s an example of what it looks like in Okta:
-//screenshot placeholder
-
-
-
-
-
-
-
-
-=== See Also:
-
-For more information about configuring other authentication providers using OpenID Connect or SAML, see the following examples:
-
-* https://help.salesforce.com/s/articleView?id=sf.config_auth_provider_examples.htm&type=5[Examples for Configuring an Authentication Provider Using OpenID Connect^]
-* https://help.salesforce.com/s/articleView?id=sf.identity_provider_examples.htm&type=5[Examples for Configuring SSO with Salesforce as the SAML Identity Provider^]
-
-[[add-identity-provider]]
-== Step 2: Add Salesforce Identity Providers 
-After the identity provider is configured for Salesforce, add and enable the identity provider from the API Experience Hub UI. When the identity provider is enabled, users can log in to the portal using this identity provider.
-
-. Go to *API Experience Hub*.
-. From the *User management* page, select the *Login settings* tab.
-. From the *Single sign-on (SSO)* section, scroll down to step 2 *Add Salesforce identity providers*.
-. Click *Select identity provider* and select an option from the dropdown menu and click *+ Add identity provider*.
-. Move the slider to *Enabled*.
-
-[[add-group-mapping]]
-== Step 3: Add Group Mappings 
-When setting up SSO for the portal, your users must have an identity in both Salesforce and Anypoint. SSO users are mapped to teams using their group names. You must map your users to teams using Access Management. API Experience Hub provides an out-of-the-box team called *AEH Portal - ${salesforceOrganizationId}_${salesforceCommunityId}* and is added automatically as a team in Access Management.
-
-Add group mappings by adding the user to the corresponding profile in API Experience Hub:
-
-. Go to *Access Management* > *Teams*.
-. Click *AEH Portal Guests* and click *AEH Portal Members*.
-//screenshot placeholder
-. Click *External IdP Groups*.
-//screenshot placeholder
-. From the *Group Name* field, enter *AEH Members*.
-. From the *Provider Name* field, select the name of the corresponding Salesforce identity provider.
-. From the *Type* field, select *Member* and click *Add*.
-. Click *Save Changes*.
-+
-The SSO users associated with the group you designated are assigned to the team.
-
-[[test-sso]]
-== Step 4: Test the SSO Configuration
-Verify that the SSO for the portal is configured properly.
-
-. In a browser, open an incognito window.
-. Go to your API Experience Hub portal.
-. Select the SSO option that you configured.
-. Log in with a user that belongs to the group you configured in the identity provider for your portal.
-. Go to *Access Management* and select *Users*. 
-. Search using your username to confirm that the user is mapped to the expected identity provider.
-. Go to the team with the configured group mappings. 
-+
-From the *Members* tab, you should see your user there.
-
-
-
-
-
+* xref:sso-use-case-1.adoc[Use Case 1: Configuring Single Sign-On When No Identity Provider is Already Configured] 
+* Use Case 2: An Identity Provider is Already Configured for Anypoint and Salesforce and Usernames Match
+* Use Case 3: An Identity Provider is Already Configured for Anypoint and Salesforce but Usernames Do Not Match
 
 
 
