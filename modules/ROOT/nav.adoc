@@ -13,7 +13,7 @@
 ** xref:managing-apis.adoc[Managing APIs]
 ** xref:managing-users.adoc[Managing Users]
 ** xref:enabling-sso-for-your-portal.adoc[Enabling Single Sign-On for Your Portal]
-*** xref:sso-use-case1.adoc[Use Case 1: No Identity Provider is Already Configured]
+*** xref:sso-use-case-1.adoc[Use Case 1: Configuring Single Sign_On When No Identity Provider is Already Configured]
 ** xref:viewing-salesforce-account-information.adoc[Viewing Salesforce Account Information]
 ** xref:deactivating-your-portal-site.adoc[Deactivating Your Portal Site]
 ** xref:disconnecting-the-portal.adoc[Disconnecting the Portal]
