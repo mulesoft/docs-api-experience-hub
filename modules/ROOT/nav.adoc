@@ -39,4 +39,5 @@
 //* xref:known-issues.adoc[Known Issues]
 * xref:troubleshooting.adoc[Troubleshooting]
 ** xref:troubleshoot-sso-errors.adoc[Troubleshoot Single Sign-On Errors]
+* xref:enabling-single-sign-on-for-your-portal.adoc[Enabling Single Sign-On for Your Portal]
 
