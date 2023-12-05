@@ -48,6 +48,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 image::aeh-groups-claim-filter.png[Groups Claim Filter Example]
 
 == Configure an Authentication Provider for Salesforce Using OpenID Connect
+
 You set up the auth provider or SSO settings in Salesforce with the identity provider application information.
 
 . From the OpenID Connect application, get these configuration values:
@@ -76,6 +77,7 @@ image::aeh-salesforce-auth-provider.png[Salesforce Auth. Provider example]
 . Click *Save*. 
 
 == Configure the Redirect URIs for the Portal
+
 To configure the redirects, use your 15 digit organization ID and 18 digits org ID and add a URL for each organization ID.
 
 . In the Okta application, select the *General* tab.
