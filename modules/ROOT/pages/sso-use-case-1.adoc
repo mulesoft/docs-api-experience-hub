@@ -31,7 +31,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 
 . In Okta, create an OpenID Connect Web application. For more information, see https://help.okta.com/oie/en-us/content/topics/apps/apps_app_integration_wizard_oidc.htm[Create OIDC app integrations^].
 . From the *General Settings* section, complete the following fields:
-
++
 |===
 |Field|Value
 |*App integration name*|Enter a name for the app.
@@ -44,7 +44,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 .. From *Groups claim type*, select *Filter*. 
 .. From *Groups claim filter*, enter `groups`.
 .. Select *Matches regex for the expression* then enter *.** for wildcard.
- 
++
 image::aeh-groups-claim-filter.png[Groups Claim Filter Example]
 
 == Configure an Authentication Provider for Salesforce Using OpenID Connect
@@ -174,14 +174,16 @@ After the identity provider is configured for Salesforce, add and enable the ide
 == Step 3: Add Group Mappings 
 When setting up SSO for the portal, your users must have an identity in both Salesforce and Anypoint. SSO users are mapped to teams using their group names. You must map your users to teams using Access Management. API Experience Hub provides an out-of-the-box team called *AEH Portal - ${salesforceOrganizationId}_${salesforceCommunityId}* and is added automatically as a team in Access Management.
 
-. Add group mappings by adding the user to the corresponding profile in API Experience Hub:
-.. Go to *Access Management* > *Teams*.
-.. Click *AEH Portal Guests* and click *AEH Portal Members*.
-.. Click *External IdP Groups*.
-.. From the *Group Name* field, enter *AEH Members*.
-.. From the *Provider Name* field, select the name of the corresponding Salesforce identity provider.
-.. From the *Type* field, select *Member* and click *Add*.
-image::aeh-sso-access-mgmt-external-idp-groups.png[Access Management group mapping. ]
+Add group mappings by adding the user to the corresponding profile in API Experience Hub:
+
+. Go to *Access Management* > *Teams*.
+. Click *AEH Portal Guests* and click *AEH Portal Members*.
+. Click *External IdP Groups*.
+. From the *Group Name* field, enter *AEH Members*.
+. From the *Provider Name* field, select the name of the corresponding Salesforce identity provider.
+. From the *Type* field, select *Member* and click *Add*.
++
+image::aeh-sso-access-mgmt-ext-idp-groups.png[Access Management group mapping. ]
 . Click *Save Changes*.
 +
 The SSO users associated with the group you designated are assigned to the team.
