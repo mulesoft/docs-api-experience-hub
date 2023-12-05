@@ -174,16 +174,14 @@ After the identity provider is configured for Salesforce, add and enable the ide
 == Step 3: Add Group Mappings 
 When setting up SSO for the portal, your users must have an identity in both Salesforce and Anypoint. SSO users are mapped to teams using their group names. You must map your users to teams using Access Management. API Experience Hub provides an out-of-the-box team called *AEH Portal - ${salesforceOrganizationId}_${salesforceCommunityId}* and is added automatically as a team in Access Management.
 
-Add group mappings by adding the user to the corresponding profile in API Experience Hub:
-
-. Go to *Access Management* > *Teams*.
-. Click *AEH Portal Guests* and click *AEH Portal Members*.
-//screenshot placeholder
-. Click *External IdP Groups*.
-//screenshot placeholder
-. From the *Group Name* field, enter *AEH Members*.
-. From the *Provider Name* field, select the name of the corresponding Salesforce identity provider.
-. From the *Type* field, select *Member* and click *Add*.
+. Add group mappings by adding the user to the corresponding profile in API Experience Hub:
+.. Go to *Access Management* > *Teams*.
+.. Click *AEH Portal Guests* and click *AEH Portal Members*.
+.. Click *External IdP Groups*.
+.. From the *Group Name* field, enter *AEH Members*.
+.. From the *Provider Name* field, select the name of the corresponding Salesforce identity provider.
+.. From the *Type* field, select *Member* and click *Add*.
+image::aeh-sso-access-mgmt-external-idp-groups.png[Access Management group mapping. ]
 . Click *Save Changes*.
 +
 The SSO users associated with the group you designated are assigned to the team.
