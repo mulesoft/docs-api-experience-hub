@@ -77,19 +77,19 @@ image::aeh-salesforce-auth-provider.png[Salesforce Auth. Provider example]
 
 == Configure the Redirect URIs for the Portal
 To configure the redirects, use your 15 digit organization ID and 18 digits org ID and add a URL for each organization ID.
-In the Okta application, select the *General* tab.
-Add the following URLs for *Sign-in redirect URIs*:    
 
+. In the Okta application, select the *General* tab.
+Add the following URLs for *Sign-in redirect URIs*:    
++
 * https://login.salesforce.com/services/authcallback/${15DigitSalesforceOrganizationId}/${authProviderURLSuffix}
 * https://login.salesforce.com/services/authcallback/${18DigitSalesforceOrganizationId}/${authProviderURLSuffix}
 * https://${domain}.my.site.com/aeh/services/authcallback/${authProviderURLSuffix}
-
++
+image::aeh-sso-redirect-uris.png[Redirect URIs example]
 To get the URLs:
 * For salesforceOrganizationId, go to *Setup > Company Information*.
 * For authProviderURLSuffix, go to *Setup > Auth Providers*, click your auth provider, and select *URL Suffix*.
 * For domain, go to *Setup > My Domain > Current My Domain URL*.
-
-image::aeh-sso-redirect-uris.png[Redirect URIs example]
 ====
 
 === Create and Configure an Application Using Okta SAML
@@ -137,12 +137,18 @@ The example IDs 00gdkat3p5RCvkQQC5d7, and 00gdjgk337kYDxtE35d7 correspond to the
 . Click *Finish*.
 . Select the *Assignments* tab and select *Groups*.
 . Click *Assign* and select *Assign to groups*.
-. From the list, click *Assign* in* the row of the specific group and click *Done.           
-. Select the *Sign On* tab, click *View SAML setup instructions* to see instructions about how to configure SAML for your application. You need the following information from this page to configure the Single Sign-on Settings tab in Salesforce:
+. From the list, click *Assign* in* the row of the specific group and click *Done*.           
+. Select the *Sign On* tab, click *View SAML setup instructions* to see instructions about how to configure SAML for your application. 
++
+image::aeh-sso-view-saml-setup-instructions.png[View SAML setup instructions button ]
+
+You need the following information from this page to configure the Single Sign-on Settings tab in Salesforce:
 +
 * *Identity Provider Single Sign-On URL*
 * *Identity Provider Issuer*
 * *X.509 Certificate (download the certificate)*
++
+image::aeh-sso-saml-setup-instructions-page.png[Instructions for SAML to set up page ]
 . Go to *Salesforce > Setup>* and search for *Single Sign-On Settings*.
 . From the *Single Sign-On Settings* tab, *Federated Single Sign-On Using SAML* section, select *SAML Enabled* and click *Save*.
 . From the *Single Sign-On Settings* tab, click *Edit* and complete the following fields:
