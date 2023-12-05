@@ -141,7 +141,7 @@ The example IDs 00gdkat3p5RCvkQQC5d7, and 00gdjgk337kYDxtE35d7 correspond to the
 . Select the *Sign On* tab, click *View SAML setup instructions* to see instructions about how to configure SAML for your application. 
 +
 image::aeh-sso-view-saml-setup-instructions.png[View SAML setup instructions button ]
-
++
 You need the following information from this page to configure the Single Sign-on Settings tab in Salesforce:
 +
 * *Identity Provider Single Sign-On URL*
@@ -196,7 +196,7 @@ Add group mappings by adding the user to the corresponding profile in API Experi
 . From the *Provider Name* field, select the name of the corresponding Salesforce identity provider.
 . From the *Type* field, select *Member* and click *Add*.
 +
-image::aeh-sso-access-mgmt-ext-idp-groups.png[Access Management group mapping. ]
+image::aeh-sso-access-mgmt-ext-idp-groups.png[Access Management group mapping]
 . Click *Save Changes*.
 +
 The SSO users associated with the group you designated are assigned to the team.
