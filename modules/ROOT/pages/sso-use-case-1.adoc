@@ -117,6 +117,7 @@ In *SAML Settings*, complete the following fields:
 |===
 +
 image::aeh-sso-saml-settings.png[SAML Settings example]
+
 . In the *Attribute Statements (optional)* section, configure SAML integration by adding the following custom attributes:
 +
 [%header,cols="1a,2a,3a"]
@@ -127,6 +128,9 @@ image::aeh-sso-saml-settings.png[SAML Settings example]
 |*email* |*Unspecified* |*user.email*
 |*groups* |*Unspecified* |*(",", getFilteredGroups({"00gdkat3p5RCvkQQC5d7", "00gdjgk337kYDxtE35d7"}, "group.name", 40))*
 |===
++
+image::aeh-sso-saml-attribute-statements.png[SAML Attribute Statements example]
++
 The example IDs 00gdkat3p5RCvkQQC5d7, and 00gdjgk337kYDxtE35d7 correspond to the groups that you want to send. Ensure that you send all Anypoint groups when you are configuring Okta in both Salesforce and Anypoint. Otherwise, the user may lose access.
 . Click *Next*.
 . Select *I’m an Okta customer adding an internal app*.
