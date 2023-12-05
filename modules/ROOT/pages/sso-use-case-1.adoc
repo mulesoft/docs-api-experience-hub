@@ -115,7 +115,8 @@ In *SAML Settings*, complete the following fields:
 |Application username |Okta username
 |Update application username on |Create and update
 |===
-
++
+image::aeh-sso-saml-settings.png[SAML Settings example]
 . In the *Attribute Statements (optional)* section, configure SAML integration by adding the following custom attributes:
 +
 [%header,cols="1a,2a,3a"]
