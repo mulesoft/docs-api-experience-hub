@@ -112,6 +112,7 @@ Before enabling SSO, ensure you have the following permissions and context:
 * Organization Administrator permission or role in the main Anypoint organization.
 * System Administrator role in Salesforce.
 * Experience with identity management and setting up identity providers for SSO.
+* Reviewed Access Management's xref:access-management::external-identity.adoc[Identity Provider] documentation to understand identity management for Anypoint Platform.
 
 [[username-strategy]]
 === Username Assignment Strategy
