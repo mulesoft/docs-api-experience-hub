@@ -46,10 +46,10 @@ The Anypoint Organization Administrator is responsible for mapping the identity 
 +
 Your organization’s security team is responsible for setting up the identity provider with the required user-groups and applications. Your organization’s Security team and the Salesforce System Administrator, who manage the identity provider system in an organization, configure the proper login option in Salesforce. The Security team and the Org Admin in the main organization may want to configure the same identity provider option in Anypoint, if required. The Security team and the Org Admin in the main organization configures the mapping between Salesforce and Anypoint. Access Management provides the functionality of adding group mappings for external identity providers using teams. When the group mappings are properly configured, users who log in to the portal are added automatically to the out-of-the-box profile that they belongs to. The default identity provider is provided to create identities in Anypoint for Salesforce users.
 
-Anypoint and Salesforce can configure an identity provider using OpenID Connect (auth provider) or SAML (Single Sign-on Settings). 
+An identity provider for Anypoint and Salesforce can be configured using OpenID Connect or SAML (Single Sign-on Settings). 
 
-== Out-of-the-Box Solutions
-API Experience Hub provides the following out-of-the-box solutions for enabling SSO:
+== Out-of-the-Box Configurations
+API Experience Hub provides the following out-of-the-box configurations to assist the process of enabling SSO:
 
 * *anypoint_idp_id*
 +*
@@ -67,9 +67,7 @@ This solution creates a team called AEH Portal in Access Management automaticall
 +
 A single Apex class is provided in the API Experience Hub package called AEHPortalRegistrationHandler.cls that is compatible with SAML and OpenID Connect.  
 + 
-The registration handler is a piece of Apex code that runs when a user logs in to the Salesforce Experience Cloud site. When the identity provider is configured properly, Salesforce passes the portal ID to the AEHPortalRegistrationHandler. If the user does not exist, the registration handler creates the user entity in Salesforce. If the user exists, the handler updates the user metadata based on information sent by the identity provider, for example, the user’s first name and last name. The registration handler must be contextualized with the portal ID in Salesforce to load specific configurations by the portal. For example, the user gets created in the profile and account related to the portal from the NetworkSelfRegistration object. 
-+
-You select this handler when configuring an authentication provider for Salesforce. See *Configure an Authentication Provider* for more information about setting this registration handler.
+The registration handler is a piece of Apex code that runs when a user logs in to the Salesforce Experience Cloud site. You select this handler when configuring an authentication provider for Salesforce. When the identity provider is configured properly, Salesforce passes the portal ID to the AEHPortalRegistrationHandler. If the user does not exist, the registration handler creates the user entity in Salesforce. If the user exists, the handler updates the user metadata based on information sent by the identity provider, for example, the user’s first name and last name. The registration handler must be contextualized with the portal ID in Salesforce to load specific configurations by the portal. For example, the user gets created in the profile and account related to the portal from the NetworkSelfRegistration object. 
 
 == Basic Terminology
 
@@ -98,6 +96,7 @@ In OpenID Connect, an identity provider is called an OpenID provider. It authent
 In OpenID Connect and custom authentication protocols, a service provider is called a relying party, though some use the terms interchangeably. It relies on the OpenID provider or identity provider for authentication.
 
 *Security Assertion Markup Language (SAML)* 
+
 SAML is an open standard authentication protocol that you can use to implement SSO in your Salesforce org. SAML allows identity providers and service providers to securely exchange user information, enabling user authentication between services.
 
 *Single Sign-On*
@@ -108,7 +107,7 @@ Single sign-on (SSO) is an authentication method that enables users to access mu
 == Enable SSO for Your Portal
 
 === Before You Begin
-Before enabling SSO, ensure you have the following permissions:
+Before enabling SSO, ensure you have the following permissions and context:
 
 * Organization Administrator permission or role in the main Anypoint organization.
 * System Administrator role in Salesforce.
@@ -116,14 +115,14 @@ Before enabling SSO, ensure you have the following permissions:
 
 [[username-strategy]]
 === Username Assignment Strategy
-If you want to set up an SSO login option for your portal and your Anypoint and Salesforce organizations have identity providers already configured, review the username assignment strategy for your identity providers since they may be different. To have a single identity between Anypoint and Salesforce, the format for the username assignment must be the same. For Anypoint, you can use any character string however, Salesforce has a specific username strategy that uses an email format. If the username strategy does not match, extra attributes within the user profile must be added to the profile editor of the identity provider. Then, this information must be mapped with the Anypoint identity provider that you are using for SSO.
+If you want to set up an SSO login option for your portal and your Anypoint and Salesforce organizations have identity providers already configured, review the username assignment strategy for your identity providers since they may be different. To have a single identity between Anypoint and Salesforce, the format for the username assignment must be the same. For Anypoint, you can use any character string however, Salesforce has a specific username strategy that uses an email format. If the username strategy does not match, custom attributes within the user profile must be added to the profile editor of the identity provider. Then, this information must be mapped with the Anypoint identity provider that you are using for SSO.
 
 
 Consider the following use cases when determining the username assignment for your users.
 
 *Use Case 1* 
 
-You want to configure an identity provider as a login option for your portal. If there is no identity provider configured in Anypoint, you don’t need to map the identity provider for the portal to the identity provider in Anypoint since the default identity provider can be used for the portal. Every Salesforce user will also have an identity in Anypoint.
+You want to configure an identity provider as a login option for your portal. There is no identity provider configured in Anypoint therefore, you don’t need to map the identity provider for the portal to the identity provider in Anypoint since the default identity provider can be used for the portal. Every Salesforce user will also have an identity in Anypoint.
  
 *Use Case 2* 
 
@@ -136,11 +135,11 @@ You want to configure an identity provider as a login option for your portal. An
 === Single Sign-On Use Cases for the Portal
 API Experience Hub supports the following use cases when configuring an identity provider as a login option for the portal: 
 
-* xref:sso-use-case-1.adoc[Use Case 1: Configuring Single Sign-On When No Identity Provider is Already Configured] 
-* Use Case 2: An Identity Provider is Already Configured for Anypoint and Salesforce and Usernames Match
-* Use Case 3: An Identity Provider is Already Configured for Anypoint and Salesforce but Usernames Do Not Match
+* xref:sso-use-case-1.adoc[Use Case 1: Configuring SSO When No Identity Provider is Already Configured] 
+* Use Case 2: Configuring SSO When An Identity Provider is Already Configured for Anypoint and Salesforce and Usernames Match
+* Use Case 3: Configuring SSO When An Identity Provider is Already Configured for Anypoint and Salesforce but Usernames Do Not Match
 
-
+Instructions for configuring each use case varies, especially when adding or reconciling username assignments. 
 
 == See Also
 

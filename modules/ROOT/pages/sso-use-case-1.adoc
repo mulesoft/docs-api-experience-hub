@@ -8,15 +8,15 @@ Use case one includes all of the instructions for setting up an identity provide
 == Step 1: Enable SSO for Your Portal
 To enable SSO, an identity provider is required for Anypoint to create identities in Anypoint for Salesforce users. 
 
-In this step, you create an application in the identity provider for the API Experience Hub portal, enable the ability to send group information in the application configuration, configure groups, and configure the default identity provider. Performing these steps require you to move back and forth between the application and the identity provider application to copy or add information. These steps can vary depending on your use case, especially when adding or reconciling username assignments. 
+In this step, you create an application in the identity provider for the API Experience Hub portal, enable the ability to send group information in the application configuration, configure groups, and configure the default identity provider. Performing these steps require you to move back and forth between applications and the identity provider application to copy or add information. 
 
-NOTE: This use case uses Okta as an identity provider as an example of how to enable SSO, however, you can use any identity provider.
+NOTE: This use case uses Okta as an identity provider as an example of how to enable SSO however, you can use any identity provider.
 
 == Prerequisites
 
-In the identity provider of your choice, create the user or identity the group of the users who have access to the application. 
+In the identity provider of your choice, the users or identities should be created for the group of the users who have access to the application. 
 
-== Create and set up an application using one of the following example methods:
+== Create and Set up An Application Using One of the Following Example Methods:
 
 * Create and Configure an Application Using Okta OpenID Connect
 * Create and Configure an Application Using Okta SAML
@@ -140,7 +140,7 @@ The example IDs 00gdkat3p5RCvkQQC5d7, and 00gdjgk337kYDxtE35d7 correspond to the
 . From the list, click *Assign* in* the row of the specific group and click *Done*.           
 . Select the *Sign On* tab, click *View SAML setup instructions* to see instructions about how to configure SAML for your application. 
 +
-image::aeh-sso-view-saml-setup-instructions.png[View SAML setup instructions button ]
+image::aeh-sso-view-saml-setup-instructions.png[View SAML setup instructions button,10%,10%]
 +
 You need the following information from this page to configure the Single Sign-on Settings tab in Salesforce:
 +
@@ -148,7 +148,7 @@ You need the following information from this page to configure the Single Sign-o
 * *Identity Provider Issuer*
 * *X.509 Certificate (download the certificate)*
 +
-image::aeh-sso-saml-setup-instructions-page.png[Instructions for SAML to set up page ]
+image::aeh-sso-saml-setup-instructions-page.png[Instructions for SAML to set up page]
 . Go to *Salesforce > Setup>* and search for *Single Sign-On Settings*.
 . From the *Single Sign-On Settings* tab, *Federated Single Sign-On Using SAML* section, select *SAML Enabled* and click *Save*.
 . From the *Single Sign-On Settings* tab, click *Edit* and complete the following fields:
@@ -177,15 +177,16 @@ image::aeh-sso-saml-single-sign-on-settings.png[SAML Single Sign-On Settings exa
 == Step 2: Add Salesforce Identity Providers 
 After the identity provider is configured for Salesforce, add and enable the identity provider from the API Experience Hub UI. When the identity provider is enabled, users can log in to the portal using this identity provider.
 
-. Go to *API Experience Hub*.
+. Go to *API Experience Hub > User management*.
 . From the *User management* page, select the *Login settings* tab.
 . From the *Single sign-on (SSO)* section, scroll down to step 2 *Add Salesforce identity providers*.
-. Click *Select identity provider* and select an option from the dropdown menu and click *+ Add identity provider*.
+. Click *Select identity provider* and select an option from the dropdown menu. 
+. Click *+ Add identity provider*.
 . Move the slider to *Enabled*.
 
 [[add-group-mapping]]
 == Step 3: Add Group Mappings 
-When setting up SSO for the portal, your users must have an identity in both Salesforce and Anypoint. SSO users are mapped to teams using their group names. You must map your users to teams using Access Management. API Experience Hub provides an out-of-the-box team called *AEH Portal - ${salesforceOrganizationId}_${salesforceCommunityId}* and is added automatically as a team in Access Management.
+When setting up SSO for the portal, your users must have an identity in both Salesforce and Anypoint. SSO users are mapped to teams using their group names. You must map your users to teams using Access Management. API Experience Hub provides an out-of-the-box team called *AEH Portal - ${salesforceOrganizationId}_${salesforceCommunityId}* that is added automatically as a team in Access Management.
 
 Add group mappings by adding the user to the corresponding profile in API Experience Hub:
 
@@ -205,22 +206,11 @@ The SSO users associated with the group you designated are assigned to the team.
 == Step 4: Test the SSO Configuration
 Verify that the SSO for the portal is configured properly.
 
-. Add a user to your identity provider to test the configuration.
-.. From *Add Person*, enter the following fields:
-+
-* User type 
-* First name
-* Last name
-* Primary email
-* Groups
-.. From *Activation*, select *Activate now*.
-.. Select *I will set password*, and enter the password.
-.. Click *Save*.
-
 . In a browser, open an incognito window.
 . Go to your API Experience Hub portal.
 . Select the SSO option that you configured.
 . Log in with a user that belongs to the group you configured in the identity provider for your portal.
+. Check the visibility of APIs for the user in the portal.
 . Go to *Access Management* and select *Users*. 
 . Search using the username to confirm that the user is mapped to the expected identity provider.
 . Go to the team with the configured group mappings. 
