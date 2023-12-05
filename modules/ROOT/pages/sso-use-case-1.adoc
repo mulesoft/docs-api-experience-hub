@@ -169,6 +169,8 @@ image::aeh-sso-saml-setup-instructions-page.png[Instructions for SAML to set up 
 |SAML JIT Handler |AEHPortalRegistrationHandler
 |Executed Handler As |Select a System Administrator
 |===
++
+image::aeh-sso-saml-single-sign-on-settings.png[SAML Single Sign-On Settings example]
 ====
 
 [[add-identity-provider]]
