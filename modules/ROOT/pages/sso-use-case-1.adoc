@@ -96,21 +96,20 @@ To get the URLs:
 
 [%collapsible]
 ====
-Create and Configure an Application Using Okta SAML
 Create a new application for the API Experience Hub portal in the identity provider using SAML. For more information, see https://help.okta.com/oie/en-us/content/topics/apps/apps_app_integration_wizard_saml.htm[Create SAML app integrations^] in the Okta documentation.
 
 . From Okta, create an SAML application.
 . In *General Settings*, enter a name for your SAML application.
 . Select *Do not display application icon to users*.
 . Click *Next*.
-In *SAML Settings*, complete the following fields:
+. In *SAML Settings*, complete the following fields:
 +
 [%header,cols="1a,2a"]
 |===
 |Field|Value
-|Single Sign-On URL |enter the URL for the portal login.
+|Single Sign-On URL |Enter the URL for the portal login.
 |Use this for Recipient URL and Destination URL|Select this option.
-|Audience URI (SP Entity ID) |enter https with the Salesforce domain or example, https://{salesforcedomain}.com.
+|Audience URI (SP Entity ID) |Enter https with the Salesforce domain or example, https://{salesforcedomain}.com.
 |Name ID format |EmailAddress
 |Application username |Okta username
 |Update application username on |Create and update
@@ -118,7 +117,7 @@ In *SAML Settings*, complete the following fields:
 +
 image::aeh-sso-saml-settings.png[SAML Settings example]
 
-. In the *Attribute Statements (optional)* section, configure SAML integration by adding the following custom attributes:
+. In the *Attribute Statements (optional)* section, configure the SAML integration by adding the following custom attributes:
 +
 [%header,cols="1a,2a,3a"]
 |===
@@ -140,9 +139,8 @@ The example IDs 00gdkat3p5RCvkQQC5d7, and 00gdjgk337kYDxtE35d7 correspond to the
 . From the list, click *Assign* in* the row of the specific group and click *Done*.           
 . Select the *Sign On* tab, click *View SAML setup instructions* to see instructions about how to configure SAML for your application. 
 +
-image::aeh-sso-view-saml-setup-instructions.png[View SAML setup instructions button,10%,10%]
-+
-You need the following information from this page to configure the Single Sign-on Settings tab in Salesforce:
+image::aeh-sso-view-saml-setup-instructions.png[View SAML setup instructions button,15%,15%]
+. Get the following information from the instructions page to configure the *Single Sign-on Settings* tab in Salesforce:
 +
 * *Identity Provider Single Sign-On URL*
 * *Identity Provider Issuer*
@@ -152,18 +150,17 @@ image::aeh-sso-saml-setup-instructions-page.png[Instructions for SAML to set up 
 . Go to *Salesforce > Setup>* and search for *Single Sign-On Settings*.
 . From the *Single Sign-On Settings* tab, *Federated Single Sign-On Using SAML* section, select *SAML Enabled* and click *Save*.
 . From the *Single Sign-On Settings* tab, click *Edit* and complete the following fields:
-
 +
 [%header,cols="1a,2a"]
 |===
 |Field|Value
-|Issuer |Match Identity Provider Issuer from View SAML setup instruction
-|Entity ID|Match Audience Restriction we set in the application
-|Identity Provider Certificate  |Upload the certificate previously downloaded from the View SAML setup instructions
-|SAML Identity Type |Assertion contains the Federation ID from the User object
-|SAML Identity Location |Identity is in the NameIdentified element of the Subject statement
-|Identity Provider Login URL |Match Identity Provider Single Sign-On URL from the View SAML setup instructions
-|Custom Logout URL |Okta URL
+|Issuer |Match Identity Provider Issuer from the View SAML setup instructions.
+|Entity ID|Match Audience Restriction you set in the application.
+|Identity Provider Certificate  |Upload the certificate previously downloaded from the View SAML setup instructions.
+|SAML Identity Type |Assertion contains the Federation ID from the user object.
+|SAML Identity Location |Identity is in the NameIdentified element of the Subject statement.
+|Identity Provider Login URL |Match Identity Provider Single Sign-On URL from the View SAML setup instructions.
+|*Custom Logout URL* |Okta URL
 |User Provisioning |Enabled
 |User Provisioning Type |Custom SAML JIT with Apex Handler
 |SAML JIT Handler |AEHPortalRegistrationHandler
