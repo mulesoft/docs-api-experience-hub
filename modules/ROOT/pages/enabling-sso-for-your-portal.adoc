@@ -118,26 +118,13 @@ Before enabling SSO, ensure you have the following permissions and context:
 === Username Assignment Strategy
 If you want to set up an SSO login option for your portal and your Anypoint and Salesforce organizations have identity providers already configured, review the username assignment strategy for your identity providers since they may be different. To have a single identity between Anypoint and Salesforce, the format for the username assignment must be the same. For Anypoint, you can use any character string however, Salesforce has a specific username strategy that uses an email format. If the username strategy does not match, custom attributes within the user profile must be added to the profile editor of the identity provider. Then, this information must be mapped with the Anypoint identity provider that you are using for SSO.
 
-
-Consider the following use cases when determining the username assignment for your users.
-
-*Use Case 1* 
-
-You want to configure an identity provider as a login option for your portal. There is no identity provider configured in Anypoint therefore, you don’t need to map the identity provider for the portal to the identity provider in Anypoint since the default identity provider can be used for the portal. Every Salesforce user will also have an identity in Anypoint.
- 
-*Use Case 2* 
-
-You want to configure an identity provider as a login option for your portal. An identity provider is already configured in your Salesforce and Anypoint organizations and the usernames in both organizations match in each identity provider. For example, the Salesforce and Anypoint username is *anyuser@salesforce.com*. No extra steps to reconcile the usernames are necessary.
-
-*Use Case 3*
-
-You want to configure an identity provider as a login option for your portal. An identity provider is already configured in your Salesforce and Anypoint organizations and the username used in those organizations do not match. For example, the Salesforce username is *anyuser@salesforce.com* and the Anypoint username is *anyuser*. To have a single user identity, you must reconcile the username format by adding attributes for *anypoint_idp_id* and *anypoint_username*.
+Consider the use case when you want to configure an identity provider as a login option for your portal and an identity provider is already configured in your Salesforce and Anypoint organizations. The usernames used in those organizations do not match for example, the Salesforce username is *anyuser@salesforce.com* and the Anypoint username is *anyuser*. To have a single user identity, you must reconcile the username format by adding attributes for *anypoint_idp_id* and *anypoint_username*.
 
 === Single Sign-On Use Cases for the Portal
 API Experience Hub supports the following use cases when configuring an identity provider as a login option for the portal: 
 
 * xref:sso-use-case-1.adoc[Use Case 1: Configuring SSO When No Identity Provider is Already Configured] 
-* Use Case 2: Configuring SSO When An Identity Provider is Already Configured for Anypoint and Salesforce and Usernames Match
+* Use Case 2: Configuring SSO to Use the Identity Provider That is Already Configured for Anypoint 
 * Use Case 3: Configuring SSO When An Identity Provider is Already Configured for Anypoint and Salesforce but Usernames Do Not Match
 
 Instructions for configuring each use case varies, especially when adding or reconciling username assignments. 
