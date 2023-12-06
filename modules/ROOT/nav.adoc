@@ -12,6 +12,8 @@
 * xref:managing-your-portal.adoc[Managing Your API Portal]
 ** xref:managing-apis.adoc[Managing APIs]
 ** xref:managing-users.adoc[Managing Users]
+** xref:enabling-sso-for-your-portal.adoc[Enabling Single Sign-On for Your Portal]
+*** xref:sso-use-case-1.adoc[Use Case 1: Configuring SSO When No Identity Provider is Already Configured]
 ** xref:viewing-salesforce-account-information.adoc[Viewing Salesforce Account Information]
 ** xref:deactivating-your-portal-site.adoc[Deactivating Your Portal Site]
 ** xref:disconnecting-the-portal.adoc[Disconnecting the Portal]
@@ -36,4 +38,6 @@
 ** xref:simulating-api-calls-using-the-mocking-service.adoc[Simulating API Calls Using the Mocking Service]
 //* xref:known-issues.adoc[Known Issues]
 * xref:troubleshooting.adoc[Troubleshooting]
+** xref:troubleshoot-sso-errors.adoc[Troubleshoot Single Sign-On Errors]
+
 
