@@ -191,7 +191,7 @@ Verify that the SSO for the portal is configured properly.
 . Search using the username to confirm that the user is mapped to the expected identity provider.
 . Go to the team with the configured group mappings. 
 +
-From the *Members* tab, you should see your user there.
+From the *Members* tab, you should see your user.
 
 == See Also
 
