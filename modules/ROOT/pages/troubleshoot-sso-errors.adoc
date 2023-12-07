@@ -57,7 +57,7 @@ To troubleshoot this issue, add the external identity provider group mapping in 
 To troubleshoot this issue, ensure the *Default Scopes* field has the *profile openid email groups* value.
 
 . In *Salesforce*, go to *Setup*.
-. In the *Quick Find box, enter `Auth`, and then select *Auth Providers*.
+. In the *Quick Find* box, enter `Auth`, and then select *Auth Providers*.
 . Click *Edit*.
 . In the *Auth Provider Detail* section, enter `*profile openid email groups*`.
 . Click *Save*.
