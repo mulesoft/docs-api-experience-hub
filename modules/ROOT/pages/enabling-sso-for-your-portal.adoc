@@ -125,6 +125,8 @@ The following use cases are provided to help you configure SSO for the portal:
 * xref:sso-use-case-1.adoc[Use Case 1: Configuring SSO When No Identity Provider is Already Configured] 
 * xref:sso-use-case-2.adoc[Use Case 2: Configuring SSO to Use an Identity Provider That is Already Configured for Anypoint Platform] 
 
+Use case use Okta as an identity provider as an example of how to enable SSO however, you can use any identity provider.
+
 == See Also
 
 * xref:troubleshoot-sso-errors.adoc[Troubleshoot Single Sign-On Errors]
