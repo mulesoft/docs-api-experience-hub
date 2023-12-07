@@ -63,18 +63,15 @@ The custom claim or SAML attribute provides the information that is received fro
 +
 The default identity provider that's created in Anypoint Platform to map all self-registered users. This identity provider is used when the aeh_portal_idp is not set in the identity provider. Self-registered users are mapped with the default identity provider.
 
-* *AEH Portal - ${salesforceOrganizationId}_$*{salesforceCommunityId} 
+* *AEH Portal - ${salesforceOrganizationId}_$*{salesforceCommunityId}* 
 +
-This solution creates a team called AEH Portal in Access Management automatically. This team includes administrators, guests, and members profiles. You select this team when adding the group mapping. For more information, see *Add Group Mappings*.
+This solution creates a team called AEH Portal in Access Management automatically. This team includes administrators, guests, and members profiles. You select this team when adding the group mapping. 
 
 * *AEHPortalRegistrationHandler.cls* 
 +
 A single Apex class is provided in the API Experience Hub package called AEHPortalRegistrationHandler.cls that is compatible with SAML and OpenID Connect.  
 + 
 The registration handler is a piece of Apex code that runs when a user logs in to the Salesforce Experience Cloud site. You select this handler when configuring an authentication provider for Salesforce. When the identity provider is configured properly, Salesforce passes the portal ID to the AEHPortalRegistrationHandler. If the user does not exist, the registration handler creates the user entity in Salesforce. If the user exists, the handler updates the user metadata based on information sent by the identity provider, for example, the user’s first name and last name. The registration handler must be contextualized with the portal ID in Salesforce to load specific configurations by the portal. For example, the user gets created in the profile and account related to the portal from the NetworkSelfRegistration object. 
-
-
-
 
 == Basic Terminology
 
@@ -125,7 +122,7 @@ The following use cases are provided to help you configure SSO for the portal:
 * xref:sso-use-case-1.adoc[Use Case 1: Configuring SSO When No Identity Provider is Already Configured] 
 * xref:sso-use-case-2.adoc[Use Case 2: Configuring SSO to Use an Identity Provider That is Already Configured for Anypoint Platform] 
 
-Use case use Okta as an identity provider as an example of how to enable SSO however, you can use any identity provider.
+The use cases are documented using Okta as an identity provider as an example of how to enable SSO however, you can use any identity provider.
 
 == See Also
 

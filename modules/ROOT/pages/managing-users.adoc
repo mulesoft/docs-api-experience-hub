@@ -7,15 +7,12 @@ View and manage users and access requests from guest users from the *User manage
 
 You can see information about: 
 
-//add screen capture
-
 * Members
 * Pending requests
 * Login settings
 
 == Members
 When the registration of guest users are approved, they are added to the list of members in the Members tab of the User Management page. You can view a searchable list of current members and manage their accounts by enabling or disabling them.
-
 
 The Members tab shows the following information:
 
@@ -70,14 +67,34 @@ The Login settings tab lets you disable or enable self-registration for external
 === Disable or Enable Self-Registration
 By default, the ability for external users to self-register is enabled. This allows guest users to register, become a member, and access your portal site. Administrators can disable self-registration.
 
-NOTE: * Self-registration is for new users only. Existing users cannot self-register.
+NOTE: Self-registration is for new users only. 
+Existing users cannot self-register. They must use an identity provider to access the portal.
 
 To disable external user registration, from the *Login settings* tab of the *User Management* page, turn off the *Allow external user registration* option. 
 
 To enable external registration again, turn on the *Allow external user registration* option.
 
 === Single Sign-On (SSO)
-The *Single sign-on (SSO)* section provides  information about how to set up your portal with SSO. For detailed instructions, see xref:enabling-sso-for-your-portal.adoc[Enabling Single Sign-On for Your Portal]
+The *Single sign-on (SSO)* section provides  information about how to set up your portal with SSO. For detailed instructions about configuring SSO, see xref:enabling-sso-for-your-portal.adoc[Enabling Single Sign-On for Your Portal]
+
+====  Manage Salesforce Identity Providers
+When enabling SSO, you can add new Salesforce identity providers and delete the providers that you previously configured, and enable and disable them as needed. When the identity provider is enabled, users can log in to the portal using this identity provider.
+
+To add a new identity provider or delete an existing one:
+
+. From the *User management* page, select the *Login settings* tab.
+. From the *Single sign-on (SSO)* section, scroll down to the *Add Salesforce identity providers* section.
+. Click *Select identity provider* and select an option from the dropdown menu. 
+. Click *+ Add identity provider*.
++
+The identity provider is added to the list.
+. If you want to delete the identity provider, click *Delete*.
+
+To enable or disable an identity provider: 
+
+. From the *Single sign-on (SSO)* section, scroll down to the *Add Salesforce identity providers* section.
+. Move the slider to *Enabled* next to the name of the identity provider.
+. If you want to disable the identity provider, move the slider to *Disable*.
 
 == Next Steps
 You can further customize and brand your portal using the xref:customizing-your-portal.adoc[Experience Builder] by clicking *Preview and publish your portal*.
