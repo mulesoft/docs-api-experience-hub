@@ -1,15 +1,15 @@
-= Use Case 2: Configuring SSO to Use the Identity Provider That is Already Configured for Anypoint 
+= Use Case 2: Configuring SSO to Use the Identity Provider That is Already Configured for Anypoint Platform
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Use case two includes instructions for configuring SSO for the portal using an identity provider already configured for Anypoint. This use case also provides instructions for reconciling the username format strategy when the usernames for the portal and Anypoint Platform do not match. 
-//The usernames in both organizations match in each identity provider. For example, the Salesforce and Anypoint username is anyuser@salesforce.com. No extra steps to reconcile the usernames are necessary.
+Use case two includes instructions for configuring SSO for the portal using an identity provider already configured for Anypoint Platform. This use case also provides instructions for reconciling the xref:enabling-sso-for-your-portal.adoc#username-strategy[username assignment strategy] when the usernames for the portal and Anypoint Platform do not match. 
+//The usernames in both organizations match in each identity provider. For example, the Salesforce and Anypoint Platform username is anyuser@salesforce.com. No extra steps to reconcile the usernames are necessary.
 
 == Before You Begin
 Ensure you have the following setup:
 
-* An identity provider for Anypoint is already configured.
+* An identity provider for Anypoint Platform is already configured.
 * The user or the identity of the group of the users who have access to the application have been created in the identity provider. 
 
 == Step 1: Enable SSO for Your Portal
@@ -96,12 +96,12 @@ To get the URLs:
 * For authProviderURLSuffix, go to *Setup > Auth Providers*, click your auth provider, and select *URL Suffix*.
 * For domain, go to *Setup > My Domain > Current My Domain URL*.
 
-== Map the Application to the Identity Provider for Anypoint 
+== Map the Application to the Identity Provider for Anypoint Platform
 You must map the identity provider ID with the anypoint_idp_id by adding and configuring a new custom attribute called anypoint_idp_id.  
 
-In the case that usernames for the portal and Anypoint Platform don't match, add another custom attribute called anypoint_username to force an update for existing identity provider users to match the identity in the portal to the users in Anypoint.
+In the case that usernames for the portal and Anypoint Platform don't match, add another custom attribute called anypoint_username to force an update for existing identity provider users to match the identity in the portal to the users in Anypoint Platform.
 
-To map anypoint_idp_id to with the Anypoint identity provider ID:
+To map anypoint_idp_id to with the Anypoint Platform identity provider ID:
 
 . In the Okta application, go to *Directory > Profile Editor*.
 . Select the portal application that you just configured.
@@ -131,7 +131,7 @@ If the user already exists and logs in to the portal before the anypoint_idp_id 
 
 If the user already exists in Salesforce and uses SSO to log in to the portal, the API Experience Hub Member User permission set is assigned to that user if no permission set is assigned.
  
-To reconcile the usernames assignment for a single identity in the portal and Anypoint:
+To reconcile the usernames assignment for a single identity in the portal and Anypoint Platform:
 
 . In the Okta application, go to *Directory > Profile Editor*.
 . Select the portal application that you just configured.
@@ -161,7 +161,7 @@ Enable the Salesforce identity provider from the API Experience Hub UI. When the
 
 == Step 3: Add Group Mappings 
 //reused content from partial (ran out of time will do post GA)
-When setting up SSO for the portal, your users must have an identity in both Salesforce and Anypoint. SSO users are mapped to teams using their group names. You must map your users to teams using Access Management. API Experience Hub provides an out-of-the-box team called *AEH Portal - ${salesforceOrganizationId}_${salesforceCommunityId}* that is added automatically as a team in Access Management.
+When setting up SSO for the portal, your users must have an identity in both Salesforce and Anypoint Platform. SSO users are mapped to teams using their group names. You must map your users to teams using Access Management. API Experience Hub provides an out-of-the-box team called *AEH Portal - ${salesforceOrganizationId}_${salesforceCommunityId}* that is added automatically as a team in Access Management.
 
 Add group mappings by adding the user to the corresponding profile in API Experience Hub:
 
