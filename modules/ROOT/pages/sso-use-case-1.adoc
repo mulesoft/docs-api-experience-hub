@@ -12,7 +12,7 @@ In this step, you create an application in the identity provider for the API Exp
 
 NOTE: This use case uses Okta as an identity provider as an example of how to enable SSO however, you can use any identity provider.
 
-== Prerequisites
+== Before You Begin
 
 In the identity provider of your choice, the users or identities should be created for the group of the users who have access to the application. 
 
@@ -59,16 +59,22 @@ You set up the auth provider or SSO settings in Salesforce with the identity pro
 * *Token Endpoint URL*
 * *User Info Endpoint URL*
 
-. Follow the instructions in https://help.salesforce.com/s/articleView?id=sf.sso_provider_openid_connect.htm&type=5[Configure an Authentication Provider Using OpenID Connect^] from the Salesforce documentation using the identity provider configuration for OpenID Connect and complete the following fields from the *Define an Authentication Provider in Salesforce* section:
+. In *Salesforce*, go to *Setup*.
+. In the *Quick Find box, enter `Auth`, and then select *Auth. Providers*.
+. Click *New*.
+. In the Provider Type field, select *OpenID Connect*.
+. Complete the following fields:
 +
 [%header,cols="1a,2a"]
 |===
 |Field|Value
+|*Provider Type*|*OpenID Connect* 
+|*Name*| Enter a name for the provider.
 |*Consumer Key* |Enter the client ID from the identity provider.
-|*Consumer Secret*   |Enter the client secret from the identity provider
-|*Authorize Endpoint URL*   | Enter `https://{domainofOktaorg}.okta.com/oauth2/v1/authorize*`.
-|*Token Endpoint URL*   |Enter `https://{domainofOktaorg}.okta.com/oauth2/v1/token`.
-|*User Info Endpoint URL*  |Enter `https://{domainofOktaorg}.okta.com/oauth2/v1/userinfo``.
+|*Consumer Secret*|Enter the client secret from the identity provider.
+|*Authorize Endpoint URL*| Enter `https://{domainofOktaorg}.okta.com/oauth2/v1/authorize*`.
+|*Token Endpoint URL* |Enter `https://{domainofOktaorg}.okta.com/oauth2/v1/token`.
+|*User Info Endpoint URL*|Enter `https://{domainofOktaorg}.okta.com/oauth2/v1/userinfo``.
 |*Default Scopes*  |*profile openid email groups* 
 |*Registration handler*  |*AEHPortalRegistrationHandler* 
 |*Execute Registration As*  |Select an administrator user. 
@@ -88,7 +94,7 @@ Add the following URLs for *Sign-in redirect URIs*:
 * https://${domain}.my.site.com/aeh/services/authcallback/${authProviderURLSuffix}
 +
 image::aeh-sso-redirect-uris.png[Redirect URIs example]
-To get the URLs:
+To find the URLs:
 * For salesforceOrganizationId, go to *Setup > Company Information*.
 * For authProviderURLSuffix, go to *Setup > Auth Providers*, click your auth provider, and select *URL Suffix*.
 * For domain, go to *Setup > My Domain > Current My Domain URL*.

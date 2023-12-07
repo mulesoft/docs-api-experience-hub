@@ -13,11 +13,11 @@ Setting up SSO for your portal includes the following high-level steps. These st
 
 * Step 1: Enable SSO for Your Portal
 +
-In this step, you create and set up an application in the identity provider. 
+In this step, you create and configure an application in the identity provider. 
 
 * Step 2: Add Salesforce Identity Providers 
 +
-In this step, you add the Salesforce identity provider from API Experience Hub UI using the Login settings tab on the User Management page. From the Login settings tab, you enable SSO for the identity provider. Once the identity provider is enabled, users can see the login option from the portal’s login page.
+In this step, you add and enable the Salesforce identity provider from API Experience Hub UI. Once the identity provider is enabled, users can see the login option from the portal’s login page.
 
 * Step 3: Add Group Mappings
 +
@@ -28,6 +28,10 @@ In this step, you map the groups created in the Salesforce identity provider tha
 In this step, you test the SSO configuration that you just set up for the portal.
 
 image::aeh-sso-flow2.png[Enabling SSO flowchart] 
+
+[[username-strategy]]
+== Username Assignment Strategy
+When setting up an SSO login option for your portal and an identity provider is already configured for your Anypoint organization, the username assignment strategy should be reviewed by the security team since it may be different for the portal and Anypoint users. To have a single identity between the portal and Anypoint, the format for the username assignment must be the same. If the username strategy does not match, the username format must be reconciled by adding attributes for *anypoint_idp_id* and *anypoint_username*. Then, this information must be mapped with the Anypoint identity provider that you are using for SSO. These custom attributes are added using the identity provider's profile editor. For more information, see xref:sso-use-case-2.adoc[Use Case 2: Configuring SSO to Use the Identity Provider That is Already Configured for Anypoint].
 
 == User Roles
 Setting up an identity provider for API Experience Hub includes multiple personas that perform different user actions. 
@@ -52,7 +56,7 @@ An identity provider for Anypoint and Salesforce can be configured using OpenID 
 API Experience Hub provides the following out-of-the-box configurations to assist the process of enabling SSO:
 
 * *anypoint_idp_id*
-+*
++
 The custom claim or SAML attribute provides the information that is received from the identity provider that determines which Anypoint identity provider a user should be mapped to.
 
 * *AEH Users - ${salesforceOrganizationId}*
@@ -68,6 +72,9 @@ This solution creates a team called AEH Portal in Access Management automaticall
 A single Apex class is provided in the API Experience Hub package called AEHPortalRegistrationHandler.cls that is compatible with SAML and OpenID Connect.  
 + 
 The registration handler is a piece of Apex code that runs when a user logs in to the Salesforce Experience Cloud site. You select this handler when configuring an authentication provider for Salesforce. When the identity provider is configured properly, Salesforce passes the portal ID to the AEHPortalRegistrationHandler. If the user does not exist, the registration handler creates the user entity in Salesforce. If the user exists, the handler updates the user metadata based on information sent by the identity provider, for example, the user’s first name and last name. The registration handler must be contextualized with the portal ID in Salesforce to load specific configurations by the portal. For example, the user gets created in the profile and account related to the portal from the NetworkSelfRegistration object. 
+
+
+
 
 == Basic Terminology
 
@@ -103,10 +110,8 @@ SAML is an open standard authentication protocol that you can use to implement S
 
 Single sign-on (SSO) is an authentication method that enables users to access multiple applications with one login and one set of credentials. For example, after users log in to your org, they can automatically access all apps from the App Launcher. You can set up your Salesforce  or Anypoint org to trust a third-party identity provider to authenticate users. Or you can configure a third-party app to rely on your org for authentication.
 
-[[enable-sso]]
-== Enable SSO for Your Portal
 
-=== Before You Begin
+== Before You Begin
 Before enabling SSO, ensure you have the following permissions and context:
 
 * Organization Administrator permission or role in the main Anypoint organization.
@@ -114,20 +119,11 @@ Before enabling SSO, ensure you have the following permissions and context:
 * Experience with identity management and setting up identity providers for SSO.
 * Review Access Management's xref:access-management::external-identity.adoc[Identity Provider] documentation to understand identity management for Anypoint Platform.
 
-[[username-strategy]]
-=== Username Assignment Strategy
-If you want to set up an SSO login option for your portal and your Anypoint and Salesforce organizations have identity providers already configured, review the username assignment strategy for your identity providers since they may be different. To have a single identity between Anypoint and Salesforce, the format for the username assignment must be the same. For Anypoint, you can use any character string however, Salesforce has a specific username strategy that uses an email format. If the username strategy does not match, custom attributes within the user profile must be added to the profile editor of the identity provider. Then, this information must be mapped with the Anypoint identity provider that you are using for SSO.
-
-Consider the use case when you want to configure an identity provider as a login option for your portal and an identity provider is already configured in your Salesforce and Anypoint organizations. The usernames used in those organizations do not match for example, the Salesforce username is *anyuser@salesforce.com* and the Anypoint username is *anyuser*. To have a single user identity, you must reconcile the username format by adding attributes for *anypoint_idp_id* and *anypoint_username*.
-
 === Single Sign-On Use Cases for the Portal
-API Experience Hub supports the following use cases when configuring an identity provider as a login option for the portal: 
+The following use cases are provided to help you configure SSO for the portal: 
 
 * xref:sso-use-case-1.adoc[Use Case 1: Configuring SSO When No Identity Provider is Already Configured] 
-* Use Case 2: Configuring SSO to Use the Identity Provider That is Already Configured for Anypoint 
-* Use Case 3: Configuring SSO When An Identity Provider is Already Configured for Anypoint and Salesforce but Usernames Do Not Match
-
-Instructions for configuring each use case varies, especially when adding or reconciling username assignments. 
+* xref:sso-use-case-2.adoc[Use Case 2: Configuring SSO to Use an Identity Provider That is Already Configured for Anypoint] 
 
 == See Also
 
