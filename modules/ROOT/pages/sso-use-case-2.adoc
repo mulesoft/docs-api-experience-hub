@@ -7,7 +7,7 @@ Use case two includes instructions for configuring SSO for the portal using an i
 //The usernames in both organizations match in each identity provider. For example, the Salesforce and Anypoint username is anyuser@salesforce.com. No extra steps to reconcile the usernames are necessary.
 
 == Before You Begin
-Ensure you have the following:
+Ensure you have the following setup:
 
 * An identity provider for Anypoint is already configured.
 * The user or the identity of the group of the users who have access to the application have been created in the identity provider. 
@@ -80,7 +80,7 @@ image::aeh-salesforce-auth-provider.png[Salesforce Auth. Provider example]
 . Click *Save*. 
 
 == Configure the Redirect URIs for the Portal
-//@bhavani @nico do we need to do this step for this case?
+
 To configure the redirects, use your 15 digit organization ID and 18 digits org ID and add a URL for each organization ID.
 
 . In the Okta application, select the *General* tab.
@@ -101,6 +101,8 @@ You must map the identity provider ID with the anypoint_idp_id by adding and con
 
 In the case that usernames for the portal and Anypoint Platform don't match, add another custom attribute called anypoint_username to force an update for existing identity provider users to match the identity in the portal to the users in Anypoint.
 
+To map anypoint_idp_id to with the Anypoint identity provider ID:
+
 . In the Okta application, go to *Directory > Profile Editor*.
 . Select the portal application that you just configured.
 . Click *Add Attributes* to create a new attribute called *anypoint_idp_id*.
@@ -120,21 +122,42 @@ image::aeh-sso-32-digit-id.png[32 digit located in the browser URL example]
 
 . Go to *Okta > Directory > Profile Editor* and click *Mappings*
 . Paste the ID into the empty field for the new anypoint_idp_id attribute. The ID must be in quotes.
-+ image::aeh-sso-mappings.png[Example of mapped anypoint_idp_id attribute]
+. From the yellow arrow drop-down menu, select *Apply mapping on user create and update*.
++ image::aeh-sso-mapped-anypoint-idp-id-attribute.png[Example of mapped anypoint_idp_id attribute]
 . Click *Save Mappings*.
 . Apply the mappings to all users in the profile.
 
 If the user already exists and logs in to the portal before the anypoint_idp_id is set, the default identity provider AEH Users - ${salesforceOrganizationId} is used. To prevent the user from being duplicated, the user is not added to the new identity provider specified in the anypoint_idp_id field.
 
 If the user already exists in Salesforce and uses SSO to log in to the portal, the API Experience Hub Member User permission set is assigned to that user if no permission set is assigned.
+ 
+To reconcile the usernames assignment for a single identity in the portal and Anypoint:
+
+. In the Okta application, go to *Directory > Profile Editor*.
+. Select the portal application that you just configured.
+. Click *Add Attributes* to create a new attribute called *anypoint_username*.
+. Complete the following fields:
++
+[%header,cols="1a,2a"]
+|===
+|Field|Value
+|*Display name*|*anypoint_username*
+|*Value name*|*anypoint_username*
+|===
+. Save your changes.
+. Click *Mappings*.
+. In the empty field of the new *anypoint_username* attribute, enter `String.substringBefore(user.login, "@")`. Since Okta usernames are email-based, this expression removes the email domain.
+. From the yellow arrow drop-down menu, select *Apply mapping on user create and update*.
++ image::aeh-sso-mapped-anypoint-username-attribute.png[Example of mapped anypoint_username attribute]
+. Click *Save Mappings*.
 
 == Step 2: Add Salesforce Identity Providers 
 Enable the Salesforce identity provider from the API Experience Hub UI. When the identity provider is enabled, users can log in to the portal using this identity provider.
 
 . Go to *API Experience Hub > User management*.
 . From the *User management* page, select the *Login settings* tab.
-. From the *Single sign-on (SSO)* section, scroll down to step 2 *Add Salesforce identity providers*.
-. From the list of Move the slider to *Enabled*.
+. From the *Single sign-on (SSO)* section, scroll down to *Add Salesforce identity providers* section.
+. Move the slider to *Enabled* for the Salesforce identity provider you configured in Okta.
 
 == Step 3: Add Group Mappings 
 //reused content from partial (ran out of time will do post GA)

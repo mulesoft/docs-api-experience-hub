@@ -119,7 +119,7 @@ Before enabling SSO, ensure you have the following permissions and context:
 * Experience with identity management and setting up identity providers for SSO.
 * Review Access Management's xref:access-management::external-identity.adoc[Identity Provider] documentation to understand identity management for Anypoint Platform.
 
-=== Single Sign-On Use Cases for the Portal
+== Single Sign-On Use Cases for the Portal
 The following use cases are provided to help you configure SSO for the portal: 
 
 * xref:sso-use-case-1.adoc[Use Case 1: Configuring SSO When No Identity Provider is Already Configured] 
