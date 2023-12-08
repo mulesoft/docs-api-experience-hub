@@ -16,10 +16,10 @@ To troubleshoot this issue, ensure all of the necessary redirect URIs are includ
 * https://${domain}.my.salesforce.com/services/authcallback/${authProviderURLSuffix}
 * https://${domain}.my.site.com/aeh/services/authcallback/${authProviderURLSuffix}
 
-To get the redirect URIs:
-salesforceOrganizationId: In Salesforce, go to Setup > Company Information.
-authProviderURLSuffix: In Salesforce, go to Setup > Auth Providers > and select your auth provider URL Suffix.
-domain: In Salesforce, go to Setup > My Domain > Current My Domain URL.
+To get the following redirect URIs:
+* salesforceOrganizationId: In Salesforce, go to *Setup > Company Information*.
+* authProviderURLSuffix: In Salesforce, go to *Setup > Auth Providers* and select your auth provider URL Suffix.
+* domain: In Salesforce, go to *Setup > My Domain > Current My Domain URL*.
 
 == Insufficient Privileges
 
@@ -27,9 +27,9 @@ An insufficient privileges error occurs after logging in to the portal using SSO
 
 To troubleshoot this issue, publish the portal from the Builder.
 
-. Navigate to Anypoint Platform, enter your username and password, and  click *Sign in*.
-. From Anypoint Platform, select API Experience Hub from the list of products. 
-Go to From the *Manage your API portal* page, click *Preview and publish your portal.
+. Navigate to *Anypoint Platform*, enter your username and password, and  click *Sign in*.
+. From Anypoint Platform, select *API Experience Hub* from the list of products. 
+. Go to From the *Manage your API portal* page, click *Preview and publish your portal.
 . Click *Publish*. 
 
 == API Carousel Not Loading
@@ -64,7 +64,7 @@ To troubleshoot this issue, ensure the *Default Scopes* field has the *profile o
 
 == Cannot Log In
 
-When trying to log in to the portal with an identity provider, you see a Problem Logging In error that the third-party identifier cannot be be found. A URL that is not configured properly can cause issues logging in.
+When trying to log in to the portal with an identity provider, you see a *Problem Logging In* error that the third-party identifier cannot be be found. An incorrect portal URL can cause issues logging in.
 
 To troubleshoot this issue, ensure that the URL is not properly configured. For Okta, the `/userinfo` part of the URL path should be lowercase.
 
