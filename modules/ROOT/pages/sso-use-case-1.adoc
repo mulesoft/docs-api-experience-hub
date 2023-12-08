@@ -79,7 +79,7 @@ You set up the auth provider or SSO settings in Salesforce with the identity pro
 image::aeh-salesforce-auth-provider.png[Salesforce Auth. Provider example]
 . Click *Save*. 
 
-== Configure the Redirect URIs for the Portal
+=== Configure the Redirect URIs for the Portal
 
 To configure the redirects, use your 15 digit organization ID and 18 digits org ID and add a URL for each organization ID.
 
