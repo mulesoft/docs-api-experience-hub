@@ -16,10 +16,11 @@ To troubleshoot this issue, ensure all of the necessary redirect URIs are includ
 * https://${domain}.my.salesforce.com/services/authcallback/${authProviderURLSuffix}
 * https://${domain}.my.site.com/aeh/services/authcallback/${authProviderURLSuffix}
 
-To get the redirect URIs:
-salesforceOrganizationId: In Salesforce, go to Setup > Company Information.
-authProviderURLSuffix: In Salesforce, go to Setup > Auth Providers > and select your auth provider URL Suffix.
-domain: In Salesforce, go to Setup > My Domain > Current My Domain URL.
+To get the following redirect URIs:
+
+* salesforceOrganizationId: In Salesforce, go to *Setup > Company Information*.
+* authProviderURLSuffix: In Salesforce, go to *Setup > Auth Providers* and select your auth provider URL Suffix.
+* domain: In Salesforce, go to *Setup > My Domain > Current My Domain URL*.
 
 == Insufficient Privileges
 
@@ -27,14 +28,21 @@ An insufficient privileges error occurs after logging in to the portal using SSO
 
 To troubleshoot this issue, publish the portal from the Builder.
 
-. Navigate to Anypoint Platform, enter your username and password, and  click *Sign in*.
-. From Anypoint Platform, select API Experience Hub from the list of products. 
-Go to From the *Manage your API portal* page, click *Preview and publish your portal.
+. Navigate to *Anypoint Platform*, enter your username and password, and  click *Sign in*.
+. From Anypoint Platform, select *API Experience Hub* from the list of products. 
+. Go to From the *Manage your API portal* page, click *Preview and publish your portal.
 . Click *Publish*. 
 
 == API Carousel Not Loading
 
 After logging in to the portal successfully, you cannot see the APIs in the API Carousel.
+
+There can be a a few issues that can cause this error to occur:
+
+* The external identity provider group mapping is missing from Access Management.
+* The *Auth provider Default Scopes* field is not configured properly.
+
+=== External Identity Provider Group Mapping is Missing or Misconfigured
 
 To troubleshoot this issue, add the external identity provider group mapping in Access Management for the portal member user:
 
@@ -44,5 +52,21 @@ To troubleshoot this issue, add the external identity provider group mapping in 
 . From *Group Name*, enter *AEH Members*.
 . From *Provider Name*, select the name of the corresponding Salesforce identity provider.
 . From *Type*, select *Member* and click *Add*.
+
+== Auth provider Default Scopes field is not configure properly
+
+To troubleshoot this issue, ensure the *Default Scopes* field has the *profile openid email groups* value.
+
+. In *Salesforce*, go to *Setup*.
+. In the *Quick Find* box, enter `Auth`, and then select *Auth Providers*.
+. Click *Edit*.
+. In the *Auth Provider Detail* section, enter `*profile openid email groups*`.
+. Click *Save*.
+
+== Cannot Log In
+
+When trying to log in to the portal with an identity provider, you see a *Problem Logging In* error that the third-party identifier cannot be be found. An incorrect portal URL can cause issues logging in.
+
+To troubleshoot this issue, ensure that the URL is not properly configured. For Okta, the `/userinfo` part of the URL path should be lowercase.
 
 
