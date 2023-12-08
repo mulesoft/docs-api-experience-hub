@@ -14,6 +14,7 @@
 ** xref:managing-users.adoc[Managing Users]
 ** xref:enabling-sso-for-your-portal.adoc[Enabling Single Sign-On for Your Portal]
 *** xref:sso-use-case-1.adoc[Use Case 1: Configuring SSO When No Identity Provider is Already Configured]
+*** xref:sso-use-case-2.adoc[Use Case 2: Configuring SSO to Use the Identity Provider That is Already Configured for Anypoint Platform]
 ** xref:viewing-salesforce-account-information.adoc[Viewing Salesforce Account Information]
 ** xref:deactivating-your-portal-site.adoc[Deactivating Your Portal Site]
 ** xref:disconnecting-the-portal.adoc[Disconnecting the Portal]
