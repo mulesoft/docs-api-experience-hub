@@ -51,7 +51,7 @@ Information that is helpful for you to know but is not blocking you from using t
 
 
 == Before You Begin
-Before managing your portal, you need to have APIs in Exchange to add them to your portal.
+Before managing your portal, you must to have APIs in Exchange to add them to your portal.
 
 
 

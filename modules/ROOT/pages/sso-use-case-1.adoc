@@ -3,10 +3,10 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Use case one includes all of the instructions for setting up an identity provider for your portal when no other identity provider is not configured in Anypoint Platform. You want to configure an identity provider as a login option for your portal. Since there is no identity provider configured in Anypoint Platform, you don’t need to map the identity provider for the portal to the identity provider in Anypoint Platform since the default identity provider can be used for the portal. This enables every Salesforce user to have an identity in Anypoint.
+Use case one includes all of the instructions for setting up an identity provider for your portal when no other identity provider is not configured in Anypoint Platform. You want to configure an identity provider as a login option for your portal. Since there is no identity provider configured in Anypoint Platform, the default identity provider is used to map the identity provider for the portal to the identity provider in Anypoint Platform. This enables every Salesforce user to have an identity in Anypoint.
 
 == Before You Begin
-In the identity provider of your choice, the users or identities should be created for the group of the users who have access to the application. 
+In the identity provider of your choice, the users or identities must be created for the group of the users who have access to the application. 
 
 == Step 1: Enable SSO for Your Portal
 To enable SSO, an identity provider is required for Anypoint Platform to create identities in Anypoint Platform for Salesforce users. 
@@ -34,9 +34,9 @@ Create a new application for the API Experience Hub portal in the identity provi
 |*App integration name*|Enter a name for the app.
 |*Grant type* |Select *Authorization Code*.
 |*Assignments* |Select *Limit access to selected groups*.
-|*Selected group(s)*|Enter the name of the group who should have access to the application.
+|*Selected group(s)*|Enter the name of the group who must have access to the application.
 |===
-. Configure a custom groups claim filter that the application will send.
+. Configure a custom groups claim filter that the application sends.
 .. From the *Sign On* tab, click *Edit** from the OpenID Connect ID Token* section.
 .. From *Groups claim type*, select *Filter*. 
 .. From *Groups claim filter*, enter `groups`.
@@ -135,7 +135,7 @@ image::aeh-sso-saml-settings.png[SAML Settings example]
 +
 image::aeh-sso-saml-attribute-statements.png[SAML Attribute Statements example]
 +
-The example IDs 00gdkat3p5RCvkQQC5d7, and 00gdjgk337kYDxtE35d7 correspond to the groups that you want to send. Ensure that you send all Anypoint Platform groups when you are configuring Okta in both Salesforce and Anypoint Platform. Otherwise, the user may lose access.
+The example IDs 00gdkat3p5RCvkQQC5d7, and 00gdjgk337kYDxtE35d7 correspond to the groups that you want to send. Ensure that you send all Anypoint Platform groups when you are configuring Okta in both Salesforce and Anypoint Platform. Otherwise, the user can lose access.
 . Click *Next*.
 . Select *I’m an Okta customer adding an internal app*.
 . Click *Finish*.
@@ -220,7 +220,7 @@ Verify that the SSO for the portal is configured properly.
 . Search using the username to confirm that the user is mapped to the expected identity provider.
 . Go to the team with the configured group mappings. 
 +
-From the *Members* tab, you should see your user there.
+From the *Members* tab, ensure that you can see your user there.
 
 == See Also
 

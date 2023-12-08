@@ -39,7 +39,7 @@ After logging in to the portal successfully, you cannot see the APIs in the API 
 There can be a a few issues that can cause this error to occur:
 
 * The external identity provider group mapping is missing from Access Management.
-* The *Auth provider Default Scopes* field is not configure properly.
+* The *Auth provider Default Scopes* field is not configured properly.
 
 === External Identity Provider Group Mapping is Missing or Misconfigured
 

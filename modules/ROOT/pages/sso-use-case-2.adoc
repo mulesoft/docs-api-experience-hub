@@ -34,9 +34,9 @@ Create a new application for the API Experience Hub portal in the identity provi
 |*App integration name*|Enter a name for the app.
 |*Grant type* |Select *Authorization Code*.
 |*Assignments* |Select *Limit access to selected groups*.
-|*Selected group(s)*|Enter the name of the group who should have access to the application for API Experience Hub and Anypoint Platform.
+|*Selected group(s)*|Enter the name of the group who must have access to the application for API Experience Hub and Anypoint Platform.
 |===
-. Configure a custom groups claim filter that the application will send.
+. Configure a custom groups claim filter that the application sends.
 .. From the *Sign On* tab, click *Edit** from the OpenID Connect ID Token* section.
 .. From *Groups claim type*, select *Filter*. 
 .. From *Groups claim filter*, enter `groups`.
@@ -129,7 +129,7 @@ image::aeh-sso-32-digit-id.png[32 digit located in the browser URL example]
 
 If the user already exists and logs in to the portal before the anypoint_idp_id is set, the default identity provider AEH Users - ${salesforceOrganizationId} is used. To prevent the user from being duplicated, the user is not added to the new identity provider specified in the anypoint_idp_id field.
 
-If the user already exists in Salesforce and uses SSO to log in to the portal, the API Experience Hub Member User permission set is assigned to that user if no permission set is assigned.
+If the user already exists in Salesforce and uses SSO to log in to the portal, the API Experience Hub Member User permission set is assigned to that user (if no permission set is already assigned).
  
 To reconcile the usernames assignment for a single identity in the portal and Anypoint Platform:
 
@@ -160,7 +160,7 @@ Enable the Salesforce identity provider from the API Experience Hub UI. When the
 . Move the slider to *Enabled* for the Salesforce identity provider you configured in Okta.
 
 == Step 3: Add Group Mappings 
-//reused content from partial (ran out of time will do post GA)
+//reused content from partial (ran out of time and will do post GA)
 When setting up SSO for the portal, your users must have an identity in both Salesforce and Anypoint Platform. SSO users are mapped to teams using their group names. You must map your users to teams using Access Management. API Experience Hub provides an out-of-the-box team called *AEH Portal - ${salesforceOrganizationId}_${salesforceCommunityId}* that is added automatically as a team in Access Management.
 
 Add group mappings by adding the user to the corresponding profile in API Experience Hub:
@@ -191,7 +191,7 @@ Verify that the SSO for the portal is configured properly.
 . Search using the username to confirm that the user is mapped to the expected identity provider.
 . Go to the team with the configured group mappings. 
 +
-From the *Members* tab, you should see your user.
+From the *Members* tab, Ensure that you can see your user.
 
 == See Also
 
