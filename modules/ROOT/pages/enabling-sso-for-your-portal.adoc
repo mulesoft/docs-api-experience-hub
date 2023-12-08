@@ -119,7 +119,7 @@ Before enabling SSO, ensure you have the following permissions and context:
 == Single Sign-On Use Cases for the Portal
 The following use cases are provided to help you configure SSO for the portal: 
 
-* xref:sso-use-case-1.adoc[Configuring SSO When No Identity Provider is Configured in Anypoint] 
+* xref:sso-use-case-1.adoc[Configuring SSO When No Identity Provider is Configured in Anypoint Platform] 
 * xref:sso-use-case-2.adoc[Configuring SSO to Use an Identity Provider That is Already Configured for Anypoint Platform] 
 
 The use cases are documented using Okta as an identity provider as an example of how to enable SSO however, you can use any identity provider.
