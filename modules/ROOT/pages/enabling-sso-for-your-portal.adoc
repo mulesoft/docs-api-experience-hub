@@ -61,7 +61,7 @@ The custom claim or SAML attribute provides the information that is received fro
 
 * *AEH Users - ${salesforceOrganizationId}*
 +
-The default identity provider that's created in Anypoint Platform to map all self-registered users. This identity provider is used when the aeh_portal_idp is not set in the identity provider. Self-registered users are mapped with the default identity provider.
+The default Anypoint Experience Hub identity provider that's created in Anypoint Platform to map all self-registered users. This identity provider is used when the aeh_portal_idp is not set in the identity provider. Self-registered users are mapped with the default identity provider.
 
 * *AEH Portal - ${salesforceOrganizationId}_$*{salesforceCommunityId}* 
 +
@@ -119,8 +119,8 @@ Before enabling SSO, ensure you have the following permissions and context:
 == Single Sign-On Use Cases for the Portal
 The following use cases are provided to help you configure SSO for the portal: 
 
-* xref:sso-use-case-1.adoc[Use Case 1: Configuring SSO When No Identity Provider is Already Configured] 
-* xref:sso-use-case-2.adoc[Use Case 2: Configuring SSO to Use an Identity Provider That is Already Configured for Anypoint Platform] 
+* xref:sso-use-case-1.adoc[Configuring SSO When No Identity Provider is Configured in Anypoint] 
+* xref:sso-use-case-2.adoc[Configuring SSO to Use an Identity Provider That is Already Configured for Anypoint Platform] 
 
 The use cases are documented using Okta as an identity provider as an example of how to enable SSO however, you can use any identity provider.
 

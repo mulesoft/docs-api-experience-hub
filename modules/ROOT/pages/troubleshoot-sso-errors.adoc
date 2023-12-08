@@ -17,6 +17,7 @@ To troubleshoot this issue, ensure all of the necessary redirect URIs are includ
 * https://${domain}.my.site.com/aeh/services/authcallback/${authProviderURLSuffix}
 
 To get the following redirect URIs:
+
 * salesforceOrganizationId: In Salesforce, go to *Setup > Company Information*.
 * authProviderURLSuffix: In Salesforce, go to *Setup > Auth Providers* and select your auth provider URL Suffix.
 * domain: In Salesforce, go to *Setup > My Domain > Current My Domain URL*.

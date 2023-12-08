@@ -1,4 +1,4 @@
-= Use Case 2: Configuring SSO to Use the Identity Provider That is Already Configured for Anypoint Platform
+= Configuring SSO to Use the Identity Provider That is Already Configured for Anypoint Platform
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
