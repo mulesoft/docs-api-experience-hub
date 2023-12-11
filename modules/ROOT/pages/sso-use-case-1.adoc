@@ -37,18 +37,19 @@ Create a new application for the API Experience Hub portal in the identity provi
 |*Selected group(s)*|Enter the name of the group who must have access to the application.
 |===
 . Configure a custom groups claim filter that the application sends.
-.. From the *Sign On* tab, click *Edit** from the *OpenID Connect ID Token* section.
+.. From the *Sign On* tab, click *Edit* from the *OpenID Connect ID Token* section.
 .. From *Groups claim type*, select *Filter*. 
 .. From *Groups claim filter*, enter `groups`.
 .. Select *Matches regex for the expression* then enter *.** for wildcard.
 +
 image::aeh-groups-claim-filter.png["Groups Claim Filter example",width=60%]
 
-=== Configure an Authentication Provider for Salesforce Using OpenID Connect
+. Configure an authentication provider for Salesforce using OpenID Connect.
 //make this a partial to include in all use cases (ran out of time - Post GA)
++
 You set up the auth provider or SSO settings in Salesforce with the identity provider application information.
 
-. From the OpenID Connect application, get these configuration values:
+.. From the OpenID Connect application, get these configuration values:
 
 * *Client ID*
 * *Client Secret*
@@ -56,11 +57,11 @@ You set up the auth provider or SSO settings in Salesforce with the identity pro
 * *Token Endpoint URL*
 * *User Info Endpoint URL*
 
-. In *Salesforce*, go to *Setup*.
-. In the *Quick Find* box, enter `Auth`, and then select *Auth. Providers*.
-. Click *New*.
-. In the Provider Type field, select *OpenID Connect*.
-. Complete the following fields:
+.. In *Salesforce*, go to *Setup*.
+.. In the *Quick Find* box, enter `Auth`, and then select *Auth. Providers*.
+.. Click *New*.
+.. In the Provider Type field, select *OpenID Connect*.
+.. Complete the following fields:
 +
 [%header,cols="1a,2a"]
 |===
@@ -77,13 +78,13 @@ You set up the auth provider or SSO settings in Salesforce with the identity pro
 |*Execute Registration As*  |Select an administrator user. 
 |===
 image::aeh-salesforce-auth-provider.png[Salesforce Auth. Provider example]
-. Click *Save*. 
+.. Click *Save*. 
 
-=== Configure the Redirect URIs for the Portal
-
+. Configure the redirect URIs for the portal.
++
 To configure the redirects, use your 15 digit organization ID and 18 digits org ID and add a URL for each organization ID.
 
-. In the Okta application, select the *General* tab.
+.. In the Okta application, select the *General* tab.
 Add the following URLs for *Sign-in redirect URIs*:    
 +
 * https://login.salesforce.com/services/authcallback/${15DigitSalesforceOrganizationId}/${authProviderURLSuffix}
