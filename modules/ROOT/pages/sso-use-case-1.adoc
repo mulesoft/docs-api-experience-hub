@@ -160,12 +160,12 @@ image::aeh-sso-saml-setup-instructions-page.png["SAML instructions to set up pag
 [%header,cols="1a,2a"]
 |===
 |Field|Value
-|*Issuer* |Match *Identity Provider Issuer* from the *View SAML setup instructions*.
-|*Entity ID*|Match *Audience Restriction* you set in the application.
+|*Issuer* |Match the *Identity Provider Issuer* from the *View SAML setup instructions*.
+|*Entity ID*|Match the *Audience Restriction* you set in the application.
 |*Identity Provider Certificate* |Upload the certificate previously downloaded from the *View SAML setup instructions*.
 |*SAML Identity Type* |Assertion contains the *Federation ID* from the user object.
 |*SAML Identity Location* |Identity is in the *NameIdentified* element of the *Subject* statement.
-|*Identity Provider Login URL* |Match *Identity Provider Single Sign-On URL* from the *View SAML setup instructions*.
+|*Identity Provider Login URL* |Match the *Identity Provider Single Sign-On URL* from the *View SAML setup instructions*.
 |*Custom Logout URL* |Okta URL
 |*User Provisioning* |*Enabled*
 |*User Provisioning Type* |*Custom SAML JIT with Apex Handler*
@@ -184,7 +184,7 @@ After the identity provider is configured for Salesforce, add and enable the ide
 . Go to *API Experience Hub > User management*.
 . From the *User management* page, select the *Login settings* tab.
 . From the *Single sign-on (SSO)* section, scroll down to step 2 *Add Salesforce identity providers*.
-. Click *Select identity provider* and select an option from the dropdown menu. 
+. Click *Select identity provider* and select an option from the drop-down menu. 
 . Click *+ Add identity provider*.
 . Move the slider to *Enabled*.
 
