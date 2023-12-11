@@ -14,7 +14,7 @@ To enable SSO, an identity provider is required for Anypoint Platform to create 
 In this step, you create an application in the identity provider for the API Experience Hub portal, enable the ability to send group information in the application configuration, configure groups, and configure the default identity provider. Performing these steps require you to move back and forth between applications and the identity provider application to copy or add information. 
 
 
-=== Create and Set up An Application Using One of the Following Example Methods:
+=== Create and Configure an Application Using One of the Following Example Methods:
 
 * Create and Configure an Application Using Okta OpenID Connect
 * Create and Configure an Application Using Okta SAML
@@ -40,7 +40,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 .. From the *Sign On* tab, click *Edit* from the *OpenID Connect ID Token* section.
 .. From *Groups claim type*, select *Filter*. 
 .. From *Groups claim filter*, enter `groups`.
-.. Select *Matches regex for the expression* then enter *.** for wildcard.
+.. Select *Matches regex for the expression* then enter `.*` for wildcard.
 +
 image::aeh-groups-claim-filter.png["Groups Claim Filter example",width=60%]
 
@@ -142,7 +142,7 @@ The example IDs 00gdkat3p5RCvkQQC5d7, and 00gdjgk337kYDxtE35d7 correspond to the
 . Click *Finish*.
 . Select the *Assignments* tab and select *Groups*.
 . Click *Assign* and select *Assign to groups*.
-. From the list, click *Assign* in* the row of the specific group and click *Done*.           
+. From the list, click *Assign* from the row of the specific group and click *Done*.           
 . Select the *Sign On* tab, click *View SAML setup instructions* to see instructions about how to configure SAML for your application. 
 +
 image::aeh-sso-view-saml-setup-instructions.png["View SAML setup instructions button",width=30%]
@@ -152,7 +152,7 @@ image::aeh-sso-view-saml-setup-instructions.png["View SAML setup instructions bu
 * *Identity Provider Issuer*
 * *X.509 Certificate (download the certificate)*
 +
-image::aeh-sso-saml-setup-instructions-page.png["SAML instructions to set up page,",width=90%]
+image::aeh-sso-saml-setup-instructions-page.png["SAML instructions to set up page",width=90%]
 . Go to *Salesforce > Setup>* and search for *Single Sign-On Settings*.
 . From the *Single Sign-On Settings* tab, *Federated Single Sign-On Using SAML* section, select *SAML Enabled* and click *Save*.
 . From the *Single Sign-On Settings* tab, click *Edit* and complete the following fields:
