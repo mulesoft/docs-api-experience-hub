@@ -10,12 +10,15 @@ This release has the following limitations:
 * You cannot connect a Salesforce organization to more than one Anypoint organization.
 * An API portal can have a maximum of 250 APIs.
 +
-Do not make changes to the permissions of the out of the box Teams created in Access Management for API Experience Hub. Each asset added to the API portal uses two permissions and Access Management has a limit of 1000 permissions per team.
+Do not make changes to the permissions of the out-of-the-box Teams created in Access Management for API Experience Hub. Each asset added to the API portal uses two permissions and Access Management has a limit of 1000 permissions per team.
 * API Groups are not available.
 //* API details cannot be modified.
 * API Experience Hub is not certified for use on mobile devices. Some functionality works on mobile devices, but some functionality such as the API Console does not.
 * IP restrictions are not supported. For more information, see the xref:troubleshooting.adoc[Troubleshooting] section.
 * Validation rules cannot be applied to standard objects that are created during the Salesforce linking process. For more information, see the xref:troubleshooting.adoc[Troubleshooting] section for a work around.
 * From the API Console, APIs cannot be tested using the authorization credentials from the Request Panel.
-* From the API Console, AsyncAPI and SOAP specifications cannot be download. 
+* From the API Console, AsyncAPI and SOAP specifications cannot be downloaded. 
 * Existing users cannot self-register. They must use an identity provider to access the portal.
+* The maximum pending user registration requests is 500. For more information, see xref:managing-users.adoc[Managing Users]
+* The API Experience Hub package is installed in the sandbox and production environments on the same date. As a result, you cannot use your sandbox organization for testing in the development cycle.
+

@@ -33,7 +33,7 @@ To find a member, enter the member's name or email address in the *Search by nam
 When a user's access to the portal is approved in the Pending requests tab, the Enable portal access slider is on in the Members tab. You can disable a user's access by moving the slider to off.
 
 == Pending Requests
-The Pending requests tab displays information about users who registered to access the portal.
+The Pending requests tab displays information about users who registered to access the portal. The maximum pending user registration requests is 500.
 
 The following information is available in this tab:
 
