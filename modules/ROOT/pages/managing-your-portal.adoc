@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-After your portal is styled using the guided design, the Manage your API portal page provides options to manage APIs, users, and settings.
+After your portal is styled using the guided design, the Manage your API portal page provides options to manage APIs, users, settings and surfaces issues that occur while managing the portal.
 
 * xref:managing-apis.adoc[API Management]
 + 
@@ -17,8 +17,36 @@ View and manage members and pending requests.
 + 
 xref:viewing-salesforce-account-information.adoc[View information about your portal's Salesforce account] and xref:disconnecting-the-portal.adoc[disconnect the portal].
 
+== Viewing Issues on API Management Pages
+API Experience Hub provides diagnostics checks that run in the background to identify issues with the portal and attempt to fix them automatically or provide troubleshooting options. Checks are triggered when loading or refreshing a page and performing an action on the UI. These checks help administrators identify error states and troubleshoot issues. 
+
+When issues are detected on API management pages, a message displays in the banner of the page. The message indicates that there are some detected issues that the system is trying to fix.
+
+If there are still issues after all checks and patches are attempted, the banner shows a message that there are issues that require you to act on. To see more information about these issues, click *View details*. 
+
+image::error-message-banner.png[Error messages banner]
+
+The following minimal prerequisite checks run each time pages in the portal are loaded or refreshed:
+
+* Connection with Salesforce is operational.
+* The API Experience Hub package is installed in the Salesforce organization.
+* Access Management team for the out-of-the-box profiles are created.
+* The shared user (Experience Builder preview) exists and has all the necessary permissions to log in to Salesforce and interact with the Experience Builder.
+
+Issues can have the following severity:
+
+* Error
++
+Issues that block you from using one or multiple functions in the portal.
+* Warning
++
+Issues that indicate something is not working as expected, but you can still use the portal without addressing the issues.
+* Info
++
+Information that is helpful for you to know but is not blocking you from using the portal.
+
 == Before You Begin
-Before managing your portal, you need to have APIs in Exchange to add them to your portal.
+You must have APIs in Exchange before you can add them to your portal.
 
 
 

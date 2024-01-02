@@ -40,11 +40,11 @@ The API Documentation Viewer component shows an API’s documentation from Anypo
 
 * Assets Carousel
 +
-The API Carousel component shows a horizontally scrollable set of API cards. Each card shows an API or API Group.
+The API Carousel component shows a horizontally scrollable set of API cards. Each card shows an API.
 
 * Assets Catalog
 +
-The API Catalog component offers API consumers an interactive way to explore all the available APIs and API Groups in an API portal. The API Catalog shows API cards in rows and columns, divided into pages, and shows controls to filter the displayed APIs and API Groups by categories and search terms. Each card shows an API or API Group. With the catalog, users can view and explore large numbers of API versions.
+The API Catalog component offers API consumers an interactive way to explore all the available APIs in an API portal. The API Catalog shows API cards in rows and columns, divided into pages, and shows controls to search the displayed APIs by categories and search terms. Each card shows an API. With the catalog, users can view and explore large numbers of API versions.
 
 * Search Box
 +
