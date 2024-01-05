@@ -13,19 +13,30 @@ Name of the API.
 * *Type*
 + 
 The API type can be AsyncAPI, HTML, REST, or SOAP.
-* *Description*
-+
-A description of the API.
 * *Contact email*
 +
 The email of the contact for the API.
-* *Version*
+
+* *Categories*
++
+The name and value of the predefined category this API belongs to. APIs can have multiple categories. Categories are used to organize APIs into groups to improve browsing and discovery. 
+* *Tags*
++
+The name of a predefined keyword associated with this API. APIs can have multiple tags. Tags are used to filter search results. 
+* *Description*
++
+A description of the API.
+
+* *Asset version*
 +
 The version of the API.
-* *Instance*
+* *Version state*
++
+The lifecycle state of this API. Lifecycle states are development, stable, and deprecated.
+* *Instances*
 +
 The count of instances of the API.
-* *Client applications*
+* *Clients *
 +
 The number of client applications of the API.
 
