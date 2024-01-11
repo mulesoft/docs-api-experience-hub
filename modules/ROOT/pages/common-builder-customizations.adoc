@@ -12,13 +12,12 @@ From the Builder, add or remove API Experience Hub components from your portal.
 . Click the *Component* icon.
 . Scroll to *Custom Components*.
 . Click a component, for example, API Console and drag it into the portal.
-. To remove a component, click the trash can icon.
+. To remove a component, click the trash can icon and click *Delete*.
 
 === Edit Colors for Each API Type
 To customize the color for each API type that displays in the Home page:
 
 . Navigate to the Builder.
-. Click the *Builder* icon.
 . Click the *Settings* icon.
 . Click *Advanced*.
 . Click *Edit Head Markup*. 
@@ -65,7 +64,8 @@ To edit the email information that is sent to users who register for your site:
 
 . Navigate to the Builder.
 . Click the *Builder* icon.
-. From *My Workspaces*, click *Administration*.
+. Click *My Workspaces*.
+. Click *Administration*.
 . Click *Emails*
 . Make your changes and click *Save*.
 
@@ -74,7 +74,8 @@ By default, the logo image used for the login pages is the image added during th
 
 . Navigate to the Builder.
 . Click the *Builder* icon.
-. From *My Workspaces* click *Administration*.
+. Click *My Workspaces*.
+. Click *Administration*.
 . Select *Login & Registration*.
 //I have insufficient privileges so I cannot get to the next steps.
 . From the *Branding Options* section, click the *Choose File* button from *Logo File*.
@@ -98,6 +99,17 @@ By default, Experience Cloud generates the URL for your portal domain. You can c
 +
 The new domain URL displays in the *Your chosen new My Domain URl* field.
 . Click *Save*.
+
+== Edit the API Carousel Titles and the Number of Cards to Display
+You can edit the title and subtitle that appears for the API Carousel and the number of API asset cards that display.
+
+. From the Manage your API portal pages, click *Preview and publish your portal*.
+. In the *Home* page, click the *Asset Carousel* area to edit the Assets Carousel component.
+. If you want to change the title, enter a name in the *Title* field.
+. If you want to change the subtitle, enter a name in the *Subtitle* field.
+. If you want to change the number of cards that display, select a number from three to fifteen from the list. 
+. Click the *Preview* button to confirm your changes.
+. Click the *Publish* button to publish your changes.
 
 == See Also
 
