@@ -9,7 +9,7 @@ The Specification pane displays the navigation of the HTTP functions in the REST
 
 The Documentation pane displays interactive documentation about an API. API documentation includes detailed descriptions of each API version. This documentation is updated with the API release cycle, usually with close involvement from the development team. You can also review the request information and responses.
 
-The Try it pane enables you to test an API using the mocking service. The mocking service lets you add simulated data to an API function and test the API with the data.
+The Try it pane enables you to test  REST APIs using the mocking service or an instance URL. You can add simulated data to an API function and test the API with the data.
 
 == Review API Specifications and Documentation 
 To discover information about an API:
@@ -20,14 +20,16 @@ To discover information about an API:
 . Select the *Request* tab to view the information for the code example, parameters, security, headers, examples, and body.
 . Select the *Response* tab to view the response type, example, headers, and body.
 
-== Test an API Using the Mocking Service
-To test an API:
+== Test APIs 
+You can test an API specification using the mocking service or the instances of an API. If an instance has authorization headers, the request fails when the authorization headers are not entered.
 
-. From the *Home* or the *APIs* page, select an API.
+. From the *Home* or the *APIs* page, select a REST API.
 . From the *Specification* pane, click a function like `get`.
-. In the *Try it* panel, select *Mocking Service* from the *Select Server* options.
+. In the *Try it* panel, select *Mocking Service* or an instance URL from the *Select Server* options.
+. Enter the applicable headers or parameters.
 . Click *Send* to send simulated data to the API.
 . Verify the returned responses from the API.
+
 
 == See Also
 

@@ -100,14 +100,22 @@ By default, Experience Cloud generates the URL for your portal domain. You can c
 The new domain URL displays in the *Your chosen new My Domain URl* field.
 . Click *Save*.
 
-== Edit the API Carousel Titles and the Number of Cards to Display
-You can edit the title and subtitle that appears for the API Carousel and the number of API asset cards that display.
+== Edit the Titles in the API Carousel
+You can edit the title and subtitle that appears for the API Carousel.
 
 . From the Manage your API portal pages, click *Preview and publish your portal*.
 . In the *Home* page, click the *Asset Carousel* area to edit the Assets Carousel component.
-. If you want to change the title, enter a name in the *Title* field.
-. If you want to change the subtitle, enter a name in the *Subtitle* field.
-. If you want to change the number of cards that display, select a number from three to fifteen from the list. 
+. In the *Title* field, enter a name.
+. In the *Subtitle* fieldI, enter a name.
+. Click the *Preview* button to confirm your changes.
+. Click the *Publish* button to publish your changes.
+
+== Edit the Number of Cards to Display in the API Carousel
+You can edit the number of API asset cards that display in the API Carousel. The API Carousel can display a minimum of three cards and a maximum of fifteen cards.
+
+. From the Manage your API portal pages, click *Preview and publish your portal*.
+. In the *Home* page, click the *Asset Carousel* area to edit the Assets Carousel component.
+. In the *Cards to display* field, select a number from three to fifteen from the list. 
 . Click the *Preview* button to confirm your changes.
 . Click the *Publish* button to publish your changes.
 

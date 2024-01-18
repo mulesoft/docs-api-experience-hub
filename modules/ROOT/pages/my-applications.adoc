@@ -9,7 +9,7 @@ APIs that are protected by a client ID enforcement policy require client applica
 
 //placeholder for screen capture of My Applications page
 
-From this page, you can see the name, description, the client credentials of an application.
+From this page, you can see the application name, description, and the client credentials of an application.
 
 == Search for Applications
 If there are several applications listed in the My Applications page, you can search for a specific one by using the Search box. Enter the application name or description of the application and press Enter or Return. The number of applications that match your search criteria display in the list of search results.
@@ -47,12 +47,13 @@ Lists the application’s redirect URIs.
 Lists the application’s grant types. 
 * API Contracts
 +
-Lists the application’s API name, environment and instances, SLA tier, and request access state. The environment can be either a sandbox or development environment. Request access states can be `pending, `approved, or `failed.
+From the API contracts section, you can see the application’s API name, environment and instances, instance URLs, SLA tier, and request access state. The environment can be either a sandbox or development environment. Request access states can be `pending, `approved, or `failed.
 
 From the Application Details page, you can:
 
 * Reset the client secret. 
 * Edit the client applications details.
+* View the instance URL.
 * Add an SLA tier.
 * Change the SLA tier.
 * Delete the client application.
@@ -75,6 +76,10 @@ You can edit a client application name, description, OAuth 2.0 grant type, OAuth
 . Click *Edit*.
 . From the *Application Details* page, edit the corresponding fields.
 . Click *Save*.
+
+=== View and Copy the Instance URL
+
+You can view the instance URL for an API by clicking *View URL* and copy it by clicking the *Copy from clipboard* icon.
 
 === Add an SLA Tier
 SLA tiers are defined in API Manager and display as SLA Tier options in the Application Details page. If an application does not have an SLA tier listed, you can request to add an SLA tier. The instance owner must approve the tier.
