@@ -1,4 +1,4 @@
-= Using API Console 
+= Using the API Console 
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
