@@ -21,7 +21,7 @@ To discover information about an API:
 . Select the *Response* tab to view the response type, example, headers, and body.
 
 == Test APIs 
-You can test an API specification using the mocking service or the instances of an API. If an instance has authorization headers, the request fails when the authorization headers are not entered.
+You can test an API specification using the mocking service or an instance of an API. If an instance has authorization headers, the request fails when the authorization headers are not entered.
 
 . From the *Home* or the *APIs* page, select a REST API.
 . From the *Specification* pane, click a function like `get`.
