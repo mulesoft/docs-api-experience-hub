@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Using the mocking service in the API Console of the portal, you can simulate calls to your API. The mocking service is a feature of Anypoint that enables you to generate simulated servers that aid in the development and testing of APIs. These mock servers imitate the actions of accepting requests and providing responses. The mocking service replicates the functionality of a genuine API. You can run the mocking service from the text editor, the visual editor, and from Anypoint Exchange.
+Using the mocking service in the API Console of the portal, you can simulate calls to your API. The mocking service is a feature of Anypoint that enables you to generate simulated servers that aid in the development and testing of APIs. These mock servers imitate the actions of accepting requests and providing responses. The mocking service replicates the functionality of a genuine API. 
 
 == Before You Begin
 
@@ -25,4 +25,4 @@ API Console displays the HTTP return code as specified in your API. Alternately,
 
 == See Also
 
-* xref:api-console-specification-and-documentation.adoc[API Console]
+* xref:using-the-api-console.adoc[API Console]

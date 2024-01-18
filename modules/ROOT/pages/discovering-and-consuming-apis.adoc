@@ -14,5 +14,5 @@ For more information, see the following topics:
 * xref:requesting-access-to-an-api-instance.adoc[Requesting Access to an API Instance]
 * xref:my-applications.adoc[My Applications]
 * xref:downloading-an-api-specification.adoc[Downloading a API Specification]
-* xref:api-console-specification-and-documentation.adoc[API Console Specifications and Documentation]
+* xref:Using-the-api-console.adoc[Using the API Console]
 
