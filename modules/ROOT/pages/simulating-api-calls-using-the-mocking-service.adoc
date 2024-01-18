@@ -12,11 +12,11 @@ You must have an API specification with at least one endpoint and one method in 
 == Simulate a Call to an API Using an Internal URL
 To access the internal URL, you must specify the authorization headers as part of the request URL. To test an API without supplying authorization headers, generate a mocking service public URL for this project. Mocking service is the selected server in the *Try it* panel. 
 
-. From the *Home* or the *APIs* page, select an API.
-. From the API Console, select *Summary*.
-. From the *Documentation* panel, click on the name of an end point.
-. Click one of the methods of your API, then click *Try it*.
-. Provide and query parameters you want to test.
+. In the *Home* or the *APIs* page, select a REST API.
+. Select the *API specification* tab.
+. In the *Specification* pane, click a method like `GET`.
+. In the *Documentation* pane, review the requests and responses data.
+. In the *Try it* pane, provide and query parameters you want to test. 
 +
 You can enter query parameters as name-value pairs.
 . Click *Send*.
@@ -25,4 +25,4 @@ API Console displays the HTTP return code as specified in your API. Alternately,
 
 == See Also
 
-* xref:api-console-specification-and-documentation.adoc[API Console Specification and Documentation]
+* xref:api-console-specification-and-documentation.adoc[API Console]

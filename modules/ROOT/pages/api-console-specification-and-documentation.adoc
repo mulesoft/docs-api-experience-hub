@@ -1,36 +1,34 @@
-= API Console Specification and Documentation
+= Using API Console 
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-An API’s specifications and documentation information are critical to the onboarding process and adoption. Developers need to know how to use and integrate APIs. The portal’s API Console displays the API specifications and documentation. The API Console is located in the API Details page. The console component is interactive and shows information about REST APIs and their methods. Endpoints are displayed in alphabetical order.
+The API Console is an interactive component that shows information about REST APIs and their methods, and enables you to test the methods by sending requests. The API Console is located in the API Details page. Endpoints are displayed in alphabetical order.
+
+The API Console displays the API specifications and documentation. An API’s specifications and documentation information are critical to the onboarding process and adoption. Developers need to know how to use and integrate APIs. 
 
 The Specification pane displays the navigation of the HTTP functions in the REST specification for a REST API. You can understand the format and structure of an output by reviewing the resources and methods. 
 
 The Documentation pane displays interactive documentation about an API. API documentation includes detailed descriptions of each API version. This documentation is updated with the API release cycle, usually with close involvement from the development team. You can also review the request information and responses.
 
-The Try it pane enables you to test  REST APIs using the mocking service or an instance of the API. You can add simulated data to an API function and test the API with the data.
+The Try it pane enables you to test REST APIs using the mocking service or an API instance URL. The mocking service lets you test endpoints defined in the API specification without an actual server to handle the requests and responses. The mocking service lets you add simulated data to an API function and test the API with that data. All the responses are example data. Using an API instance enables you to interact with a server with real data for real requests and responses.
 
 == Review API Specifications and Documentation 
 To discover information about an API:
 
-. From the *Home* or the *APIs* page, select an API.
-. From the *Specification* pane, click a function.
-. From the *Documentation* pane, review the summary of the function.
-. Select the *Request* tab to view the information for the code example, parameters, security, headers, examples, and body.
-. Select the *Response* tab to view the response type, example, headers, and body.
+. In the *Home* or the *APIs* page, select a API.
+. Select the *API specification* tab.
+. In the *Specification* pane, click a function.
+. In the *Documentation* pane, review the summary of the function.
+. Select the *Requests* tab to view the information for the code example, parameters, security, headers, examples, and body.
+. Select the *Responses* tab to view the response type, example, headers, and body.
 
 == Test APIs 
-You can test an API specification using the mocking service or an instance of an API. If an instance has authorization headers, the request fails when the authorization headers are not entered.
+You can test an API specification using the mocking service when you want simulated data. You can also test an API specification with real data using an instance of the API. If an instance has authorization headers, the request fails when the authorization headers are not entered.
 
-. From the *Home* or the *APIs* page, select a REST API.
-. From the *Specification* pane, click a function like `get`.
-. In the *Try it* panel, select *Mocking Service* or an instance URL from the *Select Server* options.
-. Enter the applicable headers or parameters.
-. Click *Send* to send simulated data to the API.
-. Verify the returned responses from the API.
-
-
-== See Also
+For more information about testing APIs, see the following topics:
 
 * xref:simulating-api-calls-using-the-mocking-service.adoc[Simulating Calls Using the Mocking Service]
+* xref:Testing APIs Using an API Instance.adoc[Testing APIs Using an API Instance]
+
+

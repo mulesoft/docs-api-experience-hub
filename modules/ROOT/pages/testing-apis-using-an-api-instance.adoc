@@ -1,0 +1,19 @@
+= Testing APIs Using an API Instance 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+You can test an API using an API instance as a server in the API Console. API instances enable you to interact with a server that sends requests with responses with actual data. You can also add an authorization header and search for assets your organization using that instance. If an instance has authorization headers, the request fails when the authorization headers are not entered.
+
+== Before You Begin
+You must have an API specification with at least one endpoint and one method in it.
+
+== Test APIs Using an Instance
+
+In the *Home* or the *APIs* page, select a REST API.
+. Select the *API specification* tab.
+. In the *Specification* pane, click a function like `get`.
+. To send real data to the API, select an instance URL from the *Select Server* options.
+. Provide and query parameters you want to test.
+. Click *Send* to send simulated data to the API.
+. Verify the returned responses from the API.
