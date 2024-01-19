@@ -11,7 +11,7 @@ The Specification pane displays the navigation of the HTTP functions in the REST
 
 The Documentation pane displays interactive documentation about an API. API documentation includes detailed descriptions of each API version. This documentation is updated with the API release cycle, usually with close involvement from the development team. You can also review the request information and responses.
 
-The Try it pane enables you to test REST APIs using the mocking service or an API instance URL. The mocking service lets you test endpoints defined in the API specification without an actual server to handle the requests and responses. The mocking service lets you add simulated data to an API function and test the API with that data. All the responses are example data. Using an API instance enables you to interact with a server with real data for real requests and responses.
+The Try it pane enables you to test REST APIs using the mocking service or an API instance URL. The mocking service lets you test endpoints defined in the API specification without an actual server to handle the requests and responses. The mocking service enables you add simulated data to an API function and test the API with that data. All the responses are example data. Using an API instance enables you to interact with a server and get real data for real requests and responses.
 
 == Review API Specifications and Documentation 
 To discover information about an API:
