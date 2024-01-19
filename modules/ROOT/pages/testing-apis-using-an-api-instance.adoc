@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-The API Console enables you to test an API using an API instance as a server. API instances let you to interact with a server that sends requests with responses of actual data. You can also add an authorization header and search for assets your organization using that instance. If an instance has authorization headers, the request fails when the authorization headers are not entered.
+The API Console enables you to test an API using an API instance as a server. API instances let you interact with a server by sending requests and getting responses with actual data.
 
 == Before You Begin
 You must have an API specification with at least one endpoint and one method in it.
