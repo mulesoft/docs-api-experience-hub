@@ -14,6 +14,6 @@ You must have an API specification with at least one endpoint and one method in 
 . Select the *API specification* tab.
 . In the *Specification* pane, click a method like `get`.
 . In the *Try it* pane, select an instance URL from the *Select Server* options.
-. Enter and query parameters you want to test.
+. Enter any query parameters you want to test.
 . Click *Send* to send simulated data to the API.
 . Verify the returned responses from the API.
