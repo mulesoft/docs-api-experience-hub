@@ -30,18 +30,19 @@ The Asset Details Header component displays the API header, including icon, name
 
 The API icon, name, and description shown are set in the API Experience Hub control panel when you add an API version to your community. The contact email is set in Anypoint Exchange.
 
-You can enter or select the following Asset API Header properties:
-
-* Record id
-* Show API Contact
-* Show API Clients
-* Show instance URL
-* Show categories
-* Show tags
+//You can enter or select the following Asset API Header properties:
+//
+//* Record id
+//* Show API Contact
+//* Show API Clients
+//* Show instance URL
+//* Show categories
+//* Show tags
 
 == Asset Version 
 
 Shows the API version from Exchange when only one version is visible.
+
 == Version State
 
 Shows the API version lifecycle state.
@@ -64,7 +65,7 @@ A subtitle that displays after the title of the carousel.
 
 * Cards to display
 +
-The number of cards to display in the carousel.The carousel can display a minimum of three cards and a maximum of fifteen cards.
+The number of cards to display in the carousel. The carousel can display a minimum of three cards and a maximum of fifteen cards.
 
 == Assets Catalog
 
