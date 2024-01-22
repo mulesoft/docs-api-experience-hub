@@ -1,16 +1,16 @@
-= API Experience Hub Lightning Components 
+= API Experience Hub Lightning Web Components 
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
 
-You can design the pages of your API Experience Hub portal by adding and configuring Lightning components in the Builder.
+You can design the pages of your API Experience Hub portal by adding and configuring Lightning web components in the Builder.
 
-These Lightning components include both the Lightning components available in all Salesforce Digital Experiences and the API Experience Hub Lightning components available only in API Experience Hub.
+These Lightning web components include both the Lightning web components available in all Salesforce Digital Experiences and the API Experience Hub Lightning web components available only in API Experience Hub.
 
-Each API Experience Hub Lightning component has different configuration options and adds different functionality to the portal.
+Each API Experience Hub Lightning web component has different configuration options and adds different functionality to the portal.
 
-Many API Experience Hub Lightning components show data from Anypoint Platform. Portal admins can change some of these data fields, such as API names, descriptions, and icons. API Experience Hub saves these changes but does not push the changes back to Anypoint Platform.
+Many API Experience Hub Lightning web components show data from Anypoint Platform. Portal admins can change some of these data fields, such as API names, descriptions, and icons. API Experience Hub saves these changes but does not push the changes back to Anypoint Platform.
 
 To add API Experience Hub components, click the *Components* lightning bolt icon to display the component palette. You can drag any component from the component palette to the current page. Select the component on the page to show the component’s configuration options. You can edit the values by entering or selecting values in the component property fields. 
 

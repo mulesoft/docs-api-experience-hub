@@ -112,7 +112,7 @@ You can edit the title and subtitle that appears for the API Carousel.
 . Click the *Publish* button to publish your changes.
 
 == Edit the Number of Cards to Display in the API Carousel
-You can edit the number of API asset cards that display in the API Carousel. The API Carousel can display a minimum of three cards and a maximum of fifteen cards.
+You can edit the number of API asset cards that display in the API Carousel. A minimum of three cards and a maximum of fifteen cards can display.
 
 . From the Manage your API portal pages, click *Preview and publish your portal*.
 . In the *Home* page, click the *Asset Carousel* area to edit the Assets Carousel component.
