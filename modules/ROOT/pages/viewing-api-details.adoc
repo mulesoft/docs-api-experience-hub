@@ -19,10 +19,10 @@ The email of the contact for the API.
 
 * *Categories*
 +
-The name and value of the predefined category this API belongs to. APIs can have multiple categories. Categories are used to organize APIs into groups to improve browsing and discovery. 
+The name and value of the predefined category this API belongs to. APIs can have multiple categories. Categories are used to organize APIs into groups to improve browsing and discovery. Categories are created and maintained in Exchange. Each minor version of the API has its own categories.
 * *Tags*
 +
-The name of a predefined keyword associated with this API. APIs can have multiple tags. Tags are used to filter search results. 
+The name of a predefined keyword associated with this API. APIs can have multiple tags. Tags are used to filter search results. Tags are created and maintained in Exchange. Each minor version of the API has its own tags and categories. Each minor version of the API has its own tags.
 * *Description*
 +
 A description of the API.
@@ -42,10 +42,16 @@ The number of client applications of the API.
 
 The API Console is located in the API Details page. The console component is interactive and shows information about API specifications and their methods. Endpoints are displayed in alphabetical order. See xref:using-the-api-console.adoc[Using the API Console] for more information.
 
-== View Instances Information and Copy the URL
-To view the name and URL of an instance and copy the URL:
+== View Categories and Tags
+To view the categories or tags for an API:
 
-. Click *View instances*.
+. In the *API details* page, click *Categories* or *Tags* to view the information.
+. Click *Categories* or *Tags* again to close the list.
+
+== View Instances Information and Copy the URL
+To view the name and URL of an API instance and copy the URL:
+
+. In the *API details* page, click *View instances*.
 . Click the copy icon.
 . Click *Close*.
 
