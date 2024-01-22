@@ -67,6 +67,25 @@ A subtitle that displays after the title of the carousel.
 +
 The number of cards to display in the carousel. The carousel can display a minimum of three cards and a maximum of fifteen cards.
 
+=== Edit the Titles in the API Carousel
+You can edit the title and subtitle that appears for the API Carousel.
+
+. From the Manage your API portal pages, click *Preview and publish your portal*.
+. In the *Home* page, click the *Asset Carousel* area to edit the Assets Carousel component.
+. In the *Title* field, enter a name.
+. In the *Subtitle* fieldI, enter a name.
+. Click the *Preview* button to confirm your changes.
+. Click the *Publish* button to publish your changes.
+
+=== Edit the Number of Cards to Display in the API Carousel
+You can edit the number of API asset cards that display in the API Carousel. A minimum of three cards and a maximum of fifteen cards can display.
+
+. From the Manage your API portal pages, click *Preview and publish your portal*.
+. In the *Home* page, click the *Asset Carousel* area to edit the Assets Carousel component.
+. In the *Cards to display* field, select a number from three to fifteen from the list. 
+. Click the *Preview* button to confirm your changes.
+. Click the *Publish* button to publish your changes.
+
 == Assets Catalog
 
 The API Catalog component offers API consumers an interactive way to explore all the available APIs in an API portal. The API Catalog shows API cards in rows and columns, divided into pages, and shows controls to search the displayed APIs by categories and search terms. Each card shows an API. With the catalog, users can view and explore large numbers of API versions.
