@@ -13,6 +13,6 @@ For more information, see the following topics:
 * xref:viewing-api-details.adoc[Viewing API Details]
 * xref:requesting-access-to-an-api-instance.adoc[Requesting Access to an API Instance]
 * xref:my-applications.adoc[My Applications]
-* xref:downloading-an-api-specification.adoc[Downloading a API Specification]
+* xref:downloading-an-api-specification.adoc[Downloading an API Specification]
 * xref:using-the-api-console.adoc[Using the API Console]
 
