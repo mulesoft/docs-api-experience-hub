@@ -76,7 +76,7 @@ image::aeh-builder-carousel-subtitle.png[Image of Asset Carousel Subtitle option
 . On the *Home* page, click the *Asset Carousel* area to edit the Assets Carousel component.
 . In the *Title* field, enter a name.
 . In the *Subtitle* field, enter a name.
-. If you want to include the number of assets in the subtitle, enter `{numberOfAssets}` to the *Subtitle* field. 
+. If you want to include the number of cards in the subtitle, enter `{numberOfAssets}` to the *Subtitle* field. 
 . Click the *Preview* button to confirm your changes.
 . Click the *Publish* button to publish your changes.
 
