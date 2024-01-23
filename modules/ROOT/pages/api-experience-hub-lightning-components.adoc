@@ -19,7 +19,7 @@ To add API Experience Hub components:
 . Select the component on the page to show the component’s configuration options. 
 . Edit the values by entering or selecting values in the component property fields. 
 
-To delete a component, click the delete icon and click *Delete* from the dialog.
+To delete a component, click the delete icon and click *Delete* in the dialog.
 
 == API Console
 
