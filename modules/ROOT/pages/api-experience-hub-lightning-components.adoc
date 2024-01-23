@@ -81,7 +81,7 @@ image::aeh-builder-carousel-subtitle.png[Image of Asset Carousel Subtitle option
 . Click the *Publish* button to publish your changes.
 
 === Edit the Number of Cards to Display in the API Carousel
-You can edit the number of API cards that display in the API Carousel. 
+To change the number of API cards that display in the API Carousel:
 
 . On the *Manage your API portal* page, click *Preview and publish your portal*.
 . On the *Home* page, click the *Asset Carousel* area to edit the Assets Carousel component.
