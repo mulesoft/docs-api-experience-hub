@@ -5,7 +5,7 @@ endif::[]
 
 The API Console is an interactive component that shows information about REST APIs and their methods, and enables you to test the methods by sending requests. The API Console is located in the API Details page. Endpoints are displayed in alphabetical order.
 
-The API Console displays the API specifications and documentation information that are critical to the onboarding process and adoption. Developers need to know how to use and integrate APIs. 
+The API Console displays the API specifications and documentation information that are critical to the onboarding process and adoption. Developers want to know how to use and integrate APIs. 
 
 The Specification pane displays the navigation of the HTTP functions in the REST specification for a REST API. You can understand the format and structure of an output by reviewing the resources and methods. 
 

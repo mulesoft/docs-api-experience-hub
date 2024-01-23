@@ -37,12 +37,12 @@ To troubleshoot this issue, publish the portal from the Builder.
 
 After logging in to the portal successfully, you cannot see the APIs in the API Carousel.
 
-There can be a a few issues that can cause this error to occur:
+There can be a few issues that can cause this error to occur:
 
 * The external identity provider group mapping is missing from Access Management.
 * The *Auth provider Default Scopes* field is not configured properly.
 
-=== External Identity Provider Group Mapping is Missing or Misconfigured
+=== External Identity Provider Group Mapping Is Missing or Misconfigured
 
 To troubleshoot this issue, add the external identity provider group mapping in Access Management for the portal member user:
 
@@ -53,7 +53,7 @@ To troubleshoot this issue, add the external identity provider group mapping in 
 . From *Provider Name*, select the name of the corresponding Salesforce identity provider.
 . From *Type*, select *Member* and click *Add*.
 
-== Auth provider Default Scopes field is not configure properly
+== Auth provider Default Scopes field is Not Configure Properly
 
 To troubleshoot this issue, ensure the *Default Scopes* field has the *profile openid email groups* value.
 
@@ -67,6 +67,6 @@ To troubleshoot this issue, ensure the *Default Scopes* field has the *profile o
 
 When trying to log in to the portal with an identity provider, you see a *Problem Logging In* error that the third-party identifier cannot be be found. An incorrect portal URL can cause issues logging in.
 
-To troubleshoot this issue, ensure that the URL is not properly configured. For Okta, the `/userinfo` part of the URL path should be lowercase.
+To troubleshoot this issue, ensure that the URL is not properly configured. For Okta, the `/userinfo` part of the URL path must be lowercase.
 
 
