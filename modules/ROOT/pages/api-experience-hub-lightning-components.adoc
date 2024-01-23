@@ -14,7 +14,7 @@ Many API Experience Hub Lightning web components show data from Anypoint Platfor
 
 To add API Experience Hub components, click the *Components* lightning bolt icon to display the component palette. You can drag any component from the component palette to the current page. Select the component on the page to show the component’s configuration options. You can edit the values by entering or selecting values in the component property fields. 
 
-To delete a component, click the delete icon and click *Delete* from the dialog.
+To delete a component, click the delete icon and click *Delete* in the dialog.
 
 == API Console
 
