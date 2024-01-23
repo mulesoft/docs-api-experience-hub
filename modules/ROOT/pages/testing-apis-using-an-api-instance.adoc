@@ -10,7 +10,7 @@ You must have an API specification with at least one endpoint and one method in 
 
 == Test an API Using an Instance
 
-. In the *Home* or the *APIs* page, select a REST API.
+. on the *Home* or the *APIs* page, select a REST API.
 . Select the *API specification* tab.
 . In the *Specification* pane, click a method like `get`.
 . In the *Try it* pane, select an instance URL from the *Select Server* options.
