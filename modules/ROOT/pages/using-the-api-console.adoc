@@ -16,7 +16,7 @@ The Try it pane enables you to test REST APIs using the mocking service or an AP
 == Review API Specifications and Documentation 
 To discover information about an API:
 
-. In the *Home* or the *APIs* page, select an API.
+. On the *Home* or the *APIs* page, select an API.
 . Select the *API specification* tab.
 . In the *Specification* pane, click a function.
 . In the *Documentation* pane, review the summary of the function.
