@@ -68,9 +68,9 @@ A subtitle that displays after the title of the carousel.
 The number of API cards to display in the carousel. The carousel can display a minimum of three cards and a maximum of fifteen cards. If the number of cards to display is five and the portal has only three APIs, then the carousel displays three cards only.
 
 === Edit the Titles in the API Carousel
-You can modify the title and subtitle that appear for the API Carousel. You can also show the number of cards in the subtitle by entering the `{numberOfAssets}` variable in the *Subtitle* field. For example, Latest APIs added {numberOfAssets}. 
+You can modify the title and subtitle that appear for the API Carousel. You can also show the number of cards in the subtitle by entering the `{numberOfAssets}` variable in the *Subtitle* field. For example, *Latest APIs added {numberOfAssets}*. The following image shows the subtitle as *Latest APIs added 5* since the variable displays the number selected in the *Cards to display* field.
 
-image::aeh-builder-carousel-subtitle.png[Image of Asset Carousel Subtitle option,width=20%]
+image::aeh-builder-carousel-subtitle.png[Image of Asset Carousel Subtitle option,width=70%]
 
 . On the *Manage your API portal* page, click *Preview and publish your portal*.
 . On the *Home* page, click the *Asset Carousel* area to edit the Assets Carousel component.
