@@ -45,13 +45,13 @@ The API Console is located in the API Details page. The console component is int
 == View Categories and Tags
 To view the categories or tags for an API:
 
-. In the *API details* page, click *Categories* or *Tags* to view the information.
+. On the *API details* page, click *Categories* or *Tags* to view the information.
 . Click *Categories* or *Tags* again to close the list.
 
 == View Instances Information and Copy the URL
 To view the name and URL of an API instance and copy the URL:
 
-. In the *API details* page, click *View instances*.
+. On the *API details* page, click *View instances*.
 . Click the copy icon.
 . Click *Close*.
 

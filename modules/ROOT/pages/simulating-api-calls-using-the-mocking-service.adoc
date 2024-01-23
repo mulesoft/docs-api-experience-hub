@@ -12,7 +12,7 @@ You must have an API specification with at least one endpoint and one method in 
 == Simulate a Call to an API Using an Internal URL
 To access the internal URL, you must specify the authorization headers as part of the request URL. To test an API without supplying authorization headers, generate a mocking service public URL for this project. Mocking service is the selected server in the *Try it* pane. 
 
-. In the *Home* or the *APIs* page, select a REST API.
+. On the *Home* or the *APIs* page, select a REST API.
 . Select the *API specification* tab.
 . In the *Specification* pane, click a method like `GET`.
 . In the *Documentation* pane, review the requests and responses data.
