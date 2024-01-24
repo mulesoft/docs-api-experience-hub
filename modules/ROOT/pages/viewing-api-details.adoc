@@ -22,7 +22,7 @@ The email of the contact for the API.
 The name and value of the predefined category this API belongs to. APIs can have multiple categories. Categories are used to organize APIs into groups to improve browsing and discovery. Categories are created and maintained in Exchange.
 * *Tags*
 +
-The name of a predefined keyword associated with this API. APIs can have multiple tags. Tags are used to filter search results. Tags are created and maintained in Exchange. Each minor version of the API has its own tags and categories. 
+The name of a predefined keyword associated with this API. APIs can have multiple tags. Tags are used to filter search results. Tags are created and maintained in Exchange. 
 * *Description*
 +
 A description of the API.
