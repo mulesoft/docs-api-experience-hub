@@ -193,6 +193,6 @@ From the *Members* tab, Ensure that you can see your user.
 
 == See Also
 
-* xref:troubleshoot-sso-errors.adoc[Troubleshooting Single Sign-On Errors]
-* xref:enabling-sso-for-your-portal.adoc[Enabling Single Sign-On for Your Portal]
-* xref:managing-users.adoc[Managing Users] 
+* xref:troubleshoot-sso-errors.adoc[]
+* xref:enabling-sso-for-your-portal.adoc[]
+* xref:managing-users.adoc[] 

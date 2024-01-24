@@ -12,9 +12,9 @@ From the Builder, add or remove API Experience Hub components from your portal.
 . Click the *Component* icon.
 . Scroll to *Custom Components*.
 . Click a component, for example, API Console and drag it into the portal.
-. To remove a component, click the trash can icon.
+. To remove a component, click the trash can icon and click *Delete*.
 
-=== Edit Colors for Each API Type
+=== Customize Colors for Each API Type
 To customize the color for each API type that displays in the Home page:
 
 . Navigate to the Builder.
@@ -74,7 +74,7 @@ By default, the logo image used for the login pages is the image added during th
 
 . Navigate to the Builder.
 . Click the *Builder* icon.
-. From *My Workspaces* click *Administration*.
+. From *My Workspaces*, click *Administration*.
 . Select *Login & Registration*.
 //I have insufficient privileges so I cannot get to the next steps.
 . From the *Branding Options* section, click the *Choose File* button from *Logo File*.
@@ -101,8 +101,8 @@ The new domain URL displays in the *Your chosen new My Domain URl* field.
 
 == See Also
 
-* xref:customizing-your-portal.adoc[Customizig Your Portal Using the Experience Builder]
-* xref:advanced-styling-with-css.adoc[Advanced Styling with CSS]
+* xref:customizing-your-portal.adoc[]
+* xref:advanced-styling-with-css.adoc[]
 
 
 

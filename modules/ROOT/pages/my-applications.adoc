@@ -3,16 +3,15 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Member users can see My Applications at the top of the portal. The My Applications page lists applications that hold a contract with an API. Each client application has a client ID, client secret, description, URL, redirect URIs, and grant types.
+The *My Applications* page enables you to review the lists of applications that hold a contract with an API. Each client application has a client ID, client secret, description, URL, redirect URIs, and grant types.
 
 APIs that are protected by a client ID enforcement policy require client applications to provide a client ID and optional client secret. The client ID and client secret credentials are automatically created when the client application is registered. For more information about registering an application, see xref:requesting-access-to-an-api-instance.adoc[Requesting Access to an API Instance].
 
 //placeholder for screen capture of My Applications page
 
-From this page, you can see the name, description, the client credentials of an application.
 
 == Search for Applications
-If there are several applications listed in the My Applications page, you can search for a specific one by using the Search box. Enter the application name or description of the application and press Enter or Return. The number of applications that match your search criteria display in the list of search results.
+If the *My Applications* page lists several applications, search for a specific one by using the Search box. Enter the application name or description of the application and press Enter or Return. The number of applications that match your search criteria displays in the list of search results.
 
 //screen capture of My Applications with search results
 
@@ -47,12 +46,13 @@ Lists the application’s redirect URIs.
 Lists the application’s grant types. 
 * API Contracts
 +
-Lists the application’s API name, environment and instances, SLA tier, and request access state. The environment can be either a sandbox or development environment. Request access states can be `pending, `approved, or `failed.
+From the API contracts section, you can see the application’s API name, environment and instances, instance URLs, SLA tier, and request access state. The environment can be either a sandbox or development environment. Request access states can be `pending, `approved, or `failed.
 
 From the Application Details page, you can:
 
 * Reset the client secret. 
 * Edit the client applications details.
+* View the instance URL.
 * Add an SLA tier.
 * Change the SLA tier.
 * Delete the client application.
@@ -76,6 +76,10 @@ You can edit a client application name, description, OAuth 2.0 grant type, OAuth
 . From the *Application Details* page, edit the corresponding fields.
 . Click *Save*.
 
+=== View and Copy the Instance URL
+
+To view the instance URL for an API by clicking *View URL* and copy it by clicking the *Copy from clipboard* icon.
+
 === Add an SLA Tier
 SLA tiers are defined in API Manager and display as SLA Tier options in the Application Details page. If an application does not have an SLA tier listed, you can request to add an SLA tier. The instance owner must approve the tier.
 
@@ -91,7 +95,7 @@ The SLA tier can limit the number of requests an application can make to the API
 
 To edit the SLA tier for a client application:
 
-. From the *My Applications* page, click the name of the application in the list.
+. On the *My Applications* page, click the name of the application in the list.
 . From the *SLA Tier* column of the *API Contracts* section that you want to change, click the SLA tier edit option. 
 . From the *Edit SLA Tier* dialog, select from the list of SLA tiers.
 . Click *Save*. 
@@ -102,8 +106,8 @@ When you no longer need the contract for an API, you can delete it. Once the app
 
 To delete a client application:
 
-. From the *Application Details* page for the application, click *Delete*.
-. From the *Delete application* message, click *Delete*.
+. On the *Application Details* page for the application, click *Delete*.
+. In the *Delete application* message, click *Delete*.
 +
 The application is removed from the My Applications page.
 

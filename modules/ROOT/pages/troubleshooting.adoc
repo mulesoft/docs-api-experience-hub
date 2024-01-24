@@ -117,7 +117,7 @@ If API Experience Hub does not show on the Anypoint Platform landing page, ensur
 
 In this release, IP restrictions for the connected app are not supported. By default, the IP Restrictions field is set to `Relax IP Restrictions`. If you have Trusted IP Ranges in your organization, they are bypassed by the connected app. To avoid errors, do not change the *IP Restrictions* field from `Relax IP Restrictions` because it produces errors when creating the portal. 
 
-== Error Saving Changes to the Portal When an Object has Validation Rules Activated
+== Error Saving Changes to the Portal When an Object Has Validation Rules Activated
 
 An error occurs when saving styling changes to the portal if an object has validation rules applied for standard objects that are created during the Salesforce linking process. 
 
