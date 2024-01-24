@@ -21,6 +21,6 @@ Downloads as a WSDL file.
 
 == See Also
 
-* xref:using-the-api-console.adoc[Using the API Console]
-* xref:simulating-api-calls-using-the-mocking-service.adoc[Simulating Calls Using the Mocking Service]
-* xref:testing-apis-using-an-api-instance.adoc[Testing APIs Using an API Instance]
+* xref:using-the-api-console.adoc[]
+* xref:simulating-api-calls-using-the-mocking-service.adoc[]
+* xref:testing-apis-using-an-api-instance.adoc[]

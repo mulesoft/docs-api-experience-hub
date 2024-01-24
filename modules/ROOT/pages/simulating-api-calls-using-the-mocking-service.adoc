@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Using the mocking service in the API Console of the portal, you can simulate calls to your API. The mocking service is a feature of Anypoint that enables you to generate simulated servers that aid in the development and testing of APIs. These mock servers imitate the actions of accepting requests and providing responses. The mocking service replicates the functionality of a genuine API. 
+To simulate calls to your API, use the mocking service in the API Console of the portal, you can simulate calls to your API. The mocking service is a feature of Anypoint that enables you to generate simulated servers to help you develop and test APIs. These mock servers imitate the actions of accepting requests and providing responses. The mocking service replicates the functionality of a genuine API. 
 
 == Before You Begin
 
@@ -14,9 +14,9 @@ To access the internal URL, you must specify the authorization headers as part o
 
 . On the *Home* or the *APIs* page, select a REST API.
 . Select the *API specification* tab.
-. In the *Specification* pane, click a method like `GET`.
+. Click a method like `GET`.
 . In the *Documentation* pane, review the requests and responses data.
-. In the *Try it* pane, enter and query parameters you want to test. 
+. In the *Try it* pane, enter query parameters you want to test. 
 +
 You can enter query parameters as name-value pairs.
 . Click *Send*.
@@ -25,4 +25,4 @@ API Console displays the HTTP return code as specified in your API. Alternately,
 
 == See Also
 
-* xref:using-the-api-console.adoc[API Console]
+* xref:using-the-api-console.adoc[]

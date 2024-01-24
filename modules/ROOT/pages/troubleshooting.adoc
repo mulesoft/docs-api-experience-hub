@@ -31,7 +31,7 @@ The *Current Members* section shows the *Builder Preview* member and *Author* ac
 . Reload the page if the images are not showing up.
 
 
-== Cannot Access the API Management Page To Disconnect Portal
+== Cannot Access the API Management Page to Disconnect Portal
  
 The unlinking process deletes the configuration created during the linking process, connected apps, and IDPs in the Anypoint organization. This process does not delete your portal or uninstall the API Experience Hub package. Use this method if you want to create a portal using another Salesforce organization with the same Anypoint account.
 
@@ -110,14 +110,14 @@ curl --location --request DELETE 'https://anypoint.mulesoft.com/api-experience-h
 +
 The connections is deleted. You can connect to a new connection to another Salesforce organization. We recommend deleting the browser cache or using a new incognito browser to have a fresh environment to start the linking process again.
 
-== API Experience Hub Does Not Show On the Anypoint Platform Landing Page
+== API Experience Hub Does Not Show on the Anypoint Platform Landing Page
 If API Experience Hub does not show on the Anypoint Platform landing page, ensure that you are using the main organization. Contact the MuleSoft administrator to ensure that the entitlement is enabled.
 
 == Error Occurs When Changing the Relax IP Restrictions Option 
 
 In this release, IP restrictions for the connected app are not supported. By default, the IP Restrictions field is set to `Relax IP Restrictions`. If you have Trusted IP Ranges in your organization, they are bypassed by the connected app. To avoid errors, do not change the *IP Restrictions* field from `Relax IP Restrictions` because it produces errors when creating the portal. 
 
-== Error Saving Changes To the Portal When an Object has Validation Rules Activated
+== Error Saving Changes to the Portal When an Object Has Validation Rules Activated
 
 An error occurs when saving styling changes to the portal if an object has validation rules applied for standard objects that are created during the Salesforce linking process. 
 

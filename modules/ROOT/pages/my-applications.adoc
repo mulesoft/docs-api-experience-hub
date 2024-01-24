@@ -3,16 +3,15 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-The My Applications page lists applications that hold a contract with an API. Each client application has a client ID, client secret, description, URL, redirect URIs, and grant types.
+The My Applications page enables you to review the lists applications that hold a contract with an API. Each client application has a client ID, client secret, description, URL, redirect URIs, and grant types.
 
 APIs that are protected by a client ID enforcement policy require client applications to provide a client ID and optional client secret. The client ID and client secret credentials are automatically created when the client application is registered. For more information about registering an application, see xref:requesting-access-to-an-api-instance.adoc[Requesting Access to an API Instance].
 
 //placeholder for screen capture of My Applications page
 
-From this page, you can see the application name, description, and the client credentials of an application.
 
 == Search for Applications
-If there are several applications listed in the My Applications page, you can search for a specific one by using the Search box. Enter the application name or description of the application and press Enter or Return. The number of applications that match your search criteria display in the list of search results.
+If there are several applications listed in the My Applications page, search for a specific one by using the Search box. Enter the application name or description of the application and press Enter or Return. The number of applications that match your search criteria display in the list of search results.
 
 //screen capture of My Applications with search results
 
@@ -79,7 +78,7 @@ You can edit a client application name, description, OAuth 2.0 grant type, OAuth
 
 === View and Copy the Instance URL
 
-You can view the instance URL for an API by clicking *View URL* and copy it by clicking the *Copy from clipboard* icon.
+To view the instance URL for an API by clicking *View URL* and copy it by clicking the *Copy from clipboard* icon.
 
 === Add an SLA Tier
 SLA tiers are defined in API Manager and display as SLA Tier options in the Application Details page. If an application does not have an SLA tier listed, you can request to add an SLA tier. The instance owner must approve the tier.
