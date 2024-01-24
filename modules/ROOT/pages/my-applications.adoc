@@ -11,7 +11,7 @@ APIs that are protected by a client ID enforcement policy require client applica
 
 
 == Search for Applications
-If there are several applications listed in the My Applications page, search for a specific one by using the Search box. Enter the application name or description of the application and press Enter or Return. The number of applications that match your search criteria display in the list of search results.
+If the *My Applications* page lists several applications, search for a specific one by using the Search box. Enter the application name or description of the application and press Enter or Return. The number of applications that match your search criteria displays in the list of search results.
 
 //screen capture of My Applications with search results
 
