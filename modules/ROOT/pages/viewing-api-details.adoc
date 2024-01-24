@@ -32,7 +32,7 @@ A description of the API.
 The version of the API.
 * *Version state*
 +
-The lifecycle state of this API. Lifecycle states are development, stable, and deprecated.
+The lifecycle state (development, stable, or deprecated) of this API. 
 * *Instances*
 +
 The count of instances of the API.

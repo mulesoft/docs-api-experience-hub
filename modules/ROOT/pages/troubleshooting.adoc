@@ -148,7 +148,7 @@ The linking process fails when the user who executes the linking process has the
 
 To resolve this issue, add the organization administrator permission to the user who is executing the Salesforce linking in the business group.
 
-== Not Receiving Emails From Salesforce Experience Cloud
+== Not Receiving Emails from Salesforce Experience Cloud
 If you are not receiving emails from Salesforce Experience Cloud, disable the standard configuration by following these steps:
 
 . Go to *Setup* > *Deliverability* > *Email Security Compliance*.
