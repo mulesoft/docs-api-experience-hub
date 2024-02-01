@@ -35,14 +35,14 @@ The Asset Details Header component displays the API header, including icon, name
 
 The API icon, name, and description shown are set in the API Experience Hub control panel when you add an API version to your community. The contact email is set in Anypoint Exchange.
 
-//You can enter or select the following Asset API Header properties:
-//
-//* Record id
-//* Show API Contact
-//* Show API Clients
-//* Show instance URL
-//* Show categories
-//* Show tags
+Enter or select the following properties to show in the *API details* page:
+
+* Record ID
+* Show API Contact
+* Show API Clients
+* Show instance URL
+* Show categories
+* Show tags
 
 == Asset Version 
 
