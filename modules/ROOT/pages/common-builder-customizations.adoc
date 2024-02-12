@@ -5,7 +5,7 @@ endif::[]
 
 From the Builder, you can use the following portal customizations to match your company's brand.
 
-You access the Builder from the *Manage yur API portal* page by clicking *Preview an publish your portal*.
+Access the Builder from the *Manage yur API portal* page by clicking *Preview an publish your portal*.
 
 == Add and Remove Portal Components
 From the Builder, add or remove API Experience Hub components from your portal.
