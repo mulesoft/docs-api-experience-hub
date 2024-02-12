@@ -5,6 +5,8 @@ endif::[]
 
 From the Builder, you can use the following portal customizations to match your company's brand.
 
+Access the Builder from the *Manage your API portal* page by clicking *Preview and publish your portal*.
+
 == Add and Remove Portal Components
 From the Builder, add or remove API Experience Hub components from your portal.
  
@@ -15,7 +17,7 @@ From the Builder, add or remove API Experience Hub components from your portal.
 . To remove a component, click the trash can icon and click *Delete*.
 
 === Customize Colors for Each API Type
-To customize the color for each API type that displays in the Home page:
+To customize the color for each API type that displays in the *Home* page:
 
 . Navigate to the Builder.
 . Click the *Builder* icon.
@@ -34,7 +36,7 @@ The following shows the asset type color variables:
 +
 . Change the color variable number for the asset type and click *Save*.
 
-== Edit the Background Color of the Login Page
+== Change the Background Color of the Login Page
 To change the background color of your portal's login page:
 
 . Navigate to the Builder.
@@ -47,7 +49,7 @@ Your current login page displays in the Builder.
 +
 The background color of your Login page changes to the select color.
 
-== Edit the Card Background Color of the Login Page
+== Change the Card Background Color of the Login Page
 To change the card background color of your login page card: 
  
 . Navigate to the Builder.
@@ -60,7 +62,7 @@ Your current login page displays in the Builder.
 +
 The card background color of your Login page changes to the selected color.
 
-== Edit the Email Template for Portal Registration
+== Change the Email Template for Portal Registration
 To edit the email information that is sent to users who register for your site: 
 
 . Navigate to the Builder.
@@ -69,22 +71,20 @@ To edit the email information that is sent to users who register for your site:
 . Click *Emails*
 . Make your changes and click *Save*.
 
-== Edit the Logo Image for Self-Registration and Login Pages
+== Change the Logo Image for Self-Registration and Login Pages
 By default, the logo image used for the login pages is the image added during the guided styling setup. To change the image for the login pages:
 
 . Navigate to the Builder.
 . Click the *Builder* icon.
 . From *My Workspaces*, click *Administration*.
 . Select *Login & Registration*.
-//I have insufficient privileges so I cannot get to the next steps.
 . From the *Branding Options* section, click the *Choose File* button from *Logo File*.
 +
 The maximum height of the logo is 125 px and the maximum width is 250 px.
 
-== Edit the Portal Domain
-By default, Experience Cloud generates the URL for your portal domain. You can customize this for your organization. For example, you can change the URL to <yourcompany>.com 
+== Customize the Portal Domain
+By default, Experience Cloud generates the URL for your portal domain. You can customize the domain for your organization. For example, you can change the URL to <yourcompany>.com. Currently, you cannot change the portal's subpath of `aeh` in the URL.
 
-//Need to create a custom domain https://help.salesforce.com/s/articleView?id=sf.domain_mgmt_update_dns.htm&type=5the user the steps below
 
 . Navigate to the Builder.
 . Click the *Builder* icon.
