@@ -7,6 +7,7 @@ This use case includes instructions for configuring SSO for the portal using an 
 
 The instructions in this case are using Okta as an example identity provider however, you can use any identity provider to set up SSO.
 
+Ensure that you enter the correct information during this setup or end users cannot use the identity provider as a login option.
 
 == Before You Begin
 Ensure you have the following setup:
@@ -73,6 +74,7 @@ You set up the auth provider or SSO settings in Salesforce with the identity pro
 |*Execute Registration As*|Select an administrator user. 
 |===
 image::aeh-salesforce-auth-provider.png[Salesforce Auth. Provider example]
+. Review the information to ensure it is correct.
 . Click *Save*. 
 
 === Configure the Redirect URIs for the Portal

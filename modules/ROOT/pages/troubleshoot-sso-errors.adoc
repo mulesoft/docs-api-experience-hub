@@ -69,4 +69,73 @@ When trying to log in to the portal with an identity provider, you see a *Proble
 
 To troubleshoot this issue, ensure that the URL is properly configured. For Okta, the `/userinfo` part of the URL path must be lowercase.
 
+== No Option to Log In to the Portal Through the Identity Provider 
+
+There is no option to log in to the portal through the identity provider after the identity provider is configured, mapped, and enabled in the API Experience Hub UI. 
+
+A few issues can cause this error to occur:
+
+Currently, the information entered when setting up SSO for the portal cannot be verified from API Experience Hub. 
+
+The following issues prevent end users from logging in to the portal using the identity provider:
+
+* The *Auth. Provider* page has incorrect information for configuring an authentication provider for Salesforce. 
+* The wrong Anypoint identity provider is mapped in the API Experience Hub UI.
+* Users are assigned to the wrong user group in Access Management or not added.
+
+To troubleshoot this issue, review the information entered in the *Auth. Provider* page, Access Management, and API Experience Hub UI.
+
+To review and change information entered in the *Auth. Provider* page:
+
+. In *Salesforce*, go to *Setup*.
+. In the *Quick Find* box, enter `Auth`, and then select *Auth. Providers*.
+. Select the auth provider that was configured for Salesforce.
+. Review the information to ensure the following fields are correct:
++
+[%header,cols="1a,2a"]
+|===
+|Field|Value
+|*Provider Type*|*OpenID Connect* 
+|*Name*| Enter a name for the provider.
+|*Consumer Key* |Enter the client ID from the identity provider.
+|*Consumer Secret*|Enter the client secret from the identity provider.
+|*Authorize Endpoint URL*| Enter `https://{domainofOktaorg}.okta.com/oauth2/v1/authorize*`.
+|*Token Endpoint URL* |Enter `https://{domainofOktaorg}.okta.com/oauth2/v1/token`.
+|*User Info Endpoint URL*|Enter `https://{domainofOktaorg}.okta.com/oauth2/v1/userinfo``.
+|*Default Scopes*  |*profile openid email groups* 
+|*Registration handler*  |*AEHPortalRegistrationHandler* 
+|*Execute Registration As*  |Select an administrator user. 
+|===
++
+Here is an example of the *Auth. Provider* page:
++
+image::aeh-salesforce-auth-provider.png[Salesforce Auth. Provider example]
+
+. To make changes, click *Edit* and then *Save*.
+
+To review and change the Anypoint identity provider mapped in the API Experience Hub UI:
+
+. Go to *API Experience Hub > User management*.
+. From the *User management* page, select the *Login settings* tab.
+. From the *Single sign-on (SSO)* section, scroll down to step 2 *Add Salesforce identity providers*.
+. Click *Select identity provider* and select an option from the drop-down menu. 
+. Click *+ Add identity provider*.
+. Move the slider to *Enabled*.
+
+To review the user group for the identity provider:
+
+. Go to *Access Management* > *Teams*.
+. Click *AEH Portal Members*.
+. Click *External IdP Groups*.
+. Ensure that the group name is *AEH Portal Members*.
+. If the group is not listed, add the group.
++
+image::aeh-sso-access-mgmt-ext-idp-groups.png[Access Management group mapping]
+. Click *Save Changes*.
++
+The SSO users associated with the group you designated are assigned to the team. 
+
+
+
+
 
