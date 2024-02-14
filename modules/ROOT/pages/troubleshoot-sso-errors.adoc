@@ -71,19 +71,14 @@ To troubleshoot this issue, ensure that the URL is properly configured. For Okta
 
 == No Option to Log In to the Portal Through the Identity Provider 
 
-There is no option to log in to the portal through the identity provider after the identity provider is configured, mapped, and enabled in the API Experience Hub UI. 
+There is no option to log in to the portal through the identity provider after the identity provider is configured, mapped, and enabled in the API Experience Hub UI. Currently, the information entered when setting up SSO cannot be verified from API Experience Hub. Errors can occur and prevent end users from logging in to the portal using this method.
 
-A few issues can cause this error to occur:
-
-Currently, the information entered when setting up SSO for the portal cannot be verified from API Experience Hub. 
-
-The following issues prevent end users from logging in to the portal using the identity provider:
+A few issues can cause this problem:
 
 * The *Auth. Provider* page has incorrect information for configuring an authentication provider for Salesforce. 
 * The wrong Anypoint identity provider is mapped in the API Experience Hub UI.
-* Users are assigned to the wrong user group in Access Management or not added.
+* The correct user group was not added in Access Management.
 
-To troubleshoot this issue, review the information entered in the *Auth. Provider* page, Access Management, and API Experience Hub UI.
 
 To review and change information entered in the *Auth. Provider* page:
 
@@ -107,11 +102,9 @@ To review and change information entered in the *Auth. Provider* page:
 |*Execute Registration As*  |Select an administrator user. 
 |===
 +
-Here is an example of the *Auth. Provider* page:
-+
 image::aeh-salesforce-auth-provider.png[Salesforce Auth. Provider example]
 
-. To make changes, click *Edit* and then *Save*.
+. To make changes, click *Edit* and then click *Save*.
 
 To review and change the Anypoint identity provider mapped in the API Experience Hub UI:
 
