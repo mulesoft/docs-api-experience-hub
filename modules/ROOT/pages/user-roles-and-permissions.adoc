@@ -18,7 +18,7 @@ Administrators can only add APIs for which they have the Exchange Viewer permiss
 
 Administrators access the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore, API Experience Hub cannot determine the individual administrator's action in the shared account. 
 
-API Experience Hub is integrated with Salesforce Experience Cloud. The System Administrator profile has specific permissions to perform functions on the Salesforce platform. The user with this profile performs the initial step of creating an API portal by connecting to the Salesforce Experience Cloud and linking theSalesforce organization to the Anypoint organization. This process can only be done by the Salesforce user with the System Administrator profile.
+API Experience Hub is integrated with Salesforce Experience Cloud. The System Administrator profile has specific permissions to perform functions on the Salesforce platform. The user with this profile performs the initial step of creating an API portal by connecting to the Salesforce Experience Cloud and linking the Salesforce organization to the Anypoint organization. This process can only be done by the user with the System Administrator profile.
 
 |===
 |Role/Permission/Profile |Description |Actions
