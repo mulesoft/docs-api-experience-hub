@@ -5,6 +5,7 @@
 ** xref:limitations.adoc[]
 ** xref:best-practices.adoc[]
 * xref:api-experience-hub-release-notes.adoc[Release Notes]
+* xref:user-roles-and-permissions.adoc[]
 * xref:getting-started.adoc[]
 * xref:assigning-administrator-permissions.adoc[]
 * xref:connecting-to-salesforce.adoc[]
