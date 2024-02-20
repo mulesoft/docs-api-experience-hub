@@ -58,6 +58,7 @@ Shows the API version from Exchange when only one version is visible.
 == Version State
 
 Shows the API version lifecycle state.
+
 * Asset Documentation Viewer
 
 The API Documentation Viewer component shows an API’s documentation from Anypoint Exchange. The documentation can have multiple pages, and each page can have multiple sections.
