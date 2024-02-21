@@ -26,6 +26,7 @@ If you do not have the required accounts and access, issues may occur during the
 
 == See Also
 
+* xref:user-roles-permissions-and-profiles.adoc[]
 * xref:licensing.adoc[Licensing]
 * xref:getting-started.adoc[Getting Started]
 * xref:connecting-to-salesforce.adoc[Connecting to Salesforce]

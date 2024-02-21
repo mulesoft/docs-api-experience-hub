@@ -71,4 +71,5 @@ When the linking is complete, you can xref:styling-your-api-portal.adoc[style yo
 == See Also
 
 * xref:troubleshooting.adoc[Troubleshooting]
+* xref:assigning-administrator-permissions.adoc[]]
 

@@ -1,7 +1,7 @@
 .Anypoint API Experience Hub
 * xref:index.adoc[]
 ** xref:prerequisites.adoc[]
-** xref:user-roles-and-permissions.adoc[]
+** xref:user-roles-permissions-and-profiles.adoc[]
 ** xref:licensing.adoc[]
 ** xref:limitations.adoc[]
 ** xref:best-practices.adoc[]

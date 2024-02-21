@@ -81,9 +81,6 @@ a|
 * Request access to APIs.| 
 |===
 
-
-
-
 == See Also
 * xref:prerequisites.adoc[]
 * xref:assigning-administrator-permissions.adoc[]
