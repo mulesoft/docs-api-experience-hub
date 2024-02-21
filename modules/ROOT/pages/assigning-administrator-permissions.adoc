@@ -5,7 +5,7 @@ endif::[]
 
 Anypoint Platform comes with predefined permissions that you can set in Anypoint Access Management to provide users with different access levels. You configure the permissions for administrators and Exchange viewers. 
 
-The Salesforce platform uses the System Administrator profile which contains all of the permissions to perform specific tasks on the Experience Cloud. For API Experience Hub, this profile is required for the user who installs and manages the Salesforce organization.
+The Salesforce platform uses the System Administrator profile which contains all of the permissions to perform specific tasks in Experience Cloud. For API Experience Hub, this profile is required for the user who installs and manages the Salesforce organization.
 
 
 == Before You Begin
@@ -51,17 +51,17 @@ To grant the Exchange Viewer permission to a user:
 == Create the AEH_Anypoint Permission Set to Limit the Permissions for the User Who Performs the Linking Process 
 
 //Apply the Principle of Least Privilege for Your Salesforce Organization
-A user with the System Administrator profile is required to connect the Salesforce Experience Cloud and link the Salesforce organization with the Anypoint Platform organization. The System Administrator profile might have more permissions than necessary. For users with an existing Salesforce organization and potentially sensitive data, ensure the security of that data by following the principle of least privilege. Configure only those permissions that you want the user who performs the linking process using the AEH_Anypoint permission set. The Organization Administrator or the System Admin creates the AEH_Anypoint permission set with all the necessary permissions and assigns the permission set to the a user. The permission set can be created manually in Salesforce or it can be deployed using the *     .xml* file.
+A user with the System Administrator profile is required to connect the Salesforce Experience Cloud and link the Salesforce organization with the Anypoint Platform organization. The System Administrator profile might have more permissions than necessary. For users with an existing Salesforce organization and potentially sensitive data, ensure the security of that data by following the principle of least privilege. Configure only those permissions that you want the user who performs the linking process using the AEH_Anypoint permission set. The Organization Administrator or the System Admin creates the AEH_Anypoint permission set with all the necessary permissions and assigns the permission set to the a user. You can deploy the permission set via your CI/CD using the *AEH_Anypoint.permissionset-meta.xml* metadata file or you can create it manually in Salesforce.
 
-Perform the following steps to create the permission set, assign the necessary permissions, and assign a user with the permission set:
+Perform the following steps to manually create the permission set, assign the necessary permissions, and assign a user to the permission set:
 
 . Create the AEH_Anypoint permission set:
 +
 .. Log in to Salesforce as the System Administrator.
 .. In *Setup*, enter `permission sets` in the Quick Find box and click *Permission Sets*.
-.. Click *Add* to add a new permission set.
-.. In the *Label* field, enter `AEH_Anypoint`.
-.. In the *API Name* field, enter `AEH_Anypoint`.
+.. Click *Add*.
+.. In the *Label* field, enter `AEH_Anypoint` exactly as it appears.
+.. In the *API Name* field, enter `AEH_Anypoint` exactly as it appears.
 .. Click *Save*
 .. In the *Systems* section, click *System Permissions*.
 .. Click *Edit*.
@@ -133,7 +133,7 @@ Perform the following steps to create the permission set, assign the necessary p
 .. In the *Full Name* column, select the name of the user.
 .. In *Permission Set Assignments* section, click *Edit Assignments*.
 .. Select *AEH_Anypoint* from the *Available Permission Sets* list and  move the set to the *Enabled Permission Sets* list.
-.. Click *save*.
+.. Click *Save*.
 
 
 
