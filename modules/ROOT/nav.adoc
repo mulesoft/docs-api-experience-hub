@@ -7,7 +7,7 @@
 ** xref:best-practices.adoc[]
 * xref:api-experience-hub-release-notes.adoc[Release Notes]
 * xref:getting-started.adoc[]
-* xref:assigning-administrator-permissions.adoc[]
+* xref:assigning-permissions.adoc[]
 * xref:connecting-to-salesforce.adoc[]
 * xref:styling-your-api-portal.adoc[]
 * xref:managing-your-portal.adoc[]
