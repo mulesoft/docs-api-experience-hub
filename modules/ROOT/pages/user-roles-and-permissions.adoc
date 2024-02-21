@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-API Experience Hub has roles, permissions, and profiles  that you set in Access Management to manage users with different access levels. For more information, see xref:access-management::managing-permissions.adoc[Managing Permissions in Access Management]. The System Administrator profile is set in Salesforce and is assigned to the user who performs the linking process.
+API Experience Hub has roles, permissions, and profiles  that you set in Access Management to manage users with different access levels. For more information, see xref:access-management::managing-permissions.adoc[Managing Permissions in Access Management]. The System Administrator profile is set in Salesforce and is assigned to the user who performs the linking process. This topic provides information about TODO...
 
 == Administrator Roles, Permissions, and Profiles
 The Organization Administrator role has all of the permissions necessary to create, curate, manage, and customize a portal. This role can also grant another user in their organization the API Experience Hub Administrator permission. This permission enables a user to do all of the same tasks in the portal as the Organization Administrator.
