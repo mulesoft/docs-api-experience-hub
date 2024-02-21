@@ -1,8 +1,8 @@
 = Getting Started with API Experience Hub 
-:page-aliases: prerequisites.adoc
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
+:page-aliases: prerequisites.adoc
 
 Verify that you have the following required accounts and access:
 
