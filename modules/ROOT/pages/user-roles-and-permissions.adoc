@@ -5,6 +5,7 @@ endif::[]
 
 This topic provides information about the user roles, permissions, and profiles used in API Experience Hub for Anypoint platform and Salesforce Experience Cloud. For Anypoint platform, users with different access level are managed using Access Management. For more information, see xref:access-management::managing-permissions.adoc[Managing Permissions in Access Management]. For Experience Cloud, the System Administrator profile is required for the user who performs the linking process. 
 
+== Administrators
 The Organization Administrator role has all of the permissions necessary to create, curate, manage, and customize a portal. This role can also grant another user in their organization the API Experience Hub Administrator permission. This permission enables a user to do all of the same tasks in the portal as the Organization Administrator.
 
 //If there is more than one user who intends to curate and manage the portal, the Organization Administrator can grant another user the API Experience Hub Portal Administrator permission. This administrator has fewer permissions in the portal than the Organization Administrator and the API Experience Hub Administrator.
@@ -47,6 +48,17 @@ a|
 * Perform the Salesforce linking process
 |===
 
+=== Exchange Permissions
+All administrators must have the Exchange Viewer permission to import APIs into the portal.
+
+|===
+|Permission |Description |Actions
+|Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission cannot add new assets, edit asset portal content, or share an asset with another user.
+a|
+* View APIs in Exchange
+* Import APIs from Exchange to the portal |
+|===
+
 == Consumer Users
 API Experience Hub has the following consumer user profiles:
 
@@ -70,16 +82,7 @@ a|
 |===
 
 
-== Exchange Permissions
-All administrators must have the Exchange Viewer permission to import APIs into the portal.
 
-|===
-|Permission |Description |Actions
-|Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission cannot add new assets, edit asset portal content, or share an asset with another user.
-a|
-* View APIs in Exchange
-* Import APIs from Exchange to the portal |
-|===
 
 == See Also
 * xref:prerequisites.adoc[]
