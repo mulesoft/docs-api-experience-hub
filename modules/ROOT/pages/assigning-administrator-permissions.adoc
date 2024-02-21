@@ -51,7 +51,7 @@ To grant the Exchange Viewer permission to a user:
 == Create the AEH_Anypoint Permission Set to Limit the Permissions for the User Who Performs the Linking Process 
 
 //Apply the Principle of Least Privilege for Your Salesforce Organization
-A user with the System Administrator profile is required to connect the Salesforce Experience Cloud and link the Salesforce organization with the Anypoint Platform organization. The System Administrator profile might have more permissions than necessary. For users with an existing Salesforce organization and potentially sensitive data, ensure the security of that data by following the principle of least privilege. Configure only those permissions that you want the user who performs the linking process using the AEH_Anypoint permission set. The Organization Administrator or the System Admin creates the AEH_Anypoint permission set with all the necessary permissions and assigns the permission set to the a user. You can deploy the permission set via your CI/CD using the *AEH_Anypoint.permissionset-meta.xml* metadata file or you can create it manually in Salesforce.
+A user with the System Administrator profile is required to connect the Salesforce Experience Cloud and link the Salesforce organization with the Anypoint Platform organization. The System Administrator profile might have more permissions than necessary. For users with an existing Salesforce organization and potentially sensitive data, ensure the security of that data by following the principle of least privilege. Configure only those permissions that you want the user who performs the linking process using the AEH_Anypoint permission set. The Organization Administrator or the System Admin creates the AEH_Anypoint permission set with all the necessary permissions and assigns the permission set to the a user. You can create the permission set manually in Salesforce or deploy it via your CI/CD pipeline using the *AEH_Anypoint.permissionset-meta.xml* metadata file. 
 
 Perform the following steps to manually create the permission set, assign the necessary permissions, and assign a user to the permission set:
 
@@ -135,9 +135,7 @@ Perform the following steps to manually create the permission set, assign the ne
 .. Select *AEH_Anypoint* from the *Available Permission Sets* list and  move the set to the *Enabled Permission Sets* list.
 .. Click *Save*.
 
-
-
-
+Use the following AEH_Anypoint.permissionset-meta.xml metadata file to deploy the permission set via your CI/CD:
 
 [source,xml]
 ----
@@ -407,10 +405,7 @@ Perform the following steps to manually create the permission set, assign the ne
     </userPermissions>
 </PermissionSet>
 ----
-
-
-
 == See Also
 
-* xref:user-roles-and-permissions.adoc
-* xref:connecting-to-salesforce.adoc[Connecting to Salesforce]
+* xref:user-roles-and-permissions.adoc[]
+* xref:connecting-to-salesforce.adoc[]
