@@ -38,7 +38,8 @@ After your styling changes for the portal are saved, the AEH Portal Admin team i
 * Ensure that you are a System Admin or have the AEH_Anypoint permission set in the Salesforce organization that you are connecting with.
 
 == Connect to Salesforce 
-The process of creating your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint Platform organization to your Salesforce organization, then installing the Salesforce Experience Cloud package. The linking process is a one-time step when creating your portal.
+//The process of creating your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint Platform organization to your Salesforce organization, then installing the Salesforce Experience Cloud package. 
+The linking process is a one-time step when creating your portal.
 
 NOTE: Only an Organization Administrator, API Experience Hub Administrator, and a Salesforce user with the System Administrator profile or AEH_Anypoint permission set can link organizations.
 
