@@ -22,13 +22,16 @@ Administrators can only add APIs for which they have the Exchange Viewer permiss
 
 API Experience Hub is integrated with Salesforce Experience Cloud. Administrators access the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore, API Experience Hub cannot determine the individual administrator's action in the shared account. 
 
-The System Administrator profile has specific permissions to perform functions on the Salesforce platform. The user with this profile performs the initial step of creating an API portal by connecting to the Salesforce Experience Cloud and linking the Salesforce organization to the Anypoint organization. This process can only be done by the user with the System Administrator profile. A permission set can also be created to have only the minimal necessary permissions for the user who performs the liking process. For more information, see xref:assigning-administrator-permissions.adoc#create-a-permission-set-to-limit-the-permissions-for-the-user-who-performs-the-linking-process[Create a Permission Set To Limit the Permissions for the User Who Performs the Linking Process].
+The System Administrator profile has specific permissions to perform functions on the Salesforce platform. The user with this profile performs the initial step of creating an API portal by connecting to the Salesforce Experience Cloud and linking the Salesforce organization to the Anypoint organization. This process can only be done by the user with the System Administrator profile. A permission set can also be created to have only the minimal necessary permissions for the user who performs the liking process. For more information, see xref:assigning-permissions.adoc#create-a-permission-set-to-limit-the-permissions-for-the-user-who-performs-the-linking-process[Create a Permission Set To Limit the Permissions for the User Who Performs the Linking Process].
 
 |===
 |Role/Permission/Profile |Description |Actions
 |Salesforce System Administrator|This profile must be assigned to the user who performs the Salesforce linking process.
 a|
 * Perform the Salesforce linking process
+|AEH_Anypoint permission set|This permission set contains the minimum permissions required for a Salesforce user to perform the linking process. For more information about creating this permission set, see xref:assigning-permissions.adoc[]
+a|
+* A user with this permission set can perform the Salesforce linking process
 |Organization administrator in the main organization|API Experience Hub is business group agnostic which means that the portal belongs to the main organization only and the admin can create portals across business groups. The organization administrator inherits all API Experience Hub permissions, enabling them to perform any available operation within the platform.
 a|
 * Perform the Salesforce linking process
@@ -88,5 +91,5 @@ a|
 
 == See Also
 * xref:prerequisites.adoc[]
-* xref:assigning-administrator-permissions.adoc[]
+* xref:assigning-permissions.adoc[]
 * xref:connecting-to-salesforce.adoc[]

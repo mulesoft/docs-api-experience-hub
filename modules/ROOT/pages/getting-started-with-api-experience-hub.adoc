@@ -9,7 +9,7 @@ Verify that you have the following required accounts and access:
 * Anypoint Platform organization in production
 * Salesforce organization
 * Organization Administrator of the main organization
-* You must be a System Administrator or a Salesforce user with the AEH_Anypoint permission set assigned in the Salesforce organization that you are linking to during the connection process. For more information about the AEH_Anypoint permission set, see 
+* You must have the System Administrator profile or a Salesforce user with the AEH_Anypoint permission set assigned in the Salesforce organization that you are connecting to during the linking process. For more information, see xref:assigning-permissions.adoc[].
 +
 The process of creating your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint Platform organization to your Salesforce organization. 
 * API Experience Hub license
@@ -28,6 +28,6 @@ If you do not have the required accounts and access, issues may occur during the
 == See Also
 
 * xref:user-roles-permissions-and-profiles.adoc[]
-* xref:licensing.adoc[Licensing]
-* xref:getting-started.adoc[Getting Started]
-* xref:connecting-to-salesforce.adoc[Connecting to Salesforce]
+* xref:licensing.adoc[]
+* xref:getting-started.adoc[]
+* xref:connecting-to-salesforce.adoc[]

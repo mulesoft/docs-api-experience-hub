@@ -89,5 +89,5 @@ See the following topics for information about supported browsers:
 
 == See Also
 
-* xref:prerequisites.adoc[Prerequisites]
-* xref:getting-started.adoc[Getting Started]
+* xref:getting-started-with-api-experience-hub.adoc[]
+* xref:getting-started.adoc[]

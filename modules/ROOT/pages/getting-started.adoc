@@ -9,7 +9,7 @@ The following users can get started with these tasks:
 
 Administrators can create an API portal in these easy steps:
 
-. xref:assigning-administrator-permissions.adoc[Assign administer permissions]
+. xref:assigning-permissions.adoc[Assign permissions]
 + 
 Set up the necessary permissions for administrators to connect to Salesforce and create a portal.
 . xref:connecting-to-salesforce.adoc[Connect to Salesforce]
@@ -39,7 +39,7 @@ Developers can discover and consume APIs using these tasks:
 
 == See Also
 
-* xref:prerequisites.adoc[Prerequisites]
+* xref:getting-started-with-api-experience-hub.adoc[]
 
 
 
