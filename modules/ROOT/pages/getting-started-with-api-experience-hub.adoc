@@ -23,7 +23,7 @@ To set up an organization, you can have the following Salesforce editions:
 * Enterprise Edition
 * Performance Editions of Salesforce
 
-If you do not have the required accounts and access, issues may occur during the Salesforce linking process when creating your API portal.
+If you do not have the required accounts and access, issues can occur during the Salesforce linking process when creating your API portal.
 
 == See Also
 

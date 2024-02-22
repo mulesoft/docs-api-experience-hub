@@ -3,9 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-This topic provides information about the user roles, permissions, and profiles used in API Experience Hub for  Salesforce Experience Cloud and Anypoint platform. 
+This topic provides information about the user roles, permissions, and profiles used in API Experience Hub for  Salesforce Experience Cloud and Anypoint Platform. 
 
-* For Anypoint platform, users with different access level are managed using Access Management. For more information, see xref:access-management::managing-permissions.adoc[Managing Permissions in Access Management]. 
+* For Anypoint Platform, users with different access level are managed using Access Management. For more information, see xref:access-management::managing-permissions.adoc[Managing Permissions in Access Management]. 
 * For Experience Cloud, the System Administrator profile is required for the user who performs the linking process. 
 
 
@@ -22,7 +22,7 @@ Administrators can only add APIs for which they have the Exchange Viewer permiss
 
 API Experience Hub is integrated with Salesforce Experience Cloud. Administrators access the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore, API Experience Hub cannot determine the individual administrator's action in the shared account. 
 
-The System Administrator profile has specific permissions to perform functions on the Salesforce platform. The user with this profile performs the initial step of creating an API portal by connecting to the Salesforce Experience Cloud and linking the Salesforce organization to the Anypoint organization. This process can only be done by the user with the System Administrator profile. A permission set can also be created to have only the minimal necessary permissions for the user who performs the liking process. For more information, see xref:assigning-permissions.adoc#create-a-permission-set-to-limit-the-permissions-for-the-user-who-performs-the-linking-process[Create a Permission Set To Limit the Permissions for the User Who Performs the Linking Process].
+The System Administrator profile has specific permissions to perform functions on the Salesforce Platform. The user with this profile performs the initial step of creating an API portal by connecting to the Salesforce Experience Cloud and linking the Salesforce organization to the Anypoint organization. This process can only be done by the user with the System Administrator profile. A permission set can also be created to have only the minimal necessary permissions for the user who performs the liking process. For more information, see xref:assigning-permissions.adoc#create-a-permission-set-to-limit-the-permissions-for-the-user-who-performs-the-linking-process[Create a Permission Set To Limit the Permissions for the User Who Performs the Linking Process].
 
 |===
 |Role/Permission/Profile |Description |Actions
