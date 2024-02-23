@@ -56,7 +56,7 @@ A Salesforce user with the System Administrator profile is required to connect t
 
 The permissions for the System Admin can be downgraded with the permissions set before or after there is a connection to Salesforce. If the Salesforce user is the same user who created the connection, then that user can be assigned to the AEH_Anypoint permission set without disconnecting the portal and creating the connection again. If you want to assign the permission set to another Salesforce user who did not create the connection, the portal must be disconnected and created again. For example, the original Salesforce user who connected to Salesforce left the company.
 
-Perform the following steps to manually create the permission set, assign the necessary permissions, and assign a user to the permission set:
+Perform the following steps to manually create the permission set, add the necessary permissions, and assign a user to the permission set:
 
 . Create the AEH_Anypoint permission set:
 +
@@ -412,11 +412,11 @@ To deploy the permission set via your CI/CD, use the following AEH_Anypoint.perm
 </PermissionSet>
 ----
 
-. Run the following command with your `path/to/permissionset/` and `orgAlias` parameters:
+. Run the following command and replace `path/to/permissionset/` and `orgAlias` with your inputs:
 +
 [source,code]
 ----
-sf project deploy start --source-dir <path/to/permissionset/> -o <orgAlias>
+sf project deploy start --source-dir path/to/permissionset/ -o orgAlias
 ----
 . To verify that the permission set was created:
 +
