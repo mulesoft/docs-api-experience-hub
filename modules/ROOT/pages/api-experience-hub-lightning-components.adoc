@@ -47,8 +47,8 @@ Enter or select the following properties to show in the *API details* page:
 * Show instance URL
 * Show categories
 * Show tags
-* Show request access button
-* Show download spec button
+* Show Request access button
+* Show Download spec button
 * Show lifecycle state
 
 == Asset Version 

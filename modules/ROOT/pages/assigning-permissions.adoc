@@ -52,7 +52,9 @@ To grant the Exchange Viewer permission to a user:
 == Create the AEH_Anypoint Permission Set With the Minimum Permissions for the Salesforce User To Perform the Linking Process 
 
 //Apply the Principle of Least Privilege for Your Salesforce Organization
-A Salesforce user with the System Administrator profile is required to connect the Salesforce Experience Cloud and link the Salesforce organization with the Anypoint Platform organization. The System Administrator profile might have more permissions than necessary. For users with an existing Salesforce organization and potentially sensitive data, ensure the security of that data by following the principle of least privilege. Configure only those permissions that you want the user who performs the linking process using the AEH_Anypoint permission set. The Salesforce user with the System Administrator profile creates the AEH_Anypoint permission set with all the necessary permissions and assigns the permission set to a Salesforce user. You can create the permission set manually in Salesforce or deploy it via your CI/CD pipeline using the *AEH_Anypoint.permissionset-meta.xml* metadata file. 
+A Salesforce user with the System Administrator profile is required to connect the Salesforce Experience Cloud and link the Salesforce organization with the Anypoint Platform organization. The System Administrator profile might have more permissions than necessary. For users with an existing Salesforce organization and potentially sensitive data, ensure the security of that data by following the principle of least privilege. Configure only those permissions for the user who performs the linking process using the AEH_Anypoint permission set. The Salesforce user with the System Administrator profile creates the AEH_Anypoint permission set with all the necessary permissions and assigns the permission set to a Salesforce user. You can create the permission set manually in Salesforce or deploy it via your CI/CD pipeline using the *AEH_Anypoint.permissionset-meta.xml* metadata file. 
+
+The permissions for the System Admin can be downgraded with the permissions set before or after there is a connection to Salesforce. If the Salesforce user is the same user who created the connection, then that user can be assigned to the AEH_Anypoint permission set without disconnecting the portal and creating the connection again. If you want to assign the permission set to another Salesforce user who did not create the connection, the portal must be disconnected and created again. For example, the original Salesforce user who connected to Salesforce left the company.
 
 Perform the following steps to manually create the permission set, assign the necessary permissions, and assign a user to the permission set:
 
@@ -136,7 +138,10 @@ Perform the following steps to manually create the permission set, assign the ne
 .. Select *AEH_Anypoint* from the *Available Permission Sets* list and move the set to the *Enabled Permission Sets* list.
 .. Click *Save*.
 
-Use the following AEH_Anypoint.permissionset-meta.xml metadata file to deploy the permission set via your CI/CD:
+To deploy the permission set via your CI/CD, use the following AEH_Anypoint.permissionset-meta.xml metadata file:
+
+. Copy the metadata file and create a file named *AEH_Anypoint.permissionset-meta.xml*.
++
 
 [source,xml,linenums]
 ----
@@ -406,6 +411,14 @@ Use the following AEH_Anypoint.permissionset-meta.xml metadata file to deploy th
     </userPermissions>
 </PermissionSet>
 ----
+
+. Run the following command with your `path/to/permissionset/` and `orgAlias` parameters:
++
+[source,code]
+----
+sf project deploy start --source-dir path/to/permissionset/ -o orgAlias
+----
+
 == See Also
 
 * xref:user-roles-permissions-and-profiles.adoc[]
