@@ -416,8 +416,13 @@ To deploy the permission set via your CI/CD, use the following AEH_Anypoint.perm
 +
 [source,code]
 ----
-sf project deploy start --source-dir path/to/permissionset/ -o orgAlias
+sf project deploy start --source-dir <path/to/permissionset/> -o <orgAlias>
 ----
+. To verify that the permission set was created:
++
+.. Log in to Salesforce as the System Administrator.
+.. In *Setup*, enter `permission sets` in the Quick Find box and click *Permission Sets*.
+.. Locate *AEH_Anypoint* in the list.
 
 == See Also
 
