@@ -58,10 +58,9 @@ Perform the following steps to manually create the permission set, add the neces
 . Create the AEH_Anypoint permission set:
 +
 .. Log in to Salesforce as the System Administrator.
-.. In *Setup*, enter `permission sets` in the Quick Find box and click *Permission Sets*.
+.. In *Setup*, enter `permission sets` in the *Quick Find* box and click *Permission Sets*.
 .. Click *Add*.
-.. In the *Label* field, enter `AEH_Anypoint` exactly as it appears.
-.. In the *API Name* field, enter `AEH_Anypoint` exactly as it appears.
+.. Enter `AEH_Anypoint` exactly as it appears in both the *Label* and *API Name* fields.
 .. Click *Save*
 .. In the *Systems* section, click *System Permissions*.
 .. Click *Edit*.
@@ -129,15 +128,15 @@ Perform the following steps to manually create the permission set, add the neces
 .. Click *Save*.
 . Assign the permission set to a Salesforce user:
 +
-.. In *Setup*, enter `Users` in the Quick Find box and click *Permission Sets*, and click *Users*.
+.. In *Setup*, enter `Users` in the *Quick Find* box and click *Permission Sets*, and click *Users*.
 .. In the *Full Name* column, select the name of the user.
 .. In *Permission Set Assignments* section, click *Edit Assignments*.
 .. Select *AEH_Anypoint* from the *Available Permission Sets* list and move the set to the *Enabled Permission Sets* list.
 .. Click *Save*.
 
-To deploy the permission set via your CI/CD, use the following AEH_Anypoint.permissionset-meta.xml metadata file:
+To deploy the permission set via your CI/CD, use the following `AEH_Anypoint.permissionset-meta.xml metadata` file:
 
-. Copy the metadata file and create a file named *AEH_Anypoint.permissionset-meta.xml*.
+. Copy the metadata file and create a file named `AEH_Anypoint.permissionset-meta.xml`.
 +
 
 [source,xml,linenums]
@@ -418,7 +417,7 @@ sf project deploy start --source-dir path/to/permissionset/ -o orgAlias
 . To verify that the permission set was created:
 +
 .. Log in to Salesforce as the System Administrator.
-.. In *Setup*, enter `permission sets` in the Quick Find box and click *Permission Sets*.
+.. In *Setup*, enter `permission sets` in the *Quick Find* box and click *Permission Sets*.
 .. Locate *AEH_Anypoint* in the list.
 
 == See Also
