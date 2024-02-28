@@ -12,7 +12,7 @@ The Salesforce platform uses the System Administrator profile, which includes pe
 == Before You Begin
 
 * You must be an Organization Administrator or an existing API Experience Hub Administrator
-* Consider the permission strategy for users in the Anypoint organization and Salesforce organization. See xref:user-roles-and-permissions.adoc[] for more information.
+* Consider the permission strategy for users in the Anypoint organization and Salesforce organization. See xref:user-roles-permissions-and profiles.adoc[] for more information.
 
 == Grant the API Experience Hub Administrator Permission and the Exchange Viewer Permission
 The Organization Administration and API Experience Hub Administrator can perform all of the functions to create a portal. Only the Organization Administrator or an existing API Experience Hub Administrator can grant a user the API Experience Hub Administrator permission. Grant this permission when you want another user in your organization to perform the Salesforce linking process, create and curate the portal, manage the portal, and manage users.
