@@ -1,14 +1,15 @@
-= Prerequisites 
+= Getting Started with API Experience Hub 
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
+:page-aliases: prerequisites.adoc
 
 Verify that you have the following required accounts and access:
 
 * Anypoint Platform organization in production
 * Salesforce organization
 * Organization Administrator of the main organization
-* You must be a System Administrator in the Salesforce organization that you are linking to during the connection process
+* You must either have the System Administrator profile or be a Salesforce user with the AEH_Anypoint permission set assigned in the Salesforce organization that you are connecting to during the linking process. For more information, see xref:assigning-permissions.adoc[].
 +
 The process of creating your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint Platform organization to your Salesforce organization. 
 * API Experience Hub license
@@ -22,10 +23,11 @@ To set up an organization, you can have the following Salesforce editions:
 * Enterprise Edition
 * Performance Editions of Salesforce
 
-If you do not have the required accounts and access, issues may occur during the Salesforce linking process when creating your API portal.
+If you don't have the required accounts and access, issues might occur during the Salesforce linking process when creating your API portal.
 
 == See Also
 
-* xref:licensing.adoc[Licensing]
-* xref:getting-started.adoc[Getting Started]
-* xref:connecting-to-salesforce.adoc[Connecting to Salesforce]
+* xref:user-roles-permissions-and-profiles.adoc[]
+* xref:licensing.adoc[]
+* xref:getting-started.adoc[]
+* xref:connecting-to-salesforce.adoc[]

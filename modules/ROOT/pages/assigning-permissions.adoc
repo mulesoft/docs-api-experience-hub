@@ -1,0 +1,426 @@
+= Assigning Permissions 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+:page-aliases: assigning-administrator-permissions.adoc
+
+Anypoint Platform comes with predefined permissions that you can set in Anypoint Platform access management to provide users with different access levels. You configure the permissions for administrators and Exchange viewers. 
+
+The Salesforce platform uses the System Administrator profile, which includes permissions to perform specific tasks in Salesforce. For API Experience Hub, this profile or the AEH_Anypoint permission set is required for the user who performs the Salesforce linking.
+
+
+== Before You Begin
+
+* You must be an Organization Administrator or an existing API Experience Hub Administrator
+* Consider the permission strategy for users in the Anypoint organization and Salesforce organization. See xref:user-roles-and-permissions.adoc[] for more information.
+
+== Grant the API Experience Hub Administrator Permission and the Exchange Viewer Permission
+The Organization Administration and API Experience Hub Administrator can perform all of the functions to create a portal. Only the Organization Administrator or an existing API Experience Hub Administrator can grant a user the API Experience Hub Administrator permission. Grant this permission when you want another user in your organization to perform the Salesforce linking process, create and curate the portal, manage the portal, and manage users.
+
+To add APIs to the portal, administrators must have Exchange Viewer permissions for those APIs.
+
+When APIs are added to the portal, all administrators are assigned automatically the Exchange Viewer permission for the APIs added in the portal. 
+
+To grant the permissions to an administrator:
+
+. Sign in to Anypoint Platform using an account with the Organization Administrator permission.
+. Click *Access Management*.
+. Click *Users*.
+. Click the username of the user that you want to add the API Experience Hub Administrator permission. 
+. Select *Permissions* and click *Add permissions*.
+. In the *Select permissions to add for this user* search box, enter *API Experience Hub Amin* and select the checkbox.
+. Enter *Exchange viewer* in the search box and select the checkbox.
+. Click *Next*.
+. Select the *Mulesoft* checkbox.
+. Click *Next*.
+. Click *Add Permissions*.
+
+//=== Grant the API Experience Hub Portal Administrator Permission 
+
+//If there is more than one users that manages the portal, you can grant another user within your organization the API Experience Hub Portal Administrator permission.
+
+//. From *Access Management*, click *Users*.
+//. Click the username of the user that you want to add the API Experience Hub Administrator permission. 
+//. Select *Permissions* and click *Add Permissions*.
+//. From the *Select permissions to add for this user* search box, enter *API Experience Hub Portal Amin* and select the checkbox.
+//. Click the blue plus icon.
+
+
+== Create the AEH_Anypoint Permission Set with the Minimum Permissions for the Salesforce User to Perform the Linking Process 
+
+//Apply the Principle of Least Privilege for Your Salesforce Organization
+A Salesforce user with the System Administrator profile is required to connect Salesforce Experience Cloud and link the Salesforce organization with the Anypoint Platform organization. The System Administrator profile might have more permissions than necessary. For users with an existing Salesforce organization and potentially sensitive data, ensure the security of that data by following the principle of least privilege. Use the AEH_Anypoint permission set to configure only those permissions for the user who performs the linking process. The Salesforce user with the System Administrator profile creates the AEH_Anypoint permission set with all the necessary permissions and assigns the permission set to a Salesforce user. Create the permission set manually in Salesforce or deploy it via the CI/CD pipeline using the `AEH_Anypoint.permissionset-meta.xml` metadata file. 
+
+You can downgrade the permissions for the System Administrator using the permissions set before or after connecting to Salesforce. If the Salesforce user is the same user who created the connection, you can assign that user to the AEH_Anypoint permission set without disconnecting the portal and recreating the connection. To assign the permission set to the Salesforce user who didn't create the connection, you must disconnect the portal and recreate the connection. For example, the original Salesforce user who connected to Salesforce left the company.
+
+Perform the following steps to manually create the permission set, add the necessary permissions, and assign a user to the permission set:
+
+. Create the AEH_Anypoint permission set:
++
+.. Log in to Salesforce as the System Administrator.
+.. In *Setup*, enter `permission sets` in the *Quick Find* box and click *Permission Sets*.
+.. Click *Add*.
+.. Enter `AEH_Anypoint` exactly as it appears in both the *Label* and *API Name* fields.
+.. Click *Save*
+.. In the *Systems* section, click *System Permissions*.
+.. Click *Edit*.
+. Add the necessary permissions to the permission set:
+.. In the *System* section, enable the following _required_ permissions:
++
+* Apex REST Services
+* API Enabled
+* Assign Topics
+* Author Apex
+* Connect Organization to Environment Hub
+* Create and Customize Dashboards
+* Create and Customize List Views
+* Create and Customize Reports
+* Create and Set Up Experiences
+* Create Dashboard Folders
+* Create Report Folders
+* Create Topics
+* Customize Application
+* Delete Topics
+* Download AppExchange Packages
+* Edit Events
+* Edit HTML Templates
+* Edit My Dashboards
+* Edit My Reports
+* Edit Tasks
+* Edit Topics
+* Manage Auth. Providers
+* Manage Connected Apps
+* Manage Custom Permissions
+* Manage Dashboards in Public Folders
+* Manage Letterheads
+* Manage Multi-Factor Authentication in User Interface
+* Manage Public Classic Email Templates
+* Manage Public Documents
+* Manage Public List Views
+* Manage Reports in Public Folders
+* Manage Session Permission Set Activations
+* Modify All Data
+* Modify Metadata Through Metadata API Functions
+* Run Reports
+* Transfer Record
+* View All Data
+* View Dashboards in Public Folders
+* View Event Log Files
+* View Login Forensics Events
+* View Real-Time Event Monitoring Data
+* View Reports in Public Folders
+* View Roles and Role Hierarchy
+* View Setup and Configuration
+.. In the *User* section, enable the following _required_ permissions:
++
+* Assign Permission Sets
+* Manage Internal Users
+* Manage IP Addresses
+* Manage Login Access Policies
+* Manage Password Policies
+* Manage Profiles and Permission Sets
+* Manage Roles
+* Manage Sharing
+* Manage Users
+* Reset User Passwords and Unlock Users
+* View All Users
+.. Enable any other permissions that you want to add to the permission set.
+.. Click *Save*.
+. Assign the permission set to a Salesforce user:
++
+.. In *Setup*, enter `Users` in the *Quick Find* box and click *Permission Sets*, and click *Users*.
+.. In the *Full Name* column, select the name of the user.
+.. In *Permission Set Assignments* section, click *Edit Assignments*.
+.. Select *AEH_Anypoint* from the *Available Permission Sets* list and move the set to the *Enabled Permission Sets* list.
+.. Click *Save*.
+
+To deploy the permission set via your CI/CD, use the following `AEH_Anypoint.permissionset-meta.xml metadata` file:
+
+. Copy the metadata file and create a file named `AEH_Anypoint.permissionset-meta.xml`.
++
+
+[source,xml,linenums]
+----
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>AEH_Anypoint</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApexRestServices</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApiEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AssignPermissionSets</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AssignTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AuthorApex</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ConnectOrgToEnvironmentHub</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ConvertLeads</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateCustomizeDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateCustomizeFilters</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateCustomizeReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateDashboardFolders</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateReportFolders</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CustomizeApplication</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>DelegatedTwoFactor</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>DeleteTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditBrandTemplates</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditEvent</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditHtmlTemplates</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditMyDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditMyReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditPublicDocuments</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditPublicFilters</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditPublicTemplates</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditTask</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ImportLeads</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>InstallPackaging</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageAuthProviders</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageCategories</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageCustomPermissions</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageDashbdsInPubFolders</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageInternalUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageIpAddresses</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageLoginAccessPolicies</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageNetworks</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManagePasswordPolicies</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageProfilesPermissionsets</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageQuotas</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageRemoteAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageReportsInPubFolders</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageRoles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageSessionPermissionSets</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageSharing</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageTerritories</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageTranslation</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ModifyAllData</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ModifyDataClassification</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ModifyMetadata</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>OverrideForecasts</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ResetPasswords</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RunReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SolutionImport</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>TransferAnyEntity</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>TransferAnyLead</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseTeamReassignWizards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewAllData</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewAllForecasts</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewAllUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewEventLogFiles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewPublicDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewPublicReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewRoles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewSetup</name>
+    </userPermissions>
+</PermissionSet>
+----
+
+. Run the following command and replace `path/to/permissionset/` and `orgAlias` variables with your path and org alias:
++
+[source,code]
+----
+sf project deploy start --source-dir path/to/permissionset/ -o orgAlias
+----
+. To verify that the permission set was created:
++
+.. Log in to Salesforce as the System Administrator.
+.. In *Setup*, enter `permission sets` in the *Quick Find* box and click *Permission Sets*.
+.. Locate *AEH_Anypoint* in the list.
+
+== See Also
+
+* xref:user-roles-permissions-and-profiles.adoc[]
+* xref:connecting-to-salesforce.adoc[]
