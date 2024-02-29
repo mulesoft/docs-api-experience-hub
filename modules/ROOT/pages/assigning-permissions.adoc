@@ -59,12 +59,12 @@ Perform the following steps to manually create the permission set, add the neces
 +
 .. Log in to Salesforce as the System Administrator.
 .. In *Setup*, enter `permission sets` in the *Quick Find* box and click *Permission Sets*.
-.. Click *Add*.
+.. Click *New*.
 .. Enter `AEH_Anypoint` exactly as it appears in both the *Label* and *API Name* fields.
-.. Click *Save*
+.. Click *Save*.
+. Add the necessary permissions to the permission set:
 .. In the *Systems* section, click *System Permissions*.
 .. Click *Edit*.
-. Add the necessary permissions to the permission set:
 .. In the *System* section, enable the following _required_ permissions:
 +
 * Apex REST Services
