@@ -13,6 +13,7 @@ The Salesforce platform uses the System Administrator profile, which includes pe
 
 * You must be an Organization Administrator or an existing API Experience Hub Administrator
 * Consider the permission strategy for users in the Anypoint organization and Salesforce organization. See xref:user-roles-permissions-and-profiles.adoc[] for more information.
+* The Salesforce user who is assigned the AEH_Anypoint permission set must have the Salesforce license and the Standard User profile.
 
 == Grant the API Experience Hub Administrator Permission and the Exchange Viewer Permission
 The Organization Administration and API Experience Hub Administrator can perform all of the functions to create a portal. Only the Organization Administrator or an existing API Experience Hub Administrator can grant a user the API Experience Hub Administrator permission. Grant this permission when you want another user in your organization to perform the Salesforce linking process, create and curate the portal, manage the portal, and manage users.
@@ -52,8 +53,6 @@ To grant the permissions to an administrator:
 A Salesforce user with the System Administrator profile is required to connect Salesforce Experience Cloud and link the Salesforce organization with the Anypoint Platform organization. The System Administrator profile might have more permissions than necessary. For users with an existing Salesforce organization and potentially sensitive data, ensure the security of that data by following the principle of least privilege. Use the AEH_Anypoint permission set to configure only those permissions for the user who performs the linking process. The Salesforce user with the System Administrator profile creates the AEH_Anypoint permission set with all the necessary permissions and assigns the permission set to a Salesforce user. Create the permission set manually in Salesforce or deploy it via the CI/CD pipeline using the `AEH_Anypoint.permissionset-meta.xml` metadata file. 
 
 You can downgrade the permissions for the System Administrator using the permissions set before or after connecting to Salesforce. If the Salesforce user is the same user who created the connection, you can assign that user to the AEH_Anypoint permission set without disconnecting the portal and recreating the connection. To assign the permission set to the Salesforce user who didn't create the connection, you must disconnect the portal and recreate the connection. For example, the original Salesforce user who connected to Salesforce left the company.
-
-NOTE: The Salesforce user who is assigned the AEH_Anypoint permission set must have the Salesforce license and the Standard User profile.
 
 Perform the following steps to manually create the permission set, add the necessary permissions, and assign a user to the permission set:
 
@@ -128,13 +127,15 @@ Perform the following steps to manually create the permission set, add the neces
 .. Click *Save*.
 . Assign the permission set to a Salesforce user:
 +
+This user must have the Salesforce license and the Standard User profile.
++
 .. In *Setup*, enter `Users` in the *Quick Find* box and click *Permission Sets*, and click *Users*.
 .. In the *Full Name* column, select the name of the user.
 .. In *Permission Set Assignments* section, click *Edit Assignments*.
 .. Select *AEH_Anypoint* from the *Available Permission Sets* list and move the set to the *Enabled Permission Sets* list.
 .. Click *Save*.
 
-To deploy the permission set via your CI/CD, use the following `AEH_Anypoint.permissionset-meta.xml metadata` file:
+To deploy the permission set via your CI/CD, use the following `AEH_Anypoint.permissionset-meta.xml metadata` file, then assign the permission set to a Salesforce user:
 
 . Copy the metadata file and create a file named `AEH_Anypoint.permissionset-meta.xml`.
 +
