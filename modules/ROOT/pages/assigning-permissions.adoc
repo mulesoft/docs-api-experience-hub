@@ -119,6 +119,7 @@ Perform the following steps to manually create the permission set, add the neces
 * Manage Password Policies
 * Manage Profiles and Permission Sets
 * Manage Roles
+* Manage Sandboxes
 * Manage Sharing
 * Manage Users
 * Reset User Passwords and Unlock Users
