@@ -317,6 +317,10 @@ To deploy the permission set via your CI/CD, use the following `AEH_Anypoint.per
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManageSandboxes</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageSessionPermissionSets</name>
     </userPermissions>
     <userPermissions>
