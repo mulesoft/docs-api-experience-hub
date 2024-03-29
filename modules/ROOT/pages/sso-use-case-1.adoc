@@ -1,4 +1,4 @@
-= Configuring Single Sign-On When No Identity Provider Is Configured in Anypoint
+= Configuring SSO When No Identity Provider Is Configured in Anypoint
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
