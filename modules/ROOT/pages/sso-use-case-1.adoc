@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Use case one includes all of the instructions for setting up an identity provider for your portal when no other identity provider is configured in Anypoint Platform. You want to configure an identity provider as a login option for your portal. Since there is no identity provider configured in Anypoint Platform, the default identity provider automatically maps the identity provider for the portal to the identity provider in Anypoint Platform. This enables every Salesforce user to have an identity in Anypoint Platform.
+This use case includes all of the instructions for setting up an identity provider for your portal when no other identity provider is configured in Anypoint Platform. You want to configure an identity provider as a login option for your portal. Since there is no identity provider configured in Anypoint Platform, the default identity provider automatically maps the identity provider for the portal to the identity provider in Anypoint Platform. This enables every Salesforce user to have an identity in Anypoint Platform.
 
 == Before You Begin
 In the identity provider of your choice, the users or identities must be created for the group of the users who have access to the application. 
@@ -12,7 +12,6 @@ In the identity provider of your choice, the users or identities must be created
 To enable SSO, an identity provider is required for Anypoint Platform to create identities in Anypoint Platform for Salesforce users. 
 
 In this step, you create an application in the identity provider for the API Experience Hub portal, enable the ability to send group information in the application configuration, configure groups, and configure the default identity provider. Performing these steps require you to move back and forth between applications and the identity provider application to copy or add information. 
-
 
 === Create and Configure an Application Using One of the Following Example Methods:
 

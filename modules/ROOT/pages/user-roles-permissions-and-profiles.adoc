@@ -5,7 +5,7 @@ endif::[]
 
 This topic provides information about the user roles, permissions, and profiles used in API Experience Hub for  Salesforce Experience Cloud and Anypoint Platform. 
 
-* For Anypoint Platform, users with different access level are managed using Anypoint Access Management. You can configure the permissions for administrators and Exchange viewers. For more information, see xref:access-management::managing-permissions.adoc[Managing Permissions in Access Management]. 
+* For Anypoint Platform, users with different access levels are managed using Anypoint Access Management. You can configure the permissions for administrators and Exchange viewers. For more information, see xref:access-management::managing-permissions.adoc[Managing Permissions in Access Management]. 
 * For Experience Cloud, the System Administrator profile or the AEH_Anypoint permission set is required for the user who performs the linking process. 
 
 
