@@ -97,7 +97,7 @@ To find the URLs:
 * For domain, go to *Setup > My Domain > Current My Domain URL*.
 ====
 
-=== Create and Configure an Application Using Okta SAML
+==== Create and Configure an Application Using Okta SAML
 
 [%collapsible]
 ====
