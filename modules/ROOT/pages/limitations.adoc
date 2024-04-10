@@ -16,9 +16,9 @@ Do not make changes to the permissions of the out-of-the-box Teams created in Ac
 * API Experience Hub is not certified for use on mobile devices. Some functionality works on mobile devices, but some functionality such as the API Console does not.
 * IP restrictions are not supported. For more information, see the xref:troubleshooting.adoc[Troubleshooting] section.
 * Validation rules cannot be applied to standard objects that are created during the Salesforce linking process. For more information, see the xref:troubleshooting.adoc[Troubleshooting] section for a work around.
-* From the API Console, APIs cannot be tested using the authorization credentials from the Request Panel.
 * From the API Console, AsyncAPI and SOAP specifications cannot be downloaded. 
 * Existing users cannot self-register. They must use an identity provider to access the portal.
 * The maximum pending user registration requests is 500. For more information, see xref:managing-users.adoc[Managing Users]
 * The API Experience Hub package is installed in the sandbox and production environments on the same date. As a result, you cannot use your sandbox organization for testing in the development cycle.
+* The community portal's default name API Experience Hub cannot be changed. Changing the name of the portal generates errors in the configuration.
 
