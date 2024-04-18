@@ -60,7 +60,7 @@ You set up the auth provider or SSO settings in Salesforce with the identity pro
 .. In *Salesforce*, go to *Setup*.
 .. In the *Quick Find* box, enter `Auth`, and then select *Auth. Providers*.
 .. Click *New*.
-.. In the Provider Type field, select *OpenID Connect*.
+.. In the *Provider Type* field, select *OpenID Connect*.
 .. Complete the following fields:
 +
 [%header,cols="1a,2a"]
@@ -104,6 +104,7 @@ To find the URLs:
 ====
 Create a new application for the API Experience Hub portal in the identity provider using SAML. For more information, see https://help.okta.com/oie/en-us/content/topics/apps/apps_app_integration_wizard_saml.htm[Create SAML app integrations^] in the Okta documentation.
 
+
 . From Okta, create an SAML application.
 . In *General Settings*, enter a name for your SAML application.
 . Select *Do not display application icon to users*.
@@ -123,7 +124,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 +
 image::aeh-sso-saml-settings.png["SAML Settings example",width=90%]
 
-. In the *Attribute Statements (optional)* section, configure the SAML integration by adding the following custom attributes:
+. In the *Attribute Statements (optional)* section, configure the SAML integration by adding the following custom attributes. For supported formats, see <<registration-handler, required information>>:
 +
 [%header,cols="1a,2a,3a"]
 |===
