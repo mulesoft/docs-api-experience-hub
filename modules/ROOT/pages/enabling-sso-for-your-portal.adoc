@@ -33,48 +33,8 @@ image::aeh-sso-flow2.png[Enabling SSO flowchart]
 == Username Assignment Strategy
 When setting up an SSO login option for your portal and an identity provider is already configured for your Anypoint Platform organization, the username assignment strategy must be reviewed by the security team since it can be different for the portal and Anypoint Platform users. To have a single identity between the portal and Anypoint Platform, the format for the username assignment must be the same. If the username strategy does not match, the username format must be reconciled by adding attributes for *anypoint_idp_id* and *anypoint_username*. Then, this information must be mapped with the Anypoint Platform identity provider that you are using for SSO. These custom attributes are added using the identity provider's profile editor. For more information, see xref:sso-use-case-2.adoc[Configuring SSO to Use the Identity Provider That is Already Configured for Anypoint].
 
-== User Roles
-Setting up an identity provider for API Experience Hub includes multiple personas that perform different user actions. 
-
-Depending on your organization’s setup, a user can be assigned one or more of the following roles:
-
-* API Experience Hub Administrator  
-+
-The AEH Admin is responsible for enabling and disabling an identity provider in the API EXperience Hub UI.
-Salesforce System Administrator
-The Salesforce System Administrator is responsible for setting up the identity provider in Salesforce.
-* Anypoint Organization Administrator
-+
-The Anypoint Organization Administrator is responsible for mapping the identity provider groups with the API Experience Hub profiles using the group mapping functionality of Access Management teams.
-* Security team
-+
-Your organization’s security team is responsible for setting up the identity provider with the required user-groups and applications. Your organization’s security team and the Salesforce System Administrator, who manage the identity provider system in an organization, configure the proper login option in Salesforce. The security team and the Org Admin in the main organization might want to configure the same identity provider option in Anypoint Platform, if required. The security team and the Org Admin in the main organization configures the mapping between Salesforce and Anypoint Platform. Access Management provides the functionality of adding group mappings for external identity providers using teams. When the group mappings are properly configured, users who log in to the portal are added automatically to the out-of-the-box profile that they belongs to. The default identity provider is provided to create identities in Anypoint Platform for Salesforce users.
-
-An identity provider for Anypoint Platform and Salesforce can be configured using OpenID Connect or SAML (Single Sign-on Settings). 
-
-== Out-of-the-Box Configurations
-API Experience Hub provides the following out-of-the-box configurations to assist the process of enabling SSO:
-
-=== anypoint_idp_id
-
-The custom claim or SAML attribute provides the information that is received from the identity provider that determines which Anypoint Platform identity provider a user must be mapped to.
-
-=== AEH Users - ${salesforceOrganizationId}
-
-The default Anypoint Experience Hub identity provider that's created in Anypoint Platform to map all self-registered users. This identity provider is used when the aeh_portal_idp is not set in the identity provider. Self-registered users are mapped with the default identity provider.
-
-=== AEH Portal - ${salesforceOrganizationId}_$*{salesforceCommunityId} 
-
-This solution creates a team called AEH Portal in Access Management automatically. This team includes administrators, guests, and members profiles. You select this team when adding the group mapping. 
-
-[[registration-handler]]
-=== AEHPortalRegistrationHandler.cls 
-
-A single Apex class is provided in the API Experience Hub package called AEHPortalRegistrationHandler.cls that is compatible with SAML and OpenID Connect.  
-
-The registration handler is a piece of Apex code that runs when a user logs in to the Salesforce Experience Cloud site. You select this handler when configuring an authentication provider for Salesforce. 
-
-AEHPortalRegistrationHandler requires specific user information from the identity provider to create or update a user. The following information lists the required information, the fields it's extracted from, and the supported format:
+== Custom User Attributes 
+Adding and configuring custom user attributes ensures that the identity provider and the user information are mapped correctly. The AEHPortalRegistrationHandler requires specific user information from the identity provider to create or update a user. The following information lists the required information, the fields it's extracted from, and the supported format:
 
 |===
 |Field|Supported Value Format
@@ -110,6 +70,46 @@ The following information is optional:
 |Anypoint Idp Id|Used to map Identities to the specific identity provider in Anypoint Platform. |anypoint_idp_id
 |Anypoint Username|This field is used to explicitly specify the Anypoint user when the user's identity already exists in Anypoint, but the username is different than the Salesforce user. |anypoint_username
 |===
+
+== User Roles
+Setting up an identity provider for API Experience Hub includes multiple personas that perform different user actions. 
+
+Depending on your organization’s setup, a user can be assigned one or more of the following roles:
+
+* API Experience Hub Administrator  
++
+The AEH Admin is responsible for enabling and disabling an identity provider in the API EXperience Hub UI.
+Salesforce System Administrator
+The Salesforce System Administrator is responsible for setting up the identity provider in Salesforce.
+* Anypoint Organization Administrator
++
+The Anypoint Organization Administrator is responsible for mapping the identity provider groups with the API Experience Hub profiles using the group mapping functionality of Access Management teams.
+* Security team
++
+Your organization’s security team is responsible for setting up the identity provider with the required user-groups and applications. Your organization’s security team and the Salesforce System Administrator, who manage the identity provider system in an organization, configure the proper login option in Salesforce. The security team and the Org Admin in the main organization might want to configure the same identity provider option in Anypoint Platform, if required. The security team and the Org Admin in the main organization configures the mapping between Salesforce and Anypoint Platform. Access Management provides the functionality of adding group mappings for external identity providers using teams. When the group mappings are properly configured, users who log in to the portal are added automatically to the out-of-the-box profile that they belongs to. The default identity provider is provided to create identities in Anypoint Platform for Salesforce users.
+
+An identity provider for Anypoint Platform and Salesforce can be configured using OpenID Connect or SAML (Single Sign-on Settings). 
+
+== Out-of-the-Box Configurations
+API Experience Hub provides the following out-of-the-box configurations to assist the process of enabling SSO:
+
+=== anypoint_idp_id
+
+The custom claim or SAML attribute provides the information that is received from the identity provider that determines which Anypoint Platform identity provider a user must be mapped to.
+
+=== AEH Users - ${salesforceOrganizationId}
+
+The default Anypoint Experience Hub identity provider that's created in Anypoint Platform to map all self-registered users. This identity provider is used when the aeh_portal_idp is not set in the identity provider. Self-registered users are mapped with the default identity provider.
+
+=== AEH Portal - ${salesforceOrganizationId}_$*{salesforceCommunityId} 
+
+This solution creates a team called AEH Portal in Access Management automatically. This team includes administrators, guests, and members profiles. You select this team when adding the group mapping. 
+
+=== AEHPortalRegistrationHandler.cls 
+
+A single Apex class is provided in the API Experience Hub package called AEHPortalRegistrationHandler.cls that is compatible with SAML and OpenID Connect.  
+
+The registration handler is a piece of Apex code that runs when a user logs in to the Salesforce Experience Cloud site. You select this handler when configuring an authentication provider for Salesforce. 
 
 When the identity provider is configured properly, Salesforce passes the portal ID to the AEHPortalRegistrationHandler. If the user does not exist, the registration handler creates the user's identity in Salesforce. If the user exists, the handler updates the user metadata based on information sent by the identity provider, for example, the user’s first name and last name. The registration handler must be contextualized with the portal ID in Salesforce to load specific configurations by the portal. For example, the user gets created in the profile and account related to the portal from the NetworkSelfRegistration object. 
 

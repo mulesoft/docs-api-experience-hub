@@ -124,7 +124,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 +
 image::aeh-sso-saml-settings.png["SAML Settings example",width=90%]
 
-. In the *Attribute Statements (optional)* section, configure the SAML integration by adding the following custom attributes. For supported formats, see <<registration-handler, required information>>:
+. In the *Attribute Statements (optional)* section, configure the SAML integration by adding the following custom attributes. For supported formats, see xref:enabling-sso-for-your-portal.adoc#custom-user-attributes[Custom User Attributes]:
 +
 [%header,cols="1a,2a,3a"]
 |===
