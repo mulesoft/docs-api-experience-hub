@@ -42,7 +42,6 @@ The following information is optional:
 |Anypoint Username|This field is used to explicitly specify the Anypoint user when the user's identity already exists in Anypoint, but the username is different than the Salesforce user. |anypoint_username
 |===
 
-
 === Create and Set up An Application 
 
 Create a new application for the API Experience Hub portal in the identity provider. 
