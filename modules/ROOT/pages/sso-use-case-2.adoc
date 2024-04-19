@@ -32,7 +32,7 @@ Configuring custom user attributes for the identify provider ensures that the id
 |Groups | groups
 |===
 
-If the required information is not in the supported format, create a new custom attribute. For information, see the documentation for the identity provider. 
+If the required information is not in the supported format, create a new custom attribute with the supported format. For information, see the documentation for the identity provider. 
 
 The following information is optional:
 

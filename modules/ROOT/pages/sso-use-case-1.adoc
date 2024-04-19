@@ -28,7 +28,7 @@ Configuring the custom user attributes for the identify provider ensures that th
 |Groups | groups
 |===
 
-If the required information is not in the supported format, create a new attribute. For information, see the documentation for the identity provider. 
+If the required information is not in the supported format, create a new attribute with a supported format. For information, see the documentation for the identity provider. 
 
 The following information is optional:
 
