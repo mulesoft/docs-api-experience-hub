@@ -33,8 +33,8 @@ image::aeh-sso-flow2.png[Enabling SSO flowchart]
 == Username Assignment Strategy
 When setting up an SSO login option for your portal and an identity provider is already configured for your Anypoint Platform organization, the username assignment strategy must be reviewed by the security team since it can be different for the portal and Anypoint Platform users. To have a single identity between the portal and Anypoint Platform, the format for the username assignment must be the same. If the username strategy does not match, the username format must be reconciled by adding attributes for *anypoint_idp_id* and *anypoint_username*. Then, this information must be mapped with the Anypoint Platform identity provider that you are using for SSO. These custom attributes are added using the identity provider's profile editor. For more information, see xref:sso-use-case-2.adoc[Configuring SSO to Use the Identity Provider That is Already Configured for Anypoint].
 
-== Custom User Attributes 
-Adding and configuring custom user attributes ensures that the identity provider and the user information are mapped correctly. The AEHPortalRegistrationHandler requires specific user information from the identity provider to create or update a user. The following information lists the required information, the fields it's extracted from, and the supported format:
+== Custom User Attributes and Claims
+Adding and configuring custom user attributes for SAML or claims for OpenID Connect ensures that the identity provider and the user information are mapped correctly. The AEHPortalRegistrationHandler requires specific user information from the identity provider to create or update a user. The following required information lists the fields it's extracted from and the supported format:
 
 |===
 |Field|Supported Value Format
