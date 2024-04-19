@@ -13,7 +13,7 @@ To enable SSO, an identity provider is required for Anypoint Platform to create 
 
 In this step, you create an application in the identity provider for the API Experience Hub portal, enable the ability to send group information in the application configuration, configure groups, and configure the default identity provider. Performing these steps require you to move back and forth between applications and the identity provider application to copy or add information. 
 
-Configuring the custom user attributes for the identify provider ensures that the identity provider and the user information are mapped correctly. For example, the AEHPortalRegistrationHandler requires specific user information from the identity provider to create or update a user. The following required information lists the fields it's extracted from and the supported format:
+Configuring the custom user attributes and claims for the identify provider ensures that the identity provider and the user information are mapped correctly. For example, the AEHPortalRegistrationHandler requires specific user information from the identity provider to create or update a user. The following required information lists the fields it's extracted from and the supported format:
 
 |===
 |Field|Supported Format
@@ -28,7 +28,7 @@ Configuring the custom user attributes for the identify provider ensures that th
 |Groups | groups
 |===
 
-If the required information is not in the supported format, create a new attribute with the supported format. For information, see the documentation for the identity provider. 
+If the required information is not in the supported format, create a new custom attribute or claim with the supported format. For information, see the documentation for the identity provider. 
 
 The following information is optional:
 
