@@ -19,6 +19,7 @@ In this step, you create and configure an application in the identity provider f
 
 Configuring custom user attributes or claims for the identify provider ensures that the identity provider and the user information are mapped correctly. For example, the AEHPortalRegistrationHandler requires specific user information from the identity provider to create or update a user. The following required information lists the fields it's extracted from and the supported format:
 
+[%header%autowidth.spread]
 |===
 |Field|Supported Format
 |First Name 
@@ -36,8 +37,9 @@ If the required information is not in the supported format, create a new custom 
 
 The following information is optional:
 
+[%header%autowidth.spread]
 |===
-|Field |Description |Support Value Format
+|Field |Description |Support Format
 |Anypoint Idp Id|Used to map identities to the specific identity provider in Anypoint Platform. |anypoint_idp_id
 |Anypoint Username|This field is used to explicitly specify the Anypoint user when the user's identity already exists in Anypoint, but the username is different than the Salesforce user. |anypoint_username
 |===
@@ -49,6 +51,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 . In Okta, create an OpenID Connect Web application. For more information, see https://help.okta.com/oie/en-us/content/topics/apps/apps_app_integration_wizard_oidc.htm[Create OIDC app integrations^].
 . From the *General Settings* section, complete the following fields:
 +
+[%header%autowidth.spread]
 |===
 |Field|Value
 |*App integration name*|Enter a name for the app.
@@ -82,7 +85,7 @@ You set up the auth provider or SSO settings in Salesforce with the identity pro
 . In the *Provider Type* field, select *OpenID Connect*.
 . Complete the following fields:
 +
-[%header,cols="1a,2a"]
+[%header%autowidth.spread]
 |===
 |Field|Value
 |*Provider Type*|*OpenID Connect* 
@@ -128,7 +131,7 @@ To map anypoint_idp_id to with the Anypoint Platform identity provider ID:
 . Click *Add Attributes* to create a new attribute called *anypoint_idp_id*.
 . Complete the following fields:
 +
-[%header,cols="1a,2a"]
+[%header%autowidth.spread]
 |===
 |Field|Value
 |*Display name*|*anypoint_idp_id*
@@ -159,7 +162,7 @@ To reconcile the usernames assignment for a single identity in the portal and An
 . Click *Add Attributes* to create a new attribute called *anypoint_username*.
 . Complete the following fields:
 +
-[%header,cols="1a,2a"]
+[%header%autowidth.spread]
 |===
 |Field|Value
 |*Display name*|*anypoint_username*
