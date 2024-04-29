@@ -33,7 +33,7 @@ If the required information is not in the supported format, create a new custom 
 
 The following information is optional:
 
-[%header%autowidth.spread]
+[%header,cols="1a,2a, 3a"]
 |===
 |Field |Description |Support Value Format
 |Anypoint Idp Id|Used to map identities to the specific identity provider in Anypoint Platform. |anypoint_idp_id

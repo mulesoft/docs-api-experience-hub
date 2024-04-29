@@ -41,7 +41,7 @@ The following information is optional:
 |===
 |Field |Description |Support Format
 |Anypoint Idp Id|Used to map identities to the specific identity provider in Anypoint Platform. |anypoint_idp_id
-|Anypoint Username|This field is used to explicitly specify the Anypoint user when the user's identity already exists in Anypoint, but the username is different than the Salesforce user. |anypoint_username
+|Anypoint Username|This field is used to explicitly specify the Anypoint Platform user when the user's identity already exists in Anypoint Platform, but the username is different than the Salesforce user. |anypoint_username
 |===
 
 === Create and Set up An Application 
