@@ -119,7 +119,7 @@ Before enabling SSO, ensure you have the following permissions and context:
 
 * Be aware of what API Experience Hub expects for custom claims or attributes when creating a new application for the portal in the identity provider.
 +
-Configuring the custom user attributes and claims for the identify provider ensures that the identity provider and the user information are mapped correctly. For example, the AEHPortalRegistrationHandler requires specific user information from the identity provider to create or update a user. The following required information lists the fields where this information is extracted from and the expected values. If there are more than one claim or attribute, API Experience Hub looks for the first expected value in the order it appears in the following tables:
+Configuring the custom user attributes and claims for the identify provider ensures that the identity provider and the user information are mapped correctly. For example, the AEHPortalRegistrationHandler requires specific user information from the identity provider to create or update a user. The following required information lists the fields where this information is extracted from and the expected values. If there are more than one claim or attribute, the registration handler looks for the first expected value in the order it appears in the following tables:
 +
 [%header%autowidth.spread]
 |===
