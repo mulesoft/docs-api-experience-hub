@@ -52,6 +52,7 @@ Your organization’s security team is responsible for setting up the identity p
 
 An identity provider for Anypoint Platform and Salesforce can be configured using OpenID Connect or SAML (Single Sign-on Settings). 
 
+[[out-of-the-box-configurations]]
 == Out-of-the-Box Configurations
 API Experience Hub provides the following out-of-the-box configurations to assist the process of enabling SSO:
 
