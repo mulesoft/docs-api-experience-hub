@@ -55,27 +55,25 @@ An identity provider for Anypoint Platform and Salesforce can be configured usin
 == Out-of-the-Box Configurations
 API Experience Hub provides the following out-of-the-box configurations to assist the process of enabling SSO:
 
-=== anypoint_idp_id
-
+* anypoint_idp_id
++
 The custom claim or SAML attribute provides the information that is received from the identity provider that determines which Anypoint Platform identity provider a user must be mapped to.
 
-[[default-identity-provider]]
-=== AEH Users - ${salesforceOrganizationId}
-
+* AEH Users - ${salesforceOrganizationId}
++
 The default Anypoint Experience Hub identity provider that's created in Anypoint Platform to map all self-registered users. This identity provider is used when the aeh_portal_idp is not set in the identity provider. Self-registered users are mapped with the default identity provider.
 
-=== AEH Portal - ${salesforceOrganizationId}_$*{salesforceCommunityId} 
-
+* AEH Portal - ${salesforceOrganizationId}_$*{salesforceCommunityId} 
++
 This solution creates a team called AEH Portal in Access Management automatically. This team includes administrators, guests, and members profiles. You select this team when adding the group mapping. 
 
-=== AEHPortalRegistrationHandler.cls 
-
+* AEHPortalRegistrationHandler.cls 
++
 A single Apex class is provided in the API Experience Hub package called AEHPortalRegistrationHandler.cls that is compatible with SAML and OpenID Connect.  
-
++
 The registration handler is a piece of Apex code that runs when a user logs in to the Salesforce Experience Cloud site. You select this handler when configuring an authentication provider for Salesforce. 
-
++
 When the identity provider is configured properly, Salesforce passes the portal ID to the AEHPortalRegistrationHandler. If the user does not exist, the registration handler creates the user's identity in Salesforce. If the user exists, the handler updates the user metadata based on information sent by the identity provider, for example, the user’s first name and last name. The registration handler must be contextualized with the portal ID in Salesforce to load specific configurations by the portal. For example, the user gets created in the profile and account related to the portal from the NetworkSelfRegistration object. 
-
 
 == Basic Terminology
 
