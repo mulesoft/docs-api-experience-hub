@@ -72,9 +72,7 @@ This solution creates a team called AEH Portal in Access Management automaticall
 +
 A single Apex class is provided in the API Experience Hub package called AEHPortalRegistrationHandler.cls that is compatible with SAML and OpenID Connect.  
 +
-The registration handler is a piece of Apex code that runs when a user logs in to the Salesforce Experience Cloud site. You select this handler when configuring an authentication provider for Salesforce. 
-+
-When the identity provider is configured properly, Salesforce passes the portal ID to the AEHPortalRegistrationHandler. If the user does not exist, the registration handler creates the user's identity in Salesforce. If the user exists, the handler updates the user metadata based on information sent by the identity provider, for example, the user’s first name and last name. The registration handler must be contextualized with the portal ID in Salesforce to load specific configurations by the portal. For example, the user gets created in the profile and account related to the portal from the NetworkSelfRegistration object. 
+The registration handler is a piece of Apex code that runs when a user logs in to the Salesforce Experience Cloud site. You select this handler when configuring an authentication provider for Salesforce. When the identity provider is configured properly, Salesforce passes the portal ID to the AEHPortalRegistrationHandler. If the user does not exist, the registration handler creates the user's identity in Salesforce. If the user exists, the handler updates the user metadata based on information sent by the identity provider, for example, the user’s first name and last name. The registration handler must be contextualized with the portal ID in Salesforce to load specific configurations by the portal. For example, the user gets created in the profile and account related to the portal from the NetworkSelfRegistration object. 
 
 == Basic Terminology
 
