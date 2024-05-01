@@ -108,7 +108,7 @@ Single Sign-On::
 
 Single sign-on (SSO) is an authentication method that enables users to access multiple applications with one login and one set of credentials. For example, after users log in to your org, they can automatically access all apps from the App Launcher. You can set up your Salesforce or Anypoint Platform organization to trust a third-party identity provider to authenticate users. Or you can configure a third-party app to rely on your org for authentication.
 
-
+[[before-you-begin]]
 == Before You Begin
 Before enabling SSO, ensure you have the following permissions and context:
 

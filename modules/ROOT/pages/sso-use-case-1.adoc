@@ -8,7 +8,7 @@ This use case includes all of the instructions for setting up an identity provid
 == Before You Begin
 * In the identity provider of your choice, the users or identities must be created for the group of the users who have access to the application. 
 
-* Ensure that you read the information in Before You Begin to understand the roles and permissions required and what information API Experience Hub requires to configure custom user attributes and claims for the identity provider.
+* Ensure that you read the information in the xref:enabling-sso-for-your-portal.adoc#before-you-begin [Before You Begin] section to understand the roles and permissions required and the information that API Experience Hub expects to configure custom user attributes and claims for the identity provider.
 
 == Step 1: Enable SSO for Your Portal
 To enable SSO, an identity provider is required for Anypoint Platform to create identities in Anypoint Platform for Salesforce users. 
@@ -125,7 +125,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 |===
 +
 image::aeh-sso-saml-settings.png["SAML Settings example",width=90%]
-
+. Review the xref:enabling-ss0-for-your-portal#before-you-begin[Before You Begin] section for information about what API Experience Hub expects for attributes to properly map users in the identity provider.
 . In the *Attribute Statements (optional)* section, configure the SAML integration by adding the following custom attributes. For supported formats, see xref:enabling-sso-for-your-portal.adoc#custom-user-attributes[Custom User Attributes]:
 +
 [%header,cols="1a,2a,3a"]
