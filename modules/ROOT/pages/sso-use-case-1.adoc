@@ -38,9 +38,11 @@ Create a new application for the API Experience Hub portal in the identity provi
 |*Assignments* |Select *Limit access to selected groups*.
 |*Selected group(s)*|Enter the name of the group who must have access to the application.
 |===
-. Configure a custom groups claim filter that the application sends.
+. Configure the claims that the application sends.
 +
-If you are not using OpenID Connect, review the xref:enabling-sso-for-your-portal.adoc#before-you-begin[Before You Begin] section for the values that API Experience expects for claims and attributes and the documentation for the identity provider. 
+. Review the xref:enabling-sso-for-your-portal.adoc#before-you-begin[Before You Begin] section to verify that your identity provider sends the expected claims.
++
+For example, for OpenID Connect for Okta, you can configure the groups claim by:
 
 .. From the *Sign On* tab, click *Edit* from the *OpenID Connect ID Token* section.
 .. From *Groups claim type*, select *Filter*. 

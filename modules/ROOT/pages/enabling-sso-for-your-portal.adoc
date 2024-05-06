@@ -119,11 +119,13 @@ Before enabling SSO, ensure you have the following permissions and context:
 
 * Be aware of what API Experience Hub expects for custom claims or attributes when creating a new application for the portal in the identity provider.
 +
-Configuring the custom user attributes and claims for the identify provider ensures that the identity provider and the user information are mapped correctly. For example, the AEHPortalRegistrationHandler requires specific user information from the identity provider to create or update a user. The following required information lists the fields where this information is extracted from and the expected values. If there are more than one claim or attribute, the registration handler looks for the first expected value in the order it appears in the following tables:
+Configuring the user claims in the identity provider ensures that the user information is mapped correctly to Salesforce  and Anypoint users.  
++
+The AEHPortalRegistrationHandler requires specific user information from the identity provider to create or update a user. The following tables list the required information and which claims the information is extracted from. If there is more than one claim for the same value, the registration handler looks for the first expected claim in the order it appears in the following tables:
 +
 [%header%autowidth.spread]
 |===
-|Field|Expected Values
+|Field|Expected Claims
 |First Name 
 | given_name, first_name, firstname, and firstName
 |Last Name 
@@ -135,7 +137,7 @@ Configuring the custom user attributes and claims for the identify provider ensu
 |Groups | groups
 |===
 + 
-The following information is optional except when using SAML to create an application for API Experience Hub in the identity provider:
+The following information is optional and enable you to configure specific use cases like xref:sso-use-case-2.adoc[Configuring SSO When the Identity Provider Is Already Configured for Anypoint Platform]:
 +
 [%header,cols="1a,2a,3a"]
 |===

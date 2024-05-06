@@ -35,7 +35,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 |===
 . Configure a custom groups claim filter that the application sends.
 +
-If you are not using OpenID Connect, review the xref:enabling-sso-for-your-portal.adoc#before-you-begin[Before You Begin] section for the values that API Experience expects for claims and attributes and the documentation for the identity provider. 
+If you are not using OpenID Connect, review the xref:enabling-sso-for-your-portal.adoc#before-you-begin[Before You Begin] section for the values that API Experience expects for claims and attributes, and the documentation for the identity provider. 
 
 .. From the *Sign On* tab, click *Edit** from the *OpenID Connect ID Token* section.
 .. From *Groups claim type*, select *Filter*. 
