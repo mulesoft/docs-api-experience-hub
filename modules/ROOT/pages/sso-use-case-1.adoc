@@ -1,4 +1,4 @@
-= Configuring Single Sign-On When No Identity Provider Is Configured in Anypoint Platform
+= Configuring SSO When No Identity Provider Is Configured in Anypoint Platform
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
@@ -38,9 +38,9 @@ Create a new application for the API Experience Hub portal in the identity provi
 |*Assignments* |Select *Limit access to selected groups*.
 |*Selected group(s)*|Enter the name of the group who must have access to the application.
 |===
-. Configure the claims that the application sends.
-+
+
 . Review the xref:enabling-sso-for-your-portal.adoc#before-you-begin[Before You Begin] section to verify that your identity provider sends the expected claims.
+. Configure the claims that the application sends.
 +
 For example, for OpenID Connect for Okta, you can configure the groups claim by:
 
