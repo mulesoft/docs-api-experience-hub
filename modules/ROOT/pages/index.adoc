@@ -91,4 +91,4 @@ See the following topics for information about supported browsers:
 
 * xref:user-roles-permissions-and-profiles.adoc[]
 * xref:getting-started-with-api-experience-hub.adoc[]
-* xref:getting-started.adoc[]
+

@@ -12,7 +12,8 @@ The Salesforce platform uses the System Administrator profile, which includes pe
 == Before You Begin
 
 * You must be an Organization Administrator or an existing API Experience Hub Administrator
-* Consider the permission strategy for users in the Anypoint organization and Salesforce organization. See xref:user-roles-and-permissions.adoc[] for more information.
+* Consider the permission strategy for users in the Anypoint organization and Salesforce organization. See xref:user-roles-permissions-and-profiles.adoc[] for more information.
+* The Salesforce user who is assigned the AEH_Anypoint permission set must have the Salesforce license and the Standard User profile.
 
 == Grant the API Experience Hub Administrator Permission and the Exchange Viewer Permission
 The Organization Administration and API Experience Hub Administrator can perform all of the functions to create a portal. Only the Organization Administrator or an existing API Experience Hub Administrator can grant a user the API Experience Hub Administrator permission. Grant this permission when you want another user in your organization to perform the Salesforce linking process, create and curate the portal, manage the portal, and manage users.
@@ -59,12 +60,12 @@ Perform the following steps to manually create the permission set, add the neces
 +
 .. Log in to Salesforce as the System Administrator.
 .. In *Setup*, enter `permission sets` in the *Quick Find* box and click *Permission Sets*.
-.. Click *Add*.
+.. Click *New*.
 .. Enter `AEH_Anypoint` exactly as it appears in both the *Label* and *API Name* fields.
-.. Click *Save*
+.. Click *Save*.
+. Add the necessary permissions to the permission set:
 .. In the *Systems* section, click *System Permissions*.
 .. Click *Edit*.
-. Add the necessary permissions to the permission set:
 .. In the *System* section, enable the following _required_ permissions:
 +
 * Apex REST Services
@@ -106,8 +107,6 @@ Perform the following steps to manually create the permission set, add the neces
 * View All Data
 * View Dashboards in Public Folders
 * View Event Log Files
-* View Login Forensics Events
-* View Real-Time Event Monitoring Data
 * View Reports in Public Folders
 * View Roles and Role Hierarchy
 * View Setup and Configuration
@@ -120,6 +119,7 @@ Perform the following steps to manually create the permission set, add the neces
 * Manage Password Policies
 * Manage Profiles and Permission Sets
 * Manage Roles
+* Manage Sandboxes
 * Manage Sharing
 * Manage Users
 * Reset User Passwords and Unlock Users
@@ -128,13 +128,15 @@ Perform the following steps to manually create the permission set, add the neces
 .. Click *Save*.
 . Assign the permission set to a Salesforce user:
 +
+This user must have the Salesforce license and the Standard User profile.
++
 .. In *Setup*, enter `Users` in the *Quick Find* box and click *Permission Sets*, and click *Users*.
 .. In the *Full Name* column, select the name of the user.
 .. In *Permission Set Assignments* section, click *Edit Assignments*.
 .. Select *AEH_Anypoint* from the *Available Permission Sets* list and move the set to the *Enabled Permission Sets* list.
 .. Click *Save*.
 
-To deploy the permission set via your CI/CD, use the following `AEH_Anypoint.permissionset-meta.xml metadata` file:
+To deploy the permission set via your CI/CD, use the following `AEH_Anypoint.permissionset-meta.xml metadata` file, then assign the permission set to a Salesforce user:
 
 . Copy the metadata file and create a file named `AEH_Anypoint.permissionset-meta.xml`.
 +
@@ -312,6 +314,10 @@ To deploy the permission set via your CI/CD, use the following `AEH_Anypoint.per
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageRoles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageSandboxes</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

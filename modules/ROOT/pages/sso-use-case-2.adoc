@@ -1,4 +1,6 @@
+
 = Configuring SSO When the Identity Provider is Already Configured for Anypoint Platform
+
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]

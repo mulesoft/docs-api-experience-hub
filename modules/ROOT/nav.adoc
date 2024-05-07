@@ -1,12 +1,11 @@
 .Anypoint API Experience Hub
 * xref:index.adoc[]
-** xref:getting-started-with-api-experience-hub.adoc[]
 ** xref:user-roles-permissions-and-profiles.adoc[]
 ** xref:licensing.adoc[]
 ** xref:limitations.adoc[]
 ** xref:best-practices.adoc[]
 * xref:api-experience-hub-release-notes.adoc[Release Notes]
-* xref:getting-started.adoc[]
+* xref:getting-started-with-api-experience-hub.adoc[]
 * xref:assigning-permissions.adoc[]
 * xref:connecting-to-salesforce.adoc[]
 * xref:styling-your-api-portal.adoc[]
