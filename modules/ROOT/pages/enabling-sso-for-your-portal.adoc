@@ -117,7 +117,7 @@ Before enabling SSO, ensure you have the following permissions and context:
 * Experience with identity management and setting up identity providers for SSO.
 * Review Access Management's xref:access-management::external-identity.adoc[Identity Provider] documentation to understand identity management for Anypoint Platform.
 
-* Be aware of what API Experience Hub expects for custom claims or attributes when creating a new application for the portal in the identity provider.
+* Be aware of what API Experience Hub expects for claims or attributes when creating a new application for the portal in the identity provider.
 +
 Configuring the user claims in the identity provider ensures that the user information is mapped correctly to Salesforce  and Anypoint users.  
 +
