@@ -38,7 +38,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 |*Assignments* |Select *Limit access to selected groups*.
 |*Selected group(s)*|Enter the name of the group who must have access to the application.
 |===
-. Verify that your identity provider sends the expected claims that is listed in the   xref:enabling-sso-for-your-portal.adoc#before-you-begin[Before You Begin] section. 
+. Verify that your identity provider sends the expected claims listed in the   xref:enabling-sso-for-your-portal.adoc#before-you-begin[Before You Begin] section. 
 . Configure the claims that the application sends.
 +
 For example, for OpenID Connect for Okta, you can configure the groups claim using the following steps:
