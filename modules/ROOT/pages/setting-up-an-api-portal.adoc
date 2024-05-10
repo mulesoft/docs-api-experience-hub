@@ -1,0 +1,13 @@
+= Setting Up an API Portal 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+After connecting to Salesforce, create a new portal or continue to set up an existing portal using the guided set up. An existing portal is an API portal that is created and styled already. Selecting this option enables you to continue setting it up by managing APIs and users.
+
+Existing portals are recreated and deployed with the existing styling selections. See xref:customizing-your-portal.adoc[Customizing Your Portal Using the Experience Builder] to add more styling customizations.
+
+== Set Up an API Portal
+
+. To create a new portal, click *Create new portal*.
+. To use an existing portal, click *Use existing portal*.
