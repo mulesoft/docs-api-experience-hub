@@ -137,7 +137,7 @@ The AEHPortalRegistrationHandler requires specific user information from the ide
 |Groups | groups
 |===
 + 
-The following information is optional and enables you to configure specific use cases like xref:sso-use-case-2.adoc[Configuring SSO When the Identity Provider Is Already Configured for Anypoint Platform]:
+To configure specific use cases, such as xref:sso-use-case-2.adoc[], use the following information:
 +
 [%header,cols="1a,2a,3a"]
 |===
