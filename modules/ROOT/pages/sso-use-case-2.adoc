@@ -20,7 +20,7 @@ Ensure you have the following setup and context:
 == Step 1: Enable SSO for Your Portal
 In this step, you create and configure an application in the identity provider for the API Experience Hub portal, enable the ability to send group information in the application configuration, configure groups, and map the application to the identity provider for Anypoint Platform. Performing these steps require you to move back and forth between applications and the identity provider application to copy or add information. 
 
-=== Create and Set Up An Application 
+=== Create and Set Up an Application 
 
 Create a new application for the API Experience Hub portal in the identity provider. 
 
