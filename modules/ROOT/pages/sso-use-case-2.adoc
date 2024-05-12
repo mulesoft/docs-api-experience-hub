@@ -40,7 +40,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 +
 For example, for OpenID Connect, you can configure the groups claims using the following steps:
 
-.. From the *Sign On* tab, click *Edit** from the *OpenID Connect ID Token* section.
+.. In the *Sign On* tab, *OpenID Connect ID Token* section, click *Edit*.
 .. From *Groups claim type*, select *Filter*. 
 .. From *Groups claim filter*, enter `groups`.
 .. Select *Matches regex for the expression* then enter *.** for wildcard.
