@@ -6,7 +6,7 @@ endif::[]
 This use case includes instructions for setting up an identity provider for your portal when no other identity provider is configured in Anypoint Platform. You want to configure an identity provider as a login option for your portal. Since there is no identity provider configured in Anypoint Platform, the default identity provider automatically maps the identity provider for the portal to the identity provider in Anypoint Platform. This enables every Salesforce user to have an identity in Anypoint Platform. See xref:enabling-sso-for-your-portal.adoc#out-of-the-box-configurations[Out-of-the-Box Configurations] for more information about the default identity provider.
 
 == Before You Begin
-* In the identity provider of your choice, the users or identities must be created for the group of the users who have access to the application. 
+* In the identity provider of your choice, the users or identities must exist for the users with access to the application. 
 
 * Review the information in the xref:enabling-sso-for-your-portal.adoc#before-you-begin [Before You Begin] section to understand the roles and permissions required and the information that API Experience Hub expects to configure custom user attributes and claims for the identity provider.
 
