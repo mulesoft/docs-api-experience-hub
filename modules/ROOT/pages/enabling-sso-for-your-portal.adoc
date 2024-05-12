@@ -142,7 +142,7 @@ To configure specific use cases, such as xref:sso-use-case-2.adoc[], use the fol
 [%header,cols="1a,2a,3a"]
 |===
 |Field |Description |Expected Values
-|Anypoint Idp Id|Used to map identities to the specific identity provider in Anypoint Platform. |anypoint_idp_id
+|Anypoint Idp Id|Map identities to the specific identity provider in Anypoint Platform. |anypoint_idp_id
 |Anypoint Username|Explicitly specify the Anypoint Platform user when the user's identity already exists in Anypoint Platform, but the username is different than the Salesforce user. |anypoint_username
 |===
 +
