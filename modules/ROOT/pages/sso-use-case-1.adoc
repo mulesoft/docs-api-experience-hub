@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-This use case includes instructions for setting up an identity provider for your portal when no other identity provider is configured in Anypoint Platform. You want to configure an identity provider as a login option for your portal. Since there is no identity provider configured in Anypoint Platform, the default identity provider automatically maps the identity provider for the portal to the identity provider in Anypoint Platform. This enables every Salesforce user to have an identity in Anypoint Platform. See xref:enabling-sso-for-your-portal.adoc#out-of-the-box-configurations[Out-of-the-Box Configurations] for more information about the default identity provider.
+This use case includes instructions for setting up an identity provider for your portal when no other identity provider is configured in Anypoint Platform. Since no identity provider is configured, the default identity provider automatically maps the identity provider for the portal to the identity provider in Anypoint Platform, providing every Salesforce user an identity in Anypoint Platform. See xref:enabling-sso-for-your-portal.adoc#out-of-the-box-configurations[Out-of-the-Box Configurations] for more information about the default identity provider.
 
 == Before You Begin
 * In the identity provider of your choice, the users or identities must exist for the users with access to the application. 
@@ -66,7 +66,7 @@ You set up the auth provider or SSO settings in Salesforce with the identity pro
 .. In *Salesforce*, go to *Setup*.
 .. In the *Quick Find* box, enter `Auth`, and then select *Auth. Providers*.
 .. Click *New*.
-.. In the *Provider Type* field, select *OpenID Connect*.
+.. For *Provider Type*, select *OpenID Connect*.
 .. Complete the following fields:
 +
 [%header,cols="1a,2a"]

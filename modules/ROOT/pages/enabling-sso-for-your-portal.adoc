@@ -117,11 +117,11 @@ Before enabling SSO, ensure you have the following permissions and context:
 * Experience with identity management and setting up identity providers for SSO.
 * Review Access Management's xref:access-management::external-identity.adoc[Identity Provider] documentation to understand identity management for Anypoint Platform.
 
-* Be aware of what API Experience Hub expects for claims or attributes when creating a new application for the portal in the identity provider.
+* Be aware of what API Experience Hub requires for claims or attributes when creating a new application for the portal in the identity provider.
 +
-Configuring the user claims in the identity provider ensures that the user information is mapped correctly to Salesforce and Anypoint users.  
+Configuring the required user claims in the identity provider ensures that the user information is mapped correctly to Salesforce and Anypoint users.  
 +
-The AEHPortalRegistrationHandler requires specific user information from the identity provider to create or update a user. The following tables list the required information and which claims the information is extracted from. If there is more than one claim for the same value, the registration handler looks for the first expected claim in the order it appears in the following tables:
+The AEHPortalRegistrationHandler requires specific user information from the identity provider to create or update a user. The required claims are used by the registration handler to extract user information. The following table list the required information and which claims the information is extracted from. If there is more than one claim for the same value, the registration handler looks for the first expected claim in the order it appears in the following table:
 +
 [%header%autowidth.spread]
 |===
