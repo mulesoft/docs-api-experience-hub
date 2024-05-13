@@ -38,7 +38,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 . Verify that your identity provider sends the expected claims listed in the xref:enabling-sso-for-your-portal.adoc#before-you-begin[Before You Begin] section. 
 . Configure the claims that the application sends.
 +
-For example, for OpenID Connect, configure group claims using the following steps:
+For example, for OpenID Connect, configure the groups claim using the following steps:
 
 .. In the *Sign On* tab, *OpenID Connect ID Token* section, click *Edit*.
 .. From *Groups claim type*, select *Filter*. 
