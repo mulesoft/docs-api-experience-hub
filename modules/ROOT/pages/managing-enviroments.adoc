@@ -22,6 +22,8 @@ list prerequisites here
 == Manage Orphaned Sandboxes
 if you connected to a sandbox that is not a child of the production org
 
+== Manage Refreshed Sandbox Connections
+
 == Delete Sandbox Organizations 
 
 To delete a sandbox organizaton, see xref:https://help.salesforce.com/s/articleView?id=000383260&type=1[Delete a sandbox] from the Salesforce documentation.

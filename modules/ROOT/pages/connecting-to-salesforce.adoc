@@ -62,18 +62,16 @@ If you don't use a custom domain and you have active Salesforce sessions in the 
 . Confirm the Salesforce access information and click *Continue*.
 . Click *Allow* for MuleSoft to access your data and click *Connect*.
 +
-//placeholder for allow access screen capture
 . Click *Continue*.
 +
 The process of installing the Salesforce Experience Cloud package begins. When the package is installed successfully, you receive an email.
 
-== Connect to Sandbox Organizations
+== Connect to a Sandbox Organization
 
 
 
-== Switch Between Sandbox Organizations
-== Manage Refreshed sandbox connections
-Sandbox was refreshed deleted
+
+
 == Create the Portal Later
 Connected to the organ but want to set it up later
 == Connect to additional Sandbox organizations
@@ -81,9 +79,11 @@ Connected to the organ but want to set it up later
 
 == Disconnect an Existing Salesforce Organization
 
-== Delete a Connected Sandbox Organization
+
 
 == Reconnect a Salesforce Organization
+
+== Delete a Connected Sandbox Organization
 
 == Next Steps
 When the connection is complete, start xref:setting-up-an-api-portal.adoc[].
