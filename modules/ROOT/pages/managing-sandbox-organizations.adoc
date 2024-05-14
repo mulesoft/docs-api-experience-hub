@@ -8,7 +8,7 @@ Sandbox organizations enable you to test your portal in a sandbox environment un
 == Before You Begin
 list prerequisites here
 
-== Manage Sandbox Organizations Before and After Connecting to Production
+== Manage Sandbox Organizations 
 
 . In the *Manage your API portal* page, click the organization switch control. 
 //screen capture of environment/sandbox switcher control
@@ -26,8 +26,11 @@ if you connected to a sandbox that is not a child of the production org
 
 == Delete Sandbox Organizations 
 
-To delete a sandbox organizaton, see xref:https://help.salesforce.com/s/articleView?id=000383260&type=1[Delete a sandbox] from the Salesforce documentation.
+To delete a sandbox organizaton, see xref:https://help.salesforce.com/s/articleView?id=000383260&type=1[Delete a sandbox] from the Salesforce 
+documentation.
 
+== Move Sandbox Organization to Production
+//from PRD - Whenever the test in the lower environment is ready, deploy a subset of the Salesforce metadata using your CI/CD pipeline to a higher environment. The deployment process is outside of the scope of AEH and is done following the current company release cycles. Afterward, you can connect to the production instances (that will have a subset of the Salesforce metadata) to complete the installation + start curating APIs.
 == See Also
 
 * xref:acess-management::environments.adoc[]

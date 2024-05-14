@@ -48,7 +48,9 @@ Follow these steps to connect to your Salesforce organization:
 
 . Navigate to Anypoint Platform, enter your username and password, and then click *Sign in*.
 . From Anypoint Platform, select *API Experience Hub* from the list of products.
-. From the *Connect to Salesforce Experience Cloud* dialog, select an option from the *Environment* list:
+. From the *Welcome to API Experience Hub* page, click *Let's Start*.
+. Click *Connect to Salesforce*.
+. From the *Connect to Salesforce* dialog, select an option from the *Environment* list:
 +
 * Production
 +
@@ -59,36 +61,30 @@ If you do not know which Salesforce organization environment type you have, cont
 +
 If you don't use a custom domain and you have active Salesforce sessions in the selected environment, you log in to Salesforce using the first active session.
 . Click *Connect*.
-. Confirm the Salesforce access information and click *Continue*.
-. Click *Allow* for MuleSoft to access your data and click *Connect*.
+. Click *Allow* for MuleSoft to access your data.
+. Confirm the Salesforce access information and click *Confirm connection*.
 +
-. Click *Continue*.
+The process of connecting to Salesforce and installing the Salesforce Experience Cloud package begins. When the package is installed successfully, you receive an email.
+
+== Connect To a New Salesforce Organization
+
+Use the following steps to connect to a new Salesforce organization after an initial connection.
+
+. Click *Connect to Salesforce*.
+. From the *Connect to Salesforce* dialog, select an option from the *Environment* list:
 +
-The process of installing the Salesforce Experience Cloud package begins. When the package is installed successfully, you receive an email.
-
-== Connect to a Sandbox Organization
-
-
-
-
-
-== Create the Portal Later
-Connected to the org but want to set it up later
-
-== Connect to Additional Sandbox Organizations
-
-
-== Disconnect an Existing Salesforce Organization
-
-
-
-== Reconnect a Salesforce Organization
-
-== Delete a Connected Sandbox Organization
-
-
-== Move Sandbox Organization to Production
-//from PRD - Whenever the test in the lower environment is ready, deploy a subset of the Salesforce metadata using your CI/CD pipeline to a higher environment. The deployment process is outside of the scope of AEH and is done following the current company release cycles. Afterward, you can connect to the production instances (that will have a subset of the Salesforce metadata) to complete the installation + start curating APIs.
+* Production
++
+* Sandbox
++
+If you do not know which Salesforce organization environment type you have, contact your Salesforce administrator.
+. If you have a custom Salesforce domain, select *I have a custom Salesforce domain* and enter your domain address.
++
+If you don't use a custom domain and you have active Salesforce sessions in the selected environment, you log in to Salesforce using the first active session.
+. Click *Connect*.
+. Confirm the Salesforce access information and click *Confirm connection*.
++
+The process of connecting to Salesforce and installing the Salesforce Experience Cloud package begins. When the package is installed successfully, you receive an email.  
 
 
 == Next Steps
