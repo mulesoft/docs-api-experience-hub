@@ -11,6 +11,7 @@
 * xref:setting-up-an-api-portal.adoc[]
 * xref:styling-your-api-portal.adoc[]
 * xref:managing-your-portal.adoc[]
+** xref:managing-sandbox-organizations.adoc[]
 ** xref:managing-apis.adoc[]
 ** xref:managing-users.adoc[]
 ** xref:enabling-sso-for-your-portal.adoc[]
