@@ -73,8 +73,9 @@ The process of installing the Salesforce Experience Cloud package begins. When t
 
 
 == Create the Portal Later
-Connected to the organ but want to set it up later
-== Connect to additional Sandbox organizations
+Connected to the org but want to set it up later
+
+== Connect to Additional Sandbox Organizations
 
 
 == Disconnect an Existing Salesforce Organization
@@ -84,6 +85,11 @@ Connected to the organ but want to set it up later
 == Reconnect a Salesforce Organization
 
 == Delete a Connected Sandbox Organization
+
+
+== Move Sandbox Organization to Production
+//from PRD - Whenever the test in the lower environment is ready, deploy a subset of the Salesforce metadata using your CI/CD pipeline to a higher environment. The deployment process is outside of the scope of AEH and is done following the current company release cycles. Afterward, you can connect to the production instances (that will have a subset of the Salesforce metadata) to complete the installation + start curating APIs.
+
 
 == Next Steps
 When the connection is complete, start xref:setting-up-an-api-portal.adoc[].

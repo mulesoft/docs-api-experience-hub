@@ -8,7 +8,7 @@ Sandbox organizations enable you to test your portal in a sandbox environment un
 == Before You Begin
 list prerequisites here
 
-== Manage Sandbox Organizations Before and After Connecting to Product
+== Manage Sandbox Organizations Before and After Connecting to Production
 
 . In the *Manage your API portal* page, click the organization switch control. 
 //screen capture of environment/sandbox switcher control
