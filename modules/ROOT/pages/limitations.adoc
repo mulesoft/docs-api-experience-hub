@@ -8,7 +8,7 @@ This release has the following limitations:
 * API Experience Hub does not use platform cache.
 * API Experience Hub functions at the main organization level only.
 * You cannot connect a Salesforce organization to more than one Anypoint organization.
-* An API portal can have a maximum of 250 APIs.
+* An API portal can have a maximum of 350 APIs.
 +
 Do not make changes to the permissions of the out-of-the-box Teams created in Access Management for API Experience Hub. Each asset added to the API portal uses two permissions and Access Management has a limit of 1000 permissions per team.
 * API Groups are not available.
