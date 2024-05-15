@@ -3,10 +3,12 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Sandbox organizations enable you to test your portal in a sandbox environment under the same conditions as your production environment. API Experience Hub enables you to manage separate deployment environments for your API portal. If no sandbox environments were added, none are listed when you attempt to switch to another organization. If there are no sandbox organizations available in the connected production organization, the Salesforce organization switch is disabled.
+Use sandbox organizations to test your portal in a sandbox environment under the same conditions as your production environment. API Experience Hub enables you to manage separate deployment environments for your API portal. 
+
+If no sandbox environments were added, none are listed when you attempt to switch to another organization. If there are no sandbox organizations available in the connected production organization, the Salesforce organization switch is disabled.
 
 == Before You Begin
-list prerequisites here
+Ensure that you have sandbox organizations already set up. See, https://help.salesforce.com/s/articleView?id=sf.data_sandbox_create.htm&type=5[Create a Sandbox] in the Salesforce documentation for more information.
 
 == Manage Sandbox Organizations 
 
@@ -17,7 +19,6 @@ list prerequisites here
 . To connect to a sandbox organization that is not connected, click *Connect*.
 . To connect to a new sandbox organization, click *Connect new sandbox org*.
 . To switch to a another sandbox organization, click *Switch to this org*.
-
 
 == Manage Orphaned Sandboxes
 if you connected to a sandbox that is not a child of the production org
