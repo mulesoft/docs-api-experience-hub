@@ -90,7 +90,7 @@ The process of connecting to Salesforce and installing the Salesforce Experience
 
 
 == Next Steps
-When the connection to the Salesforce organization is complete, create a new portal or create a portal using the metadata from an existing portal. For more information, see xref:setting-up-an-api-portal.adoc[].
+When the connection to the Salesforce organization is complete, set up the portal. For more information, see xref:styling-your-api-portal.adoc[].
 
 == See Also
 

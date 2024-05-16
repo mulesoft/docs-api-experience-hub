@@ -8,9 +8,9 @@ The process of creating your API portal includes these steps:
 . xref:connecting-to-salesforce.adoc[Connect to Salesforce]
 +
 Connect to Salesforce and link your Anypoint organization to your Salesforce organization.
-. xref:styling-your-api-portal.adoc[Style Your API Portal]
+. xref:styling-your-api-portal.adoc[Set Up the API Portal]
 +
-Use the guided design to style and brand your API portal. After your style options are saved, the portal is created. 
+Use the guided setup to set up the portal and apply styling options to brand your portal. After the setup and styling are complete, the portal is created. 
 
 == Before You Begin
 Before creating your portal, we recommend that you have the following information:
