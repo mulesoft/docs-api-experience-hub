@@ -1,0 +1,30 @@
+= Configuring User Analytics 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Use Google Analytics to gain valuable insights into how consumers are using your APIs and portal, identify areas for improvement, make data-driven decisions to optimize the user experience, and drive business success.
+
+The following data is tracked:
+
+API usage metrics: 
+
+* API Instance Access Requests
+* API Specification Downloads
+* Most Viewed API
+* Total Number of calls made to an AP
+* Total Number of API’s published in portal 
+
+User engagement metrics:
+
+* Active users
+* Login events
+
+API Console usage:
+
+* API Requests
++ 
+Measure the overall API usage and identity patterns in API consumption. Captures each time an API request is made through the API Console and the total number of API requests made.
+* API Usage by Endpoint
++
+Identities popular endpoints and monitors usage trends to optimize API design and resource allocation. Captures each time an API request is made to a specific endpoint through the API console and the number of requests made to each API endpoint 
