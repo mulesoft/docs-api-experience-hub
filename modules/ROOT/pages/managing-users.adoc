@@ -3,8 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Users can self-register for your portal by default. View and manage users, access requests from guest users, and manage how users login.
-
+View and manage users, access requests from guest users, and manage how users login. Users can self-register for your portal by default. 
 
 == Manage Portal Members
 Manage portal members using the *Portal members* page. When a guest user's registration is approved, the user's name is added to the list of members. You can view a searchable list of current members and manage their accounts by enabling or disabling them.
