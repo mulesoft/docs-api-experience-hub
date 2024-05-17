@@ -3,66 +3,38 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-View and manage users and access requests from guest users from the *User management* page. Users can self-register for your portal by default.
+Users can self-register for your portal by default. View and manage users, access requests from guest users, and manage how users login.
 
-You can see information about: 
 
-* Members
-* Pending requests
-* Login settings
+== Manage Portal Members
+Manage portal members using the *Portal members* page. When a guest user's registration is approved, the user's name is added to the list of members. You can view a searchable list of current members and manage their accounts by enabling or disabling them.
 
-== Members
-When the registration of guest users are approved, they are added to the list of members in the Members tab of the User Management page. You can view a searchable list of current members and manage their accounts by enabling or disabling them.
-
-The Members tab shows the following information:
-
-* Name
-+
-The first and last name of the registered member.
-* Email 
-+
-The email address of the member.
-* Enable portal access
-+
-The slider indicates if access to your portal is enabled or disabled for a user. 
+Use the *Enable portal access* slider to enable or disable a user's access to your portal. 
 
 === View and Search for Members 
-To find a member, enter the member's name or email address in the *Search by name or email* box. The member is listed in the search results.
+Find members by entering the member's name or email address in the *Search by name or email* box. The member is listed in the search results.
 
 === Enable or Disable Access to Your Portal
-When a user's access to the portal is approved in the Pending requests tab, the Enable portal access slider is on in the Members tab. You can disable a user's access by moving the slider to off.
+When a user's access to the portal is approved in the *Pending requests* page, the *Enable portal access* slider is enabled in the *Portal members* page. You can disable a user's access by moving the slider to off.
 
-== Pending Requests
-The Pending requests tab displays information about users who registered to access the portal. The maximum pending user registration requests is 500.
+== Manage Pending Requests
+Use the *Pending requests* page to approve or reject requests for users who registered to access the portal. You can also view the user's name, email, registration date, and registration status of the users who registered to access the portal. The maximum pending user registration requests is 500.
 
-The following information is available in this tab:
-
-* Name
-+
-The name of the user who is requesting access.
-* Email
-+
-The email address of the user who is requesting access.
-* Registration date
-+
-The date the user registered to access the portal.
-* Registration status
-+
-The status of the registration. Registration status can be pending approval or rejected. When the registration is approved, the user is removed from the Pending requests list and added to the list of members on the Members page. 
+When the registration is approved, the user is removed from the pending requests list and added to the list of members on the *Portal members* page. 
 
 === Approve or Reject Member Registration
-After a guest user registers for an account using self-registration, you approve or reject the request. 
+After a guest user registers for an account using self-registration, approve or reject the request. 
 
-. From the *User management* page, click *Pending requests*.
+. From the *User management*, click *Pending requests*.
 . Enter the user's name or email in the *Search by name or email* box.
 . From the list, click the three dots icon and select *Approve* or *Reject*.
 +
-After approval, the user moves to the *Members* tab.
+After approval, the user moves to the *Portal members* page.
 +
 If the registration is rejected, the user cannot log in and access the portal.
 
-== Login Settings
-The Login settings tab lets you disable or enable self-registration for external users and set up single sign-on for your portal. Self-registration enables guest users to register themselves as members of your API portal. From the Pending requests tab, you can see a list of pending requests from guest users who want to access your portal. 
+== Manage Login Settings
+Disable or enable self-registration for external users and set up single sign-on for your portal using the *Login settings* page. Self-registration enables guest users to register themselves as members of your API portal. From the *Pending requests* page, you can see a list of pending requests from guest users who want to access your portal. 
 
 === Disable or Enable Self-Registration
 By default, the ability for external users to self-register is enabled. This allows guest users to register, become a member, and access your portal site. Administrators can disable self-registration.
@@ -70,20 +42,20 @@ By default, the ability for external users to self-register is enabled. This all
 NOTE: Self-registration is for new users only. 
 Existing users cannot self-register. They must use an identity provider to access the portal.
 
-To disable external user registration, from the *Login settings* tab of the *User Management* page, turn off the *Allow external user registration* option. 
+To disable external user registration, from the *Login settings* of the *Manage your API portal* page, turn off the *Allow external user registration* option. 
 
 To enable external registration again, turn on the *Allow external user registration* option.
 
 === Single Sign-On (SSO)
 The *Single sign-on (SSO)* section provides information about how to set up your portal with SSO. For detailed instructions about configuring SSO, see xref:enabling-sso-for-your-portal.adoc[].
 
-====  Manage Salesforce Identity Providers
+===  Manage Salesforce Identity Providers
 When enabling SSO, you can add new Salesforce identity providers and delete the providers that you previously configured, and enable and disable them as needed. When the identity provider is enabled, users can log in to the portal using this identity provider.
 
 To add a new identity provider or delete an existing one:
 
-. From the *User management* page, select the *Login settings* tab.
-. From the *Single sign-on (SSO)* section, scroll down to the *Add Salesforce identity providers* section.
+. From the *User management*, select the *Login settings* page.
+. From the *Single sign-on (SSO)* section, scroll to the *Add Salesforce identity providers* section.
 . Click *Select identity provider* and select an option from the dropdown menu. 
 . Click *+ Add identity provider*.
 +
@@ -92,7 +64,7 @@ The identity provider is added to the list.
 
 To enable or disable an identity provider: 
 
-. From the *Single sign-on (SSO)* section, scroll down to the *Add Salesforce identity providers* section.
+. From the *Single sign-on (SSO)* section, scroll to the *Add Salesforce identity providers* section.
 . Move the slider to *Enabled* next to the name of the identity provider.
 . If you want to disable the identity provider, move the slider to *Disable*.
 
