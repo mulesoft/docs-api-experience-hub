@@ -24,7 +24,7 @@
 ** xref:common-builder-customizations.adoc[]
 ** xref:advanced-styling-with-css.adoc[]
 * xref:previewing-and-publishing-your-portal.adoc[]
-* xref:managing-certficates.adoc[]
+* xref:updating-expiring-certficates.adoc[]
 * xref:discovering-and-consuming-apis.adoc[]
 ** xref:registering-for-access-to-portal.adoc[]
 ** xref:discovering-apis.adoc[]
