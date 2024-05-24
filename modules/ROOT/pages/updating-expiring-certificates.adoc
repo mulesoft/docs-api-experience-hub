@@ -32,3 +32,7 @@ image::aeh-rename-cert.png[Example for renaming the certificate]
 .. Go to Salesforce and click *Setup* > *Security* > *Certificate and Key Management*.
 .. Locate the renamed certificate in the list and click *Delete*.
 
+== See Also
+
+* xref:connecting-to-salesforce.adoc[]
+
