@@ -15,7 +15,6 @@ API Experience Hub uses a Salesforce metadata API to generate an Anypoint certif
 == Before You Begin
 Before getting started, ensure you have the API Experience Hub Administrator permissions.
 
-
 == Update the Salesforce Identity Data Certificate 
 To generate a new Anypoint certificate:
 
