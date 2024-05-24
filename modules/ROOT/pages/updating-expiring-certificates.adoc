@@ -12,8 +12,6 @@ A self-signed certificate is generated to link the Anypoint Platform organizatio
 
 API Experience Hub uses a Salesforce metadata API to generate an Anypoint certificate during the connection process. The connected app uses this certificate to access metadata content from Anypoint. This certificate is also valid for one year. An email is sent to the administrator of the Salesforce instance 30 days before the certificate expires. Because a named credential uses the Anypoint certificate, the certificate cannot be deleted initially. To generate a new Anypoint certificate, the certificate must be renamed to trigger a diagnostic check to fail and create a new Anypoint certificate. After renaming the certificate, the portal administrator can log back in to API Experience Hub successfully. As a best practice, the administrator of the Salesforce instance should delete the renamed certificate because the maximum number of Salesforce certificates is 50.
 
-For more information about named credentials, see https://help.salesforce.com/s/articleView?id=sf.named_credentials_about.htm&type=5[Named Credentials].
-
 == Before You Begin
 Before getting started, ensure you have the API Experience Hub Administrator permissions.
 
@@ -35,4 +33,5 @@ image::aeh-rename-cert.png[Example for renaming the certificate]
 == See Also
 
 * xref:connecting-to-salesforce.adoc[]
+* https://help.salesforce.com/s/articleView?id=sf.named_credentials_about.htm&type=5[Named Credentials]
 
