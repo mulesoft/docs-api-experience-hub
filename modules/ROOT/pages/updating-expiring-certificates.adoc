@@ -6,7 +6,7 @@ endif::[]
 Connected apps enable a two-way connection between Anypoint Platform and Salesforce organizations. The connected apps depend on digital certificates for proper functionality. These certificates are time-bound and subject to expiration. 
 
 == How Certificates Are Generated
-API Experience Hub generates a few self-signed certificates during the connection process that expire in one year.
+During the connection process, API Experience Hub generates self-signed certificates that expire in one year.
 
 A self-signed certificate is generated to link the Anypoint Platform organization and the Salesforce organization. The certificate and the private key is stored in Secrets Manager in Anypoint Security. When this certificate expires, no notification is sent to the administer of the Salesforce instance. However, the initial connection between Anypoint Platform and Salesforce remains operational. The next time the administrator logs in to API Experience Hub, an error message displays a connection error and enables the administrator to reconnect. When the administrator logs back in to API Experience Hub, a new certificate generates  automatically and expires in one year. 
 
