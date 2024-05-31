@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Connected apps enable a two-way connection between Anypoint Platform and Salesforce organizations. The connected apps are dependent on digital certificates for proper functionality. These certificates are time-bound and subject to expiration. 
+Connected apps enable a two-way connection between Anypoint Platform and Salesforce organizations. The connected apps depend on digital certificates for proper functionality. These certificates are time-bound and subject to expiration. 
 
 == How Certificates Are Generated
 API Experience Hub generates a few self-signed certificates during the connection process that expire in one year.
