@@ -1,0 +1,32 @@
+= Collaborating With Your API Portal Community
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Collaborate with other members of your API portal community by sharing posts and updates, participate in polling, and asking questions. Receive notifications for relevant activities in your personalized feed. The feed includes updates about new API releases, comments, and mentions.
+
+== See Feedback and Discussions About an API
+
+. Select an API from the Home or APIs page of the portal. 
+. In the from the *API Details* page, click *Feedback and discussions*.
+
+== Share and Update Posts
+User can share a post or update. 
+
+. Select an API from the Home or APIs page of the portal. 
+. In the from the *API Details* page, click *Feedback and discussions*.
+. Select *Poll* and enter a 
+
+== View Notifications
+When someone answers or comments to your post, poll or question, you receive notification through email and the API Details page shows the number of notification. 
+
+To view notifications, click the bell icon in the 
+
+
+== Add
+
+== Follow and Message Members
+To follow and message other members of your portal community:
+
+
+

@@ -1,0 +1,42 @@
+= Configuring Chatter Feed Tracking 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Add Chatter feed tracking to engage with your portal community. Chatter tracking enables portal members to create discussions about APIs, get real-time updates and notifications, seek expert advice, and review relevant discussions.
+
+
+== Enable Feed Tracking
+To enable feed tracking:
+
+. Go to Salesforce and click *Setup*.
+. In the Quick Find box, enter *feed tracking* and select *Feed Tracking*.
+. Select *Community Asset* and *Enable Feed Tracking*.
+. Click *Save*.
+
+
+== Hide Tabs
+Hide tabs that you don't want to show. By default, the *API details* page displays the *Post*, *Poll*, or *Question* tabs. 
+
+. Go to Salesforce and click *Setup*.
+. In the *Quick Find* box, enter *publisher layouts* and select *Publisher Layouts*. 
+. Click *Edit*.
+. Remove the tabs that you don’t want to show.
+. Click *Save*.
+
+
+== Allow Members to See Other Member Profiles
+Enable members to see other member's name, title, company name, other information, and follow and message each other.
+
+. Go to Salesforce and click *Setup*.
+. In the *Quick Find* box, enter *sharing settings* and select *Sharing Settings*. 
+. Click *Edit*.
+. Enable *Portal User Visibility*.
+. Click *Save*.
+
+== Show Members First and Last Names
+By default member nicknames are shown. To show first and last name of members:
+
+. Go to Salesforce and click *Workspaces*.
+
+== Enable Edit Feed Post
