@@ -22,7 +22,7 @@ To generate a new Anypoint certificate:
 . Locate *Anypoint* in the list and click *Edit*.
 . Enter a new name, for example, *Anypoint to expire*. 
 +
-image::aeh-rename-cert.png[Example for renaming the certificate]
+image::aeh-rename-cert.png["Example for renaming the certificate",width=60%]
 . Click *Save*.
 . Log in to API Experience Hub to trigger a diagnostic check to create a new certificate.
 . Delete the renamed certificate, for example, *Anypoint to expire*: 
