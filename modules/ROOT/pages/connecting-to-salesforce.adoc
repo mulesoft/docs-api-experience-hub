@@ -73,5 +73,6 @@ When the linking is complete, you can xref:styling-your-api-portal.adoc[style yo
 
 * xref:user-roles-permissions-and-profiles.adoc[]
 * xref:assigning-permissions.adoc[]
+* xref:updating-expiring-certificates.adoc[]
 * xref:troubleshooting.adoc[]
 

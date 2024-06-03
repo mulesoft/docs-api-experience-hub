@@ -45,7 +45,7 @@ To disable external user registration, from the *Login settings* of the *Manage 
 
 To enable external registration again, turn on the *Allow external user registration* option.
 
-=== Single Sign-On (SSO)
+=== Configuring Single Sign-On (SSO)
 The *Single sign-on (SSO)* section provides information about how to set up your portal with SSO. For detailed instructions about configuring SSO, see xref:enabling-sso-for-your-portal.adoc[].
 
 ===  Manage Salesforce Identity Providers
