@@ -50,7 +50,9 @@ Follow these steps to connect to your Salesforce organization:
 . From Anypoint Platform, select *API Experience Hub* from the list of products.
 . From the *Welcome to API Experience Hub* page, click *Let's Start*.
 . Click *Connect to Salesforce*.
-. From the *Connect to Salesforce* dialog, select an option from the *Environment* list:
+. To a create a portal directly in production, select *Production* from the *Environment* list.
+. Enter the username and password of your Salesforce organization and click *Log In*.
+
 +
 * Production
 +
