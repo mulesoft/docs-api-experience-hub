@@ -9,11 +9,11 @@ The following data is tracked:
 
 API usage metrics: 
 
-* API Instance Access Requests
-* API Specification Downloads
-* Most Viewed API
-* Total Number of calls made to an AP
-* Total Number of API’s published in portal 
+* API instance access requests
+* API specification downloads
+* Most viewed API
+* Total number of calls made to an AP
+* Total number of APIs published in the portal 
 
 User engagement metrics:
 
@@ -22,9 +22,45 @@ User engagement metrics:
 
 API Console usage:
 
-* API Requests
+* API requests
 + 
 Measure the overall API usage and identity patterns in API consumption. Captures each time an API request is made through the API Console and the total number of API requests made.
-* API Usage by Endpoint
+* API usage by endpoint
 +
-Identities popular endpoints and monitors usage trends to optimize API design and resource allocation. Captures each time an API request is made to a specific endpoint through the API console and the number of requests made to each API endpoint 
+Identities popular endpoints and monitors usage trends to optimize API design and resource allocation. Captures each time an API request is made to a specific endpoint through the API console and the number of requests made to each API endpoint.
+
+== Configure Google Analytics
+To configure Google Analytics to send events from the portal:
+
+. Set up a Google Analytics property using the instructions in the https://support.google.com/analytics/answer/1008080?hl=en&visit_id=638531259961972871-3450454930&rd=1#zippy=%2Cin-this-article[Set up the Analytics Google tag] topic from the Google documentation.
+. Navigate to the Builder.
+. Click *Settings* > *Security & Privacy*.
+. In the *Content Security Policy (CSP)* section, select *Relaxed CSP: Permit Access to Inline Scripts and Allowed Hosts*.
+. From *Settings*, click *Advanced*.
+. In the *Advanced* page, enter your Google Analytics Tracking ID.
+. Select *Let Google Analytics access your Salesforce data for deeper insights into search activity*.
+. Click *Edit Head Markup*.
+. Add the following code and replace all instances of `G-TRACK_ID` with your Google Analytics Tracking ID:
++
+----
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRACK_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-TRACK_ID');
+  document.addEventListener('analyticsCustomEvent', function(e) {
+      let detail = JSON.parse(JSON.stringify(e.detail));
+      gtag('event', detail.eventName, detail.dimensions);
+  });
+</script>
+----
+. From *Setup*, click *Security & Privacy*.
+. Confirm that the following URLs show in the *Trusted Sites for Scripts* section:
+* https://www.google-analytics.com
+* https://www.googletagmanager.com
+. If the URLs are missing, add them by clicking *Add Trusted Site*.
+. From *Setup*, click *Security* > *Trusted URLs*.
+. Confirm that the same two URLs are in the list of the *Trusted URLs* section.
++
+API Experience Hub can now start sending Google Analytics from the portal.

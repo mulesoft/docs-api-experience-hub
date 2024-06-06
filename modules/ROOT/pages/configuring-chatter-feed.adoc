@@ -3,40 +3,59 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Add Chatter feed tracking to engage with your portal community. Chatter tracking enables portal members to create discussions about APIs, get real-time updates and notifications, seek expert advice, and review relevant discussions.
+Add Chatter Feed tracking to engage with your portal community. Chatter tracking enables portal members to create discussions about APIs, get real-time updates and notifications, seek expert advice, and review relevant discussions.
 
+For existing API portals, you must add the Feed and Feed Publisher components manually using the Experience Builder.
 
 == Enable Feed Tracking
-To enable feed tracking:
 
 . Go to Salesforce and click *Setup*.
-. In the Quick Find box, enter *feed tracking* and select *Feed Tracking*.
+. In the Quick Find box, enter *feed tracking* and click *Feed Tracking*.
 . Select *Community Asset* and *Enable Feed Tracking*.
 . Click *Save*.
 
+== Add Feed Components For Existing API Portals
+To add Feed components for existing portals:
 
-== Hide Tabs
-Hide tabs that you don't want to show. By default, the *API details* page displays the *Post*, *Poll*, or *Question* tabs. 
-
-. Go to Salesforce and click *Setup*.
-. In the *Quick Find* box, enter *publisher layouts* and select *Publisher Layouts*. 
-. Click *Edit*.
-. Remove the tabs that you don’t want to show.
+. Navigate to the Builder.
+. In *Preview* mode, go to the *API details* page.
+. Click *Back to Builder*.
+. Click *Components*.
+. Click the *Tab Layout (New)* component.
+. In the *Tab Layout (New)* dialog, click *Add*.
+. In the *Tab Name*, enter *Feedback and discussions* or any name for the tab.
 . Click *Save*.
+. Click *Components* and enter *Feed* in the Search box.
+. Drag the *Feed* and *Feed Publisher* components into the *Tab Layout (New)* area for *Feedback and discussions*.
+
+To learn more about Chatter Feed tracking, see the following topics in the Salesforce documentation: 
+
+//Hide tabs that you don't want to show. By default, the *API details* page displays the *Post*, *Poll*, or *Question* tabs. 
+
+//. Go to Salesforce and click *Setup*.
+//. In the *Quick Find* box, enter *publisher layouts* and select *Publisher Layouts*. 
+//. Click *Edit*.
+//. Remove the tabs that you don’t want to show.
+//. Click *Save*.
 
 
-== Allow Members to See Other Member Profiles
-Enable members to see other member's name, title, company name, other information, and follow and message each other.
+//== Allow Members to See Other Member Profiles
+//Enable members to see other members' name, title, company name, other information, and follow and message each other.
 
-. Go to Salesforce and click *Setup*.
-. In the *Quick Find* box, enter *sharing settings* and select *Sharing Settings*. 
-. Click *Edit*.
-. Enable *Portal User Visibility*.
-. Click *Save*.
+//. Go to Salesforce and click *Setup*.
+//. In the *Quick Find* box, enter *sharing settings* and select *Sharing Settings*. 
+//. Click *Edit*.
+//. Enable *Portal User Visibility*.
+//. Click *Save*.
 
-== Show Members First and Last Names
-By default member nicknames are shown. To show first and last name of members:
+//== Show Members First and Last Names
+//By default member nicknames are shown. To show first and last name of members:
 
-. Go to Salesforce and click *Workspaces*.
+//. Go to Salesforce and click *Workspaces*.
 
-== Enable Edit Feed Post
+//== Enable Edit Feed Post
+
+== See Also
+
+
+ 

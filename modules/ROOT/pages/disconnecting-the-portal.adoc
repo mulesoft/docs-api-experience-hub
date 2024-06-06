@@ -9,17 +9,13 @@ Disconnecting your API portal removes artifacts from the API Experience Hub data
 
 To create a new API portal, you must disconnect the current API portal from your Salesforce organization. This process unlinks Anypoint to your Salesforce organization. You can then link your Anypoint account to a new Salesforce organization. 
 
-The following graphic shows the *Disconnect portal* button on the *Settings* page:
-
-image::apiexphub-settings-disconnect-portal.png[]
-
 To disconnect your API portal:
 
 . From the *Manage your API portal* page, click *Settings*.
-. Click *Disconnect portal*.
-. To disconnect, click *Disconnect portal* from the message.
+. Click *Disconnect Salesforce Org*.
+. To disconnect, click *Disconnect Salesforce Org* from the message.
 +
-Your API portal is disabled and no longer accessible by users. The APIs remain available in Exchange. 
+The API portal is disconnected from the Salesforce organization and no longer accessible by users. The APIs remain available in Exchange. 
 
 == See Also
 
