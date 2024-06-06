@@ -219,18 +219,20 @@ Before installing the API Experience Hub Manage Package in your production organ
 ----
 sf package installed list --target-org sandboxOrg --json
 ----
-.. Install the API Experience Hub managed package in the production organization.
-
+.. Install the API Experience Hub managed package in the production organization:
++ 
+[codeblock]
+----
 sf package install --package 04t... --target-org productionOrg --no-prompt --wait 30
-
-Deploy API Experience Hub metadata in the Production Org
-
-Previously we got API Experience Hub metadata from the Sandbox org and we committed it in a branch inside a Git repository, now there are a lot of possibilities to implement a CI/CD Pipeline using Jenkins or similar tools to deploy the metadata in the Production org, but no matter how simple or complex your process is, you have to deploy your metadata using a command similar to this:
-
+----
+.. Deploy the API Experience Hub metadata to the production organization using Jenkins or other CI/CD tools to deploy the metadata into production, for example:
++
+[codeblock]
+----
 sf project deploy start --source-dir force-app --target-org productionOrg
-
-
-At this point all configurations were deployed in the Production org, and you are ready to connect this org with API Experience Hub
+----
++
+All configurations are deployed in the production organization, and you are ready to connect this org with API Experience Hub
 Configure API Experience Hub in Production Org
 
 Goto Anypoint / API Experience Hub and connect the Salesforce Production organization (enterprise org)
