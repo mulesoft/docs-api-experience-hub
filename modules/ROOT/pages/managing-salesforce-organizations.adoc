@@ -1,4 +1,4 @@
-= Managing Sandbox Organizations
+= Managing Salesforce Organizations
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
@@ -10,7 +10,7 @@ If no sandbox environments were added, none are listed when you attempt to switc
 == Before You Begin
 Ensure that you have sandbox organizations already set up. See, https://help.salesforce.com/s/articleView?id=sf.data_sandbox_create.htm&type=5[Create a Sandbox] in the Salesforce documentation for more information.
 
-== Manage Sandbox Organizations 
+== Manage Salesforce Organizations 
 
 . In the *Manage your API portal* page, click the organization switch control. 
 //screen capture of environment/sandbox switcher control
@@ -21,7 +21,7 @@ Ensure that you have sandbox organizations already set up. See, https://help.sal
 . To switch to a another sandbox organization, click *Switch to this org*.
 
 == Manage Orphaned Sandboxes
-if you connected to a sandbox that is not a child of the production org
+If you connected to a sandbox that is not a child of the production org, the sandbox appears as an orphan.
 
 == Manage Refreshed Sandbox Connections
 
