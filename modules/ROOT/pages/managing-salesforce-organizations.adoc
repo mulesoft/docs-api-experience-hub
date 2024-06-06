@@ -1,11 +1,12 @@
-= Managing Salesforce Organizations
+=  Working With Sandboxes
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Use sandbox organizations to test your portal in a sandbox environment under the same conditions as your production environment. API Experience Hub enables you to manage separate deployment environments for your API portal. 
+Use Salesforce sandbox organizations to test your portal in a sandbox environment under the same conditions as your production environment. API Experience Hub enables you to manage separate deployment environments for your API portal. You can connect to multiple Salesforce sandbox organizations and switch between them. Manage Salesforce organizations from the *Manage your API portal* page by selecting sandbox environments that are available in the current Salesforce connection.  
 
-If no sandbox environments were added, none are listed when you attempt to switch to another organization. If there are no sandbox organizations available in the connected production organization, the Salesforce organization switch is disabled.
+When no sandbox organizations are available in the connected production organization, the Salesforce organization switch is disabled.
+//screen capture of org switcher
 
 == Before You Begin
 Ensure that you have sandbox organizations already set up. See, https://help.salesforce.com/s/articleView?id=sf.data_sandbox_create.htm&type=5[Create a Sandbox] in the Salesforce documentation for more information.
@@ -27,11 +28,10 @@ If you connected to a sandbox that is not a child of the production org, the san
 
 == Delete Sandbox Organizations 
 
-To delete a sandbox organizaton, see xref:https://help.salesforce.com/s/articleView?id=000383260&type=1[Delete a sandbox] from the Salesforce 
-documentation.
+To delete a sandbox organizaton, see xref:https://help.salesforce.com/s/articleView?id=000383260&type=1[Delete a sandbox] from the Salesforce documentation.
 
 == Move Sandbox Organization to Production
-//from PRD - Whenever the test in the lower environment is ready, deploy a subset of the Salesforce metadata using your CI/CD pipeline to a higher environment. The deployment process is outside of the scope of AEH and is done following the current company release cycles. Afterward, you can connect to the production instances (that will have a subset of the Salesforce metadata) to complete the installation + start curating APIs.
+//from PRD - When the test in the lower environment is ready, deploy a subset of the Salesforce metadata using your CI/CD pipeline to a higher environment. The deployment process is outside of the scope of AEH and is done following the current company release cycles. Afterward, you can connect to the production instances (that will have a subset of the Salesforce metadata) to complete the installation and start curating APIs.
 == See Also
 
 * xref:acess-management::environments.adoc[]
