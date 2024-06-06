@@ -22,7 +22,7 @@ Ensure that you have sandbox organizations already set up. See, https://help.sal
 . To switch to a another sandbox organization, click *Switch to this org*.
 
 == Manage Orphaned Sandboxes
-If you connected to a sandbox that is not a child of the production org, the sandbox appears as an orphan.
+If you connected to a sandbox that is not a child of the production org, the sandbox appears as an orphan. Orphan sandbox organizations occur when the connection to the production organization is disconnected and there are child sandbox organizations still connected.
 
 == Manage Refreshed Sandbox Connections
 
@@ -30,7 +30,7 @@ If you connected to a sandbox that is not a child of the production org, the san
 
 To delete a sandbox organizaton, see xref:https://help.salesforce.com/s/articleView?id=000383260&type=1[Delete a sandbox] from the Salesforce documentation.
 
-== Move Sandbox Organization to Production
+== Deploy a Sandbox to Production
 //from PRD - When the test in the lower environment is ready, deploy a subset of the Salesforce metadata using your CI/CD pipeline to a higher environment. The deployment process is outside of the scope of AEH and is done following the current company release cycles. Afterward, you can connect to the production instances (that will have a subset of the Salesforce metadata) to complete the installation and start curating APIs.
 == See Also
 
