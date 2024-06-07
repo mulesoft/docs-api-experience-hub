@@ -119,7 +119,7 @@ Specify values for the following properties:
 
 *Bookmarks* feed shows only bookmarked posts, pool, or questions that is posted for a selected bookmark.
 |Record ID
-|The feed item ID. Typically, this field is automatically populated when the page loads. Leave this field blank if you pick the *Discussion* or *My Feed options* in *Feed Type*.
+|The feed item ID. Typically, this field populates automatically when the page loads. Leave this field blank if you pick the *Discussion* or *My Feed options* in *Feed Type*.
 |Default Filter
 |Select the default filter for feed entries that you want your site members to see.
 |Post Style

@@ -28,34 +28,13 @@ To add Feed components for existing portals:
 . Click *Components* and enter *Feed* in the Search box.
 . Drag the *Feed* and *Feed Publisher* components into the *Tab Layout (New)* area for *Feedback and discussions*.
 
-To learn more about Chatter Feed tracking, see the following topics in the Salesforce documentation: 
-
-//Hide tabs that you don't want to show. By default, the *API details* page displays the *Post*, *Poll*, or *Question* tabs. 
-
-//. Go to Salesforce and click *Setup*.
-//. In the *Quick Find* box, enter *publisher layouts* and select *Publisher Layouts*. 
-//. Click *Edit*.
-//. Remove the tabs that you don’t want to show.
-//. Click *Save*.
-
-
-//== Allow Members to See Other Member Profiles
-//Enable members to see other members' name, title, company name, other information, and follow and message each other.
-
-//. Go to Salesforce and click *Setup*.
-//. In the *Quick Find* box, enter *sharing settings* and select *Sharing Settings*. 
-//. Click *Edit*.
-//. Enable *Portal User Visibility*.
-//. Click *Save*.
-
-//== Show Members First and Last Names
-//By default member nicknames are shown. To show first and last name of members:
-
-//. Go to Salesforce and click *Workspaces*.
-
-//== Enable Edit Feed Post
-
 == See Also
+* xref:common-builder-customizations#configure-feed-component[Configure Feed Component]
+* xref:common-builder-customizations#configure-feed-publisher-component[Configure Feed Publisher Component]
+
+
+
+
 
 
  

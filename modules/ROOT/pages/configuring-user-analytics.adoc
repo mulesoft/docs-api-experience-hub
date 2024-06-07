@@ -42,6 +42,7 @@ To configure Google Analytics to send events from the portal:
 . Click *Edit Head Markup*.
 . Add the following code and replace all instances of `G-TRACK_ID` with your Google Analytics Tracking ID:
 +
+[codeblock]
 ----
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TRACK_ID"></script>
 <script>
@@ -64,3 +65,4 @@ To configure Google Analytics to send events from the portal:
 . Confirm that the same two URLs are in the list of the *Trusted URLs* section.
 +
 API Experience Hub can now start sending Google Analytics from the portal.
+

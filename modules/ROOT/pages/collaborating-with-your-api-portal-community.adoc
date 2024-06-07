@@ -10,8 +10,6 @@ API Experience Hub uses Salesforce Chatter Feed components to enable collaborati
 * Asking questions 
 * Receiving notifications for relevant activities in personalized feeds
 
-Feed includes updates about new API releases, comments, and mentions.
-
 The Chatter feed options that display depend on how your administrator sets up feeds for the API portal.
 
 To see feedback and discussions about an API:
@@ -21,98 +19,7 @@ To see feedback and discussions about an API:
 +
 *Feedback and discussions* is the default of name of the tab, however, administrators can change this name.
 
-== Share Posts
-Post content that’s shared with people who follow you, or comment on someone else’s post. Like posts or comments to show your support.
-
-. Select *Post* and enter a message to share.
-. Click *Share*.
-
-== Edit, Delete, Bookmark, and Edit Topics Posts
-Members can only edit their own posts and delete posts, polls, and questions with no comments or answers.
-
-Portal administrators can delete any post, poll, and no matter who created them. 
-
-. Select *Post* and locate the feed you want to edit.
-. Click the down arrow and select an option.
-. To edit a post:
-.. Click *Edit* and make your changes.
-.. Click *Save*
-. To delete a post:
-.. Click *Delete*.
-.. In the dialog, click *Delete*.
-. To bookmark a post, click *Bookmark*.
-+
-The post shows a bookmark.
-. To remove the bookmark, click *Remove Bookmark*.
-. To edit topics for a post:
-.. Click *Edit Topics*.
-.. Click *X* to delete the topic.
-.. To add a new topic, enter a topic name in the *Add Topic* field and click *Save*.
-
-== Edit and Delete Comments or Answers
-Member users can edit and delete their own comments and answers. Portal administrators can edit and delete any comment or answer no matter who created the comment or answer. Administrators can also mark any answer or comment as *Company Verify*.
-
-
-== Ask a Question
-To ask a question to your community:
-
-. Click *Question*.
-. Enter a title for your question in the *Question* field. 
-. Enter any details about your question in the *Details* field.
-. To add a topic, enter a name of the topic in the *Topic* field and press *Enter* or *Return*.
-. Select an option to send to *MuleSoft only* users or *All with access*. 
-. Click *Ask*.
-
-== Start or Answer a Poll
-Add a poll question or answer a poll. You can add up to 10 choices for your poll question.
-
-To add a poll question:
-
-. Click *Poll*.
-. Enter your question in the *Question* field.
-. Enter a choice option for *Choice 1* and *Choice 2*.
-. To add more choices, click *+ Add new choice* and enter another choice.
-. Click *Ask*.
-
-To answer a poll question:
-
-. Select an option and click *Vote*.
-. To change your voting option, click *View results*.
-. Click *Change vote*.
-. Select an option and click *Vote*.
-
-== Sort Your Feeds
-Use sorting options to limit what appears in your feed. You can sort by latest posts or most recent activity.
-
-image::aeh-sort-by.png["Sort by",width=20]
-
-== Search Your Feeds
-Use keywords to search for posts, polls, questions, comments, and answers.
-
-To search feeds, enter a keyword in the *Search this feed* field.
-
-== Filter Your Feeds
-Use filters to limit what appears in your feed by clicking the filter icon and selecting one of the following options:
-
-* All updates
-* All Questions
-* Unanswered Questions
-* Questions with No Best Answer
-* Questions with Best Answer
-
-== Like Posts, Polls, Questions, Comments, and Answers
-Like posts, polls, questions, comments, and answers to show your support by clicking *Like*. To stop liking, click *Unlike*.
-
-== View Notifications
-When someone answers or comments to your post, poll, or question, you receive notification through email and the *API details* page shows the number of notification. 
-
-To view notifications, click the bell icon.
-
-== Follow and Message Members
-To follow members of your portal community, click the member's name in the feed and then click *Follow*.
-
-== See Also
-For more information about using Chatter Feed tracking, see the following Salesforce documentation :
+For more information about using Chatter Feed tracking, see the following Salesforce documentation:
 
 * https://help.salesforce.com/s/articleView?id=sf.collab_overview.htm&type=5[Chatter Overview]
 * https://help.salesforce.com/s/articleView?id=sf.collab_home_overview.htm&type=5[Chatter Tab Overview]

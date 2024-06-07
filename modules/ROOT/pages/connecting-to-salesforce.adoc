@@ -32,22 +32,25 @@ An API Experience Hub Admin team and an API Experience Hub Portal Admin team is 
 
 After your styling changes for the portal are saved, the AEH Portal Admin team is created. Although the API Experience Hub Portal Administrator team is visible in Access Management, this permission is not supported in this release.
 
+
 == Before You Begin Connecting to Salesforce
 
 * Read the instructions in xref:getting-started-with-api-experience-hub.adoc[].
 * Ensure that you are a System Administrator or have the AEH_Anypoint permission set in the Salesforce organization that you are connecting with.
 
-== Connect to Salesforce 
+== Connect Your First Salesforce Organization 
 //The process of creating your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint Platform organization to your Salesforce organization, then installing the Salesforce Experience Cloud package. 
-The linking process is a one-time step when creating your portal.
+The connecting process is a one-time step when creating your portal.
 
 NOTE: Only an Organization Administrator, API Experience Hub Administrator, or a Salesforce user with the System Administrator profile or AEH_Anypoint permission set can connect to Salesforce to link organizations.
 
-Follow these steps to link your API portal:
+Follow these steps to connect to your Salesforce organization:
 
 . Navigate to Anypoint Platform, enter your username and password, and then click *Sign in*.
 . From Anypoint Platform, select *API Experience Hub* from the list of products.
-. From the *Connect to Salesforce Experience Cloud* dialog, select an option from the *Environment* list:
+. If it's the first time connecting to a Salesforce organization, click *Let's Start*.
+. Click *Connect to Salesforce*.
+. From the *Connect to Salesforce* dialog, select an option from the *Environment* list:
 +
 * Production
 +
@@ -58,21 +61,17 @@ If you do not know which Salesforce organization environment type you have, cont
 +
 If you don't use a custom domain and you have active Salesforce sessions in the selected environment, you log in to Salesforce using the first active session.
 . Click *Connect*.
-. Confirm the Salesforce access information and click *Continue*.
-. Click *Allow* for MuleSoft to access your data and click *Connect*..
+. Click *Allow* for MuleSoft to access your data.
+. Confirm the Salesforce access information and click *Confirm connection*.
 +
-//placeholder for allow access screen capture
-. Click *Continue*.
-+
-The process of installing the Salesforce Experience Cloud package begins. When the package is installed successfully, you receive an email.
+The process of connecting to Salesforce and installing the Salesforce Experience Cloud package begins. When the package is installed successfully, you receive an email.
 
 == Next Steps
-When the linking is complete, you can xref:styling-your-api-portal.adoc[style your API portal].
+When the connection to the Salesforce organization is complete, set up the portal. For more information, see xref:styling-your-api-portal.adoc[].
 
 == See Also
 
 * xref:user-roles-permissions-and-profiles.adoc[]
 * xref:assigning-permissions.adoc[]
-* xref:updating-expiring-certificates.adoc[]
 * xref:troubleshooting.adoc[]
 

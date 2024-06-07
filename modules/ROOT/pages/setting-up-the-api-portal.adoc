@@ -30,15 +30,11 @@ The API Details page displays information about an API. The template includes th
 Set up an API portal by choosing how to create the portal then apply styling options.
 
 . From the guided setup *Set up API portal* page, select an option to create the portal:
-.. To create a new portal, click *Create new portal*.
-. Click *Override and create new portal*.
-.. To create a new portal using an existing portal's styling selections, click *Use existing portal*.
+.. To create a new portal, click *Create new portal*. 
+.. To create a new portal using an existing portal's styling selections, click *Use existing portal* and click *Override and create new portal*.
 .. To create the portal at later time, click *Set up portal later*.
 
 == Style Your Portal
-
-//image::aeh-set-up-api-details.png[Style API details]
-
 Follow the guided design and click *Next* to advance through the steps. 
 
 NOTE: If you refresh the page or leave the guided design, the progress in the guided setup does not persist. You must complete all of the steps again.
