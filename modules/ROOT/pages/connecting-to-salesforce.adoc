@@ -64,13 +64,16 @@ If you do not know which Salesforce organization environment type you have, cont
 If you don't use a custom domain and you have active Salesforce sessions in the selected environment, you log in to Salesforce using the first active session.
 . Click *Connect*.
 . Click *Allow* for MuleSoft to access your data.
+. To go back and connect to a different Salesforce organization, click *Connect with another Salesforce organization*.
++
+The process of connecting to a Salesforce organization restarts.
 . Confirm the Salesforce access information and click *Confirm connection*.
 +
 The process of connecting to Salesforce and installing the Salesforce Experience Cloud package begins. When the package is installed successfully, you receive an email.
 
-== Connect a New Salesforce Organization
+== Connect a Another Salesforce Organization
 
-Use the following steps to connect to a new Salesforce organization after an initial connection.
+Use the following steps to connect to another Salesforce organization after an initial connection.
 
 . Navigate to Anypoint Platform, enter your username and password, and then click *Sign in*.
 . From Anypoint Platform, select *API Experience Hub* from the list of products.

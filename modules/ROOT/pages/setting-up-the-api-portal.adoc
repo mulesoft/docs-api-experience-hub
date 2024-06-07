@@ -6,7 +6,7 @@ endif::[]
 
 After connecting to your Salesforce organization, the guided setup takes portal administrators through the process setting up the portal. The setup process enables administrators to choose how to create the portal and style it using out-of-the-box templates.
 
-You can create a new portal, use an existing portal to create the new portal, or create the portal later. The option to create a new portal using an existing portal that was disconnected the Salesforce organization. The metadata from that portal is used to style the new portal with the same branding. Selecting this option from the guided setup enables you to quickly set up the portal without going through the styling process.
+You can create a new portal, use an existing portal's styling selections to create the new portal, or create the portal later. The option to create a new portal uses an existing portal that was disconnected the Salesforce organization. The metadata from that portal is used to style the new portal with the same branding. Selecting this option from the guided setup enables you to quickly set up the portal without going through the styling process.
 
 Existing portals are recreated and deployed with the existing styling selections. See xref:customizing-your-portal.adoc[Customizing Your Portal Using the Experience Builder] to add other styling customizations.
 
@@ -28,30 +28,17 @@ The APIs page contains the collection of APIs in your portal and is known as the
 +
 The API Details page displays information about an API. The template includes the name, type of API, owner email address, and a description of the API. 
 
-
-== Set Up and Style an API Portal
+== Set Up an API Portal
 Set up an API portal by choosing how to create the portal then apply styling options.
 
-. From the guided setup *Set up API portal page, select an option to create the portal:
+. From the guided setup *Set up API portal* page, select an option to create the portal:
 .. To create a new portal, click *Create new portal*.
 . Click *Override and create new portal*.
-.. To create a new portal using an existing portal, click *Use existing portal*.
+.. To create a new portal using an existing portal's styling selections, click *Use existing portal*.
 .. To create the portal at later time, click *Set up portal later*.
 
-== Next Steps
-Manage your API portal.
+== Style Your Portal
 
-== See Also
-
-* xref:styling-your-api-portal.adoc[]
-* xref:managing-your-portal.adoc[]
-
-
-
-== Style the API Portal
-
-
-+
 //image::aeh-set-up-api-details.png[Style API details]
 
 Follow the guided design and click *Next* to advance through the steps. 
@@ -119,6 +106,7 @@ Now that your portal is created, you can manage APIs by adding them to the porta
 
 == See Also
 
+* xref:managing-your-portal.adoc[]
 * xref:troubleshooting.adoc[Troubleshooting]
 
 
