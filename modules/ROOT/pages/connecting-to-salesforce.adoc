@@ -51,14 +51,8 @@ Follow these steps to connect to your Salesforce organization:
 . From the *Welcome to API Experience Hub* page, click *Let's Start*.
 . Click *Connect to Salesforce*.
 . To a create a portal directly in production, select *Production* from the *Environment* list.
+To a create a portal in a sandbox, select *Sandbox* from the *Environment* list.
 . Enter the username and password of your Salesforce organization and click *Log In*.
-
-+
-* Production
-+
-* Sandbox
-+
-If you do not know which Salesforce organization environment type you have, contact your Salesforce administrator.
 . If you have a custom Salesforce domain, select *I have a custom Salesforce domain* and enter your domain address.
 +
 If you don't use a custom domain and you have active Salesforce sessions in the selected environment, you log in to Salesforce using the first active session.
@@ -83,8 +77,6 @@ Use the following steps to connect to another Salesforce organization after an i
 * Production
 +
 * Sandbox
-+
-If you do not know which Salesforce organization environment type you have, contact your Salesforce administrator.
 . If you have a custom Salesforce domain, select *I have a custom Salesforce domain* and enter your domain address.
 +
 If you don't use a custom domain and you have active Salesforce sessions in the selected environment, you log in to Salesforce using the first active session.

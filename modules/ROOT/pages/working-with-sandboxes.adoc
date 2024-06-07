@@ -11,21 +11,30 @@ Use Salesforce sandbox organizations to test your portal in a sandbox environmen
 == Before You Begin
 Ensure that you have sandbox organizations already set up. For more information about creating sandboxes, see https://help.salesforce.com/s/articleView?id=sf.data_sandbox_create.htm&type=5[Create a Sandbox] in the Salesforce documentation.
 
-== Manage Salesforce Organizations 
+== Manage Salesforce Organization Connections
 
 . In the *Manage your API portal* page, click the organization switch control. 
 //screen capture of environment/sandbox switcher control
-. To connect to a production organization, click *Connect production org* from the *Connected Salesforce Orgs* dialog.
+. To connect to a production organization, click *Connect production org* from the *Connected Salesforce Orgs* dialog. 
++
+The connection process restarts and enables you to connect to the production organization.
 . To switch to another a sandbox for the connected production organization, click *Switch to this org* from the *Connected Salesforce Orgs* dialog.
 . To connect to a sandbox organization that is not connected, click *Connect*.
++
+The connection process restarts and enables you to connect to the sandbox organization.
 . To connect to a new sandbox organization, click *Connect new sandbox org*.
 . To switch to another sandbox organization, click *Switch to this org*.
 
 == Manage Orphaned Sandboxes
-Orphan sandboxes occur when the connection to the production organization is disconnected and there are child sandbox organizations still connected. If you connected to a sandbox that is not a child of the production organization, the sandbox appears as an orphan.
+Orphan sandboxes occur when the connection to the production organization is disconnected and there are child sandbox organizations still connected. If you connected to a sandbox that is not a child of the production organization, the sandbox appears as an orphan. You can still switch to this sandbox.
 
 == Manage Refreshed Sandbox Connections
-Refreshing a sandbox updates its metadata from the source organization.
+Refreshing a sandbox updates its metadata from the source organization. 
+
+If a sandbox refreshes after the production organization is connected, reconnect to switch to this sandbox.
+
+If a sandbox refreshes before the production organization is connected, you can switch to this sandbox.
+
 
 == Delete Sandbox Organizations 
 
