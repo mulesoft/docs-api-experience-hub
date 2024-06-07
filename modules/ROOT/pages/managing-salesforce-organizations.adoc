@@ -242,15 +242,10 @@ All configurations are deployed in the production organization, and you are read
 .. Preview the portal.
 .. Publish the portal.
 
-Useful Salesforce documentation links
-    
-Continuous Integration
-Deploy an Experience Cloud Site from Sandbox to Production
-Maintaining U     ser References
-
-
 
 == See Also
-
+* https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ci.htm[Continuous Integration]
+* https://developer.salesforce.com/docs/atlas.en-us.communities_dev.meta/communities_dev/networks_migrate_overview.htm[Deploy an Experirence Cloud Site from Sandbox to Production]
+* https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_user_references.htm[Maintaining User References]
 * xref:access-management::environments.adoc[]
 * xref:setting-up-the-api-portal.adoc[]
