@@ -38,9 +38,9 @@ An administrator can create a custom portal using these steps:
 . Connect to a Salesforce instance.
 +
 The instance can be a new or existing Salesforce organization. To connect, specify the environment type and enter the custom Salesforce domain if you have one, log in, allow the permissions, and confirm the account.
-. Style your API portal.
+. Set your API portal.
 +
-Once you connect to Salesforce, you can style the portal's out of the box pages with logos, fonts, color schemes, and more.
+Once you connect to Salesforce, choose how to set up the portal and style the portal's out of the box pages with logos, fonts, color schemes, and more.
 . Manage your portal.
 +
 Manage APIs by adding APIs from Exchange and setting the visibility for the API versions. Manage users by approving access requests from guest users.
@@ -49,7 +49,7 @@ Manage APIs by adding APIs from Exchange and setting the visibility for the API 
 Publish the portal to make it available to your community.
 
 == Portal Pages
-Each API Experience Hub portal includes a Home, APIs, and an API Details page. The portal administrator can customize each page to fit the organization's needs. For more information, see xref:styling-your-api-portal.adoc[Styling Your API Portal].
+Each API Experience Hub portal includes a Home, APIs, and an API Details page. The portal administrator can customize each page to fit the organization's needs. For more information, see xref:setting-up-the-api-portal.adoc[].
 
 The following sample portal shows the Home page: 
 
