@@ -129,7 +129,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 |===
 +
 image::aeh-sso-saml-settings.png["SAML Settings example",width=90%]
-. Review the xref:enabling-ss0-for-your-portal#before-you-begin[Before You Begin] section for information about what API Experience Hub expects for claims to properly map users in the identity provider.
+. Review the xref:enabling-sso-for-your-portal#before-you-begin[Before You Begin] section for information about what API Experience Hub expects for claims to properly map users in the identity provider.
 . In the *Attribute Statements (optional)* section, configure the SAML integration by adding the following custom attributes. For supported formats, see xref:enabling-sso-for-your-portal.adoc#custom-user-attributes[Custom User Attributes]:
 +
 [%header,cols="1a,2a,3a"]
@@ -233,5 +233,5 @@ From the *Members* tab, ensure that you can see your user there.
 == See Also
 
 * xref:troubleshoot-sso-errors.adoc[Troubleshooting Single Sign-On Errors]
-* xref:enabling-sso-on-for-your-portal.adoc[Enabling Single Sign-On for Your Portal]
+* xref:enabling-sso-for-your-portal.adoc[Enabling Single Sign-On for Your Portal]
 * xref:managing-users.adoc[Managing Users] 
