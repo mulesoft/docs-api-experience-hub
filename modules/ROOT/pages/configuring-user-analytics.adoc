@@ -12,8 +12,7 @@ API usage metrics:
 * API instance access requests
 * API specification downloads
 * Most viewed API
-* Total number of calls made to an AP
-* Total number of APIs published in the portal 
+* Total number of calls made to an API
 
 User engagement metrics:
 
