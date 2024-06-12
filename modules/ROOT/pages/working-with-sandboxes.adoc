@@ -17,14 +17,14 @@ image::aeh-org-switcher.png["Connection control",15%]
 +
 The connection process restarts and enables you to connect to the production organization.
 . To switch to another a sandbox for the connected production organization, click *Switch to this org* from the *Connected Salesforce Orgs* dialog.
-. To connect to a sandbox organization that is not connected, click *Connect*.
+. To connect to a sandbox organization that isn't connected, click *Connect*.
 +
 The connection process restarts and enables you to connect to the sandbox organization.
 . To connect to a new sandbox organization, click *Connect new sandbox org*.
 . To switch to another sandbox organization, click *Switch to this org*.
 
 == Manage Orphaned Sandboxes
-Orphan sandboxes occur when the connection to the production organization is disconnected and there are child sandbox organizations still connected. If you connected to a sandbox that is not a child of the production organization, the sandbox appears as an orphan. You can still switch to this sandbox.
+Orphan sandboxes occur when the connection to the production organization is disconnected and there are child sandbox organizations still connected. If you connected to a sandbox that isn't a child of the production organization, the sandbox appears as an orphan. You can still switch to this sandbox.
 
 == Manage Refreshed Sandbox Connections
 Refreshing a sandbox updates the metadata from the source organization. If a sandbox refreshes after the production organization is connected, reconnect to switch to this sandbox.
@@ -45,24 +45,28 @@ Ensure you have basic knowledge of the following:
 * Version control systems (VCS), for example, Git 
 * https://developer.salesforce.com/tools/salesforcecli[Salesforce CLI]  
 * CI/CD pipeline concepts
+* API portal created in a sandbox environment
 
 === Promote a Sandbox to Production
 
-. Configure API Experience Hub in the sandbox organization:
-.. Navigate to Anypoint Platform, enter your username and password, and then click *Sign in*.
-.. From Anypoint Platform, select *API Experience Hub*.
-.. Create a portal.
-.. Add assets to the portal.
-.. Preview your portal and add more customizations using Experience Builder.
-.. Publish your portal and test it.
-+
-The next step is moving all of the portal's styling and customizations from the sandbox organization to the production Org, or another sandbox organization if you want to test the process.
+//. Configure API Experience Hub in the sandbox organization:
+//.. Navigate to Anypoint Platform, enter your username and password, and then click *Sign in*.
+//.. From Anypoint Platform, select *API Experience Hub*.
+//.. Create a portal.
+//.. Add assets to the portal.
+//.. Preview your portal and add more customizations using Experience Builder.
+//.. Publish your portal and test it.
+
+Move all of the portal's styling and customizations from the sandbox organization to the production Organization.
+
 . Create a Git repository to store the API Experience Hub metadata:
 .. https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories[Create a Git repository]. 
 .. Clone it locally to your machine. 
 .. https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_create_new.htm[Create a SFDX project].
 .. Create a manifest package.xml in *./config*, for example:
 +
+[%collapsible]
+====
 [codeblock]
 ----
 <?xml version="1.0" encoding="UTF-8"?>
@@ -172,6 +176,7 @@ The next step is moving all of the portal's styling and customizations from the 
    <version>60.0</version>
 </Package>
 ----
+====
 .. In a VCS, create a development branch.
 .. Download the metadata using the manifest created from the Salesforce sandbox organization. 
 . Retrieve the metadata from Salesforce sandbox organization using Salesforce CLI commands:
@@ -183,7 +188,7 @@ sf auth web login --instance-url=https://<SANBOX-INSTANCE_URL> --alias sandboxOr
 ----
 .. Edit the *config/package.xml* file before retrieving the metadata from the sandbox organization to retrieve the new metadata that you added.
 +
-Your sandbox organization can contain a lot of metadata from different products because it's a copy from the Salesforce production organization. API Experience Hub is a subset of it and it's specified in the `config/package.xml` file that was created when creating the Git repository in a previous step. 
+Your sandbox organization can contain a large amount of metadata from different products because it's a copy from the Salesforce production organization. API Experience Hub is a subset of it and it's specified in the `config/package.xml` file that was created when creating the Git repository in a previous step. 
 +
 .. If the portal contains branding images, add them in *ContentAsset* section in *config/package*. For example:
 +
@@ -237,7 +242,7 @@ sf package install --package 04t... --target-org productionOrg --no-prompt --wai
 sf project deploy start --source-dir force-app --target-org productionOrg
 ----
 +
-All configurations are deployed in the production organization, and you are ready to connect this org with API Experience Hub
+All configurations are deployed in the production organization, and you're ready to connect this org with API Experience Hub
 . Configure API Experience Hub in Production Org:
 .. Navigate to Anypoint Platform, enter your username and password, and then click *Sign in*.
 .. From Anypoint Platform, select *API Experience Hub* from the list of products.
