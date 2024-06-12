@@ -57,13 +57,13 @@ Ensure you have basic knowledge of the following:
 //.. Preview your portal and add more customizations using Experience Builder.
 //.. Publish your portal and test it.
 
-Move all of the portal's styling and customizations from the sandbox organization to the production Organization.
+Move all of the portal's styling and customizations from the sandbox organization to the production organization.
 
 . Create a Git repository to store the API Experience Hub metadata:
 .. https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories[Create a Git repository]. 
 .. Clone it locally to your machine. 
 .. https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_create_new.htm[Create a SFDX project].
-.. Create a manifest package.xml in *./config*, for example:
+.. Create a manifest `package.xml` file in `./config`, for example:
 +
 [%collapsible]
 ====
@@ -179,18 +179,18 @@ Move all of the portal's styling and customizations from the sandbox organizatio
 ====
 .. In a VCS, create a development branch.
 .. Download the metadata using the manifest created from the Salesforce sandbox organization. 
-. Retrieve the metadata from Salesforce sandbox organization using Salesforce CLI commands:
+. Retrieve the metadata from the Salesforce sandbox organization using Salesforce CLI commands:
 .. Log in to the Salesforce sandbox organization.
 +
 [codeblock]
 ----
 sf auth web login --instance-url=https://<SANBOX-INSTANCE_URL> --alias sandboxOrg
 ----
-.. Edit the *config/package.xml* file before retrieving the metadata from the sandbox organization to retrieve the new metadata that you added.
+.. Edit the `config/package.xml` file before retrieving the metadata from the sandbox organization to retrieve the new metadata that you added.
 +
 Your sandbox organization can contain a large amount of metadata from different products because it's a copy from the Salesforce production organization. API Experience Hub is a subset of it and it's specified in the `config/package.xml` file that was created when creating the Git repository in a previous step. 
 +
-.. If the portal contains branding images, add them in *ContentAsset* section in *config/package*. For example:
+.. If the portal contains branding images, add them in `ContentAsset` section in the `config/package.xml`. For example:
 +
 [codeblock]
 ----
@@ -221,7 +221,7 @@ or you can modify the `config/package.xml` and repeat the process if some metada
 sf auth web login --instance-url=https://<ENTERPRISE-INSTANCE_URL> --alias productionOrg
 ----
 +
-Before installing the API Experience Hub Manage Package in your production organization, get the managed package version ID (SubscriberPackageVersionId) that's installed in the sandbox organization. 
+Before installing the API Experience Hub Manage package in your production organization, get the managed package version ID (SubscriberPackageVersionId) that's installed in the sandbox organization. 
 +
 .. Run the following command to get the managed package version ID. The `SubscriberPackageVersionId` field from the API Experience Hub managed package begins with *04t*:
 +
@@ -242,15 +242,15 @@ sf package install --package 04t... --target-org productionOrg --no-prompt --wai
 sf project deploy start --source-dir force-app --target-org productionOrg
 ----
 +
-All configurations are deployed in the production organization, and you're ready to connect this org with API Experience Hub
-. Configure API Experience Hub in Production Org:
-.. Navigate to Anypoint Platform, enter your username and password, and then click *Sign in*.
+All configurations deploy in the production organization and now you're ready to connect this organization with API Experience Hub.
+. Configure API Experience Hub in the production organization:
+.. Navigate to Anypoint Platform, enter your username and password, and click *Sign in*.
 .. From Anypoint Platform, select *API Experience Hub* from the list of products.
-.. Connect the Salesforce Production organization (enterprise org).
-.. Select the option to Reuse the Portal that already exist (it was created when you deploy the metadata in this org)
-.. Add assets to the portal.
-.. Preview the portal.
-.. Publish the portal.
+.. Connect the Salesforce production organization (Enterprise organization).
+.. Click *Use existing portal* to reuse the portal that already exists.
+.. From the *API Manage* page, add assets to the portal.
+.. Click *Preview and publish your portal* to preview the portal.
+.. Click *Publish*.
 
 
 == See Also
