@@ -5,7 +5,7 @@ endif::[]
 
 Use Salesforce sandbox organizations to test your portal in a sandbox environment under the same conditions as your production environment. API Experience Hub enables you to manage separate deployment environments for your API portal. You can connect to multiple Salesforce sandbox organizations and switch between them. Manage Salesforce organizations from the *Manage your API portal* page by selecting sandbox environments that are available in the current Salesforce connection.  
 
-//screen capture of org switcher
+image:aeh-org-switcher["Connection switcher", 15%]
 
 == Before You Begin
 Ensure that you have sandbox organizations already set up. For more information about creating sandboxes, see https://help.salesforce.com/s/articleView?id=sf.data_sandbox_create.htm&type=5[Create a Sandbox] in the Salesforce documentation.
