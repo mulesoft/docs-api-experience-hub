@@ -5,7 +5,6 @@ endif::[]
 
 Use Salesforce sandbox organizations to test your portal in a sandbox environment under the same conditions as your production environment. API Experience Hub enables you to manage separate deployment environments for your API portal. You can connect to multiple Salesforce sandbox organizations and switch between them. Manage Salesforce organizations from the *Manage your API portal* page by selecting sandbox environments that are available in the current Salesforce connection.  
 
-
 //screen capture of org switcher
 
 == Before You Begin
@@ -29,11 +28,9 @@ The connection process restarts and enables you to connect to the sandbox organi
 Orphan sandboxes occur when the connection to the production organization is disconnected and there are child sandbox organizations still connected. If you connected to a sandbox that is not a child of the production organization, the sandbox appears as an orphan. You can still switch to this sandbox.
 
 == Manage Refreshed Sandbox Connections
-Refreshing a sandbox updates its metadata from the source organization. 
+Refreshing a sandbox updates the metadata from the source organization. If a sandbox refreshes after the production organization is connected, reconnect to switch to this sandbox.
 
-If a sandbox refreshes after the production organization is connected, reconnect to switch to this sandbox.
-
-If a sandbox refreshes before the production organization is connected, you can switch to this sandbox.
+If a sandbox refreshes before the production organization is connected, switch to this sandbox.
 
 
 == Delete Sandbox Organizations 
@@ -46,15 +43,15 @@ When a portal is tested in a sandbox environment and is ready for production, de
 === Before You Begin
 Ensure you have basic knowledge of the following:
 
-* Version control systems (VCS) like Git 
+* Version control systems (VCS), for example, Git 
 * https://developer.salesforce.com/tools/salesforcecli[Salesforce CLI]  
 * CI/CD pipeline concepts
 
 === Promote a Sandbox to Production
 
-. Configure API Experience Hub in the Sandbox organization:
+. Configure API Experience Hub in the sandbox organization:
 .. Navigate to Anypoint Platform, enter your username and password, and then click *Sign in*.
-.. From Anypoint Platform, select *API Experience Hub* from the list of products.
+.. From Anypoint Platform, select *API Experience Hub*.
 .. Create a portal.
 .. Add assets to the portal.
 .. Preview your portal and add more customizations using Experience Builder.
