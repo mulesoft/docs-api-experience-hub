@@ -209,7 +209,8 @@ Your sandbox organization can contain a large amount of metadata from different 
 +
 [codeblock]
 ----
-sf project retrieve start --source-dir force-app --target-org sandboxOrg
+sf project retrieve start --manifest ./config/package.xml --target-org sandboxOrg
+
 ----       
 .. Confirm the metadata and commit all the metadata changes into the Git repository, 
 or you can modify the `config/package.xml` and repeat the process if some metadata is missing or not necessary.
