@@ -1,4 +1,6 @@
+
 = Configuring SSO When the Identity Provider Is Already Configured for Anypoint Platform
+
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
@@ -9,22 +11,25 @@ The instructions in this case are using Okta as an example identity provider how
 
 
 == Before You Begin
-Ensure you have the following setup:
+Ensure you have the following setup and context:
 
 * An identity provider for Anypoint Platform is already configured.
 * The user or the identity of the group of the users who have access to the application have been created in the identity provider. 
+* Understand the required roles, permissions, and information that API Experience Hub requires to configure custom user attributes and claims for the identity provider.
++
+See xref:enabling-sso-for-your-portal.adoc#before-you-begin[Before You Begin].
 
 == Step 1: Enable SSO for Your Portal
 In this step, you create and configure an application in the identity provider for the API Experience Hub portal, enable the ability to send group information in the application configuration, configure groups, and map the application to the identity provider for Anypoint Platform. Performing these steps require you to move back and forth between applications and the identity provider application to copy or add information. 
 
-
-=== Create and Set up An Application 
+=== Create and Set Up an Application 
 
 Create a new application for the API Experience Hub portal in the identity provider. 
 
 . In Okta, create an OpenID Connect Web application. For more information, see https://help.okta.com/oie/en-us/content/topics/apps/apps_app_integration_wizard_oidc.htm[Create OIDC app integrations^].
 . From the *General Settings* section, complete the following fields:
 +
+[%header%autowidth.spread]
 |===
 |Field|Value
 |*App integration name*|Enter a name for the app.
@@ -32,8 +37,12 @@ Create a new application for the API Experience Hub portal in the identity provi
 |*Assignments* |Select *Limit access to selected groups*.
 |*Selected group(s)*|Enter the name of the group who must have access to the application for API Experience Hub and Anypoint Platform.
 |===
-. Configure a custom groups claim filter that the application sends.
-.. From the *Sign On* tab, click *Edit** from the OpenID Connect ID Token* section.
+. Verify that your identity provider sends the expected claims listed in the xref:enabling-sso-for-your-portal.adoc#before-you-begin[Before You Begin] section. 
+. Configure the claims that the application sends.
++
+For example, for OpenID Connect, configure the groups claim using the following steps:
+
+.. In the *Sign On* tab, *OpenID Connect ID Token* section, click *Edit*.
 .. From *Groups claim type*, select *Filter*. 
 .. From *Groups claim filter*, enter `groups`.
 .. Select *Matches regex for the expression* then enter *.** for wildcard.
@@ -58,7 +67,7 @@ You set up the auth provider or SSO settings in Salesforce with the identity pro
 . In the *Provider Type* field, select *OpenID Connect*.
 . Complete the following fields:
 +
-[%header,cols="1a,2a"]
+[%header%autowidth.spread]
 |===
 |Field|Value
 |*Provider Type*|*OpenID Connect* 
@@ -104,7 +113,7 @@ To map anypoint_idp_id to with the Anypoint Platform identity provider ID:
 . Click *Add Attributes* to create a new attribute called *anypoint_idp_id*.
 . Complete the following fields:
 +
-[%header,cols="1a,2a"]
+[%header%autowidth.spread]
 |===
 |Field|Value
 |*Display name*|*anypoint_idp_id*
@@ -135,7 +144,7 @@ To reconcile the usernames assignment for a single identity in the portal and An
 . Click *Add Attributes* to create a new attribute called *anypoint_username*.
 . Complete the following fields:
 +
-[%header,cols="1a,2a"]
+[%header%autowidth.spread]
 |===
 |Field|Value
 |*Display name*|*anypoint_username*
