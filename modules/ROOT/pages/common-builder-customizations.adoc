@@ -109,7 +109,7 @@ Specify values for the following properties:
 |Feed Type
 |*Group or Record* shows everything that is posted to a selected group or record, for example, an account or opportunity.
 
-*Discussion* feed shows everything that is posted to Navigational Topics.
+*Discussion* feed shows everything that is posted to *Navigational Topics*.
 
 *My Feed* shows feed items that are tagged with a topic, or a person or record that you follow. My Feed also shows all of your personal site activity. You see all shared feed items unless another person shared the item with a group that you aren't a member of. With public groups, you see the feed item that you shared despite not being a member.
 
@@ -138,9 +138,9 @@ Specify values for the following properties:
 |===
 |Property| Details
 |Type
-|Select the type of feed publisher you want to place on your page. To use global publisher actions defined in your Salesforce organization, choose Global. To use an object-specific publisher layout, choose Record.
+|Select the type of feed publisher you want to place on your page. To use global publisher actions defined in your Salesforce organization, choose *Global*. To use an object-specific publisher layout, choose Record.
 |Record ID
-|The feed item ID. Typically, this field is automatically populated with the record ID when the page loads. Leave this field blank if you pick the Global feed publisher type.
+|The feed item ID. Typically, this field is automatically populated with the record ID when the page loads. Leave this field blank if you pick the *Global feed* publisher type.
 |Publisher Layout Design
 |Select to see the wide or narrow feed publisher layout design.
 |===

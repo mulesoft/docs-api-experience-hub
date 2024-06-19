@@ -10,7 +10,7 @@ API Experience Hub uses Salesforce Chatter Feed components to enable collaborati
 * Asking questions 
 * Receiving notifications for relevant activities in personalized feeds
 
-The Chatter feed options that display depend on how your administrator sets up feeds for the API portal.
+The Chatter Feed options that display depend on how your administrator sets up feeds for the API portal.
 
 To see feedback and discussions about an API:
 

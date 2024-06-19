@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Anypoint can only be connected to one Salesforce organization; only one API portal can be created for that organization. Portal administrators can disconnect a portal when a portal is no longer needed or when you want to create a new portal with the same Salesforce organization.
+Anypoint can only connect to one Salesforce organization; only one API portal can be created for that organization. Portal administrators can disconnect a portal when a portal is no longer needed or when you want to create a new portal with the same Salesforce organization.
 
 Disconnecting your API portal removes artifacts from the API Experience Hub database and unlinks Anypoint to your Salesforce organization so that you can create another API portal.
 
