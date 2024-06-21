@@ -6,7 +6,7 @@ endif::[]
 
 After connecting to your Salesforce organization, the guided setup takes portal administrators through the process setting up the portal, including creating and styling it using out-of-the-box templates.
 
-You can create a new portal, use an existing portal to create the new portal, or create the portal later. The option to create a new portal uses an existing portal that was disconnected from a Salesforce organization. The new portal uses the styling metadata from the existing portal. Selecting this option from the guided setup enables you to quickly set up the portal without going through the styling process. Since you can have only one Salesforce organization per portal, the existing portal is overwritten and the new portal is created for that Salesforce organization.
+You can create a new portal, use an existing portal to create the new portal, or create the portal later. The option to create a new portal uses an existing portal that was disconnected from a Salesforce organization. The new portal uses the styling metadata from the existing portal. Selecting this option from the guided setup enables you to quickly set up the portal without going through the styling process. Because you can have only one Salesforce organization per portal, the existing portal is overwritten with the new portal for that Salesforce organization.
 
 The guided design contains basic styling options for the Home, API Catalog, and API Details pages with a live preview to help you visualize your portal. Each page includes a progress bar to see where you're in the portal design process. 
 

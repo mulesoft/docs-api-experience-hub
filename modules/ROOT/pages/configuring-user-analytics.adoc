@@ -7,24 +7,24 @@ Use Google Analytics to gain valuable insights into how consumers are using your
 
 Google Analytics tracks the following data:
 
-API usage metrics: 
+* API usage metrics: 
 
-* API instance access requests
-* API specification downloads
-* Most viewed API
-* Total number of calls made to an API
+** API instance access requests
+** API specification downloads
+** Most viewed API
+** Total number of calls made to an API
 
-User engagement metrics:
+* User engagement metrics:
 
-* Active users
-* Login events
+** Active users
+** Login events
 
-API Console usage:
+*API Console usage:
 
-* API requests
+** API requests
 + 
 Measure the overall API usage and identity patterns in API consumption. Captures each time an API request is made through the API Console and the total number of API requests made.
-* API usage by endpoint
+** API usage by endpoint
 +
 Identities popular endpoints and monitors usage trends to optimize API design and resource allocation. Captures each time an API request is made to a specific endpoint through the API console and the number of requests made to each API endpoint.
 

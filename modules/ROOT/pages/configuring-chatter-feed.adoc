@@ -18,10 +18,8 @@ For existing API portals, you must add the Feed and Feed Publisher components ma
 To add Feed components for existing portals:
 
 . Navigate to the Builder.
-. In *Preview* mode, go to the *API details* page.
-. Click *Back to Builder*.
-. Click *Components*.
-. Click the *Tab Layout (New)* component.
+. In *Preview* mode, on the *API details* page, click *Back to Builder*.
+. Click *Components*, then click the *Tab Layout (New)* component.
 . In the *Tab Layout (New)* dialog, click *Add*.
 . In the *Tab Name* field, enter *Feedback and discussions* or any name for the tab and then click *Save*.
 . Click *Save*.

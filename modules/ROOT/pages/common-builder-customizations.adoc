@@ -119,7 +119,7 @@ a|* *Group or Record* shows everything that is posted to a selected group or rec
 
 * *Bookmarks* feed shows only bookmarked posts, pool, or questions that is posted for a selected bookmark.
 |Record ID
-|The feed item ID. Typically, this field populates automatically when the page loads. Leave this field blank if you pick the *Discussion* or *My Feed options* in *Feed Type*.
+|Leave this field blank if you pick the *Discussion* or *My Feed options* in *Feed Type*. Typically, this field populates the feed item ID automatically when the page loads. 
 |Default Filter
 |Select the default filter for feed entries that you want your site members to see.
 |Post Style
@@ -140,7 +140,7 @@ Specify values for the following properties:
 |Type
 |Select the type of feed publisher to add to your page. To use global publisher actions defined in your Salesforce organization, choose *Global*. To use an object-specific publisher layout, choose *Record*.
 |Record ID
-|The feed item ID. Typically, this field is automatically populated with the record ID when the page loads. Leave this field blank if you pick the *Global feed* publisher type.
+|Leave this field blank if you pick the *Global feed* publisher type. Typically, this field automatically populates with the record ID when the page loads. 
 |Publisher Layout Design
 |Select to see the wide or narrow feed publisher layout design.
 |===
