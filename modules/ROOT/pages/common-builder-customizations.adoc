@@ -100,7 +100,7 @@ The new domain URL displays in the *Your chosen new My Domain URl* field.
 . Click *Save*.
 
 == Configure Feed Component
-Configure the Chatter Feed components. The Feed component displays a feed of all record or group interactions, including posts, questions, system updates, and attachments.
+The Feed component displays a feed of all record or group interactions, including posts, questions, system updates, and attachments.
 
 Specify values for the following properties:
 
