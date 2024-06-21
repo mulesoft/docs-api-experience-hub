@@ -3,13 +3,13 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Add Chatter Feed tracking to engage with your portal community. Chatter tracking enables portal members to create discussions about APIs, get real-time updates and notifications, seek expert advice, and review relevant discussions.
+To engage with your portal community, add Chatter Feed tracking. Chatter tracking enables portal members to create discussions about APIs, get real-time updates and notifications, seek expert advice, and review relevant discussions.
 
 For existing API portals, you must add the Feed and Feed Publisher components manually using the Experience Builder.
 
 == Enable Feed Tracking
 
-. Go to Salesforce and click *Setup*.
+. In Salesforce, click *Setup*.
 . In the *Quick Find* box, enter *feed tracking* and click *Feed Tracking*.
 . Select *Community Asset* and *Enable Feed Tracking*.
 . Click *Save*.
@@ -23,7 +23,7 @@ To add Feed components for existing portals:
 . Click *Components*.
 . Click the *Tab Layout (New)* component.
 . In the *Tab Layout (New)* dialog, click *Add*.
-. In the *Tab Name* field, enter *Feedback and discussions* or any name for the tab.
+. In the *Tab Name* field, enter *Feedback and discussions* or any name for the tab and then click *Save*.
 . Click *Save*.
 . Click *Components* and enter *Feed* in the *Search* box.
 . Drag the *Feed* and *Feed Publisher* components into the *Tab Layout (New)* area for *Feedback and discussions*.

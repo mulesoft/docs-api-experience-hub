@@ -100,7 +100,7 @@ The new domain URL displays in the *Your chosen new My Domain URl* field.
 . Click *Save*.
 
 == Configure Feed Component
-Configure the Chatter Feed components. The Feed component displays a feed of all record or group interactions, including posts, questions, system updates, and attachments.
+The Feed component displays a feed of all record or group interactions, including posts, questions, system updates, and attachments.
 
 Specify values for the following properties:
 
@@ -111,7 +111,7 @@ Specify values for the following properties:
 
 *Discussion* feed shows everything that is posted to *Navigational Topics*.
 
-*My Feed* shows feed items that are tagged with a topic, or a person or record that you follow. My Feed also shows all of your personal site activity. You see all shared feed items unless another person shared the item with a group that you aren't a member of. With public groups, you see the feed item that you shared despite not being a member.
+*My Feed* shows feed items that are tagged with a topic, or a person or record that you follow along with your personal site activity. You see all shared feed items unless another person shared the item with a group that you aren't a member of. With public groups, you see the feed item that you shared even if you're not a member.
 
 *Topic* feed shows everything that is posted to a selected topic.
 
@@ -131,14 +131,14 @@ Specify values for the following properties:
 |===
 
 == Configure Feed Publisher Component
-Configure the Chatter Feed Publisher component to enable portal members to create posts on groups or records and upload attachments.
+To enable portal members to create posts on groups or records and upload attachments, configure the Chatter Feed Publisher component.
 
 Specify values for the following properties:
 
 |===
 |Property| Details
 |Type
-|Select the type of feed publisher you want to place on your page. To use global publisher actions defined in your Salesforce organization, choose *Global*. To use an object-specific publisher layout, choose Record.
+|Select the type of feed publisher to add to your page. To use global publisher actions defined in your Salesforce organization, choose *Global*. To use an object-specific publisher layout, choose *Record*.
 |Record ID
 |The feed item ID. Typically, this field is automatically populated with the record ID when the page loads. Leave this field blank if you pick the *Global feed* publisher type.
 |Publisher Layout Design
