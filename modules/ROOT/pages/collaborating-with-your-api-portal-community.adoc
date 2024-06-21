@@ -15,7 +15,7 @@ The Chatter Feed options that display depend on how your administrator sets up f
 To see feedback and discussions about an API:
 
 . Select an API from the *Home* or *APIs* page of the portal. 
-. In the *API details* page, click the *Feedback and discussions* tab.
+. In the *API details* page, select the *Feedback and discussions* tab.
 +
 *Feedback and discussions* is the default of name of the tab, however, administrators can change this name.
 
