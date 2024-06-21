@@ -9,7 +9,7 @@ For existing API portals, you must add the Feed and Feed Publisher components ma
 
 == Enable Feed Tracking
 
-. Go to Salesforce and click *Setup*.
+. In Salesforce, click *Setup*.
 . In the *Quick Find* box, enter *feed tracking* and click *Feed Tracking*.
 . Select *Community Asset* and *Enable Feed Tracking*.
 . Click *Save*.
