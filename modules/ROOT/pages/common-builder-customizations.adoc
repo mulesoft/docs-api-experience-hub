@@ -111,7 +111,7 @@ Specify values for the following properties:
 
 *Discussion* feed shows everything that is posted to *Navigational Topics*.
 
-*My Feed* shows feed items that are tagged with a topic, or a person or record that you follow. My Feed also shows all of your personal site activity. You see all shared feed items unless another person shared the item with a group that you aren't a member of. With public groups, you see the feed item that you shared despite not being a member.
+*My Feed* shows feed items that are tagged with a topic, or a person or record that you follow along with your personal site activity. You see all shared feed items unless another person shared the item with a group that you aren't a member of. With public groups, you see the feed item that you shared even if you're not a member.
 
 *Topic* feed shows everything that is posted to a selected topic.
 
