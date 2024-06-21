@@ -107,17 +107,17 @@ Specify values for the following properties:
 |===
 |Property| Details
 |Feed Type
-|*Group or Record* shows everything that is posted to a selected group or record, for example, an account or opportunity.
+a|* *Group or Record* shows everything that is posted to a selected group or record, for example, an account or opportunity.
 
-*Discussion* feed shows everything that is posted to *Navigational Topics*.
+* *Discussion* feed shows everything that is posted to *Navigational Topics*.
 
-*My Feed* shows feed items that are tagged with a topic, or a person or record that you follow along with your personal site activity. You see all shared feed items unless another person shared the item with a group that you aren't a member of. With public groups, you see the feed item that you shared even if you're not a member.
+* *My Feed* shows feed items that are tagged with a topic, or a person or record that you follow along with your personal site activity. You see all shared feed items unless another person shared the item with a group that you aren't a member of. With public groups, you see the feed item that you shared even if you're not a member.
 
-*Topic* feed shows everything that is posted to a selected topic.
+* *Topic* feed shows everything that is posted to a selected topic.
 
-*User Profile* feed shows posts that the member creates or interacts with for example, comments or answers that is posted for user profile feeds.
+* *User Profile* feed shows posts that the member creates or interacts with for example, comments or answers that is posted for user profile feeds.
 
-*Bookmarks* feed shows only bookmarked posts, pool, or questions that is posted for a selected bookmark.
+* *Bookmarks* feed shows only bookmarked posts, pool, or questions that is posted for a selected bookmark.
 |Record ID
 |The feed item ID. Typically, this field populates automatically when the page loads. Leave this field blank if you pick the *Discussion* or *My Feed options* in *Feed Type*.
 |Default Filter
