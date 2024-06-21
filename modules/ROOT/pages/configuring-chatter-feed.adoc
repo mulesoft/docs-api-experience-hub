@@ -32,9 +32,3 @@ To add Feed components for existing portals:
 * xref:common-builder-customizations#configure-feed-component[Configure Feed Component]
 * xref:common-builder-customizations#configure-feed-publisher-component[Configure Feed Publisher Component]
 
-
-
-
-
-
- 
