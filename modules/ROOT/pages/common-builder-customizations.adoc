@@ -131,7 +131,7 @@ Specify values for the following properties:
 |===
 
 == Configure Feed Publisher Component
-Configure the Chatter Feed Publisher component to enable portal members to create posts on groups or records and upload attachments.
+To enable portal members to create posts on groups or records and upload attachments, configure the Chatter Feed Publisher component.
 
 Specify values for the following properties:
 
