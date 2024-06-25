@@ -30,6 +30,6 @@ You can test an API specification using the mocking service when you want simula
 For more information about testing APIs, see the following topics:
 
 * xref:simulating-api-calls-using-the-mocking-service.adoc[Simulating Calls Using the Mocking Service]
-* xref:Testing APIs Using an API Instance.adoc[Testing APIs Using an API Instance]
+* xref:testing-apis-using-an-api-instance.adoc[Testing APIs Using an API Instance]
 
 

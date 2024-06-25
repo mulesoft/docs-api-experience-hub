@@ -1,0 +1,36 @@
+= Updating Expiring Certificates
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Connected apps enable a two-way connection between Anypoint Platform and Salesforce organizations. The connected apps depend on digital certificates for proper functionality. These certificates are time-bound and subject to expiration. 
+
+== How Certificates Are Generated
+During the connection process, API Experience Hub generates self-signed certificates that expire in one year.
+
+One of these self-signed certificates links the Anypoint Platform organization and the Salesforce organization. The certificate and the private key are stored in Secrets Manager in Anypoint Security. When this certificate expires, no notification is sent to the administrator of the Salesforce instance. However, the initial connection between Anypoint Platform and Salesforce remains operational. The next time the administrator logs in to API Experience Hub, an error message displays a connection error and enables the administrator to reconnect. When the administrator logs back in to API Experience Hub, a new certificate generates automatically with a one-year expiration time. 
+
+API Experience Hub uses the Salesforce Metadata API to generate an Anypoint certificate during the connection process. The connected app uses this certificate to access metadata content from Anypoint. This certificate is also valid for one year. The administrator of the Salesforce instance receives an email 30 days before the certificate expires. Because a named credential uses the Anypoint certificate, you cannot delete the certificate. 
+
+== Before You Begin
+Before getting started, ensure you have the API Experience Hub Administrator permissions.
+
+== Update the Salesforce Identity Data Certificate 
+To generate a new Anypoint certificate:
+
+. Go to Salesforce and click *Setup* > *Security* > *Certificate and Key Management*.
+. Locate *Anypoint* in the list and click *Edit*.
+. Enter a new name, for example, *Anypoint to expire*. 
++
+image::aeh-rename-cert.png["Example for renaming the certificate",width=60%]
+. Click *Save*.
+. Log in to API Experience Hub to trigger a diagnostic check to create a new certificate.
+. Delete the renamed certificate, for example, *Anypoint to expire*: 
+.. Go to Salesforce and click *Setup* > *Security* > *Certificate and Key Management*.
+.. Locate the renamed certificate in the list and click *Delete*.
+
+== See Also
+
+* xref:connecting-to-salesforce.adoc[]
+* https://help.salesforce.com/s/articleView?id=sf.named_credentials_about.htm&type=5[Named Credentials]
+
