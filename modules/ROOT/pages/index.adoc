@@ -17,6 +17,8 @@ API Experience Hub provides the following advantages for:
 * Manage users and access requests from guest users
 * Preview and iterate on the portal
 * Perform advanced customizations using Salesforce Experience Builder
+* Enable Chatter Feed tracking to engage with your portal community
+* Use Google Analytics to gain valuable insights into how consumers are using your APIs and portal
 
 *Developers*:
 
@@ -24,6 +26,7 @@ API Experience Hub provides the following advantages for:
 * Request access to an API instance to register a client application
 * Interactive API documentation to understand how to use and integrate APIs
 * Customized and connected hub to interact with APIs
+* Collaborate with members of the portal community 
 
 Watch the API Experience Hub Product Spotlight video to see a quick overview.
 
