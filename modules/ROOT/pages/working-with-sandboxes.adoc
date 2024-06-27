@@ -63,7 +63,7 @@ Move all of the portal's styling and customizations from the sandbox organizatio
 .. https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories[Create a Git repository]. 
 .. Clone it locally to your machine. 
 .. https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_create_new.htm[Create a SFDX project].
-.. Create a manifest `package.xml` file in `./config`, for example:
+.. Create a manifest `package.xml` file in `./manifest`, for example:
 +
 [%collapsible]
 ====
@@ -186,11 +186,11 @@ Move all of the portal's styling and customizations from the sandbox organizatio
 ----
 sf auth web login --instance-url=https://<SANBOX-INSTANCE_URL> --alias sandboxOrg
 ----
-.. Edit the `config/package.xml` file before retrieving the metadata from the sandbox organization to retrieve the new metadata that you added.
+.. Edit the `manifest/package.xml` file before retrieving the metadata from the sandbox organization to retrieve the new metadata that you added.
 +
-Your sandbox organization can contain a large amount of metadata from different products because it's a copy from the Salesforce production organization. API Experience Hub is a subset of it and it's specified in the `config/package.xml` file that was created when creating the Git repository in a previous step. 
+Your sandbox organization can contain a large amount of metadata from different products because it's a copy from the Salesforce production organization. API Experience Hub is a subset of it and it's specified in the `manifest/package.xml` file that was created when creating the Git repository in a previous step. 
 +
-.. If the portal contains branding images, add them in `ContentAsset` section in the `config/package.xml`. For example:
+.. If the portal contains branding images, add them in `ContentAsset` section in the `manifest/package.xml`. For example:
 +
 [codeblock]
 ----
@@ -209,11 +209,11 @@ Your sandbox organization can contain a large amount of metadata from different 
 +
 [codeblock]
 ----
-sf project retrieve start --manifest ./config/package.xml --target-org sandboxOrg
+sf project retrieve start --manifest ./manifest/package.xml --target-org sandboxOrg
 
 ----       
 .. Confirm the metadata and commit all the metadata changes into the Git repository, 
-or you can modify the `config/package.xml` and repeat the process if some metadata is missing or not necessary.
+or you can modify the `manifest/package.xml` and repeat the process if some metadata is missing or not necessary.
 . Move the API Experience Hub portal from the sandbox organization to the production organization:
 .. Log in to the production organization:
 +
