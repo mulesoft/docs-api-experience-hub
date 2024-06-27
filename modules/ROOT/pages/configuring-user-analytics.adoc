@@ -19,7 +19,7 @@ Google Analytics tracks the following data:
 ** Active users
 ** Login events
 
-*API Console usage:
+* API Console usage:
 
 ** API requests
 + 
