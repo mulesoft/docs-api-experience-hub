@@ -11,7 +11,7 @@ In the Builder preview, you cannot see the images that were uploaded when creati
 To add the shared user as a member of the asset library:
 
 . Log in to the Salesforce organization as a System Administrator.
-. Click the *App Launcher*, enter *files* in the search, and select *Files*. 
+. Click the *App Launcher*, enter *files* in the search box, and select *Files*. 
 . Click *Libraries* in the navigation pane.
 . Click *Asset Library* in the list.
 . Click *Manage Members*. 
@@ -121,18 +121,53 @@ In this release, IP restrictions for the connected app are not supported. By def
 
 An error occurs when saving styling changes to the portal if an object has validation rules applied for standard objects that are created during the Salesforce linking process. 
 
-The workaround is to deactivate the validation rule, save the styling changes, then reactive the validation rule: 
+The workaround is to bypass the validation rule for the Salesforce user who performs the linking process. 
 
+. Create a custom permission:
+.. From Salesforce, go to *Setup*, enter *custom permissions* in the Quick Find box, and select *Custom Permissions*.
+.. Click *New* and enter *Bypass Account Validation Rule* in the *Label* field. 
+.. Click in the *Name* field to populate it with the label name with underscores.
+.. Enter a description and click *Save*.
+
+. Create a permission set and add the custom permission:
+.. From *Setup*, enter *permission sets* in the Quick Find box and click *Permission Sets*.
+.. Click *New*, enter *Bypass Account Validation Rule* in the *Label* field, click in the *Name* field to populate it with the label name with underscores, and then click *Save*.
+.. Click *Bypass Account Validation Rule* and click *Custom Permissions* from the *Apps* section.
+.. Select *Bypass Account Validation* and click *Save*.
+.. From *Object Manager*, select *Validation Rules*.
+.. Select an object used for the validate rule and click *Edit*.
+.. In the *Error Condition Formula* box, enter the following:
++
+[codeblock]
+----
+AND (
+  NOT($Permission.Bypass_Account_Validation),
+  ISBLANK (Website)  
+)
+----
+.. Click *Save*.
+
+. Assign the permission set to the user performing the linking process:
++
+This user must have the System Administrator profile to perform the linking process.
++
+.. From *Setup*, enter *permission sets* in the Quick Find box and click *Permission Sets*.
+.. Click *Bypass Account Validation Rule* and click *Manage Assignments*.
+.. Click *Add Assignment*, select the user and click *Next*.
+.. Click *Assign*.
+
+
+
+//Old instructions
 . Navigate to *Setup* > *Object Manager*.
-. Select *Validation Rules*.
-. Search for the object with the validation rule.
-. Click *Edit* next to the rule you want to deactivate.
-. Deselect the *Active* checkbox.
-. Click *Save*.
-. Navigate back to API Experience Hub and click *Try again* in the error message.
-. Click *Save* to save your style selections.
-. Repeat steps 1 through 4.
-. Select the *Active* checkbox and click *Save*.
+//. Select *Validation Rules*.
+//. Search for the object with the validation rule.
+//. Click *Edit* next to the rule you want to deactivate.
+//. Deselect the *Active* checkbox and click *Save*.
+//. Navigate back to API Experience Hub and click *Try again* in the error message.
+//. Click *Save* to save your style selections.
+//. Repeat steps 1 through 4.
+//. Select the *Active* checkbox and click *Save*.
 
 == Error When Installing the Package During the Connection Process
 If you encounter errors while installing the package during the  connecting to Salesforce process, you can review more details about the deployment status:
