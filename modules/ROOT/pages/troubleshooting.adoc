@@ -121,7 +121,11 @@ In this release, IP restrictions for the connected app are not supported. By def
 
 An error occurs when saving styling changes to the portal if an object has validation rules applied for standard objects that are created during the Salesforce linking process. 
 
+Custom validation rules can be applied to several Salesforce objects, for example, account and user objects that cause linking and other processes to fail. 
+
 The workaround is to bypass the validation rule for the Salesforce user who performs the linking process. 
+
+NOTE: These instructions pertain to account object validation rules but can apply to bypassing other object custom validations.
 
 . Create a custom permission:
 .. From Salesforce, go to *Setup*, enter *custom permissions* in the Quick Find box, and select *Custom Permissions*.
