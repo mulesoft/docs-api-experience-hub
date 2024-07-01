@@ -153,7 +153,8 @@ Enter *Bypass Account Validation Rule*.
 Click into the field to populate it with the label name with underscores.
 .. Click *Save*.
 .. Click *Bypass Account Validation Rule* and select *Custom Permissions* from the *Apps* section.
-.. Select *Bypass Account Validation* and click *Save*.
+.. From *Available Custom Permissions*, select *Bypass Account Validation*, click *Add*, and then click *Save*.
+.. From the *Custom Permissions* list, select *Bypass Account Validation* and *Save*.
 .. From *Object Manager*, select *Validation Rules*.
 .. Select the object used for the validation rule and click *Edit*.
 .. In the *Error Condition Formula* box, enter the following:
