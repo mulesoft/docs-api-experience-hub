@@ -125,7 +125,7 @@ Custom validation rules can be applied to several Salesforce objects, for exampl
 
 The workaround is to bypass the validation rule for the Salesforce user who performs the linking process. 
 
-NOTE: These instructions pertain to bypassing account object validation rules but can apply to bypassing other object custom validations.
+NOTE: These instructions pertain to bypassing account object validation rules but can apply to bypassing other object custom validation rules.
 
 . Create a custom permission:
 .. From Salesforce, go to *Setup*, enter *custom permissions* in the Quick Find box, and select *Custom Permissions*.
