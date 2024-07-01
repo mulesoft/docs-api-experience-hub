@@ -145,6 +145,9 @@ Enter a description for the permission.
 .. Click *Save*.
 
 . Create a permission set and add the custom permission:
++ 
+You can also use an existing permission set instead of creating a new one.
+
 .. From *Setup*, enter *permission sets* in the Quick Find box and click *Permission Sets*.
 .. Click *New* and enter the permission set information:
 +
@@ -188,7 +191,7 @@ If you encounter errors while installing the package during the  connecting to S
 . Click *Environments*. 
 . Click *Deploy*.
 . Click *Deployment Status*.
-. Review the *Failed* and * Succeeded* sections.
+. Review the *Failed* and *Succeeded* sections.
 
 == Linking Process Fails
 The linking process fails when the user who executes the linking process has the Exchange Contributor role in a business group and this user does not have the System Administrator permission in that same business group. 
