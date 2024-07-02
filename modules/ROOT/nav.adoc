@@ -8,7 +8,7 @@
 * xref:getting-started-with-api-experience-hub.adoc[]
 * xref:assigning-permissions.adoc[]
 * xref:connecting-to-salesforce.adoc[]
-* xref:styling-your-api-portal.adoc[]
+* xref:setting-up-the-api-portal.adoc[]
 * xref:managing-your-portal.adoc[]
 ** xref:managing-apis.adoc[]
 ** xref:managing-users.adoc[]
