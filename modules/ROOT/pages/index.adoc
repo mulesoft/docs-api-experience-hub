@@ -17,6 +17,8 @@ API Experience Hub provides the following advantages for:
 * Manage users and access requests from guest users
 * Preview and iterate on the portal
 * Perform advanced customizations using Salesforce Experience Builder
+* Enable Chatter Feed tracking to engage with your portal community
+* Use Google Analytics to gain valuable insights into how consumers are using your APIs and portal
 
 *Developers*:
 
@@ -24,6 +26,7 @@ API Experience Hub provides the following advantages for:
 * Request access to an API instance to register a client application
 * Interactive API documentation to understand how to use and integrate APIs
 * Customized and connected hub to interact with APIs
+* Collaborate with members of the portal community 
 
 Watch the API Experience Hub Product Spotlight video to see a quick overview.
 
@@ -38,9 +41,9 @@ An administrator can create a custom portal using these steps:
 . Connect to a Salesforce instance.
 +
 The instance can be a new or existing Salesforce organization. To connect, specify the environment type and enter the custom Salesforce domain if you have one, log in, allow the permissions, and confirm the account.
-. Style your API portal.
+. Set up your API portal.
 +
-Once you connect to Salesforce, you can style the portal's out of the box pages with logos, fonts, color schemes, and more.
+Once you connect to Salesforce, choose how to set up the portal and style the portal's out of the box pages with logos, fonts, color schemes, and more.
 . Manage your portal.
 +
 Manage APIs by adding APIs from Exchange and setting the visibility for the API versions. Manage users by approving access requests from guest users.
@@ -49,7 +52,7 @@ Manage APIs by adding APIs from Exchange and setting the visibility for the API 
 Publish the portal to make it available to your community.
 
 == Portal Pages
-Each API Experience Hub portal includes a Home, APIs, and an API Details page. The portal administrator can customize each page to fit the organization's needs. For more information, see xref:styling-your-api-portal.adoc[Styling Your API Portal].
+Each API Experience Hub portal includes a Home, APIs, and an API Details page. The portal administrator can customize each page to fit the organization's needs. For more information, see xref:setting-up-the-api-portal.adoc[].
 
 The following sample portal shows the Home page: 
 
