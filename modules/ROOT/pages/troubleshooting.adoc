@@ -137,7 +137,7 @@ Enter *Bypass Account Validation Rule*.
 +
 * *Name* 
 +
-Click into the field to populate it with the label name with underscores.
+Click the field to populate it with the label name with underscores.
 +
 * *Description*
 + 
