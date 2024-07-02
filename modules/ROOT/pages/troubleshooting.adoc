@@ -121,11 +121,11 @@ In this release, IP restrictions for the connected app are not supported. By def
 
 An error occurs when saving styling changes to the portal if an object has validation rules applied for standard objects that are created during the Salesforce linking process. 
 
-Custom validation rules can be applied to several Salesforce objects, for example, account and user objects that cause linking and other processes to fail. 
+Validation rules cannot be applied to Salesforce standard objects, for example, account and user objects, that are created during the Salesforce linking process. 
 
 The workaround is to bypass the validation rule for the Salesforce user who performs the linking process. 
 
-NOTE: These instructions pertain to bypassing account object validation rules but can apply to bypassing other object custom validation rules. 
+NOTE: These instructions pertain to bypassing account object validation rules but can apply to bypassing custom validation rules of other objects. 
 
 . Create a custom permission:
 .. From Salesforce, go to *Setup*, enter *custom permissions* in the *Quick Find* box, and select *Custom Permissions*.
@@ -148,7 +148,7 @@ Enter a description for the permission.
 + 
 You can also use an existing permission set instead of creating a new one.
 
-.. From *Setup*, enter *permission sets* in the Quick Find box and click *Permission Sets*.
+.. From *Setup*, enter *permission sets* in the *Quick Find* box and select *Permission Sets*.
 .. Click *New* and enter the permission set information:
 +
 * *Label*
@@ -157,7 +157,7 @@ Enter *Bypass Account Validation Rule*.
 +
 * *Name* 
 +
-Click into the field to populate it with the label name with underscores.
+Click the field to populate it with the label name with underscores.
 .. Click *Save*.
 .. Click *Bypass Account Validation Rule* and select *Custom Permissions* from the *Apps* section.
 .. From *Available Custom Permissions*, select *Bypass Account Validation*, click *Add*, and then click *Save*.
@@ -179,7 +179,7 @@ AND (
 +
 This user must have the System Administrator profile to perform the linking process.
 +
-.. From *Setup*, enter *permission sets* in the *Quick Find* box and click *Permission Sets*.
+.. From *Setup*, enter *permission sets* in the *Quick Find* box and select *Permission Sets*.
 .. Click *Bypass Account Validation Rule* and click *Manage Assignments*.
 .. Click *Add Assignment*, select the user, and then click *Next*.
 .. Click *Assign*.
