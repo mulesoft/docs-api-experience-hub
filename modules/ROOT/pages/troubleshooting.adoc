@@ -123,9 +123,9 @@ An error occurs when saving styling changes to the portal if an object has valid
 
 You can't apply validation rules to Salesforce standard objects, such as account and user objects, that are created during the Salesforce linking process. 
 
-The workaround is to bypass the validation rule for the Salesforce user who performs the linking process. 
+The workaround is to bypass the validation rule for the Salesforce user who performs the linking process. This user must have the System Administrator profile to perform the linking process.
 
-NOTE: These instructions pertain to bypassing account object validation rules but can apply to bypassing custom validation rules of other objects. 
+NOTE: These instructions pertain to bypassing account object validation rules but can apply to bypassing custom validation rules of other objects. You can also use an existing permission set instead of creating a new one.
 
 . Create a custom permission:
 .. From Salesforce, go to *Setup*, enter *custom permissions* in the *Quick Find* box, and select *Custom Permissions*.
@@ -146,8 +146,6 @@ Enter a description for the permission.
 
 . Create a permission set and add the custom permission:
 + 
-You can also use an existing permission set instead of creating a new one.
-
 .. From *Setup*, enter *permission sets* in the *Quick Find* box and select *Permission Sets*.
 .. Click *New* and enter the permission set information:
 +
@@ -176,8 +174,6 @@ AND (
 .. Click *Save*.
 
 . Assign the permission set to the user performing the linking process:
-+
-This user must have the System Administrator profile to perform the linking process.
 +
 .. From *Setup*, enter *permission sets* in the *Quick Find* box and select *Permission Sets*.
 .. Click *Bypass Account Validation Rule* and click *Manage Assignments*.
