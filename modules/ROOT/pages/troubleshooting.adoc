@@ -121,7 +121,7 @@ In this release, IP restrictions for the connected app are not supported. By def
 
 An error occurs when saving styling changes to the portal if an object has validation rules applied for standard objects that are created during the Salesforce linking process. 
 
-Validation rules cannot be applied to Salesforce standard objects, for example, account and user objects, that are created during the Salesforce linking process. 
+You can't apply validation rules to Salesforce standard objects, such as account and user objects, that are created during the Salesforce linking process. 
 
 The workaround is to bypass the validation rule for the Salesforce user who performs the linking process. 
 
