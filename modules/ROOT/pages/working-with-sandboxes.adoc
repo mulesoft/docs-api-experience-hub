@@ -256,7 +256,7 @@ All configurations deploy in the production organization and now you're ready to
 
 == See Also
 * https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ci.htm[Continuous Integration]
-* https://developer.salesforce.com/docs/atlas.en-us.communities_dev.meta/communities_dev/networks_migrate_overview.htm[Deploy an Experirence Cloud Site from Sandbox to Production]
+* https://developer.salesforce.com/docs/atlas.en-us.communities_dev.meta/communities_dev/networks_migrate_overview.htm[Deploy an Experience Cloud Site from Sandbox to Production]
 * https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_user_references.htm[Maintaining User References]
 * xref:access-management::environments.adoc[]
 * xref:setting-up-the-api-portal.adoc[]
