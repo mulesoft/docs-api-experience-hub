@@ -312,13 +312,14 @@ At least one group must be associated to perform a group mapping in a later step
 |Source attribute|user.principalname
 |===
 .. Click *Save*.
-. If this single sign-on is already configured in Anypoint, map the application to the identity provider for Anypoint Platform.
-+
+
+=== Map the Application to the Identity Provider for Anypoint Platform
+If this single sign-on is already configured in Anypoint, map the application to the identity provider for Anypoint Platform.
 When the single sign-on is already configured in Anypoint, you must map the identity provider ID with the anypoint_idp_id by adding and configuring a new custom attribute called anypoint_idp_id.
-+
+
 If usernames for the portal and Anypoint Platform don’t match, add another custom attribute called anypoint_username to force an update for existing identity provider users to match the identity in the portal to the users in Anypoint Platform.
-+
-To map anypoint_idp_id to with the Anypoint Platform identity provider ID:
+
+. To map anypoint_idp_id to with the Anypoint Platform identity provider ID:
 
 .. Click *+ Add new claim* and complete the following fields:
 +
@@ -326,13 +327,27 @@ To map anypoint_idp_id to with the Anypoint Platform identity provider ID:
 |===
 |Field|Value
 |Name|anypoint_idp_id
-|Source attribute|<identity_provider_id>
+|Source attribute|<"identity_provider_id"> The ID must be in quotes.
 |===
 +
-To get the identity provider ID, Go to *Access Management > Identity Providers*, click the identity provider, and copy the 32 digit ID from the browser URL.
+To get the identity provider ID, Go to *Access Management > Identity Providers*, click the identity provider, and copy the 32 digit ID from the browser URL. 
 +
 image::aeh-identity-provider-id-azure.png[Example of an identity provider ID in Access Management]
 .. Click *Save*.
+. To configure the anypoint_username claim:
+
+.. Click *+ Add new claim* and complete the following fields:
++
+[%header,cols="1a,2a"]
+|===
+|Field|Value
+|Name|anypoint_username
+|Source attribute|Define an attribute for example, ExtractMailPrefix (user.mail)
+|===
+.. Click *Save*.
+.. From *Source*, select *Transformation*.
+.. From *Transformation*, select *ExtractMailPrefix()*.
+            3. Select the user.mail User’s attribute
 
 
 
