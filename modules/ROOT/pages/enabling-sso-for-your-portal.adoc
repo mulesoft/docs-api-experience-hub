@@ -11,19 +11,21 @@ Access Management configures identity management for SSO for Anypoint Platform. 
 
 Setting up SSO for your portal includes the following high-level steps. These steps can vary depending on your use case. 
 
-* Step 1: Enable SSO for Your Portal
+* xref:enabling-sso-for-your-portal.adoc#step-1-enable-sso-for-your-portal[Step 1: Enable SSO for Your Portal]
 +
 In this step, you create and configure an application in the identity provider. 
 
-* Step 2: Add Salesforce Identity Providers 
+Microsoft Azure OpenID Connect is currently not supported.
+
+* xref:enabling-sso-for-your-portal.adoc#add-identity-provider[Step 2: Add Salesforce Identity Providers]
 +
 In this step, you add and enable the Salesforce identity provider from API Experience Hub UI. Once the identity provider is enabled, users can see the login option from the portal’s login page.
 
-* Step 3: Add Group Mappings
+* xref:enabling-sso-for-your-portal.adoc#add-group-mapping[Step 3: Add Group Mappings]
 +
 In this step, you map the groups created in the Salesforce identity provider that you added to the corresponding team profile for the portal.
 
-* Step 4: Test the SSO Configuration
+* xref:enabling-sso-for-your-portal.adoc#test-sso[Step 4: Test the SSO Configuration]
 +
 In this step, you test the SSO configuration that you just set up for the portal.
 
@@ -32,12 +34,14 @@ image::aeh-sso-flow2.png[Enabling SSO flowchart]
 
 [[before-you-begin]]
 == Before You Begin
-Before enabling SSO, ensure you have the following permissions and context:
+Before enabling SSO, ensure you have the following permissions, context, and setup:
 
 * Organization Administrator permission or role in the main Anypoint Platform organization.
 * System Administrator role in Salesforce.
 * Experience with identity management and setting up identity providers for SSO.
 * Review Access Management's xref:access-management::external-identity.adoc[Identity Provider] documentation to understand identity management for Anypoint Platform.
+
+* In the identity provider of your choice, the users or identities must exist for the users with access to the application. For information, see the identity provider's documentation. 
 
 * Be aware of what API Experience Hub requires for claims or attributes when creating a new application for the portal in the identity provider.
 +
@@ -59,7 +63,7 @@ The AEHPortalRegistrationHandler requires specific user information from the ide
 |Groups | groups
 |===
 + 
-To configure specific use cases, such as xref:sso-use-case-2.adoc[], use the following information:
+To configure SSO when the identity provider is already configured fro Anypoint Platform, use the following information:
 +
 [%header,cols="1a,2a,3a"]
 |===
@@ -69,8 +73,6 @@ To configure specific use cases, such as xref:sso-use-case-2.adoc[], use the fol
 |===
 +
 If the required information is not in the supported format, create a new custom attribute or claim with the supported format. For information, see the documentation for the identity provider. 
-
-
 
 
 == Step 1: Enable SSO for Your Portal
@@ -112,7 +114,7 @@ For example, for OpenID Connect for Okta, configure the groups claim using the f
 image::aeh-groups-claim-filter.png["Groups Claim Filter example",width=60%]
 
 . Configure an authentication provider for Salesforce using OpenID Connect.
-//make this a partial to include in all use cases (ran out of time - Post GA)
+
 +
 You set up the auth provider or SSO settings in Salesforce with the identity provider application information.
 
@@ -313,7 +315,8 @@ At least one group must be associated to perform a group mapping in a later step
 |===
 .. Click *Save*.
 
-=== Map the Application to the Identity Provider for Anypoint Platform
+*Map the Application to the Identity Provider for Anypoint Platform*
+
 If this single sign-on is already configured in Anypoint, map the application to the identity provider for Anypoint Platform.
 When the single sign-on is already configured in Anypoint, you must map the identity provider ID with the anypoint_idp_id by adding and configuring a new custom attribute called anypoint_idp_id.
 
@@ -345,9 +348,37 @@ image::aeh-identity-provider-id-azure.png[Example of an identity provider ID in 
 |Source attribute|Define an attribute for example, ExtractMailPrefix (user.mail)
 |===
 .. Click *Save*.
-.. From *Source*, select *Transformation*.
-.. From *Transformation*, select *ExtractMailPrefix()*.
-            3. Select the user.mail User’s attribute
+.. From *Source*, select *Transformation* and complete the following fields:
++
+[%header,cols="1a,2a"]
+|===
+|Field|Value
+|Transformation|ExtractMailPrefix()
+|Parameter 1|Attribute
+|Attribute name|user.mail
+|===
+.. Click *Add*.
+
+. From *Manage claim*, click *Save*.
+. Create single sign-on settings in salesforce:
+.. Select *Single Sign-on* and click *Download* from *Federation Metadata XML* in the *SAML Certificates* section.
+.. Go to *Salesforce > Setup > Single Sign-On Settings* and click *New from Metadata File*.
+.. From the *Metadata File* field, click *Choose File*, select the Federation Metadata XML file, and click *Create*.
+.. Complete the following fields:
++
+[%header,cols="1a,2a"]
+|===
+|Field|Value
+|Name |Enter a name.
+|API Name |Enter a name.
+|Entity ID|Enter the value from the Azure Enterprise application's *Identifier (Entity ID)* field. For Example, `https://<YOUR_DOMAIN>.my.site.com/aeh`.
+|SAML Identity Type|Assertion contains the Federation ID from the User object
+|Just-in-time User Provisioning|Enable User Provisioning Enabled
+|User Provisioning Type |SAML JIT with Apex handler
+|SAML JIT Handler |AEHPortalRegistrationHandler
+|Execute Handler As |Select a system administrator.
+|===
+.. Click *Save*.
 
 
 
@@ -375,7 +406,7 @@ Add group mappings by adding the user to the corresponding profile in API Experi
 . Go to *Access Management* > *Teams*.
 . Click *AEH Portal Guests* and click *AEH Portal Members*.
 . Click *External IdP Groups*.
-. From the *Group Name* field, enter *AEH Members*.
+. From the *Group Name* field, enter *AEH Members* or enter the value of the groups claim .
 . From the *Provider Name* field, select the name of the corresponding Salesforce identity provider.
 . From the *Type* field, select *Member* and click *Add*.
 +
