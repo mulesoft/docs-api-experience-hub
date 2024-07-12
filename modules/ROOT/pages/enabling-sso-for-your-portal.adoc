@@ -14,7 +14,7 @@ Setting up SSO for your portal includes the following high-level steps. These st
 * xref:enabling-sso-for-your-portal.adoc#step-1-enable-sso-for-your-portal[Step 1: Enable SSO for Your Portal]
 +
 In this step, you create and configure an application in the identity provider. 
-
++
 Microsoft Azure OpenID Connect is currently not supported.
 
 * xref:enabling-sso-for-your-portal.adoc#add-identity-provider[Step 2: Add Salesforce Identity Providers]
