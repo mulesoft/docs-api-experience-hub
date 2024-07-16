@@ -12,7 +12,7 @@ Ensure that you have sandbox organizations already set up. For more information 
 
 . In the *Manage your API portal* page, click the connection control. 
 +
-image::aeh-org-switcher.png["Connection switch control",15%]
+image::aeh-org-switcher.png["Connection control",15%]
 . To connect to a production organization, click *Connect production org* from the *Connected Salesforce Orgs* dialog. 
 +
 The connection process restarts and enables you to connect to the production organization.
