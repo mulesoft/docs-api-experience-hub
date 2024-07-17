@@ -24,12 +24,12 @@ The connection process restarts and enables you to connect to the sandbox organi
 . To switch to another sandbox organization, click *Switch to this org*.
 
 == Manage Orphaned Sandboxes
-Orphan sandboxes occur when the connection to the production organization is disconnected and there are child sandbox organizations still connected. If you connected to a sandbox that isn't a child of the production organization, the sandbox appears as an orphan. You can still switch to this sandbox. A sandbox no longer appear as an orphan when you reconnect to the production organization.
+Orphan sandboxes occur when you disconnect a production organization and there are child sandbox organizations still connected. If you connect to a sandbox that isn't a child of the production organization, the sandbox appears in the *More sandbox orgs* section of the *Connected Salesforce Organizations* dialog. You can still switch to this sandbox. A sandbox no longer appear as an orphan when you reconnect to the associated production organization.
 
 == Manage Refreshed Sandbox Connections
 Refreshing a sandbox updates the metadata from the source organization. If a sandbox refreshes after the production organization is connected, reconnect to switch to this sandbox.
 
-If a sandbox refreshes before the production organization is connected, switch to this sandbox without reconnecting.
+If a sandbox refreshes before the production organization is connected, switch to this sandbox without.
 
 == Delete Sandbox Organizations 
 
