@@ -66,7 +66,7 @@ The process of connecting to a Salesforce organization restarts.
 The process of connecting to Salesforce and installing the Salesforce Experience Cloud package begins. When the package is installed successfully, you receive an email.
 
 == Next Steps
-When the connection to the Salesforce organization is complete, set up the portal. For more information, see xref:styling-your-api-portal.adoc[].
+When the connection to the Salesforce organization is complete, set up the portal. For more information, see xref:setting-up-your-api-portal.adoc[].
 
 == See Also
 
