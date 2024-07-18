@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-From the API management page, curate your portal by viewing information about an API from Exchange, adding or removing APIs, and changing the visibility of an API version.
+From the *API management* page, curate your portal by viewing information about an API from Exchange, adding or removing APIs, and changing the visibility of an API version.
 
 The portal supports the following API types:
 
@@ -12,7 +12,7 @@ The portal supports the following API types:
 * REST
 * SOAP
 
-The API management page shows the following information:
+The *API management* page shows the following information:
 
 * *APIs in the portal* 
 +
@@ -80,7 +80,8 @@ To edit the user visibility that displays for an API:
 
 . From the *API management* page, select *APIs in Portal*.
 . To search for an API by name, enter the name into the *Search* field.
-. Select an API from the list, click more options, and select *Edit display details*.
+. Select an option from *API instance visibility*.
+. Select an API from the list and click *Edit visibility*.
 . To change the API version visibility, select an option from the *Visibility* drop-down list for the corresponding version.
 . To save the changes, click *Save*.
 

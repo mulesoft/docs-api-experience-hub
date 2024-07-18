@@ -11,7 +11,7 @@ In the Builder preview, you cannot see the images that were uploaded when creati
 To add the shared user as a member of the asset library:
 
 . Log in to the Salesforce organization as a System Administrator.
-. Click the *App Launcher*, enter *files* in the search, and select *Files*. 
+. Click the *App Launcher*, enter *files* in the search box, and select *Files*. 
 . Click *Libraries* in the navigation pane.
 . Click *Asset Library* in the list.
 . Click *Manage Members*. 
@@ -41,19 +41,66 @@ In this release, IP restrictions for the connected app are not supported. By def
 
 An error occurs when saving styling changes to the portal if an object has validation rules applied for standard objects that are created during the Salesforce linking process. 
 
-The workaround is to deactivate the validation rule, save the styling changes, then reactive the validation rule: 
+You can't apply validation rules to Salesforce standard objects, such as account and user objects, that are created during the Salesforce linking process. 
 
-. Navigate to *Setup* > *Object Manager*.
-. Select *Validation Rules*.
-. Search for the object with the validation rule.
-. Click *Edit* next to the rule you want to deactivate.
-. Deselect the *Active* checkbox.
-. Click *Save*.
-. Navigate back to API Experience Hub and click *Try again* in the error message.
-. Click *Save* to save your style selections.
-. Repeat steps 1 through 4.
-. Select the *Active* checkbox and click *Save*.
+The workaround is to bypass the validation rule for the Salesforce user who performs the linking process. This user must have the System Administrator profile to perform the linking process.
 
+NOTE: These instructions pertain to bypassing account object validation rules but can apply to bypassing custom validation rules of other objects. You can also use an existing permission set instead of creating a new one.
+
+. Create a custom permission:
+.. From Salesforce, go to *Setup*, enter *custom permissions* in the *Quick Find* box, and select *Custom Permissions*.
+.. Click *New* and enter the permission information:
++
+* *Label*
++ 
+Enter *Bypass Account Validation Rule*. 
++
+* *Name* 
++
+Click the field to populate it with the label name with underscores.
++
+* *Description*
++ 
+Enter a description for the permission.
+.. Click *Save*.
+
+. Create a permission set and add the custom permission:
++ 
+.. From *Setup*, enter *permission sets* in the *Quick Find* box and select *Permission Sets*.
+.. Click *New* and enter the permission set information:
++
+* *Label*
++ 
+Enter *Bypass Account Validation Rule*. 
++
+* *Name* 
++
+Click the field to populate it with the label name with underscores.
+.. Click *Save*.
+.. Click *Bypass Account Validation Rule* and select *Custom Permissions* from the *Apps* section.
+.. From *Available Custom Permissions*, select *Bypass Account Validation*, click *Add*, and then click *Save*.
+.. From the *Custom Permissions* list, select *Bypass Account Validation* and *Save*.
+.. From *Object Manager*, select *Validation Rules*.
+.. Select the object used for the validation rule and click *Edit*.
+.. In the *Error Condition Formula* box, enter the following:
++
+[codeblock]
+----
+AND (
+  NOT($Permission.Bypass_Account_Validation),
+  ISBLANK (Website)  
+)
+----
+.. Click *Save*.
+
+. Assign the permission set to the user performing the linking process:
++
+.. From *Setup*, enter *permission sets* in the *Quick Find* box and select *Permission Sets*.
+.. Click *Bypass Account Validation Rule* and click *Manage Assignments*.
+.. Click *Add Assignment*, select the user, and then click *Next*.
+.. Click *Assign*.
+.. Perform the Salesforce linking process using the user with the bypass permission set.
+ 
 == Error When Installing the Package During the Connection Process
 If you encounter errors while installing the package during the  connecting to Salesforce process, you can review more details about the deployment status:
 
@@ -61,7 +108,7 @@ If you encounter errors while installing the package during the  connecting to S
 . Click *Environments*. 
 . Click *Deploy*.
 . Click *Deployment Status*.
-. Review the *Failed* and * Succeeded* sections.
+. Review the *Failed* and *Succeeded* sections.
 
 == Linking Process Fails
 The linking process fails when the user who executes the linking process has the Exchange Contributor role in a business group and this user does not have the System Administrator permission in that same business group. 
