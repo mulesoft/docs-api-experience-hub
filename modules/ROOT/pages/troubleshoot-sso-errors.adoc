@@ -18,9 +18,9 @@ To troubleshoot this issue, ensure all of the necessary redirect URIs are includ
 
 To get the following redirect URIs:
 
-* salesforceOrganizationId: In Salesforce, go to *Setup > Company Information*.
+* salesforceOrganizationId: In Salesforce, go to *Setup* > *Company Information*.
 * authProviderURLSuffix: In Salesforce, go to *Setup > Auth Providers* and select your auth provider URL Suffix.
-* domain: In Salesforce, go to *Setup > My Domain > Current My Domain URL*.
+* domain: In Salesforce, go to *Setup* > *My Domain* > *Current My Domain URL*.
 
 == Insufficient Privileges
 
@@ -28,9 +28,9 @@ An insufficient privileges error occurs after logging in to the portal using SSO
 
 To troubleshoot this issue, publish the portal from the Builder.
 
-. Navigate to *Anypoint Platform*, enter your username and password, and  click *Sign in*.
-. From Anypoint Platform, select *API Experience Hub* from the list of products. 
-. Go to From the *Manage your API portal* page, click *Preview and publish your portal.
+. Navigate to *Anypoint Platform*, enter your username and password, and click *Sign in*.
+. From Anypoint Platform, select *API Experience Hub*. 
+. Go to From the *Manage your API portal* page, click *Preview and publish your portal*.
 . Click *Publish*. 
 
 == API Carousel Not Loading

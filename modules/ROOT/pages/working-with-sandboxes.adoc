@@ -12,7 +12,7 @@ Ensure that you have sandbox organizations already set up. For more information 
 
 . In the *Manage your API portal* page, click the connection control. 
 +
-image::aeh-org-switcher.png["Connection control to switch between environments",15%]
+image::aeh-org-switcher.png["The connection control to switch between environments",15%]
 . Select an option:
 +
 * To connect to a production organization, click *Connect production org* from the *Connected Salesforce Orgs* dialog. 
@@ -27,7 +27,6 @@ The connection process restarts and you can connect to the sandbox organization.
 +
 The connection process restarts and you can connect to the new sandbox organization.
 *.* To switch to another sandbox organization, click *Switch to this org*.
-
 
 == Manage Orphaned Sandboxes
 Orphan sandboxes occur when you disconnect a production organization and when child sandbox organizations are still connected. If you connect to a sandbox that isn't a child of the production organization, the sandbox appears in the *More sandbox orgs* section of the *Connected Salesforce Organizations* dialog. You can still switch to this sandbox. A sandbox no longer appears as an orphan when you reconnect to the associated production organization.
@@ -53,14 +52,6 @@ Ensure you have basic knowledge of the following:
 * API portal created in a sandbox environment
 
 === Promote a Sandbox to Production
-
-//. Configure API Experience Hub in the sandbox organization:
-//.. Navigate to Anypoint Platform, enter your username and password, and then click *Sign in*.
-//.. From Anypoint Platform, select *API Experience Hub*.
-//.. Create a portal.
-//.. Add assets to the portal.
-//.. Preview your portal and add more customizations using Experience Builder.
-//.. Publish your portal and test it.
 
 Move the portal's styling and customizations from the sandbox organization to the production organization:
 

@@ -24,9 +24,9 @@ You can have a maximum of 350 APIs in your portal.
 +
 Shows the APIs that exist in your Exchange organization but have not been added to your portal.
 
-You can view the description of an API by clicking the down arrow for an API name in the list:
+//You can view the description of an API by clicking the down arrow for an API name in the list:
 
-image::aeh-api-description.png[View API Description]
+//image::aeh-api-description.png[View API Description]
 
 
 == View APIs in Exchange
@@ -35,7 +35,7 @@ You can view information about an API directly from Exchange to determine whethe
 From the *APIs in Exchange* tab, select an API from the list, click more the options icon, and select *View in Exchange*.
 
 == Add APIs from Exchange
-Curate your portal in API Experience Hub by adding APIs from Exchange. When adding APIs to the portal, the default visibility is Administrator only. You can change the visibility to include members or everyone. See <<make-api-versions-visible,Make API Versions Visible>> for more information.
+Curate your portal in API Experience Hub by adding APIs from Exchange. You must have APIs in Exchange before you can add them to your portal. When adding APIs to the portal, the default visibility is Administrator only. You can change the visibility to include members or everyone. See <<make-api-versions-visible,Make API Versions Visible>> for more information.
 
 To add APIs to your portal:
 
@@ -60,10 +60,10 @@ By default, when you add a new API, the minor version shared with an Administrat
 
 You can manage which version of an API a user can view in your portal. You can set the visibility to Administrators, Members, Everyone, None.
 
-* Administrators Only
+* Administrators 
 +
 Use this option if you want the version to be seen by the portal administrator only.
-* Members Only
+* Members 
 + 
 Use this option if you want the version to be seen only by logged-in members.
 * Everyone
@@ -80,10 +80,8 @@ To edit the user visibility that displays for an API:
 
 . From the *API management* page, select *APIs in Portal*.
 . To search for an API by name, enter the name into the *Search* field.
-. Select an option from *API instance visibility*.
-. Select an API from the list and click *Edit visibility*.
-. To change the API version visibility, select an option from the *Visibility* drop-down list for the corresponding version.
-. To save the changes, click *Save*.
+. Click *Edit visibility*.
+. Select an option for *API instance visibility* and *API version visibility* and click *Save*.
 
 == Next Steps
 From xref:managing-users.adoc[User Management], you can view and manage users and access requests from guest users.

@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-After your portal is styled using the guided design, the Manage your API portal page provides options to manage APIs, users, settings and surfaces issues that occur while managing the portal.
+After your portal is styled using the guided design, the *Manage your API portal* page provides options to manage APIs, users, settings, environments, and surfaces issues that occur while managing the portal.
 
 * xref:managing-apis.adoc[API Management]
 + 
@@ -16,6 +16,10 @@ View and manage members and pending requests.
 * Settings
 + 
 xref:viewing-salesforce-account-information.adoc[View information about your portal's Salesforce account] and xref:disconnecting-the-portal.adoc[disconnect the portal].
+
+* xref:working-with-sandboxes.adoc[Environments]
++ 
+Manage separate deployment environments for your API portal. You can connect to multiple Salesforce sandbox organizations and switch between them.
 
 == Viewing Issues on API Management Pages
 API Experience Hub provides diagnostics checks that run in the background to identify issues with the portal and attempt to fix them automatically or provide troubleshooting options. Checks are triggered when loading or refreshing a page and performing an action on the UI. These checks help administrators identify error states and troubleshoot issues. 
@@ -45,8 +49,8 @@ Issues that indicate something is not working as expected, but you can still use
 +
 Information that is helpful for you to know but is not blocking you from using the portal.
 
-== Before You Begin
-You must have APIs in Exchange before you can add them to your portal.
+
+
 
 
 

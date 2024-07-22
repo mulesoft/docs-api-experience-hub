@@ -47,8 +47,8 @@ NOTE: Only an Organization Administrator, API Experience Hub Administrator, or a
 Follow these steps to connect to your Salesforce organization:
 
 . Navigate to Anypoint Platform, enter your username and password, and then click *Sign in*.
-. From Anypoint Platform, select *API Experience Hub* from the list of products.
-. From the *Welcome to API Expea-sandbox-featurerience Hub* page, if this is the first time connecting to Salesforce, click *Let's Start*.
+. From Anypoint Platform, select *API Experience Hub*.
+. From the *Welcome to API Experience Hub* page, if this is the first time connecting to Salesforce, click *Let's Start*.
 . Click *Connect to Salesforce*.
 . To a create a portal directly in production, select *Production* from the *Environment* list.
 . To a create a portal in a sandbox, select *Sandbox* from the *Environment* list.
