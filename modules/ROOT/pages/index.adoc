@@ -56,7 +56,7 @@ Each API Experience Hub portal includes a Home, APIs, and an API Details page. T
 
 The following sample portal shows the Home page: 
 
-image::aeh-home-page.png[Home page]
+image::aeh-home-page.png[Home page of a portal]
 
 The portal includes the following template pages:
 

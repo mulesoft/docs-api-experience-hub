@@ -26,9 +26,9 @@ API Experience Hub provides diagnostics checks that run in the background to ide
 
 When issues are detected on API management pages, a message displays in the banner of the page. The message indicates that there are some detected issues that the system is trying to fix.
 
-If there are still issues after all checks and patches are attempted, the banner shows a message that there are issues that require you to act on. To see more information about these issues, click *View details*. 
+image::error-message-banner.png["An example of the banner with detected issues"]
 
-image::error-message-banner.png[Error messages banner]
+If there are still issues after all checks and patches are attempted, the banner shows a message that there are issues that require you to act on. To see more information about these issues, click *View details*. 
 
 The following minimal prerequisite checks run each time pages in the portal are loaded or refreshed:
 

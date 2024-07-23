@@ -73,5 +73,6 @@ When the connection to the Salesforce organization is complete, set up the porta
 
 * xref:user-roles-permissions-and-profiles.adoc[]
 * xref:assigning-permissions.adoc[]
+* xref:working-with-sandboxes.adoc[]
 * xref:troubleshooting.adoc[]
 

@@ -242,10 +242,10 @@ sf project deploy start --source-dir force-app --target-org productionOrg
 All configurations deploy in the production organization and you're ready to connect this organization with API Experience Hub.
 . Configure API Experience Hub in the production organization:
 .. Navigate to Anypoint Platform, enter your username and password, and click *Sign in*.
-.. From Anypoint Platform, select *API Experience Hub* from the list of products.
+.. From Anypoint Platform, select *API Experience Hub*.
 .. Connect the Salesforce production organization (Enterprise organization).
 .. Click *Use existing portal* to reuse the portal that already exists.
-.. From the *API Manage* page, add assets to the portal.
+.. From the *API management* page, add assets to the portal.
 .. Click *Preview and publish your portal* to preview the portal, and then click *Publish*.
 
 == See Also
