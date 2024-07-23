@@ -24,16 +24,12 @@ When APIs are added to the portal, all administrators are assigned automatically
 
 To grant the permissions to an administrator:
 
-. Sign in to Anypoint Platform using an account with the Organization Administrator permission.
-. Click *Access Management*.
-. Click *Users*.
-. Click the username of the user that you want to add the API Experience Hub Administrator permission. 
+. Click image::aeh-mulesoft-logo.png["MuleSoft icon",5%,5%], and then select *Access Management*.
+. Click *Users*, and then select the username of the user that you want to add the API Experience Hub Administrator permission. 
 . Select *Permissions* and click *Add permissions*.
 . In the *Select permissions to add for this user* search box, enter *API Experience Hub Amin* and select the checkbox.
-. Enter *Exchange viewer* in the search box and select the checkbox.
-. Click *Next*.
-. Select the *Mulesoft* checkbox.
-. Click *Next*.
+. Enter *Exchange viewer* in the search box and select the checkbox, and then click *Next*.
+. Select the *Mulesoft* checkbox, and then click *Next*.
 . Click *Add Permissions*.
 
 //=== Grant the API Experience Hub Portal Administrator Permission 

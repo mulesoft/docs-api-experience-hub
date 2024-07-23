@@ -7,9 +7,8 @@ When you are done  managing and curating your portal, you can preview your chang
 
 To preview and publish the portal, follow these steps:
 
-. If you are on the *Manage your API portal* page, click *Preview and publish your portal*.
-. Review your changes.
-. Click *Publish*.
+. Fromn the *Manage your API portal* page, click *Preview and publish your portal*.
+. Review your changes and click *Publish*.
 +
 You receive an email confirmation when your changes are live. The email contains the URL link to the published site.
 

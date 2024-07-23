@@ -9,6 +9,7 @@
 * xref:assigning-permissions.adoc[]
 * xref:connecting-to-salesforce.adoc[]
 * xref:setting-up-the-api-portal.adoc[]
+* xref:working-with-sandboxes.adoc[]
 * xref:managing-your-portal.adoc[]
 ** xref:managing-apis.adoc[]
 ** xref:managing-users.adoc[]

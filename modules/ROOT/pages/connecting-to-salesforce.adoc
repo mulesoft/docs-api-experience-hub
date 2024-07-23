@@ -39,6 +39,7 @@ After your styling changes for the portal are saved, the AEH Portal Admin team i
 * Ensure that you are a System Administrator or have the AEH_Anypoint permission set in the Salesforce organization that you are connecting with.
 
 == Connect to Salesforce  
+
 The connecting process is a one-time step when creating your portal.
 
 NOTE: Only an Organization Administrator, API Experience Hub Administrator, or a Salesforce user with the System Administrator profile or AEH_Anypoint permission set can connect to Salesforce to link organizations.
@@ -46,21 +47,20 @@ NOTE: Only an Organization Administrator, API Experience Hub Administrator, or a
 Follow these steps to connect to your Salesforce organization:
 
 . Navigate to Anypoint Platform, enter your username and password, and then click *Sign in*.
-. From Anypoint Platform, select *API Experience Hub* from the list of products.
-. If it's the first time connecting to a Salesforce organization, click *Let's Start*.
+. From Anypoint Platform, select *API Experience Hub*.
+. From the *Welcome to API Experience Hub* page, if this is the first time connecting to Salesforce, click *Let's Start*.
 . Click *Connect to Salesforce*.
-. From the *Connect to Salesforce* dialog, select an option from the *Environment* list:
-+
-* Production
-+
-* Sandbox
-+
-If you do not know which Salesforce organization environment type you have, contact your Salesforce administrator.
+. To a create a portal directly in production, select *Production* from the *Environment* list.
+. To a create a portal in a sandbox, select *Sandbox* from the *Environment* list.
+. Enter the username and password of your Salesforce organization and click *Log In*.
 . If you have a custom Salesforce domain, select *I have a custom Salesforce domain* and enter your domain address.
 +
 If you don't use a custom domain and you have active Salesforce sessions in the selected environment, you log in to Salesforce using the first active session.
 . Click *Connect*.
 . Click *Allow* for MuleSoft to access your data.
+. To go back and connect to a different Salesforce organization, click *Connect with another Salesforce organization*.
++
+The process of connecting to a Salesforce organization restarts.
 . Confirm the Salesforce access information and click *Confirm connection*.
 +
 The process of connecting to Salesforce and installing the Salesforce Experience Cloud package begins. When the package is installed successfully, you receive an email.
@@ -68,9 +68,11 @@ The process of connecting to Salesforce and installing the Salesforce Experience
 == Next Steps
 When the connection to the Salesforce organization is complete, set up the portal. For more information, see xref:setting-up-the-api-portal.adoc[].
 
+
 == See Also
 
 * xref:user-roles-permissions-and-profiles.adoc[]
 * xref:assigning-permissions.adoc[]
+* xref:working-with-sandboxes.adoc[]
 * xref:troubleshooting.adoc[]
 

@@ -3,11 +3,11 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-The Settings page provides information about the Salesforce account for your API portal and enables you to disconnect the API portal. 
+The *Settings* page provides information about the Salesforce account for your API portal and enables you to disconnect the API portal. 
 
 To view information about the Salesforce organization for your portal, from the *Manage your API portal* page, click *Settings*. 
 
-The Settings page show the following information:
+You can find the following information:
 
 * Environment
 * Username

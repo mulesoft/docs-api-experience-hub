@@ -15,8 +15,6 @@ Styling an API portal includes the following tasks:
 . Style the Home page
 +
 The Home page is the landing page of your API portal and is also known as the API Carousel. The template includes adding a logo, banner image, org branding, banner title, description of the portal, and footer configuration. 
-+
-//image::aeh-set-up-home-page.png[Style Home page]
 
 . Style the API Catalog
 +
@@ -35,6 +33,7 @@ Set up an API portal by choosing how to create the portal.
 .. To create the portal at later time, click *Set up portal later*.
 
 == Style Your Portal
+
 Follow the guided design and click *Next* to advance through the steps. 
 
 NOTE: If you refresh the page or leave the guided design, the progress in the guided setup does not persist. You must complete all of the steps again.
@@ -81,8 +80,8 @@ Follow the guided steps to style the API Details page:
 . To show API Clients applications on the API details page, enable *API Clients* from *Customize API information*.
 . To add a banner title to the API Details page, enter the title in the *Enter API detail banner Title* text box.
 . To add a description of the API Details page, enter the description in the *Enter API detail description* text box.
-. If you are not done styling your portal, click *Previous* to change the styling on previous pages.
-. If you are done with styling up your portal, click *Save changes*.
+. If you're not done styling your portal, click *Previous* to change the styling on previous pages.
+. If you're done with styling up your portal, click *Save changes*.
 +
 The process of saving your styles and creating the portal can take several minutes. You can navigate away from the page. 
 
@@ -92,8 +91,6 @@ The following settings are set by default when the portal is created:
 * Self-registration for guest users is enabled by default
 
 * Status of the portal is active.
-+
-The portal is not live until it is published.
 
 == Next Steps
 Now that your portal is created, you can manage APIs by adding them to the portal, manage users, view settings information, and disconnect a portal from the xref:managing-your-portal.adoc[Manage your portal] page. 

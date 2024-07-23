@@ -97,9 +97,9 @@ To configure the redirects, use your 15 digit organization ID and 18 digits org 
 +
 image::aeh-sso-redirect-uris.png["Redirect URIs example",width=60%]
 To get the URLs:
-* For salesforceOrganizationId, go to *Setup > Company Information*.
-* For authProviderURLSuffix, go to *Setup > Auth Providers*, click your auth provider, and select *URL Suffix*.
-* For domain, go to *Setup > My Domain > Current My Domain URL*.
+* For salesforceOrganizationId, go to *Setup* > *Company Information*.
+* For authProviderURLSuffix, go to *Setup* > *Auth Providers*, click your auth provider, and select *URL Suffix*.
+* For domain, go to *Setup* > *My Domain* > *Current My Domain URL*.
 
 === Map the Application to the Identity Provider for Anypoint Platform
 You must map the identity provider ID with the anypoint_idp_id by adding and configuring a new custom attribute called anypoint_idp_id.  
@@ -108,7 +108,7 @@ In the case that usernames for the portal and Anypoint Platform don't match, add
 
 To map anypoint_idp_id to with the Anypoint Platform identity provider ID:
 
-. In the Okta application, go to *Directory > Profile Editor*.
+. In the Okta application, go to *Directory* > *Profile Editor*.
 . Select the portal application that you just configured.
 . Click *Add Attributes* to create a new attribute called *anypoint_idp_id*.
 . Complete the following fields:
@@ -120,12 +120,12 @@ To map anypoint_idp_id to with the Anypoint Platform identity provider ID:
 |*Value name*|*anypoint_idp_id*
 |===
 . Save your changes.
-. Go to *Access Management > Identity Providers* and click the identity provider.
+. Go to *Access Management* > *Identity Providers* and click the identity provider.
 . From the browser URL, copy the 32 digit ID.
 +
 image::aeh-sso-32-digit-id.png[32 digit located in the browser URL example] 
 
-. Go to *Okta > Directory > Profile Editor* and click *Mappings*
+. Go to *Okta* > *Directory* > *Profile Editor* and click *Mappings*
 . Paste the ID into the empty field for the new anypoint_idp_id attribute. The ID must be in quotes.
 . From the yellow arrow drop-down menu, select *Apply mapping on user create and update*.
 + 
@@ -139,7 +139,7 @@ If the user already exists in Salesforce and uses SSO to log in to the portal, t
  
 To reconcile the usernames assignment for a single identity in the portal and Anypoint Platform:
 
-. In the Okta application, go to *Directory > Profile Editor*.
+. In the Okta application, go to *Directory* > *Profile Editor*.
 . Select the portal application that you just configured.
 . Click *Add Attributes* to create a new attribute called *anypoint_username*.
 . Complete the following fields:
@@ -161,20 +161,20 @@ image::aeh-sso-mapped-anypoint-username-attribute.png["Example of mapped anypoin
 == Step 2: Add Salesforce Identity Providers 
 Enable the Salesforce identity provider from the API Experience Hub UI. When the identity provider is enabled, users can log in to the portal using this identity provider.
 
-. Go to *API Experience Hub > User management*.
+. Go to *API Experience Hub* > *User management*.
 . From the *User management* page, select the *Login settings* tab.
 . From the *Single sign-on (SSO)* section, scroll down to *Add Salesforce identity providers* section.
 . Move the slider to *Enabled* for the Salesforce identity provider you configured in Okta.
 
 == Step 3: Add Group Mappings 
-//reused content from partial (ran out of time and will do post GA)
+
 When setting up SSO for the portal, your users must have an identity in both Salesforce and Anypoint Platform. SSO users are mapped to teams using their group names. You must map your users to teams using Access Management. API Experience Hub provides an out-of-the-box team called *AEH Portal - ${salesforceOrganizationId}_${salesforceCommunityId}* that is added automatically as a team in Access Management.
 
 Add group mappings by adding the user to the corresponding profile in API Experience Hub:
 
-. Go to *Access Management* > Teams*.
-. Click *AEH Portal Guests* and click *AEH Portal Members*.
-. Click *External IdP Groups*.
+. Go to *Access Management* > *Teams*.
+. Select *AEH Portal Guests* > *AEH Portal Members*.
+. Select *External IdP Groups*.
 . From the *Group Name* field, enter *AEH Members*.
 . From the *Provider Name* field, select the name of the corresponding Salesforce identity provider.
 . From the *Type* field, select *Member* and click *Add*.
@@ -194,7 +194,7 @@ Verify that the SSO for the portal is configured properly.
 . Select the SSO option that you configured.
 . Log in with a user that belongs to the group you configured in the identity provider for your portal.
 . Check the visibility of APIs for the user in the portal.
-. Go to *Access Management* and select *Users*. 
+. Go to *Access Management* > *Users*. 
 . Search using the username to confirm that the user is mapped to the expected identity provider.
 . Go to the team with the configured group mappings. 
 +

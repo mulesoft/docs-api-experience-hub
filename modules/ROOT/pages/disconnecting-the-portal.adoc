@@ -15,6 +15,7 @@ To disconnect:
 . Click *Disconnect Salesforce Org*.
 . To disconnect, click *Disconnect Salesforce Org* from the message.
 
+
 == See Also
 
 * xref:connecting-to-salesforce.adoc[Connecting to Salesforce]
