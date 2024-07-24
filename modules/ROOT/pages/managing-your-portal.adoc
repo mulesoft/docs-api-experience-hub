@@ -44,10 +44,10 @@ Issues can have the following severity:
 Issues that block you from using one or multiple functions in the portal.
 * Warning
 +
-Issues that indicate something is not working as expected, but you can still use the portal without addressing the issues.
+Issues that indicate something isn't working as expected, but you can still use the portal without addressing the issues.
 * Info
 +
-Information that is helpful for you to know but is not blocking you from using the portal.
+Information that is helpful for you to know but isn't blocking you from using the portal.
 
 
 

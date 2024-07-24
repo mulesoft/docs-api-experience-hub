@@ -16,11 +16,11 @@ The Organization Administrator role has all of the permissions necessary to crea
 
 An API Experience Hub Admin team and an API Experience Hub Portal Admin team is created in Access Management during the connecting and linking process. Once your Salesforce organization is successfully connected to your Anypoint organization, the AEH Admin team is created. Any user, who is assigned the AEH Admin, is automatically added to the AEH Admin team. 
 
-Once your styling changes for the portal are saved, the AEH Portal Admin team is created. Although the API Experience Hub Portal Administrator team is visible in Access Management, this permission is not supported in this release.
+Once your styling changes for the portal are saved, the AEH Portal Admin team is created. Although the API Experience Hub Portal Administrator team is visible in Access Management, this permission isn't supported in this release.
 
 Administrators can only add APIs for which they have the Exchange Viewer permission. When APIs are added to the portal, all administrators are automatically assigned the Exchange Viewer permission. 
 
-API Experience Hub is integrated with Salesforce Experience Cloud. Administrators access the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore, API Experience Hub cannot determine the individual administrator's action in the shared account. 
+API Experience Hub is integrated with Salesforce Experience Cloud. Administrators access the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore, API Experience Hub can't determine the individual administrator's action in the shared account. 
 
 The System Administrator profile has specific permissions to perform functions on the Salesforce Platform. The user with this profile performs the initial step of creating an API portal by connecting to the Salesforce Experience Cloud and linking the Salesforce organization to the Anypoint organization. This process can only be done by the user with the System Administrator profile. The AEH_Anypoint permission set can also be created to have only the minimal necessary permissions for the user who performs the linking process. For more information, see xref:assigning-permissions.adoc[].
 
@@ -61,7 +61,7 @@ All administrators must have the Exchange Viewer permission to import APIs into 
 
 |===
 |Permission |Description |Actions
-|Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission cannot add new assets, edit asset portal content, or share an asset with another user.
+|Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission can't add new assets, edit asset portal content, or share an asset with another user.
 a|
 * View APIs in Exchange
 * Import APIs from Exchange to the portal |
@@ -77,11 +77,11 @@ These are groups of users with certain permissions that you can manage using the
 
 |===
 |User Profile |Description |Actions
-|Guest| This user’s profile is anonymous and is not logged in the API portal. 
+|Guest| This user’s profile is anonymous and isn't logged in the API portal. 
 a|
 * View public APIs that are shared with them.
 * Can self-register to become a member.
-* Cannot request access to APIs. 
+* Can't request access to APIs. 
 |Member|This is a registered user who can log in to a portal.
 a|
 * View public APIs and other APIs that are shared with them.

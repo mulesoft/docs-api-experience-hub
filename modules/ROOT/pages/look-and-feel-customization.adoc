@@ -9,7 +9,7 @@ The Builder link opens your site for editing. You can edit each page in your por
 
 The Builder interface contains the pages list, component palette, theme menu, page structure menu, and settings menu.
 
-API Experience Hub is not certified for use on mobile devices. Some functionality works on mobile devices, but some functionality such as the API Console does not.
+API Experience Hub isn't certified for use on mobile devices. Some functionality works on mobile devices, but some functionality such as the API Console does not.
 
 == Pages List
 The Pages list shows the pages included with API Experience Hub and the pages you have added and enables you to select and edit each page. The included page Home is selected by default.

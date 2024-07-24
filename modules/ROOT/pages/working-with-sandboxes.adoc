@@ -41,7 +41,7 @@ If a sandbox refreshes before the production organization is connected, switch t
 To delete a sandbox organizaton, see https://help.salesforce.com/s/articleView?id=000383260&type=1[Delete a sandbox] in the Salesforce documentation.
 
 == Promoting a Sandbox to Production
-After testing a portal in a sandbox environment and it is ready for production, deploy a subset of the Salesforce metadata using your CI/CD pipeline to production. Afterward, connect to the production instance with the subset of the Salesforce metadata to complete the installation and start curating APIs.
+After testing a portal in a sandbox environment and it's is ready for production, deploy a subset of the Salesforce metadata using your CI/CD pipeline to production. Afterward, connect to the production instance with the subset of the Salesforce metadata to complete the installation and start curating APIs.
 
 === Before You Begin
 Ensure you have basic knowledge of the following:

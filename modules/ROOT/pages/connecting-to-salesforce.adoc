@@ -17,7 +17,7 @@ To view the connected app that is created in the Salesforce organization:
 +
 The connected App (Anypoint_AEH) is listed in the table.
 
-In this release, IP restrictions for the connected app are not supported. The connected app bypasses any trusted IP ranges in your organization. Do not change this option because it produces errors when creating the portal. For more information, see xref:troubleshooting.adoc[Troubleshooting].
+In this release, IP restrictions for the connected app aren't supported. The connected app bypasses any trusted IP ranges in your organization. Don't change this option because it produces errors when creating the portal. For more information, see xref:troubleshooting.adoc[Troubleshooting].
 
 == Allow Access
 To complete the connection process, allow API Experience Hub to access the following:
@@ -30,13 +30,13 @@ To complete the connection process, allow API Experience Hub to access the follo
 == Admin Teams 
 An API Experience Hub Admin team and an API Experience Hub Portal Admin team is created during the connecting and linking process. Once your Salesforce organization is successfully connected to your Anypoint Platform organization, the AEH Admin team is created. After the Salesforce linking process is complete, any user, who is assigned the AEH Admin, is automatically added to the AEH Admin team. 
 
-After your styling changes for the portal are saved, the AEH Portal Admin team is created. Although the API Experience Hub Portal Administrator team is visible in Access Management, this permission is not supported in this release.
+After your styling changes for the portal are saved, the AEH Portal Admin team is created. Although the API Experience Hub Portal Administrator team is visible in Access Management, this permission isn't supported in this release.
 
 
 == Before You Begin Connecting to Salesforce
 
 * Read the instructions in xref:getting-started-with-api-experience-hub.adoc[].
-* Ensure that you are a System Administrator or have the AEH_Anypoint permission set in the Salesforce organization that you are connecting with.
+* Ensure that you're a System Administrator or have the AEH_Anypoint permission set in the Salesforce organization that you're are connecting with.
 
 == Connect to Salesforce  
 

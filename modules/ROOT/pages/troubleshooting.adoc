@@ -5,8 +5,8 @@ endif::[]
 
 If you encounter errors, refer to the following instructions for recovery.
 
-== Cannot See Images in the Builder Preview That Were Uploaded When Creating the Portal
-In the Builder preview, you cannot see the images that were uploaded when creating the portal because the shared user is not a member of any libraries.
+== Can't See Images in the Builder Preview That Were Uploaded When Creating the Portal
+In the Builder preview, you cannot see the images that were uploaded when creating the portal because the shared user isn't a member of any libraries.
 
 To add the shared user as a member of the asset library:
 
@@ -28,14 +28,14 @@ The *Current Members* section shows the *Builder Preview* member and *Author* ac
 . Close the screen.
 +
 . Confirm that the Builder Preview user can see the library images in the Builder. 
-. Reload the page if the images are not showing up.
+. Reload the page if the images aren't showing up.
 
 == API Experience Hub Does Not Show on the Anypoint Platform Landing Page
-If API Experience Hub does not show on the Anypoint Platform landing page, ensure that you are using the main organization. Contact the MuleSoft administrator to ensure that the entitlement is enabled.
+If API Experience Hub does not show on the Anypoint Platform landing page, ensure that you're using the main organization. Contact the MuleSoft administrator to ensure that the entitlement is enabled.
 
 == Error Occurs When Changing the Relax IP Restrictions Option 
 
-In this release, IP restrictions for the connected app are not supported. By default, the IP Restrictions field is set to `Relax IP Restrictions`. If you have Trusted IP Ranges in your organization, they are bypassed by the connected app. To avoid errors, do not change the *IP Restrictions* field from `Relax IP Restrictions` because it produces errors when creating the portal. 
+In this release, IP restrictions for the connected app aren't supported. By default, the IP Restrictions field is set to `Relax IP Restrictions`. If you have Trusted IP Ranges in your organization, they are bypassed by the connected app. To avoid errors, don't change the *IP Restrictions* field from `Relax IP Restrictions` because it produces errors when creating the portal. 
 
 == Error Saving Changes to the Portal When an Object Has Validation Rules Activated
 
@@ -116,7 +116,7 @@ The linking process fails when the user who executes the linking process has the
 To resolve this issue, add the organization administrator permission to the user who is executing the Salesforce linking in the business group.
 
 == Not Receiving Emails from Salesforce Experience Cloud
-If you are not receiving emails from Salesforce Experience Cloud, disable the standard configuration by following these steps:
+If you're not receiving emails from Salesforce Experience Cloud, disable the standard configuration by following these steps:
 
 . Go to *Setup* > *Deliverability* > *Email Security Compliance*.
 . Deselect *Enable compliance with standard email security mechanisms*.
