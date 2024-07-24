@@ -13,7 +13,7 @@ For example, suppose a developer on the API team adds a new resource to an API.
 . In Design Center, the developer opens the API project, adds the resource to the specification, and clicks *Publish to Exchange*.
 . Because this is a breaking change, the developer changes the API version information in Publish API specification to Exchange.
 +
-For example, if the API version is v3, it becomes v4. If the Asset version is 3.0.1, it becomes 4.0.0. Name and Main file do not change.
+For example, if the API version is v3, it becomes v4. If the Asset version is 3.0.1, it becomes 4.0.0. Name and Main file don't change.
 . The developer clicks *Publish*.
 . The previous API version remains in all portals where it was published without any changes.
 

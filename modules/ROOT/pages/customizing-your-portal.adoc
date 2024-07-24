@@ -7,7 +7,7 @@ After the API portal is created using the out-of-the-box styling templates, you 
 
 From the *API management* page, the *Preview and publish your portal* link opens your site for editing each page in your portal, creating new pages, and adding and editing the components on each page. Administrators enter the Salesforce Experience Builder with a shared identity between all administrators. Since the identity of the administrator is shared therefore, 
 //do wen need to doc the following?
-API Experience Hub cannot determine the individual administrator's action in the shared account. If the administrator is already logged in to the Salesforce organization, their previous session is is not retained when they click the *Preview and publish your portal* button.
+API Experience Hub can't determine the individual administrator's action in the shared account. If the administrator is already logged in to the Salesforce organization, their previous session isn't retained when they click the *Preview and publish your portal* button.
 
 The Builder’s interface contains the pages list, component palette, theme menu, page structure menu, and settings menu.
 

@@ -35,14 +35,14 @@ To troubleshoot this issue, publish the portal from the Builder.
 
 == API Carousel Not Loading
 
-After logging in to the portal successfully, you cannot see the APIs in the API Carousel.
+After logging in to the portal successfully, you can't see the APIs in the API Carousel.
 
 A few issues can cause this error to occur:
 
 * The external identity provider group mapping is missing from Access Management.
 * The *Auth provider Default Scopes* field is not configured properly.
 
-=== External Identity Provider Group Mapping is Missing or Misconfigured
+=== External Identity Provider Group Mapping Is Missing or Misconfigured
 
 To troubleshoot this issue, add the external identity provider group mapping in Access Management for the portal member user:
 
@@ -53,7 +53,7 @@ To troubleshoot this issue, add the external identity provider group mapping in 
 . From *Provider Name*, select the name of the corresponding Salesforce identity provider.
 . From *Type*, select *Member* and click *Add*.
 
-== Auth Provider Default Scopes Field Is Not Configure Properly
+== Auth Provider Default Scopes Field Isn't Configure Properly
 
 To troubleshoot this issue, ensure the *Default Scopes* field has the *profile openid email groups* value.
 
@@ -63,9 +63,9 @@ To troubleshoot this issue, ensure the *Default Scopes* field has the *profile o
 . In the *Auth Provider Detail* section, enter `*profile openid email groups*`.
 . Click *Save*.
 
-== Cannot Log In
+== Can't Log In
 
-When trying to log in to the portal with an identity provider, you see a *Problem Logging In* error that the third-party identifier cannot be be found. An incorrect portal URL can cause issues logging in.
+When trying to log in to the portal with an identity provider, you see a *Problem Logging In* error that the third-party identifier can't be found. An incorrect portal URL can cause issues logging in.
 
 To troubleshoot this issue, ensure that the URL is properly configured. For Okta, the `/userinfo` part of the URL path must be lowercase.
 

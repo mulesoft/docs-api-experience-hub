@@ -70,7 +70,7 @@ The APIs page contains a catalog of all the APIs in the portal. Developers can s
 
 * API Details 
 +
-The top of the API Details page shows the metadata about the API, including the name, description, type, version, lifecycle states, and the email of the contact for the API. The bottom of the Details page includes the overview and the API documentation. The API overview panel reflects the overview page created by the admin of the API in Anypoint Exchange. The API documentation panel includes an interactive console for developers to read the API documentation and test the API. Developers can read the summary, methods, endpoints, and authorization sections as defined in the API specification. 
+The API Details page shows the metadata about the API, including the name, description, type, version, lifecycle states, and the email of the contact for the API. The Details page includes the overview and the API documentation. The API overview panel reflects the overview page created by the admin of the API in Anypoint Exchange. The API documentation panel includes an interactive console for developers to read the API documentation and test the API. Developers can read the summary, methods, endpoints, and authorization sections as defined in the API specification. 
 
 == Product Integration
 API Experience Hub is integrated with the following products:

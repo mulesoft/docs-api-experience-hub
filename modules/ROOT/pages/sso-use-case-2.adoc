@@ -5,7 +5,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-This use case includes instructions for configuring SSO for the portal using an identity provider already configured for Anypoint Platform. This use case also provides instructions for reconciling the xref:enabling-sso-for-your-portal.adoc#username-strategy[username assignment strategy] when the usernames for the portal and Anypoint Platform do not match. 
+This use case includes instructions for configuring SSO for the portal using an identity provider already configured for Anypoint Platform. This use case also provides instructions for reconciling the xref:enabling-sso-for-your-portal.adoc#username-strategy[username assignment strategy] when the usernames for the portal and Anypoint Platform don't match. 
 
 The instructions in this case are using Okta as an example identity provider however, you can use any identity provider to set up SSO.
 
@@ -133,7 +133,7 @@ image::aeh-sso-mapped-anypoint-idp-id-attribute.png["Example of mapped anypoint_
 . Click *Save Mappings*.
 . Apply the mappings to all users in the profile.
 
-If the user already exists and logs in to the portal before the anypoint_idp_id is set, the default identity provider AEH Users - ${salesforceOrganizationId} is used. To prevent the user from being duplicated, the user is not added to the new identity provider specified in the anypoint_idp_id field.
+If the user already exists and logs in to the portal before the anypoint_idp_id is set, the default identity provider AEH Users - ${salesforceOrganizationId} is used. To prevent the user from being duplicated, the user isn't added to the new identity provider specified in the anypoint_idp_id field.
 
 If the user already exists in Salesforce and uses SSO to log in to the portal, the API Experience Hub Member User permission set is assigned to that user (if no permission set is already assigned).
  

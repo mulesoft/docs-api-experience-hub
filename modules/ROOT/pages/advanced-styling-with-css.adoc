@@ -13,7 +13,7 @@ The following sections summarize the available options. For detailed information
 . In the *Builder*, click the paintbrush icon to open the *Theme* menu.
 . Select the drop-down arrow of the menu and select *Edit CSS*.
 . Edit the CSS file in the *Edit CSS* dialog box.
-. When you are finished with your changes, select *Save*.
+. When you're finished with your changes, select *Save*.
 
 == Example
 
@@ -209,7 +209,7 @@ information since asset detail header.
 
 View c-base-error.
 |`.asset-documentation-viewer-pages-one-page-container`
-|Container that displays when the asset has only one page. In this case, the navigation bar does not display.
+|Container that displays when the asset has only one page. In this case, the navigation bar doesn't display.
 |`.asset-documentation-viewer-markdown`
 |Div element where markdown is rendered.
 |===

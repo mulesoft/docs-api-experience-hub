@@ -25,7 +25,7 @@ To discover information about an API:
 . Select the *Responses* tab to view the response type, example, headers, and body.
 
 == Test APIs 
-You can test an API specification using the mocking service when you want simulated data. You can also test an API specification with real data using an instance of the API. If an instance has authorization headers, the request fails when the authorization headers are not entered.
+You can test an API specification using the mocking service when you want simulated data. You can also test an API specification with real data using an instance of the API. If an instance has authorization headers, the request fails when the authorization headers aren't entered.
 
 For more information about testing APIs, see the following topics:
 

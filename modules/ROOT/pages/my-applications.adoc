@@ -58,9 +58,9 @@ From the Application Details page, you can:
 * Delete the client application.
 
 === Reset Client Secret
-You can reset the client secret for an application on a regular cadence to ensure security when users leave the organization or to ensure that the secret is not accidentally exposed to unauthorized users.  
+You can reset the client secret for an application on a regular cadence to ensure security when users leave the organization or to ensure that the secret isn't accidentally exposed to unauthorized users.  
 
-From the Application Details page, you can reset the client secret for an application. Applications using the current client secret cannot access any of the APIs with which they were registered.
+From the Application Details page, you can reset the client secret for an application. Applications using the current client secret can't access any of the APIs with which they were registered.
 
 To reset the client secret:
 
@@ -102,7 +102,7 @@ To edit the SLA tier for a client application:
 . Click *Okay* to close the message.
 
 === Delete a Client Application
-When you no longer need the contract for an API, you can delete it. Once the application is deleted, there is no longer a contract with the API and you cannot access it. To regain access, you must request access to the API again.
+When you no longer need the contract for an API, you can delete it. Once the application is deleted, there is no longer a contract with the API and you can't access it. To regain access, you must request access to the API again.
 
 To delete a client application:
 
