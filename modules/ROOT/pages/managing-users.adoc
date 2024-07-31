@@ -16,21 +16,21 @@ Find members by entering the member's name or email address in the *Search by na
 === Enable or Disable Access to Your Portal
 When a user's access to the portal is approved in the *Pending requests* page, the *Enable portal access* slider is enabled in the *Portal members* page. You can disable a user's access by moving the slider to off.
 
-== Manage Pending Requests
-Use the *Pending requests* page to approve or reject requests for users who registered to access the portal. You can also view the user's name, email, registration date, and registration status of the users who registered to access the portal. The maximum pending user registration requests is 500.
+== Manage Pending Registration Requests
+Use the *Pending registration requests* page to approve or reject requests for users who registered to access the portal. You can also view the user's name, email, registration date, and registration status of the users who register for access the portal. The maximum pending user registration requests is 500.
 
 When the registration is approved, the user is removed from the pending requests list and added to the list of members on the *Portal members* page. 
+
+If the registration is rejected, the user is removed from the list and can't log in and access the portal.
 
 === Approve or Reject Member Registration
 After a guest user registers for an account using self-registration, approve or reject the request. 
 
-. Click *Pending requests*.
-. Enter the user's name or email in the *Search by name or email* box.
-. From the list, click the three dots icon and select *Approve* or *Reject*.
-+
-After approval, the user moves to the *Portal members* page.
-+
-If the registration is rejected, the user can't log in and access the portal.
+. Click *Pending registration requests*.
+. To find a user, enter the user's name or email in the *Search by name or email* box.
+. Select an option from *Assign to*.
+. Click *Approve* or *Reject*.
+
 
 == Manage Login Settings
 Disable or enable self-registration for external users and set up single sign-on for your portal using the *Login settings* page. Self-registration enables guest users to register themselves as members of your API portal. From the *Pending requests* page, you can see a list of pending requests from guest users who want to access your portal. 
