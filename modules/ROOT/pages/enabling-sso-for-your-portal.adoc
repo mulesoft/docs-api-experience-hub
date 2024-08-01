@@ -253,7 +253,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 
 . In Azure, create a SAML Enterprise application:
 .. Go to the Azure administration portal or enter `https://portal.azure.com` in a browser. 
-.. Go to Microsoft Entra Id (Active Directory service), 
+.. Go to Microsoft Entra Id (Active Directory service). 
 .. Click *+ Add* and select *Enterprise application*.
 .. In the *Browse Microsoft Entra Gallary* select the *Salesforce* application.
 .. Enter a name such as *AEH Portal* and click *Create*.
