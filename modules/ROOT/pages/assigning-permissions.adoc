@@ -422,6 +422,29 @@ sf project deploy start --source-dir path/to/permissionset/ -o orgAlias
 .. In *Setup*, enter `permission sets` in the *Quick Find* box and click *Permission Sets*.
 .. Locate *AEH_Anypoint* in the list.
 
+== Assign API Experience Hub Users Approver Permission
+Assign the API Experience Hub User Approver permission to enable a user to approve or reject pending registration requests and enable or disable member users only. This permission doesn't allow this user to perform any other operations for the portal. 
+
+When accessing the *Manage your API portal* page, the user with this permission can access the following *User Management* pages:
+
+* Portal members
++
+Enable or disable a user's access to the portal. 
+* Pending registration requests
++
+Approve or reject a user's registration request.
+* Settings
+
+To assign this permission to a user:
+
+. Go to *Access Management*.
+. Click *Users*, and then select the username of the user that you want to add the API Experience Hub Administrator permission. 
+. Select *Permissions* and click *Add permissions*.
+. In the *Select permissions to add for this user* search box, enter *API Experience Hub Users Approver*, select the checkbox, and then click *Next*.
+. Select the *Mulesoft* checkbox, and then click *Next*.
+. Click *Add Permissions*.
+
+
 == See Also
 
 * xref:user-roles-permissions-and-profiles.adoc[]

@@ -1,16 +1,17 @@
-= Viewing Salesforce Account Information
+= Viewing Salesforce Account and Portal Information
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
 The *Settings* page provides information about the Salesforce account for your API portal and enables you to disconnect the API portal. 
 
-To view information about the Salesforce organization for your portal, from the *Manage your API portal* page, click *Settings*. 
+To view information about the Salesforce organization and your portal, from the *Manage your API portal* page, click *Settings*. 
 
 You can find the following information:
 
 * Environment
 * Username
+* Sandbox name
 * Organization domain
 * Organization ID
 
