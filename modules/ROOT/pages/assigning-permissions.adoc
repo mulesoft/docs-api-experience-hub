@@ -434,6 +434,8 @@ Enable or disable a user's access to the portal.
 +
 Approve or reject a user's registration request.
 * Settings
++
+View information about the Salesforce account and portal.
 
 To assign this permission to a user:
 
