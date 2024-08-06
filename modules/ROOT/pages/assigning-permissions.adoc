@@ -24,7 +24,8 @@ When APIs are added to the portal, all administrators are assigned automatically
 
 To grant the permissions to an administrator:
 
-. Click the MuleSoft icon (image:aeh-mulesoft-logo.png[2%,2%]), and then select *Access Management*.
+//. Click the MuleSoft icon (image:aeh-mulesoft-logo.png[2%,2%]), and then select *Access Management*.
+. Go to *Access Management*.
 . Click *Users*, and then select the username of the user that you want to add the API Experience Hub Administrator permission. 
 . Select *Permissions* and click *Add permissions*.
 . In the *Select permissions to add for this user* search box, enter *API Experience Hub Amin* and select the checkbox.
@@ -448,6 +449,5 @@ To assign this permission to a user:
 
 
 == See Also
-
 * xref:user-roles-permissions-and-profiles.adoc[]
 * xref:connecting-to-salesforce.adoc[]
