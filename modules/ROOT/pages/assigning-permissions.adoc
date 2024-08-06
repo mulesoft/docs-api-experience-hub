@@ -65,6 +65,9 @@ Perform the following steps to manually create the permission set, add the neces
 .. Click *Edit*.
 .. In the *System* section, enable the following _required_ permissions:
 +
+.Required permissions
+[%collapsible]
+====
 * Apex REST Services
 * API Enabled
 * Assign Topics
@@ -107,8 +110,12 @@ Perform the following steps to manually create the permission set, add the neces
 * View Reports in Public Folders
 * View Roles and Role Hierarchy
 * View Setup and Configuration
+====
 .. In the *User* section, enable the following _required_ permissions:
 +
+.Required permissions
+[%collapsible]
+====
 * Assign Permission Sets
 * Manage Internal Users
 * Manage IP Addresses
@@ -121,6 +128,7 @@ Perform the following steps to manually create the permission set, add the neces
 * Manage Users
 * Reset User Passwords and Unlock Users
 * View All Users
+====
 .. Enable any other permissions that you want to add to the permission set.
 .. Click *Save*.
 . Assign the permission set to a Salesforce user:
