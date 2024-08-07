@@ -65,7 +65,7 @@ a|
 * Import APIs from Exchange to the portal |
 |===
 
-== Granular Permission and Permission Sets
+== Granular Permissions and Permission Sets
 
 Use the following permission or permission set to allow users to perform specific tasks only. For more information about configuring the permission and the permission set, see xref:assigning-permissions.adoc[].
 |===
