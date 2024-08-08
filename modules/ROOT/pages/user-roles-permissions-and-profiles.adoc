@@ -51,7 +51,6 @@ API Experience Hub Portal Administrator| Currently, can manage only one API port
 a|
 * Add and remove specific APIs from the portal
 * Assign the visibility of an API instance
-
 |===
 
 === Exchange Permissions
