@@ -449,10 +449,10 @@ View information about the Salesforce account and portal.
 To assign this permission to a user:
 
 . Go to *Access Management*.
-. Click *Users*, and then select the username of the user that you want to add the API Experience Hub Administrator permission. 
+. Click *Users* and select a username. 
 . Select *Permissions* and click *Add permissions*.
 . In the *Select permissions to add for this user* search box, enter *API Experience Hub Users Approver*, select the checkbox, and then click *Next*.
-. Select the *Mulesoft* checkbox, and then click *Next*.
+. Select the *Mulesoft* checkbox and click *Next*.
 . Click *Add Permissions*.
 
 
