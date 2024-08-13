@@ -7,7 +7,6 @@ The *Settings* page provides information about the Salesforce account and API po
 
 To view information about the Salesforce organization and the portal, from the *Manage your API portal* page, click *Settings*. 
 
-
 Salesforce Org information:
 
 * Environment
