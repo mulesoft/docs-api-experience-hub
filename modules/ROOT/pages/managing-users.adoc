@@ -15,7 +15,7 @@ Find members by entering the member's name or email address in the *Search by na
 When a user's access to the portal is approved in the *Pending registration requests* page, the *Enable portal access* slider is enabled in the *Portal members* page. Disable a user's access by moving the slider to off.
 
 == Manage Pending Registration Requests
-Use the *Pending registration requests* page to approve or reject requests for users who registered to access the portal. You can also view the user's name, email, registration date, and registration status of the users who register for access. The maximum pending user registration requests is 500.
+Use the *Pending registration requests* page to approve or reject requests for users who registered to access the portal. You can view the user's name, email, registration date, and registration status of the users who register for access. The maximum pending user registration requests is 500.
 
 When the registration is approved, the user is removed from the list on the *Pending registration requests* page and added to the list of members on the *Portal members* page. 
 
