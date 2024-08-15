@@ -451,7 +451,8 @@ To assign this permission to a user:
 . Go to *Access Management*.
 . Click *Users* and select a username. 
 . Select *Permissions* and click *Add permissions*.
-. In the *Select permissions to add for this user* search box, enter *API Experience Hub Users Approver*, select the checkbox, and then click *Next*.
+. In the *Select permissions to add for this user* search box, enter *API Experience Hub Users Approver* and select the checkbox.
+. Click *Next*.
 . Select the *Mulesoft* checkbox and click *Next*.
 . Click *Add Permissions*.
 
