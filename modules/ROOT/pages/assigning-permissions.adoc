@@ -432,9 +432,9 @@ sf project deploy start --source-dir path/to/permissionset/ -o orgAlias
 .. Locate *AEH_Anypoint* in the list.
 
 == Assign API Experience Hub Users Approver Permission
-Assign the API Experience Hub User Approver permission to enable a user to approve or reject pending registration requests and enable or disable member users only. This permission doesn't allow this user to perform any other operations for the portal. 
+Assign the API Experience Hub User Approver permission to enable a user to approve or reject pending registration requests and enable or disable member users only.  
 
-When accessing the *Manage your API portal* page, the user with this permission can access the following *User Management* pages:
+This permission grants access to the following *User Management* pages in *Manage your API portal*:
 
 * Portal members
 +
