@@ -73,7 +73,7 @@ Use the following permission or permission set to allow users to perform specifi
 a|
 * Approve or reject a user's registration for the portal
 * Enable or disable a user's access to the portal
-|AEH_Anypoint permission set|This permission set contains the minimum permissions required for a Salesforce user to perform the linking process. 
+|AEH_Anypoint permission set| A permission set that contains the minimum permissions required for a Salesforce user to perform the linking process. 
 a|
 * A user with this permission set can perform the Salesforce linking process
 |===
