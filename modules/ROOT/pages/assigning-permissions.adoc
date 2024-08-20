@@ -24,7 +24,8 @@ When APIs are added to the portal, all administrators are assigned automatically
 
 To grant the permissions to an administrator:
 
-. Click the MuleSoft icon (image:aeh-mulesoft-logo.png[2%,2%]), and then select *Access Management*.
+//. Click the MuleSoft icon (image:aeh-mulesoft-logo.png[2%,2%]), and then select *Access Management*.
+. Go to *Access Management*.
 . Click *Users*, and then select the username of the user that you want to add the API Experience Hub Administrator permission. 
 . Select *Permissions* and click *Add permissions*.
 . In the *Select permissions to add for this user* search box, enter *API Experience Hub Amin* and select the checkbox.
@@ -64,6 +65,9 @@ Perform the following steps to manually create the permission set, add the neces
 .. Click *Edit*.
 .. In the *System* section, enable the following _required_ permissions:
 +
+.Required permissions
+[%collapsible]
+====
 * Apex REST Services
 * API Enabled
 * Assign Topics
@@ -106,8 +110,12 @@ Perform the following steps to manually create the permission set, add the neces
 * View Reports in Public Folders
 * View Roles and Role Hierarchy
 * View Setup and Configuration
+====
 .. In the *User* section, enable the following _required_ permissions:
 +
+.Required permissions
+[%collapsible]
+====
 * Assign Permission Sets
 * Manage Internal Users
 * Manage IP Addresses
@@ -120,6 +128,7 @@ Perform the following steps to manually create the permission set, add the neces
 * Manage Users
 * Reset User Passwords and Unlock Users
 * View All Users
+====
 .. Enable any other permissions that you want to add to the permission set.
 .. Click *Save*.
 . Assign the permission set to a Salesforce user:
@@ -422,7 +431,32 @@ sf project deploy start --source-dir path/to/permissionset/ -o orgAlias
 .. In *Setup*, enter `permission sets` in the *Quick Find* box and click *Permission Sets*.
 .. Locate *AEH_Anypoint* in the list.
 
-== See Also
+== Assign API Experience Hub Users Approver Permission
+Assign the API Experience Hub User Approver permission to enable a user to approve or reject pending registration requests and enable or disable member users only.  
 
+This permission grants access to the following *User Management* pages in *Manage your API portal*:
+
+* Portal members
++
+Enable or disable a user's access to the portal. 
+* Pending registration requests
++
+Approve or reject a user's registration request.
+* Settings
++
+View information about the Salesforce account and portal.
+
+To assign this permission to a user:
+
+. Go to *Access Management*.
+. Click *Users* and select a username. 
+. Select *Permissions* and click *Add permissions*.
+. In the *Select permissions to add for this user* search box, enter *API Experience Hub Users Approver* and select the checkbox.
+. Click *Next*.
+. Select the *Mulesoft* checkbox and click *Next*.
+. Click *Add Permissions*.
+
+
+== See Also
 * xref:user-roles-permissions-and-profiles.adoc[]
 * xref:connecting-to-salesforce.adoc[]
