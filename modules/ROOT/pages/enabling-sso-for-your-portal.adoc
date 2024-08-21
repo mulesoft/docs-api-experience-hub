@@ -222,7 +222,7 @@ image::aeh-sso-view-saml-setup-instructions.png["View SAML setup instructions bu
 * *X.509 Certificate (download the certificate)*
 +
 image::aeh-sso-saml-setup-instructions-page.png["SAML instructions to set up page",width=90%]
-. Go to *Salesforce > Setup>* and search for *Single Sign-On Settings*.
+. Go to *Salesforce > Setup* and search for *Single Sign-On Settings*.
 . From the *Single Sign-On Settings* tab, *Federated Single Sign-On Using SAML* section, select *SAML Enabled* and click *Save*.
 . From the *Single Sign-On Settings* tab, click *Edit* and complete the following fields:
 +
