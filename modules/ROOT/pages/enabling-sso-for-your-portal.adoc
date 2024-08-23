@@ -382,7 +382,7 @@ image::aeh-identity-provider-id-azure.png[Example of an identity provider ID in 
 ====
 
 === Map the Application to the Identity Provider for Anypoint Platform
-You must map the identity provider ID with the anypoint_idp_id by adding and configuring a new custom attribute called anypoint_idp_id.  
+If you have an identity provider already configured for Anypoint Platform, map the identity provider ID with the anypoint_idp_id by adding and configuring a new custom attribute called anypoint_idp_id.  
 
 In the case that usernames for the portal and Anypoint Platform don't match, add another custom attribute called anypoint_username to force an update for existing identity provider users to match the identity in the portal to the users in Anypoint Platform.
 
