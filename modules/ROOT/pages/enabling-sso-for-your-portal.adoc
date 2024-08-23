@@ -63,7 +63,7 @@ The AEHPortalRegistrationHandler requires specific user information from the ide
 |Groups | groups
 |===
 + 
-To configure SSO when the identity provider is already configured fro Anypoint Platform, use the following information:
+To configure SSO when the identity provider is already configured for Anypoint Platform, use the following information:
 +
 [%header,cols="1a,2a,3a"]
 |===
