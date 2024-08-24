@@ -579,13 +579,6 @@ Single Sign-On::
 Single sign-on (SSO) is an authentication method that enables users to access multiple applications with one login and one set of credentials. For example, after users log in to your org, they can automatically access all apps from the App Launcher. You can set up your Salesforce or Anypoint Platform organization to trust a third-party identity provider to authenticate users. Or you can configure a third-party app to rely on your org for authentication.
 
 
-== Single Sign-On Use Cases for the Portal
-The following use cases are provided to help you configure SSO for the portal: 
-
-* xref:sso-use-case-1.adoc[] 
-* xref:sso-use-case-2.adoc[] 
-
-The use cases are documented using Okta as an identity provider as an example of how to enable SSO however, you can use any identity provider.
 
 == See Also
 
