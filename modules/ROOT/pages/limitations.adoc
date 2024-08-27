@@ -21,4 +21,4 @@ Don't make changes to the permissions of the out-of-the-box Teams created in Acc
 * The maximum pending user registration requests is 500. For more information, see xref:managing-users.adoc[Managing Users].
 * The API Experience Hub package is installed in the sandbox and production environments on the same date. As a result, you can't use your sandbox organization for testing in the development cycle.
 * The community portal's default name API Experience Hub can't be changed. Changing the name of the portal generates errors in the configuration.
-
+* You can't change the names of APIs in API Experience Hub.
