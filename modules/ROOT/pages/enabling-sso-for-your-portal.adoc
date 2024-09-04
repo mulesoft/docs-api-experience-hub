@@ -532,23 +532,22 @@ From the *Members* tab, ensure that you can see your user there.
 
 == User Roles
 //consider moving this to User Roles, Permissions, and Profiles
-Setting up an identity provider for API Experience Hub includes multiple personas that perform different user actions. 
+//Setting up an identity provider for API Experience Hub includes multiple personas that perform different user actions. 
 
-Depending on your organization’s setup, a user can be assigned one or more of the following roles:
+//Depending on your organization’s setup, a user can be assigned one or more of the following roles:
 
-* API Experience Hub Administrator  
-+
-The AEH Admin is responsible for enabling and disabling an identity provider in the API EXperience Hub UI.
-Salesforce System Administrator
-The Salesforce System Administrator is responsible for setting up the identity provider in Salesforce.
-* Anypoint Organization Administrator
-+
-The Anypoint Organization Administrator is responsible for mapping the identity provider groups with the API Experience Hub profiles using the group mapping functionality of Access Management teams.
-* Security team
-+
-Your organization’s security team is responsible for setting up the identity provider with the required user-groups and applications. Your organization’s security team and the Salesforce System Administrator, who manage the identity provider system in an organization, configure the proper login option in Salesforce. The security team and the Org Admin in the main organization might want to configure the same identity provider option in Anypoint Platform, if required. The security team and the Org Admin in the main organization configures the mapping between Salesforce and Anypoint Platform. Access Management provides the functionality of adding group mappings for external identity providers using teams. When the group mappings are properly configured, users who log in to the portal are added automatically to the out-of-the-box profile that they belongs to. The default identity provider is provided to create identities in Anypoint Platform for Salesforce users.
+//* API Experience Hub Administrator  
+//+
+//The AEH Admin is responsible for enabling and disabling an identity provider in the API EXperience Hub UI.
+//* Salesforce System Administrator
+//The Salesforce System Administrator is responsible for setting up //the identity provider in Salesforce.
+//* Anypoint Organization Administrator
+//+
+//The Anypoint Organization Administrator is responsible for mapping the identity provider groups with the API Experience Hub profiles using the group mapping functionality of Access Management teams.
+//* Security team
+//+
+//Your organization’s security team is responsible for setting up the identity provider with the required user-groups and applications. Your organization’s security team and the Salesforce System Administrator, who manage the identity provider system in an organization, configure the proper login option in Salesforce. The security team and the Org Admin in the main organization might want to configure the same identity provider option in Anypoint Platform, if required. The security team and the Org Admin in the main organization configures the mapping between Salesforce and Anypoint Platform. Access Management provides the functionality of adding group mappings for external identity providers using teams. When the group mappings are properly configured, users who log in to the portal are added automatically to the out-of-the-box profile that they belongs to. The default identity provider is provided to create identities in Anypoint Platform for Salesforce users.
 
- 
 
 //== Basic Terminology
 //consider moving to MuleSoft glossary
