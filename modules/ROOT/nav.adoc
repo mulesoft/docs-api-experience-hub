@@ -15,6 +15,8 @@
 ** xref:enabling-sso-for-your-portal.adoc[]
 //*** xref:sso-use-case-1.adoc[]
 //*** xref:sso-use-case-2.adoc[]
+*** Before You Begin Configuring SSO 
+*** Configure SSO
 ** xref:viewing-salesforce-account-information.adoc[]
 ** xref:deactivating-your-portal-site.adoc[]
 ** xref:disconnecting-the-portal.adoc[]
