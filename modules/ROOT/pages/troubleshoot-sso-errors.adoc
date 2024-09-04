@@ -53,7 +53,7 @@ To troubleshoot this issue, add the external identity provider group mapping in 
 . From *Provider Name*, select the name of the corresponding Salesforce identity provider.
 . From *Type*, select *Member* and click *Add*.
 
-== Auth Provider Default Scopes Field Is Not Configure Properly
+=== Auth Provider Default Scopes Field Is Not Configure Properly
 
 To troubleshoot this issue, ensure the *Default Scopes* field has the *profile openid email groups* value.
 
