@@ -1,4 +1,4 @@
-= Configuring Single Sign-On for Your Portal 
+= Enabling Single Sign-On for Your Portal 
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
@@ -9,29 +9,7 @@ When a member of your portal visits the portal page and selects the SSO option, 
 
 Access Management configures identity management for SSO for Anypoint Platform. For more information about identity providers, see https://docs.mulesoft.com/access-management/external-identity[Identity Management^] in Access Management.
 
-An identity provider for Anypoint Platform and Salesforce can be configured using OpenID Connect or SAML (Single Sign-on Settings).
 
-Setting up SSO for your portal includes the following high-level steps. These steps can vary depending on your use case. 
-
-* xref:enabling-sso-for-your-portal.adoc#step-1-enable-sso-for-your-portal[Step 1: Enable SSO for Your Portal]
-+
-In this step, you create and configure an application in the identity provider. 
-+
-Microsoft Azure OpenID Connect is currently not supported.
-
-* xref:enabling-sso-for-your-portal.adoc#add-identity-provider[Step 2: Add Salesforce Identity Providers]
-+
-In this step, you add and enable the Salesforce identity provider from API Experience Hub UI. Once the identity provider is enabled, users can see the login option from the portal’s login page.
-
-* xref:enabling-sso-for-your-portal.adoc#add-group-mapping[Step 3: Add Group Mappings]
-+
-In this step, you map the groups created in the Salesforce identity provider that you added to the corresponding team profile for the portal.
-
-* xref:enabling-sso-for-your-portal.adoc#test-sso[Step 4: Test the SSO Configuration]
-+
-In this step, you test the SSO configuration that you just set up for the portal.
-
-image::aeh-sso-flow2.png[Enabling SSO flowchart] 
 
 [[out-of-the-box-configurations]]
 == Out-of-the-Box Configurations
@@ -54,6 +32,30 @@ This solution creates a team called AEH Portal in Access Management automaticall
 A single Apex class is provided in the API Experience Hub package called AEHPortalRegistrationHandler.cls that is compatible with SAML and OpenID Connect.  
 +
 The registration handler is Apex code that runs when a user logs in to the Salesforce Experience Cloud site. You select this handler when configuring an authentication provider for Salesforce. When the identity provider is configured properly, Salesforce passes the portal ID to the AEHPortalRegistrationHandler. If the user does not exist, the registration handler creates the user's identity in Salesforce. If the user exists, the handler updates the user metadata based on information sent by the identity provider, for example, the user’s first name and last name. The registration handler uses the portal ID in Salesforce to load specific configurations by the portal. For example, the registration handler creates the user in the profile and account related to the portal from the NetworkSelfRegistration object. 
+
+
+Setting up SSO for your portal includes the following high-level steps. These steps can vary depending on your use case. 
+
+* xref:enabling-sso-for-your-portal.adoc#step-1-enable-sso-for-your-portal[Step 1: Enable SSO for Your Portal]
++
+In this step, you create and configure an application in the identity provider. 
++
+An identity provider for Anypoint Platform and Salesforce can be configured using OpenID Connect or SAML (Single Sign-on Settings). Microsoft Azure OpenID Connect is currently not supported.
+
+* xref:enabling-sso-for-your-portal.adoc#add-identity-provider[Step 2: Add Salesforce Identity Providers]
++
+In this step, you add and enable the Salesforce identity provider from API Experience Hub UI. Once the identity provider is enabled, users can see the login option from the portal’s login page.
+
+* xref:enabling-sso-for-your-portal.adoc#add-group-mapping[Step 3: Add Group Mappings]
++
+In this step, you map the groups created in the Salesforce identity provider that you added to the corresponding team profile for the portal.
+
+* xref:enabling-sso-for-your-portal.adoc#test-sso[Step 4: Test the SSO Configuration]
++
+In this step, you test the SSO configuration that you just set up for the portal.
+
+image::aeh-sso-flow2.png[Enabling SSO flowchart] 
+
 
 
 
@@ -494,7 +496,6 @@ After the identity provider is configured for Salesforce, add and enable the ide
 
 [[add-group-mapping]]
 == Step 3: Add Group Mappings 
-//make this a partial to include in all use cases (ran out of time - Post GA)
 When setting up SSO for the portal, your users must have an identity in both Salesforce and Anypoint Platform. SSO users are mapped to teams using their group names. You must map your users to teams using Access Management. API Experience Hub provides an out-of-the-box team called *AEH Portal - ${salesforceOrganizationId}_${salesforceCommunityId}* that is added automatically as a team in Access Management.
 
 Add group mappings by adding the user to the corresponding profile in API Experience Hub:
@@ -530,7 +531,7 @@ From the *Members* tab, ensure that you can see your user there.
 
 
 
-== User Roles
+//== User Roles
 //consider moving this to User Roles, Permissions, and Profiles
 //Setting up an identity provider for API Experience Hub includes multiple personas that perform different user actions. 
 

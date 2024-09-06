@@ -64,9 +64,27 @@ To troubleshoot this issue, ensure the *Default Scopes* field has the *profile o
 . Click *Save*.
 
 == Cannot Log In
+When logging in to the portal with an identity provider,
+the portal shows the following errors:
 
-When trying to log in to the portal with an identity provider, you see a *Problem Logging In* error that the third-party identifier cannot be be found. An incorrect portal URL can cause issues logging in.
+* Problem Logging In Error
+* Single Sign-On Error
+
+=== Problem Logging In Error
+You see a *Problem Logging In* error that the third-party identifier cannot be be found. An incorrect portal URL can cause issues logging in.
 
 To troubleshoot this issue, ensure that the URL is properly configured. For Okta, the `/userinfo` part of the URL path must be lowercase.
+
+== Single Sign-On Error
+Misconfiguring single sign-on or the Salesforce Auth. Provider can cause this error. 
+
+To troubleshoot this issue for the SAML protocol configurations, ensure the *Entity ID* is the same in both the Salesforce Auth. Provider's *Single Sign-On Settings* page and the identity provider. 
+
+Click *SAML Assertion Validation* in the *Single Sign-On Settings* page to check for errors in the assertion.
+
+This issue can also occur if you make changes to the *Single Sign-On Settings* page and do not upload the SSO certificate. When making changes, ensure you always upload the certificate.
+
+
+
 
 
