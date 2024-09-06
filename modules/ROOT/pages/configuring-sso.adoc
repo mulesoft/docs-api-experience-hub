@@ -3,6 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
+Configure your portal using SSO 
+
+Before configuring your portal for sso, see xref:before-you-begin-configuring-sso.adoc[].
 
 == Step 1: Enable SSO for Your Portal
 To enable SSO, an identity provider is required for Anypoint Platform to create identities in Anypoint Platform for Salesforce users. 
@@ -30,7 +33,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 |*Assignments* |Select *Limit access to selected groups*.
 |*Selected group(s)*|Enter the name of the group who must have access to the application.
 |===
-. Verify that your identity provider sends the expected claims listed in the xref:enabling-sso-for-your-portal.adoc#before-you-begin[Before You Begin] section. 
+. Verify that your identity provider sends the expected claims listed in the xref:before-you-begin-configuring-sso.adoc[]. 
 . Configure the claims that the application sends.
 +
 For example, for OpenID Connect for Okta, configure the groups claim using the following steps:
@@ -120,7 +123,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 |===
 +
 image::aeh-sso-saml-settings.png["SAML Settings example",width=90%]
-. Review the xref:enabling-sso-for-your-portal#before-you-begin[Before You Begin] section for information about what API Experience Hub expects for claims to properly map users in the identity provider.
+. Review the xref:xref:before-you-begin-configuring-sso.adoc[] for information about what API Experience Hub expects for claims to properly map users in the identity provider.
 . In the *Attribute Statements (optional)* section, configure the SAML integration by adding the following custom attributes. For supported formats, see xref:enabling-sso-for-your-portal.adoc#custom-user-attributes[Custom User Attributes]:
 +
 [%header,cols="1a,2a,3a"]
