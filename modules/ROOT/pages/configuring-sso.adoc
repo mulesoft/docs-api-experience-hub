@@ -367,13 +367,13 @@ To reconcile the usernames assignment for a single identity in the portal and An
 image::aeh-sso-mapped-anypoint-username-attribute.png["Example of mapped anypoint_username attribute",width=90%]
 . Click *Save Mappings*.
 
-== Step 2: Add Salesforce Identity Providers 
-Enable the Salesforce identity provider from the API Experience Hub UI. When the identity provider is enabled, users can log in to the portal using this identity provider.
+//== Step 2: Add Salesforce Identity Providers 
+//Enable the Salesforce identity provider from the API Experience Hub UI. When the identity provider is enabled, users can log in to the portal using this identity provider.
 
-. Go to *API Experience Hub > User management*.
-. From the *User management* page, select the *Login settings* tab.
-. From the *Single sign-on (SSO)* section, scroll down to *Add Salesforce identity providers* section.
-. Move the slider to *Enabled* for the Salesforce identity provider you configured in Okta.
+//. Go to *API Experience Hub > User management*.
+//. From the *User management* page, select the *Login settings* tab.
+//. From the *Single sign-on (SSO)* section, scroll down to *Add Salesforce identity providers* section.
+//. Move the slider to *Enabled* for the Salesforce identity provider you configured in Okta.
 
 
 [[add-identity-provider]]
