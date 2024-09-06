@@ -416,4 +416,6 @@ Verify that the SSO for the portal is configured properly.
 +
 From the *Members* tab, ensure that you can see your user there.
 
+== See Also
 
+* xref:troubleshoot-sso-errors.adoc[]

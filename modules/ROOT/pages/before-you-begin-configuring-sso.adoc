@@ -49,4 +49,7 @@ To configure SSO when the identity provider is already configured for Anypoint P
 +
 If the required information is not in the supported format, create a new custom attribute or claim with the supported format. For information, see the documentation for the identity provider. 
 
+== See Also
+
+* xref:configuring-sso.adoc[]
 
