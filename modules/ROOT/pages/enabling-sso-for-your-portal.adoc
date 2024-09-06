@@ -95,8 +95,10 @@ The registration handler is Apex code that runs when a user logs in to the Sales
 
 == See Also
 
-* xref:troubleshoot-sso-errors.adoc[Troubleshooting Single Sign-On Errors]
-* xref:managing-users.adoc[Managing Users]
+* xref:before-you-begin-configuring-sso.adoc[]
+* xref:configuring-sso.adoc[]
+* xref:troubleshoot-sso-errors.adoc[]
+* xref:managing-users.adoc[]
 
 
 
