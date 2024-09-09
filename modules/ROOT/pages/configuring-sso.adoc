@@ -346,17 +346,17 @@ image::aeh-sso-32-digit-id.png[32 digit located in the browser URL example]
 image::aeh-sso-mapped-anypoint-idp-id-attribute.png["Example of mapped anypoint_idp_id attribute",width=90%]
 . Click *Save Mappings*.
 . Apply the mappings to all users in the profile.
-
++
 If the user already exists and logs in to the portal before the anypoint_idp_id is set, the default identity provider AEH Users - ${salesforceOrganizationId} is used. To prevent the user from being duplicated, the user is not added to the new identity provider specified in the anypoint_idp_id field.
-
++
 If the user already exists in Salesforce and uses SSO to log in to the portal, the API Experience Hub Member User permission set is assigned to that user (if no permission set is already assigned).
  
-To reconcile the usernames assignment for a single identity in the portal and Anypoint Platform:
+. To reconcile the usernames assignment for a single identity in the portal and Anypoint Platform:
 
-. In the Okta application, go to *Directory > Profile Editor*.
-. Select the portal application that you just configured.
-. Click *Add Attributes* to create a new attribute called *anypoint_username*.
-. Complete the following fields:
+.. In the Okta application, go to *Directory > Profile Editor*.
+.. Select the portal application that you just configured.
+.. Click *Add Attributes* to create a new attribute called *anypoint_username*.
+.. Complete the following fields:
 +
 [%header%autowidth.spread]
 |===
@@ -364,13 +364,13 @@ To reconcile the usernames assignment for a single identity in the portal and An
 |*Display name*|*anypoint_username*
 |*Value name*|*anypoint_username*
 |===
-. Save your changes.
-. Click *Mappings*.
-. In the empty field of the new *anypoint_username* attribute, enter `String.substringBefore(user.login, "@")`. Since Okta usernames are email-based, this expression removes the email domain.
+.. Save your changes.
+.. Click *Mappings*.
+.. In the empty field of the new *anypoint_username* attribute, enter `String.substringBefore(user.login, "@")`. Since Okta usernames are email-based, this expression removes the email domain.
 . From the yellow arrow drop-down menu, select *Apply mapping on user create and update*.
 + 
 image::aeh-sso-mapped-anypoint-username-attribute.png["Example of mapped anypoint_username attribute",width=90%]
-. Click *Save Mappings*.
+.. Click *Save Mappings*.
 
 [[add-identity-provider]]
 == Step 2: Add Salesforce Identity Providers 
