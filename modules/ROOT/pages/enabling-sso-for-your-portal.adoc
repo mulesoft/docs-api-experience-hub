@@ -92,6 +92,7 @@ Single sign-on (SSO) is an authentication method that enables users to access mu
 
 == See Also
 
+* xref:users-roles-permissions-and-profiles.adoc#user-roles-for-configuring-sso[User Roles for Configuring SSO]
 * xref:before-you-begin-configuring-sso.adoc[]
 * xref:configuring-sso.adoc[]
 * xref:troubleshoot-sso-errors.adoc[]
