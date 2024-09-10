@@ -9,8 +9,6 @@ When a member of your portal visits the portal page and selects the SSO option, 
 
 Access Management configures identity management for SSO for Anypoint Platform. For more information about identity providers, see https://docs.mulesoft.com/access-management/external-identity[Identity Management^] in Access Management.
 
-
-
 Setting up SSO for your portal includes the following high-level steps. These steps can vary depending on your use case. 
 
 * xref:configuring-sso-for-your-portal.adoc#step-1-enable-sso-for-your-portal[Step 1: Enable SSO for Your Portal]
@@ -31,8 +29,9 @@ In this step, you map the groups created in the Salesforce identity provider tha
 +
 In this step, you test the SSO configuration that you just set up for the portal.
 
-image::aeh-sso-flow2.png[Enabling SSO flowchart] 
+Here’s a diagram that illustrates the overall steps you need to take in Anypoint Platform and Salesforce to set up your single sign-on configuration. 
 
+image::aeh-sso-flow2.png[Enabling SSO flowchart] 
 
 [[out-of-the-box-configurations]]
 == Out-of-the-Box Configurations
@@ -56,41 +55,39 @@ A single Apex class is provided in the API Experience Hub package called AEHPort
 +
 The registration handler is Apex code that runs when a user logs in to the Salesforce Experience Cloud site. You select this handler when configuring an authentication provider for Salesforce. When the identity provider is configured properly, Salesforce passes the portal ID to the AEHPortalRegistrationHandler. If the user does not exist, the registration handler creates the user's identity in Salesforce. If the user exists, the handler updates the user metadata based on information sent by the identity provider, for example, the user’s first name and last name. The registration handler uses the portal ID in Salesforce to load specific configurations by the portal. For example, the registration handler creates the user in the profile and account related to the portal from the NetworkSelfRegistration object. 
 
-
-
-//== Basic Terminology
+== Basic Terminology
 //consider moving to MuleSoft glossary
-//The following terms are referenced in this topic:
+The following terms are referenced in this topic:
 
-//Authentication Provider::
+Authentication Provider::
 
-//An authentication provider is a framework that allows you to connect Salesforce to a third party for authorized data access, authentication, or both, depending on the protocol. Authentication providers can implement OAuth 2.0 to authorize Salesforce to access third-party data. Or they can implement OpenID Connect or custom authentication protocols to support both third-party data access and authentication.
-//+
-//When you're using authentication providers, Salesforce is always the relying party. If the authentication provider implements OpenID Connect, we refer to the third party as the OpenID provider. If it implements a custom authentication protocol, we call the third party the identity provider.
+An authentication provider is a framework that allows you to connect Salesforce to a third party for authorized data access, authentication, or both, depending on the protocol. Authentication providers can implement OAuth 2.0 to authorize Salesforce to access third-party data. Or they can implement OpenID Connect or custom authentication protocols to support both third-party data access and authentication.
++
+When you're using authentication providers, Salesforce is always the relying party. If the authentication provider implements OpenID Connect, we refer to the third party as the OpenID provider. If it implements a custom authentication protocol, we call the third party the identity provider.
 
-//Identity Provider::
+Identity Provider::
 
-//An identity provider acts as a trusted service that authenticates a user’s identity.
+An identity provider acts as a trusted service that authenticates a user’s identity.
 
-//OpenID Connect::
+OpenID Connect::
 
-//OpenID Connect is an open standard authentication protocol built on OAuth 2.0. With OpenID Connect, the relying party and OpenID provider can exchange information about who a user is and what they can do with a service.
+OpenID Connect is an open standard authentication protocol built on OAuth 2.0. With OpenID Connect, the relying party and OpenID provider can exchange information about who a user is and what they can do with a service.
 
-//OpenID Provider::
+OpenID Provider::
 
-//In OpenID Connect, an identity provider is called an OpenID provider. It authenticates users as requested by the relying party.
+In OpenID Connect, an identity provider is called an OpenID provider. It authenticates users as requested by the relying party.
 
-//Relying Party::
+Relying Party::
 
-//In OpenID Connect and custom authentication protocols, a service provider is called a relying party, though some use the terms interchangeably. It relies on the OpenID provider or identity provider for authentication.
+In OpenID Connect and custom authentication protocols, a service provider is called a relying party, though some use the terms interchangeably. It relies on the OpenID provider or identity provider for authentication.
 
-//Security Assertion Markup Language (SAML):: 
+Security Assertion Markup Language (SAML):: 
 
-//SAML is an open standard authentication protocol that you can use to implement SSO in your Salesforce org. SAML allows identity providers and service providers to securely exchange user information, enabling user authentication between services.
+SAML is an open standard authentication protocol that you can use to implement SSO in your Salesforce org. SAML allows identity providers and service providers to securely exchange user information, enabling user authentication between services.
 
-//Single Sign-On::
+Single Sign-On::
 
-//Single sign-on (SSO) is an authentication method that enables users to access multiple applications with one login and one set of credentials. For example, after users log in to your org, they can automatically access all apps from the App Launcher. You can set up your Salesforce or Anypoint Platform organization to trust a third-party identity provider to authenticate users. Or you can configure a third-party app to rely on your org for authentication.
+Single sign-on (SSO) is an authentication method that enables users to access multiple applications with one login and one set of credentials. For example, after users log in to your org, they can automatically access all apps from the App Launcher. You can set up your Salesforce or Anypoint Platform organization to trust a third-party identity provider to authenticate users. Or you can configure a third-party app to rely on your org for authentication.
 
 
 == See Also
