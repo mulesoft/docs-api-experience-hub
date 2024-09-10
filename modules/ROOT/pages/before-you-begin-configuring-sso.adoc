@@ -14,16 +14,16 @@ Before configuring SSO, ensure you have the following permissions, context, and 
 * In the identity provider of your choice, the users or identities must exist for the users with access to the application. For information, see the identity provider's documentation. 
 
 [[username-strategy]]
-*  Review your username assignment strategy.
-
+== Username Assignment Strategy
 When setting up an SSO login option for your portal and an identity provider is already configured for your Anypoint Platform organization, review the username assignment strategy since it can be different for the portal and Anypoint Platform users. To have a single identity between the portal and Anypoint Platform, the format for the username assignment must be the same. If the username strategy does not match, you must reconcile the username format by adding attributes for *anypoint_idp_id* and *anypoint_username*. Then, this information must be mapped with the Anypoint Platform identity provider that you are using for SSO. These custom attributes are added using the identity provider's profile editor. 
 
-* Be aware of what API Experience Hub requires for claims or attributes when creating a new application for the portal in the identity provider.
-+
+== Claims and Attributes
+Be aware of what API Experience Hub requires for claims or attributes when creating a new application for the portal in the identity provider.
+
 Configuring the required user claims in the identity provider ensures that the user information is mapped correctly to Salesforce and Anypoint users.  
-+
+
 The AEHPortalRegistrationHandler requires specific user information from the identity provider to create or update a user. The required claims are used by the registration handler to extract user information. The following table list the required information and which claims the information is extracted from. If there is more than one claim for the same value, the registration handler looks for the first expected claim in the order it appears in the following table:
-+
+
 [%header%autowidth.spread]
 |===
 |Field|Expected Claims
@@ -37,19 +37,17 @@ The AEHPortalRegistrationHandler requires specific user information from the ide
 |preferred_username, federation_identifier, email, sub, and NameId
 |Groups | groups
 |===
-+ 
+ 
 To configure SSO when the identity provider is already configured for Anypoint Platform, use the following information:
-+
+
 [%header,cols="1a,2a,3a"]
 |===
 |Field |Description |Expected Values
 |Anypoint Idp Id|Map identities to the specific identity provider in Anypoint Platform. |anypoint_idp_id
 |Anypoint Username|Explicitly specify the Anypoint Platform user when the user's identity already exists in Anypoint Platform, but the username is different than the Salesforce user. |anypoint_username
 |===
-+
+
 If the required information is not in the supported format, create a new custom attribute or claim with the supported format. For information, see the documentation for the identity provider. 
-
-
 
 == See Also
 
