@@ -29,7 +29,7 @@ In this step, you map the groups created in the Salesforce identity provider tha
 +
 In this step, you test the SSO configuration that you just set up for the portal.
 
-Here’s a diagram that illustrates the overall steps you need to take in Anypoint Platform and Salesforce to set up your single sign-on configuration. 
+Here’s a diagram that illustrates the overall steps you need to take in Anypoint Platform and Salesforce to set up your single sign-on configuration: 
 
 image::aeh-sso-flow2.png[Enabling SSO flowchart] 
 
