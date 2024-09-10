@@ -56,6 +56,17 @@ a|
 
 |===
 
+=== Exchange Permissions
+All administrators must have the Exchange Viewer permission to import APIs into the portal.
+
+|===
+|Permission |Description |Actions
+|Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission cannot add new assets, edit asset portal content, or share an asset with another user.
+a|
+* View APIs in Exchange
+* Import APIs from Exchange to the portal |
+|===
+
 == User Roles for Configuring SSO
 
 Configuring an identity provider for API Experience Hub includes multiple personas that perform different user actions. 
@@ -79,20 +90,6 @@ Security team::
 Your organization’s security team is responsible for setting up the identity provider with the required user-groups and applications. Your organization’s security team and the Salesforce System Administrator, who manage the identity provider system in an organization, configure the proper login option in Salesforce. The security team and the Org Admin in the main organization might want to configure the same identity provider option in Anypoint Platform, if required. 
 +
 The security team and the Org Admin in the main organization configures the mapping between Salesforce and Anypoint Platform. Access Management provides the functionality of adding group mappings for external identity providers using teams. When the group mappings are properly configured, users who log in to the portal are added automatically to the out-of-the-box profile that they belongs to. The default identity provider is provided to create identities in Anypoint Platform for Salesforce users.
-
-
-
-
-=== Exchange Permissions
-All administrators must have the Exchange Viewer permission to import APIs into the portal.
-
-|===
-|Permission |Description |Actions
-|Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission cannot add new assets, edit asset portal content, or share an asset with another user.
-a|
-* View APIs in Exchange
-* Import APIs from Exchange to the portal |
-|===
 
 == Consumer Users
 API Experience Hub has the following consumer user profiles:
