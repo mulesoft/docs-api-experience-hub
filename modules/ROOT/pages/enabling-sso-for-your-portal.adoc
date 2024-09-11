@@ -31,7 +31,7 @@ In this step, you test the SSO configuration that you just set up for the portal
 
 Here’s a diagram that illustrates the overall steps you need to take in the external identity provider, Anypoint Platform, and Salesforce to set up your single sign-on configuration: 
 
-image::aeh-sso-flow2.png[Enabling SSO flowchart] 
+image::aeh-sso-flow2.png[diagram of the steps and applications to configure SSO] 
 
 [[out-of-the-box-configurations]]
 == Out-of-the-Box Configurations

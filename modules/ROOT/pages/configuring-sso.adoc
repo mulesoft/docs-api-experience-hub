@@ -3,7 +3,11 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Configure identity management in Anypoint Platform and Salesforce to set up users for single sign-on (SSO). Before configuring your portal for sso, see xref:before-you-begin-configuring-sso.adoc[].
+Configure identity management in Anypoint Platform and Salesforce to set up users for single sign-on (SSO). 
+
+== Before You Begin
+
+Before configuring your portal for sso, read the required permissions, set up, and context information in xref:before-you-begin-configuring-sso.adoc[].
 
 == Step 1: Enable SSO for Your Portal
 To enable SSO, an identity provider is required for Anypoint Platform to create identities in Anypoint Platform for Salesforce users. 
