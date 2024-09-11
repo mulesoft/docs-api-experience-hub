@@ -7,7 +7,17 @@ Configure identity management in Anypoint Platform and Salesforce to set up user
 
 == Before You Begin
 
-Before configuring your portal for sso, read the required permissions, set up, and context information in xref:before-you-begin-configuring-sso.adoc[].
+[[before-you-begin]]
+Before configuring SSO, ensure you have the following permissions, context, and setup:
+
+* Organization Administrator permission or role in the main Anypoint Platform organization.
+* System Administrator role in Salesforce.
+* Experience with identity management and setting up identity providers for SSO.
+* Review Access Management's xref:access-management::external-identity.adoc[Identity Provider] documentation to understand identity management for Anypoint Platform.
+
+* In the identity provider of your choice, the users or identities must exist for the users with access to the application. For information, see the identity provider's documentation. 
+
+* Review the xref:before-you-begin-configuring-sso.adoc[Gathering Set Up Information].
 
 == Step 1: Enable SSO for Your Portal
 To enable SSO, an identity provider is required for Anypoint Platform to create identities in Anypoint Platform for Salesforce users. 
