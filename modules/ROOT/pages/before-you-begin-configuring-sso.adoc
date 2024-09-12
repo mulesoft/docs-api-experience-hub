@@ -13,7 +13,7 @@ When an identity provider is already configured for your Anypoint Platform organ
 
 To have a single identity between the portal and Anypoint Platform, the format for the username assignment must be the same. If the username strategy does not match, you must reconcile the username format by adding attributes for *anypoint_idp_id* and *anypoint_username*. Then, this information must be mapped with the Anypoint Platform identity provider that you are using for SSO. These custom attributes are added using the identity provider's profile editor. For more information, see the instructions in xref:configuring-sso.adoc#map-the-application-to-the-identity-provider-for- anypoint-platform[Map the Application to the Identity Provider for Anypoint Platform].
 
-== Required Claims and Attributes for Single Sign-On (SSO)
+== Required Claims and Attributes for SSO 
 Be aware of what API Experience Hub requires for claims or attributes when creating a new application for the portal in the identity provider.
 
 Configuring the required user claims in the identity provider ensures that the user information is mapped correctly to Salesforce and Anypoint users.  

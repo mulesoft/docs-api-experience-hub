@@ -7,7 +7,7 @@ Administrators or security teams can implement an external identity provider (Id
 
 When a member of your portal visits the portal page and selects the SSO option, they are redirected to the identity provider login page to authenticate. The SSO authentication process uses the identity provider to check the identity of a user. If the login is successful, the user is created in Access Management that aligns with the user profile. The API Experience Hub portal home page displays for the user to browse and discover APIs.
 
-API Experience Hub supports multiple IdPs.
+API Experience Hub supports multiple IdPs for SSO.
 
 Access Management configures identity management for SSO for Anypoint Platform. For more information about identity providers, see https://docs.mulesoft.com/access-management/external-identity[Identity Management^] in Access Management.
 
