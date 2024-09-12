@@ -5,7 +5,7 @@ endif::[]
 
 Use the following sections to gather the information you'll need to set up SSO.
 
-You might need to collaborate with your security team or other team members if you don't have access to this information. See xref:user-roles-permissions-and-profiles.adoc[] for information.
+You might need to collaborate with your security team or other team members if you don't have access to this information. For more information, see xref:user-roles-permissions-and-profiles.adoc[].
 
 [[username-strategy]]
 == Username Assignment Strategy For a Shared Identity
