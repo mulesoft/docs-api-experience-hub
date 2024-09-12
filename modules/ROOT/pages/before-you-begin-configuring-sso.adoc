@@ -47,6 +47,6 @@ If the required information is not in the supported format, create a new custom 
 
 == See Also
 
-* xref:users-roles-permissions-and-profiles.adoc#user-roles-for-configuring-sso[User Roles for Configuring SSO]
+* xref:user-roles-permissions-and-profiles.adoc#user-roles-for-configuring-sso[User Roles for Configuring SSO]
 * xref:configuring-sso.adoc[]
 
