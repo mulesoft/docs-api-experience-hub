@@ -331,7 +331,7 @@ Microsoft Azure OpenID Connect is not supported.
 
 === Map the Application to the Identity Provider for Anypoint Platform
 
-NOTE: Skip this step if you are configuring a new  identity provider for Anypoint Platform.
+NOTE: Skip this step if you are configuring a new  identity provider for Anypoint Platform. Go to xref:configuring-sso.adoc#add-identity-provider[Step 2: Add Salesforce Identity Providers].
 
 If there's an existing identity provider already configured for Anypoint Platform, you must map the identity provider ID with the anypoint_idp_id by adding and configuring a new custom attribute called anypoint_idp_id.  
 
