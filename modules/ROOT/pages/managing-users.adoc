@@ -66,7 +66,9 @@ To add the user group to the corresponding profile in API Experience Hub:
 . From the *User groups* page, select a group.
 . In the *External IdP groups* tab, click *+ Add group mapping*.
 . Enter the group name, select an Salesforce identity provider name, and click *Save*.
-Members*. 
++
+To avoid login issues, ensure that you use the same group name and identity provider name configured for the identity provider. 
+
 
 === View APIs That User Groups Can See
 View the APIs that are visible by a user group for portal members and also the APIs assigned only to a user group. The *APIs visible to the user group* tab shows all of the APIs that members of the portal can see.  
