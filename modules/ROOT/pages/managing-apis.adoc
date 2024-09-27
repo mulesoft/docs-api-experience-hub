@@ -65,7 +65,7 @@ Use this option if you want the version to be seen by the portal administrator o
 * Members 
 + 
 Use this option if you want the version to be seen only by logged-in members or specific user groups.
-* Everyone
+* Guests
 +
 Use this option if you want the version to be publicly available to anyone.
 
