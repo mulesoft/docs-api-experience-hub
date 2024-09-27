@@ -86,7 +86,6 @@ Remove the external identity provider groups that you don't need.
 . Select the *External IdP groups* tab.
 . Locate the group in the list and click *Remove group*.
 
-
 == Manage Login Settings
 Disable or enable self-registration for external users and set up single sign-on for your portal using the *Login settings* page. Self-registration enables guest users to register themselves as members of your API portal. From the *Pending requests* page, you can see a list of pending requests from guest users who want to access your portal. 
 
