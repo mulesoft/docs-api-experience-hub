@@ -9,7 +9,7 @@ View and manage users, access requests from guest users, create and manage user 
 Manage portal members using the *Portal members* page. When a guest user's registration is approved, the user's name is added to the list of members. You can view a searchable list of current members and manage their accounts by enabling or disabling them and adding them to user groups.
 
 === View and Search for Members 
-Find members by entering the member's name or email address in the *Search by name or email* box. The member is listed in the search results.
+Find members by entering the member's name or email address in the *Search by name or email* box. 
 
 === Enable or Disable Access to Your Portal
 When a user's access to the portal is approved in the *Pending registration requests* page, the *Enable portal access* slider is enabled in the *Portal members* page. Disable a user's access by moving the slider to off.
@@ -27,7 +27,7 @@ You can change which user groups a member is assigned to.
 . Select one or more user groups to assign to the member an click *Apply*.
 
 == Manage Pending Registration Requests
-Use the *Pending registration requests* page to approve or reject requests for users who registered to access the portal. You can view the user's name, email, registration date, and registration status of the users who register for access. The maximum pending user registration requests is 500.
+Use the *Pending registration requests* page to approve or reject requests for users who registered to access the portal. You can view the user's name, email, registration date, and registration status of the users who register for access. By default, users are assigned to the Members profile. You can add them to the available user groups that can see specific APIs in the portal. The maximum pending user registration requests is 500.
 
 When the registration is approved, the user is removed from the list on the *Pending registration requests* page and added to the list of members on the *Portal members* page. 
 
