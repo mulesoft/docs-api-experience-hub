@@ -83,8 +83,9 @@ To view or change an API's visibility, see xref:managing-apis.adoc#make-api-vers
 Remove the external identity provider groups that you don't need.
 
 . From the *User groups* page, select a user group group.
-. Select the *APIs visible to the user group* tab.
-. 
+. Select the *External IdP groups* tab.
+. Locate the group in the list and click *Remove group*.
+
 
 == Manage Login Settings
 Disable or enable self-registration for external users and set up single sign-on for your portal using the *Login settings* page. Self-registration enables guest users to register themselves as members of your API portal. From the *Pending requests* page, you can see a list of pending requests from guest users who want to access your portal. 
