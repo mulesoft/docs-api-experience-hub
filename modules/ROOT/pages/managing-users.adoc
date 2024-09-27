@@ -65,7 +65,8 @@ To add the user group to the corresponding profile in API Experience Hub:
 
 . From the *User groups* page, select a group.
 . In the *External IdP groups* tab, click *+ Add group mapping*.
-. Enter the group name, select an Salesforce identity provider name, and click *Save*.
+. Enter the group name and select an Salesforce identity provider name.
+.Click *Save*.
 +
 To avoid login issues, ensure that you use the same group name and identity provider name configured for the identity provider. 
 
@@ -82,7 +83,7 @@ To view or change an API's visibility, see xref:managing-apis.adoc#make-api-vers
 === Delete Identity Provider Groups
 Remove the external identity provider groups that you don't need.
 
-. From the *User groups* page, select a user group group.
+. From the *User groups* page, select a user group.
 . Select the *External IdP groups* tab.
 . Locate the group in the list and click *Remove group*.
 
