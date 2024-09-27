@@ -73,7 +73,7 @@ Use this option if you want the version to be publicly available to anyone.
 +
 Don't select any users if you don't want the version to be seen by anyone.
 
-If the visibility is Everyone, Members, or user groups, then consumer developers can see the new API version in the API Carousel of the portal.
+If the visibility is Guests, Members, or user groups, then consumer developers can see the new API version in the API Carousel of the portal.
 
 To edit the user visibility that displays for an API:
 
