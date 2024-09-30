@@ -357,7 +357,7 @@ View c-base-title-selector
 |`.request-access-input-content.description`
 |New application input description.
 |`.request-access-input-content.url`
-|New application application URL input.
+|New application URL input.
 |`.request-access-input-content.redirectUri`
 |New application redirect URI input.
 |`.request-access-modal-button`
