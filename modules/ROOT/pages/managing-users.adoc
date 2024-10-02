@@ -17,7 +17,7 @@ When a user's access to the portal is approved in the *Pending registration requ
 === Assign Members to User Groups
 Assign users to user groups to manage which APIs they can see in your portal. You can assign a user to multiple user groups.
 
-. From the *Portal members* page, locate the member's name in the list and click *Assign user group*.
+. From the *Portal members* page, locate the member's name in the list and click *View and assign user groups*.
 . Select one or more user groups to assign to the member and click *Apply*.
 
 === Change a Member's User Groups 
