@@ -23,7 +23,7 @@ Assign users to user groups to manage which APIs they can see in your portal. Yo
 === Change a Member's User Groups 
 You can change which user groups a member is assigned to.
 
-. From the *Portal members* page, locate the member's name in the list and click *Assign user group*.
+. From the *Portal members* page, locate the member's name in the list and click *View and assign user groups*.
 . Select one or more user groups to assign to the member an click *Apply*.
 
 == Manage Pending Registration Requests
