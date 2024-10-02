@@ -53,14 +53,14 @@ To troubleshoot this issue, add the external identity provider group mapping in 
 . From *Provider Name*, select the name of the corresponding Salesforce identity provider.
 . From *Type*, select *Member* and click *Add*.
 
-=== Auth Provider Default Scopes Field Is Not Configure Properly
+=== Auth Provider Default Scopes Field Is Not Configured Properly
 
 To troubleshoot this issue, ensure the *Default Scopes* field has the *profile openid email groups* value.
 
 . In *Salesforce*, go to *Setup*.
 . In the *Quick Find* box, enter `Auth`, and then select *Auth Providers*.
 . Click *Edit*.
-. In the *Auth Provider Detail* section, enter `*profile openid email groups*`.
+. In the *Auth Provider Detail* section, enter `profile openid email groups`.
 . Click *Save*.
 
 == Cannot Log In
@@ -78,11 +78,22 @@ To troubleshoot this issue, ensure that the URL is properly configured. For Okta
 == Single Sign-On Error
 Misconfiguring single sign-on or the Salesforce Auth. Provider can cause this error. 
 
+A few issues can cause this error to occur:
+
+* The Entity ID isn't the same in both the Salesforce Auth. Provider and the identity provider.
+* Making changes to Single Sign-On Settings without uploading the SSO certificate. 
+
+=== Entity ID Isn't the Same in the Salesforce Auth. Provider and the Identity Provider
+ 
 To troubleshoot this issue for the SAML protocol configurations, ensure the *Entity ID* is the same in both the Salesforce Auth. Provider's *Single Sign-On Settings* page and the identity provider. 
 
 Click *SAML Assertion Validation* in the *Single Sign-On Settings* page to check for errors in the assertion.
 
-This issue can also occur if you make changes to the *Single Sign-On Settings* page and do not upload the SSO certificate. When making changes, ensure you always upload the certificate.
+=== Making Changes to Single Sign-On Settings Without Uploading the SSO Certificate
+
+SSO sing-on errors can occur if you make changes to the *Single Sign-On Settings* page without uploading the SSO certificate. 
+
+To troubleshoot this issue, ensure you always upload the certificate when making changes to the page.
 
 
 
