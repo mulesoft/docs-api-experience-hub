@@ -16,7 +16,7 @@ The *API management* page shows the following information:
 
 * *APIs in the portal* 
 +
-Shows the APIs that have been added to your portal. Administrators can only add APIs for which they have the Exchange Viewer permission. For more information, see xref:assigning-administrator-permissions.adoc[Assigning Administrator Permissions]. When APIs are added to the portal, all administrators are automatically assigned the Exchange Viewer permission. The default visibility for the APIs is Administrators. The administrator of the portal can change this visibility for each API in the *APIs in the portal* tab. These APIs can also be removed. 
+Shows the APIs that have been added to your portal. Administrators can only add APIs for which they have the Exchange Viewer permission. For more information, see xref:assigning-administrator-permissions.adoc[Assigning Administrator Permissions]. When APIs are added to the portal, all administrators are automatically assigned the Exchange Viewer permission. By default, the visibility of the APIs is set to Administrators. The administrator of the portal can change this visibility for each API in the *APIs in the portal* tab. These APIs can also be removed. 
 +
 You can have a maximum of 350 APIs in your portal. 
 
