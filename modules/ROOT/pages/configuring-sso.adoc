@@ -20,7 +20,7 @@ Before configuring SSO, ensure you have the following permissions, context, and 
 
 * In the identity provider of your choice, the users or identities must exist for the users with access to the application. For information, see the identity provider's documentation. 
 
-* Review the information in  xref:gathering-set-upso.adoc[Gathering Set Up Information].
+* Review the information in xref:gathering-set-up-information.adoc[].
 
 == Step 1: Enable SSO for Your Portal
 To enable SSO, an identity provider is required for Anypoint Platform to create identities in Anypoint Platform for Salesforce users. 
