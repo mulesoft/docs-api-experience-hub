@@ -1,4 +1,4 @@
-= Gathering Set Up Information
+= Gathering Set Up Information for SSO
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]

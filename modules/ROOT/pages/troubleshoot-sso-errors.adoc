@@ -35,15 +35,15 @@ To troubleshoot this issue, publish the portal from the Builder.
 
 == API Carousel Not Loading
 
-After logging in to the portal successfully, you cannot see the APIs in the API Carousel.
+After logging in to the portal successfully, you can't see APIs in the API Carousel.
 
 A few issues can cause this error to occur:
 
+* The groups claim is missing in the identity provider application configuration.
++ 
+To troubleshoot this issue, add the claim in the application and ensure at least one group is being sent.
 * The external identity provider group mapping is missing from Access Management.
-* The *Auth provider Default Scopes* field is not configured properly.
-
-=== External Identity Provider Group Mapping is Missing or Misconfigured
-
++
 To troubleshoot this issue, add the external identity provider group mapping in Access Management for the portal member user:
 
 . Go to *Access Management* > *Teams*.
@@ -53,8 +53,9 @@ To troubleshoot this issue, add the external identity provider group mapping in 
 . From *Provider Name*, select the name of the corresponding Salesforce identity provider.
 . From *Type*, select *Member* and click *Add*.
 
-=== Auth Provider Default Scopes Field Is Not Configured Properly
 
+* The *Auth provider Default Scopes* field is not configured properly.
++
 To troubleshoot this issue, ensure the *Default Scopes* field has the *profile openid email groups* value.
 
 . In *Salesforce*, go to *Setup*.
@@ -63,39 +64,41 @@ To troubleshoot this issue, ensure the *Default Scopes* field has the *profile o
 . In the *Auth Provider Detail* section, enter `profile openid email groups`.
 . Click *Save*.
 
-== Cannot Log In
-When logging in to the portal with an identity provider,
-the portal shows the following errors:
 
-* Problem Logging In Error
-* Single Sign-On Error
 
-=== Problem Logging In Error
-You see a *Problem Logging In* error that the third-party identifier cannot be be found. An incorrect portal URL can cause issues logging in.
+== Can't Log In
+When logging in to the portal with an identity provider, you see a *Problem Logging In* error that the third-party identifier can’t be found. An incorrect portal URL can cause issues logging in.
 
 To troubleshoot this issue, ensure that the URL is properly configured. For Okta, the `/userinfo` part of the URL path must be lowercase.
 
 == Single Sign-On Error
-Misconfiguring single sign-on or the Salesforce Auth. Provider can cause this error. 
+After logging on, you see a *Single Sign-On Error* in the portal. Issues can occur when the SSO or the Salesforce Auth. Provider configuration is incorrect or missing necessary information. 
 
 A few issues can cause this error to occur:
 
 * The Entity ID isn't the same in both the Salesforce Auth. Provider and the identity provider.
-* Making changes to Single Sign-On Settings without uploading the SSO certificate. 
-
-=== Entity ID Isn't the Same in the Salesforce Auth. Provider and the Identity Provider
- 
-To troubleshoot this issue for the SAML protocol configurations, ensure the *Entity ID* is the same in both the Salesforce Auth. Provider's *Single Sign-On Settings* page and the identity provider. 
-
++
+To troubleshoot this issue for SAML protocol configurations, ensure the *Entity ID* is the same in both the Salesforce Auth. Provider's *Single Sign-On Settings* page and the identity provider. 
++
 Click *SAML Assertion Validation* in the *Single Sign-On Settings* page to check for errors in the assertion.
+* Making changes to Single Sign-On Settings without uploading the SSO certificate. 
+* The expected claims are missing in the application.
++
+After logging on using SSO, you see an SSO error with the error details in the URL. An error from the registration handler can cause this error.
++
+The most common cause is missing expected claims. 
++
+To troubleshoot this issue, ensure you have the expected claims configured in the application. For more information, see xref:gathering-set-up-information-for-sso.adoc# required-claims-and-attributes-for-sso[Required Clains and Attributes for SSO].
 
-=== Making Changes to Single Sign-On Settings Without Uploading the SSO Certificate
+== Portal Errors
+After logging in using SSO, you get an error in the portal.
 
-SSO sing-on errors can occur if you make changes to the *Single Sign-On Settings* page without uploading the SSO certificate. 
+The following issues can cause this error when the application is misconfigured:
 
-To troubleshoot this issue, ensure you always upload the certificate when making changes to the page.
+* Incorrect URLs
+* The member is not assigned to a user or group in the application
 
+To troubleshoot these issues:
 
-
-
-
+* Review the application's configuration in the SSO and  ensuring the correct single sign-on URL is entered.
+* Ensure the member is assigned to a user or a group in the application.
