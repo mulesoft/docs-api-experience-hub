@@ -1,4 +1,4 @@
-= Troubleshooting Single Sign-On Errors
+= Troubleshooting Single Sign-on Errors
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
@@ -10,7 +10,7 @@ The following topics provide possible causes for single sign-on (SSO) issues and
 
 A 400 error occurs when logging in to the portal with SSO if the external identity provider application doesn’t have the proper redirect URIs defined.
 
-To troubleshoot this issue, ensure all of the necessary redirect URIs are included:
+To troubleshoot this issue, ensure to include all of the necessary redirect URIs:
 
 * https://login.salesforce.com/services/authcallback/${salesforceOrganizationId}/${authProviderURLSuffix}
 * https://${domain}.my.salesforce.com/services/authcallback/${authProviderURLSuffix}
@@ -66,9 +66,9 @@ To troubleshoot this issue, ensure the *Default Scopes* field has the *profile o
 == Can't Log In
 When logging in to the portal with an identity provider, you see a *Problem Logging In* error that the third-party identifier can’t be found. An incorrect portal URL can cause issues logging in.
 
-To troubleshoot this issue, ensure that the URL is properly configured. For Okta, the `/userinfo` part of the URL path must be lowercase.
+To troubleshoot this issue, ensure that the URL is correct in the configuration. For Okta, the `/userinfo` part of the URL path must be lowercase.
 
-== Single Sign-On Error
+== Single Sign-on Error
 After logging on, you see a *Single Sign-On Error* in the portal. Issues can occur when the SSO or the Salesforce Auth. Provider configuration is incorrect or missing necessary information. 
 
 A few issues can cause this error to occur:
@@ -78,24 +78,24 @@ A few issues can cause this error to occur:
 To troubleshoot this issue for SAML protocol configurations, ensure the *Entity ID* is the same in both the Salesforce Auth. Provider's *Single Sign-On Settings* page and the identity provider. 
 +
 Click *SAML Assertion Validation* in the *Single Sign-On Settings* page to check for errors in the assertion.
-* Making changes to Single Sign-On Settings without uploading the SSO certificate. 
-* The expected claims are missing in the application.
+* Making changes to *Single Sign-On Settings* page without uploading the SSO certificate. 
 +
-After logging on using SSO, you see an SSO error with the error details in the URL. An error from the registration handler can cause this error.
+To troubleshoot this issue, ensure you upload the SSO certificate each time you make changes to the *Single Sign-On Settings* page in Salesforce.
+* The expected claims are missing in the identity provider's application.
 +
-The most common cause is missing expected claims. 
+After logging on using SSO, you see an SSO error with the error details in the URL. An error from the registration handler can cause this error. The most common cause is missing expected claims. 
 +
 To troubleshoot this issue, ensure you have the expected claims configured in the application. For more information, see xref:gathering-set-up-information-for-sso.adoc# required-claims-and-attributes-for-sso[Required Claims and Attributes for SSO].
 
 == Portal Errors
 After logging in using SSO, you get an error in the portal.
 
-The following issues can cause this error when the application is misconfigured:
+The following issues can cause this error when the identity provider's application has missing or incorrect information:
 
 * Incorrect URLs
-* The member is not assigned to a user or group in the application
+* The member isn't assigned to a user or group in the application
 
 To troubleshoot these issues:
 
-* Review the application's configuration in the SSO and ensuring the correct single sign-on URL is entered.
+* Review the application configuration in the SSO to ensure you are using the correct single sign-on URL.
 * Ensure the member is assigned to a user or a group in the application.
