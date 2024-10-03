@@ -2,7 +2,7 @@
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
-aliases: sso-use-case-1.adoc, sso-use-case-2.adoc
+:page-aliases: sso-use-case-1.adoc, sso-use-case-2.adoc
 
 Configure identity management in Anypoint Platform and Salesforce to set up users for single sign-on (SSO). 
 
