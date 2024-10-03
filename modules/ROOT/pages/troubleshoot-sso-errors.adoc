@@ -97,5 +97,23 @@ The following issues can cause this error when the identity provider's applicati
 
 To troubleshoot these issues:
 
-* Review the application configuration in the SSO to ensure you are using the correct single sign-on URL.
+* Review the URLS in identity provider's application configuration and the *Auth. Provider/Single Sign-On* page in Salesforce to ensure you are using the correct single sign-on URL.
 * Ensure the member is assigned to a user or a group in the application.
+
+== Issues Testing the SSO Configuration
+Various issues can occur when making changes to the SSO configuration, and then testing the configuration.
+
+To troubleshoot this issue, ensure you have a clean Salesforce and Anypoint session before testing SSO:
+
+. Log out of the portal, then log in again with the SSO user. 
++
+This step ensures the registration handler executes properly.
+. Delete the Anypoint token from the Named Credential.
++
+This step clears the Anypoint's user session and trigger authentication with the new configuration information to send to Anypoint:
+
+.. In Salesforce, go to *Setup*.
+.. In the *Quick Find* box, enter `named credentials`, and then select *Named Credentials*.
+.. Click *AEH_Anypoint*.
+.. In the *External Data User Authentications* section, locate the user you are testing with and click *Delete*.
+
