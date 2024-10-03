@@ -39,7 +39,7 @@ After logging in to the portal successfully, you can't see APIs in the API Carou
 
 A few issues can cause this error to occur:
 
-* The groups claim is missing in the identity provider application configuration.
+* The groups claim is missing in the identity provider's application configuration.
 + 
 To troubleshoot this issue, add the claim in the application and ensure at least one group is being sent.
 * The external identity provider group mapping is missing from Access Management.
@@ -53,7 +53,6 @@ To troubleshoot this issue, add the external identity provider group mapping in 
 . From *Provider Name*, select the name of the corresponding Salesforce identity provider.
 . From *Type*, select *Member* and click *Add*.
 
-
 * The *Auth provider Default Scopes* field is not configured properly.
 +
 To troubleshoot this issue, ensure the *Default Scopes* field has the *profile openid email groups* value.
@@ -63,8 +62,6 @@ To troubleshoot this issue, ensure the *Default Scopes* field has the *profile o
 . Click *Edit*.
 . In the *Auth Provider Detail* section, enter `profile openid email groups`.
 . Click *Save*.
-
-
 
 == Can't Log In
 When logging in to the portal with an identity provider, you see a *Problem Logging In* error that the third-party identifier can’t be found. An incorrect portal URL can cause issues logging in.
@@ -88,7 +85,7 @@ After logging on using SSO, you see an SSO error with the error details in the U
 +
 The most common cause is missing expected claims. 
 +
-To troubleshoot this issue, ensure you have the expected claims configured in the application. For more information, see xref:gathering-set-up-information-for-sso.adoc# required-claims-and-attributes-for-sso[Required Clains and Attributes for SSO].
+To troubleshoot this issue, ensure you have the expected claims configured in the application. For more information, see xref:gathering-set-up-information-for-sso.adoc# required-claims-and-attributes-for-sso[Required Claims and Attributes for SSO].
 
 == Portal Errors
 After logging in using SSO, you get an error in the portal.
@@ -100,5 +97,5 @@ The following issues can cause this error when the application is misconfigured:
 
 To troubleshoot these issues:
 
-* Review the application's configuration in the SSO and  ensuring the correct single sign-on URL is entered.
+* Review the application's configuration in the SSO and ensuring the correct single sign-on URL is entered.
 * Ensure the member is assigned to a user or a group in the application.
