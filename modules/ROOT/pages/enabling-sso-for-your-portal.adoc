@@ -20,7 +20,7 @@ In this step, you create and configure an application in the identity provider.
 +
 An identity provider for Anypoint Platform and Salesforce can be configured using OpenID Connect or SAML (Single Sign-on Settings). Microsoft Azure OpenID Connect is currently not supported.
 
-* xref:configuring-sso.adoc#add-identity-provider[Step 2: Add Salesforce Identity Providers]
+* xref:configuring-sso#step-2-add-salesforce-identity-providers[Step 2: Add Salesforce Identity Providers]
 +
 In this step, you add and enable the Salesforce identity provider from API Experience Hub UI. Once the identity provider is enabled, users can see the login option from the portal’s login page.
 
@@ -95,8 +95,8 @@ Single sign-on (SSO) is an authentication method that enables users to access mu
 
 == See Also
 
-* xref:users-roles-permissions-and-profiles.adoc#user-roles-for-configuring-sso[User Roles for Configuring SSO]
-* xref:before-you-begin-configuring-sso.adoc[]
+* xref:user-roles-permissions-and-profiles.adoc#user-roles-for-configuring-sso[User Roles for Configuring SSO]
+* xref:gathering-set-up-information.adoc[]
 * xref:configuring-sso.adoc[]
 * xref:troubleshoot-sso-errors.adoc[]
 * xref:managing-users.adoc[]
