@@ -101,7 +101,7 @@ To troubleshoot these issues:
 * Ensure the member is assigned to a user or a group in the identity provider application.
 
 == Issues Testing the SSO Configuration
-Various issues can occur when making changes to the SSO configuration, and then testing the configuration.
+Issues can occur when making changes to the SSO configuration, and then testing the configuration.
 
 To troubleshoot this issue, ensure you have a clean Salesforce and Anypoint session before testing SSO:
 

@@ -412,7 +412,7 @@ Add group mappings by adding the user to the corresponding profile in API Experi
 . Go to *Access Management* > *Teams*.
 . Click *AEH Portal Guests* and click *AEH Portal Members*.
 . Click *External IdP Groups*.
-. From the *Group Name* field, enter *AEH Members* or enter the value of the groups claim .
+. From the *Group Name* field, enter *AEH Members* or enter the value of the groups claim.
 . From the *Provider Name* field, select the name of the corresponding Salesforce identity provider.
 . From the *Type* field, select *Member* and click *Add*.
 +
