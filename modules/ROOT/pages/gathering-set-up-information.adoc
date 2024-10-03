@@ -13,7 +13,7 @@ When an identity provider is already configured for your Anypoint Platform organ
 
 To have a single identity between the portal and Anypoint Platform, the format for the username assignment must be the same. If the username strategy does not match, you must reconcile the username format by adding attributes for *anypoint_idp_id* and *anypoint_username*. Then, this information must be mapped with the Anypoint Platform identity provider that you are using for SSO. You add these custom attributes using the identity provider's profile editor. 
 
-For more information about adding custom claims, see the instructions in the *Map the Application to the Identity Provider for Anypoint Platform* sections of the Okta OpenID Connect or Microsoft Azure SAML examples.
+For more information about adding custom claims when the identity provider is already configured but not in the required format, see the following *Required Claims and Attributes for SSO* section. 
 
 == Required Claims and Attributes for SSO 
 Be aware of what API Experience Hub requires for claims or attributes when creating a new application for the portal in the identity provider.
