@@ -115,5 +115,5 @@ This step clears the Anypoint's user session and trigger authentication with the
 .. In Salesforce, go to *Setup*.
 .. In the *Quick Find* box, enter `named credentials`, and then select *Named Credentials*.
 .. Click *AEH_Anypoint*.
-.. In the *External Data User Authentications* section, locate the user you are testing with and click *Delete*.
+.. In the *External Data User Authentications* section, locate the user you are testing with and click *Del*.
 
