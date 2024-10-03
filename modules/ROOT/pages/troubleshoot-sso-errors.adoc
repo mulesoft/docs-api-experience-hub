@@ -88,7 +88,7 @@ After logging on using SSO, you see an SSO error with the error details in the U
 To troubleshoot this issue, ensure you have the expected claims configured in the application. For more information, see xref:gathering-set-up-information-for-sso.adoc# required-claims-and-attributes-for-sso[Required Claims and Attributes for SSO].
 
 == Portal Errors
-After logging in using SSO, you get an error in the portal.
+After logging in to the portal using SSO, you get an error in the portal.
 
 The following issues can cause this error when the identity provider's application has missing or incorrect information:
 
@@ -97,8 +97,8 @@ The following issues can cause this error when the identity provider's applicati
 
 To troubleshoot these issues:
 
-* Review the URLS in identity provider's application configuration and the *Auth. Provider/Single Sign-On* page in Salesforce to ensure you are using the correct single sign-on URL.
-* Ensure the member is assigned to a user or a group in the application.
+* Review the URLS in identity provider's application SSO configuration and the *Auth. Provider/Single Sign-On* page from Salesforce > *Setup* to ensure you are using the correct single sign-on URL.
+* Ensure the member is assigned to a user or a group in the identity provider application.
 
 == Issues Testing the SSO Configuration
 Various issues can occur when making changes to the SSO configuration, and then testing the configuration.
