@@ -49,7 +49,7 @@ To remove APIs from your portal:
 
 . From the *API management* page, select the *APIs in the portal* tab.
 . To search for an API, enter the name, description, category, or tag keyword into the *Search* box.
-. Locate the API in the list and click the trash can (Remove from the portal) icon.
+. Locate the API in the list and click the trash can (Remove from the portal).
 . Click *Confirm*.
 +
 In the *APIs in the portal* tab, the API is removed from the list.
@@ -73,7 +73,7 @@ Use this option if you want the version to be publicly available to anyone.
 +
 Don't select any users if you don't want the version to be seen by anyone.
 
-If the visibility is Guests, Members, or user groups, then consumer developers can see the new API version in the API Carousel of the portal.
+If the visibility is Guests, Members, or user groups, consumer developers can see the new API version in the API Carousel of the portal.
 
 To edit the user visibility that displays for an API:
 
@@ -84,7 +84,7 @@ To edit the user visibility that displays for an API:
 +
 * All instances - End-users can't request access to the API.
 * Public instances - End-users can request access to the API. 
-. Expand an API version and select the users you want to see the API.
+. Expand an API version and select the users who can see the API.
 . Click *Save*.
 
 == Next Steps

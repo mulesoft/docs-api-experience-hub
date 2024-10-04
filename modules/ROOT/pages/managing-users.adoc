@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-View and manage users, access requests from guest users, create and manage user groups, and manage how users login. Users can self-register for your portal by default. 
+View and manage users, access requests from guest users, create and manage user groups, and manage how users login. By default, users can self-register for your portal. 
 
 == Manage Portal Members
 Manage portal members using the *Portal members* page. When a guest user's registration is approved, the user's name is added to the list of members. You can view a searchable list of current members and manage their accounts by enabling or disabling them and adding them to user groups.
@@ -15,16 +15,10 @@ Find members by entering the member's name or email address in the *Search by na
 When a user's access to the portal is approved in the *Pending registration requests* page, the *Enable portal access* slider is enabled in the *Portal members* page. Disable a user's access by moving the slider to off.
 
 === Assign Members to User Groups
-Assign users to user groups to manage which APIs they can see in your portal. You can assign a user to multiple user groups.
+Assign users to user groups to manage which APIs they can see in your portal. You can assign a user to multiple user groups or change user groups.
 
 . From the *Portal members* page, locate the member's name in the list and click *View and assign user groups*.
-. Select one or more user groups to assign to the member and click *Apply*.
-
-=== Change a Member's User Groups 
-You can change which user groups a member is assigned to.
-
-. From the *Portal members* page, locate the member's name in the list and click *View and assign user groups*.
-. Select one or more user groups to assign to the member an click *Apply*.
+. Select one or more user groups and click *Apply*.
 
 == Manage Pending Registration Requests
 Use the *Pending registration requests* page to approve or reject requests for users who registered to access the portal. You can view the user's name, email, registration date, and registration status of the users who register for access. By default, users are assigned to the Members profile. You can add them to the available user groups that can see specific APIs in the portal. The maximum pending user registration requests is 500.
@@ -50,7 +44,8 @@ Manage user groups using the *User groups* page to create and manage a group of 
 Create groups of users who can see specific APIs in the portal.
 
 . From the *User groups* page, click *Create user group*.
-. Enter a name for the group and an optional description, and click *Save*.
+. Enter a name for the group and an optional description.
+. Click *Save*.
 
 
 === Delete User Groups
@@ -59,7 +54,7 @@ Delete user groups you don't need. Before deleting a user group, remove all user
 To delete a user group, from the *User groups* page, select a user group and click *Delete user group*.
 
 === Map User Groups to External Identity Providers
-For users of a user group to log in to your portal using SSO, map the user group to an existing external identity provider. To avoid login issues, ensure that you use the same group name and identity provider name configured for the identity provider. 
+For users of a user group to log in to your portal using SSO, map the user group to an existing external identity provider. To avoid login issues, ensure you use the same group name and identity provider name configured for the identity provider. 
 
 To add the user group to the corresponding profile in API Experience Hub:
 
