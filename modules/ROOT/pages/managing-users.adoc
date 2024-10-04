@@ -59,7 +59,7 @@ Delete user groups you don't need. Before deleting a user group, remove all user
 To delete a user group, from the *User groups* page, select a user group and click *Delete user group*.
 
 === Map User Groups to External Identity Providers
-For users of a user group to log in to your portal using SSO, map the user group to an existing external identity provider.
+For users of a user group to log in to your portal using SSO, map the user group to an existing external identity provider. To avoid login issues, ensure that you use the same group name and identity provider name configured for the identity provider. 
 
 To add the user group to the corresponding profile in API Experience Hub:
 
@@ -67,8 +67,8 @@ To add the user group to the corresponding profile in API Experience Hub:
 . In the *External IdP groups* tab, click *+ Add group mapping*.
 . Enter the group name and select an Salesforce identity provider name.
 . Click *Save*.
-+
-To avoid login issues, ensure that you use the same group name and identity provider name configured for the identity provider. 
+
+
 
 
 === View APIs That User Groups Can See
