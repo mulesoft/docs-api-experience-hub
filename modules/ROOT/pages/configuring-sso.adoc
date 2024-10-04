@@ -8,9 +8,8 @@ Configure identity management in Anypoint Platform and Salesforce to set up user
 
 API Experience Hub supports multiple IdPs for SSO.
 
-== Before You Begin
-
 [[before-you-begin]]
+== Before You Begin
 Before configuring SSO, ensure you have the following permissions, context, and setup:
 
 * Organization Administrator permission or role in the main Anypoint Platform organization.
@@ -423,7 +422,6 @@ The SSO users associated with the group you designated are assigned to the team.
 
 [[test-sso]]
 == Step 4: Test the SSO Configuration
-//make this a partial to include in use case 2 and 3(ran out of time - Post GA)
 Verify that the SSO for the portal is configured properly.
 
 . In a browser, open an incognito window.
