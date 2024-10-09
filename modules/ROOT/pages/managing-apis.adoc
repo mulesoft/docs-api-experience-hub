@@ -42,7 +42,7 @@ To add APIs to your portal:
 
 . From the *API management* page, select the *APIs in Exchange* tab.
 . To search for an API by name or description, enter the name or description into the *Search* bar.
-. Locate the API in the list, click *+ (Add to the portal)*.
+. Locate the API in the list, click *+ (Add to portal)*.
 +
 The API displays in the list in the *APIs in the portal* tab.
 
@@ -51,7 +51,7 @@ To remove APIs from your portal:
 
 . From the *API management* page, select the *APIs in the portal* tab.
 . To search for an API, enter the name, description, category, or tag keyword into the *Search* box.
-. Locate the API in the list and click the trash can (Remove from the portal).
+. Locate the API in the list and click the trash can (Remove from portal).
 . Click *Confirm*.
 +
 In the *APIs in the portal* tab, the API is removed from the list.
