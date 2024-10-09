@@ -21,14 +21,14 @@ Assign users to user groups to manage which APIs they can see in your portal. Yo
 . Select one or more user groups and click *Apply*.
 
 == Manage Pending Registration Requests
-Use the *Pending registration requests* page to approve or reject requests for users who registered to access the portal. You can view the user's name, email, registration date, and registration status of the users who register for access. By default, users are assigned to the Members profile. You can add them to the available user groups that can see specific APIs in the portal. The maximum pending user registration requests is 500.
+Approve or reject requests for users who registered to access the portal using the *Pending registration requests* page . You can view the user's name, email, registration date, and registration status of the users who register for access. By default, users are assigned to the Members profile. You can add them to the available user groups that can see specific APIs in the portal. The maximum pending user registration requests is 500.
 
 When the registration is approved, the user is removed from the list on the *Pending registration requests* page and added to the list of members on the *Portal members* page. 
 
 If the registration is rejected, the user is removed from the list and can't log in and access the portal.
 
 === Approve or Reject Member Registration
-After a guest user registers for an account using self-registration, approve or reject the requests and assign the user to user groups. All users who self-register are assigned as members. You can assign member users to multiple user groups.
+After a guest user registers for an account using self-registration, approve or reject the requests and assign the user to user groups. All users who self-register are assigned to the Members profile. You can assign member users to multiple user groups.
 
 . Click *Pending registration requests*.
 . To find a user, enter the user's name or email in the *Search by name or email* box.
@@ -38,20 +38,17 @@ After a guest user registers for an account using self-registration, approve or 
 . Click *Approve* or *Reject*.
 
 == Manage User Groups
-Manage user groups using the *User groups* page to create and manage a group of users who can see specific APIs in your portal.   
+Create and manage a group of users who can see specific APIs in your portal using the *User groups* page. 
 
-=== Create User Groups
-To create groups of users who can see specific APIs in the portal:
+Before deleting a user group, remove all users, APIs, and the visibility for all API instances assigned to the user group. 
+
+* To create groups of users who can see specific APIs in the portal:
 
 . From the *User groups* page, click *Create user group*.
 . Enter a name for the group and an optional description.
 . Click *Save*.
 
-
-=== Delete User Groups
-Delete user groups you don't need. Before deleting a user group, remove all users, APIs, and the visibility for all API instances assigned to the user group. 
-
-To delete a user group, from the *User groups* page, select a user group and click *Delete user group*.
+* To delete a user group, from the *User groups* page, select a user group and click *Delete user group*.
 
 === Map User Groups to External Identity Providers
 To let users of a user group log in to your portal using SSO, map the user group to an existing external identity provider. To avoid login issues, use the same group name and identity provider name configured for the identity provider. 
@@ -63,15 +60,12 @@ To add the user group to the corresponding profile in API Experience Hub:
 . Enter the group name and select an Salesforce identity provider name.
 . Click *Save*.
 
-
-
-
 === View APIs That User Groups Can See
-View the APIs that are visible by a user group for portal members and also the APIs assigned only to a user group. The *APIs visible to the user group* tab shows all of the APIs that members of the portal can see.  
+To view the APIs that are visible by a user group for portal members and also the APIs assigned only to a user group. The *APIs visible to the user group* tab shows all of the APIs that members of the portal can see.  
 
 . From the *User groups* page, select a user group.
 . Select the *APIs visible to the user group* tab.
-. To see APIs assigned to the group only, move the *Show only APIs assigned to this group* slider to on.
+. To see APIs assigned to the group only, turn on *Show only APIs assigned to this group*.
 
 To view or change an API's visibility, see xref:managing-apis.adoc#make-api-versions-visible[Make API Versions Visible].
 

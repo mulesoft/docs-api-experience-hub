@@ -73,7 +73,7 @@ Use this option if you want the version to be publicly available to anyone.
 
 * None
 +
-Don't select any users if you don't want the version to be seen by anyone.
+Select no users to hide the version from everyone.
 
 If the visibility is Guests, Members, or user groups, consumer developers can see the new API version in the API Carousel of the portal.
 
