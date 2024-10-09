@@ -76,7 +76,7 @@ View the APIs that are visible by a user group for portal members and also the A
 To view or change an API's visibility, see xref:managing-apis.adoc#make-api-versions-visible[Make API Versions Visible].
 
 === Delete Identity Provider Groups
-Remove the external identity provider groups that you don't need.
+To remove the external identity provider groups that you don't need:
 
 . From the *User groups* page, select a user group.
 . Select the *External IdP groups* tab.
