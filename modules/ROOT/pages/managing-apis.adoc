@@ -78,7 +78,7 @@ If the visibility is Guests, Members, or user groups, consumer developers can se
 To edit the user visibility that displays for an API:
 
 . From the *API management* page, select *APIs in Portal*.
-. To search for an API, enter the name, description, category, or tag keyword into the *Search* box.
+. To search for an API, enter the name, description, category, or tag keyword in the *Search* box.
 . Locate the API in the list and click *Edit visibility*.
 . Select an API instance option:
 +
