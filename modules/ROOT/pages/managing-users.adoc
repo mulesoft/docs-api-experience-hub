@@ -54,7 +54,7 @@ Delete user groups you don't need. Before deleting a user group, remove all user
 To delete a user group, from the *User groups* page, select a user group and click *Delete user group*.
 
 === Map User Groups to External Identity Providers
-For users of a user group to log in to your portal using SSO, map the user group to an existing external identity provider. To avoid login issues, ensure you use the same group name and identity provider name configured for the identity provider. 
+To let users of a user group log in to your portal using SSO, map the user group to an existing external identity provider. To avoid login issues, use the same group name and identity provider name configured for the identity provider. 
 
 To add the user group to the corresponding profile in API Experience Hub:
 
