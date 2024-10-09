@@ -48,7 +48,7 @@ The API displays in the list in the *APIs in the portal* tab.
 To remove APIs from your portal:
 
 . From the *API management* page, select the *APIs in the portal* tab.
-. To search for an API, enter the name, description, category, or tag keyword into the *Search* box.
+. To search for an API, enter the name, description, category, or tag keyword in the *Search* box.
 . Locate the API in the list and click the trash can (Remove from the portal).
 . Click *Confirm*.
 +
