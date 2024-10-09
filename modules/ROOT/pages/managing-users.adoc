@@ -49,7 +49,7 @@ To create groups of users who can see specific APIs in the portal:
 
 
 === Delete User Groups
-Delete user groups you don't need. Before deleting a user group, remove all users,  APIs, and the visibility for all API instances assigned to the user group. 
+Delete user groups you don't need. Before deleting a user group, remove all users, APIs, and the visibility for all API instances assigned to the user group. 
 
 To delete a user group, from the *User groups* page, select a user group and click *Delete user group*.
 
