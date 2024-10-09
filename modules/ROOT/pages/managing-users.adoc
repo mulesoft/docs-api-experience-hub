@@ -41,7 +41,7 @@ After a guest user registers for an account using self-registration, approve or 
 Manage user groups using the *User groups* page to create and manage a group of users who can see specific APIs in your portal.   
 
 === Create User Groups
-Create groups of users who can see specific APIs in the portal.
+To create groups of users who can see specific APIs in the portal:
 
 . From the *User groups* page, click *Create user group*.
 . Enter a name for the group and an optional description.
