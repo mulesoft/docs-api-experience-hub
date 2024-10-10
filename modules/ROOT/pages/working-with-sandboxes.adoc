@@ -34,7 +34,7 @@ Orphan sandboxes occur when you disconnect a production organization and child s
 == Manage Refreshed Sandbox Connections
 Refreshing a sandbox updates the metadata from the source organization. If a sandbox refreshes after the production organization is connected, reconnect to switch to this sandbox.
 
-If a sandbox refreshes before the production organization is connected, switch to this sandbox without.
+If a sandbox refreshes before the production organization is connected, you can switch to this sandbox without reconnecting.
 
 == Delete Sandbox Organizations 
 
