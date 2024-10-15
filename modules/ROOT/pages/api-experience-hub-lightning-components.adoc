@@ -10,8 +10,6 @@ These Lightning components include both the Lightning components available in al
 
 Each API Experience Hub Lightning component has different configuration options and adds different functionality to the portal. API Experience Hub supports custom components for English only.
 
-Many API Experience Hub Lightning components show data from Anypoint Platform. Portal admins can change some of these data fields, such as API names, descriptions, and icons. API Experience Hub saves these changes but does not push the changes back to Anypoint Platform.
-
 To add API Experience Hub components:
 
 . Click the *Components* lightning bolt icon to display the component palette. 
