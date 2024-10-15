@@ -8,7 +8,7 @@ You can design the pages of your API Experience Hub portal by adding and configu
 
 These Lightning components include both the Lightning components available in all Salesforce Digital Experiences and the API Experience Hub Lightning components available only in API Experience Hub.
 
-Each API Experience Hub Lightning component has different configuration options and adds different functionality to the portal.
+Each API Experience Hub Lightning component has different configuration options and adds different functionality to the portal. API Experience Hub supports custom components for English only.
 
 To add API Experience Hub components:
 
