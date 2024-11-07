@@ -20,7 +20,9 @@ Shows the APIs that have been added to your portal. Administrators can add only 
 
 All administrators are automatically assigned the Exchange Viewer permission for all APIs added to the portal. By default, the visibility of the APIs is set to Administrators. The portal administrator can change the visibility or remove APIs in the *APIs in the portal* tab. 
 
-You can have a maximum of 1000 APIs in your portal. 
+Existing admin users can have a maximum of 350 APIs in your portal. If you opt-in to scale the portal, the maximum of APIs is 1,000.
+
+New admin users are automatically opted in. 
 
 * *APIs in Exchange*
 +
@@ -29,6 +31,19 @@ Shows the APIs that exist in your Exchange organization but have not been added 
 //You can view the description of an API by clicking the down arrow for an API name in the list:
 
 //image::aeh-api-description.png[View API Description]
+
+== Opt In to Increase the Number of APIs In the Portal
+If you're an administrator and have an opt-in option in the *API management* page, enable portal scalability to increase the maximum number of APIs available in your portal to 1,000.
+
+Once this option is enabled, you can't revert to the portal version supporting the maximum of 350 APIs.
+
+To opt in:
+
+. Click *Learn more* from the side bar in *API management*.
+. Select *I understand and want to enable scalability.* and click *Enable*.
++
+You can add up to 1,000 APIs to your portal from Exchange. 
+
 
 == View APIs in Exchange
 You can view information about an API directly from Exchange to determine whether you want to add the API in your portal.
