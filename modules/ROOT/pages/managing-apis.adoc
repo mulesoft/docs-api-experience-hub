@@ -19,8 +19,8 @@ The *API management* page shows the following information:
 Shows the APIs that have been added to your portal. Administrators can add only those APIs for which they have Exchange Viewer permission. For more information, see xref:assigning-administrator-permissions.adoc[]. 
 
 All administrators are automatically assigned the Exchange Viewer permission for all APIs added to the portal. By default, the visibility of the APIs is set to Administrators. The portal administrator can change the visibility or remove APIs in the *APIs in the portal* tab. 
-+
-You can have a maximum of 350 APIs in your portal. 
+
+You can have a maximum of 1000 APIs in your portal. 
 
 * *APIs in Exchange*
 +
@@ -33,6 +33,8 @@ Shows the APIs that exist in your Exchange organization but have not been added 
 == View APIs in Exchange
 You can view information about an API directly from Exchange to determine whether you want to add the API in your portal.
 
+To filter APIs by categories and tags, select an option from the *Any category* or *Any tag* dropdown and click *Apply*
+
 From the *APIs in Exchange* tab, select an API from the list, click more the options icon, and select *View in Exchange*.
 
 == Add APIs from Exchange
@@ -42,6 +44,7 @@ To add APIs to your portal:
 
 . From the *API management* page, select the *APIs in Exchange* tab.
 . To search for an API by name or description, enter the name or description into the *Search* bar.
+. To filter APIs by categories and tags, select an option from the *Any category* or *Any tag* dropdown and click *Apply*.
 . Locate the API in the list, click *+ (Add to portal)*.
 +
 The API displays in the list in the *APIs in the portal* tab.
@@ -51,6 +54,7 @@ To remove APIs from your portal:
 
 . From the *API management* page, select the *APIs in the portal* tab.
 . To search for an API, enter the name, description, category, or tag keyword into the *Search* box.
+. To filter APIs by categories and tags, select an option from the *Any category* or *Any tag* dropdown and click *Apply*.
 . Locate the API in the list and click the trash can (Remove from portal).
 . Click *Confirm*.
 +
@@ -81,6 +85,7 @@ To edit the user visibility that displays for an API:
 
 . From the *API management* page, select *APIs in Portal*.
 . To search for an API, enter the name, description, category, or tag keyword into the *Search* box.
+. To filter APIs by categories and tags, select an option from the *Any category* or *Any tag* dropdown and click *Apply*.
 . Locate the API in the list and click *Edit visibility*.
 . Select an API instance option:
 +
