@@ -48,9 +48,9 @@ You can add up to 1,000 APIs to your portal from Exchange.
 == View APIs in Exchange
 You can view information about an API directly from Exchange to determine whether you want to add the API in your portal.
 
-To filter APIs by categories and tags, select an option from the *Any category* or *Any tag* dropdown and click *Apply*
+To filter APIs by categories and tags, select an option from the *Any category* or *Any tag* dropdown and click *Apply*.
 
-From the *APIs in Exchange* tab, select an API from the list, click more the options icon, and select *View in Exchange*.
+From the *APIs in Exchange* tab, select an API from the list and select *View in Exchange*.
 
 == Add APIs from Exchange
 Curate your portal in API Experience Hub by adding APIs from Exchange. You must have APIs in Exchange before you can add them to your portal. When adding APIs to the portal, the default visibility is Administrator. You can change the visibility to include members or everyone. See <<make-api-versions-visible,Make API Versions Visible>> for more information.
