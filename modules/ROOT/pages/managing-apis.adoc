@@ -17,12 +17,10 @@ The *API management* page shows the following information:
 * *APIs in the portal* 
 +
 Shows the APIs that have been added to your portal. Administrators can add only those APIs for which they have Exchange Viewer permission. For more information, see xref:assigning-administrator-permissions.adoc[]. 
-
++
 All administrators are automatically assigned the Exchange Viewer permission for all APIs added to the portal. By default, the visibility of the APIs is set to Administrators. The portal administrator can change the visibility or remove APIs in the *APIs in the portal* tab. 
-
-Existing admin users can have a maximum of 350 APIs in your portal. If you opt in to scale the portal, the maximum of APIs is 1,000.
-
-New admin users are automatically opted in. 
++
+Existing portals can have a maximum of 350 APIs in your portal. If you opt in to scale the portal, the maximum of APIs is 1,000.
 
 * *APIs in Exchange*
 +
@@ -36,6 +34,8 @@ Shows the APIs that exist in your Exchange organization but have not been added 
 If you're an administrator and have an opt-in option in the *API management* page, enable portal scalability to increase the maximum number of APIs available in your portal to 1,000.
 
 Once this option is enabled, you can't revert to the portal version supporting the maximum of 350 APIs.
+
+New portals are automatically opted in. 
 
 To opt in:
 
