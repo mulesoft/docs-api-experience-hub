@@ -20,7 +20,7 @@ Shows the APIs that have been added to your portal. Administrators can add only 
 
 All administrators are automatically assigned the Exchange Viewer permission for all APIs added to the portal. By default, the visibility of the APIs is set to Administrators. The portal administrator can change the visibility or remove APIs in the *APIs in the portal* tab. 
 
-Existing admin users can have a maximum of 350 APIs in your portal. If you opt-in to scale the portal, the maximum of APIs is 1,000.
+Existing admin users can have a maximum of 350 APIs in your portal. If you opt in to scale the portal, the maximum of APIs is 1,000.
 
 New admin users are automatically opted in. 
 
