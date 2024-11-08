@@ -40,7 +40,7 @@ New portals are automatically opted in.
 To opt in:
 
 . Click *Learn more* from the side bar in *API management*.
-. Select *I understand and want to enable scalability.* and click *Enable*.
+. Select *I understand and want to enable scalability* and click *Enable*.
 +
 You can add up to 1,000 APIs to your portal from Exchange. 
 
