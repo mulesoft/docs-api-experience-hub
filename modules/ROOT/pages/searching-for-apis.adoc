@@ -3,13 +3,15 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-From the APIs page, search the catalog by an API name to find a specific API. Enter at least four characters in the *Search by API name* field then select an option from results. 
+From the *APIs* page, search the catalog by an API name to find a specific API. Enter at least four characters in the *Search All APIs* box then select an option from results. 
 
-image::aeh-search-by-api-name-box.png["Search by API name search box",211,40]
+image::aeh-search-by-api-name-box.png["Search by API name search box",20%]
 
 Filter the API by category and type to further refine your search results. The filter options display depending on which API categories and types are available in the portal.
 
-image::aeh-filter-by-category-and-type.png["Category and type filter options",121,40]
+image::aeh-filter-by-category-and-type.png["Category and type filter options",50%]
+
+To filter by categories or tags, select one or more options from *All categories* or *All API types* and click *Apply*.
 
 From the Home page, you can also filter the carousel by clicking on any of the API type cards.
 
