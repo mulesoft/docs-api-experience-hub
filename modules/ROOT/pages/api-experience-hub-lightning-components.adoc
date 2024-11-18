@@ -102,7 +102,7 @@ To change the number of API cards that display in the API Carousel:
 
 The API Catalog component offers API consumers an interactive way to explore all the available APIs in an API portal. The API Catalog shows API cards in rows and columns, divided into pages, and shows controls to search the displayed APIs by categories and search terms. Each card shows an API. With the catalog, users can view and explore large numbers of API versions.
 
-Select the following properties to show in the API Catalog:
+Select the properties to show in the API Catalog:
 
 * Show filter display layout:
 ** Dropdown below search box
