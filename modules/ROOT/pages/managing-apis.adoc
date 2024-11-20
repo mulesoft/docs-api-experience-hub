@@ -35,7 +35,7 @@ Enable portal scalability to increase the maximum number of APIs available in yo
 
 After enabling this option, you can't revert to the portal version that supports up to 350 APIs.
 
-New portals are automatically opted in. 
+New portals automatically scale to 1,000 APIs. 
 
 . Click *Learn more* from the sidebar in *API management*.
 . Select *I understand and want to enable scalability.* and click *Enable*.
