@@ -37,7 +37,7 @@ Once this option is enabled, you can't revert to the portal version supporting t
 
 New portals are automatically opted in. 
 
-. Click *Learn more* from the side bar in *API management*.
+. Click *Learn more* from the sidebar in *API management*.
 . Select *I understand and want to enable scalability.* and click *Enable*.
 +
 You can add up to 1,000 APIs to your portal from Exchange. 
