@@ -109,6 +109,7 @@ a|
 |Member|This is a registered user who can log in to a portal.
 a|
 * View public APIs and other APIs that are shared with them.
+* View APIs assigned to the user group they belong to.
 * Registered using self-registration to become a member.
 * Request access to APIs.| 
 |===
