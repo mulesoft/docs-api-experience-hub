@@ -9,10 +9,14 @@ This release has the following limitations:
 * API Experience Hub functions at the main organization level only.
 * A Salesforce organization can't connect to more than one Anypoint organization.
 * Multiple portals per Salesforce organization aren’t supported.
+* API Groups aren't available.
 * An API portal can have a maximum of 350 APIs.
 +
 Don't make changes to the permissions of the out-of-the-box Teams created in Access Management for API Experience Hub. Each asset added to the API portal uses two permissions and Access Management has a limit of 1000 permissions per team.
-* API Groups aren't available.
+
+* Enable scalability on the *API management* page to increase the maximum number of APIs to 1,000 for the API portal. After you enable this option, you can't revert to the portal version that supports up to 350 APIs.
++ 
+For more information, see xref:managing-apis.adoc#opt-in-to-increase-the-number-of-apis[Opt in to Increase the Number of APIs in the Portal]. 
 //* API details can't' be modified.
 * API Experience Hub isn't certified for use on mobile devices. Some functionality works on mobile devices, but some functionality such as the API Console does not.
 * IP restrictions aren't supported. For more information, see the xref:troubleshooting.adoc[Troubleshooting] section.
