@@ -34,7 +34,7 @@ In this step, you test the SSO configuration that you just set up for the portal
 
 Here’s a diagram that illustrates the overall steps you need to take in the external identity provider, Anypoint Platform, and Salesforce to set up your single sign-on configuration: 
 
-image::aeh-sso-flow2.png[diagram of the steps and applications to configure SSO] 
+image::aeh-sso-flow2.png["A diagram of the steps and applications to configure SSO"] 
 
 [[out-of-the-box-configurations]]
 == Out-of-the-Box Configurations
@@ -42,7 +42,7 @@ API Experience Hub provides the following out-of-the-box configurations to assis
 
 * anypoint_idp_id
 +
-The custom claim or SAML attribute provides the information that is received from the identity provider that determines which Anypoint Platform identity provider a user must be mapped to.
+The custom claim or SAML attribute provides the information that's received from the identity provider that determines which Anypoint Platform identity provider a user must be mapped to.
 
 * AEH Users - ${salesforceOrganizationId}
 +
@@ -59,7 +59,6 @@ A single Apex class is provided in the API Experience Hub package called AEHPort
 The registration handler is Apex code that runs when a user logs in to the Salesforce Experience Cloud site. You select this handler when configuring an authentication provider for Salesforce. When the identity provider is configured properly, Salesforce passes the portal ID to the AEHPortalRegistrationHandler. If the user does not exist, the registration handler creates the user's identity in Salesforce. If the user exists, the handler updates the user metadata based on information sent by the identity provider, for example, the user’s first name and last name. The registration handler uses the portal ID in Salesforce to load specific configurations by the portal. For example, the registration handler creates the user in the profile and account related to the portal from the NetworkSelfRegistration object. 
 
 == Basic Terminology
-//consider moving to MuleSoft glossary
 The following terms are referenced in this topic:
 
 Authentication Provider::

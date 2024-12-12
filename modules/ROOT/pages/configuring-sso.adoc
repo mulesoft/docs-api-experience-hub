@@ -27,7 +27,7 @@ To enable SSO, an identity provider is required for Anypoint Platform to create 
 In this step, you create an application in the identity provider for the API Experience Hub portal, enable the ability to send group information in the application configuration, configure groups, and configure the default identity provider. Performing these steps require you to move back and forth between applications and the identity provider application to copy or add information. 
 
 === Create and Configure an Application 
-Create and configure an application using one of the following example methods:
+Create and configure an application using one of these example methods:
 
 
 .Okta OpenID Connect
@@ -37,7 +37,7 @@ Create and configure an application using one of the following example methods:
 Create a new application for the API Experience Hub portal in the identity provider using OpenID Connect. 
 
 . In Okta, create an OpenID Connect Web application. For more information, see https://help.okta.com/oie/en-us/content/topics/apps/apps_app_integration_wizard_oidc.htm[Create OIDC app integrations^].
-. From the *General Settings* section, complete the following fields:
+. From the *General Settings* section, complete these fields:
 +
 [%header,cols="1a,2a"]
 |===
@@ -50,7 +50,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 . Verify that your identity provider sends the expected claims listed in the xref:before-you-begin-configuring-sso.adoc[]. 
 . Configure the claims that the application sends.
 +
-For example, for OpenID Connect for Okta, configure the groups claim using the following steps:
+For example, for OpenID Connect for Okta, configure the groups claim using these steps:
 
 .. From the *Sign On* tab, click *Edit* from the *OpenID Connect ID Token* section.
 .. From *Groups claim type*, select *Filter*. 
@@ -74,9 +74,8 @@ You set up the auth provider or SSO settings in Salesforce with the identity pro
 
 .. In *Salesforce*, go to *Setup*.
 .. In the *Quick Find* box, enter `Auth`, and then select *Auth. Providers*.
-.. Click *New*.
-.. For *Provider Type*, select *OpenID Connect*.
-.. Complete the following fields:
+.. Click *New* and select *OpenID Connect* for the *Provider Type*.
+.. Complete these fields:
 +
 [%header,cols="1a,2a"]
 |===
@@ -114,7 +113,7 @@ To find the URLs:
 
 *Map the Application to the Identity Provider for Anypoint Platform*
 
-NOTE: Skip this step if you are configuring a new  identity provider for Anypoint Platform. Go to xref:configuring-sso.adoc#add-identity-provider[Step 2: Add Salesforce Identity Providers].
+NOTE: Skip this step if you are configuring a new identity provider for Anypoint Platform. Go to xref:configuring-sso.adoc#add-identity-provider[Step 2: Add Salesforce Identity Providers].
 
 If there's an existing identity provider already configured for Anypoint Platform, you must map the identity provider ID with the anypoint_idp_id by adding and configuring a new custom attribute called anypoint_idp_id.  
 
@@ -122,10 +121,9 @@ If usernames for the portal and Anypoint Platform don't match, add another custo
 
 To map anypoint_idp_id to with the Anypoint Platform identity provider ID:
 
-. In the Okta application, go to *Directory > Profile Editor*.
-. Select the portal application that you just configured.
+. In the Okta application, go to *Directory > Profile Editor* and select the portal application that you just configured.
 . Click *Add Attributes* to create a new attribute called *anypoint_idp_id*.
-. Complete the following fields:
+. Complete these fields:
 +
 [%header%autowidth.spread]
 |===
@@ -144,19 +142,18 @@ image::aeh-sso-32-digit-id.png[32 digit located in the browser URL example]
 . From the yellow arrow drop-down menu, select *Apply mapping on user create and update*.
 + 
 image::aeh-sso-mapped-anypoint-idp-id-attribute.png["Example of mapped anypoint_idp_id attribute",width=90%]
-. Click *Save Mappings*.
+. Save your changes.
 . Apply the mappings to all users in the profile.
 +
-If the user already exists and logs in to the portal before the anypoint_idp_id is set, the default identity provider AEH Users - ${salesforceOrganizationId} is used. To prevent the user from being duplicated, the user is not added to the new identity provider specified in the anypoint_idp_id field.
+If the user already exists and logs in to the portal before the anypoint_idp_id is set, the default identity provider AEH Users - ${salesforceOrganizationId} is used. To prevent the user from being duplicated, the user isn't added to the new identity provider specified in the anypoint_idp_id field.
 +
 If the user already exists in Salesforce and uses SSO to log in to the portal, the API Experience Hub Member User permission set is assigned to that user (if no permission set is already assigned).
  
 . To reconcile the usernames assignment for a single identity in the portal and Anypoint Platform:
 
-.. In the Okta application, go to *Directory > Profile Editor*.
-.. Select the portal application that you just configured.
+.. In the Okta application, go to *Directory > Profile Editor* and select the portal application that you just configured.
 .. Click *Add Attributes* to create a new attribute called *anypoint_username*.
-.. Complete the following fields:
+.. Complete these fields:
 +
 [%header%autowidth.spread]
 |===
@@ -170,7 +167,7 @@ If the user already exists in Salesforce and uses SSO to log in to the portal, t
 . From the yellow arrow drop-down menu, select *Apply mapping on user create and update*.
 + 
 image::aeh-sso-mapped-anypoint-username-attribute.png["Example of mapped anypoint_username attribute",width=90%]
-.. Click *Save Mappings*.
+.. Save your changes.
 
 [[add-identity-provider]]
 ====
@@ -180,12 +177,9 @@ image::aeh-sso-mapped-anypoint-username-attribute.png["Example of mapped anypoin
 ====
 Create a new application for the API Experience Hub portal in the identity provider using SAML. For more information, see https://help.okta.com/oie/en-us/content/topics/apps/apps_app_integration_wizard_saml.htm[Create SAML app integrations^] in the Okta documentation.
 
-
-. From Okta, create an SAML application.
-. In *General Settings*, enter a name for your SAML application.
-. Select *Do not display application icon to users*.
-. Click *Next*.
-. In *SAML Settings*, complete the following fields:
+. From Okta, create an SAML application and enter a name for your SAML application in *General Settings*.
+. Select *Do not display application icon to users* and click *Next*.
+. In *SAML Settings*, complete these fields:
 +
 [%header,cols="1a,2a"]
 |===
@@ -200,7 +194,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 +
 image::aeh-sso-saml-settings.png["SAML Settings example",width=90%]
 . Review the xref:xref:before-you-begin-configuring-sso.adoc[] for information about what API Experience Hub expects for claims to properly map users in the identity provider.
-. In the *Attribute Statements (optional)* section, configure the SAML integration by adding the following custom attributes. For supported formats, see the supported format for user attributes listed in the xref:xref:before-you-begin-configuring-sso.adoc[]:
+. In the *Attribute Statements (optional)* section, configure the SAML integration by adding these custom attributes. For supported formats, see the supported format for user attributes listed in xref:xref:before-you-begin-configuring-sso.adoc[]:
 +
 [%header,cols="1a,2a,3a"]
 |===
@@ -211,28 +205,26 @@ image::aeh-sso-saml-settings.png["SAML Settings example",width=90%]
 |*groups* |*Unspecified* |*(",", getFilteredGroups({"00gdkat3p5RCvkQQC5d7", "00gdjgk337kYDxtE35d7"}, "group.name", 40))*
 |===
 +
-image::aeh-sso-saml-attribute-statements.png["SAML Attribute Statements example",width=60%]
+image::aeh-sso-saml-attribute-statements.png["An example of the SAML Attribute Statements",width=60%]
 +
 The example IDs, 00gdkat3p5RCvkQQC5d7 and 00gdjgk337kYDxtE35d7 correspond to the groups that you want to send. Ensure that you send all Anypoint Platform groups when you are configuring Okta in Anypoint Platform. Otherwise, the user can lose access.
-. Click *Next*.
-. Select *I’m an Okta customer adding an internal app*.
-. Click *Finish*.
+. Click *Next*, select *I’m an Okta customer adding an internal app* and click *Finish*.
 . Select the *Assignments* tab and select *Groups*.
 . Click *Assign* and select *Assign to groups*.
 . From the list, click *Assign* from the row of the specific group and click *Done*.           
-. Select the *Sign On* tab, click *View SAML setup instructions* to see instructions about how to configure SAML for your application. 
+. Select the *Sign On* tab, and click *View SAML setup instructions* to see instructions about how to configure SAML for your application. 
 +
-image::aeh-sso-view-saml-setup-instructions.png["View SAML setup instructions button",width=30%]
-. Get the following information from the instructions page to configure the *Single Sign-on Settings* tab in Salesforce:
+image::aeh-sso-view-saml-setup-instructions.png["The button that shows the SAML setup instructions",width=30%]
+. Get this information from the instructions page to configure the *Single Sign-on Settings* tab in Salesforce:
 +
 * *Identity Provider Single Sign-On URL*
 * *Identity Provider Issuer*
 * *X.509 Certificate (download the certificate)*
 +
-image::aeh-sso-saml-setup-instructions-page.png["SAML instructions to set up page",width=90%]
+image::aeh-sso-saml-setup-instructions-page.png["SAML instructions to set up the page",width=90%]
 . Go to *Salesforce > Setup* and search for *Single Sign-On Settings*.
-. From the *Single Sign-On Settings* tab, *Federated Single Sign-On Using SAML* section, select *SAML Enabled* and click *Save*.
-. From the *Single Sign-On Settings* tab, click *Edit* and complete the following fields:
+. From *Single Sign-On Settings* in the *Federated Single Sign-On Using SAML* section, select *SAML Enabled* and click *Save*.
+. From  *Single Sign-On Settings*, click *Edit* and complete these fields:
 +
 [%header,cols="1a,2a"]
 |===
@@ -250,7 +242,7 @@ image::aeh-sso-saml-setup-instructions-page.png["SAML instructions to set up pag
 |*Executed Handler As* |Select a system administrator.
 |===
 +
-image::aeh-sso-saml-single-sign-on-settings.png[SAML Single Sign-On Settings example]
+image::aeh-sso-saml-single-sign-on-settings.png["An example of the SAML Single Sign-On Settings."]
 ====
 
 .Microsoft Azure SAML
@@ -261,14 +253,13 @@ Create a new application for the API Experience Hub portal in the identity provi
 
 . In Azure, create a SAML Enterprise application:
 .. Go to the Azure administration portal or enter `https://portal.azure.com` in a browser. 
-.. Go to Microsoft Entra Id (Active Directory service). 
-.. Click *+ Add* and select *Enterprise application*.
-.. In the *Browse Microsoft Entra Gallary* select the *Salesforce* application.
-.. Enter a name such as *AEH Portal* and click *Create*.
+.. Go to Microsoft Entra Id (Active Directory service) and click *+ Add* and select *Enterprise application*.
+.. In the *Browse Microsoft Entra Gallary*, select the *Salesforce* application.
+.. Enter a name like *AEH Portal* and click *Create*.
 . Configure the single sign-on settings for the application:
 .. From *Manage*, select *Single sign-on* and select *SAML*. 
 .. From *Basic SAML Configuration*, click *Edit*.
-.. Complete the following required fields:
+.. Complete these required fields:
 +
 [%header,cols="1a,2a"]
 |===
@@ -278,13 +269,13 @@ Create a new application for the API Experience Hub portal in the identity provi
 |Sign on URL |https://<YOUR_DOMAIN>.my.site.com/aeh/login
 |Logout Url (Optional)|https://<YOUR_DOMAIN>.my.site.com/aeh/services/auth/sp/saml2/logout
 |===
-.. Click *Save*.
+.. Save your changes.
 . Configure the required first name, last name, email, and username claims that the application sends:
 .. From *Attributes & Claims*, click *Edit*.
 .. Click *Add a group claim*, select *All Groups* or any other option except *None*, and click *Save*. 
 +
 At least one group must be associated to perform a group mapping in a later step.
-.. Add a new claim for each required claim by clicking *+ Add new claim* and completing the following fields for each claim:
+.. Add a new claim for each required claim by clicking *+ Add new claim* and completing these fields for each claim:
 +
 * First Name
 +
@@ -321,18 +312,18 @@ At least one group must be associated to perform a group mapping in a later step
 |Name|email
 |Source attribute|user.principalname
 |===
-.. Click *Save*.
+.. Save your changes.
 
 *Map the Application to the Identity Provider for Anypoint Platform*
 
-If this single sign-on is already configured in Anypoint, map the application to the identity provider for Anypoint Platform.
-When the single sign-on is already configured in Anypoint, you must map the identity provider ID with the anypoint_idp_id by adding and configuring a new custom attribute called anypoint_idp_id.
+If this single sign-on is already configured in Anypoint Platform, map the application to the identity provider for Anypoint Platform.
+When the single sign-on is already configured in Anypoint Platform, you must map the identity provider ID with the anypoint_idp_id by adding and configuring a new custom attribute called anypoint_idp_id.
 
 If usernames for the portal and Anypoint Platform don’t match, add another custom attribute called anypoint_username to force an update for existing identity provider users to match the identity in the portal to the users in Anypoint Platform.
 
 . To map anypoint_idp_id to with the Anypoint Platform identity provider ID:
 
-.. Click *+ Add new claim* and complete the following fields:
+.. Click *+ Add new claim* and complete these fields:
 +
 [%header,cols="1a,2a"]
 |===
@@ -341,13 +332,13 @@ If usernames for the portal and Anypoint Platform don’t match, add another cus
 |Source attribute|<"identity_provider_id"> The ID must be in quotes.
 |===
 +
-To get the identity provider ID, Go to *Access Management > Identity Providers*, click the identity provider, and copy the 32 digit ID from the browser URL. 
+To get the identity provider ID, go to *Access Management > Identity Providers*, click the identity provider, and copy the 32 digit ID from the browser URL. 
 +
-image::aeh-identity-provider-id-azure.png[Example of an identity provider ID in Access Management]
+image::aeh-identity-provider-id-azure.png["Example of an identity provider ID in Access Management."]
 .. Click *Save*.
 . To configure the anypoint_username claim:
 
-.. Click *+ Add new claim* and complete the following fields:
+.. Click *+ Add new claim* and complete these fields:
 +
 [%header,cols="1a,2a"]
 |===
@@ -355,8 +346,8 @@ image::aeh-identity-provider-id-azure.png[Example of an identity provider ID in 
 |Name|anypoint_username
 |Source attribute|Define an attribute for example, ExtractMailPrefix (user.mail)
 |===
-.. Click *Save*.
-.. From *Source*, select *Transformation* and complete the following fields:
+.. Save your changes.
+.. From *Source*, select *Transformation* and complete these fields:
 +
 [%header,cols="1a,2a"]
 |===
@@ -367,12 +358,12 @@ image::aeh-identity-provider-id-azure.png[Example of an identity provider ID in 
 |===
 .. Click *Add*.
 
-. From *Manage claim*, click *Save*.
+. From *Manage claim*, save your changes.
 . Create single sign-on settings in salesforce:
 .. Select *Single Sign-on* and click *Download* from *Federation Metadata XML* in the *SAML Certificates* section.
 .. Go to *Salesforce > Setup > Single Sign-On Settings* and click *New from Metadata File*.
-.. From the *Metadata File* field, click *Choose File*, select the Federation Metadata XML file, and click *Create*.
-.. Complete the following fields:
+.. From *Metadata File*, click *Choose File*, select the Federation Metadata XML file, and click *Create*.
+.. Complete these fields:
 +
 [%header,cols="1a,2a"]
 |===
@@ -388,19 +379,17 @@ image::aeh-identity-provider-id-azure.png[Example of an identity provider ID in 
 |===
 .. Click *Save*.
 ====
-Microsoft Azure OpenID Connect is not supported.
+Microsoft Azure OpenID Connect isn't supported.
 
 
 == Step 2: Add Salesforce Identity Providers 
 
 After the identity provider is configured for Salesforce, add and enable the identity provider from the API Experience Hub UI. When the identity provider is enabled, users can log in to the portal using this identity provider.
 
-. Go to *API Experience Hub > User management*.
-. From the *User management* page, click *Login settings*.
+. Go to *API Experience Hub > User management* and click *Login settings*.
 . From the *Single sign-on (SSO)* section, scroll down to step 2 *Add Salesforce identity providers*.
 . Click *Select identity provider* and select an option from the drop-down menu. 
-. Click *+ Add identity provider*.
-. Move the slider to *Enabled*.
+. Click *+ Add identity provider* and move the slider to *Enabled*.
 
 [[add-group-mapping]]
 == Step 3: Add Group Mappings 
@@ -409,13 +398,12 @@ When setting up SSO for the portal, your users must have an identity in both Sal
 Add group mappings by adding the user to the corresponding profile in API Experience Hub:
 
 . Go to *Access Management* > *Teams*.
-. Click *AEH Portal Guests* and click *AEH Portal Members*.
-. Click *External IdP Groups*.
-. From the *Group Name* field, enter *AEH Members* or enter the value of the groups claim.
-. From the *Provider Name* field, select the name of the corresponding Salesforce identity provider.
-. From the *Type* field, select *Member* and click *Add*.
+. Click *AEH Portal Guests* and click *AEH Portal Members* > *External IdP Groups*.
+. From *Group Name*, enter *AEH Members* or enter the value of the groups claim.
+. From *Provider Name*, select the name of the corresponding Salesforce identity provider.
+. From *Type*, select *Member* and click *Add*.
 +
-image::aeh-sso-access-mgmt-ext-idp-groups.png[Access Management group mapping]
+image::aeh-sso-access-mgmt-ext-idp-groups.png["Access Management group mapping"]
 . Click *Save Changes*.
 +
 The SSO users associated with the group you designated are assigned to the team.
