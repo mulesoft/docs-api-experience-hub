@@ -75,9 +75,11 @@ A few issues can cause this error to occur:
 
 * The Entity ID isn't the same in both the Salesforce Auth. Provider and the identity provider.
 +
-To troubleshoot this issue for SAML protocol configurations, ensure the *Entity ID* is the same in both the Salesforce Auth. Provider's *Single Sign-On Settings* page and the identity provider. 
+To troubleshoot this issue for SAML protocol configurations:
 +
-Click *SAML Assertion Validation* in the *Single Sign-On Settings* page to check for errors in the assertion.
+. Ensure the *Entity ID* is the same in both the Salesforce Auth. Provider's *Single Sign-On Settings* page and the identity provider. 
++
+. Click *SAML Assertion Validation* in the *Single Sign-On Settings* page to check for errors in the assertion.
 * Making changes to *Single Sign-On Settings* page without uploading the SSO certificate. 
 +
 To troubleshoot this issue, ensure you upload the SSO certificate each time you make changes to the *Single Sign-On Settings* page in Salesforce.
