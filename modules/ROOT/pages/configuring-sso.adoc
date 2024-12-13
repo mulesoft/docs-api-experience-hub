@@ -316,7 +316,7 @@ At least one group must be associated to perform a group mapping in a later step
 
 *Map the Application to the Identity Provider for Anypoint Platform*
 
-NOTE: Skip this step if you are configuring a new identity provider for Anypoint Platform. Go to xref:configuring-sso.adoc#add-identity-provider[Step 2: Add Salesforce Identity Providers].
+NOTE: Skip this step if you are configuring a new identity provider for Anypoint Platform. Go to xref:configuring-sso.adoc#step-2-add-identity-providers[Step 2: Add Salesforce Identity Providers].
 
 If this single sign-on is already configured in Anypoint Platform, you must map the application to the identity provider for Anypoint Platform by adding and configuring a new custom attribute called anypoint_idp_id.   
 
