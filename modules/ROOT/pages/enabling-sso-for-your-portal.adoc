@@ -5,7 +5,7 @@ endif::[]
 
 Administrators or security teams can implement an external identity provider (IdP) as a login option for an API Experience Hub portal. Single sign-on (SSO) authentication provides a seamless login experience for your customers with your organization’s unique branding. Your users can log in to your portal without having to remember another username and password or entering login credentials multiple times. 
 
-When a member of your portal visits the portal page and selects the SSO option, they are redirected to the identity provider login page to authenticate. The SSO authentication process uses the identity provider to check the identity of a user. If the login is successful, the user is created in Access Management that aligns with the user profile. The API Experience Hub portal home page displays for the user to browse and discover APIs.
+When a member of your portal visits the portal page and selects the SSO option, they're redirected to the identity provider login page to authenticate. The SSO authentication process uses the identity provider to check the identity of a user. If the login is successful, the user is created in Access Management that aligns with the user profile. The API Experience Hub portal home page displays for the user to browse and discover APIs.
 
 API Experience Hub supports multiple IdPs for SSO.
 

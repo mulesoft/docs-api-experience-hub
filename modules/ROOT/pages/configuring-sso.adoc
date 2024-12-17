@@ -113,7 +113,7 @@ To find the URLs:
 
 *Map the Application to the Identity Provider for Anypoint Platform*
 
-NOTE: Skip this step if you are configuring a new identity provider for Anypoint Platform. Go to xref:configuring-sso.adoc#add-identity-provider[Step 2: Add Salesforce Identity Providers].
+NOTE: Skip this step if you're configuring a new identity provider for Anypoint Platform. Go to xref:configuring-sso.adoc#add-identity-provider[Step 2: Add Salesforce Identity Providers].
 
 If there's an existing identity provider already configured for Anypoint Platform, you must map the identity provider ID with the anypoint_idp_id by adding and configuring a new custom attribute called anypoint_idp_id.  
 
@@ -207,7 +207,7 @@ image::aeh-sso-saml-settings.png["An example of SAML Settings.",width=90%]
 +
 image::aeh-sso-saml-attribute-statements.png["An example of the SAML Attribute Statements.",width=60%]
 +
-The example IDs, 00gdkat3p5RCvkQQC5d7 and 00gdjgk337kYDxtE35d7 correspond to the groups that you want to send. Ensure that you send all Anypoint Platform groups when you are configuring Okta in Anypoint Platform. Otherwise, the user can lose access.
+The example IDs, 00gdkat3p5RCvkQQC5d7 and 00gdjgk337kYDxtE35d7 correspond to the groups that you want to send. Ensure that you send all Anypoint Platform groups when you're configuring Okta in Anypoint Platform. Otherwise, the user can lose access.
 . Click *Next*, select *I’m an Okta customer adding an internal app* and click *Finish*.
 . Select the *Assignments* tab and select *Groups*.
 . Click *Assign* and select *Assign to groups*.
