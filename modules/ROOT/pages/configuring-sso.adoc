@@ -378,7 +378,7 @@ image::aeh-identity-provider-id-azure.png["An example of an identity provider ID
 |SAML JIT Handler |AEHPortalRegistrationHandler
 |Execute Handler As |Select a system administrator.
 |===
-.. Click *Save*.
+.. Save your changes.
 ====
 Microsoft Azure OpenID Connect isn't supported.
 
@@ -400,21 +400,27 @@ Add group mappings by adding the user to the corresponding profile in API Experi
 
 . Go to *Access Management* > *Teams*.
 . Click *AEH Portal Guests* and click *AEH Portal Members* > *External IdP Groups*.
-. From *Group Name*, enter *AEH Members* or enter the value of the groups claim.
-. From *Provider Name*, select the name of the corresponding Salesforce identity provider.
-. From *Type*, select *Member* and click *Add*.
+. Complete these fields:
++ 
+[%header,cols="1a,2a"]
+|===
+|Field|Value
+| *Group Name*|Enter *AEH Members* or enter the value of the groups claim.
+|*Provider Name*|The name of the corresponding Salesforce identity provider.
+|*Type*|*Member*
+|===
+. From *Type*, click *Add*.
 +
 image::aeh-sso-access-mgmt-ext-idp-groups.png["The External IdP Groups page from Access Management."]
-. Click *Save Changes*.
+. Save your changes.
 +
 The SSO users associated with the group you designated are assigned to the team.
 
 [[test-sso]]
-== Step 4: Test the SSO Configuration
+== Step 4: Test the SSO Configuration 
 Verify that the SSO for the portal is configured properly.
 
-. In a browser, open an incognito window.
-. Go to your API Experience Hub portal.
+. Open an incognito window in a browser and go to your API Experience Hub portal.
 . Select the SSO option that you configured.
 . Log in with a user that belongs to the group you configured in the identity provider for your portal.
 . Check the visibility of APIs for the user in the portal.
