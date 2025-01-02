@@ -335,7 +335,7 @@ If usernames for the portal and Anypoint Platform are different, add another cus
 +
 To get the identity provider ID, go to *Access Management > Identity Providers*, click the identity provider, and copy the 32 digit ID from the browser URL. 
 +
-image::aeh-identity-provider-id-azure.png["An example of an identity provider ID in Access Management."]
+image::aeh-identity-provider-id-azure.png["An example identity provider ID in Access Management"]
 .. Save your changes.
 . To configure the anypoint_username claim:
 
