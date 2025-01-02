@@ -10,7 +10,7 @@ The following topics provide possible causes for single sign-on (SSO) issues and
 
 A 400 error occurs when logging in to the portal with SSO if the external identity provider application doesn’t have the proper redirect URIs defined.
 
-To troubleshoot this issue, ensure to include all of the necessary redirect URIs:
+To troubleshoot this issue, make sure to include necessary redirect URIs:
 
 * https://login.salesforce.com/services/authcallback/${salesforceOrganizationId}/${authProviderURLSuffix}
 * https://${domain}.my.salesforce.com/services/authcallback/${authProviderURLSuffix}
@@ -30,7 +30,7 @@ To troubleshoot this issue, publish the portal from the Builder.
 
 . Navigate to *Anypoint Platform*, enter your username and password, and  click *Sign in*.
 . From Anypoint Platform, select *API Experience Hub* from the list of products. 
-. Go to From the *Manage your API portal* page, click *Preview and publish your portal*.
+. From the *Manage your API portal* page, click *Preview and publish your portal*.
 . Click *Publish*. 
 
 == API Carousel Not Loading
@@ -41,7 +41,7 @@ A few issues can cause this error to occur:
 
 * The groups claim is missing in the identity provider's application configuration.
 + 
-To troubleshoot this issue, add the claim in the application and ensure at least one group is being sent.
+To troubleshoot this issue, add the claim in the application and make sure at least one group is being sent.
 * The external identity provider group mapping is missing from Access Management.
 +
 To troubleshoot this issue, add the external identity provider group mapping in Access Management for the portal member user:
@@ -53,7 +53,7 @@ To troubleshoot this issue, add the external identity provider group mapping in 
 . From *Provider Name*, select the name of the corresponding Salesforce identity provider.
 . From *Type*, select *Member* and click *Add*.
 
-* The *Auth provider Default Scopes* field is not configured properly.
+* The *Auth provider Default Scopes* field isn't configured properly.
 +
 To troubleshoot this issue, ensure the *Default Scopes* field has the *profile openid email groups* value.
 
@@ -69,7 +69,7 @@ When logging in to the portal with an identity provider, you see a *Problem Logg
 To troubleshoot this issue, ensure that the URL is correct in the configuration. For Okta, the `/userinfo` part of the URL path must be lowercase.
 
 == Single Sign-on Error
-After logging on, you see a *Single Sign-On Error* in the portal. Issues can occur when the SSO or the Salesforce Auth. Provider configuration is incorrect or missing necessary information. 
+After logging in, *Single Sign-On Error* shows in the portal. Issues can occur if the SSO or the Salesforce Auth. Provider configuration is incorrect or missing necessary information. 
 
 A few issues can cause this error to occur:
 
@@ -82,7 +82,7 @@ To troubleshoot this issue for SAML protocol configurations:
 . Click *SAML Assertion Validation* in the *Single Sign-On Settings* page to check for errors in the assertion.
 * Making changes to *Single Sign-On Settings* page without uploading the SSO certificate. 
 +
-To troubleshoot this issue, ensure you upload the SSO certificate each time you make changes to the *Single Sign-On Settings* page in Salesforce.
+To troubleshoot this issue, ensure you upload the SSO certificate each time you change the *Single Sign-On Settings* page in Salesforce.
 * The expected claims are missing in the identity provider's application.
 +
 After logging on using SSO, you see an SSO error with the error details in the URL. An error from the registration handler can cause this error. The most common cause is missing expected claims. 
@@ -92,27 +92,27 @@ To troubleshoot this issue, ensure you have the expected claims configured in th
 == Portal Errors
 After logging in to the portal using SSO, you get an error in the portal.
 
-The following issues can cause this error when the identity provider's application has missing or incorrect information:
+These issues can cause the error if the identity provider's application has missing or incorrect information:
 
 * Incorrect URLs
 * The member isn't assigned to a user or group in the application
 
 To troubleshoot these issues:
 
-* Review the URLS in identity provider's application SSO configuration and the *Auth. Provider/Single Sign-On* page from Salesforce > *Setup* to ensure you're using the correct single sign-on URL.
+* Review the URLs in identity provider's application SSO configuration and the *Auth. Provider/Single Sign-On* page from Salesforce *Setup* to make sure you're using the correct single sign-on URL.
 * Ensure the member is assigned to a user or a group in the identity provider application.
 
 == Issues Testing the SSO Configuration
-Issues can occur when making changes to the SSO configuration, and then testing the configuration.
+Issues can occur when changing the SSO configuration, and then testing the configuration.
 
-To troubleshoot this issue, ensure you have a clean Salesforce and Anypoint session before testing SSO:
+To troubleshoot this issue, make sure you have a clean Salesforce and Anypoint session before testing SSO:
 
 . Log out of the portal, then log in again with the SSO user. 
 +
 This step ensures the registration handler executes properly.
 . Delete the Anypoint token from the Named Credential.
 +
-This step clears the Anypoint's user session and trigger authentication with the new configuration information to send to Anypoint:
+This step clears the Anypoint Platform user session and triggers authentication with the new configuration information to send to Anypoint Platform:
 
 .. In Salesforce, go to *Setup*.
 .. In the *Quick Find* box, enter `named credentials`, and then select *Named Credentials*.
