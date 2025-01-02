@@ -320,7 +320,7 @@ NOTE: Skip this step if you are configuring a new identity provider for Anypoint
 
 If this single sign-on is configured in Anypoint Platform, map the application to the identity provider for Anypoint Platform using a new custom attribute, `anypoint_idp_id`.   
 
-If usernames for the portal and Anypoint Platform are different, add another custom attribute named anypoint_username. This attribute updates existing identity provider users to match the identities in the portal and Anypoint Platform.
+If usernames for the portal and Anypoint Platform are different, add another custom attribute named `anypoint_username`. This attribute updates existing identity provider users to match the identities in the portal and Anypoint Platform.
 
 . Map `anypoint_idp_id` to the Anypoint Platform identity provider ID for Microsoft Azure SAML:
 
@@ -337,7 +337,7 @@ To get the identity provider ID, go to *Access Management > Identity Providers*,
 +
 image::aeh-identity-provider-id-azure.png["An example identity provider ID in Access Management"]
 .. Save your changes.
-. To configure the anypoint_username claim:
+. To configure the `anypoint_username` claim:
 
 .. Click *+ Add new claim* and complete these fields:
 +
