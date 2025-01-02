@@ -57,7 +57,7 @@ For example, for OpenID Connect for Okta, configure the groups claim using these
 .. From *Groups claim filter*, enter `groups`.
 .. Select *Matches regex for the expression* then enter `.*` for wildcard.
 +
-image::aeh-groups-claim-filter.png["An example of the Groups Claim Filter.",width=60%]
+image::aeh-groups-claim-filter.png["An example of the Groups Claim Filter",width=60%]
 
 . Configure an authentication provider for Salesforce using OpenID Connect.
 
@@ -91,7 +91,7 @@ You set up the auth provider or SSO settings in Salesforce with the identity pro
 |*Registration handler*  |*AEHPortalRegistrationHandler* 
 |*Execute Registration As*  |Select an administrator user. 
 |===
-image::aeh-salesforce-auth-provider.png["An example of Salesforce Auth. Provider."]
+image::aeh-salesforce-auth-provider.png["An example of Salesforce Auth. Provider"]
 .. Click *Save*. 
 
 . Configure the redirect URIs for the portal.
@@ -105,7 +105,7 @@ Add the following URLs for *Sign-in redirect URIs*:
 * https://login.salesforce.com/services/authcallback/${18DigitSalesforceOrganizationId}/${authProviderURLSuffix}
 * https://${domain}.my.site.com/aeh/services/authcallback/${authProviderURLSuffix}
 +
-image::aeh-sso-redirect-uris.png["An example of Redirect URIs.",width=60%]
+image::aeh-sso-redirect-uris.png["An example of Redirect URIs",width=60%]
 To find the URLs:
 * For salesforceOrganizationId, go to *Setup > Company Information*.
 * For authProviderURLSuffix, go to *Setup > Auth Providers*, click your auth provider, and select *URL Suffix*.
@@ -141,7 +141,7 @@ image::aeh-sso-32-digit-id.png["An example of the 32-digit ID located in the bro
 . Paste the ID into the empty field for the new anypoint_idp_id attribute. The ID must be in quotes.
 . From the yellow arrow drop-down menu, select *Apply mapping on user create and update*.
 + 
-image::aeh-sso-mapped-anypoint-idp-id-attribute.png["An example of a mapped anypoint_idp_id attribute.",width=90%]
+image::aeh-sso-mapped-anypoint-idp-id-attribute.png["An example of a mapped anypoint_idp_id attribute",width=90%]
 . Save your changes.
 . Apply the mappings to all users in the profile.
 +
@@ -192,7 +192,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 |*Update application username on* |*Create and update*
 |===
 +
-image::aeh-sso-saml-settings.png["An example of SAML Settings.",width=90%]
+image::aeh-sso-saml-settings.png["An example of SAML Settings",width=90%]
 . Review the xref:xref:before-you-begin-configuring-sso.adoc[] for information about what API Experience Hub expects for claims to properly map users in the identity provider.
 . In the *Attribute Statements (optional)* section, configure the SAML integration by adding these custom attributes. For supported formats, see the supported format for user attributes listed in xref:xref:before-you-begin-configuring-sso.adoc[]:
 +
@@ -205,7 +205,7 @@ image::aeh-sso-saml-settings.png["An example of SAML Settings.",width=90%]
 |*groups* |*Unspecified* |*(",", getFilteredGroups({"00gdkat3p5RCvkQQC5d7", "00gdjgk337kYDxtE35d7"}, "group.name", 40))*
 |===
 +
-image::aeh-sso-saml-attribute-statements.png["An example of the SAML Attribute Statements.",width=60%]
+image::aeh-sso-saml-attribute-statements.png["An example of the SAML Attribute Statements",width=60%]
 +
 The example IDs, 00gdkat3p5RCvkQQC5d7 and 00gdjgk337kYDxtE35d7 correspond to the groups that you want to send. Ensure that you send all Anypoint Platform groups when you're configuring Okta in Anypoint Platform. Otherwise, the user can lose access.
 . Click *Next*, select *I’m an Okta customer adding an internal app* and click *Finish*.
@@ -214,14 +214,14 @@ The example IDs, 00gdkat3p5RCvkQQC5d7 and 00gdjgk337kYDxtE35d7 correspond to the
 . From the list, click *Assign* from the row of the specific group and click *Done*.           
 . Select the *Sign On* tab, and click *View SAML setup instructions* to see instructions about how to configure SAML for your application. 
 +
-image::aeh-sso-view-saml-setup-instructions.png["A button that shows the SAML setup instructions.",width=30%]
+image::aeh-sso-view-saml-setup-instructions.png["A button that shows the SAML setup instructions",width=30%]
 . Get this information from the instructions page to configure the *Single Sign-on Settings* tab in Salesforce:
 +
 * *Identity Provider Single Sign-On URL*
 * *Identity Provider Issuer*
 * *X.509 Certificate (download the certificate)*
 +
-image::aeh-sso-saml-setup-instructions-page.png["SAML instructions to configure SAML.",width=90%]
+image::aeh-sso-saml-setup-instructions-page.png["SAML instructions to configure SAML",width=90%]
 . Go to *Salesforce > Setup* and search for *Single Sign-On Settings*.
 . From *Single Sign-On Settings* in the *Federated Single Sign-On Using SAML* section, select *SAML Enabled* and click *Save*.
 . From  *Single Sign-On Settings*, click *Edit* and complete these fields:
@@ -242,7 +242,7 @@ image::aeh-sso-saml-setup-instructions-page.png["SAML instructions to configure 
 |*Executed Handler As* |Select a system administrator.
 |===
 +
-image::aeh-sso-saml-single-sign-on-settings.png["An example of the SAML Single Sign-On Settings."]
+image::aeh-sso-saml-single-sign-on-settings.png["An example of the SAML Single Sign-On Settings"]
 ====
 
 .Microsoft Azure SAML
@@ -411,7 +411,7 @@ Add group mappings by adding the user to the corresponding profile in API Experi
 |===
 . From *Type*, click *Add*.
 +
-image::aeh-sso-access-mgmt-ext-idp-groups.png["The External IdP Groups page from Access Management."]
+image::aeh-sso-access-mgmt-ext-idp-groups.png["The External IdP Groups page from Access Management"]
 . Save your changes.
 +
 The SSO users associated with the group you designated are assigned to the team.
