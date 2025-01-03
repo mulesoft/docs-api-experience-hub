@@ -5,20 +5,20 @@ endif::[]
 
 Administrators or security teams can implement an external identity provider (IdP) as a login option for an API Experience Hub portal. Single sign-on (SSO) authentication provides a seamless login experience for your customers with your organization’s unique branding. Your users can log in to your portal without having to remember another username and password or entering login credentials multiple times. 
 
-When a member of your portal visits the portal page and selects the SSO option, they're redirected to the identity provider login page to authenticate. The SSO authentication process uses the identity provider to check the identity of a user. If the login is successful, the user is created in Access Management that aligns with the user profile. The API Experience Hub portal home page displays for the user to browse and discover APIs.
+After a member of your portal visits the portal page and selects the SSO option, they're redirected to the identity provider login page to authenticate. The SSO authentication process uses the identity provider to check the identity of a user. If the login is successful, the user that aligns with the user profile is created in Access Management. The API Experience Hub portal home page appears for the user to browse and discover APIs.
 
 API Experience Hub supports multiple IdPs for SSO.
 
 Access Management configures identity management for SSO for Anypoint Platform. For more information about identity providers, see https://docs.mulesoft.com/access-management/external-identity[Identity Management^] in Access Management.
 
-== Steps for Configuring SSO
-Setting up SSO for your portal includes the following high-level steps. These steps can vary depending on your use case. 
+== Configuring SSO
+The high-level steps for setting up SSO for your portal vary depending on your use case.  
 
 * xref:configuring-sso.adoc#step-1-enable-sso-for-your-portal[Step 1: Enable SSO for Your Portal]
 +
 In this step, you create and configure an application in the identity provider. 
 +
-An identity provider for Anypoint Platform and Salesforce can be configured using OpenID Connect or SAML (Single Sign-on Settings). Microsoft Azure OpenID Connect is currently not supported.
+You can configure an identity provider for Anypoint Platform and Salesforce can be configured using OpenID Connect or SAML (Single Sign-on Settings). Microsoft Azure OpenID Connect is currently not supported.
 
 * xref:configuring-sso#step-2-add-salesforce-identity-providers[Step 2: Add Salesforce Identity Providers]
 +
@@ -32,9 +32,9 @@ In this step, you map the groups created in the Salesforce identity provider tha
 +
 In this step, you test the SSO configuration that you just set up for the portal.
 
-Here’s a diagram that illustrates the overall steps you need to take in the external identity provider, Anypoint Platform, and Salesforce to set up your single sign-on configuration: 
+This diagram shows the overall steps to take in the external identity provider, Anypoint Platform, and Salesforce to set up your single sign-on configuration: 
 
-image::aeh-sso-flow2.png["A diagram of the steps and applications to configure SSO."] 
+image::aeh-sso-flow2.png["A diagram showing steps and applications required to configure SSO"] 
 
 [[out-of-the-box-configurations]]
 == Out-of-the-Box Configurations
@@ -42,7 +42,7 @@ API Experience Hub provides the following out-of-the-box configurations to assis
 
 * anypoint_idp_id
 +
-The custom claim or SAML attribute provides the information that's received from the identity provider that determines which Anypoint Platform identity provider a user must be mapped to.
+The custom claim or SAML attribute provides the information that's received from the identity provider that determines which Anypoint Platform identity provider to map a user to.
 
 * AEH Users - ${salesforceOrganizationId}
 +

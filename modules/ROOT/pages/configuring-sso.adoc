@@ -313,17 +313,7 @@ At least one group must be associated to perform a group mapping in a later step
 |Source attribute|user.principalname
 |===
 .. Save your changes.
-
-*Map the Application to the Identity Provider for Anypoint Platform*
-//Note to editor: Will revisit whether to make lines 319, 321, and 323 partials if the content is still relevant once we release a single identity in SF. 
-NOTE: Skip this step if you are configuring a new identity provider for Anypoint Platform. Go to xref:configuring-sso.adoc#step-2-add-identity-providers[Step 2: Add Salesforce Identity Providers].
-
-If this single sign-on is configured in Anypoint Platform, map the application to the identity provider for Anypoint Platform using a new custom attribute, `anypoint_idp_id`.   
-
-If usernames for the portal and Anypoint Platform are different, add another custom attribute named `anypoint_username`. This attribute updates existing identity provider users to match the identities in the portal and Anypoint Platform.
-
-. Map `anypoint_idp_id` to the Anypoint Platform identity provider ID for Microsoft Azure SAML:
-
+. If this single sign-on is already configured in Anypoint Platform, map the application to the identity provider for Anypoint Platform using a new custom attribute, `anypoint_idp_id`.   
 .. Click *+ Add new claim* and complete these fields:
 +
 [%header,cols="1a,2a"]
@@ -337,8 +327,7 @@ To get the identity provider ID, go to *Access Management > Identity Providers*,
 +
 image::aeh-identity-provider-id-azure.png["An example identity provider ID in Access Management"]
 .. Save your changes.
-. To configure the `anypoint_username` claim:
-
+. If usernames for the portal and Anypoint Platform are different, add another custom attribute named `anypoint_username`. This attribute updates existing identity provider users to match the identities in the portal and Anypoint Platform. 
 .. Click *+ Add new claim* and complete these fields:
 +
 [%header,cols="1a,2a"]
@@ -358,13 +347,12 @@ image::aeh-identity-provider-id-azure.png["An example identity provider ID in Ac
 |Attribute name|user.mail
 |===
 .. Click *Add*.
-
-. From *Manage claim*, save your changes.
-. Create single sign-on settings in Salesforce:
-.. Select *Single Sign-on* and click *Download* from *Federation Metadata XML* in the *SAML Certificates* section.
-.. Go to *Salesforce > Setup > Single Sign-On Settings* and click *New from Metadata File*.
-.. From *Metadata File*, click *Choose File*, select the Federation Metadata XML file, and click *Create*.
-.. Complete these fields:
+.. From *Manage claim*, save your changes.
+.. Create single sign-on settings in Salesforce:
+... Select *Single Sign-on* and click *Download* from *Federation Metadata XML* in the *SAML Certificates* section.
+... Go to *Salesforce > Setup > Single Sign-On Settings* and click *New from Metadata File*.
+... From *Metadata File*, click *Choose File*, select the Federation Metadata XML file, and click *Create*.
+... Complete these fields:
 +
 [%header,cols="1a,2a"]
 |===
@@ -378,10 +366,8 @@ image::aeh-identity-provider-id-azure.png["An example identity provider ID in Ac
 |SAML JIT Handler |AEHPortalRegistrationHandler.
 |Execute Handler As |Select a system administrator.
 |===
-.. Save your changes.
+... Save your changes.
 ====
-Microsoft Azure OpenID Connect isn't supported.
-
 
 == Step 2: Add Salesforce Identity Providers 
 

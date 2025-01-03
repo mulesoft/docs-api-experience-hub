@@ -20,4 +20,4 @@ Do not make changes to the permissions of the out-of-the-box Teams created in Ac
 * The maximum pending user registration requests is 500. For more information, see xref:managing-users.adoc[Managing Users]
 * The API Experience Hub package is installed in the sandbox and production environments on the same date. As a result, you cannot use your sandbox organization for testing in the development cycle.
 * The community portal's default name API Experience Hub cannot be changed. Changing the name of the portal generates errors in the configuration.
-
+* Microsoft Azure OpenID Connect isn’t supported.
