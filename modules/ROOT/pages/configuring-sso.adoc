@@ -393,7 +393,7 @@ Add group mappings by adding the user to the corresponding profile in API Experi
 |Field|Value
 |Group Name|Enter `AEH Members` or enter the value of the groups claim.
 |Provider Name|The name of the corresponding Salesforce identity provider.
-|Type|Member
+|Type|Member.
 |===
 . From *Type*, click *Add*.
 +
