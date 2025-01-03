@@ -18,7 +18,7 @@ The high-level steps for setting up SSO for your portal vary depending on your u
 +
 In this step, you create and configure an application in the identity provider. 
 +
-You can configure an identity provider for Anypoint Platform and Salesforce can be configured using OpenID Connect or SAML (Single Sign-on Settings). Microsoft Azure OpenID Connect is currently not supported.
+You can configure an identity provider for Anypoint Platform and Salesforce can be configured using OpenID Connect or SAML (Single Sign-on Settings). Microsoft Azure OpenID Connect isn't supported.
 
 * xref:configuring-sso#step-2-add-salesforce-identity-providers[Step 2: Add Salesforce Identity Providers]
 +
