@@ -7,7 +7,7 @@ From the API Details page, member users request access to an API instance to whi
 
 Instances that the client ID enforcement policy protects require client applications to provide a client ID and an optional client secret. Once the request for access is approved, the client application is registered and the client ID and client secret credentials are automatically created. Member users can request access to an instance of an API that is published in the portal. These users can either create a new application or use an application that they already created to request access.
 
-If terms and conditions are set for an asset, you are prompted to accept the terms before access is granted. The created contract includes the terms and conditions.
+If terms and conditions are set for an asset, you're prompted to accept the terms before access is granted. The created contract includes the terms and conditions.
 
 == Before You Begin
 Before you can request access to an API, you must be a member user and be logged into the API portal. See xref:registering-for-access-to-portal.adoc[Registering for Access to a Portal]
@@ -51,7 +51,7 @@ If you do not have an application to use to request access, create a new applica
 . From the *SLA tier* options, select a service-level agreement (SLA) value for the application. 
 . Click *Request access*.
 +
-If auto-approval is enabled for the SLA tier, a message displays that the application is approved. If auto-approval is not enabled, a message displays that the request is pending.
+If auto-approval is enabled for the SLA tier, a message displays that the application is approved. If auto-approval isn't enabled, a message displays that the request is pending.
 . Click *Okay* to close the message.
 +
 When the application is approved, an email is sent.

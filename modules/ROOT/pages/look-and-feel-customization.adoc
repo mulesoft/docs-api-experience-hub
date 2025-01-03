@@ -9,7 +9,7 @@ The Builder link opens your site for editing. You can edit each page in your por
 
 The Builder interface contains the pages list, component palette, theme menu, page structure menu, and settings menu.
 
-API Experience Hub is not certified for use on mobile devices. Some functionality works on mobile devices, but some functionality such as the API Console does not.
+API Experience Hub isn't certified for use on mobile devices. Some functionality works on mobile devices, but some functionality such as the API Console does not.
 
 == Pages List
 The Pages list shows the pages included with API Experience Hub and the pages you have added and enables you to select and edit each page. The included page Home is selected by default.
@@ -54,6 +54,8 @@ Specifies the site’s fonts, which include a primary font and header fonts, and
 +
 You can adjust community styling by editing the CSS rules. Next to the Theme title, click the Theme list, and click Edit CSS.
 Refer to https://help.salesforce.com/s/articleView?id=sf.community_builder_theme_customize.htm&type=5[Customize Your Experience Site Theme].
++
+Brand multiple portals using branding sets. For more information, see https://help.salesforce.com/s/articleView?id=sf.community_designer_brandsets.htm&type=5[Use Branding Sets in Experience Builder].
 
 == Page Structure
 Clicking the Page Structure icon, which resembles a bulleted list, shows the components in the current page and enables you to select and remove them. Selecting a component displays its configuration menu.

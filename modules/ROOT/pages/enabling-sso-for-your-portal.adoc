@@ -46,7 +46,7 @@ The custom claim or SAML attribute provides the information that's received from
 
 * AEH Users - ${salesforceOrganizationId}
 +
-The default Anypoint Experience Hub identity provider that's created in Anypoint Platform to map all self-registered users. This identity provider is used when the aeh_portal_idp is not set in the identity provider. Self-registered users are mapped with the default identity provider.
+The default Anypoint Experience Hub identity provider that's created in Anypoint Platform to map all self-registered users. This identity provider is used when the aeh_portal_idp isn't set in the identity provider. Self-registered users are mapped with the default identity provider.
 
 * AEH Portal - ${salesforceOrganizationId}_$*{salesforceCommunityId} 
 +
@@ -91,6 +91,53 @@ Single Sign-On::
 
 Single sign-on (SSO) is an authentication method that enables users to access multiple applications with one login and one set of credentials. For example, after users log in to your org, they can automatically access all apps from the App Launcher. You can set up your Salesforce or Anypoint Platform organization to trust a third-party identity provider to authenticate users. Or you can configure a third-party app to rely on your org for authentication.
 
+[[before-you-begin]]
+== Before You Begin
+Before enabling SSO, ensure you have the following permissions and context:
+
+* Organization Administrator permission or role in the main Anypoint Platform organization.
+* System Administrator role in Salesforce.
+* Experience with identity management and setting up identity providers for SSO.
+* Review Access Management's xref:access-management::external-identity.adoc[Identity Provider] documentation to understand identity management for Anypoint Platform.
+
+* Be aware of what API Experience Hub requires for claims or attributes when creating a new application for the portal in the identity provider.
++
+Configuring the required user claims in the identity provider ensures that the user information is mapped correctly to Salesforce and Anypoint users.  
++
+The AEHPortalRegistrationHandler requires specific user information from the identity provider to create or update a user. The required claims are used by the registration handler to extract user information. The following table list the required information and which claims the information is extracted from. If there is more than one claim for the same value, the registration handler looks for the first expected claim in the order it appears in the following table:
++
+[%header%autowidth.spread]
+|===
+|Field|Expected Claims
+|First Name 
+| given_name, first_name, firstname, and firstName
+|Last Name 
+| family_name, last_name, lastname, and lastName
+|Email 
+|email, email_address, and emailAddress
+|Username 
+|preferred_username, federation_identifier, email, sub, and NameId
+|Groups | groups
+|===
++ 
+To configure specific use cases, such as xref:sso-use-case-2.adoc[], use the following information:
++
+[%header,cols="1a,2a,3a"]
+|===
+|Field |Description |Expected Values
+|Anypoint Idp Id|Map identities to the specific identity provider in Anypoint Platform. |anypoint_idp_id
+|Anypoint Username|Explicitly specify the Anypoint Platform user when the user's identity already exists in Anypoint Platform, but the username is different from the Salesforce user. |anypoint_username
+|===
++
+If the required information isn't in the supported format, create a new custom attribute or claim with the supported format. For information, see the documentation for the identity provider. 
+
+== Single Sign-On Use Cases for the Portal
+The following use cases are provided to help you configure SSO for the portal: 
+
+* xref:sso-use-case-1.adoc[] 
+* xref:sso-use-case-2.adoc[] 
+
+The use cases are documented using Okta as an identity provider as an example of how to enable SSO however, you can use any identity provider.
 
 == See Also
 
