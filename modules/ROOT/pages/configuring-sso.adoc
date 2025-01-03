@@ -193,8 +193,8 @@ Create a new application for the API Experience Hub portal in the identity provi
 |===
 +
 image::aeh-sso-saml-settings.png["An example of SAML Settings",width=90%]
-. Review the xref:xref:before-you-begin-configuring-sso.adoc[] for information about what API Experience Hub expects for claims to properly map users in the identity provider.
-. In the *Attribute Statements (optional)* section, configure the SAML integration by adding these custom attributes. For supported formats, see the supported format for user attributes listed in xref:xref:before-you-begin-configuring-sso.adoc[]:
+. Review the xref:before-you-begin-configuring-sso.adoc[] for information about what API Experience Hub expects for claims to properly map users in the identity provider.
+. In the *Attribute Statements (optional)* section, configure the SAML integration by adding these custom attributes. For supported formats, see the supported format for user attributes listed in xref:before-you-begin-configuring-sso.adoc[]:
 +
 [%header,cols="1a,2a,3a"]
 |===

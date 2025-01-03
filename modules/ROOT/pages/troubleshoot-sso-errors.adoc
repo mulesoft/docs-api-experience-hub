@@ -55,7 +55,7 @@ To troubleshoot this issue, add the external identity provider group mapping in 
 
 * The *Auth provider Default Scopes* field isn't configured properly.
 +
-To troubleshoot this issue, ensure the *Default Scopes* field has the *profile openid email groups* value.
+To troubleshoot this issue, make sure the *Default Scopes* field has the *profile openid email groups* value.
 
 . In *Salesforce*, go to *Setup*.
 . In the *Quick Find* box, enter `Auth`, and then select *Auth Providers*.
@@ -66,7 +66,7 @@ To troubleshoot this issue, ensure the *Default Scopes* field has the *profile o
 == Can't Log In
 When logging in to the portal with an identity provider, you see a *Problem Logging In* error that the third-party identifier can’t be found. An incorrect portal URL can cause issues logging in.
 
-To troubleshoot this issue, ensure that the URL is correct in the configuration. For Okta, the `/userinfo` part of the URL path must be lowercase.
+To troubleshoot this issue, make sure that the URL is correct in the configuration. For Okta, the `/userinfo` part of the URL path must be lowercase.
 
 == Single Sign-on Error
 After logging in, *Single Sign-On Error* shows in the portal. Issues can occur if the SSO or the Salesforce Auth. Provider configuration is incorrect or missing necessary information. 
@@ -77,17 +77,17 @@ A few issues can cause this error to occur:
 +
 To troubleshoot this issue for SAML protocol configurations:
 +
-. Ensure the *Entity ID* is the same in both the Salesforce Auth. Provider's *Single Sign-On Settings* page and the identity provider. 
+. Make sure the *Entity ID* is the same in both the Salesforce Auth. Provider's *Single Sign-On Settings* page and the identity provider. 
 +
 . Click *SAML Assertion Validation* in the *Single Sign-On Settings* page to check for errors in the assertion.
 * Tou make changes to *Single Sign-On Settings* page without uploading the SSO certificate. 
 +
-To troubleshoot this issue, ensure you upload the SSO certificate each time you change the *Single Sign-On Settings* page in Salesforce.
+To troubleshoot this issue, make sure you upload the SSO certificate each time you change the *Single Sign-On Settings* page in Salesforce.
 * The expected claims are missing in the identity provider's application.
 +
 After logging on using SSO, you see an SSO error with the error details in the URL. An error from the registration handler can cause this error. The most common cause is missing expected claims. 
 +
-To troubleshoot this issue, ensure you have the expected claims configured in the application. For more information, see xref:gathering-set-up-information-for-sso.adoc# required-claims-and-attributes-for-sso[Required Claims and Attributes for SSO].
+To troubleshoot this issue, make sure you have the expected claims configured in the application. For more information, see xref:gathering-set-up-information-for-sso.adoc# required-claims-and-attributes-for-sso[Required Claims and Attributes for SSO].
 
 == Portal Errors
 After logging in to the portal using SSO, you get an error in the portal.
@@ -100,7 +100,7 @@ These issues can cause the error if the identity provider's application has miss
 To troubleshoot these issues:
 
 * Review the URLs in identity provider's application SSO configuration and the *Auth. Provider/Single Sign-On* page from Salesforce *Setup* to make sure you're using the correct single sign-on URL.
-* Ensure the member is assigned to a user or a group in the identity provider application.
+* Make sure the member is assigned to a user or a group in the identity provider application.
 
 == Issues Testing the SSO Configuration
 Issues can occur when changing the SSO configuration, and then testing the configuration.
@@ -110,7 +110,7 @@ To troubleshoot this issue, make sure you have a clean Salesforce and Anypoint s
 . Log out of the portal, then log in again with the SSO user. 
 +
 This step ensures the registration handler executes properly.
-. Delete the Anypoint token from the Named Credential.
+. Delete the Anypoint Platform token from the Named Credential.
 +
 This step clears the Anypoint Platform user session and triggers authentication with the new configuration information to send to Anypoint Platform:
 
