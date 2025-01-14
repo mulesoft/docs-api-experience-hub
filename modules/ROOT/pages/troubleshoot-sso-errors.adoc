@@ -87,7 +87,7 @@ To troubleshoot this issue, make sure you upload the SSO certificate each time y
 +
 After logging on using SSO, you see an SSO error with the error details in the URL. An error from the registration handler can cause this error. The most common cause is missing expected claims. 
 +
-To troubleshoot this issue, make sure you have the expected claims configured in the application. For more information, see xref:gathering-set-up-information-for-sso.adoc# required-claims-and-attributes-for-sso[Required Claims and Attributes for SSO].
+To troubleshoot this issue, make sure you have the expected claims configured in the application. For more information, see xref:gathering-set-up-information.adoc#required-claims-and-attributes-for-sso[Required Claims and Attributes].
 
 == Portal Errors
 After logging in to the portal using SSO, you get an error in the portal.
