@@ -80,7 +80,7 @@ To troubleshoot this issue for SAML protocol configurations:
 . Make sure the *Entity ID* is the same in both the Salesforce Auth. Provider's *Single Sign-On Settings* page and the identity provider. 
 +
 . Click *SAML Assertion Validation* in the *Single Sign-On Settings* page to check for errors in the assertion.
-* Tou make changes to *Single Sign-On Settings* page without uploading the SSO certificate. 
+* You make changes to *Single Sign-On Settings* page without uploading the SSO certificate. 
 +
 To troubleshoot this issue, make sure you upload the SSO certificate each time you change the *Single Sign-On Settings* page in Salesforce.
 * The expected claims are missing in the identity provider's application.
