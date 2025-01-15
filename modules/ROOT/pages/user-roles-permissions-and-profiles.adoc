@@ -16,10 +16,12 @@ The Organization Administrator role has all of the permissions necessary to crea
 
 An API Experience Hub Admin team and an API Experience Hub Portal Admin team is created in Access Management during the connecting and linking process. Once your Salesforce organization is successfully connected to your Anypoint organization, the AEH Admin team is created. Any user, who is assigned the AEH Admin, is automatically added to the AEH Admin team. 
 
+After your styling changes for the portal are saved, the AEH Portal Admin team is created. Although the API Experience Hub Portal Administrator team is visible in Access Management, this permission isn't supported in this release.
 Once your styling changes for the portal are saved, the AEH Portal Admin team is created. Although the API Experience Hub Portal Administrator team is visible in Access Management, this permission isn't supported in this release.
 
 Administrators can only add APIs for which they have the Exchange Viewer permission. When APIs are added to the portal, all administrators are automatically assigned the Exchange Viewer permission. 
 
+API Experience Hub is integrated with Salesforce Experience Cloud. Administrators access the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore, API Experience Hub can't determine the individual administrator's action in the shared account. 
 API Experience Hub is integrated with Salesforce Experience Cloud. Administrators access the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore, API Experience Hub can't determine the individual administrator's action in the shared account. 
 
 The System Administrator profile has specific permissions to perform functions on the Salesforce Platform. The user with this profile performs the initial step of creating an API portal by connecting to the Salesforce Experience Cloud and linking the Salesforce organization to the Anypoint organization. This process can only be done by the user with the System Administrator profile. The AEH_Anypoint permission set can also be created to have only the minimal necessary permissions for the user who performs the linking process. For more information, see xref:assigning-permissions.adoc[].
@@ -59,9 +61,26 @@ All administrators must have the Exchange Viewer permission to import APIs into 
 |===
 |Permission |Description |Actions
 |Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission can't add new assets, edit asset portal content, or share an asset with another user.
+|Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission can't add new assets, edit asset portal content, or share an asset with another user.
 a|
 * View APIs in Exchange
 * Import APIs from Exchange to the portal |
+|===
+
+== User Roles for Configuring SSO
+
+Configuring an identity provider for API Experience Hub includes multiple personas that perform different user actions. 
+
+Depending on your organization’s setup, a user can be assigned one or more of these roles:
+
+|===
+|Required Permissions |Grants the Ability to |Notes
+|API Experience Hub Administrator|Enabling and disabling an identity provider in the API Experience Hub UI.|
+|Salesforce System Administrator|Configures the identity provider in Salesforce.|
+|Anypoint Organization Administrator|Maps the identity provider groups with the API Experience Hub profiles using the group mapping functionality of Access Management teams.|
+|Security team|Configures the identity provider with the required user groups and applications. |Your organization’s security team and the Salesforce System Administrator, who manage the identity provider system in an organization, configure the proper login option in Salesforce. The security team and the Org Admin in the main organization can configure the same identity provider option in Anypoint Platform, if required. 
+
+The security team and the Org Admin in the main organization configure the mapping between Salesforce and Anypoint Platform. Access Management provides the functionality of adding group mappings for external identity providers using teams. After the group mappings are properly configured, users who log in to the portal are added automatically to the out-of-the-box profile that they belong to. The default identity provider is provided to create identities in Anypoint Platform for Salesforce users.
 |===
 
 == Granular Permissions and Permission Sets
@@ -79,7 +98,7 @@ a|
 |===
 
 == Consumer Users
-API Experience Hub has the following consumer user profiles:
+API Experience Hub has these consumer user profiles:
 
 * Guest
 * Member
@@ -98,9 +117,14 @@ a|
 * View public APIs and other APIs that are shared with them
 * Registered using self-registration to become a member
 * Request access to APIs| 
+* View public APIs and other APIs that are shared with them.
+* View APIs assigned to the user group they belong to.
+* Registered using self-registration to become a member.
+* Request access to APIs.| 
 |===
 
 == See Also
 * xref:prerequisites.adoc[]
 * xref:assigning-permissions.adoc[]
 * xref:connecting-to-salesforce.adoc[]
+* xref:enabling-sso-for-your-portal.adoc[]

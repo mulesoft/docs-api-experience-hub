@@ -1,0 +1,54 @@
+= Gathering Setup Information for SSO
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Use these sections to gather the information you'll need to set up SSO.
+
+You might need to collaborate with your security team or other team members if you don't have access to this information. For more information, see xref:user-roles-permissions-and-profiles.adoc#user-roles-for-configuring-sso[User Roles for Configuring SSO].
+
+[[username-strategy]]
+== Username Assignment Strategy for a Shared Identity
+If an identity provider is configured for your Anypoint Platform organization, review the username assignment strategy because it can be different for the portal and Anypoint Platform users. 
+
+To have a single identity between the portal and Anypoint Platform, the format for the username assignment must be the same. If the username strategy doesn’t match, reconcile the username format by adding attributes for `anypoint_idp_id` and `anypoint_username`. Then, map this information to the Anypoint Platform identity provider that you are using for SSO. 
+
+For more information about adding custom claims when the identity provider is already configured but not in the required format, see _Required Claims and Attributes for SSO_. 
+
+== Required Claims and Attributes for SSO 
+Be aware of API Experience Hub requirements for claims or attributes when creating a new application for the portal in the identity provider.
+
+Configuring the required user claims in the identity provider ensures that the user information is mapped correctly to Salesforce and Anypoint Platform users.  
+
+The *AEHPortalRegistrationHandler* requires specific user information from the identity provider to create or update a user. The registration handler uses required claims to extract user information. This table lists the required information and which claims the information is extracted from. If more than one claim exists for the same value, the registration handler looks for the first expected claim in the order it appears in the table:
+
+[%header%autowidth.spread]
+|===
+|Field|Expected Claims
+|First Name 
+| given_name, first_name, firstname, and firstName
+|Last Name 
+| family_name, last_name, lastname, and lastName
+|Email 
+|email, email_address, and emailAddress
+|Username 
+|preferred_username, federation_identifier, email, sub, and NameId
+|Groups | groups
+|===
+ 
+To configure SSO when the identity provider is already configured for Anypoint Platform, use this information:
+
+[%header,cols="1a,2a,3a"]
+|===
+|Field |Description |Expected Values
+|Anypoint Idp Id|Map identities to the specific identity provider in Anypoint Platform. |anypoint_idp_id
+|Anypoint Username|Explicitly specify the Anypoint Platform user if the user's identity exists in Anypoint Platform, but the username is different than the Salesforce user. |anypoint_username
+|===
+
+If the required information is not in the supported format, create a new custom attribute or claim with the supported format. For information, see the documentation for the identity provider. 
+
+== See Also
+
+* xref:user-roles-permissions-and-profiles.adoc#user-roles-for-configuring-sso[User Roles for Configuring SSO]
+* xref:configuring-sso.adoc[]
+
