@@ -81,7 +81,7 @@ The number of API cards to display in the carousel. The carousel can display a m
 === Change the Titles in the API Carousel
 You can modify the title and subtitle that appear in the API Carousel. You can also show the number of cards in the subtitle by entering the `{numberOfAssets}` variable in the *Subtitle* field. For example, *Latest APIs added {numberOfAssets}*. The following image shows the subtitle as *Latest APIs added 5* because the variable displays the number selected in the *Cards to display* field.
 
-image::aeh-builder-carousel-subtitle.png[Image of Asset Carousel Subtitle option,width=70%]
+image::aeh-builder-carousel-subtitle.png["Asset Carousel showing the Subtitle option",width=70%]
 
 . On the *Manage your API portal* page, click *Preview and publish your portal*.
 . On the *Home* page, click the *Asset Carousel* area to edit the Assets Carousel component.
