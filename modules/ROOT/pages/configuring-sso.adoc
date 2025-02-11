@@ -249,7 +249,7 @@ image::aeh-sso-saml-single-sign-on-settings.png["An example of the SAML Single S
 [%collapsible]
 ====
 
-Create a new application for the API Experience Hub portal in the identity provider using Microsoft Entra ID. Microsoft Entra ID OpenID Connect isn't supported.
+Create a new application for the API Experience Hub portal in the identity provider using Microsoft Entra ID. Microsoft Entra ID for OpenID Connect isn't supported.
 
 . In Azure, create a SAML Enterprise application:
 .. Go to the Azure administration portal or enter `https://portal.azure.com` in a browser. 
