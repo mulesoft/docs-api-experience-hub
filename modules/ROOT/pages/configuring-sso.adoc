@@ -245,7 +245,7 @@ image::aeh-sso-saml-setup-instructions-page.png["SAML instructions to configure 
 image::aeh-sso-saml-single-sign-on-settings.png["An example of the SAML Single Sign-On Settings"]
 ====
 
-.Microsoft Entra ID SAML
+.Microsoft Entra ID SAML for Cloud
 [%collapsible]
 ====
 
