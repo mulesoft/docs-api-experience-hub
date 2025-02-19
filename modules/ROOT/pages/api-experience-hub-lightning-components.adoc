@@ -102,6 +102,17 @@ To change the number of API cards that display in the API Carousel:
 
 The API Catalog component offers API consumers an interactive way to explore all the available APIs in an API portal. The API Catalog shows API cards in rows and columns, divided into pages, and shows controls to search the displayed APIs by categories and search terms. Each card shows an API. With the catalog, users can view and explore large numbers of API versions.
 
+Select the properties to show in the API Catalog:
+
+* Show filter display layout:
+** Dropdown below search box
+** Dropdown beside search box
+** Side panel
+* Show asset type filter
+* Show categories filter
+* Show category pills
+* Show asset layout button
+
 == Search Box
 
 The API Experience Hub Search Box component enables users to search for both content that exists in Salesforce Experience Cloud (such as knowledge articles, support cases, and announcements) and content that exists in Anypoint Platform (such as APIs and client applications). Knowledge article, support cases, and announcements are currently not available.
