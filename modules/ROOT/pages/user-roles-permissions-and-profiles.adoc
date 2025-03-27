@@ -124,7 +124,7 @@ a|
 |===
 
 == See Also
-* xref:prerequisites.adoc[]
+* xref:getting-started-with-api-experience-hub.adoc[]
 * xref:assigning-permissions.adoc[]
 * xref:connecting-to-salesforce.adoc[]
 * xref:enabling-sso-for-your-portal.adoc[]
