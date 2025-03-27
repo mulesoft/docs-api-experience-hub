@@ -63,7 +63,7 @@ Developers can discover and consume APIs using these tasks:
 . xref:requesting-access-to-an-api-instance.adoc[Request access to an API instance]
 . xref:my-applications.adoc[View your applications that hold a contract with an API]
 . xref:downloading-an-api-specification.adoc[Download API specifications]
-. xref:api-console-specification-and-documentation.adoc[Inspect API Console specification and documentation]
+. xref:using-the-api-console.adoc[Inspect API Console specification and documentation]
 
 
 == See Also

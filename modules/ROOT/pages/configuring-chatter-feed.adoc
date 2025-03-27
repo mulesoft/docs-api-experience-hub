@@ -27,6 +27,6 @@ To add Feed components for existing portals:
 . Drag the *Feed* and *Feed Publisher* components into the *Tab Layout (New)* area for *Feedback and discussions*.
 
 == See Also
-* xref:common-builder-customizations#configure-feed-component[Configure Feed Component]
-* xref:common-builder-customizations#configure-feed-publisher-component[Configure Feed Publisher Component]
+* xref:common-builder-customizations.adoc#configure-feed-component[Configure Feed Component]
+* xref:common-builder-customizations.adoc#configure-feed-publisher-component[Configure Feed Publisher Component]
 
