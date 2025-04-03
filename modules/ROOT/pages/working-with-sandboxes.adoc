@@ -9,8 +9,7 @@ Use Salesforce sandbox organizations to test your portal in a sandbox environmen
 
 . Create a public group:
 .. Go to Salesforce > *Setup* > *Users* > *Public Groups*.
-.. Click *New* and enter a name.
-.. and save your changes. 
+.. Click *New* and enter a name and save your changes. 
 . Ensure that you have sandbox organizations already set up. 
 +
 For more information about creating sandboxes, see https://help.salesforce.com/s/articleView?id=sf.data_sandbox_create.htm&type=5[Create a Sandbox] in the Salesforce documentation.
@@ -68,7 +67,7 @@ Move the portal's styling and customizations from the sandbox organization to th
 .. https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories[Create a Git repository]. 
 .. Clone it locally to your machine. 
 .. https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_create_new.htm[Create a SFDX project].
-.. Create a manifest `package.xml` file in `./manifest`, for example:
+.. Create a manifest `package.xml` file in `./manifest`, using this example with your information:
 +
 [%collapsible]
 ====
@@ -227,7 +226,7 @@ or modify the `manifest/package.xml` and repeat the process if some metadata is 
 sf auth web login --instance-url=https://<ENTERPRISE-INSTANCE_URL> --alias productionOrg
 ----
 
-.. Install the package in production only if it's not already installed.
+.. Install the package in production if it's not  installed already.
 +
 Before installing the API Experience Hub Manage package in your production organization, get the managed package version ID from the `SubscriberPackageVersionId` field that's installed in the sandbox organization. 
 
