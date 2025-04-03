@@ -9,7 +9,9 @@ Use Salesforce sandbox organizations to test your portal in a sandbox environmen
 
 . Create a public group:
 .. Go to Salesforce > *Setup* > *Users* > *Public Groups*.
-.. Click *New* and enter a name and save your changes. 
+.. Click *New* and enter a label and group name.
+.. From the *Available Members* list, select the members who you want to assign to the group. To move the selected members to the *Selected Members* list, click *Add*.
+.. Save your changes. 
 . Ensure that you have sandbox organizations already set up. 
 +
 For more information about creating sandboxes, see https://help.salesforce.com/s/articleView?id=sf.data_sandbox_create.htm&type=5[Create a Sandbox] in the Salesforce documentation.
