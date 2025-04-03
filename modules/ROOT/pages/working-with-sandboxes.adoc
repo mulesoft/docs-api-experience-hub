@@ -16,7 +16,8 @@ Use Salesforce sandbox organizations to test your portal in a sandbox environmen
 +
 For more information about creating sandboxes, see https://help.salesforce.com/s/articleView?id=sf.data_sandbox_create.htm&type=5[Create a Sandbox] in the Salesforce documentation.
 
-NOTE: Anypoint assets and applications are not copied to sandbox or production organizations.
+[NOTE]
+Anypoint assets and applications aren't copied to sandbox or production organizations.
 
 == Manage Salesforce Organization Connections
 
