@@ -228,7 +228,7 @@ or modify the `manifest/package.xml` and repeat the process if some metadata is 
 sf auth web login --instance-url=https://<ENTERPRISE-INSTANCE_URL> --alias productionOrg
 ----
 
-.. Install the package in production if it's not  installed already.
+.. Install the package in production if it's not installed already.
 +
 Before installing the API Experience Hub Manage package in your production organization, get the managed package version ID from the `SubscriberPackageVersionId` field that's installed in the sandbox organization. 
 
