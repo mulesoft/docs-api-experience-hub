@@ -6,7 +6,18 @@ endif::[]
 Use Salesforce sandbox organizations to test your portal in a sandbox environment under the same conditions as your production environment. With API Experience Hub, you can manage separate deployment environments for your API portal. You can connect to multiple Salesforce sandbox organizations and switch between them. Manage Salesforce organizations from the *Manage your API portal* page by selecting sandbox environments that are available in the current Salesforce connection.  
 
 == Before You Begin
-Ensure that you have sandbox organizations already set up. For more information about creating sandboxes, see https://help.salesforce.com/s/articleView?id=sf.data_sandbox_create.htm&type=5[Create a Sandbox] in the Salesforce documentation.
+
+. Create a public group:
+.. Go to Salesforce > *Setup* > *Users* > *Public Groups*.
+.. Click *New* and enter a label and group name.
+.. From the *Available Members* list, select the members who you want to assign to the group. To move the selected members to the *Selected Members* list, click *Add*.
+.. Save your changes. 
+. Ensure that you have sandbox organizations already set up. 
++
+For more information about creating sandboxes, see https://help.salesforce.com/s/articleView?id=sf.data_sandbox_create.htm&type=5[Create a Sandbox] in the Salesforce documentation.
+
+[NOTE]
+Anypoint assets and applications aren't copied to sandbox or production organizations.
 
 == Manage Salesforce Organization Connections
 
@@ -59,7 +70,7 @@ Move the portal's styling and customizations from the sandbox organization to th
 .. https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories[Create a Git repository]. 
 .. Clone it locally to your machine. 
 .. https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_create_new.htm[Create a SFDX project].
-.. Create a manifest `package.xml` file in `./manifest`, for example:
+.. Create a manifest `package.xml` file in `./manifest`, using this example with your information:
 +
 [%collapsible]
 ====
@@ -217,16 +228,18 @@ or modify the `manifest/package.xml` and repeat the process if some metadata is 
 ----
 sf auth web login --instance-url=https://<ENTERPRISE-INSTANCE_URL> --alias productionOrg
 ----
+
+.. Install the package in production if it's not installed already.
 +
 Before installing the API Experience Hub Manage package in your production organization, get the managed package version ID from the `SubscriberPackageVersionId` field that's installed in the sandbox organization. 
-+
-.. Run the following command to get the managed package version ID. The `SubscriberPackageVersionId` field from the API Experience Hub managed package begins with `04t`:
+
+... Run the following command to get the managed package version ID. The `SubscriberPackageVersionId` field from the API Experience Hub managed package begins with `04t`:
 +
 [codeblock]
 ----
 sf package installed list --target-org sandboxOrg --json
 ----
-.. Install the API Experience Hub managed package in the production organization:
+... Install the API Experience Hub managed package in the production organization:
 + 
 [codeblock]
 ----
@@ -236,7 +249,7 @@ sf package install --package 04t... --target-org productionOrg --no-prompt --wai
 +
 [codeblock]
 ----
-sf project deploy start --source-dir force-app --target-org productionOrg
+sf project deploy start --manifest=manifest/package.xml --target-org productionOrg
 ----
 +
 All configurations deploy in the production organization and you're ready to connect this organization with API Experience Hub.
