@@ -7,6 +7,8 @@ API Experience Hub contains a Salesforce organization with Experience Cloud and 
 
 A connection with Salesforce Experience Cloud is required for linking to the Salesforce organization to create an API portal within Anypoint Platform. This process must be completed only once to create a portal. Currently, an instance of API Experience Hub can connect only to one Anypoint Platform organization and one Salesforce organization.
 
+When the connection is established, changing the connection doesn't impact the connection between the Salesforce organization and Anypoint Platform. Switching between production and sandbox environments also doesn't affect the connection. The portal remains operational. 
+
 == Connected App
 API Experience Hub uses a connected app to obtain a session token in Anypoint Platform and interacts with Salesforce APIs. 
 
