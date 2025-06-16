@@ -1,0 +1,26 @@
+= Enabling Existing Salesforce Users to Access a Portal 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+Enable existing Salesforce users access to a portal so they can view an API portal. Admins can quickly enable existing Salesforce users without recreating profiles, permission sets, or setting up SSO. 
+
+Configure access using the xref:Existing User Request Access Lightning component for users to request access to the portal. After a user requests access, the user  must be manually added in Salesforce, then approve the request. An email is sent to the user with instructions about how to log in. 
+
+== Enable Access to a Portal for Existing Salesforce Users
+
+. Configure Existing Salesforce Users to log in:
+.. From the Builder, click Home icon > *Administration* > *Login & Registration*.
+.. Scroll down to the Login Page Setup and select *Allow employees to log in directly to an Experience Cloud Site*
+.. Click *Members*, select *API Experience Hub Member User from Available Permission Sets* and click *Add* to populate the permission set in *Selected Permission Sets*.
+. Add the *Existing User Request Access* Lightning component to your portal page:
+.. From the Builder, click the Lightning component icon, select *Existing User Request Access* from *Custom Components*, and drag the component to where you want it located in the portal page. 
+.. Click the component on the page and enter these fields:
+
+* Label: enter *Username*
+* Placeholder: Enter *Enter your username*.
+* Redirect to: Enter a URL of a page to redirect to after a user requests access.
+* Button Label: Enter a name for the access button.
+. Approve or reject the user:
+.. Go to *User management* in the portal and click *Pending registration requests*.
+.. Locate the user in the list and click *Approve* or *Reject*.
