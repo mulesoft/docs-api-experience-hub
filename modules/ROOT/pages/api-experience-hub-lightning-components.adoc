@@ -27,7 +27,7 @@ Console components include API Console, API Console Documentation, API Console I
 
 The component shows the public API instances and documentation from Anypoint Exchange.
 
-Select theese property to show in the API Console:
+Select these property to show in the API Console:
 
 * Expand endpoints
 

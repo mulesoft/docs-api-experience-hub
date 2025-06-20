@@ -3,8 +3,17 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-If the request access component is available on a portal, existing Salesforce users can request access by entering their username and clicking the access button.
+Salesforce users can request portal access when they don't have Single Sign-On (SSO) configured. 
 
-When request is approved, they can log in to the portal using their Salesforce credentials.
+Before you request access, confirm that you don't have a Single Sign-On (SSO) configuration. This can cause issues in the portal. For example, you might not see all APIs available to you if they are not available in the SSO configuration.
+
+If the request access component is available on a portal, Salesforce users can request access. Users can request access by entering their username and clicking the access button.
+
+When the request is approved, an email is sent with login information.
+
+== See Also
+
+* xref:discovering-apis.adoc[]
+* xref:searching-for-apis.adoc[]
  
 
