@@ -1,14 +1,14 @@
-= Enabling Portal Access to Existing Salesforce Users 
+= Enabling Portal Access to Salesforce Users 
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Give existing Salesforce users access to a portal so they can view your API portal. Admins can enable access foro existing Salesforce users without recreating profiles, permission sets, or setting up SSO. 
+Give existing Salesforce users access to a portal so they can view your API portal. Admins can enable access for Salesforce users without recreating profiles, permission sets, or setting up SSO. 
 
-Use the Builder to configure access. After a user requests access, you can approve the request from the *Pending registration requests* page. An email is sent to the user with instructions about how to log in. 
+Use the Builder to configure access. After a user requests access, you can approve the request from the *Pending registration requests* page from *Manage users*. An email is sent to the user with instructions about how to log in. 
 
-== Enable Portal Access to Existing Salesforce Users
-Enable access for Salesforce users to access the portal.
+== Enable Portal Access to Salesforce Users
+Enable Salesforce users to access the portal.
 
 . Enable Salesforce users to log in:
 .. From the Builder, click the *Home* icon > *Administration* > *Login & Registration*.
@@ -26,8 +26,8 @@ Enable access for Salesforce users to access the portal.
 * *Redirect to*: Enter a URL of a page to redirect to after a user requests access.
 * *Button Label*: Enter a name for the access button.
 . Approve or reject the user:
-.. Go to *User management* in the portal and click *Pending registration requests*.
-.. Locate the user in the list and click *Approve* or *Reject*.
+.. Go to *User management* in API management and select *Pending registration requests*.
+.. Locate the user in the list and click *Approve*.
 
 == Remove Portal Access From Existing Salesforce Users
 Remove access to the portal access for existing Salesforce users who should no longer access your portal. 
@@ -39,5 +39,5 @@ The user won't be able to log in to the portal. In the portal, the user's name w
 
 == See Also
 
-* xref:api-experience-lightning-components.adoc[]
+* xref:api-experience-lightning-components.adoc#existing-user-request-access[Existing User Request Access Lightning component]
 * xref:managing-users.adoc[]
