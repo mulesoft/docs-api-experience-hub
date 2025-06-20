@@ -3,6 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Request access to a portal if you're already a Salesforce users.
+If the request access component is available on a portal, existing Salesforce users can request access by entering their username and clicking the access button.
 
-== Request Access
+When request is approved, they can log in to the portal using their Salesforce credentials.
+ 
+

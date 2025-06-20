@@ -1,26 +1,43 @@
-= Enabling Existing Salesforce Users to Access a Portal 
+= Enabling Portal Access to Existing Salesforce Users 
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Enable existing Salesforce users access to a portal so they can view an API portal. Admins can quickly enable existing Salesforce users without recreating profiles, permission sets, or setting up SSO. 
+Give existing Salesforce users access to a portal so they can view your API portal. Admins can enable access to existing Salesforce users without recreating profiles, permission sets, or setting up SSO. 
 
-Configure access using the xref:Existing User Request Access Lightning component for users to request access to the portal. After a user requests access, the user  must be manually added in Salesforce, then approve the request. An email is sent to the user with instructions about how to log in. 
+Configure access using the Builder. After a user requests access, approve the request from the *Pending registration requests* page. An email is sent to the user with instructions about how to log in. 
 
-== Enable Access to a Portal for Existing Salesforce Users
+== Enable Portal Access to Existing Salesforce Users
+Enable access for Salesforce users to access the portal.
 
-. Configure Existing Salesforce Users to log in:
-.. From the Builder, click Home icon > *Administration* > *Login & Registration*.
-.. Scroll down to the Login Page Setup and select *Allow employees to log in directly to an Experience Cloud Site*
-.. Click *Members*, select *API Experience Hub Member User from Available Permission Sets* and click *Add* to populate the permission set in *Selected Permission Sets*.
-. Add the *Existing User Request Access* Lightning component to your portal page:
-.. From the Builder, click the Lightning component icon, select *Existing User Request Access* from *Custom Components*, and drag the component to where you want it located in the portal page. 
+. Enable Salesforce users to log in:
+.. From the Builder, click the *Home* icon > *Administration* > *Login & Registration*.
+.. From the *Login Page Setup* section, select *Allow employees to log in directly to an Experience Cloud Site* and click *Save*.
+. Add the API Experience Hub Member User permission set:
+.. From *Administration*, and click *Members*.
+.. From the *Select Permission Sets* section, select *API Experience Hub Member User from Available Permission Sets* in *Available Permission Sets* and click *Add* to populate the permission set in *Selected Permission Sets*.
+.. Click *Save*.
+. Add the *Existing User Request Access* Lightning component to the portal page:
+.. From the Builder, click the Lightning component icon, select *Existing User Request Access* from *Custom Components*, and drag the component to where you want it located in a portal page. 
 .. Click the component on the page and enter these fields:
 
-* Label: enter *Username*
-* Placeholder: Enter *Enter your username*.
-* Redirect to: Enter a URL of a page to redirect to after a user requests access.
-* Button Label: Enter a name for the access button.
+* *Label*: Enter *Username*.
+* *Placeholder*: Enter *Enter your username*.
+* *Redirect to*: Enter a URL of a page to redirect to after a user requests access.
+* *Button Label*: Enter a name for the access button.
 . Approve or reject the user:
 .. Go to *User management* in the portal and click *Pending registration requests*.
 .. Locate the user in the list and click *Approve* or *Reject*.
+
+== Remove Portal Access From Existing Salesforce Users
+Remove access to the portal access for existing Salesforce users who should no longer access your portal. 
+
+. In Salesforce, go to *Setup* > *Users* > *Users* and select a specific user.
+. From *Permission Set Assignments*, delete the *API Experience Hub Member User* permission set and save your changes. 
++
+The user won't be able to log in to the portal. In the portal, the user's name won't appear in the *User management* > *Portal Members* list. 
+
+== See Also
+
+* xref:api-experience-lightning-components.adoc[]
+* xref:managing-users.adoc[]
