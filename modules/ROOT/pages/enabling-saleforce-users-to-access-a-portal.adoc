@@ -29,7 +29,7 @@ Enable Salesforce users to access the portal.
 .. Go to *User management* in API management and select *Pending registration requests*.
 .. Locate the user in the list and click *Approve*.
 
-== Remove Portal Access From Existing Salesforce Users
+== Remove Portal Access From Salesforce Users
 Remove access to the portal access for existing Salesforce users who should no longer access your portal. 
 
 . In Salesforce, go to *Setup* > *Users* > *Users* and select a specific user.
