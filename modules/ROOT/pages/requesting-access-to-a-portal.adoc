@@ -5,7 +5,7 @@ endif::[]
 
 Salesforce users can request portal access when they don't have Single Sign-On (SSO) configured. 
 
-Before you request access, confirm that you don't have a Single Sign-On (SSO) configuration. This can cause issues in the portal. For example, you might not see all APIs available to you if they are not available in the SSO configuration.
+Before you request access, confirm that you don't have a Single Sign-On (SSO) configuration. Having an SSO configuration can cause issues in the portal. For example, you might not see all APIs available to you if they are not available in the SSO configuration.
 
 If the request access component is available on a portal, Salesforce users can request access. Users can request access by entering their username and clicking the *Requests access* button or the *Submit request* button.
 

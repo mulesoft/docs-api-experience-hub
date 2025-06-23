@@ -14,7 +14,7 @@ Enable Salesforce users to access the portal.
 .. From the Builder, click the *Home* icon > *Administration* > *Login & Registration*.
 .. From the *Login Page Setup* section, select *Allow employees to log in directly to an Experience Cloud Site* and click *Save*.
 . Add the API Experience Hub Member User permission set:
-.. From *Administration*, and click *Members*.
+.. From *Administration*, click *Members*.
 .. From the *Select Permission Sets* section, select *API Experience Hub Member User from Available Permission Sets* in *Available Permission Sets* and click *Add* to populate the permission set in *Selected Permission Sets*.
 .. Click *Save*.
 . Add the *Existing User Request Access* Lightning component to the portal page:
