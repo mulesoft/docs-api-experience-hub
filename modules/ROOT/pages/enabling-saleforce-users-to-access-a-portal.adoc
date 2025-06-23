@@ -23,7 +23,7 @@ Enable Salesforce users to access the portal.
 
 * *Label*: Enter *Username*.
 * *Placeholder*: Enter *Enter your username*.
-* *Redirect to*: Enter the page name to redirect to after a user requests access. The default is redirecting to the page for users to self-register.
+* *Redirect to*: Enter the page name to redirect to after a user requests access. The default is to redirect users to the self-register page.
 * *Button Label*: Enter a name for the access button.
 . Approve or reject the user:
 .. Go to *User management* in API management and select *Pending registration requests*.
