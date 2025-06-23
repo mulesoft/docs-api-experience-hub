@@ -114,7 +114,7 @@ Select the properties to show in the API Catalog:
 * Show asset layout button
 
 == Existing User Request Access
-The Existing User Request Access component enables existing Salesforce users to access a the portal by entering their username and clicking a button to for access.
+The Existing User Request Access component enables existing Salesforce users to access the portal by entering their username and clicking a button to request access.
 
 Enter the properties to show in the component:
 
