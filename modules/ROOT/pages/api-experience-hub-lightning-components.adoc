@@ -27,9 +27,7 @@ Console components include API Console, API Console Documentation, API Console I
 
 The component shows the public API instances and documentation from Anypoint Exchange.
 
-Select the following property to show in the API Console:
-
-* Expand endpoints
+Select *Expand endpoints* to show in the API Console.
 
 == Asset Detail Header
 
@@ -37,7 +35,7 @@ The Asset Details Header component displays the API header, including icon, name
 
 The API icon, name, and description shown are set in the API Experience Hub control panel when you add an API version to your community. The contact email is set in Anypoint Exchange.
 
-Enter or select the following properties to show in the *API details* page:
+Enter or select these properties to show in the *API details* page:
 
 * Record ID
 * Show API Contact
@@ -65,7 +63,7 @@ The API Documentation Viewer component shows an API’s documentation from Anypo
 
 The API Carousel component shows a horizontally scrollable set of API cards that displays on the *Home* page. Each card shows an API.
 
-You can specify values for the following Assets Carousel properties:
+You can specify values for these Assets Carousel properties:
 
 * Title
 +
@@ -113,6 +111,15 @@ Select the properties to show in the API Catalog:
 * Show category pills
 * Show asset layout button
 
+== Existing User Request Access
+The Existing User Request Access component enables existing Salesforce users to access the portal by entering their username and clicking a button to request access.
+
+Enter the properties to show in the component:
+
+* Label
+* Placeholder
+* Redirect to
+* Button Label
 == Search Box
 
 The API Experience Hub Search Box component enables users to search for both content that exists in Salesforce Experience Cloud (such as knowledge articles, support cases, and announcements) and content that exists in Anypoint Platform (such as APIs and client applications). Knowledge article, support cases, and announcements are currently not available.
