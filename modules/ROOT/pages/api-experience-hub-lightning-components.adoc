@@ -120,6 +120,7 @@ Enter the properties to show in the component:
 * Placeholder
 * Redirect to
 * Button Label
+
 == Search Box
 
 The API Experience Hub Search Box component enables users to search for both content that exists in Salesforce Experience Cloud (such as knowledge articles, support cases, and announcements) and content that exists in Anypoint Platform (such as APIs and client applications). Knowledge article, support cases, and announcements are currently not available.
