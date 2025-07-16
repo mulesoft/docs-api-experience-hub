@@ -21,7 +21,7 @@ Assign users to user groups to manage which APIs they can see in your portal. Yo
 . Select one or more user groups and click *Apply*.
 
 == Manage Pending Registration Requests
-Approve or reject requests for users who want to access the portal using the *Pending registration requests* page. You can view the name, email, registration date, and registration status of the users who register for access. By default, users are assigned to the Members profile. You can add them to the available user groups that can see specific APIs in the portal. The maximum pending user registration requests is 500.
+Admins must manually approve or reject requests for users who want to access the portal using the *Pending registration requests* page. You can view the name, email, registration date, and registration status of the users who register for access. By default, users are assigned to the Members profile. You can add them to the available user groups that can see specific APIs in the portal. The maximum pending user registration requests is 500.
 
 When the registration is approved, the user is removed from the list on the *Pending registration requests* page and added to the list of members on the *Portal members* page. 
 
