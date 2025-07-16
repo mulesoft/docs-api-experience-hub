@@ -39,5 +39,5 @@ The user won't be able to log in to the portal. In the portal, the user's name w
 
 == See Also
 
-* xref:api-experience-lightning-components.adoc#existing-user-request-access[Existing User Request Access Lightning component]
+* xref:api-experience-hub-lightning-components.adoc#existing-user-request-access[Existing User Request Access Lightning component]
 * xref:managing-users.adoc[]
