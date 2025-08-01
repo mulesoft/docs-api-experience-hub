@@ -89,6 +89,10 @@ See the following topics for information about supported browsers:
  * xref:general::browser-support.adoc[Browser Support for Anypoint Platform]
  * https://help.salesforce.com/s/articleView?id=sf.networks_communities_browser_support.htm&type=5[Supported Browsers for Experience Cloud Sites^]
  
+[[api-experience-hub-on-control-planes]] 
+== API Experience Hub on Control Planes
+
+All features of API Experience Hub are supported on Japan and Canada control planes.
 
 == See Also
 
