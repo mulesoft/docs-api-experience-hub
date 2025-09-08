@@ -31,9 +31,8 @@ Shows the APIs that exist in your Exchange organization but have not been added 
 //image::aeh-api-description.png[View API Description]
 
 == Opt in to Increase the Number of APIs in the Portal
-Administrators can enable portal scalability in the *API management* page to increase the maximum number of APIs available in your portal to 7,000. 
+Administrators can enable portal scalability in the *API management* page. This increases the maximum number of APIs available in your portal to 7,000. You only need to opt in once to get the maximum API support in your portal. After enabling this option, you can't revert to the portal version that supports up to 350 APIs. New portals automatically scale to 7,000 APIs.
 
-After enabling this option, you can't revert to the portal version that supports up to 350 APIs.
 
 New portals automatically scale to 7,000 APIs. 
 
