@@ -38,7 +38,7 @@ After a guest user registers or an existing Salesforce user requests access, app
 . Click *Approve* or *Reject*.
 
 == Manage User Groups
-Create and manage a group of users who can see specific APIs in your portal using the *User groups* page. 
+Create and manage a group of users who can see specific APIs in your portal using the *User groups* page. The maximum number of user groups is 20.
 
 Before deleting a user group, remove all users, APIs, and the visibility for all API instances assigned to the user group. 
 
