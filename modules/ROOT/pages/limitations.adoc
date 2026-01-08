@@ -10,7 +10,7 @@ This release has the following limitations:
 * A Salesforce organization can't connect to more than one Anypoint organization.
 * Multiple portals per Salesforce organization aren’t supported.
 * API Groups aren't available.
-* The maximum number of user groups is 20.
+* The maximum number of user groups is 100.
 * New API portals can have a maximum of 7,000 APIs.
 * Existing API portals can have a maximum of 350 APIs.
 +
