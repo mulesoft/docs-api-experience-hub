@@ -21,9 +21,9 @@ To see feedback and discussions about an API:
 
 For more information about using Chatter Feed tracking, see the following Salesforce documentation:
 
-* https://help.salesforce.com/s/articleView?id=sf.collab_overview.htm&type=5[Chatter Overview]
-* https://help.salesforce.com/s/articleView?id=sf.collab_home_overview.htm&type=5[Chatter Tab Overview]
-* https://help.salesforce.com/s/articleView?id=sf.collab_feed_posting.htm&type=5[Posting Overview]
+* https://help.salesforce.com/s/articleView?id=experience.collab_overview.htm&type=5[Chatter Overview]
+* https://help.salesforce.com/s/articleView?id=experience.collab_home_overview.htm&type=5[Chatter Tab Overview]
+* https://help.salesforce.com/s/articleView?id=experience.collab_feed_posting.htm&type=5[Posting Overview]
 * https://help.salesforce.com/s/articleView?id=sf.collab_feeds_parent.htm&type=5[Work with Feeds]
 
 
