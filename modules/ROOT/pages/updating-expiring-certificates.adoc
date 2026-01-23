@@ -32,5 +32,5 @@ image::aeh-rename-cert.png["Example for renaming the certificate",width=60%]
 == See Also
 
 * xref:connecting-to-salesforce.adoc[]
-* https://help.salesforce.com/s/articleView?id=sf.named_credentials_about.htm&type=5[Named Credentials]
+* https://help.salesforce.com/s/articleView?id=xcloud.named_credentials_about.htm&type=5[Named Credentials]
 

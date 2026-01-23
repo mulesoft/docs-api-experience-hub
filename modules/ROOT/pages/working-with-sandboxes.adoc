@@ -16,7 +16,7 @@ Manage Salesforce organizations from the *Manage your API portal* page by select
 .. Save your changes. 
 . Ensure that you have sandbox organizations already set up. 
 +
-For more information about creating sandboxes, see https://help.salesforce.com/s/articleView?id=sf.data_sandbox_create.htm&type=5[Create a Sandbox] in the Salesforce documentation.
+For more information about creating sandboxes, see https://help.salesforce.com/s/articleView?id=platform.data_sandbox_create.htm&type=5[Create a Sandbox] in the Salesforce documentation.
 
 [NOTE]
 Anypoint assets and applications aren't copied to sandbox or production organizations.
