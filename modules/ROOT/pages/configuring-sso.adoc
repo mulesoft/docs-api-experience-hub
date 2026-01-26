@@ -208,7 +208,15 @@ image::aeh-sso-saml-settings.png["An example of SAML Settings",width=90%]
 image::aeh-sso-saml-attribute-statements.png["An example of the SAML Attribute Statements",width=60%]
 +
 The example IDs, 00gdkat3p5RCvkQQC5d7 and 00gdjgk337kYDxtE35d7 correspond to the groups that you want to send. Ensure that you send all Anypoint Platform groups when you're configuring Okta in Anypoint Platform. Otherwise, the user can lose access.
-. Click *Next*, select *I’m an Okta customer adding an internal app* and click *Finish*.
+. Enable multi-valued SAML attributes when sending multiple groups in the groups claim. 
++
+Sending groups as a comma-separated list isn't required.
++
+.. Navigate to *Salesforce* > *Setup*.
+.. From *Setup*, in the Quick Find box, enter `Custom Metadata Types`, and then select *Custom Metadata Types*.
+.. Click *Manage Records* for *API Experience Hub Configuration*.
+.. Click *Edit* for the *Default* record, select the *Enable Multi-Valued SAML Attributes* checkbox, and then click *Save*.
+. Click *Next*, select *I’m an Okta customer adding an internal app*, and then click *Finish*.
 . Select the *Assignments* tab and select *Groups*.
 . Click *Assign* and select *Assign to groups*.
 . From the list, click *Assign* from the row of the specific group and click *Done*.           
@@ -313,6 +321,14 @@ At least one group must be associated to perform a group mapping in a later step
 |Source attribute|user.principalname
 |===
 .. Save your changes.
+. Enable multi-valued SAML attributes when sending multiple groups in the groups claim. 
++
+Sending groups as a comma-separated list isn't required.
++
+.. Navigate to *Salesforce* > *Setup*.
+.. From *Setup*, in the Quick Find box, enter `Custom Metadata Types`, and then select *Custom Metadata Types*.
+.. Click *Manage Records* for *API Experience Hub Configuration*.
+.. Click *Edit* for the *Default* record, select the *Enable Multi-Valued SAML Attributes* checkbox, and then click *Save*.
 . If this single sign-on is already configured in Anypoint Platform, map the application to the identity provider for Anypoint Platform using a new custom attribute, `anypoint_idp_id`.   
 .. Click *+ Add new claim* and complete these fields:
 +
