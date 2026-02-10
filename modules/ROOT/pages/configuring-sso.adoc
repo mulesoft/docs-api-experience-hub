@@ -101,8 +101,8 @@ To configure the redirects, use your 15 digit organization ID and 18 digits org 
 .. In the Okta application, select the *General* tab.
 Add the following URLs for *Sign-in redirect URIs*:    
 +
-* `\https://login.salesforce.com/services/authcallback/${15DigitSalesforceOrganizationId}/${authProviderURLSuffix}`
-* `\https://login.salesforce.com/services/authcallback/${18DigitSalesforceOrganizationId}/${authProviderURLSuffix}`
+* `\https://login.salesforce.com/_nc_external/identity/sso/ui/AuthorizationError?ErrorCode=Bad_Id`
+* `\https://login.salesforce.com/_nc_external/identity/sso/ui/AuthorizationError?ErrorCode=Bad_Id`
 * `\https://${domain}.my.site.com/aeh/services/authcallback/${authProviderURLSuffix}`
 +
 image::aeh-sso-redirect-uris.png["An example of Redirect URIs",width=60%]

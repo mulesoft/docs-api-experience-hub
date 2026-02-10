@@ -63,8 +63,8 @@ Clicking the Page Structure icon, which resembles a bulleted list, shows the com
 == Settings
 Clicking the Settings gear icon offers these parameters:
 
-* https://help.salesforce.com/articleView?id=community_builder_general_settings.htm&type=5[General]
-* https://help.salesforce.com/articleView?id=community_builder_theme.htm&type=5[Theme]
+* https://help.salesforce.com/s/articleView?language=en_US&id=community_builder_general_settings.htm&type=5[General]
+* https://help.salesforce.com/s/articleView?language=en_US&id=community_builder_theme.htm&type=5[Theme]
 * SEO
 +
 Search Engine Optimization (SEO) features define what information can be indexed by external services and discovered through online searches, and can increase traffic to your public community.
