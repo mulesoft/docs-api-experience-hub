@@ -57,8 +57,8 @@ To configure Google Analytics to send events from the portal:
 ----
 . From *Setup*, click *Security & Privacy*.
 . Confirm that the following URLs show in the *Trusted Sites for Scripts* section:
-* https://www.google-analytics.com
-* https://www.googletagmanager.com
+* `https://www.google-analytics.com`
+* `https://www.googletagmanager.com`
 . If the URLs are missing, add them by clicking *Add Trusted Site*.
 . From *Setup*, click *Security* > *Trusted URLs*.
 . Confirm that the same two URLs are in the list of the *Trusted URLs* section.
