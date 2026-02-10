@@ -186,7 +186,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 |Field|Value
 |*Single Sign-On URL* |Enter the URL for the portal login.
 |*Use this for Recipient URL and Destination URL*|Select this option.
-|*Audience URI (SP Entity ID)* |Enter https with the Salesforce domain or example, `https://{salesforcedomain}.com`.
+|*Audience URI (SP Entity ID)* |Enter https with the Salesforce domain or example, `\https://{salesforcedomain}.com`.
 |*Name ID format* |*EmailAddress*
 |*Application username* |*Okta username*
 |*Update application username on* |*Create and update*
@@ -272,10 +272,10 @@ Create a new application for the API Experience Hub portal in the identity provi
 [%header,cols="1a,2a"]
 |===
 |Field|Value
-|Identifier (Entity ID)|`https://<YOUR_DOMAIN>.my.site.com/aeh`
-|Reply URL (Assertion Consumer Service URL)| `https://<YOUR_DOMAIN>.my.site.com/aeh/login`
-|Sign on URL |`https://<YOUR_DOMAIN>.my.site.com/aeh/login`
-|Logout Url (Optional)|`https://<YOUR_DOMAIN>.my.site.com/aeh/services/auth/sp/saml2/logout`
+|Identifier (Entity ID)|`\https://<YOUR_DOMAIN>.my.site.com/aeh`
+|Reply URL (Assertion Consumer Service URL)| `\https://<YOUR_DOMAIN>.my.site.com/aeh/login`
+|Sign on URL |`\https://<YOUR_DOMAIN>.my.site.com/aeh/login`
+|Logout Url (Optional)|`\https://<YOUR_DOMAIN>.my.site.com/aeh/services/auth/sp/saml2/logout`
 |===
 .. Save your changes.
 . Configure the required first name, last name, email, and username claims that the application sends:
