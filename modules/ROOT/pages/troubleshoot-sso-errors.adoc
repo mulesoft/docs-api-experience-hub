@@ -12,9 +12,9 @@ A 400 error occurs when logging in to the portal with SSO if the external identi
 
 To troubleshoot this issue, make sure to include necessary redirect URIs:
 
-* https://login.salesforce.com/services/authcallback/${salesforceOrganizationId}/${authProviderURLSuffix}
-* https://${domain}.my.salesforce.com/services/authcallback/${authProviderURLSuffix}
-* https://${domain}.my.site.com/aeh/services/authcallback/${authProviderURLSuffix}
+* `\https://login.salesforce.com/services/authcallback/${salesforceOrganizationId}/${authProviderURLSuffix`
+* `\https://${domain}.my.salesforce.com/services/authcallback/${authProviderURLSuffix}`
+* `\https://${domain}.my.site.com/aeh/services/authcallback/${authProviderURLSuffix}`
 
 To get the following redirect URIs:
 
