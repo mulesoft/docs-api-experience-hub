@@ -12,7 +12,7 @@ There is no supported way to change the user who created the connection in API E
 [[what-to-consider]]
 == Before You Disconnect
 
-Disconnecting your API portal removes artifacts from the API Experience Hub database and unlinks Anypoint from your Salesforce organization.
+Disconnecting your API portal removes artifacts from the API Experience Hub database and unlinks Anypoint Platform from your Salesforce organization.
 
 These artifacts are permanently removed from API Experience Hub:
 
