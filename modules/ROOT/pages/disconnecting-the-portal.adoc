@@ -5,6 +5,10 @@ endif::[]
 
 Anypoint Platform can connect to only one Salesforce organization, and you can create only one API portal for that organization. To create a new API portal, you must disconnect the current API portal from your Salesforce organization. This process unlinks Anypoint Platform from your Salesforce organization. You can then link your Anypoint Platform account to a new Salesforce organization.
 
+If you reconnect the portal (for example, after creating a new connection), you must reconfigure SSO, republish all APIs to the portal, and reconfigure group mapping. There is no process to restore the previous configuration automatically. Note that styling metadata is retained when reconnecting to the same Salesforce organization.
+
+There is no supported way to change the user who created the connection in API Experience Hub. To assign the connection to a different user, you must disconnect and create a new connection. For more information, see xref:assigning-permissions.adoc[].
+
 [[what-to-consider]]
 == Before You Disconnect
 
@@ -16,19 +20,6 @@ These artifacts are permanently removed from API Experience Hub:
 * All custom user groups
 * All group mapping configurations (for both custom and default user groups)
 * The Single Sign-On (SSO) configuration
-
-[[if-you-reconnect]]
-=== If You Reconnect Later
-
-If you reconnect the portal (for example, after creating a new connection), you must reconfigure SSO, republish all APIs to the portal, and reconfigure group mapping. There is no process to restore the previous configuration automatically. Note that styling metadata is retained when reconnecting to the same Salesforce organization.
-
-[[changing-connection-user]]
-=== Changing the User Who Created the Connection
-
-There is no supported way to change the user who created the connection in API Experience Hub. To assign the connection to a different user, you must disconnect and create a new connection. For more information, see xref:assigning-permissions.adoc[].
-
-[[before-disconnect-steps]]
-=== Before You Disconnect the Portal
 
 Before you disconnect, record the following information so you can restore your portal configuration after reconnecting:
 
