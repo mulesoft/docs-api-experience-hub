@@ -34,7 +34,9 @@ Before you disconnect, record the following information so you can restore your 
 
 . Record your published APIs and visibility settings.
 .. From the *API management* page, select the *APIs in the portal* tab.
-.. Record a list of all APIs in the portal. You must re-publish these under the new connection.
+.. Record a list of all APIs in the portal.
++
+You must republish these APIs under the new connection.
 .. For each API, record its visibility settings (including instance and user visibility per version) so you can restore them after reconnecting. For more information, see xref:managing-apis.adoc#make-api-versions-visible[].
 
 . Record your user groups information.
