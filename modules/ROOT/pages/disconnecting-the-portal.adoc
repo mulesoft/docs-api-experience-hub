@@ -3,12 +3,14 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Anypoint can connect to only one Salesforce organization, and you can create only one API portal for that organization. To create a new API portal, you must disconnect the current API portal from your Salesforce organization. This process unlinks Anypoint from your Salesforce organization. You can then link your Anypoint account to a new Salesforce organization.
+Anypoint Platform can connect to only one Salesforce organization, and you can create only one API portal for that organization. To create a new API portal, you must disconnect the current API portal from your Salesforce organization. This process unlinks Anypoint Platform from your Salesforce organization. You can then link your Anypoint Platform account to a new Salesforce organization.
 
 [[what-to-consider]]
 == Before You Disconnect
 
-Disconnecting your API portal removes artifacts from the API Experience Hub database and unlinks Anypoint from your Salesforce organization. The following artifacts are permanently removed from API Experience Hub:
+Disconnecting your API portal removes artifacts from the API Experience Hub database and unlinks Anypoint from your Salesforce organization.
+
+These artifacts are permanently removed from API Experience Hub:
 
 * All published assets and their visibility settings
 * All custom user groups
@@ -18,7 +20,7 @@ Disconnecting your API portal removes artifacts from the API Experience Hub data
 [[if-you-reconnect]]
 === If You Reconnect Later
 
-If you reconnect the portal (for example, after creating a new connection), you must reconfigure SSO, re-publish all APIs to the portal, and reconfigure group mapping. There is no process to restore the previous configuration automatically. Note that styling metadata is retained when reconnecting to the same Salesforce organization.
+If you reconnect the portal (for example, after creating a new connection), you must reconfigure SSO, republish all APIs to the portal, and reconfigure group mapping. There is no process to restore the previous configuration automatically. Note that styling metadata is retained when reconnecting to the same Salesforce organization.
 
 [[changing-connection-user]]
 === Changing the User Who Created the Connection
@@ -26,7 +28,7 @@ If you reconnect the portal (for example, after creating a new connection), you 
 There is no supported way to change the user who created the connection in API Experience Hub. To assign the connection to a different user, you must disconnect and create a new connection. For more information, see xref:assigning-permissions.adoc[Assigning Permissions].
 
 [[before-disconnect-steps]]
-=== Steps to Complete Before Disconnecting
+=== Before You Disconnect the Portal
 
 Before you disconnect, record the following information so you can restore your portal configuration after reconnecting:
 
@@ -36,8 +38,12 @@ Before you disconnect, record the following information so you can restore your 
 .. For each API, record its visibility settings (including instance and user visibility per version) so you can restore them after reconnecting. For more information, see xref:managing-apis.adoc#make-api-versions-visible[Make API Versions Visible].
 
 . Record your user groups information.
-.. From the *User groups* page, record all user groups and their details (for example, group names and members). For more information, see xref:managing-users.adoc#manage-user-groups[Manage User Groups].
-.. For each group, record the corresponding identity provider name. You will need this when you re-enable SSO and reconfigure group mapping. For more information, see xref:managing-users.adoc#map-user-groups-to-external-identity-providers[Map User Groups to External Identity Providers] and xref:configuring-sso.adoc[Configuring SSO].
+.. From the *User groups* page, record all user groups and their details (for example, group names and members).
++
+For more information, see xref:managing-users.adoc#manage-user-groups[Manage User Groups].
+.. For each group, record the corresponding identity provider name.
++
+You need this information when you re-enable SSO and reconfigure group mapping. For more information, see xref:managing-users.adoc#map-user-groups-to-external-identity-providers[Map User Groups to External Identity Providers] and xref:configuring-sso.adoc[].
 
 == Disconnect the Portal
 
