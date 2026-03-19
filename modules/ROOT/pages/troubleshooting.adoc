@@ -124,7 +124,7 @@ If you're not receiving emails from Salesforce Experience Cloud, disable the sta
 == Contact MuleSoft Support
 For professional services customizations, enhancement requests, and other help, contact your MuleSoft Customer Success representative.
 
-To report issues or defects in API Experience Hub, submit a support case through the https://help.salesforce.com[Salesforce Help].
+To report issues or defects in API Experience Hub, submit a support case from https://help.salesforce.com[Salesforce Help].
 
 The MuleSoft support team works closely with the Salesforce support team to coordinate work on any support tickets involving Salesforce technology.
 
