@@ -37,7 +37,7 @@ You can view the following details about an application:
 Displays the application’s internet address. Click the link to go to the URL.
 * Last updated
 +
-Displays the date and time of the last client secret reset, in your local timezone.
+Displays the date and time when the application was last modified, in your local timezone.
 * Client Credentials
 +
 Displays the application’s client ID and client secret.
@@ -70,8 +70,6 @@ To reset the client secret:
 . From the *Client Credentials* section, click *Reset client secret*. 
 . Click *Confirm*.
 . To view the new client secret, click the View icon.
-
-NOTE: After you reset the client secret, the *Last updated* field shows the reset date and time in your local timezone.
 
 === Edit the Client Application Details
 You can edit a client application name, description, OAuth 2.0 grant type, OAuth 2.0 Redirect URIs, and SLA Tier from the Application Details page. 
