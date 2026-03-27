@@ -44,6 +44,9 @@ Lists the application’s redirect URIs.
 * OAuth 2.0 Grant Type
 +
 Lists the application’s grant types. 
+* Last Updated
++
+Displays the date when the application credentials (client ID and client secret) were last reset.
 * API Contracts
 +
 From the API contracts section, you can see the application’s API name, environment and instances, instance URLs, SLA tier, and request access state. The environment can be either a sandbox or development environment. Request access states can be `pending`, `approved`, or `failed`.
@@ -66,7 +69,9 @@ To reset the client secret:
 
 . From the *Client Credentials* section, click *Reset client secret*. 
 . Click *Confirm*.
-. To view the new client secret, click the View icon. 
+. To view the new client secret, click the View icon.
+
+NOTE: After resetting the client secret, the *Last Updated* date on the Application Details page reflects the date of the reset.
 
 === Edit the Client Application Details
 You can edit a client application name, description, OAuth 2.0 grant type, OAuth 2.0 Redirect URIs, and SLA Tier from the Application Details page. 
