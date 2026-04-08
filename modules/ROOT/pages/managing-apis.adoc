@@ -3,12 +3,17 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-From the *API management* page, curate your portal by viewing information about an API from Exchange, adding or removing APIs, and changing the visibility of an API version.
+From the *API management* page, curate your portal by viewing information about an asset from Exchange, adding or removing assets, and changing the visibility of a version.
 
-The portal supports the following API types:
+The portal supports the following asset types:
 
+* Agents
 * AsyncAPI
+* GraphQL
+* gRPC
 * HTTP
+* LLM
+* MCP server
 * REST
 * SOAP
 
