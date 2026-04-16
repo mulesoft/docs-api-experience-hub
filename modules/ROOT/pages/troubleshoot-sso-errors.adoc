@@ -81,7 +81,7 @@ New users (those who don't exist in the Salesforce system yet) can log in succes
 +
 Errors occurs because the API Experience Hub configuration is missing the specific user profiles of the users trying to log in. When the SSO attempt is made, the system doesn't see the user's profile as authorized for that specific API Experience Hub instance, causing the authentication process to fail for those established users.
 +
-To troubleshoot this issue, follow the instructions in the Salesforce article, https://help.salesforce.com/s/articleView?id=005316413&type=1[API Experience HUb - Salesforce Users Unable to Log In to API Experience Hub Using JIT-Provisioned SSO] to fix the issue.
+To troubleshoot this issue, follow the instructions in the Salesforce article, https://help.salesforce.com/s/articleView?id=005316413&type=1[API Experience Hub - Salesforce Users Unable to Log In to API Experience Hub Using JIT-Provisioned SSO] to fix the issue.
 
 * The Entity ID isn't the same in both the Salesforce Auth. Provider and the identity provider.
 +
