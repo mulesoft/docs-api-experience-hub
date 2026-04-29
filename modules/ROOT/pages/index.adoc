@@ -52,17 +52,17 @@ Manage the catalog by adding services from Exchange and setting the visibility f
 Publish the portal to make it available to your community.
 
 == Portal Pages
-Each API Experience Hub portal includes a Home page, a Services page, and a service details page. The portal administrator can customize each page to fit the organization's needs. For more information, see xref:setting-up-the-api-portal.adoc[].
+Each API Experience Hub portal includes a Home page, a Services page, and a Service Details page. The portal administrator can customize each page to fit the organization's needs. For more information, see xref:setting-up-the-api-portal.adoc[].
 
-The following sample portal shows the Home page: 
+//The following sample portal shows the Home page: 
 
-image::aeh-home-page.png[Home page of a portal]
+//image::aeh-home-page.png[Home page of a portal]
 
 The portal includes these template pages:
 
 * Home
 +
-The Home page includes the banner image, portal title, carousel, and navigation to services by type and serves as the landing page of the portal. The Carousel offers consumers a preview of the most recent services added to the portal. Each card contains the service name, icon, type, and description. When selected, developers can view all the information about a service on the service details page.  
+The Home page includes the banner image, portal title, Carousel, and navigation to services by type and serves as the landing page of the portal. The Carousel offers consumers a preview of the most recent services added to the portal. Each card contains the service name, icon, type, and description. When selected, developers can view all the information about a service on the service details page.  
 
 * Services
 +

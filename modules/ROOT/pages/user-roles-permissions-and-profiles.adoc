@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-This topic provides information about the user roles, permissions, and profiles used in API Experience Hub for  Salesforce Experience Cloud and Anypoint Platform. 
+This topic provides information about the user roles, permissions, and profiles used in API Experience Hub for Salesforce Experience Cloud and Anypoint Platform. 
 
 * For Anypoint Platform, users with different access levels are managed using Anypoint Access Management. You can configure the permissions for administrators and Exchange viewers. For more information, see xref:access-management::managing-permissions.adoc[Managing Permissions in Access Management]. 
 * For Experience Cloud, the System Administrator profile or the AEH_Anypoint permission set is required for the user who performs the linking process. 
@@ -14,17 +14,15 @@ The Organization Administrator role has all of the permissions necessary to crea
 
 //If there is more than one user who intends to curate and manage the portal, the Organization Administrator can grant another user the API Experience Hub Portal Administrator permission. This administrator has fewer permissions in the portal than the Organization Administrator and the API Experience Hub Administrator.
 
-An API Experience Hub Admin team and an API Experience Hub Portal Admin team is created in Access Management during the connecting and linking process. Once your Salesforce organization is successfully connected to your Anypoint organization, the AEH Admin team is created. Any user, who is assigned the AEH Admin, is automatically added to the AEH Admin team. 
+An API Experience Hub Admin team and an API Experience Hub Portal Admin team are created in Access Management during the connecting and linking process. Once your Salesforce organization is successfully connected to your Anypoint organization, the AEH Admin team is created. Any user, who is assigned the AEH Admin, is automatically added to the AEH Admin team. 
 
 After your styling changes for the portal are saved, the AEH Portal Admin team is created. Although the API Experience Hub Portal Administrator team is visible in Access Management, this permission isn't supported in this release.
-Once your styling changes for the portal are saved, the AEH Portal Admin team is created. Although the API Experience Hub Portal Administrator team is visible in Access Management, this permission isn't supported in this release.
 
-Administrators can only add APIs for which they have the Exchange Viewer permission. When APIs are added to the portal, all administrators are automatically assigned the Exchange Viewer permission. 
+Administrators can only add services for which they have the Exchange Viewer permission. When services are added to the portal, all administrators are automatically assigned the Exchange Viewer permission. 
 
-API Experience Hub is integrated with Salesforce Experience Cloud. Administrators access the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore, API Experience Hub can't determine the individual administrator's action in the shared account. 
-API Experience Hub is integrated with Salesforce Experience Cloud. Administrators access the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore, API Experience Hub can't determine the individual administrator's action in the shared account. 
+API Experience Hub is integrated with Salesforce Experience Cloud. Administrators access the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore, API Experience Hub can't determine the individual administrator's action in the shared account.
 
-The System Administrator profile has specific permissions to perform functions on the Salesforce Platform. The user with this profile performs the initial step of creating an API portal by connecting to the Salesforce Experience Cloud and linking the Salesforce organization to the Anypoint organization. This process can only be done by the user with the System Administrator profile. The AEH_Anypoint permission set can also be created to have only the minimal necessary permissions for the user who performs the linking process. For more information, see xref:assigning-permissions.adoc[].
+The System Administrator profile has specific permissions to perform functions on the Salesforce Platform. The user with this profile performs the initial step of creating a portal by connecting to the Salesforce Experience Cloud and linking the Salesforce organization to the Anypoint organization. This process can only be done by the user with the System Administrator profile. The AEH_Anypoint permission set can also be created to have only the minimal necessary permissions for the user who performs the linking process. For more information, see xref:assigning-permissions.adoc[].
 
 |===
 |Role/Permission/Profile |Description |Actions

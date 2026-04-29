@@ -17,7 +17,7 @@ To set up an organization, you can have the following Salesforce editions:
 
 * Unlimited Edition
 * Enterprise Edition
-* Performance Editions of Salesforce
+* Performance Edition of Salesforce
 
 
 
