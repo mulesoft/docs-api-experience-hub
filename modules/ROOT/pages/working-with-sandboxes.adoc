@@ -260,7 +260,7 @@ All configurations deploy in the production organization and you're ready to con
 .. From Anypoint Platform, select *API Experience Hub*.
 .. Connect the Salesforce production organization (Enterprise organization).
 .. Click *Use existing portal* to reuse the portal that already exists.
-.. From the *API management* page, add assets to the portal.
+.. From the *Catalog management* page, add assets to the portal.
 .. Click *Preview and publish your portal* to preview the portal, and then click *Publish*.
 
 == See Also

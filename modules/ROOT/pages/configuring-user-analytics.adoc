@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Use Google Analytics to gain valuable insights into how consumers are using your APIs and portal, identify areas for improvement, make data-driven decisions to optimize the user experience, and drive business success.
+Use Google Analytics to gain valuable insights into how consumers are using your services and portal, identify areas for improvement, make data-driven decisions to optimize the user experience, and drive business success.
 
 Google Analytics tracks the following data:
 

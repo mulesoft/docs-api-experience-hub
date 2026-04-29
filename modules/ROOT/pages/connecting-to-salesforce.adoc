@@ -5,7 +5,7 @@ endif::[]
 
 API Experience Hub contains a Salesforce organization with Experience Cloud and a managed package. The managed package is installed during the onboarding process. The API Experience Hub administrator or a Salesforce user with the System Administrator profile or xref:user-roles-permissions-and-profiles.adoc[AEH_Anypoint permission set] connects the Salesforce organization to the Anypoint Platform organization. The managed package contains the components and data objects that interact with your Anypoint Platform organization. The Salesforce System Administrator can view the *API Experience Hub* package in the Salesforce organization from Salesforce by navigating to *Setup* > *Installed Packages* and selecting the *API Experience Hub Package*.
 
-A connection with Salesforce Experience Cloud is required for linking to the Salesforce organization to create an API portal within Anypoint Platform. This process must be completed only once to create a portal. Currently, an instance of API Experience Hub can connect only to one Anypoint Platform organization and one Salesforce organization.
+A connection with Salesforce Experience Cloud is required for linking to the Salesforce organization to create a portal within Anypoint Platform. This process must be completed only once to create a portal. Currently, an instance of API Experience Hub can connect only to one Anypoint Platform organization and one Salesforce organization.
 
 When the connection is established, changing the connection doesn't impact the connection between the Salesforce organization and Anypoint Platform. Switching between production and sandbox environments also doesn't affect the connection. The portal remains operational. 
 

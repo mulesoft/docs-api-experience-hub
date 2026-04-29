@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-The process of creating your API portal includes these steps:
+The process of creating your portal includes these steps:
 
 . xref:connecting-to-salesforce.adoc[Connect to Salesforce]
 +
