@@ -14,7 +14,7 @@ This release has the following limitations:
 * New portals can have a maximum of 7,000 services.
 * Existing portals can have a maximum of 350 services.
 +
-Don't make changes to the permissions of the out-of-the-box Teams created in Access Management for API Experience Hub. Each asset added to the portal uses two permissions and Access Management has a limit of 1,000 permissions per team.
+Don't make changes to the permissions of the out-of-the-box Teams created in Access Management for API Experience Hub. Each service added to the portal uses two permissions and Access Management has a limit of 1,000 permissions per team.
 * Enable scalability on the *Catalog management* page to increase the maximum number of services to 7,000 for the portal. After you enable this option, you can't revert to the portal version that supports up to 350 services.
 + 
 For more information, see xref:managing-apis.adoc#opt-in-to-increase-the-number-of-services-in-the-portal[Opt in to Increase the Number of Services in the Portal]. 
