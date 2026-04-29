@@ -30,12 +30,12 @@ To troubleshoot this issue, publish the portal from the Builder.
 
 . Navigate to *Anypoint Platform*, enter your username and password, and  click *Sign in*.
 . From Anypoint Platform, select *API Experience Hub* from the list of products. 
-. From the *Manage your API portal* page, click *Preview and publish your portal*.
+. From the *Manage your portal* page, click *Preview and publish your portal*.
 . Click *Publish*. 
 
-== API Carousel Not Loading
+== Carousel Not Loading
 
-After logging in to the portal successfully, you can't see APIs in the API Carousel.
+After logging in to the portal successfully, you can't see services in the Carousel.
 
 A few issues can cause this error to occur:
 

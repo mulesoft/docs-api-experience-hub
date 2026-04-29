@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-You can enable collaboration with members of an portal community using Salesforce Chatter Feed components to:
+You can enable collaboration with members of a portal community using Salesforce Chatter Feed components to:
 
 * Sharing posts and updates
 * Participating in polling

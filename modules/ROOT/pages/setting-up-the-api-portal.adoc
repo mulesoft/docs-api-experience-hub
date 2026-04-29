@@ -1,36 +1,36 @@
-= Setting Up the API Portal 
+= Setting Up the Portal
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 :page-aliases: styling-your-api-portal.adoc
 
-After connecting to your Salesforce organization, the guided setup takes portal administrators through the process setting up the portal, including creating and styling it using out-of-the-box templates.
+After connecting to your Salesforce organization, the guided setup takes portal administrators through the process of setting up the portal, including creating and styling it using out-of-the-box templates.
 
 You can create a new portal, use an existing portal to create the new portal, or create the portal later. The option to create a new portal uses an existing portal that was disconnected from a Salesforce organization. The new portal uses the styling metadata from the existing portal. Selecting this option from the guided setup enables you to quickly set up the portal without going through the styling process. Because you can have only one Salesforce organization per portal, the existing portal is overwritten with the new portal for that Salesforce organization.
 
-The guided design contains basic styling options for the Home, API Catalog, and API Details pages with a live preview to help you visualize your portal. Each page includes a progress bar to see where you're in the portal design process. 
+The guided design contains basic styling options for the Home, Catalog, and Service Details pages with a live preview to help you visualize your portal. Each page includes a progress bar to see where you are in the portal design process. 
 
-Styling an API portal includes the following tasks:
+Styling a portal includes the following tasks:
 
 . Style the Home page
 +
-The Home page is the landing page of your API portal and is also known as the API Carousel. The template includes adding a logo, banner image, org branding, banner title, description of the portal, and footer configuration. 
+The Home page is the landing page of your portal and is also known as the Carousel. The template includes adding a logo, banner image, org branding, banner title, description of the portal, and footer configuration. 
 
-. Style the API Catalog
+. Style the Catalog
 +
-The APIs page contains the collection of APIs in your portal and is known as the API Catalog. The template includes customizing the colors for each API type like REST and HTTP.
+The Services page contains the collection of services in your portal and is known as the Catalog. The template includes customizing the colors for each service type like agents, APIs, LLMs, and MCP servers.
 
-. Style the API Details page
+. Style the Service Details page
 +
-The API Details page displays information about an API. The template includes the name, type of API, owner email address, and a description of the API. 
+The Service Details page displays information about a service. The template includes the name, type of service, owner email address, and a description of the service. 
 
-== Set Up an API Portal
-Set up an API portal by choosing how to create the portal.
+== Set Up a Portal
+Set up a portal by choosing how to create the portal.
 
-. From the *Set up API portal* page of the guided setup, select an option to create the portal:
+. From the *Set up portal* page of the guided setup, select an option to create the portal:
 .. To create a new portal, click *Create new portal*. 
 .. To create a new portal using an existing portal's styling selections, click *Use existing portal* and click *Override and create new portal*.
-.. To create the portal at later time, click *Set up portal later*.
+.. To create the portal at a later time, click *Set up portal later*.
 
 == Style Your Portal
 
@@ -46,42 +46,42 @@ Before styling your portal, you need the following:
 * Fonts for company branding
 * Image to use as a header for your portal
 
-== Style API Portal Homepage
+== Style Portal Homepage
 Follow the guided steps to style the homepage:
 
 . To add a company logo, drag or upload an image file to *Upload company logo*.
 +
-The supported file format is PNG, JPEG, SVG, and GIF.
+The supported file formats are PNG, JPEG, SVG, and GIF.
 . To add a banner image, drag or upload an image file to *Select banner image*.
 +
-The supported file format is PNG, JPEG, SVG, and GIF.
+The supported file formats are PNG, JPEG, SVG, and GIF.
 //. To edit an image, click *Edit*.
 . To brand your org with fonts and colors, from *Customize org branding*:
 ** Select a font style from the drop-down menu.
 ** Select a font color for the banner image from the color picker.
 ** Select a page background color from the color picker.
 . To add a title for your portal banner, enter the title in the *Enter portal banner title* text box.
-. To add a description for your API portal, enter the description in the *Enter portal description* text box.
-. To add a footer text and an URL, enter the footer text and URL in the corresponding text boxes from *Configure footer*.
-. Click *Next* to style the API Catalog.
+. To add a description for your portal, enter the description in the *Enter portal description* text box.
+. To add footer text and a URL, enter the footer text and URL in the corresponding text boxes from *Configure footer*.
+. Click *Next* to style the Catalog.
 
-== Style API Catalog
-Follow the guided steps to style the API Catalog:
+== Style Catalog
+Follow the guided steps to style the Catalog:
 
-. To customize the color of specific APIs, select a color from the color picker for the corresponding API type from *Customize colors*.
-. To add a banner title for your API Catalog, enter the title in the *Enter API catalog banner title* text box.
-. To add a description for your API Catalog, enter the description in the *Enter API catalog description* text box.
-. Click *Next* to style the API Details page.
+. To customize the color of specific services, select a color from the color picker for the corresponding service type from *Customize colors*.
+. To add a banner title for your Catalog, enter the title in the *Enter catalog banner title* text box.
+. To add a description for your Catalog, enter the description in the *Enter catalog description* text box.
+. Click *Next* to style the Service Details page.
 
-== Style API Details
-Follow the guided steps to style the API Details page:
+== Style Service Details
+Follow the guided steps to style the Service Details page:
 
-. To show the API owner’s email, enable *API Contact* from *Customize API Information*. 
-. To show API Clients applications on the API details page, enable *API Clients* from *Customize API information*.
-. To add a banner title to the API Details page, enter the title in the *Enter API detail banner Title* text box.
-. To add a description of the API Details page, enter the description in the *Enter API detail description* text box.
+. To show the service owner's email, enable *Service Contact* from *Customize service information*. 
+. To show client applications on the *Service Details* page, enable *Service Clients* from *Customize service information*.
+. To add a banner title to the Service Details page, enter the title in the *Enter service detail banner Title* text box.
+. To add a description of the Service Details page, enter the description in the *Enter service detail description* text box.
 . If you're not done styling your portal, click *Previous* to change the styling on previous pages.
-. If you're done with styling up your portal, click *Save changes*.
+. If you're done styling your portal, click *Save changes*.
 +
 The process of saving your styles and creating the portal can take several minutes. You can navigate away from the page. 
 
@@ -93,7 +93,7 @@ The following settings are set by default when the portal is created:
 * Status of the portal is active.
 
 == Next Steps
-Now that your portal is created, you can manage APIs by adding them to the portal, manage users, view settings information, and disconnect a portal from the xref:managing-your-portal.adoc[Manage your portal] page. 
+Now that your portal is created, you can manage services by adding them to the portal, manage users, view settings information, and disconnect a portal from the xref:managing-your-portal.adoc[Manage your portal] page. 
 
 == See Also
 

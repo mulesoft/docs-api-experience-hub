@@ -47,7 +47,7 @@ Your current login page displays in the Builder.
 . From *Theme*, click *Colors*. 
 . From the *Login Pages* section, select a color from the *Background Color* color picker.
 +
-The background color of your Login page changes to the select color.
+The background color of your Login page changes to the selected color.
 
 == Change the Card Background Color of the Login Page
 To change the card background color of your login page card: 

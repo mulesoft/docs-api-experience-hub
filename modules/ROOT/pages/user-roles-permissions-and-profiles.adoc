@@ -36,35 +36,34 @@ a|
 a|
 * Perform the Salesforce linking process
 * Create a portal
-* Add and remove APIs from the portal
-* Assign the visibility of an API instance
+* Add and remove services from the portal
+* Assign the visibility of an instance
 * Manage users
 * Use Experience Builder to customize portal
-|API Experience Hub Administrator|The admin inherits all of the Organization Administrator permissions necessary to create your API Portal. 
+|API Experience Hub Administrator|The admin inherits all of the Organization Administrator permissions necessary to create your Portal. 
 a|
 * Perform the Salesforce linking process
 * Create a portal
-* Add and remove APIs from the portal
-* Assign the visibility of an API instance
+* Add and remove services from the portal
+* Assign the visibility of an instance
 * Create a new connection to Salesforce and new portals
 * Manage users
 * Use Experience Builder to customize portal |
 API Experience Hub Portal Administrator| Currently, can manage only one API portal in the organization 
 a|
-* Add and remove specific APIs from the portal
-* Assign the visibility of an API instance
+* Add and remove specific services from the portal
+* Assign the visibility of an instance
 |===
 
 === Exchange Permissions
-All administrators must have the Exchange Viewer permission to import APIs into the portal.
+All administrators must have the Exchange Viewer permission to import services into the portal.
 
 |===
 |Permission |Description |Actions
 |Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission can't add new assets, edit asset portal content, or share an asset with another user.
-|Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission can't add new assets, edit asset portal content, or share an asset with another user.
 a|
 * View Services in Exchange
-* Import APIs from Exchange to the portal |
+* Import services from Exchange to the portal |
 |===
 
 == User Roles for Configuring SSO
@@ -107,20 +106,20 @@ These are groups of users with certain permissions that you can manage using the
 
 |===
 |User Profile |Description |Actions
-|Guest| This user’s profile is anonymous and isn't logged in the API portal. 
+|Guest| This user’s profile is anonymous and isn't logged in the portal. 
 a|
-* View public APIs that are shared with them
+* View public services that are shared with them
 * Can self-register to become a member
-* Can't request access to APIs 
+* Can't request access to services 
 |Member|This is a registered user who can log in to a portal.
 a|
-* View public APIs and other APIs that are shared with them
+* View public services and other services that are shared with them
 * Registered using self-registration to become a member
-* Request access to APIs| 
-* View public APIs and other APIs that are shared with them.
-* View APIs assigned to the user group they belong to.
+* Request access to services| 
+* View public services and other services that are shared with them.
+* View services assigned to the user group they belong to.
 * Registered using self-registration to become a member.
-* Request access to APIs.| 
+* Request access to services.| 
 |===
 
 == See Also

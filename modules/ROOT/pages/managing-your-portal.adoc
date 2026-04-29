@@ -3,11 +3,11 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-After your portal is styled using the guided design, the *Manage your API portal* page provides options to manage APIs, users, settings, environments, and surfaces issues that occur while managing the portal.
+After your portal is styled using the guided design, the *Manage your portal* page provides options to manage services, users, settings, environments, and surfaces issues that occur while managing the portal.
 
 * xref:managing-apis.adoc[Catalog management]
 + 
-Add your APIs from Exchange into your API portal, remove APIs from your portal, view list of APIs that you have in Exchange, and change the visibility of an API version.
+Add your services from Exchange into your portal, remove services from your portal, view list of services that you have in Exchange, and change the visibility of a version.
 
 * xref:managing-users.adoc[User Management]
 + 
@@ -19,7 +19,7 @@ xref:viewing-salesforce-account-information.adoc[View information about your por
 
 * xref:working-with-sandboxes.adoc[Environments]
 + 
-Manage separate deployment environments for your API portal. You can connect to multiple Salesforce sandbox organizations and switch between them.
+Manage separate deployment environments for your portal. You can connect to multiple Salesforce sandbox organizations and switch between them.
 
 == Viewing Issues on Catalog Management Pages
 API Experience Hub provides diagnostics checks that run in the background to identify issues with the portal and attempt to fix them automatically or provide troubleshooting options. Checks are triggered when loading or refreshing a page and performing an action on the UI. These checks help administrators identify error states and troubleshoot issues. 

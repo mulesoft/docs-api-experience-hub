@@ -23,10 +23,10 @@ Google Analytics tracks the following data:
 
 ** API requests
 + 
-Measure the overall API usage and identity patterns in API consumption. Captures each time an API request is made through the API Console and the total number of API requests made.
+Measure the overall API usage and identify patterns in API consumption. Captures each time an API request is made through the API Console and the total number of API requests made.
 ** API usage by endpoint
 +
-Identities popular endpoints and monitors usage trends to optimize API design and resource allocation. Captures each time an API request is made to a specific endpoint through the API console and the number of requests made to each API endpoint.
+Identifies popular endpoints and monitors usage trends to optimize API design and resource allocation. Captures each time an API request is made to a specific endpoint through the API console and the number of requests made to each API endpoint.
 
 == Configure Google Analytics
 To configure Google Analytics to send events from the portal:

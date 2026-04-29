@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Users can sign up to get access to an portal when self-registration is enabled by the portal administrator.
+Users can sign up to get access to a portal when self-registration is enabled by the portal administrator.
 
 The following is an example portal:
 

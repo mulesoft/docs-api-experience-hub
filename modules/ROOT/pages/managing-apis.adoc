@@ -37,7 +37,7 @@ Enable portal scalability in the *Catalog management* page. Opt in once for maxi
 . Select *I understand and want to enable scalability.* and click *Enable*.
 
 == View Services in Exchange
-You can view information about an service directly from Exchange to determine whether you want to add the service in your portal.
+You can view information about a service directly from Exchange to determine whether you want to add the service in your portal.
 
 From the *Services in Exchange* tab, select a service from the list and select *View in Exchange*.
 
@@ -49,7 +49,7 @@ Curate your portal in API Experience Hub by adding services from Exchange. You m
 To add services to your portal:
 
 . From the *Catalog management* page, select the *Services in Exchange* tab.
-. To search for an service by name or description, enter the name or description into the *Search* bar.
+. To search for a service by name or description, enter the name or description into the *Search* bar.
 . To filter services by categories and tags, select an option from the *Any category* or *Any tag* dropdown and click *Apply*.
 . Locate the service in the list, click *+ (Add to portal)*.
 +
