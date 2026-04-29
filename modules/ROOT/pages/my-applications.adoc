@@ -46,9 +46,9 @@ Lists the application’s redirect URIs.
 Lists the application’s grant types. 
 * Contracts
 +
-From the contracts section, you can see the application’s service name, environment and instances, instance URLs, SLA tier, and request access state. The environment can be either a sandbox or development environment. Request access states can be `pending`, `approved`, or `failed`.
+From the Contracts section, you can see the application’s service name, environment and instances, instance URLs, SLA tier, and request access state. The environment can be either a sandbox or development environment. Request access states can be `pending`, `approved`, or `failed`.
 
-From the Application Details page, you can:
+From the *Application Details* page, you can:
 
 * Reset the client secret. 
 * Edit the client applications details.
@@ -60,7 +60,7 @@ From the Application Details page, you can:
 === Reset Client Secret
 You can reset the client secret for an application on a regular cadence to ensure security when users leave the organization or to ensure that the secret isn't accidentally exposed to unauthorized users.  
 
-From the Application Details page, you can reset the client secret for an application. Applications using the current client secret can't access any of the services with which they were registered.
+From the *Application Details* page, you can reset the client secret for an application. Applications using the current client secret can't access any of the services with which they were registered.
 
 To reset the client secret:
 

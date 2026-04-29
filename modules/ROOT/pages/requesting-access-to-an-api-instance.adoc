@@ -15,7 +15,7 @@ Before you can request access to a service, you must be a member user and be log
 == Use an Existing Application to Request Access to a Service
 You can request access to a service by using an existing application:
 
-. Click a service to open the Service Details page.
+. Click a service to open the *Service Details* page.
 . Click *Request access*.
 . In the instance list, select an instance.
 . In the *Client application* list, select an application.
@@ -39,7 +39,7 @@ The *My Applications* page lists the client ID and client secret for this access
 == Create a New Application to Request Access to a Service
 If you do not have an application to use to request access, create a new application: 
 
-. From the Catalog, click a service to open the Service Details page.
+. From the Catalog, click a service to open the *Service Details* page.
 . Click *Request access*.
 . From the *Service instance* list, select an instance. 
 . From the *Client application* options, select *Create a new application*.
@@ -58,7 +58,7 @@ When the application is approved, an email is sent.
 . Click *Okay* to close the message.
 . To see the application details, go to the *My Applications* page from the portal.
 +
-The My Applications page lists the client ID and client secret for this access instance.
+The *My Applications* page lists the client ID and client secret for this access instance.
 
 == See Also
 

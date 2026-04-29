@@ -38,7 +38,7 @@ a|
 * Assign the visibility of an instance
 * Manage users
 * Use Experience Builder to customize portal
-|API Experience Hub Administrator|The admin inherits all of the Organization Administrator permissions necessary to create your Portal. 
+|API Experience Hub Administrator|The admin inherits all of the Organization Administrator permissions necessary to create your portal. 
 a|
 * Perform the Salesforce linking process
 * Create a portal

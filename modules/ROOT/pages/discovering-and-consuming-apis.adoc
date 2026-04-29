@@ -1,11 +1,11 @@
-= Discovering and Consuming APIs
+= Discovering and Consuming Services
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
 Using a self-service portal, developers and partners can quickly access applications, interact with documentation, and build products from existing data. API Experience Hub portals enable developers to find, consume, and reuse services that are essential to building their products. 
 
-For more information, see the following topics:
+For more information, see these topics:
 
 * xref:registering-for-access-to-portal.adoc[]
 * xref:discovering-apis.adoc[]

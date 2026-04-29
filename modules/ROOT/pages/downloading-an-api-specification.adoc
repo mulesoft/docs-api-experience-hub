@@ -7,6 +7,17 @@ A copy of an API specification can be downloaded from the service details page b
 
 The download file type varies depending on the API:
 
+* AsyncAPI
++
+Downloads as a .json file.
+* GraphQL
++
+Downloads as .json schema file.
+
+* gRPC
++
+Downloads as a .proto type file.
+
 * REST API RAML
 +
 If you choose As RAML, the original RAML file downloads as a zip file. If you choose As OAS, the API specification is downloaded as a zip file containing a JSON file for the specification in OAS 2.0 format.
