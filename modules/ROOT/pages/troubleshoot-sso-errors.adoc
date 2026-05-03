@@ -69,9 +69,19 @@ When logging in to the portal with an identity provider, you see a *Problem Logg
 To troubleshoot this issue, make sure that the URL is correct in the configuration. For Okta, the `/userinfo` part of the URL path must be lowercase.
 
 == Single Sign-on Error
+
 After logging in, *Single Sign-On Error* shows in the portal. Issues can occur if the SSO or the Salesforce Auth. Provider configuration is incorrect or missing necessary information. 
 
 A few issues can cause this error to occur:
+
+* Duplicate user accounts or single sign-on errors. 
++
+Users who already have an active profile in Salesforce are unable to log in via Just-In-Time (JIT) provisioned Single Sign-On (SSO).
+New users (those who don't exist in the Salesforce system yet) can log in successfully, but existing users are blocked.
++
+Errors occurs because the API Experience Hub configuration is missing the specific user profiles of the users trying to log in. When the SSO attempt is made, the system doesn't see the user's profile as authorized for that specific API Experience Hub instance, causing the authentication process to fail for those established users.
++
+To troubleshoot this issue, follow the instructions in the Salesforce article, https://help.salesforce.com/s/articleView?id=005316413&type=1[API Experience Hub - Salesforce Users Unable to Log In to API Experience Hub Using JIT-Provisioned SSO] to fix the issue.
 
 * The Entity ID isn't the same in both the Salesforce Auth. Provider and the identity provider.
 +
@@ -103,6 +113,7 @@ To troubleshoot these issues:
 * Make sure the member is assigned to a user or a group in the identity provider application.
 
 == Issues Testing the SSO Configuration
+
 Issues can occur when changing the SSO configuration, and then testing the configuration.
 
 To troubleshoot this issue, make sure you have a clean Salesforce and Anypoint session before testing SSO:
