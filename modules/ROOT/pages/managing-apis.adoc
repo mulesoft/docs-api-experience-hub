@@ -23,8 +23,7 @@ The *Catalog management* page shows this information:
 +
 Shows the services that have been added to your portal. Administrators can add only those services for which they have Exchange Viewer permission. For more information, see xref:assigning-permissions.adoc[]. 
 
-All administrators are automatically assigned the Exchange Viewer permission for all the services that have been added to your portal. Administrators can add only those services for which they have Exchange Viewer permission. For more information, see xref:assigning-permissions.adoc[]. 
-services added to the portal. By default, the visibility of the services is set to Administrators. The portal administrator can change the visibility or remove services in the *Services in the portal* tab. 
+All administrators are automatically assigned the Exchange Viewer permission for all the services added to the portal. By default, the visibility of the services is set to Administrators. The portal administrator can change the visibility or remove services in the *Services in the portal* tab. 
 
 * *Services in Exchange*
 +
