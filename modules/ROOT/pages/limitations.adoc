@@ -9,7 +9,7 @@ This release has the following limitations:
 * API Experience Hub functions at the main organization level only.
 * A Salesforce organization can't connect to more than one Anypoint organization.
 * Multiple portals per Salesforce organization aren’t supported.
-* Groups aren't available.
+* API Groups aren't available.
 * The maximum number of user groups is 100.
 * New portals can have a maximum of 7,000 services.
 * Existing portals can have a maximum of 350 services.
