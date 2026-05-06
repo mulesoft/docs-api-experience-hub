@@ -12,7 +12,7 @@ The Service Details page includes the following information about a service:
 Name of the service.
 * *Type*
 + 
-The service type can be agents, APIs, LLMs, and MCP servers. AsyncAPI, GraphQL, gRPC, HTML, REST, and SOAP APIs are supported.
+The service type can be Agents, APIs, LLMs, MCP servers. AsyncAPI, GraphQL, gRPC, HTML, REST, and SOAP APIs are also supported.
 * *Contact email*
 +
 The email of the contact for the service.
