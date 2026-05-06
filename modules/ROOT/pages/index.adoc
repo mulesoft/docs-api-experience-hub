@@ -3,7 +3,8 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Anypoint API Experience Hub empowers organizations to build thriving API and AI ecosystems by providing a unified portal experience for discovering and consuming APIs and agentic services, whether for internal teams, partners, or external developers.
+API Experience Hub provides a unified portal for discovering and consuming APIs and AI agents. You can use it as an internal user, a partner, or an external developer.
+
 Service providers can share, promote, and engage with their developer community. Developers and partners can find, explore, and consume services designed anywhere from a single place.
 
 API Experience Hub is the next-generation evolution of API Community Manager for creating and managing portals. The portal administrator can use out-of-the-box templates to build developer portals in minutes and publish services like agents, APIs, LLMs, and MCP servers from Anypoint Exchange to any audience. Anypoint Platform fully manages the portal deployment, administration, and the catalog and user management options so you don't need any Salesforce knowledge to start. 
