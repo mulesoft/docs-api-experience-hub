@@ -53,7 +53,7 @@ Manage the catalog by adding services from Exchange and setting the visibility f
 Publish the portal to make it available to your community.
 
 == Portal Pages
-Each API Experience Hub portal includes a Home page, a Services page, and a Service Details page. The portal administrator can customize each page to fit the organization's needs. For more information, see xref:setting-up-the-api-portal.adoc[].
+Each API Experience Hub portal includes a Home, APIs page, and an API Details page. The portal administrator can customize each page to fit the organization's needs. For more information, see xref:setting-up-the-api-portal.adoc[].
 
 //The following sample portal shows the Home page: 
 
