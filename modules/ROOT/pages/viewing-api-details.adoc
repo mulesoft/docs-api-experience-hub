@@ -45,7 +45,7 @@ The API Console is located in the Services Details page. The console component i
 == View Categories and Tags
 To view the categories or tags for a service:
 
-. On the *Service details* page, click *Categories* or *Tags* to view the information.
+. On the *API details* page, click *Categories* or *Tags* to view the information.
 . Click *Categories* or *Tags* again to close the list.
 
 == View Instances Information and Copy the URL
