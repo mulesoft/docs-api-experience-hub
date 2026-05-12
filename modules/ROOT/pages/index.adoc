@@ -67,7 +67,7 @@ The Home page includes the banner image, portal title, Carousel, and navigation 
 
 * APIs
 +
-The Services page contains a catalog of all the services in the portal. Developers can search and filter the catalog. When selected, each card in the catalog shows the service details page. 
+The APIs page contains a catalog of all the services in the portal. Developers can search and filter the catalog. When selected, each card in the catalog shows the API Details page. 
 
 * Services Details 
 +
