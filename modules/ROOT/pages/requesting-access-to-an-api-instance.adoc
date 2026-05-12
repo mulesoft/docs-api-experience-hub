@@ -39,7 +39,7 @@ The *My Applications* page lists the client ID and client secret for this access
 == Create a New Application to Request Access to a Service
 If you do not have an application to use to request access, create a new application: 
 
-. From the Catalog, click a service to open the *Service Details* page.
+. From the Catalog, click a service to open the *API Details* page.
 . Click *Request access*.
 . From the *Service instance* list, select an instance. 
 . From the *Client application* options, select *Create a new application*.
