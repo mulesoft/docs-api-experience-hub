@@ -3,18 +3,18 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-From the *Home* and *APIs* pages, search the catalog by an API name to find a specific API. Enter at least four characters in the *Search All APIs* box then select an option from the results.
+From the *Home* and *APIs* pages, search the catalog by a service name to find a specific service. Enter at least four characters in the *Search All APIs* box then select an option from the results.
 
-image::aeh-search-by-api-name-box.png["Search box to enter an API name",20%]
+image::aeh-search-by-api-name-box.png["Search box to enter a service name",20%]
 
-Filter the API by category and type to further refine your search results. The filter options display depending on which API categories and types are available in the portal.
+Filter the service by category and type to further refine your search results. The filter options display depending on which service categories and types are available in the portal.
 
 To filter by categories or tags, select one or more options from *All categories* or *All API types* and click *Apply*.
 
-From the *Home* page, you can also filter the carousel by clicking on any of the API type cards.
+From the *Home* page, you can also filter the carousel by clicking on any of the service type cards.
 
-image::aeh-api-type-filter.png["API cards you can select to filter results by API type"] 
+image::aeh-api-type-filter.png["Service cards you can select to filter results by service type"] 
 
 == See Also
 
-* xref:viewing-api-details.adoc[Viewing API Details]
+* xref:viewing-api-details.adoc[]

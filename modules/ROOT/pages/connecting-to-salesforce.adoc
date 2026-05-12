@@ -5,7 +5,7 @@ endif::[]
 
 API Experience Hub contains a Salesforce organization with Experience Cloud and a managed package. The managed package is installed during the onboarding process. The API Experience Hub administrator or a Salesforce user with the System Administrator profile or xref:user-roles-permissions-and-profiles.adoc[AEH_Anypoint permission set] connects the Salesforce organization to the Anypoint Platform organization. The managed package contains the components and data objects that interact with your Anypoint Platform organization. The Salesforce System Administrator can view the *API Experience Hub* package in the Salesforce organization from Salesforce by navigating to *Setup* > *Installed Packages* and selecting the *API Experience Hub Package*.
 
-A connection with Salesforce Experience Cloud is required for linking to the Salesforce organization to create an API portal within Anypoint Platform. This process must be completed only once to create a portal. Currently, an instance of API Experience Hub can connect only to one Anypoint Platform organization and one Salesforce organization.
+A connection with Salesforce Experience Cloud is required for linking to the Salesforce organization to create a portal within Anypoint Platform. This process must be completed only once to create a portal. Currently, an instance of API Experience Hub can connect only to one Anypoint Platform organization and one Salesforce organization.
 
 When the connection is established, changing the connection doesn't impact the connection between the Salesforce organization and Anypoint Platform. Switching between production and sandbox environments also doesn't affect the connection. The portal remains operational. 
 
@@ -15,7 +15,7 @@ API Experience Hub uses a connected app to obtain a session token in Anypoint Pl
 To view the connected app that is created in the Salesforce organization:
 
 . From Salesforce, click *Setup*.
-. In the *Quick Find* box, enter *app management*  and click *App Manager*.
+. In the *Quick Find* box, enter *app management* and click *App Manager*.
 +
 The connected App (Anypoint_AEH) is listed in the table.
 
@@ -30,7 +30,7 @@ To complete the connection process, allow API Experience Hub to access the follo
 * Perform requests at any time
 
 == Admin Teams 
-An API Experience Hub Admin team and an API Experience Hub Portal Admin team is created during the connecting and linking process. Once your Salesforce organization is successfully connected to your Anypoint Platform organization, the AEH Admin team is created. After the Salesforce linking process is complete, any user, who is assigned the AEH Admin, is automatically added to the AEH Admin team. 
+An API Experience Hub Admin team and an API Experience Hub Portal Admin team are created during the connecting and linking process. Once your Salesforce organization is successfully connected to your Anypoint Platform organization, the AEH Admin team is created. After the Salesforce linking process is complete, any user, who is assigned the AEH Admin, is automatically added to the AEH Admin team. 
 
 After your styling changes for the portal are saved, the AEH Portal Admin team is created. Although the API Experience Hub Portal Administrator team is visible in Access Management, this permission isn't supported in this release.
 
@@ -38,9 +38,9 @@ After your styling changes for the portal are saved, the AEH Portal Admin team i
 == Before You Begin Connecting to Salesforce
 
 * Read the instructions in xref:getting-started-with-api-experience-hub.adoc[].
-* Ensure that you're a System Administrator or have the AEH_Anypoint permission set in the Salesforce organization that you're are connecting with.
+* Ensure that you're a System Administrator or have the AEH_Anypoint permission set in the Salesforce organization that you're connecting with.
 
-== Connect to Salesforce  
+== Connect to Salesforce
 
 The connecting process is a one-time step when creating your portal.
 
@@ -52,8 +52,8 @@ Follow these steps to connect to your Salesforce organization:
 . From Anypoint Platform, select *API Experience Hub*.
 . From the *Welcome to API Experience Hub* page, if this is the first time connecting to Salesforce, click *Let's Start*.
 . Click *Connect to Salesforce*.
-. To a create a portal directly in production, select *Production* from the *Environment* list.
-. To a create a portal in a sandbox, select *Sandbox* from the *Environment* list.
+. To create a portal directly in production, select *Production* from the *Environment* list.
+. To create a portal in a sandbox, select *Sandbox* from the *Environment* list.
 . Enter the username and password of your Salesforce organization and click *Log In*.
 . If you have a custom Salesforce domain, select *I have a custom Salesforce domain* and enter your domain address.
 +

@@ -5,7 +5,7 @@ endif::[]
 
 Use Salesforce sandbox organizations to test your portal in a sandbox environment under the same conditions as your production environment. With API Experience Hub, you can manage separate deployment environments for your API portal. You can connect to multiple Salesforce sandbox organizations and switch between them. Switching doesn't impact the established connections with the Salesforce organization and Anypoint Platform. For example, if you switch from production to a sandbox, the connection with the production environment remains operational. The portal functions as it did before.
 
-Manage Salesforce organizations from the *Manage your API portal* page by selecting sandbox environments that are available in the current Salesforce connection.  
+Manage Salesforce organizations from the *Manage your API portal* page by selecting sandbox environments that are available in the current Salesforce connection.
 
 == Before You Begin
 
@@ -31,7 +31,7 @@ image::aeh-org-switcher.png["The connection control to switch between environmen
 * To connect to a production organization, click *Connect production org* from the *Connected Salesforce Orgs* dialog. 
 +
 The connection process restarts and you can to connect to the production organization.
-* To switch to another a sandbox for the connected production organization, click *Switch to this org* from the *Connected Salesforce Orgs* dialog.
+* To switch to another sandbox for the connected production organization, click *Switch to this org* from the *Connected Salesforce Orgs* dialog.
 +
 * To connect to a sandbox organization that isn't connected, click *Connect*.
 +
@@ -51,7 +51,7 @@ If a sandbox refreshes before the production organization is connected, you can 
 
 == Delete Sandbox Organizations 
 
-To delete a sandbox organizaton, see https://help.salesforce.com/s/articleView?id=000383260&type=1[Delete a sandbox] in the Salesforce documentation.
+To delete a sandbox organization, see https://help.salesforce.com/s/articleView?id=000383260&type=1[Delete a sandbox] in the Salesforce documentation.
 
 == Promoting a Sandbox to Production
 After testing a portal in a sandbox environment and it's is ready for production, deploy a subset of the Salesforce metadata using your CI/CD pipeline to production. Afterward, connect to the production instance with the subset of the Salesforce metadata to complete the installation and start curating APIs.
@@ -260,7 +260,7 @@ All configurations deploy in the production organization and you're ready to con
 .. From Anypoint Platform, select *API Experience Hub*.
 .. Connect the Salesforce production organization (Enterprise organization).
 .. Click *Use existing portal* to reuse the portal that already exists.
-.. From the *API management* page, add assets to the portal.
+.. From the *Catalog management* page, add assets to the portal.
 .. Click *Preview and publish your portal* to preview the portal, and then click *Publish*.
 
 == See Also

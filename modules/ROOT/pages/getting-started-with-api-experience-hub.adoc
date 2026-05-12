@@ -15,19 +15,19 @@ Verify that you have the following required accounts and access:
 * Organization Administrator of the main organization
 * You must either have the System Administrator profile or be a Salesforce user with the AEH_Anypoint permission set assigned in the Salesforce organization that you're connecting to during the linking process. For more information, see xref:assigning-permissions.adoc[].
 +
-The process of creating your API portal includes connecting with Salesforce Experience Cloud to link your Anypoint Platform organization to your Salesforce organization. 
+The process of creating your portal includes connecting with Salesforce Experience Cloud to link your Anypoint Platform organization to your Salesforce organization. 
 * API Experience Hub license
 * Minimum of 2000 External Identity licenses
 +
-The current package has a minimum of 100 API access requests which requires a minimum of 2000 External Identity licenses. 
+The current package has a minimum of 100 services access requests, which require a minimum of 2000 External Identity licenses. 
 
 To set up an organization, you can have the following Salesforce editions:
 
 * Unlimited Edition
 * Enterprise Edition
-* Performance Editions of Salesforce
+* Performance Edition of Salesforce
 
-If you don't have the required accounts and access, issues might occur during the Salesforce linking process when creating your API portal.
+If you don't have the required accounts and access, issues might occur during the Salesforce linking process when creating your portal.
 
 == Start Using API Experience Hub
 
@@ -35,7 +35,7 @@ The following users can get started with these tasks:
 
 *Administrators*:
 
-Administrators can create an API portal in these easy steps:
+Administrators can create a portal in these easy steps:
 
 . xref:assigning-permissions.adoc[Assign permissions]
 + 
@@ -48,23 +48,22 @@ The instance can be a new or existing Salesforce organization. To connect, speci
 Once you're connected to Salesforce, set up and style the portal's out-of-the-box pages with logos, fonts, color schemes, and more.
 . xref:managing-your-portal.adoc[Manage your portal]
 +
-Manage APIs by adding APIs from Exchange and setting the visibility for the API versions. Manage users by approving access requests from guest users.
+Manage services by adding agents, APIs, LLMs, and MCP servers from Exchange and setting the visibility for the service versions. Manage users by approving access requests from guest users.
 . xref:previewing-and-publishing-your-portal.adoc[Preview and publish your portal] 
 +
 Publish the portal to make it available to your community.
 
 *Developers*:
 
-Developers can discover and consume APIs using these tasks:
+Developers can discover and consume services using these tasks:
 
-. xref:registering-for-access-to-portal.adoc[Register to access a portal]
-. xref:searching-for-apis.adoc[Search for APIs]
-. xref:viewing-api-details.adoc[View API Details page]
-. xref:requesting-access-to-an-api-instance.adoc[Request access to an API instance]
-. xref:my-applications.adoc[View your applications that hold a contract with an API]
-. xref:downloading-an-api-specification.adoc[Download API specifications]
+. xref:registering-for-access-to-portal.adoc[]
+. xref:searching-for-apis.adoc[]
+. xref:viewing-api-details.adoc[]
+. xref:requesting-access-to-an-api-instance.adoc[]
+. xref:my-applications.adoc[View your applications that hold a contract with a service]
+. xref:downloading-an-api-specification.adoc[]
 . xref:using-the-api-console.adoc[Inspect API Console specification and documentation]
-
 
 == See Also
 

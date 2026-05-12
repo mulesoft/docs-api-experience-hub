@@ -102,7 +102,7 @@ AND (
 .. Perform the Salesforce linking process using the user with the bypass permission set.
  
 == Error When Installing the Package During the Connection Process
-If you encounter errors while installing the package during the  connecting to Salesforce process, you can review more details about the deployment status:
+If you encounter errors while installing the package during the connecting to Salesforce process, you can review more details about the deployment status:
 
 . From Salesforce, go to *Setup*.
 . Click *Environments*. 
