@@ -5,7 +5,7 @@ endif::[]
 
 To view the Service Details page, select a service from the Home or Services page of the portal. 
 // add screen captures
-The Service Details page includes the following information about a service:
+The API Details page includes the following information about a service:
 
 * *Name*
 +
