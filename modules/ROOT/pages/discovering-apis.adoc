@@ -9,5 +9,5 @@ The APIs page contains the catalog of all the services in the portal. The search
 
 == See Also
 
-* xref:searching-for-apis.adoc[Searching for Services]
-* xref:viewing-api-details.adoc[Viewing Service Details]
+* xref:searching-for-apis.adoc[Searching for APIs]
+* xref:viewing-api-details.adoc[Viewing API Details]
