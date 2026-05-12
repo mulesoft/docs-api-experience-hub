@@ -51,7 +51,7 @@ To view the categories or tags for a service:
 == View Instances Information and Copy the URL
 To view the name and URL of an instance and copy the URL:
 
-. On the *Service details* page, click *View instances*.
+. On the *API details* page, click *View instances*.
 . Click the copy icon.
 . Click *Close*.
 
