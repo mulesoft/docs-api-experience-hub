@@ -65,7 +65,7 @@ The portal includes these template pages:
 +
 The Home page includes the banner image, portal title, Carousel, and navigation to services by type and serves as the landing page of the portal. The Carousel offers consumers a preview of the most recent services added to the portal. Each card contains the service name, icon, type, and description. When selected, developers can view all the information about a service on the API Details page.  
 
-* Services
+* APIs
 +
 The Services page contains a catalog of all the services in the portal. Developers can search and filter the catalog. When selected, each card in the catalog shows the service details page. 
 
