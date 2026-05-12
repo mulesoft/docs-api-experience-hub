@@ -69,7 +69,7 @@ The Home page includes the banner image, portal title, Carousel, and navigation 
 +
 The APIs page contains a catalog of all the services in the portal. Developers can search and filter the catalog. When selected, each card in the catalog shows the API Details page. 
 
-* Services Details 
+* API Details 
 +
 The services Details page shows the metadata about the service, including the name, description, type, version, lifecycle states, and the email of the contact for the service. The details page includes the overview and the service documentation. The overview panel reflects the overview page created by the admin of the service in Anypoint Exchange. The documentation panel includes an interactive console for developers to read the service documentation and test the service. Developers can read the summary, methods, endpoints, and authorization sections as defined in the API specification. 
 
