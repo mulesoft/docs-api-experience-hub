@@ -41,7 +41,7 @@ If you do not have an application to use to request access, create a new applica
 
 . From the Catalog, click a service to open the *API Details* page.
 . Click *Request access*.
-. From the *Service instance* list, select an instance. 
+. From the *API instance* list, select an instance. 
 . From the *Client application* options, select *Create a new application*.
 . From the *Name* field, enter a client application name.
 . From the *Description* field, enter a description of the client application.
