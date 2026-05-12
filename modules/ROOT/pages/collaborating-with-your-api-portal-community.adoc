@@ -14,7 +14,7 @@ The Chatter Feed options that display depend on how your administrator sets up f
 
 To see feedback and discussions about a service:
 
-. Select a services from the *Home* or *Services* page of the portal. 
+. Select a services from the *Home* or *APIs* page of the portal. 
 . In the *API details* page, select the *Feedback and discussions* tab.
 +
 *Feedback and discussions* is the default of name of the tab, however, administrators can change this name.
