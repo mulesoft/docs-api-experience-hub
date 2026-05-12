@@ -15,7 +15,7 @@ Before you can request access to a service, you must be a member user and be log
 == Use an Existing Application to Request Access to a Service
 You can request access to a service by using an existing application:
 
-. Click a service to open the *Service Details* page.
+. Click a service to open the *API Details* page.
 . Click *Request access*.
 . In the instance list, select an instance.
 . In the *Client application* list, select an application.
