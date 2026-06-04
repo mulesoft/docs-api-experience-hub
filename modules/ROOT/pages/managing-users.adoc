@@ -67,7 +67,7 @@ To view the services that are visible by a user group for portal members and als
 . Select the *Services visible to the user group* tab.
 . To see services assigned to the group only, turn on *Services assigned to this group*.
 
-To view or change a service's visibility, see xref:managing-apis.adoc#make-api-versions-visible[Make API Versions Visible].
+To view or change a service's visibility, see xref:managing-apis.adoc#make-versions-visible[Make Versions Visible].
 
 === Delete Identity Provider Groups
 To remove the external identity provider groups that you don't need:
@@ -117,8 +117,3 @@ You can further customize and brand your portal using the xref:customizing-your-
 == See Also
 
 * xref:registering-for-access-to-portal.adoc[Registering to Access a Portal]
-
-
-
-
-

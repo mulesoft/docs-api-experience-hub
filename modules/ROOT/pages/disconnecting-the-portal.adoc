@@ -28,7 +28,7 @@ Before you disconnect, record the following information so you can restore your 
 .. Record a list of all services in the portal.
 +
 You must republish these services under the new connection.
-.. For each service, record its visibility settings (including instance and user visibility per version) so you can restore them after reconnecting. For more information, see xref:managing-apis.adoc#make-api-versions-visible[].
+.. For each service, record its visibility settings (including instance and user visibility per version) so you can restore them after reconnecting. For more information, see xref:managing-apis.adoc#make-versions-visible[Make Versions Visible].
 
 . Record your user groups information.
 .. From the *User groups* page, record all user groups and their details (for example, group names and members).

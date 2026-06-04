@@ -43,7 +43,7 @@ From the *Services in Exchange* tab, select a service from the list and select *
 To filter services by categories and tags, select an option from the *Any category* or *Any tag* dropdown and click *Apply*.
 
 == Add Services from Exchange
-Curate your portal in API Experience Hub by adding services from Exchange. You must have Services in Exchange before you can add them to your portal. When adding services to the portal, the default visibility is Administrator. You can change the visibility to include members or everyone. See <<make-api-versions-visible,Make API Versions Visible>> for more information.
+Curate your portal in API Experience Hub by adding services from Exchange. You must have Services in Exchange before you can add them to your portal. When adding services to the portal, the default visibility is Administrator. You can change the visibility to include members or everyone. See <<make-versions-visible,Make Versions Visible>> for more information.
 
 To add services to your portal:
 
@@ -65,6 +65,7 @@ To remove services from your portal:
 +
 In the *Services in the portal* tab, the service is removed from the list.
 
+[[make-versions-visible]]
 == Make Versions Visible
 By default, when you add a new service, the minor version shared with an Administrator is the latest version of the service. The instance visibility is set to Public instances. Only the instances that are public in Exchange are available for end-users to request access to them.
 
@@ -101,5 +102,3 @@ To edit the user visibility that displays for a service:
 
 == Next Steps
 From xref:managing-users.adoc[User Management], you can view and manage users and access requests from guest users.
-
-
