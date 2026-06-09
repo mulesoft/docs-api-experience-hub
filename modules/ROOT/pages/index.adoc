@@ -53,7 +53,7 @@ Manage the catalog by adding services from Exchange and setting the visibility f
 Publish the portal to make it available to your community.
 
 == Portal Pages
-Each API Experience Hub portal includes a Home, APIs page, and an API Details page. The portal administrator can customize each page to fit the organization's needs. For more information, see xref:setting-up-the-api-portal.adoc[].
+Each API Experience Hub portal includes a Home, Services page, and an Service Details page. The portal administrator can customize each page to fit the organization's needs. For more information, see xref:setting-up-the-api-portal.adoc[].
 
 //The following sample portal shows the Home page: 
 
@@ -63,15 +63,15 @@ The portal includes these template pages:
 
 * Home
 +
-The Home page includes the banner image, portal title, Carousel, and navigation to services by type and serves as the landing page of the portal. The Carousel offers consumers a preview of the most recent services added to the portal. Each card contains the service name, icon, type, and description. When selected, developers can view all the information about a service on the API Details page.  
+The Home page includes the banner image, portal title, Carousel, and navigation to services by type and serves as the landing page of the portal. The Carousel offers consumers a preview of the most recent services added to the portal. Each card contains the service name, icon, type, and description. When selected, developers can view all the information about a service on the Service Details page.  
 
-* APIs
+* Services
 +
-The APIs page contains a catalog of all the services in the portal. Developers can search and filter the catalog. When selected, each card in the catalog shows the API Details page. 
+The Services page contains a catalog of all the services in the portal. Developers can search and filter the catalog. When selected, each card in the catalog shows the Service Details page. 
 
-* API Details 
+* Service Details 
 +
-The API Details page shows the metadata about the service, including the name, description, type, version, lifecycle states, and the email of the contact for the service. The details page includes the overview and the service documentation. The overview panel reflects the overview page created by the admin of the service in Anypoint Exchange. The documentation panel includes an interactive console for developers to read the service documentation and test the service. Developers can read the summary, methods, endpoints, and authorization sections as defined in the API specification. 
+The Service Details page shows the metadata about the service, including the name, description, type, version, lifecycle states, and the email of the contact for the service. The details page includes the overview and the service documentation. The overview panel reflects the overview page created by the admin of the service in Anypoint Exchange. The documentation panel includes an interactive console for developers to read the service documentation and test the service. Developers can read the summary, methods, endpoints, and authorization sections as defined in the API specification. 
 
 == Product Integration
 API Experience Hub is integrated with the following products:

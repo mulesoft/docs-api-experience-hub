@@ -5,7 +5,7 @@ endif::[]
 
 The Home page or landing page of a portal contains the carousel. The Carousel offers consumers an interactive way to explore all the available services. The carousel shows service cards in rows and columns, and divided into pages, and shows controls to filter the displayed services by type and search terms. Each card shows a service. With the carousel, you can view and explore large numbers of versions.
 
-The APIs page contains the catalog of all the services in the portal. The searchable catalog shows a horizontally scrollable set of service cards. Each card shows a service. The service icon, name, and description are shown based on the service information from Exchange. 
+The Services page contains the catalog of all the services in the portal. The searchable catalog shows a horizontally scrollable set of service cards. Each card shows a service. The service icon, name, and description are shown based on the service information from Exchange. 
 
 == See Also
 

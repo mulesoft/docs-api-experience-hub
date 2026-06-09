@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-From the API Details page, member users request access to an instance to which to register a client application. They do this by selecting an instance, selecting or creating a client application, and optionally selecting a service-level agreement (SLA). When the owner of the instance approves the request, a contract is created between the client application and the instance, and the client application is registered.
+From the Service Details page, member users request access to an instance to which to register a client application. They do this by selecting an instance, selecting or creating a client application, and optionally selecting a service-level agreement (SLA). When the owner of the instance approves the request, a contract is created between the client application and the instance, and the client application is registered.
 
 Instances that the client ID enforcement policy protects require client applications to provide a client ID and an optional client secret. Once the request for access is approved, the client application is registered and the client ID and client secret credentials are automatically created. Member users can request access to an instance of a service that is published in the portal. These users can either create a new application or use an application that they already created to request access.
 
@@ -15,7 +15,7 @@ Before you can request access to a service, you must be a member user and be log
 == Use an Existing Application to Request Access to a Service
 You can request access to a service by using an existing application:
 
-. Click a service to open the *API Details* page.
+. Click a service to open the *Service Details* page.
 . Click *Request access*.
 . In the instance list, select an instance.
 . In the *Client application* list, select an application.
@@ -39,9 +39,9 @@ The *My Applications* page lists the client ID and client secret for this access
 == Create a New Application to Request Access to a Service
 If you do not have an application to use to request access, create a new application: 
 
-. From the Catalog, click a service to open the *API Details* page.
+. From the Catalog, click a service to open the *Service Details* page.
 . Click *Request access*.
-. From the *API instance* list, select an instance. 
+. From the *Service instance* list, select an instance. 
 . From the *Client application* options, select *Create a new application*.
 . From the *Name* field, enter a client application name.
 . From the *Description* field, enter a description of the client application.

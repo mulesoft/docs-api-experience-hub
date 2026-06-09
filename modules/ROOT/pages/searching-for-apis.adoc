@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-From the *Home* and *APIs* pages, search the catalog by a service name to find a specific service. Enter at least four characters in the *Search All APIs* box then select an option from the results.
+From the *Home* and *Services* pages, search the catalog by a service name to find a specific service. Enter at least four characters in the *Search all services* box then select an option from the results.
 
 image::aeh-search-by-api-name-box.png["Search box to enter a service name",20%]
 

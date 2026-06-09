@@ -13,7 +13,7 @@ The Builder’s interface contains the pages list, component palette, theme menu
 
 Click *Preview* to view your changes and to see the portal experience for your developer community. 
 
-Click *Home* to view the Carousel with all of the added services. Click *APIs* to view the Catalog, search and filter services, and select a service to get more details from the service details page. The service details page displays metadata in the upper section and the API overview and specification in the lower section. Publish any updates by clicking *Publish*.
+Click *Home* to view the Carousel with all of the added services. Click *Services* to view the Catalog, search and filter services, and select a service to get more details from the service details page. The service details page displays metadata in the upper section and the API overview and specification in the lower section. Publish any updates by clicking *Publish*.
 
 == See Also
 * xref:look-and-feel-customization.adoc[Customizing the Portal Look-and-Feel]
