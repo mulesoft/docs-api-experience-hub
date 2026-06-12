@@ -3,9 +3,9 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-To view the Service details page, select a service from the Home or Services page of the portal. 
+To view the Service Details page, select a service from the Home or Services page of the portal. 
 // add screen captures
-The Service details page includes this information about a service:
+The Service Details page includes this information about a service:
 
 * *Name*
 +
