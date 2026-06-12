@@ -42,7 +42,7 @@ The following shows the asset type color variables:
 . Change the color variable number for the asset type and click *Save*.
 
 === Add Page Variation to Show the API Console for LLMs
-LLM support is included in this release. Portals that were configured before LLM support was available don't show the API Console. To show the *API Console* for LLMs in the *API Details* page, add a page variation for LLMs.
+LLM support is included in this release. Portals that were configured before LLM support was available don't show the API Console. To show the *API Console* for LLMs in the *Service details* page, add a page variation for LLMs.
 
 . Navigate to the Builder.
 . Open the *Pages* menu in the toolbar, hover over *Community Asset Details*, and click *Page Actions*.

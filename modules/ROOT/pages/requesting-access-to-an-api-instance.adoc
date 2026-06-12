@@ -10,7 +10,7 @@ Instances that the client ID enforcement policy protects require client applicat
 If terms and conditions are set for an asset, you're prompted to accept the terms before access is granted. The created contract includes the terms and conditions.
 
 == Before You Begin
-Before you can request access to a service, you must be a member user and be logged into the portal. See xref:registering-for-access-to-portal.adoc[Registering for Access to a Portal]
+Before you can request access to a service, you must be a member user and be logged into the portal. See xref:registering-for-access-to-portal.adoc[]
 
 == Use an Existing Application to Request Access to a Service
 You can request access to a service by using an existing application:
