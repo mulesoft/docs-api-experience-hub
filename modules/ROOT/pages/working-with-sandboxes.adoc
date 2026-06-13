@@ -5,7 +5,7 @@ endif::[]
 
 Use Salesforce sandbox organizations to test your portal in a sandbox environment under the same conditions as your production environment. With API Experience Hub, you can manage separate deployment environments for your API portal. You can connect to multiple Salesforce sandbox organizations and switch between them. Switching doesn't impact the established connections with the Salesforce organization and Anypoint Platform. For example, if you switch from production to a sandbox, the connection with the production environment remains operational. The portal functions as it did before.
 
-Manage Salesforce organizations from the *Manage your API portal* page by selecting sandbox environments that are available in the current Salesforce connection.
+Manage Salesforce organizations from the *Manage your portal* page by selecting sandbox environments that are available in the current Salesforce connection.
 
 == Before You Begin
 
@@ -23,7 +23,7 @@ Anypoint assets and applications aren't copied to sandbox or production organiza
 
 == Manage Salesforce Organization Connections
 
-. In the *Manage your API portal* page, click the connection control. 
+. In the *Manage your portal* page, click the connection control. 
 +
 image::aeh-org-switcher.png["The connection control to switch between environments",15%]
 . Select an option:

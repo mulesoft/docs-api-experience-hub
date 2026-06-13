@@ -1,15 +1,15 @@
-= Searching for APIs
+= Searching for Services
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-From the *Home* and *APIs* pages, search the catalog by a service name to find a specific service. Enter at least four characters in the *Search All APIs* box then select an option from the results.
+From the *Home* and *Services* pages, search the catalog by a service name to find a specific service. Enter at least four characters in the *Search all services* box then select an option from the results.
 
 image::aeh-search-by-api-name-box.png["Search box to enter a service name",20%]
 
 Filter the service by category and type to further refine your search results. The filter options display depending on which service categories and types are available in the portal.
 
-To filter by categories or tags, select one or more options from *All categories* or *All API types* and click *Apply*.
+To filter by categories or tags, select one or more options from *All categories* or *All service types* and click *Apply*.
 
 From the *Home* page, you can also filter the carousel by clicking on any of the service type cards.
 

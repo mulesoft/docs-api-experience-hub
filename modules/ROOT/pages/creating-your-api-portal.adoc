@@ -1,14 +1,14 @@
-= Creating Your API Portal 
+= Creating Your Portal 
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
 The process of creating your portal includes these steps:
 
-. xref:connecting-to-salesforce.adoc[Connect to Salesforce]
+. xref:connecting-to-salesforce.adoc[]
 +
 Connect to Salesforce and link your Anypoint organization to your Salesforce organization.
-. xref:setting-up-the-api-portal.adoc[Set Up the Portal]
+. xref:setting-up-the-api-portal.adoc[]
 +
 Use the guided setup to set up the portal and apply styling options to brand your portal. After the setup and styling are complete, the portal is created. 
 
