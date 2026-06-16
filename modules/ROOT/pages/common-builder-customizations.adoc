@@ -5,7 +5,7 @@ endif::[]
 
 From the Builder, use the following portal customizations to match your company's brand.
 
-Access the Builder from the *Manage your API portal* page by clicking *Preview and publish your portal*.
+Access the Builder from the *Manage your portal* page by clicking *Preview and publish your portal*.
 
 == Add and Remove Portal Components
 From the Builder, add or remove API Experience Hub components from your portal.
@@ -16,8 +16,8 @@ From the Builder, add or remove API Experience Hub components from your portal.
 . Click a component, for example, API Console and drag it into the portal.
 . To remove a component, click the trash can icon and click *Delete*.
 
-=== Customize Colors for Each API Type
-To customize the color for each API type that displays in the *Home* page:
+=== Customize Colors for Each Service Type
+To customize the color for each service type that displays in the *Home* page:
 
 . Navigate to the Builder.
 . Click the *Builder* icon.
@@ -32,9 +32,24 @@ The following shows the asset type color variables:
 --asset-type-c-http-api-color: 0, 0, 0;
 --asset-type-c-soap-api-color: 0, 0, 0;
 --asset-type-c-evented-api-color: 0, 0, 0;
+--asset-card-c-agent-color: 0, 0, 0;
+--asset-card-c-mcp-color: 0, 0, 0;
+--asset-card-c-graphql-color: 0, 0, 0;
+--asset-card-c-grpc-api-color: 0, 0, 0;
+--asset-card-c-llm-color: 0, 0, 0;
 ----
 +
 . Change the color variable number for the asset type and click *Save*.
+
+=== Add Page Variation to Show the API Console for LLMs
+LLM support is included in this release. Portals that were configured before LLM support was available don't show the API Console. To show the *API Console* for LLMs in the *Service Details* page, add a page variation for LLMs.
+
+. Navigate to the Builder.
+. Open the *Pages* menu in the toolbar, hover over *Community Asset Details*, and click *Page Actions*.
+. Select the *Page Variations* tab and click *Manage audiences*.
+. Click *HTTP API Audience*, and click *Edit*.
+. On the *Edit Audience* page, enter `llm` in the *Value* field and press enter.
+. Click *Save*.
 
 == Change the Background Color of the Login Page
 To change the background color of your portal's login page:
@@ -47,7 +62,7 @@ Your current login page displays in the Builder.
 . From *Theme*, click *Colors*. 
 . From the *Login Pages* section, select a color from the *Background Color* color picker.
 +
-The background color of your Login page changes to the select color.
+The background color of your Login page changes to the selected color.
 
 == Change the Card Background Color of the Login Page
 To change the card background color of your login page card: 

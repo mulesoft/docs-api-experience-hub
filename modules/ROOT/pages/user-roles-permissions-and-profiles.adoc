@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-This topic provides information about the user roles, permissions, and profiles used in API Experience Hub for  Salesforce Experience Cloud and Anypoint Platform. 
+This topic provides information about the user roles, permissions, and profiles used in API Experience Hub for Salesforce Experience Cloud and Anypoint Platform. 
 
 * For Anypoint Platform, users with different access levels are managed using Anypoint Access Management. You can configure the permissions for administrators and Exchange viewers. For more information, see xref:access-management::managing-permissions.adoc[Managing Permissions in Access Management]. 
 * For Experience Cloud, the System Administrator profile or the AEH_Anypoint permission set is required for the user who performs the linking process. 
@@ -14,17 +14,15 @@ The Organization Administrator role has all of the permissions necessary to crea
 
 //If there is more than one user who intends to curate and manage the portal, the Organization Administrator can grant another user the API Experience Hub Portal Administrator permission. This administrator has fewer permissions in the portal than the Organization Administrator and the API Experience Hub Administrator.
 
-An API Experience Hub Admin team and an API Experience Hub Portal Admin team is created in Access Management during the connecting and linking process. Once your Salesforce organization is successfully connected to your Anypoint organization, the AEH Admin team is created. Any user, who is assigned the AEH Admin, is automatically added to the AEH Admin team. 
+An API Experience Hub Admin team and an API Experience Hub Portal Admin team are created in Access Management during the connecting and linking process. Once your Salesforce organization is successfully connected to your Anypoint organization, the AEH Admin team is created. Any user, who is assigned the AEH Admin, is automatically added to the AEH Admin team. 
 
 After your styling changes for the portal are saved, the AEH Portal Admin team is created. Although the API Experience Hub Portal Administrator team is visible in Access Management, this permission isn't supported in this release.
-Once your styling changes for the portal are saved, the AEH Portal Admin team is created. Although the API Experience Hub Portal Administrator team is visible in Access Management, this permission isn't supported in this release.
 
-Administrators can only add APIs for which they have the Exchange Viewer permission. When APIs are added to the portal, all administrators are automatically assigned the Exchange Viewer permission. 
+Administrators can only add services for which they have the Exchange Viewer permission. When services are added to the portal, all administrators are automatically assigned the Exchange Viewer permission. 
 
-API Experience Hub is integrated with Salesforce Experience Cloud. Administrators access the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore, API Experience Hub can't determine the individual administrator's action in the shared account. 
-API Experience Hub is integrated with Salesforce Experience Cloud. Administrators access the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore, API Experience Hub can't determine the individual administrator's action in the shared account. 
+API Experience Hub is integrated with Salesforce Experience Cloud. Administrators access the Salesforce Experience Builder with a shared user account. The identity of the administrator is shared therefore, API Experience Hub can't determine the individual administrator's action in the shared account.
 
-The System Administrator profile has specific permissions to perform functions on the Salesforce Platform. The user with this profile performs the initial step of creating an API portal by connecting to the Salesforce Experience Cloud and linking the Salesforce organization to the Anypoint organization. This process can only be done by the user with the System Administrator profile. The AEH_Anypoint permission set can also be created to have only the minimal necessary permissions for the user who performs the linking process. For more information, see xref:assigning-permissions.adoc[].
+The System Administrator profile has specific permissions to perform functions on the Salesforce Platform. The user with this profile performs the initial step of creating a portal by connecting to the Salesforce Experience Cloud and linking the Salesforce organization to the Anypoint organization. This process can only be done by the user with the System Administrator profile. The AEH_Anypoint permission set can also be created to have only the minimal necessary permissions for the user who performs the linking process. For more information, see xref:assigning-permissions.adoc[].
 
 |===
 |Role/Permission/Profile |Description |Actions
@@ -36,35 +34,34 @@ a|
 a|
 * Perform the Salesforce linking process
 * Create a portal
-* Add and remove APIs from the portal
-* Assign the visibility of an API instance
+* Add and remove services from the portal
+* Assign the visibility of an instance
 * Manage users
 * Use Experience Builder to customize portal
-|API Experience Hub Administrator|The admin inherits all of the Organization Administrator permissions necessary to create your API Portal. 
+|API Experience Hub Administrator|The admin inherits all of the Organization Administrator permissions necessary to create your portal. 
 a|
 * Perform the Salesforce linking process
 * Create a portal
-* Add and remove APIs from the portal
-* Assign the visibility of an API instance
+* Add and remove services from the portal
+* Assign the visibility of an instance
 * Create a new connection to Salesforce and new portals
 * Manage users
 * Use Experience Builder to customize portal |
 API Experience Hub Portal Administrator| Currently, can manage only one API portal in the organization 
 a|
-* Add and remove specific APIs from the portal
-* Assign the visibility of an API instance
+* Add and remove specific services from the portal
+* Assign the visibility of an instance
 |===
 
 === Exchange Permissions
-All administrators must have the Exchange Viewer permission to import APIs into the portal.
+All administrators must have the Exchange Viewer permission to import services into the portal.
 
 |===
 |Permission |Description |Actions
 |Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission can't add new assets, edit asset portal content, or share an asset with another user.
-|Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission can't add new assets, edit asset portal content, or share an asset with another user.
 a|
-* View APIs in Exchange
-* Import APIs from Exchange to the portal |
+* View Services in Exchange
+* Import services from Exchange to the portal |
 |===
 
 == User Roles for Configuring SSO
@@ -107,20 +104,20 @@ These are groups of users with certain permissions that you can manage using the
 
 |===
 |User Profile |Description |Actions
-|Guest| This user’s profile is anonymous and isn't logged in the API portal. 
+|Guest| This user’s profile is anonymous and isn't logged in the portal. 
 a|
-* View public APIs that are shared with them
+* View public services that are shared with them
 * Can self-register to become a member
-* Can't request access to APIs 
+* Can't request access to services 
 |Member|This is a registered user who can log in to a portal.
 a|
-* View public APIs and other APIs that are shared with them
+* View public services and other services that are shared with them
 * Registered using self-registration to become a member
-* Request access to APIs| 
-* View public APIs and other APIs that are shared with them.
-* View APIs assigned to the user group they belong to.
+* Request access to services| 
+* View public services and other services that are shared with them.
+* View services assigned to the user group they belong to.
 * Registered using self-registration to become a member.
-* Request access to APIs.| 
+* Request access to services.| 
 |===
 
 == See Also

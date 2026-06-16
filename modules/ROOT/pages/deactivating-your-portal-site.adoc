@@ -7,7 +7,7 @@ You can make your published portal inaccessible to users by deactivating the por
 
 To deactivate your portal site, follow these steps:
 
-. From a *Manage your API Portal* page, click *Preview and publish your portal*.
+. From a *Manage your portal* page, click *Preview and publish your portal*.
 . Click the *Builder* icon.
 . From *My Workspaces*, click *Administration*.
 . Click *Settings*.

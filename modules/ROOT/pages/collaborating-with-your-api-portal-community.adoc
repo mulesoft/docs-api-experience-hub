@@ -3,7 +3,7 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-You can enable collaboration with members of an API portal community using Salesforce Chatter Feed components to:
+You can enable collaboration with members of a portal community using Salesforce Chatter Feed components to:
 
 * Sharing posts and updates
 * Participating in polling
@@ -12,9 +12,9 @@ You can enable collaboration with members of an API portal community using Sales
 
 The Chatter Feed options that display depend on how your administrator sets up feeds for the API portal.
 
-To see feedback and discussions about an API:
+To see feedback and discussions about a service:
 
-. Select an API from the *Home* or *APIs* page of the portal. 
+. Select a services from the *Home* or *Services* page of the portal. 
 . In the *API details* page, select the *Feedback and discussions* tab.
 +
 *Feedback and discussions* is the default of name of the tab, however, administrators can change this name.

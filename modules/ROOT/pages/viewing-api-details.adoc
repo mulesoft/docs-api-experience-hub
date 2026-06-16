@@ -1,61 +1,61 @@
-= Viewing API Details
+= Viewing Service Details
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-To view the API Details page, select an API from the Home or APIs page of the portal. 
+To view the Service Details page, select a service from the Home or Services page of the portal. 
 // add screen captures
-The API Details page includes the following information about an API:
+The Service Details page includes this information about a service:
 
 * *Name*
 +
-Name of the API.
+Name of the service.
 * *Type*
 + 
-The API type can be AsyncAPI, HTML, REST, or SOAP.
+The service type can be Agents, APIs, LLMs, or MCP servers. Supported API types include AsyncAPI, GraphQL, gRPC, HTML, REST, and SOAP.
 * *Contact email*
 +
-The email of the contact for the API.
+The email of the contact for the service.
 
 * *Categories*
 +
-The name and value of the predefined category this API belongs to. APIs can have multiple categories. Categories organize APIs into groups to improve browsing and discovery. Categories are created and maintained in Exchange.
+The name and value of the predefined category this service belongs to. Services can have multiple categories. Categories organize services into groups to improve browsing and discovery. Categories are created and maintained in Exchange.
 * *Tags*
 +
-The name of a predefined keyword associated with this API. APIs can have multiple tags. Tags are created and maintained in Exchange. 
+The name of a predefined keyword associated with this service. Services can have multiple tags. Tags are created and maintained in Exchange. 
 * *Description*
 +
-A description of the API.
+A description of the service.
 
 * *Asset version*
 +
-The version of the API.
+The version of the service.
 * *Version state*
 +
-The lifecycle state (development, stable, or deprecated) of this API. 
+The lifecycle state (development, stable, or deprecated) of this service. 
 * *Instances*
 +
-The count of instances of the API.
+The count of instances of the service.
 * *Clients*
 +
-The number of client applications of the API.
+The number of client applications of the service.
 
-The API Console is located in the API Details page. The console component is interactive and shows information about API specifications and their methods. Endpoints are displayed in alphabetical order. See xref:using-the-api-console.adoc[Using the API Console] for more information.
+The API Console is located in the Services Details page. The console component is interactive and shows information about API specifications and their methods. Endpoints are displayed in alphabetical order. See xref:using-the-api-console.adoc[] for more information.
 
 == View Categories and Tags
-To view the categories or tags for an API:
+To view the categories or tags for a service:
 
-. On the *API details* page, click *Categories* or *Tags* to view the information.
+. On the *Service Details* page, click *Categories* or *Tags* to view the information.
 . Click *Categories* or *Tags* again to close the list.
 
 == View Instances Information and Copy the URL
-To view the name and URL of an API instance and copy the URL:
+To view the name and URL of an instance and copy the URL:
 
-. On the *API details* page, click *View instances*.
+. On the *Service Details* page, click *View instances*.
 . Click the copy icon.
 . Click *Close*.
 
 
 == See Also
 
-* xref:requesting-access-to-an-api-instance.adoc[Requesting Access to an API Instance]
+* xref:requesting-access-to-an-api-instance.adoc[]

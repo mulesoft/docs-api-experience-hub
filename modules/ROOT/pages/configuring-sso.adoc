@@ -177,7 +177,7 @@ image::aeh-sso-mapped-anypoint-username-attribute.png["Example of a mapped anypo
 ====
 Create a new application for the API Experience Hub portal in the identity provider using SAML. For more information, see https://help.okta.com/oie/en-us/content/topics/apps/apps_app_integration_wizard_saml.htm[Create SAML app integrations^] in the Okta documentation.
 
-. From Okta, create an SAML application and enter a name for your SAML application in *General Settings*.
+. From Okta, create a SAML application and enter a name for your SAML application in *General Settings*.
 . Select *Do not display application icon to users* and click *Next*.
 . In *SAML Settings*, complete these fields:
 +
@@ -219,7 +219,7 @@ Sending groups as a comma-separated list isn't required.
 . Click *Next*, select *I’m an Okta customer adding an internal app*, and then click *Finish*.
 . Select the *Assignments* tab and select *Groups*.
 . Click *Assign* and select *Assign to groups*.
-. From the list, click *Assign* from the row of the specific group and click *Done*.           
+. From the list, click *Assign* from the row of the specific group and click *Done*.
 . Select the *Sign On* tab, and click *View SAML setup instructions* to see instructions about how to configure SAML for your application. 
 +
 image::aeh-sso-view-saml-setup-instructions.png["A button that shows the SAML setup instructions",width=30%]
@@ -339,7 +339,7 @@ Sending groups as a comma-separated list isn't required.
 |Source attribute|"<identity_provider_id>" The ID must be in quotes.
 |===
 +
-To get the identity provider ID, go to *Access Management > Identity Providers*, click the identity provider, and copy the 32 digit ID from the browser URL. 
+To get the identity provider ID, go to *Access Management > Identity Providers*, click the identity provider, and copy the 32-digit ID from the browser URL. 
 +
 image::aeh-identity-provider-id-azure.png["An example identity provider ID in Access Management"]
 .. Save your changes.
@@ -375,7 +375,7 @@ image::aeh-identity-provider-id-azure.png["An example identity provider ID in Ac
 |Field|Value
 |Name |Enter a name.
 |API Name |Enter a name.
-|Entity ID|Enter the value from the Azure Enterprise application's *Identifier (Entity ID)* field. For Example, `https://<YOUR_DOMAIN>.my.site.com/aeh`.
+|Entity ID|Enter the value from the Azure Enterprise application's *Identifier (Entity ID)* field. For example, `https://<YOUR_DOMAIN>.my.site.com/aeh`.
 |SAML Identity Type|Assertion contains the Federation ID from the User object.
 |Just-in-time User Provisioning|Enable User Provisioning Enabled.
 |User Provisioning Type |SAML JIT with Apex handler.

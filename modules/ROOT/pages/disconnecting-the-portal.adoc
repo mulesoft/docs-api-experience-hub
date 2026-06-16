@@ -3,16 +3,16 @@ ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-Anypoint Platform can connect to only one Salesforce organization, and you can create only one API portal for that organization. To create a new API portal, you must disconnect the current API portal from your Salesforce organization. This process unlinks Anypoint Platform from your Salesforce organization. You can then link your Anypoint Platform account to a new Salesforce organization.
+Anypoint Platform can connect to only one Salesforce organization, and you can create only one portal for that organization. To create a new portal, you must disconnect the current portal from your Salesforce organization. This process unlinks Anypoint Platform from your Salesforce organization. You can then link your Anypoint Platform account to a new Salesforce organization.
 
-If you reconnect the portal (for example, after creating a new connection), you must reconfigure SSO, republish all APIs to the portal, and reconfigure group mapping. There is no process to restore the previous configuration automatically. Note that styling metadata is retained when reconnecting to the same Salesforce organization.
+If you reconnect the portal (for example, after creating a new connection), you must reconfigure SSO, republish all services to the portal, and reconfigure group mapping. There is no process to restore the previous configuration automatically. Note that styling metadata is retained when reconnecting to the same Salesforce organization.
 
 There is no supported way to change the user who created the connection in API Experience Hub. To assign the connection to a different user, you must disconnect and create a new connection. For more information, see xref:assigning-permissions.adoc[].
 
 [[what-to-consider]]
 == Before You Disconnect
 
-Disconnecting your API portal removes artifacts from the API Experience Hub database and unlinks Anypoint Platform from your Salesforce organization.
+Disconnecting your portal removes artifacts from the API Experience Hub database and unlinks Anypoint Platform from your Salesforce organization.
 
 These artifacts are permanently removed from API Experience Hub:
 
@@ -23,12 +23,12 @@ These artifacts are permanently removed from API Experience Hub:
 
 Before you disconnect, record the following information so you can restore your portal configuration after reconnecting:
 
-. Record your published APIs and visibility settings.
-.. From the *API management* page, select the *APIs in the portal* tab.
-.. Record a list of all APIs in the portal.
+. Record your published services and visibility settings.
+.. From the *Catalog management* page, select the *Services in the portal* tab.
+.. Record a list of all services in the portal.
 +
-You must republish these APIs under the new connection.
-.. For each API, record its visibility settings (including instance and user visibility per version) so you can restore them after reconnecting. For more information, see xref:managing-apis.adoc#make-api-versions-visible[].
+You must republish these services under the new connection.
+.. For each service, record its visibility settings (including instance and user visibility per version) so you can restore them after reconnecting. For more information, see xref:managing-apis.adoc#make-versions-visible[Make Versions Visible].
 
 . Record your user groups information.
 .. From the *User groups* page, record all user groups and their details (for example, group names and members).
@@ -40,7 +40,7 @@ You need this information when you re-enable SSO and reconfigure group mapping. 
 
 == Disconnect the Portal
 
-. From the *Manage your API portal* page, click *Settings*.
+. From the *Manage your portal* page, click *Settings*.
 . Click *Disconnect Salesforce Org*.
 . To confirm, click *Disconnect Salesforce Org* in the message.
 
