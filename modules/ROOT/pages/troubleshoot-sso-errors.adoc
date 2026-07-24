@@ -130,3 +130,7 @@ This step clears the Anypoint Platform user session and triggers authentication 
 .. Click *AEH_Anypoint*.
 .. In the *External Data User Authentications* section, locate the user you are testing with and click *Del*.
 
+
+== See Also
+
+include::release-notes::partial$release-notes/rn-known-issues.adoc[tag=knownIssuesSeeAlsoLink]
