@@ -129,3 +129,7 @@ To report issues or defects in API Experience Hub, submit a support case from ht
 The MuleSoft support team works closely with the Salesforce support team to coordinate work on any support tickets involving Salesforce technology.
 
 Service-level agreements (SLAs) for support are available at the https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/Agreements/mulesoft-cloud-offerings-SLA-forSalesforce-uMSA.pdf[MuleSoft Product Support and Maintenance Terms] page.
+
+== See Also
+
+include::release-notes::partial$release-notes/rn-known-issues.adoc[tag=knownIssuesSeeAlsoLink]
