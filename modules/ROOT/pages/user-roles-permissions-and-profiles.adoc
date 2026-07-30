@@ -61,7 +61,7 @@ All administrators must have the Exchange Viewer permission to import services i
 |Exchange Viewers|Assign this permission to the Organization Administrator or the API Experience Hub Administrator who performs the Salesforce linking process. Users with this permission can't add new assets, edit asset portal content, or share an asset with another user.
 a|
 * View Services in Exchange
-* Import services from Exchange to the portal |
+* Import services from Exchange to the portal
 |===
 
 == User Roles for Configuring SSO
@@ -112,12 +112,9 @@ a|
 |Member|This is a registered user who can log in to a portal.
 a|
 * View public services and other services that are shared with them
+* View services assigned to the user group they belong to
 * Registered using self-registration to become a member
-* Request access to services| 
-* View public services and other services that are shared with them.
-* View services assigned to the user group they belong to.
-* Registered using self-registration to become a member.
-* Request access to services.| 
+* Request access to services
 |===
 
 == See Also
