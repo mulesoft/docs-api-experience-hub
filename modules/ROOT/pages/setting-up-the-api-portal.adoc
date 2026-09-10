@@ -78,7 +78,7 @@ Follow the guided steps to style the Service Details page:
 
 . To show the service owner's email, enable *Service Contact* from *Customize service information*. 
 . To show client applications on the *Service Details* page, enable *Service Clients* from *Customize service information*.
-. To add a banner title to the Service Details page, enter the title in the *Enter service detail banner Title* text box.
+. To add a banner title to the Service Details page, enter the title in the *Enter service detail banner title* text box.
 . To add a description of the Service Details page, enter the description in the *Enter service detail description* text box.
 . If you're not done styling your portal, click *Previous* to change the styling on previous pages.
 . If you're done styling your portal, click *Save changes*.

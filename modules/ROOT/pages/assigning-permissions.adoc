@@ -28,7 +28,7 @@ To grant the permissions to an administrator:
 . Go to *Access Management*.
 . Click *Users*, and then select the username of the user that you want to add the API Experience Hub Administrator permission. 
 . Select *Permissions* and click *Add permissions*.
-. In the *Select permissions to add for this user* search box, enter *API Experience Hub Amin* and select the checkbox.
+. In the *Select permissions to add for this user* search box, enter *API Experience Hub Admin* and select the checkbox.
 . Enter *Exchange viewer* in the search box and select the checkbox, and then click *Next*.
 . Select the *Mulesoft* checkbox, and then click *Next*.
 . Click *Add Permissions*.

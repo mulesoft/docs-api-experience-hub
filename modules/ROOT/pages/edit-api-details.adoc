@@ -10,7 +10,7 @@ The following information that displays for a service can be edited:
 * Version visibility
 * Icon image
 + 
-Image files must be .png, 
+Image files must be .png 
 
 To edit the information that displays for a service:
 

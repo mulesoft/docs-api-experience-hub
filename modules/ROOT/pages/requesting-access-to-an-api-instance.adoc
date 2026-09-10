@@ -27,10 +27,7 @@ The SLA tier appears only when the instance has one or more tiers.
 . If the service has terms and conditions, select *I accept the terms and conditions*.
 . Click *Request access*.
 +
-A Request access message displays to inform you that the request was received and is pending. If the SLA tier has auto-approval, the message shows that the request access was approved, and the application displays in the My Applications page.
-. Click *Okay* to close the message.
-+
-If the SLA tier has auto-approval, the application is received and approved.
+A Request access message displays to inform you that the request was received and is pending. If the SLA tier has auto-approval, the message shows that the request access was approved, and the application displays in the My Applications page. If the SLA tier has auto-approval, the application is received and approved.
 . Click *Okay* to close the message.
 . To see the application details, go to the *My Applications* page.
 +
@@ -46,15 +43,12 @@ If you do not have an application to use to request access, create a new applica
 . From the *Name* field, enter a client application name.
 . From the *Description* field, enter a description of the client application.
 . From the *OAuth 2.0 Grant Type* options, if there are grant types for the application, select a grant type.
-. From the *OAuth 2.0 Redirect URIs* field, enter a URI address from.
+. From the *OAuth 2.0 Redirect URIs* field, enter a URI address.
 . From the *Application URL* field, enter a URL.
 . From the *SLA tier* options, select a service-level agreement (SLA) value for the application. 
 . Click *Request access*.
 +
-If auto-approval is enabled for the SLA tier, a message displays that the application is approved. If auto-approval isn't enabled, a message displays that the request is pending.
-. Click *Okay* to close the message.
-+
-When the application is approved, an email is sent.
+If auto-approval is enabled for the SLA tier, a message displays that the application is approved. If auto-approval isn't enabled, a message displays that the request is pending. When the application is approved, an email is sent.
 . Click *Okay* to close the message.
 . To see the application details, go to the *My Applications* page from the portal.
 +

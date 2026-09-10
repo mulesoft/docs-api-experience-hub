@@ -40,7 +40,7 @@ The count of instances of the service.
 +
 The number of client applications of the service.
 
-The API Console is located in the Services Details page. The console component is interactive and shows information about API specifications and their methods. Endpoints are displayed in alphabetical order. See xref:using-the-api-console.adoc[] for more information.
+The API Console is located in the Service Details page. The console component is interactive and shows information about API specifications and their methods. Endpoints are displayed in alphabetical order. See xref:using-the-api-console.adoc[] for more information.
 
 == View Categories and Tags
 To view the categories or tags for a service:
