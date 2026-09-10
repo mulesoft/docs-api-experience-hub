@@ -309,7 +309,7 @@ At least one group must be associated to perform a group mapping in a later step
 |===
 |Field|Value
 |Name|email
-|Source attribute|user.email
+|Source attribute|user.mail
 |===
 +
 * Username
@@ -317,9 +317,14 @@ At least one group must be associated to perform a group mapping in a later step
 [%header,cols="1a,2a"]
 |===
 |Field|Value
-|Name|email
-|Source attribute|user.principalname
+|Name|\http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name
+|Source attribute|user.userprincipalname
 |===
++
+[NOTE]
+====
+API Experience Hub uses the value of the `\http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name` claim as the username, which must be email-shaped for Salesforce to accept it. The Microsoft Entra ID `user.userprincipalname` attribute is email-shaped by default. If this claim is not present, API Experience Hub uses the value of the email claim instead.
+====
 .. Save your changes.
 . Enable multi-valued SAML attributes when sending multiple groups in the groups claim. 
 +
