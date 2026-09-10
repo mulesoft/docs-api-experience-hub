@@ -170,7 +170,7 @@ This component shows the application created by the user. Applications can be fi
 |Credentials popup container.
 |`.applications-listing-table-row-credentials `
 
-`.crendetials-tooltip-title`	
+`.credentials-tooltip-title`	
 |Client ID and client secret label.
 |`.applications-listing-table-row-credentials `
 
@@ -276,7 +276,7 @@ soap-api
 |`.asset-version-header-index-information-description`
 
 `.description`
-|Descrption of asset.
+|Description of asset.
 |`.asset-detail-header-index-content-version-main-container`
 
 `.asset-detail-header-index-content-version-spinner-container`	|Spinner container that is executed when user changes the version selected.
@@ -341,7 +341,7 @@ View c-base-title-selector
 |`.request-access-modal-content`
 |Container for request access modal content.
 |`.request-access-modal-footer`
-|Contaienr for request access modal footer.
+|Container for request access modal footer.
 |`.request-access-field-label`
 |Label of the request access modal form inputs.
 |`.request-access-field-subtitle`

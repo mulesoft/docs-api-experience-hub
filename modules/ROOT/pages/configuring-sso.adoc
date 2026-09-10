@@ -96,7 +96,7 @@ image::aeh-salesforce-auth-provider.png["An example of Salesforce Auth. Provider
 
 . Configure the redirect URIs for the portal.
 +
-To configure the redirects, use your 15 digit organization ID and 18 digits org ID and add a URL for each organization ID.
+To configure the redirects, use your 15-digit organization ID and 18-digit org ID and add a URL for each organization ID.
 
 .. In the Okta application, select the *General* tab.
 Add the following URLs for *Sign-in redirect URIs*:    
@@ -119,7 +119,7 @@ If there's an existing identity provider already configured for Anypoint Platfor
 
 If usernames for the portal and Anypoint Platform don't match, add another custom attribute called anypoint_username to force an update for existing identity provider users to match the identity in the portal to the users in Anypoint Platform.
 
-To map anypoint_idp_id to with the Anypoint Platform identity provider ID for OKTA:
+To map anypoint_idp_id to with the Anypoint Platform identity provider ID for Okta:
 
 . In the Okta application, go to *Directory > Profile Editor* and select the portal application that you just configured.
 . Click *Add Attributes* to create a new attribute called *anypoint_idp_id*.
@@ -186,7 +186,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 |Field|Value
 |*Single Sign-On URL* |Enter the URL for the portal login.
 |*Use this for Recipient URL and Destination URL*|Select this option.
-|*Audience URI (SP Entity ID)* |Enter https with the Salesforce domain or example, `\https://{salesforcedomain}.com`.
+|*Audience URI (SP Entity ID)* |Enter https with the Salesforce domain for example, `\https://{salesforcedomain}.com`.
 |*Name ID format* |*EmailAddress*
 |*Application username* |*Okta username*
 |*Update application username on* |*Create and update*
@@ -247,7 +247,7 @@ image::aeh-sso-saml-setup-instructions-page.png["SAML instructions to configure 
 |*User Provisioning* |*Enabled*
 |*User Provisioning Type* |*Custom SAML JIT with Apex Handler*
 |*SAML JIT Handler* |*AEHPortalRegistrationHandler*
-|*Executed Handler As* |Select a system administrator.
+|*Execute Handler As* |Select a system administrator.
 |===
 +
 image::aeh-sso-saml-single-sign-on-settings.png["An example of the SAML Single Sign-On Settings"]
@@ -262,7 +262,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 . In Azure, create a SAML Enterprise application:
 .. Go to the Azure administration portal or enter `https://portal.azure.com` in a browser. 
 .. Go to Microsoft Entra Id (Active Directory service), click *+ Add*, and select *Enterprise application*.
-.. In *Browse Microsoft Entra Gallary*, select the *Salesforce* application.
+.. In *Browse Microsoft Entra Gallery*, select the *Salesforce* application.
 .. Enter a name like *AEH Portal* and click *Create*.
 . Configure the single sign-on settings for the application:
 .. From *Manage*, select *Single sign-on* and select *SAML*. 
@@ -309,7 +309,7 @@ At least one group must be associated to perform a group mapping in a later step
 |===
 |Field|Value
 |Name|email
-|Source attribute|user.email
+|Source attribute|user.mail
 |===
 +
 * Username
@@ -317,9 +317,14 @@ At least one group must be associated to perform a group mapping in a later step
 [%header,cols="1a,2a"]
 |===
 |Field|Value
-|Name|email
-|Source attribute|user.principalname
+|Name|\http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name
+|Source attribute|user.userprincipalname
 |===
++
+[NOTE]
+====
+API Experience Hub uses the value of the `\http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name` claim as the username, which must be email-shaped for Salesforce to accept it. The Microsoft Entra ID `user.userprincipalname` attribute is email-shaped by default. If this claim is not present, API Experience Hub uses the value of the email claim instead.
+====
 .. Save your changes.
 . Enable multi-valued SAML attributes when sending multiple groups in the groups claim. 
 +
@@ -377,9 +382,9 @@ image::aeh-identity-provider-id-azure.png["An example identity provider ID in Ac
 |API Name |Enter a name.
 |Entity ID|Enter the value from the Azure Enterprise application's *Identifier (Entity ID)* field. For example, `https://<YOUR_DOMAIN>.my.site.com/aeh`.
 |SAML Identity Type|Assertion contains the Federation ID from the User object.
-|Just-in-time User Provisioning|Enable User Provisioning Enabled.
-|User Provisioning Type |SAML JIT with Apex handler.
-|SAML JIT Handler |AEHPortalRegistrationHandler.
+|Just-in-time User Provisioning|Enabled
+|User Provisioning Type |SAML JIT with Apex handler
+|SAML JIT Handler |AEHPortalRegistrationHandler
 |Execute Handler As |Select a system administrator.
 |===
 ... Save your changes.

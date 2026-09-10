@@ -193,7 +193,7 @@ Move the portal's styling and customizations from the sandbox organization to th
 +
 [codeblock]
 ----
-sf auth web login --instance-url=https://<SANBOX-INSTANCE_URL> --alias sandboxOrg
+sf auth web login --instance-url=https://<SANDBOX-INSTANCE_URL> --alias sandboxOrg
 ----
 .. Edit the `manifest/package.xml` file before retrieving the metadata from the sandbox organization. 
 +

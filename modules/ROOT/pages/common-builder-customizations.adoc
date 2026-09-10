@@ -111,7 +111,7 @@ By default, Experience Cloud generates the URL for your portal domain. You can c
 . Click the *Check Availability* button to ensure the domain name does not exist already.
 . Enter a domain suffix in the *Domain Suffix* field, for example, *.<my.salesforce.com>.
 +
-The new domain URL displays in the *Your chosen new My Domain URl* field.
+The new domain URL displays in the *Your chosen new My Domain URL* field.
 . Click *Save*.
 
 == Configure Feed Component

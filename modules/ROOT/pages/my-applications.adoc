@@ -41,7 +41,7 @@ Displays the date and time when the application credentials were last modified, 
 * Client Credentials
 +
 Displays the application’s client ID and client secret.
-* OAuth 2.0 Redirects URIs
+* OAuth 2.0 Redirect URIs
 +
 Lists the application’s redirect URIs.
 * OAuth 2.0 Grant Type
@@ -81,7 +81,7 @@ You can edit a client application name, description, OAuth 2.0 grant type, OAuth
 
 === View and Copy the Instance URL
 
-To view the instance URL for a service by clicking *View URL* and copy it by clicking the *Copy from clipboard* icon.
+To view the instance URL for a service by clicking *View URL* and copy it by clicking the *Copy to clipboard* icon.
 
 === Add an SLA Tier
 SLA tiers are defined in API Manager and display as SLA Tier options in the Application Details page. If an application does not have an SLA tier listed, you can request to add an SLA tier. The instance owner must approve the tier.

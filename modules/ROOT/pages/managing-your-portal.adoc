@@ -22,7 +22,7 @@ xref:viewing-salesforce-account-information.adoc[View information about your por
 Manage separate deployment environments for your portal. You can connect to multiple Salesforce sandbox organizations and switch between them.
 
 == Viewing Issues on Catalog Management Pages
-API Experience Hub provides diagnostics checks that run in the background to identify issues with the portal and attempt to fix them automatically or provide troubleshooting options. Checks are triggered when loading or refreshing a page and performing an action on the UI. These checks help administrators identify error states and troubleshoot issues. 
+API Experience Hub provides diagnostic checks that run in the background to identify issues with the portal and attempt to fix them automatically or provide troubleshooting options. Checks are triggered when loading or refreshing a page and performing an action on the UI. These checks help administrators identify error states and troubleshoot issues. 
 
 When issues are detected on Catalog management pages, a message displays in the banner of the page. The message indicates that there are some detected issues that the system is trying to fix.
 

@@ -14,21 +14,21 @@ Access Management configures identity management for SSO for Anypoint Platform. 
 == Configuring SSO
 The high-level steps for setting up SSO for your portal vary depending on your use case.  
 
-* xref:configuring-sso.adoc#step-1-enable-sso-for-your-portal[Step 1: Enable SSO for Your Portal]
+* xref:configuring-sso.adoc#step-1-enable-sso-for-your-portal[]
 +
 In this step, you create and configure an application in the identity provider. 
 +
 You can configure an identity provider for Anypoint Platform and Salesforce can be configured using OpenID Connect or SAML (Single Sign-on Settings). Microsoft Azure OpenID Connect isn't supported.
 
-* xref:configuring-sso#step-2-add-salesforce-identity-providers[Step 2: Add Salesforce Identity Providers]
+* xref:configuring-sso#step-2-add-salesforce-identity-providers[]
 +
 In this step, you add and enable the Salesforce identity provider from API Experience Hub UI. Once the identity provider is enabled, users can see the login option from the portal’s login page.
 
-* xref:configuring-sso.adoc#add-group-mapping[Step 3: Add Group Mappings]
+* xref:configuring-sso.adoc#add-group-mapping[]
 +
 In this step, you map the groups created in the Salesforce identity provider that you added to the corresponding team profile for the portal.
 
-* xref:configuring-sso.adoc#test-sso[Step 4: Test the SSO Configuration]
+* xref:configuring-sso.adoc#test-sso[]
 +
 In this step, you test the SSO configuration that you just set up for the portal.
 
@@ -93,7 +93,7 @@ Single sign-on (SSO) is an authentication method that enables users to access mu
 
 == See Also
 
-* xref:user-roles-permissions-and-profiles.adoc#user-roles-for-configuring-sso[User Roles for Configuring SSO]
+* xref:user-roles-permissions-and-profiles.adoc#user-roles-for-configuring-sso[]
 * xref:gathering-set-up-information.adoc[]
 * xref:configuring-sso.adoc[]
 * xref:troubleshoot-sso-errors.adoc[]
