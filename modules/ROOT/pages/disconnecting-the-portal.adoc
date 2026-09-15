@@ -24,7 +24,7 @@ These artifacts are permanently removed from API Experience Hub:
 Before you disconnect, record the following information so you can restore your portal configuration after reconnecting:
 
 . Record your published services and visibility settings.
-.. From the *Catalog management* page, select the *Services in the portal* tab.
+.. From the *Catalog management* page, click the *Services in the portal* tab.
 .. Record a list of all services in the portal.
 +
 You must republish these services under the new connection.

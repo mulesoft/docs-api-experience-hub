@@ -30,7 +30,7 @@ To complete the connection process, allow API Experience Hub to access the follo
 * Perform requests at any time
 
 == Admin Teams 
-An API Experience Hub Admin team and an API Experience Hub Portal Admin team are created during the connecting and linking process. Once your Salesforce organization is successfully connected to your Anypoint Platform organization, the AEH Admin team is created. After the Salesforce linking process is complete, any user, who is assigned the AEH Admin, is automatically added to the AEH Admin team. 
+An API Experience Hub Admin team and an API Experience Hub Portal Admin team are created during the connecting and linking process. Once your Salesforce organization is successfully connected to your Anypoint Platform organization, the AEH Admin team is created. After the Salesforce linking process is complete, any user who is assigned the AEH Admin role is automatically added to the AEH Admin team. 
 
 After your styling changes for the portal are saved, the AEH Portal Admin team is created. Although the API Experience Hub Portal Administrator team is visible in Access Management, this permission isn't supported in this release.
 

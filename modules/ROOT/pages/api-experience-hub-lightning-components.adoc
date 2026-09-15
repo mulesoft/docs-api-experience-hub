@@ -8,13 +8,13 @@ You can design the pages of your API Experience Hub portal by adding and configu
 
 These Lightning components include both the Lightning components available in all Salesforce Digital Experiences and the API Experience Hub Lightning components available only in API Experience Hub.
 
-Each API Experience Hub Lightning component has different configuration options and adds different functionality to the portal. API Experience Hub supports custom components for English only.
+Each API Experience Hub Lightning component has different configuration options and adds different functionality to the portal. API Experience Hub supports custom components in English only.
 
 To add API Experience Hub components:
 
 . Click the *Components* lightning bolt icon to display the component palette. 
 . Drag any component from the component palette to the current page. 
-. Select the component on the page to show the component’s configuration options. 
+. Click the component on the page to show the component’s configuration options. 
 . Edit the values by entering or selecting values in the component property fields. 
 
 To delete a component, click the delete icon and click *Delete* in the dialog.
@@ -56,7 +56,7 @@ Shows the API version from Exchange when only one version is visible.
 Shows the API version lifecycle state.
 
 * Asset Documentation Viewer
-
++
 The API Documentation Viewer component shows an API’s documentation from Anypoint Exchange. The documentation can have multiple pages, and each page can have multiple sections.
 
 == Assets Carousel
@@ -71,7 +71,6 @@ Title of the carousel.
 * Subtitle
 +
 A subtitle that displays after the title of the carousel.
-
 * Cards to display
 +
 The number of API cards to display in the carousel. The carousel can display a minimum of three cards and a maximum of fifteen cards. If the number of cards to display is five and the portal has only three APIs, then the carousel displays three cards instead of five.
@@ -123,7 +122,7 @@ Enter the properties to show in the component:
 
 == Search Box
 
-The API Experience Hub Search Box component enables users to search for both content that exists in Salesforce Experience Cloud (such as knowledge articles, support cases, and announcements) and content that exists in Anypoint Platform (such as APIs and client applications). Knowledge article, support cases, and announcements are currently not available.
+The API Experience Hub Search Box component enables users to search for both content that exists in Salesforce Experience Cloud (such as knowledge articles, support cases, and announcements) and content that exists in Anypoint Platform (such as APIs and client applications). Knowledge articles, support cases, and announcements are currently not available.
 
 == Search Results
 
@@ -131,5 +130,5 @@ The API Experience Hub Search Results component shows results after a user enter
 
 == See Also
 
-* https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder]
-* https://docs.mulesoft.com/exchange/[Anypoint Exchange]
+* https://help.salesforce.com/s/articleView?id=sf.community_designer_overview.htm&type=5[Experience Builder^]
+* https://docs.mulesoft.com/exchange/[]

@@ -86,7 +86,7 @@ You set up the auth provider or SSO settings in Salesforce with the identity pro
 |*Consumer Secret*|Enter the client secret from the identity provider.
 |*Authorize Endpoint URL*| Enter `https://{domainofOktaorg}.okta.com/oauth2/v1/authorize*`.
 |*Token Endpoint URL* |Enter `https://{domainofOktaorg}.okta.com/oauth2/v1/token`.
-|*User Info Endpoint URL*|Enter `https://{domainofOktaorg}.okta.com/oauth2/v1/userinfo``.
+|*User Info Endpoint URL*|Enter `https://{domainofOktaorg}.okta.com/oauth2/v1/userinfo`.
 |*Default Scopes*  |*profile openid email groups* 
 |*Registration handler*  |*AEHPortalRegistrationHandler* 
 |*Execute Registration As*  |Select an administrator user. 
@@ -193,8 +193,8 @@ Create a new application for the API Experience Hub portal in the identity provi
 |===
 +
 image::aeh-sso-saml-settings.png["An example of SAML Settings",width=90%]
-. Review the xref:gathering-set-up-information.adoc#required-claims-and-attributes-for-sso[Required Claims and Attributes]for information about what API Experience Hub expects for claims to properly map users in the identity provider.
-. In the *Attribute Statements (optional)* section, configure the SAML integration by adding these custom attributes. For supported formats, see the supported format for user attributes listed in xref:gathering-set-up-information.adoc#required-claims-and-attributes-for-sso[Required Claims and Attributes]:
+. Review the xref:gathering-set-up-information.adoc#required-claims-and-attributes-for-sso[]for information about what API Experience Hub expects for claims to properly map users in the identity provider.
+. In the *Attribute Statements (optional)* section, configure the SAML integration by adding these custom attributes. For supported formats, see the supported format for user attributes listed in xref:gathering-set-up-information.adoc#required-claims-and-attributes-for-sso[]:
 +
 [%header,cols="1a,2a,3a"]
 |===
@@ -261,7 +261,7 @@ Create a new application for the API Experience Hub portal in the identity provi
 
 . In Azure, create a SAML Enterprise application:
 .. Go to the Azure administration portal or enter `https://portal.azure.com` in a browser. 
-.. Go to Microsoft Entra Id (Active Directory service), click *+ Add*, and select *Enterprise application*.
+.. Go to Microsoft Entra ID (Active Directory service), click *Add*, and select *Enterprise application*.
 .. In *Browse Microsoft Entra Gallery*, select the *Salesforce* application.
 .. Enter a name like *AEH Portal* and click *Create*.
 . Configure the single sign-on settings for the application:

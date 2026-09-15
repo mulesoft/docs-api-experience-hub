@@ -11,7 +11,7 @@ For existing portals, you must add the Feed and Feed Publisher components manual
 
 . In Salesforce, click *Setup*.
 . In the *Quick Find* box, enter *feed tracking* and click *Feed Tracking*.
-. Select *Community Asset* and *Enable Feed Tracking*.
+. Click *Community Asset* and *Enable Feed Tracking*.
 . Click *Save*.
 
 == Add Feed Components For Existing Portals
@@ -29,4 +29,3 @@ To add Feed components for existing portals:
 == See Also
 * xref:common-builder-customizations.adoc#configure-feed-component[]
 * xref:common-builder-customizations.adoc#configure-feed-publisher-component[]
-

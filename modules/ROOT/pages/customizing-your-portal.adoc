@@ -16,10 +16,10 @@ Click *Preview* to view your changes and to see the portal experience for your d
 Click *Home* to view the Carousel with all of the added services. Click *Services* to view the Catalog, search and filter services, and select a service to get more details from the service details page. The service details page displays metadata in the upper section and the API overview and specification in the lower section. Publish any updates by clicking *Publish*.
 
 == See Also
-* xref:look-and-feel-customization.adoc[Customizing the Portal Look-and-Feel]
-* xref:api-experience-hub-lightning-components.adoc[API Experience Hub Lightning Components]
-* xref:common-builder-customizations.adoc[Using the Builder for Common Customizations]
-* xref:advanced-styling-with-css.adoc[Advanced Styling with CSS]
-* xref:previewing-and-publishing-your-portal.adoc[Previewing and Publishing Your Portal]
+* xref:look-and-feel-customization.adoc[]
+* xref:api-experience-hub-lightning-components.adoc[]
+* xref:common-builder-customizations.adoc[]
+* xref:advanced-styling-with-css.adoc[]
+* xref:previewing-and-publishing-your-portal.adoc[]
 
 
