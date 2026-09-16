@@ -31,7 +31,7 @@ Identifies popular endpoints and monitors usage trends to optimize API design an
 == Configure Google Analytics
 To configure Google Analytics to send events from the portal:
 
-. Set up a Google Analytics property using the instructions in the https://support.google.com/analytics/answer/1008080?hl=en&visit_id=638531259961972871-3450454930&rd=1#zippy=%2Cin-this-article[Set up the Analytics Google tag^] topic from the Google documentation.
+. Set up a Google Analytics property using the instructions in the https://support.google.com/analytics/answer/1008080?hl=en&visit_id=638531259961972871-3450454930&rd=1#zippy=%2Cin-this-article[Set up the Analytics Google tag^] topic in the Google documentation.
 . Navigate to the Builder.
 . Click *Settings* > *Security & Privacy*.
 . In the *Content Security Policy (CSP)* section, Click *Relaxed CSP: Permit Access to Inline Scripts and Allowed Hosts*.
