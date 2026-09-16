@@ -191,7 +191,7 @@ It shows pages from an asset. These pages are requested from Exchange.
 |`.asset-documentation-viewer-spinner-container`
  
 `.asset-documentation-viewer-spinner`	
-|Spinner that is executed while documentation request information since asset detail header.
+|Spinner that's executed while the documentation request gets information since the last time listed in the asset detail header.
 |`.asset-documentation-viewer-pages-container`	
 |Container for asset documentation viewer pages container. This container can be used with or without the navigation bar.
 |`.asset-documentation-viewer-pages-tabs`
