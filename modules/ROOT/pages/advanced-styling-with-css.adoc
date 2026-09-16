@@ -187,7 +187,7 @@ It shows pages from an asset. These pages are requested from Exchange.
 |`.asset-documentation-viewer-container`
 |Principal container for the asset documentation viewer.
 |`.asset-documentation-viewer-spinner-container`
-|Spinner container that is executed while documentation request information since asset detail header.
+|Spinner container that's executed while the documentation request gets information since the last time listed in the asset detail header.
 |`.asset-documentation-viewer-spinner-container`
  
 `.asset-documentation-viewer-spinner`	
