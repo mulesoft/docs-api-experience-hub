@@ -1,9 +1,9 @@
-= Deactivating Your Portal 
+= Deactivating Your Portal
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 
-You can make your published portal inaccessible to users by deactivating the portal site. The portal is still considered active but it can't be accessed publicly. You can continue to make changes using the Builder and republish the site later for users to access.
+You can make your published portal inaccessible to users by deactivating the portal site. The portal is still considered active, but it can't be accessed publicly. You can continue to make changes using the Builder and republish the site later for users to access.
 
 To deactivate your portal site, follow these steps:
 
@@ -15,7 +15,7 @@ To deactivate your portal site, follow these steps:
 +
 Your site is inactive and offline.
 
-To active your site, follow steps 1 to 4, then click *Active*.
+To active your site, follow steps 1 to 4, then click *Activate*.
 
 == See Also
 

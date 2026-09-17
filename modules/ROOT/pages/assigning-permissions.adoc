@@ -11,7 +11,7 @@ The Salesforce platform uses the System Administrator profile, which includes pe
 
 == Before You Begin
 
-* You must be an Organization Administrator or an existing API Experience Hub Administrator
+* You must be an Organization Administrator or an existing API Experience Hub Administrator.
 * Consider the permission strategy for users in the Anypoint organization and Salesforce organization. See xref:user-roles-permissions-and-profiles.adoc[] for more information.
 * The Salesforce user who is assigned the AEH_Anypoint permission set must have the Salesforce license and the Standard User profile.
 
@@ -20,7 +20,7 @@ The Organization Administration and API Experience Hub Administrator can perform
 
 To add APIs to the portal, administrators must have Exchange Viewer permissions for those APIs.
 
-When APIs are added to the portal, all administrators are assigned automatically the Exchange Viewer permission for the APIs added in the portal. 
+When APIs are added to the portal, all administrators are automatically assigned the Exchange Viewer permission for the APIs added in the portal. 
 
 To grant the permissions to an administrator:
 
@@ -30,7 +30,7 @@ To grant the permissions to an administrator:
 . Select *Permissions* and click *Add permissions*.
 . In the *Select permissions to add for this user* search box, enter *API Experience Hub Admin* and select the checkbox.
 . Enter *Exchange viewer* in the search box and select the checkbox, and then click *Next*.
-. Select the *Mulesoft* checkbox, and then click *Next*.
+. Select the *MuleSoft* checkbox, and then click *Next*.
 . Click *Add Permissions*.
 
 //=== Grant the API Experience Hub Portal Administrator Permission 
@@ -63,7 +63,7 @@ Perform the following steps to manually create the permission set, add the neces
 . Add the necessary permissions to the permission set:
 .. In the *Systems* section, click *System Permissions*.
 .. Click *Edit*.
-.. In the *System* section, enable the following _required_ permissions:
+.. In the *Systems* section, enable the following _required_ permissions:
 +
 .Required permissions
 [%collapsible]
@@ -436,7 +436,7 @@ sf project deploy start --source-dir path/to/permissionset/ -o orgAlias
 .. Locate *AEH_Anypoint* in the list.
 
 == Assign API Experience Hub Users Approver Permission
-Assign the API Experience Hub User Approver permission to enable a user to approve or reject pending registration requests and enable or disable member users only.  
+Assign the API Experience Hub Users Approver permission to enable a user to approve or reject pending registration requests and enable or disable member users only.  
 
 This permission grants access to the following *User Management* pages in *Manage your API portal*:
 

@@ -6,14 +6,14 @@ endif::[]
 
 API Experience Hub offers advanced styling functionality with editable community site Cascading Style Sheets (CSS) for API Experience Hub common components.
 
-The following sections summarize the available options. For detailed information, refer to https://developer.salesforce.com/docs/atlas.en-us.communities_dev.meta/communities_dev/communities_dev_customize_css.htm[Override Template Elements with Custom CSS, role=external, window=blank] in the Experience Cloud Developer Guide.
+The following sections summarize the available options. For detailed information, refer to https://developer.salesforce.com/docs/atlas.en-us.communities_dev.meta/communities_dev/communities_dev_customize_css.htm[Override Template Elements with Custom CSS^] in the Experience Cloud Developer Guide.
 
 == Edit the CSS
 
 . In the *Builder*, click the paintbrush icon to open the *Theme* menu.
-. Select the drop-down arrow of the menu and select *Edit CSS*.
+. Click the drop-down arrow of the menu and click *Edit CSS*.
 . Edit the CSS file in the *Edit CSS* dialog box.
-. When you're finished with your changes, select *Save*.
+. When you're finished with your changes, click *Save*.
 
 == Example
 
@@ -80,7 +80,7 @@ This component is on the home page. The API Carousel shows the API cards as a ca
 |===
 
 === API Catalog
-This component shows all the assets in the site. Users can search assets and filter by asset type.
+This component shows all the assets in the site. You can search assets and filter by asset type.
 
 |===
 |Class |Description
@@ -122,7 +122,7 @@ This component shows the application information: name, description, application
 |`.application-details-card-content`	
 |Card content.
 |`.application-details-card-content-data .label`	
-|Client credentials card: Client Id and Client Secret labels.
+|Client credentials card: Client ID and Client Secret labels.
 |`.application-details-card-content-data .value`	
 |Client credentials card: Client ID and Client Secret values.
 |`.application-details-card-uri`	
@@ -174,26 +174,24 @@ This component shows the application created by the user. Applications can be fi
 |Client ID and client secret label.
 |`.applications-listing-table-row-credentials `
 
-.crendetials-tooltip-code	
+`.credentials-tooltip-code`	
 |Application client ID and secret code.
 |===
 
 === Asset Documentation Viewer (API Overview)
 (Public component) This component is in the API detail page.
-It shows pages from an asset. This pages are requested from Exchange.
+It shows pages from an asset. These pages are requested from Exchange.
 
 |===
 |Class |Description
 |`.asset-documentation-viewer-container`
 |Principal container for the asset documentation viewer.
-|`asset-documentation-viewer-spinner-container`
-|Spinner container that is executed while documentation 
-request information since asset detail header.
+|`.asset-documentation-viewer-spinner-container`
+|Spinner container that's executed while the documentation request gets information since the last time listed in the asset detail header.
 |`.asset-documentation-viewer-spinner-container`
  
 `.asset-documentation-viewer-spinner`	
-|Spinner that is executed while documentation request 
-information since asset detail header.
+|Spinner that's executed while the documentation request gets information since the last time listed in the asset detail header.
 |`.asset-documentation-viewer-pages-container`	
 |Container for asset documentation viewer pages container. This container can be used with or without the navigation bar.
 |`.asset-documentation-viewer-pages-tabs`
@@ -215,11 +213,11 @@ View c-base-error.
 |===
 
 === Asset Detail Header
-(Public component) This component is on API detail page. It shows basic information about an asset (logo, name, asset type, information contact, combo box version, status, instances, clients, spec download, and request access button)
+(Public component) This component is on the API detail page. It shows basic information about an asset (logo, name, asset type, information contact, combo box version, status, instances, clients, spec download, and request access button)
 
 |===
 |Class |Description
-|`asset-detail-header-container`
+|`.asset-detail-header-container`
 |Principal container for asset detail header.
 |`.asset-detail-header-spinner-container`	
 |Spinner container that is executed when page is loaded.
@@ -302,7 +300,7 @@ soap-api
 |Number of contracts for an asset.
 |`.asset-detail-header-index-content-version-element-detail`
 
-`.asset-detail-header-index-content-version-select-container``	
+`.asset-detail-header-index-content-version-select-container`	
 |Container to select a version for an asset.
 
 View c-base-title-selector
@@ -322,7 +320,7 @@ View c-base-title-selector
 |`.base-error-sub-text`
 |Subtitle for an error or empty state message.
 |`.base-error-request-id`
-|In some errors, it shows request ID.
+|In some errors, it shows the request ID.
 |`.base-error-try-again`
 |In some errors, it shows a button to execute the failed action again.
 |===
@@ -368,4 +366,4 @@ View c-base-title-selector
 
 == See Also
 
-* xref:previewing-and-publishing-your-portal.adoc[Previewing and Publishing Your Portal]
+* xref:previewing-and-publishing-your-portal.adoc[]
