@@ -134,7 +134,7 @@ To resolve this issue, change the user who runs the handler before you change th
 . Open your SSO configuration and click *Edit*.
 . Change the user:
 +
-* For an authentication provider, change *Execute Registration As*.
+* For an authentication provider, select *Execute Registration As*.
 * For SAML with just-in-time provisioning, select *Execute Handler As*.
 +
 Select another administrator, or a user who has the AEH_Anypoint permission set. For more information, see xref:configuring-sso.adoc[].
