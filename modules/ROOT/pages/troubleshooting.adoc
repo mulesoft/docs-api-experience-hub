@@ -115,6 +115,58 @@ The linking process fails when the user who executes the linking process has the
 
 To resolve this issue, add the organization administrator permission to the user who is executing the Salesforce linking in the business group.
 
+== SSO Sign-In Fails or Connection Error Appears After Removing Salesforce Administrator Permissions
+
+After you remove administrator permissions from a Salesforce user or change that user's role, one or both of these symptoms occur:
+
+* Users can't sign in to the portal using SSO.
+* In Anypoint Platform, API Experience Hub displays the *Unable to connect to registered Salesforce org* error, and API Experience Hub administrators can't curate assets or approve prospects.
+
+Two separate API Experience Hub dependencies on a Salesforce user cause these symptoms. The same user can be both, so before you change a user's permissions, check whether the user is either of the following.
+
+=== User Who Runs the Registration Handler
+
+Salesforce runs the `AEHPortalRegistrationHandler` as a specific user when someone signs in using SSO. If you remove permissions from that user, SSO sign-in fails for everyone.
+
+To resolve this issue, change the user who runs the handler before you change the original user's permissions:
+
+. From Salesforce, go to *Setup*, enter *Auth. Providers* or *Single Sign-On Settings* in the *Quick Find* box, and click the option you use for SSO.
+. Open your SSO configuration and click *Edit*.
+. Change the user:
++
+* For an authentication provider, select *Execute Registration As*.
+* For SAML with just-in-time provisioning, select *Execute Handler As*.
++
+Select another administrator, or a user who has the AEH_Anypoint permission set. For more information, see xref:configuring-sso.adoc[].
+. Click *Save*.
+
+=== User Who Created the Connection
+
+When you connect API Experience Hub to Salesforce, API Experience Hub stores the username of the user who created the connection. When API Experience Hub in Anypoint Platform needs information from Salesforce, it gets a token for that user through the `Anypoint_AEH` connected app. If that user loses the required permissions, the connection in Anypoint Platform breaks.
+
+To resolve this issue, delete the connected app and reconnect. Perform these steps only if the user whose permissions are changing created the connection or the portal.
+
+NOTE: While the connection is broken, API Experience Hub administrators can't curate assets or approve prospects. API Experience Hub keeps published assets, and portal users aren't affected.
+
+. From Salesforce, go to *Setup* > *App Manager*.
+. Find the *Anypoint_AEH* connected app. From the dropdown menu, click *View*, and then click *Delete*.
+. Wait at least 10 minutes to avoid cache issues.
++
+If you were already logged in to Anypoint Platform when you deleted the connected app, log out before you continue.
+. Log in to Anypoint Platform and open API Experience Hub.
++
+The *Unable to connect to registered Salesforce org* error appears.
+. Click *Reconnect*, and then click *Connect*.
+. Log in to Salesforce and authorize the connection.
++
+Use a dedicated service account that has the required privileges, so that future role changes for individual users don't affect the connection.
++
+Salesforce redirects you back to Anypoint Platform, and the reconnection completes.
+
+IMPORTANT: Don't disconnect the portal to resolve this issue. Disconnecting permanently removes published assets, user groups, and prospects, and deletes the connected apps in Salesforce and Anypoint Platform. Follow the steps in this section to reconnect without losing this information. For more information about disconnecting, see xref:disconnecting-the-portal.adoc[].
+
+NOTE: The error can also occur if you refresh or delete the Salesforce organization. In that case, you must disconnect and reconnect the portal. For more information, see xref:disconnecting-the-portal.adoc[].
+
 == Not Receiving Emails from Salesforce Experience Cloud
 If you're not receiving emails from Salesforce Experience Cloud, disable the standard configuration by following these steps:
 
