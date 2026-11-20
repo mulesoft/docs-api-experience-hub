@@ -186,8 +186,6 @@ After you register, Salesforce returns you to Experience Builder.
 
 NOTE: If you click *Start Over* on the *Create a Passkey* page, Salesforce redirects you to the Salesforce login page instead of Experience Builder. Return to the *Manage your portal* page and click *Preview and publish your portal* to try again.
 
-// TODO W-24967149: add links to the Salesforce Help articles "Enable MFA for Direct Logins" and "Verification Method Selection During MFA Registration" once URLs are confirmed.
-
 == Not Receiving Emails from Salesforce Experience Cloud
 If you're not receiving emails from Salesforce Experience Cloud, disable the standard configuration by following these steps:
 
