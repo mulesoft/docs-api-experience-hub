@@ -169,13 +169,17 @@ NOTE: The error can also occur if you refresh or delete the Salesforce organizat
 
 == Identity Verification Prompt When Previewing and Publishing
 
-When you click *Preview and publish your portal*, Salesforce can ask you to verify your identity before it opens Experience Builder. Salesforce applies multi-factor authentication (MFA) requirements, not API Experience Hub. The prompt doesn’t appear on every attempt, and Builder often opens without any prompt.
+When you click Preview and publish your portal, Salesforce multi-factor authentication (MFA) requirements apply before Experience Builder opens. The identity verification prompt doesn’t appear on every attempt, and Builder often opens without any prompt.
 
 If Salesforce displays the *Create a Passkey* page, register a verification method:
 
 . On the *Create a Passkey* page, click *Choose Another Verification Method*.
 +
-Salesforce lists the available methods: *Passkey* (recommended), *Salesforce Authenticator*, and *One-Time Password App*.
+Salesforce lists these verification methods:
++
+* *Passkey* (recommended)
+* *Salesforce Authenticator*
+* *One-Time Password App*
 . Click a method and follow the on-screen instructions. For example, to use an authenticator app:
 .. Click *One-Time Password App*.
 .. In your authenticator app, scan the QR code that Salesforce displays.
