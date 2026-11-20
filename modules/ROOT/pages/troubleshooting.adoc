@@ -167,6 +167,27 @@ IMPORTANT: Don't disconnect the portal to resolve this issue. Disconnecting perm
 
 NOTE: The error can also occur if you refresh or delete the Salesforce organization. In that case, you must disconnect and reconnect the portal. For more information, see xref:disconnecting-the-portal.adoc[].
 
+== Identity Verification Prompt When Previewing and Publishing
+
+When you click *Preview and publish your portal*, Salesforce can ask you to verify your identity before it opens Experience Builder. Salesforce applies multi-factor authentication (MFA) requirements, not API Experience Hub. The prompt doesn’t appear on every attempt, and Builder often opens without any prompt.
+
+If Salesforce displays the *Create a Passkey* page, register a verification method:
+
+. On the *Create a Passkey* page, click *Choose Another Verification Method*.
++
+Salesforce lists the available methods: *Passkey* (recommended), *Salesforce Authenticator*, and *One-Time Password App*.
+. Click a method and follow the on-screen instructions. For example, to use an authenticator app:
+.. Click *One-Time Password App*.
+.. In your authenticator app, scan the QR code that Salesforce displays.
+.. Enter the verification code that the app generates, and then click *Connect*.
++
+After you register, Salesforce returns you to Experience Builder.
+. If Builder doesn’t open, return to the *Manage your portal* page and click *Preview and publish your portal* again.
+
+NOTE: If you click *Start Over* on the *Create a Passkey* page, Salesforce redirects you to the Salesforce login page instead of Experience Builder. Return to the *Manage your portal* page and click *Preview and publish your portal* to try again.
+
+// TODO W-24967149: add links to the Salesforce Help articles "Enable MFA for Direct Logins" and "Verification Method Selection During MFA Registration" once URLs are confirmed.
+
 == Not Receiving Emails from Salesforce Experience Cloud
 If you're not receiving emails from Salesforce Experience Cloud, disable the standard configuration by following these steps:
 

@@ -8,6 +8,8 @@ After managing and curating your portal, you can preview your changes in the Bui
 To preview and publish the portal, follow these steps:
 
 . From the *Manage your portal* page, click *Preview and publish your portal*.
++
+Salesforce might prompt you to verify your identity before Experience Builder opens. For more information, see xref:troubleshooting.adoc#identity-verification-prompt-when-previewing-and-publishing[Identity Verification Prompt When Previewing and Publishing].
 . Review your changes and click *Publish*.
 +
 You receive an email confirmation when your changes are live. The email contains the URL link to the published site.
