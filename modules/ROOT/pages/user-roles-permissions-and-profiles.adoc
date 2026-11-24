@@ -38,6 +38,7 @@ a|
 * Assign the visibility of an instance
 * Manage users
 * Use Experience Builder to customize portal
+* Manage the Collection in each business group where you have the role
 |API Experience Hub Administrator|The admin inherits all of the Organization Administrator permissions necessary to create your portal. 
 a|
 * Perform the Salesforce linking process
@@ -46,12 +47,15 @@ a|
 * Assign the visibility of an instance
 * Create a new connection to Salesforce and new portals
 * Manage users
-* Use Experience Builder to customize portal |
+* Use Experience Builder to customize portal
+* Manage the Collection in each business group where you have the role |
 API Experience Hub Portal Administrator| Currently, can manage only one API portal in the organization 
 a|
 * Add and remove specific services from the portal
 * Assign the visibility of an instance
 |===
+
+To manage a Collection end to end, you must also have the permissions listed in xref:agent-fabric::collections-get-started.adoc[].
 
 === Exchange Permissions
 All administrators must have the Exchange Viewer permission to import services into the portal.
